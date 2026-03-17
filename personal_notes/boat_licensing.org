@@ -1,0 +1,1075 @@
+#+TITLE: Boat Licensing
+
+* Chapter 1: Boats
+
+- Body of boat: hull
+- Upper edges of hull - gunwales - provide extra rigidity
+- Cross section of stern - transom - motor attachment point
+- Boat has cleats along outer edge where a rope can be attached to secure the boat to the dock
+- Navigation lights
+  - Red/green side lights
+  - White all around light (for powerboats)
+- Hull terms
+  - Beam - width of the hull at its widest point
+  - Bilge - compartment at the lowest point of the boat's hull
+  - Keel - the lowest part of the boat's hull
+  - Draft - vertical distance between waterline and keel - defines the minimum depth of water the boat will float in
+  - Freeboard - vertical distance from waterline to gunwale
+- Hull types
+  - Larger, slower-moving boats have displacement hulls, which push water aside as the boat moves
+  - Smaller, faster boats have planing hulls which skim on top of the water at high speeds
+  - Flat-bottomed hulls form stable platforms in calm water - good for fishing
+  - Round-bottom hulls are typically displacement hulls and are designed to move through the water with little effort
+    - Canoes
+    - Require care to load and unload because they're less stable
+  - V-shaped hulls are planing hulls, commonly found on powerboats
+    - Require more power to move through the water
+    - Provide a smoother ride
+  - Catamarans and pontoon boats are examples of multi-hulled vessels
+    - Very stable
+    - Require more room to steer
+- Engine types
+  - Outboard engine
+    - Mounted on transom
+    - Steers the boat as well as powers it forward
+  - Inboard engine
+    - Located inside the boat
+    - Powers the boat while steering is done with rudders
+  - Stern-drive
+    - Also called inboard/outboard engines as they share aspects of both
+    - Use an inboard engine to power a movable drive unit which can be used to steer the boat and push it forwards
+- To measure the length of a boat, measure along the center line from the outside of the bow to the outside of the stern
+- Boat clases
+  - Class A: Less than 16 ft
+  - Class 1: 16 ft to less than 26 ft
+  - Class 2: 26 ft to less than 40 ft
+  - Class 3: 40 ft to less than 65 ft
+- Capacity
+  - Federal law mandates that all powerboats less than 20 ft long carry a capacity plate
+  - Capacity plate is typically affixed near the steering area (helm)
+  - Lists maximum # of passengers and maximum gross load (weight of people, stores and equipment)
+  - If the boat is powered by an outboard motor, the capacity plate will also list the maximum engine power that can be attached to the boat
+  - If the boat does not have a capacity plate, calculate capacity with the following formula: (=vessel length= x =vessel width=) / 15
+  - The maximum number of passengers is typically calculated by assuming an average weight of 150 pounds per person --- if all your passengers are over that, you'll have to reduce the passenger capacity accordingly
+  - Also remember to account for the weight of any equipment you may be taking on board
+  - If the capacity plate doesn't list maximum horsepower, it can be calculated with: =vessel length= x =width-of-transom=
+  - Then use the following table
+    | Boat Area        | Max HP |
+    |------------------+--------|
+    | 35 sq ft or less | 3 HP   |
+    | 36 - 39 sq ft    | 5.5 HP |
+    | 40 - 42 sq ft    | 7.5 HP |
+    | 43 - 45 sq ft    | 10 HP  |
+    | 46 - 52 sq ft    | 15 HP  |
+  - Overloading or overpowering a boat will cause it to sit too low at the stern making it prone to swamping
+  - When loading a boat, make sure the weight is evenly distributed
+  - Leave an extra safety margin in bad weather
+- Hull Identification Number
+  - Since 1972, all boats in the US have been marked with a Hull Identification Number
+  - Similar to Vehicle Identification Number for cars
+  - Usually located on the starboard side of the transom
+- All powerboats need to be registered with the state
+- Some larger recreational boats need to be registered with the Coast Guard
+
+* Chapter 2: Boating Equipment
+
+- Personal Flotation Devices (PFD)
+  - Also known as life jackets
+  - Type 1: Offshore life jacket
+    - Large and bulky
+    - Difficult to swim in
+    - Provides the most buoyancy
+      - Adult - 22 lbs buoyancy
+      - Child - 11 lbs buoyancy
+    - Appropriate for open or rough waters where rescue may be delayed
+    - Will turn unconscious people face up
+  - Type 2: Near-shore buoyant vest
+    - Appropriate for calm inland waters where rescue is near at hand
+    - May not turn some unconscious floaters face up
+    - Less bulky and easier to swim in
+    - Provides less buoyancy than type 1
+      - Adult - 15.5 lbs
+      - Child - 11 lbs
+      - Infant - 7 lbs
+  - Type 3: Floatation Aid
+    - Does not provide any orientation support - floaters must turn themselves face up
+    - Same buoyancy as type 2
+  - Type 4: Throwable device
+    - Life rings, floating cushions, etc
+    - Kept on the boat
+    - Designed to be thrown to someone who is in the water
+  - Type 5: Special use device
+    - Approved for specific activities such as wakeboarding, etc
+    - Some may provide additional protection against hypothermia, etc
+- PFD labels
+  - All approved PFDs in the US have a US Coast Guard label affixed to them
+  - Label indicates type and intended uses
+  - No label? Not approved!
+  - The Coast Guard requires there be at least one PFD for each person on the boat
+  - If the boat is longer than 16 ft, it needs at least one Type 4 throwable PFD
+  - PFD labels indicate a performance number that indicates how much flotation support the PFD provides
+    - Lower performance numbers are intended for near-shore activities, but are less bulky
+    - Higher performance numbers can be used offshore and in rough water
+- PFDs for children
+  - Children need to be taught how to properly wear PFDs
+  - Should be taught to always wear PFDs when going on or near water
+  - Teach them how to wear PFDs in water first, so they don't panic when they go in
+  - Life jackets for infants should have a crotch strap to ensure proper fit
+  - Make sure to verify the weight range for which the life jacket is approved
+- Federal PFD requirements for children
+  - Federal laws require that all children under the age of 13 wear a life jacket when on a moving boat
+  - The only exception to this rule is if the child is in a cabin below decks
+- Other PFD considerations
+  - PFDs are required even for people who are being towed (e.g. wakeboarders, waterskiiers)
+  - Inflatable PFDs are not approved for users under 16 years old
+- Fitting your PFD
+  - A PFD should provide a snug fit
+  - Test flotation by bringing your knees up to your chest in shallow water
+  - PFD should remain snug and on your chest
+- Wearing your PFD
+  - Ideally, you should wear your PFD whenever you're on or near deep water, not just on a boat
+  - Especially make sure to wear your PFD when there's rough weather or in areas with high boat traffic
+  - PFDs are also especially important at night or periods of low visibility
+  - Even if you don't have the PFD on you, make sure it's near at hand because conditions may change rapidly
+- Caring for your PFD
+  - Make sure there are no rips or tears in the outer covering
+  - Make sure all straps and buckles are functioning
+  - PFDs should be hand washed and air-dried out of direct sunlight
+  - Test the buoyancy of your PFD on a regular basis
+- Inflatable PFDs
+  - Come in Types 1, 2, 3, 5
+  - Need more care and maintenance than conventional PFDs
+  - Test them regularly by inflating them and verifying that they can maintain pressure overnight
+  - Check CO2 inflation cartridges
+- Fire extinguishers
+  - Your boat is required to have a fire extinguisher if it meets any of the following conditions
+    - Internal compartments where portable fuel tanks may be stored
+    - Double-bottom that is not sealed to the hull and not completely filled with floation materials
+    - Closed storage compartments that may hold flammable materials
+    - Closed living spaces
+    - Permanently installed fuel tanks
+    - Inboard engine
+  - Although it is not required by law to carry fire extinguishers on other types of boats, it is still highly recommended
+  - Non-rechargeable fire extinguishers greater than 12 years old should be replaced
+  - Vessels whose model year is 2018 or later are required to carry 5-B or 20-B extinguishers with a date stamp
+  - Vessels whose model year is between 1953 and 2017 are required to carry either
+    - Unexpired 5-B or 20-B extinguishers
+    - B-I or B-II extinguishers in good condition
+  - If the boat is
+    - Less than 26 feet in length: 1 5-B extinguisher
+    - 26 feet to less than 40 feet: 2 5-B extinguishers or 1 20-B extinguisher
+    - 40 feet to less than 65 feet: 3 5-B extinguishers or 1 20-B extinguisher and 1 5-B extinguisher
+    - Greater than 65 feet: check federal regulations
+  - If the boat has an inboard engine with an automatic firefighting system, one fewer 5-B extinguisher is required
+- Fire extinguisher classification
+  - Extinguishers are classified as A, B, or C depending on the type of fire they're intended to be used against
+  - A: Solid combustible materials, like wood or paper --- can be extinguished with water or Class A extinguisher
+  - B: Flammable liquid, like grease or fuel oil --- do not use water; use a Class B extinguisher
+  - C: Electrical fire --- use a class C extinguisher
+  - Extinguishers may come in multiple types --- an ABC extinguisher is most recommended
+- Extinguisher maintenance
+  - An extinguisher in good condition
+    - Is charged and has a pressure gauge or indicator showing that it is charged
+    - Has a pin lock that is firmly in place
+    - Does not show visible corrosion or damage
+    - Has a clean discharge nozzle
+  - Inspect fire extinguishers monthly as part of regular boat maintenance
+    - Check gauge to ensure the extinguisher is still charged
+    - Check seals
+    - Inspect hose
+    - For dry chemical extinguishers Weigh the extinguisher and ensure it meets the minimum weight requirements
+- Backfire flame arrestors
+  - Motorboats with inboard engines have been required to have backfire flame arrestors since the 1940s
+  - Purpose is to stop flames from engine backfires from coming into contact with fuel or other flammable materials
+  - Backfire flame arrestor should be cleaned and inspected monthly along with the fire extinguisher
+  - Check for holes or other damage
+  - Make sure it's tightly affixed to the carburetor
+- Ventilation system
+  - Gasoline powered boats are required to have a ventilation system in order to prevent the build-up of flammable fumes
+  - Natural ventilation system - pair of ducts that bring air into and out of the bilge when the boat is in motion
+  - Powered ventilation system - have blowers that can force air through the ducts
+  - Powered ventilation systems are required on all boats built after 1982 with installed fuel tanks or enclosed engines
+  - Need to run ventilation system for 4 minutes before starting engine
+- Navigation lights
+  - Having navigation lights is important to avoid collisions
+  - Whether your boat requires navigation lights depends on a number of factors
+    - Length
+    - Powered by engine
+    - Where you're boating (i.e. inland or offshore)
+    - Whether you're at anchor
+  - Lighting requirements may include red and green side lights as well as white lights
+  - Red and green side lights indicate the port and starboard side of the boat, respectively
+- Navigation lights for powered vessels
+  - Powered recreational vessels need the following navigation lights when operating between sunset and sunrise or in restricted visibility
+  - For powered boats less than 39.4 ft in length (12 m)
+    - 1 all-around white light visible across 360° at 2 miles distance
+    - 1 pair of red and green side lights visible across 112° at 1 mile distance
+    - White light needs to be positioned at least 39 inches above side lights
+  - Boats greater than 39.4 feet but less than 65.6 ft (20 m) need the following lights
+    - Masthead light --- white light at front of boat, visible across 225° at 2 miles distance
+    - Stern light --- white light at rear of boat, visible across 135° at 2 miles distance
+    - One pair of red and green sidelights visible across 112° at 1 mile distance
+    - Masthead light must be positioned at least 8 feet above the gunwale
+- Navigation lights for unpowered vessels
+  - Sailboats over 23 feet (7 m) in length require the following lights when operating between sunset and sunrise or in restricted visibility
+    - White stern light visible across 135° at 2 miles distance
+    - A pair of red and green sidelights that are visible across 112° at 1 mile distance
+    - Alternatively, tricolor lanterns are available
+      - Can be mounted on top of the mast
+      - Combine side lights and stern light into a single unit
+  - Sailboats under 23 feet (7 m) in length as well as rowboats, canoes, etc are only required to display a white light, such as a flashlight or a lantern, in order to allow other boats to see you
+- Navigation lights at anchor
+  - When at anchor, boats are required to display their all-around white lights
+- Visual Distress Signals (VDS)
+  - A Visual Distress Signal is a signal that you can use to help others quickly locate your boat in case of emergency
+  - Illegal to use them when there is not an emergency
+  - Required for all boats operating in US Coastal Waters or the Great Lakes or any waters connected to those up to a point where those waters are less than 2 miles wide
+  - Required when operating in international waters
+  - During daytime hours, the following are not required to carry visual distress signals
+    - Boats less than 16 ft in length
+    - Boats participating in organized events, such as regattas
+    - Open sailboats less than 26 ft long and not equipped with an engine
+    - Manually propelled boats (e.g. rowboats, canoes)
+  - The above are only required to carry visual distress signals when operating at night
+- Types of distress signal
+  - Anytime use
+    - Marine radio
+      - 21-82 KHz marine frequencies
+      - 156.8 MHz VHF (Channel 16)
+      - DSC Alert (Channel 70)
+    - Sound signaling device
+      - Continuous sound from air horn, fog horn, etc
+      - Explosive signal fired at 1-minute intervals
+    - Red flares or orange smoke
+    - EPIRB alarms
+    - SOS signaled with a flashlight or lantern
+  - Daytime use
+    - Distress cloth/flags
+    - Orange dye
+    - Arm signals
+  - Nighttime use --- Pyrotechnic flares
+- Non-pyrotechnic distress signals must carry Coast Guard certification
+- Pyrotechnic distress signals - storage and handling
+  - Store pyrotechnic distress signals in a cool, dark location
+  - If possible use a red container
+  - Verify that pyrotechnic VDS haven't expired
+- A minimum of three distress signals are required, capable of being used in either daytime or nighttime conditions
+  - 3 flares is easiest
+  - Can combine any types of daytime or nighttime distress signals as long as you have three in total that can be used during day or night
+- VHF marine radios
+  - Recreational boaters are not required to carry VHF marine radios, if their vessels are less than 20 m (65.6 ft) in length and they're not visiting foreign ports
+  - However a VHF radio can be convenient for communicating with other boats or harbor officials
+  - As a recreational boater, you have access to the following VHF channels
+    - 6 --- Inter-ship safety communications only
+    - 9 --- Commercial and non-commercial inter-ship, ship-to-coast and alternate calling channel
+    - 13 --- Ocean-going vessels, bridge tenders, tugs, locks
+    - 16 --- Distress channel, Coast Guard
+    - 24-28, 84-88 --- Public telephone calls via marine operator
+    - 68, 69, 71, 78 --- Non-commercial inter-ship and ship-to-coast (recreational boating working channels)
+    - 72 --- Non-commercial inter-ship only
+  - In addition, the WX-1, WX-2 and WX-3 channels broadcast National Weather Service weather reports updated every six hours or more often as conditions warrant
+
+* Chapter 3: Trip Planning And Preparation
+
+- Check water and weather conditions
+  - Before any boating trip, check the short and long-term weather forecast
+  - Avoid boating in heavy fog or strong winds
+  - On the water, carry a NOAA weather radio in order to receive weather updates
+  - NOAA broadcasts weather updates on the following frequencies
+    - WX1: 162.550 MHz
+    - WX2: 162.400 MHz
+    - WX3: 162.475 MHz
+- Small-craft advisory warnings
+  - NOAA also uses a set of warning flags at select small boat stations
+  - Pay attention to small-craft advisory warnings, gale warnings, storm warnings, tropical storm warnings and hurricane warnings
+- Weather warnings
+  - The weather can change rapidly once you're out on the water
+  - Pay attention to clouds, barometric readings, and shifts in the wind direction and temperature
+  - Monitor weather radio channels
+  - Note what other boaters are doing
+- Coping with foul weather
+  - Make sure everyone on board is wearing a properly fastened life jacket
+  - Reduce speed and proceed with caution, watching out for other boats and floating debris
+  - Close all hatches to avoid swamping
+  - Maximize stability by asking passengers to remain low and on the centerline of the boat
+  - Secure loose items
+  - Empty bilges in order to maximise buoyancy
+  - Check marine charts to find the nearest shelter
+  - Proceed cautiously to the nearest shoreline
+  - If the storm has already hit
+    - Unplug all electrical equipment and ask passengers to stay low in the boat and away from metal objects
+    - Put the bow of the boat into the waves at a 45 degree angle
+    - If the engine stops, drop an anchor from the bow to prevent drifting and swamping
+    - Never drop an anchor from the stern
+- Checking local information
+  - Learn about local hazards before venturing into unfamiliar waters
+  - Obtain local marine charts and check with local marinas
+  - Local hazards
+    - Whitewater areas --- rapidly flowing current which can drag a boat onto rocks, debris, etc
+    - Shoaling areas --- areas that become shallow gradually, difficult to spot without local charts
+    - Hazardous inlets --- inlets with abnormal currents or changes in water levels
+    - Abnormal tides or currents
+    - Low-head dams --- have dangerous recirculation just downstream; pose a particular danger to paddle craft
+    - Power lines --- may be a hazard for sailboats
+    - Low seasonal waters --- may not appear on charts which show the average water level
+    - Other obstructions --- bridges, channel openings, commercial fishing nets
+- Filing a float plan
+  - A float plan provides information about where you intend to boat and when you expect to return
+  - Allows people on shore to contact authorities if you don't make it back as exected
+- Boat preventative maintenance
+  - Change the engine oil at least once per season, or per manufacturer's recommendations
+  - Inspect belts and hoses before every voyage
+  - Inspect battery and fluid levels before every voyage
+  - Check and service the transmission according to manufacturer's instructions
+  - Always use approved marine-rated parts --- never use automotive parts to fix a boat
+  - Keep the decks and hull clean and waxed --- reduces the chance of an unexpected hole and improves fuel economy
+- Towing and trailering
+  - Ensure that your vehicle is rated to haul your boat
+  - Make sure that it has the right trailer hitches and safety chains
+  - Make sure your trailer has the capacity to haul not just your boat, but also any additional fuel and gear
+  - Make sure the coupler is matched with the size of the ball hitch
+  - Trailer class table
+    | Trailer Class | Towing Weight       |
+    |---------------+---------------------|
+    | Class 1       | Up to 2,000 lbs     |
+    | Class 2       | 2,001 to 3,500 lbs  |
+    | Class 3       | 3,501 to 5,000 lbs  |
+    | Class 4       | 5,001 to 12,000 lbs |
+- Towing and Trailering: Gross Axle Weight Rating and Gross Vehicle Weight Rating
+  - Both vehicles and trailers come with Gross Axle Weight Ratings (GAWR) and Gross Vehicle Weight Ratings (GVWR)
+  - Can be found in the owner's manual
+  - Never exceed 90% of either GAWR or GVWR
+- Towing and Trailering: Final Preparation
+  - Make sure the boat is centered on the trailer and fuel and gear are distributed evenly
+  - Tie down all loose items
+  - Criss-cross safety chains under the frame of your vehicle
+  - Make sure trailer brake lights are working
+  - Check tire air pressure
+  - Adjust side-view mirrors to account for the trailer
+  - Practice turning and backing up with the trailer attached
+  - Tie down the boat with some additional straps
+- Towing and Trailering: Road Handling
+  - The additional weight of a boat will make your vehicle respond more sluggishly
+  - Leave additional room for vehicles in front
+  - Take corners at slower speeds and wider angles
+- Preparing to launch your boat
+  - Before approaching the boat ramp
+    - Remove all tie downs with the exception of the winch line
+    - Load all supplies and equipment onto the boat
+    - Insert the boat's drain plug
+    - Disconnect the trailer's brake lights
+    - Remove motor travel supports
+    - Adjusting the motor's trim to ensure the propeller doesn't strike the ground when launching
+    - Note where the paved portion of the ramp ends in order to ensure you don't put the trailer too far into the water
+    - If launching the boat by yourself, attach a line to the bow to steady the boat upon release
+- Launching the boat
+  - Approach the boat ramp and back the boat into the water
+  - Go far enough in that your trailer's tires are in the water, but not the axle bearings
+  - The cooling water intake holes on the lower part of the engine should be submerged
+  - Apply the parking brake on the tow vehicle
+  - Gradually release the winch line and release the boat into the water
+  - Once in the water, secure the boat to the dock and move your boat and trailer off the ramp
+  - If there're any questions about the engine, start the engine while the boat is still attached to the winch line --- that will make it easy to retrieve the boat if the engine should refuse to start
+- Retrieving the boat
+  - Helpful to have someone else at the boat launch spot for you
+  - Back the trailer into the water until 2/3s of its bunks or rollers are submerged
+  - Don't put your tow vehicle's wheels into the water unless absolutely necessary
+  - Attach a bow line to the boat to steady it during retrieval
+  - Maneuver the boat close enough to the trailer to attach the winch line
+  - Once the winch is attached shut off the engine and tilt it up
+  - Crank the winch line to lift the boat onto the trailer
+  - Keep out of the path of the winch line in case it breaks
+  - Once the boat is secured, pull off the boat ramp
+  - Remove drain plug, and drain any live wells or bait wells
+  - Clean your boat to avoid the spread of invasive aquatic species
+- Fueling procedures
+  - Before fueling
+    - Secure the boat to the fueling dock
+    - Turn off the engine
+    - Unload any portable fuel tanks
+    - Make sure no one is smoking and turn off any electrical equipment
+    - Close all doors, windows or hatches through which gasoline fumes may enter
+    - Hold the nozzle against the fill pipe opening to prevent the buildup of static electricity
+  - When filling
+    - Never fill the tank above 90% capacity
+    - Ensure that all air vents to the gas tank are open
+  - Tightly replace the gas cap after fueling
+  - Smell to see if there are fumes before starting the engine --- if fumes are present wait for them to dissipate before starting
+  - If you have an inboard engine, the ventilation system must be run for 4 minutes to dissipate fumes from the bilge
+- Fuel Conservation
+  - Distribute passengers and equipment evenly through the boat
+  - Make sure your engine is appropriate to the size and weight of your boat
+  - Keep up with preventive maintenance for your engine
+  - Use the correct propeller, and regularly check it for damage
+  - Drain all water from the bilge before leaving
+  - Keep the hull clean
+  - Shut the engine off when stopped or docked
+  - Increase engine power smoothly and evenly and throttle back to cruising speed once out on the water
+- Pre-departure checklist
+  - Personal flotation devices
+    - Need a minimum of one PFD per passenger and two PFDs minimum
+    - Even if you're boating alone, you need two PFDs
+    - If the boat is longer than 16 feet in length, you need a Type 4 throwable PFD
+  - Sound-producing devices
+    - Need at least two sound-signaling devices, such as an air-horn, bell or whistle
+    - If using an air-horn, make sure to pack a can of compressed air
+  - Lights
+    - Make sure all required navigation lights are present and operating
+    - Make sure you have at least one flashlight on board
+  - Distress signals
+    - Make sure all distress signals are present
+    - Make sure passengers know where the the distress signals are and how to use them
+  - Docking and anchoring
+    - Need at least one anchor on board, attached to the anchor line
+    - Need two fenders for docking
+    - Inspect fenders and anchor line before departure
+    - Keep spare dock lines on board
+
+* Chapter 4: Emergency Preparedness
+
+- Rendering assistance
+  - If you see another boat or a person in the water in trouble, you have to stop and render assistance so long as doing so does not put your own boat at risk
+  - If you cannot help notify another boater and notify authorities
+  - If you are involved in an accident, you'll need to stop and exchange information
+- Capsizing/Falls Overboard: Prevention
+  - The major cause of fatalities for small vessels is drowning after capsizing or falling overboard
+  - The number one means of prevention is wearing a life jacket
+  - Capsizing is when a small boat overturns or fills with water
+  - Most common in small boats like canoes or sailboats
+  - Falls overboard catch boaters by surprise --- no chance to put on a life jacket if it is not already being worn
+  - Causes of falls and capsizes include
+    - Being caught off guard by waves or sharp turns
+    - Carrying too much weight in the boat
+    - Unevenly distributing weight in the boat
+    - Bad weather
+  - Engine cut-off switch
+    - All operators of vessels below 26 feet in length must use the engine cutoff switch if their vessel is equipped with one
+    - Use is mandatory when vessel is on plane or above displacement speed
+  - Prevention
+    - Stay low and centered in the boat
+    - Take turns at a safe speed and angle
+    - Watch for wake from other boats and take the wake bow-on if possible
+    - Never overload your boat and make sure loads are distributed evenly
+    - Avoid boating in bad weather
+    - If caught in bad weather, slow down
+    - Always anchor the bow of the boat, never the stern
+- Capsizing/Falls Overboard: Response
+  - If a passenger falls overboard
+    - Immediately stop the boat
+    - Quickly throw something buoyant, like a life buoy or a life jacket to the person overboard
+    - Assign someone to keep the person overboard in sight at all times
+    - Carefully position the boat close enough to make contact with the person overboard
+    - Throw them a buoyant heaving line or life buoy attached to the boat
+    - Pull the person back onboard using the boat's boarding ladder
+    - If the boat doesn't have a boarding ladder, drape a heavy rope or chain across the stern to serve as a makeshift step
+- Capsizing/Falls Overboard: Survival
+  - If you have fallen overboard or your boat has capsized
+    - Conserve energy
+    - Take a headcount and make sure everyone is accounted for
+    - If possible re-board the boat
+    - Stay with the boat unless it's headed for a hazard --- small boats will float even when they're capsized, and an overturned boat is more visible to other boaters
+    - If you get separated from your boat in a river, float on your back with your toes pointed downstream
+    - Get out of the water as quickly as possible
+  - The most important thing is to always wear your lifejacket --- your lifejacket can't help you if it's on the boat and you fall into the water without it
+- Cold water immersion
+  - Take extra caution when boating in cold-water environments
+  - Cold water shocks the body and makes it shut down, making drowning more likely
+- Cold water immersion: physiological response
+  - Initial immersion
+    - Gasp response
+    - Can lead to hyperventilation and muscle spasms, leading to water inhalation
+  - Short-term immersion
+    - After as few as three minutes someone in cold water may start to lose feeling in their fingers
+    - Lose strength in extremities, affecting your ability to swim
+  - Long-term immersion
+    - After 30 minutes, the body's core temperature will drop below safe levels
+    - Causes the person to lapse into unconsciousness
+  - Post-rescue collapse
+    - The drop in blood pressure from hypothermia can cause a person to lapse into unconsciousness or stop breathing, even after they've been rescued
+    - Hypothermia victims need medical attention following rescues from the water
+- Cold water immersion: prevention
+  - Boat capsizings and falls overboard are the leading cause of cold-water immersion
+  - Capsizing is caused by
+    - Overloading
+    - Unsafe boat handling
+    - Improper anchoring
+    - Loss of power or steering
+  - Falls overboard are caused by slips or falls when moving around on boat
+  - Stay low and stable while moving on a boat
+  - Follow guidelines for safe loading and operation, especially in bad weather
+- Cold water immersion: survival
+  - The priority is to get yourself out of the water
+  - Try climbing on the capsized boat
+  - As a last resort, try swimming to shore if it's not too far away
+  - Always wear your PFD
+  - Bring your arms and legs up to your chest in order to minimize heat loss
+  - Huddle with other passengers in order to share body heat
+  - If operating in cold water conditions, look into additional protection options
+    - Floater suit
+    - Anti-exposure work suit
+    - Wetsuit
+    - Dry suit
+    - Immersion suit
+- Fire emergency: Prevention
+  - Fires require fuel, oxygen and a source of ignition
+  - Gasoline fumes can easily collect in the hull of a boat without proper ventilation
+- Fire emergency: Response
+  - Stop the engine immediately
+  - Position the boat so that the wind blows fire and smoke away from your boat
+  - If possible separate the fuel source from the fire by shutting off the gas tank
+  - Use the fire extinguisher to fight the fire
+    - Aim the extinguisher at the base of the fire
+    - Pull the pin and squeeze the two levers together to activate the extinguisher
+    - Use a sweeping motion, spraying towards the base of the fire
+    - Continue using the extinguisher until the fire is completely out
+  - Use a distress signal or marine radio to signal to other boaters that you need assistance
+- Running aground: prevention
+  - Consult nautical charts and talk to local boaters to learn about known hazards
+  - Keep a proper lookout while boating --- most accidents happen on clear calm days as the result of inattention
+  - Maintain a safe speed
+  - If you have a depth finder set a shallow depth alarm
+- Running aground: response
+  - Stop and assess the situation and check to see if anyone is seriously hurt
+  - Check the boat's hull --- are there any leaks? Has the boat sustained structural damage?
+  - Try putting the engine into reverse and backing off the obstacle
+  - If you've grounded on a sandbar, the water may be shallow enough that you can get off and push the boat back into deeper water
+  - Can also use a kedge anchor --- small anchor that you can use to pull your boat back into deeper water
+- Accident reports
+  - If you're in a boating accident, you might have to file an accident report
+  - Need to file an accident report for accidents that result in
+    - Fatalities
+    - Missing persons
+    - Injuries requiring treatment
+    - Property damage
+  - If involved in an accident
+    - Stop and identify yourself and your boat
+    - Provide assistance if possible
+    - Write down all pertinent conditions
+      - Date/time
+      - Weather conditions
+    - File an accident report with local authorities
+
+* Chapter 5: Navigation Rules
+
+- The complete list of navigation rules is published by the US Coast Guard as COMDTINST 16672.2
+- In addition, states may have state-specific navigation rules
+- Navigation terms and definitions
+  - Vessel --- any type of watercraft capable of being used as a means of transportation
+  - Power-driven --- propelled by machinery
+  - Sailing vessel --- any vessel that is moving under sail power; a vessel can be under sail even if it possesses a motor, as long as the motor is not being used
+  - Vessel engaged in fishing --- Any vessel with fishing nets, lines, trawls or other equipment that limits maneuverability
+  - Seaplane --- any aircraft designed to maneuver on water
+  - Length and breadth --- greatest overall length and width
+  - In sight of one another --- two vessels are said to be in sight of one another if they can observe each other visually
+  - Stand-on vessel --- when encountering another vessel, the stand-on vessel must
+    - Maintain course and speed
+    - Keep a proper lookout and return communication with the give-way vessel
+    - Do all it can to avoid collision
+  - Give-way vessel --- the vessel that must take early and substantial action to keep well clear of the stand-on vessel
+  - Underway --- any vessel that is not at anchor or tied to the shore is underway
+  - Restricted visibility --- any condition where normal visbility is reduced, via rain, fog, snow, mist, etc
+  - Inland waters --- Navigable waters of the United States shoreward of the navigational demarcation lines delineating the high seas and the Canadian side of the Great Lakes
+- Sound signalling equipment
+  - For boats between 39.4 and 65 feet in length
+    - Bell
+    - Air horn or whistle
+  - Vessels less than 39.4 feet in length need only an air horn or whistle
+  - Unpowered boats need only the ability to make a sound signal that can be heard by another boat operator in time to avoid a collision
+- Sound signals
+  - 1 short blast --- passing on port side
+  - 2 short blasts --- passing on starboard side
+  - 3 short blasts --- reversing
+  - 5 short blasts --- Danger; do not understand approaching boat's intentions
+  - 1 prolonged blast --- Warning
+    - Entering or exiting a blind turn
+    - Nearing an obstructed area
+    - Leaving dock
+  - 1 prolonged blast every two minutes --- power driven vessel operating in restricted visbility
+  - 1 prolonged blast + 2 short blasts every two minutes --- sail driven vessel operating in restricted visibility
+- Rule of responsibility
+  - It's always your responsibility to operate your boat in a cautious and reasonable manner
+  - Stay active and alert
+  - Respect the weather, your passengers and fellow boats
+- Proper lookout
+  - Make sure passengers and equipment don't get in your line of sight
+  - Scan bow, starboard, port, for other boats, swimmers, dive flags and floating debris
+  - Use every available means to determine whether you are at risk for collision
+- Safe speed
+  - Always ensure that you're maintaining a safe speed for the conditions
+  - Is visibility restricted
+  - Are there adverse waves or currents
+  - How much boat traffic is in the area
+  - How responsive is your vessel and other nearby vessels
+  - Are there navigational hazards
+- Collision avoidance rules
+  - Always keep a proper lookout
+  - Use radar to give other vessels a warning that you're in the area
+  - Navigation lights
+    - Green - starboard
+    - Red - port
+  - Terms and definitions
+    - Stand-on vessel has the right of way
+      - Maintain course and speed
+      - Keep proper lookout
+      - Return communications from the give-way vessel
+    - Give-way vessel is the one that must yield
+  - When passing from the stern, the passing boat is the give-way vessel
+  - If another vessel approaches from starboard, you are the give-way vessel
+  - If another vessel approaches from port, you are the stand-on vessel
+- Overtaking
+  - The vessel being overtaken is stand-on
+  - If both vessels are power-driven, sound signals must be used
+    - One short blast for passing on port
+    - Two short blasts for passing on starboard
+  - The stand on vessel must return the signal to acknowledge
+- Approaching head on
+  - Normal approach is to give one short blast and pass port to port
+  - If it is not possible to pass port to port, give two short blasts and pass starboard to starboard
+- Crossing --- vessel approaching for port is the give-way vessel
+- When approaching a sailing vessel, the power driven vessel is always the give-way vessel
+- The only time when a sailing vessel is not the stand-on vessel is when it is overtaking a power-driven vessel
+- When two sailing vessels approach each other, which is the stand-on and which is give-way is determined by the direction of the wind
+  - If two sailing vessels are approaching each other such that the wind is on different sides of the boat for each vessel, it is the vessel whose port is to the wind that must give way
+  - If two sailing vessels are approaching each other such that the wind is on the same side of the boat, it is the upwind vessel that has to give way
+- Always adjust your speed to account for heavy traffic
+- When operating in narrow channels, additional precautions need to be taken
+  - Keep to the starboard side
+  - When going around bends with reduced visibility, give a long blast
+  - Sailing vessels and motorized vessels less than 65 feet in length must keep out of the way of larger boats
+  - Avoid anchoring in narrow channels or beneath bridges
+- Maintain additional caution around large vessels
+  - Large commercial vessels cannot maneuver as quickly as small boats
+  - Always be prepared to yield
+  - Be careful around vessels under tow, such as barges, as the tow cable may be underwater --- never get in between a tug and its tow
+  - Traveling in a group with other small vessels makes you more visible
+- When operating in darkness, navigation lights must be displayed
+- When approaching another boat in the dark, pay careful attention to its navigation lights
+  - See [[* Chapter 2: Boating Equipment][chapter 2]] for more details on navigation lights
+  - Power boats' white light is visible from 360 degrees
+  - Sailboats' white light is only visible from the stern
+  - If you can see
+    - Only white light --- approaching from stern
+    - Red and white --- approaching from port
+    - Green and white --- approaching from starboard
+    - Red and green --- approaching sailboat head on
+    - Red, green and white --- approaching powerboat head on
+  - The rules for passing are the same as they are in daytime, it's just that you have to use the lights to determine where you are in relation to other boats
+- When visibility is restricted vessels must send sound signals to alert other vessels of their presence
+  - Under way
+    - Power vessel --- Prolonged blast every two minutes
+    - Sailing vessel --- prolonged blast + 2 short blasts every two minutes
+  - Underway but not moving --- two prolonged blasts every two minutes
+  - Anchored --- 5 seconds of rapid bell ringing every minute
+  - Run aground --- 3 bell strokes + 5 seconds of rapid bell ringing + 3 bell strokes every minute
+
+* Chapter 6: On The Waterways
+
+- Aids to navigation
+  - The US Aids To Navigation System (ATON) is a set of symbols, colors and lights that tell you where it is safe to navigate your boat
+  - Similar to highway lights and signs
+  - Green lateral marker
+    - Keep on port side as you're heading upstream
+    - Will have odd numbers that increase going upstream
+  - Red lateral marker
+    - Keep on starboard side as you're heading upstream
+    - Even numbers that increase going upstream
+  - Junction buoy
+    - Indicates where the channel splits into two
+    - Main channel indicated by top color
+    - For example: if the top color is green, keep the buoy on the port side to stay in the main channel
+  - Nun buoy
+    - Red
+    - Cone shaped
+    - Even number
+    - Keep on starboard when going upstream
+  - Can buoy
+    - Green
+    - Cylinder-shaped
+    - Odd numbers
+    - Keep on port side when going upstream
+  - Daymarks
+    - Red-triangle with even number --- keep on starboard
+    - Green-square with odd number --- keep on port
+  - When going downstream reverse the sides
+    - Red --- port
+    - Green --- starboard
+- Uniform state waterways marking system
+  - Non-lateral markers give other information about the area in which you're boating
+  - Square --- information --- displays information about directions, distances and locations in the area
+  - Diamond --- hazard --- displays information about nearby hazards such as shoals or rocks
+  - Circle --- control --- displays requirements that you must follow, such as speed limits or wake restrictions
+  - Diamond with crossing lines --- keep out --- indicates areas where you must not go
+  - Black and white stripes --- obstruction --- do not pass between this marker and the shoreline
+  - Blue stripe --- mooring --- the only type of buoy that you're allowed to tie your vessel to
+  - Red and white --- safe water --- used to mark channel entrances, centers and landfalls --- may pass on either side
+  - Diving markers
+    - Red and white flag on top of a buoy --- dive in progress
+    - Blue and white flag on a boat --- boat is supporting diving activity
+    - Keep at least 100 feet away from divers
+- Intracoastal waterway
+  - Series of channels running parallel to the coastline
+  - Goes from New Jersey to Texas
+  - ICW markers are either yellow squares or yellow triangles
+  - Override the shape of the sign they're attached to
+  - Yellow square --- keep on port when heading north-to-south
+  - Yellow triangle --- keep on starboard when heading north-to-south
+- Western rivers system
+  - Used on the Mississippi and its tributaries above Louisiana
+  - Instead of the sequential numbering of the ATON system, the Western Rivers system uses mile markers that indicate how far you are away from the mouth of the river
+- Docking and mooring
+  - First reduce speed and come to a complete stop
+  - Ready mooring lines and fenders
+  - Note wind and water conditions and try to dock into the wind/current if possible
+  - If there is no wind or current, approach the dock at a shallow angle (20 degrees) and designate a passenger to step onto the dock and secure the mooring lines
+  - If the wind or current is in your face,
+    - Approach the dock at a steep angle of 30 to 45 degrees
+    - Then secure the bow line
+    - Shift into forward gear at idle speed
+    - Steer away from the dock until the stern swings in
+    - Secure the stern line
+  - If the wind or current is at your back
+    - Approach the dock at a shallow angle (20 degrees)
+    - Shift into neutral and allow the wind to drift the boat into the dock
+    - Secure bow and stern lines
+- Anchors
+  - All boats are required to carry an anchor
+  - Types of anchors
+    - Plow
+      - Lands sideways and digs into the bottom when pulled, like a plow
+      - Best for rocky bottoms, weeds and grassy waters
+    - Danforth
+      - Pivoting flukes bury the anchor when it lands
+      - Best for soft mud and grassy waters
+    - Mushroom
+      - Typically used by canoes and inflatables
+      - Best for flat-bottomed waters
+  - The line or chain attaching the anchor to the boat is called the =rode=
+  - The rode should be 7-10 times the depth of the water you plan to anchor in
+- Tips for anchoring
+  - Make sure there's clearance all around --- the wind and currents will rotate the boat around the anchor
+  - Pick a spot upwind of where you want to end up to drop the anchor
+  - Always secure the anchor to the bow, never to the stern
+  - Lower the anchor slowly to avoid capsizing
+  - Give the rode a tug to set the anchor once it's hit bottom
+- Locks and dams
+  - Approach a lock at idle speed and stop at least 100 yards in front of the entrance
+  - Give one long blast and one short blast of your horn, call channel 13 on the maritime radio, or use a signaling device on the lock wall to alert the lockmaster
+  - Ready fenders and at least 75 feet of mooring line
+  - Wait for the lockmaster's signal before entering the lock
+  - Once inside the lock, adjust lock lines to the water level
+  - Wait for the lockmaster's signal before leaving the lock
+
+* Chapter 7: Water Activities and Marine Environment
+
+- Personal Watercraft and other jet-propelled watercraft
+  - Personal watercraft propel themselves with an inboard motor that runs an impeller, or internal propeller to produce a powerful jet of water
+  - Personal watercraft steer and propel themselves with a water jet, so they lose steering at low throttle levels
+  - This means that you need to practice steering and avoiding obstacles
+- Never exceed your PWC's load capacity
+- Righting and reboarding a PWC
+  - PWCs are designed to flip over
+  - Come with a decal that shows how to turn them upright properly
+  - To reboard your PWC after you've righted it
+    - Approach the PWC from the direction marked on the hull
+    - Pull yourself up until you can kneel on the boarding platform
+    - Slide yourself onto the seat
+    - Attach the lanyard to your life vest or wrist
+- Always connect the lanyard --- the lanyard shuts the engine off if you should fall, ensuring your PWC doesn't become a runaway
+- PWCs come with a fuel reserve tank, holding about a gallon of fuel
+- If you have to switch to the reserve tank, it's time to head for shore
+- PWCs ride low in the water, making them hard to see
+- When making a turn in a PWC always look behind you to make sure you're not cutting off a larger vessel
+- Be mindful of your wake
+- Slow down and watch your noise level around other boaters
+- Towed water sports
+  - Towed passenger should be wearing a US Coast Guard approved life jacket rated for high impact activities
+  - All boat operators should have an observer to watch the person being towed
+  - The tow rope should be at least 75 feet long
+  - Check rope for signs of wear before heading out onto the water
+  - When dropping off a towed person on shore, never run parallel to the shore in shallow water; instead keep your distance and let the towed person swing towards the shoreline
+  - Never participate in towed sports at night --- dangerous and illegal
+  - Turn off the engine when approaching a fallen towed person
+  - Approach a fallen towed person from the operator's side of the boat
+  - Hand signals
+    - Thumbs up --- increase speed
+    - Thumbs down --- decrease speed
+    - Ok sign --- speed okay
+    - Palm up --- stop
+    - Left hand straight out --- turn left
+    - Right hand straight out --- turn right
+- Hunting and fishing
+  - Go with a buddy
+  - File a float plan with friends or relatives on shore
+  - Peak fishing hours tend to be early in the morning or towards dusk when visibility is limited, so ensure that your boat's navigation lights are working
+  - Keep equipment low and centered in the boat
+  - Avoid making sudden movements in the boat
+  - Practice extra caution when casting your reel, retrieving your decoys or firing your rifle or shotgun
+  - If you're a recreational boater, give hunters and anglers plenty of space
+- Paddle sports
+  - Canoes and kayaks require many of the same precautions as powerboats
+  - Even more prone to capsizing than powerboats
+  - Wear a life jacket
+  - Never drink before canoeing
+  - Avoid standing up or moving around in the canoe if possible
+  - If you need to stand up or move around, maintain three points of contact
+  - When retrieving items out of the water, keep your shoulders between the gunwales
+  - Avoid treacherous weather conditions
+  - Take hands-on training which will show you stabilizing strokes, as well as techniques for safe entry and exit
+- Environmental considerations
+  - Slow down to a no-wake speed in narrow channels to avoid causing unnecessary erosion
+  - Be careful not to spill when refueling your boat
+  - When changing the oil in your boat, used a closed system that drains the used oil into a container
+  - Never mix used motor oil with other waste
+  - Always keep oil-only absorbents on hand for accidental spills
+- Be careful not to damage submerged aquatic vegetation with your boat propeller or hull
+- Never operate a PWC near submerged aquatic vegetation
+- Waste disposal
+  - The US Coast Guard prohibits the dumping of plastic or any garbage mixed with plastic
+  - Other than that there are restrictions on dumping
+    | Distance from shore                                  | Illegal to dump                                                                                                     |
+    |------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------|
+    | Inside 3 miles and in lakes, rivers, bays and sounds | Plastic, dunnage, linings, packing materials that float, and any garbage except for gray water and fresh fish parts |
+    | 3 - 12 miles                                         | Plastic, dunnage, linings, packing materials that float, and any garbage not ground to less than one inch           |
+    | 12 - 25 miles                                        | Plastic, dunnage, linings, packing materials that float                                                             |
+    | Outside 25 miles                                     | Plastic                                                                                                             |
+  - Can only dump raw sewage if you're more than 3 miles from shore
+  - States have regulations for the disposal of treated waste water, shower water, laundry water, etc
+- Waste management plans
+  - If your vessel is certified to operate more than 3 nautical miles from shore and has berths and a galley, you must have a waste management plan
+  - The waste management plan outlines how you will handle
+    - Sewage and hazardous waste
+    - Garbage and food waste
+    - Plastics, glass and aluminum
+    - Oil and gasoline spills
+- Human waste disposal
+  - It is illegal to dump untreated human waste in inland waters
+  - If your boat has a toilet and you're operating in inland waters, you need a proper sanitation system
+  - These sanitation systems are called Marine Sanitation Devices (MSDs)
+    | MSD Type        | Legal For                | Functionality                                                  |
+    |-----------------+--------------------------+----------------------------------------------------------------|
+    | Type I          | Boats under 65 ft        | Treat waste and discharge overboard                            |
+    | Type II         | Any vessel               | More powerful treatment of waste discharge                     |
+    | Type III        | Any vessel               | Collect waste in holding tank for removal at pump-out stations |
+    | Portable toilet | All vessels on the water | Collects waste in holding tank --- does not treat              |
+  - Type III MSDs are most common
+  - If you have a Type III MSD, check beforehand whether the marinas you're stopping at have pump-out stations
+  - The use of Type I and II MSDs is prohibited in no-discharge zones
+- Disposal of toxic substances
+  - The Refuse Act of 1899 made it a crime to throw, discharge or deposit refuse of any kind into US waters
+  - All vessels longer than 26 feet in length must display a SOS (Save Our Seas) placard that states that boat operators are prohibited from discharging oil or oily waste into the water
+  - If an accidental spill occurs you must contact the Coast Guard
+
+* Chapter 8: Save Boat Operations
+
+- Operator responsibilities
+  - Complete a pre-departure checklist
+  - Make sure that boat is safe and ready, with all equipment in good working order
+  - Tell passengers where safety equipment is, and how to use it
+  - File a float plan
+  - Check for hazards by asking local boaters or consulting nautical charts
+  - Check weather forecast
+- Boat handling
+  - No two boats handle the same way
+  - Easier to maneuver a motorboat when heading into the wind
+  - Boats don't have brakes --- need to apply reverse thrust in order to come to a stop
+- Courtesy
+  - Monitor noise and wake
+  - Leave waterways as you found them
+  - Respect your boat
+  - Know local laws
+- Homeland security measures
+  - Stay at least 100 yards away from all military, commercial shipping or cruise line vessels
+  - Slow to a no-wake speed within 500 yards of any large US Navy vessel
+  - Observe and avoid security zones
+  - Avoid military, cruise line or petroleum facilities
+  - Stay clear of restricted areas near dams or powerplants
+  - Do not stop or anchor beneath bridges or in channels
+  - Do not approach or confront people whom you see behaving in a suspicious manner
+  - Report suspicious activity on the water by calling 1-800-24WATCH
+  - Ensure your boat is always locked and secured when left unattended
+- Influence of drugs and alcohol on boat operation
+  - Drinking and boating is as serious an offense as drinking and driving
+  - Many drownings occur when someone intoxicated falls off a dock, pier or boat
+- Carbon Monoxide
+  - Carbon monoxide can build up near exhaust vents for engines and generators
+  - Never enter an enclosed area under a swim platform where exhaust is vented
+  - Never block an exhaust
+  - Watch out for fumes from other boats
+  - Try not to idle your boat --- operating at slow speeds can lead to an accumulation of carbon monoxide, even in open areas
+    - Especially be careful of idling in a tailwind
+  - Be aware of "backdrafting"
+    - Backdrafting is an effect where exhaust is drawn back into the boat
+    - Can occur at high bow angles
+  - Never "teak surf"
+    - Teak surfing refers to holding on to a boat's swim platform or transom while it is idling or underway
+    - Is extremely dangerous
+  - To prevent injuries from carbon monoxide
+    - Keep air flowing through your boat at all times
+    - Educate your passengers so they can recognize the early signs of carbon monoxide poisoning
+    - Keep watch on people swimming near your boat, especially if the engine is running
+    - Schedule regular engine and exhaust system maintenance
+    - Keep forward facing hatches open, even in bad weather, to ensure that air keeps flowing through the boat
+    - If anyone on board has irritated eyes, dizziness, nausea, headache or weakness, move them to fresh air immediately
+    - Don't confuse carbon monoxide poisoning with seasickness or intoxication
+    - Install marine-rated carbon monoxide detectors in all living areas
+  - Most instances of carbon monoxide poisoning occurs on older boats
+  - Pay extra attention to exhaust components to avoid carbon monoxide poisoning
+    - Check for black streaks, water leaks or corroded or cracked fittings
+    - Inspect rubber exhaust hoses for cracks or burned sections --- hoses should be pliable and free of kinks
+    - Listen for any changes in the sound of your exhaust --- changes in exhaust note could indicate leaks
+    - Have your exhaust inspected by a qualified marine technician at least once a year
+      - Replace any hoses that show cracks, charring or other signs of deterioration
+      - Check water pump impeller and housing
+      - Check engine cooling system
+      - Check metallic engine components for cracking or corrosion that could lead to exhaust leaks, paying particular attention to the adapter between the exhaust manifold and water injection elbow
+      - Inspect the generator water anti-siphon valve if applicable
+  - Test carbon monoxide detectors regularly
+- Propeller safety
+  - Boat propellers pose greater risk because they're below the waterline and spinning at extremely high speed
+  - There is safety equipment that can reduce the risk of a propeller strike
+    - Propeller guards
+    - Ladder interlock kill switches
+    - Person overboard cut-off switches
+    - Lanyard engine start/stop switches
+  - However the best form of prevention is being aware of and staying away from the propeller
+
+* Chapter 9: State Rules and Regulations
+- Boats in Minnesota are regulated by the Department of Natural Resources (DNR)
+- The following watercraft do not require registration
+  - Non-motorized watercraft less than ten feet in length
+  - Watercraft registered in another state and not kept in Minnesota for more than 90 consecutive days
+  - Watercraft from another country, not kept in Minnesota for more than 90 consecutive days
+  - Boats owned by the state or federal government (not including boats used for recreational purposes)
+  - US Coast Guard documented watercraft
+  - Ships' lifeboats
+  - Waterfowl boats used during the waterfowl hunting season
+  - Wild rice harvesting boats used during the wild rice harvesting season
+  - Seaplanes
+- A new owner of a boat in Minnesota is required to apply for a registration within 15 days of taking ownership of the boat
+- It is unlawful to operate a watercraft that requires registration if a registration has not been issued
+- Certificate of ownership
+  - Before operating a boat, owners must have at least a temporary license certificate
+  - License certificates must be signed and carried on board
+  - Certificates are valid for three years
+  - The DNR must be notified within 15 days if the boat is lost or destroyed
+- Certificate of title
+  - Watercraft over 16 feet in length and kept in the state for more than 90 consecutive days must be titled in Minnesota
+  - Title provides proof of ownership and is required to sell or transfer the boat
+  - Watercraft that do not need to be titled
+    - Boats manufactured prior to August 1, 1979
+    - Boats owned by the government
+    - Boats owned by a manufacturer or dealer for testing
+    - Waterfowl boats used for waterfowl hunting during the waterfowl hunting season
+    - Wild rice harvesting boats used during the wild rice harvesting season
+    - Boats owned by a resort or recreational camping area that has been certified by the Minnesota Department of Health
+    - Canoes, kayaks, ships' lifeboats, rowing shells or sculls
+    - Rowboats with oar locks and an outboard motor rating of less than 40 hp
+    - A Coast Guard documented vessel
+    - Boats 16 feet in length or smaller
+- Registering your boat gets you
+  - License certificate
+  - Boat number
+  - Registration decal
+- Boat numbers must be
+  - Affixed on both sides of the bow, reading from left to right
+  - Block letters, 3 inches high, contrasting with the color of the boat
+  - Letters must be separated from numbers by 3 inches
+- Decal must be displayed within 4 inches sternwards of the numbers
+- Canoes, kayaks, paddleboards, rowboats, etc, do not need to display numbers, only the de
+- Minnesota boaters must have a Coast Guard approved PFD for each person on board
+- Type IV throwable flotation devices are not approved PFDs
+- In addition to PFDs, all boats above 16 feet in length must carry at least one Type IV flotation device
+- Anyone being towed behind a watercraft must be either wearing a PFD or have one on board the watercraft
+- Anyone operating a personal watercraft must wear an approved PFD
+- All children under the age of 10 must wear PFDs except
+  - When they are below the top deck or in an enclosed cabin
+  - On board a passenger boat being operated by a licensed captain
+  - On a boat that is anchored for the purpose of swimming or diving
+- Noise levels
+  - If manufactured prior to January 1, 1982, it is illegal for boats to emit noise levels of greater than 84 dBA at a distance of 50 feet and 86 dBA in a stationary test
+  - If manufactured after January 1, 1982, it is illegal for boats to emit noise levels of greater than 82 dBA at a distance of 50 feet and 84 dBA in a stationary test
+- Minnesota requires all MSDs to be no-discharge devices
+- Invasive species
+  - Clean your boat
+  - Drain all water-related equipment
+    - Ballast tanks
+    - Bilge
+    - Livewells
+    - Keep drain plugs out while transporting the boat
+  - Dispose of unwanted bait in the trash
+- Young operators --- Effective July 1, 2025 all operators from the ages of 12 to 25 are required to hold a watercraft operator's permit
+- Personal Watercraft
+  - All personal watercraft must carry a Class 5B fire extinguisher
+  - All operators must wear life jackets approved for PWC use
+  - If towing a person on waterskis, PWCs must have an observer, unless equipped with a factory-installed wide-angle rearview mirror
+  - Not allowed to weave through congested traffic
+  - Must slow to a no-wake speed when within 150 feet of
+    - Shoreline
+    - Swimmers
+    - Anchored, moored or non-motorized boats
+  - Always use the lanyard or wireless cut-off switch
+  - It is illegal to operate PWCs between one hour before sunset to 9:30 am
+  - People under the age of 12 are not authorized to operate PWCs except in case of emergency
+  - People between the ages of 12 and 21 may operate PWCs with an adult present if they hold a valid watercraft operator's permit
+- Diving and snorkeling
+  - A boat engaged in diving must display a diver's flag above the water
+  - Flag must be at least 15" horizontal and 12" vertical
+  - Both sides red in color with a diagonal white stripe bisecting it
+  - Diver must remain within 50 feet (measured horizontally) of the diving flag
+  - The flag must be at least 30 inches above the water's surface
+  - May by displayed by a watercraft, float, or be anchored to the bottom
+  - Boaters must keep at least 150 feet away from a dive flag
+  - Snorkelers and scuba divers are asked to not dive in areas where there are many boats present or in narrow channels where it is not possible for boats to maintain safe separation
+  - A maximum of four divers may go down per flag
+  - Diving is not permitted from one hour after sunset to sunrise, unless the diver has a dive light that is visible for 150 feet above water
+- Towed water sports
+  - When towing an individual behind a boat, an observer is required unless the boat has a wide-angle rearview mirror
+  - A US Coast Guard approved life jacket must be either worn by the person being towed or must be carried in the boat on their behalf
+  - Tow ropes may not be greater than 150 feet in length without permission from the county sheriff
+  - The operator of the boat must take care to ensure that they do not cause the person being towed to collide with any other object or person
+- No wake --- The maximum no-wake speed is 5 mph
+- Safe speed
+  - Certain localities enforce their own speed limits on the water
+  - Take into account visibility, wind, and water conditions when determining a safe maximum speed
+  - Also account for the presence of other boats
+  - Larger boats can go faster, but also take more time to stop
+- Unsafe practices
+  - Careless operation
+    - Operating a watercraft such that its wake endangers, harasses or interferes with others
+    - Chasing wildlife or operating a boat where it is prohibited to do so
+    - Operating a watercraft within a marked swimming area or within 150 feet of a diver's flag
+    - Operating at an unsafe speed
+    - Failing to maintain adequate distance
+    - Exceeding the maximum capacity of the boat
+    - Not maintaining a lookout for other boats or people in the water
+  - Dangerous operation
+    - Operating without all required equipment
+    - Operating with more power than recommended
+    - Operating with a fuel leak
+    - Operating in an overloaded capacity
+  - It is illegal for a boat to be operated with someone sitting on the bow, gunwales or transom unless there are adequate guards or railings to prevent them from falling overboard
+  - Passengers are allowed to go into these areas to moor, anchor or cast-off
+  - Boaters should not stop beneath bridges or in channels
+- Accident reporting
+  - Any accident involving the following must be reported
+    - Over $2000 in property damage
+    - Complete loss of a boat
+    - Injuries to any person requiring treatment greater than first aid
+    - The death or disappearance of a person
+  - If an accident requiring a report occurs, the operator shall call 911 or notify the county sheriff
+- Boating under the influence
+  - Anyone operating a boat with a blood alcohol level of 0.08% or greater is considered to be boating while impaired (BWI)
+  - Upon the first conviction
+    - Penalty of up to $1000 and jail time up to 1 year
+    - Loss of boating privileges for 90 days, snowmobile and ATV privileges for 1 year, and revocation of driver's license
+  - If the operator is found to
+    - Have a blood alcohol level of 0.16% or greater
+    - Has a previous BWI offense or refused testing within the past 10 years
+    - Has a child under the age of 16 in the boat if the child is greater than 36 months younger than the offender
+  - The offense becomes a gross misdemeanor
+  - By operating a boat in Minnesota, you have consented to an alcohol test administered by a licensed law enforcement officer
+  - Refusal to undergo testing is an offense in itself
+- Minnesota boating laws are enforced by county sheriffs and the DNR's conservation officers
+- All state and county enforcement craft will be marked on both sides with a blue state pennant
+- Some waters are also under the jurisdiction of the US Coast Guard and/or National Parks Service, who enforce federal boating regulations
+- Whenever an enforcement officer contacts you, you are required to stop and allow them to come alongside

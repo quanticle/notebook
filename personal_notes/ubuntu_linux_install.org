@@ -1,0 +1,130 @@
+#+TITLE: Ubuntu Linux
+
+* Clean Install
+
+** Make Backups
+- Back up Downloads directory
+- Back up Videos directory
+- Back up =~/.local/bin/= directory
+- Back up configuration files
+  - mpv
+  - streamlink
+  - yt-dlp
+  - tmux
+  - =.bashrc=
+  - Stylus user styles
+- Check in changes to to do, notebook, website and emacs-config repositories
+- Back up miscellaneous org-mode files
+- Verify SSH and GPG key backups
+
+** Create Ubuntu Install Media
+- Insert a thumbdrive
+- Use =lsblk= to determine what block device corresponds to the thumbdrive
+- =umount= any mounted partitions from the thumbdrive (if applicable)
+- Run =sudo dd if=<path to Ubuntu image>.iso of=<block device> bs=4M status=progress oflag=sync= to make a bootable thumb drive
+
+** Install Ubuntu
+
+** Install Cascadia Code fonts
+- Download Cascadia Code from =https://github.com/microsoft/cascadia-code/releases=
+- Install the individual =.otf= files
+- Install Gnome Tweaks: =sudo apt install gnome-tweaks=
+- Use Gnome Tweaks to configure the default monospace font to Cascadia Code
+
+** Use Gnome Tweaks to set caps lock as ctrl
+
+** Restore =.bashrc=
+
+** Restore SSH and GPG keys
+- Copy SSH key from backup to =~/.ssh=
+- Set directory permissions to =700=
+- Set file permissions to =600=
+- Copy GPG key from backup to =~/.gnupg/=
+- Set directory permissions to =700=
+- Set file permissions to =600=
+
+** Install =build-essential= package
+
+** Install =git=
+
+** Restore password manager
+- =sudo apt install pass=
+- =pass init "[ultimate] Rohit Patnaik <quanticle@quanticle.net>"=
+- =pass git init=
+- =pass git remote add origin "git@github.com:quanticle/pass.git"=
+- =pass git fetch=
+- =pass git checkout "origin/master"=
+- =pass git checkout -B "master"=
+- =pass git branch -u "origin/master" "master"=
+
+** Get Emacs and Org-Mode
+
+*** Emacs
+- =sudo apt install emacs-pgtk=
+
+*** Org-mode
+- Get org-mode sources from ==
+- Install =texinfo=: =sudo apt install texinfo=
+- =git clone "git://git.sv.gnu.org/emacs/org-mode.git" "$HOME/emacs-org/"=
+
+*** Emacs Configuration
+- =git clone "git@quanticle.net:emacs-config.git" "$HOME/emacs-config/"=
+- Switch to the =personal_computer= branch
+- Copy =init.el= to =~/.emacs.d/=
+
+** Get To Do repository
+- =git clone quanticle@quanticle.net:todo.git ~/todo=
+
+** Get Notebook repository
+- =git clone git@github.com:quanticle/notebook.git ~/notebook/=
+
+** Get Website repository
+- =git clone git@github.com:quanticle/website.git ~/website/=
+
+** Install Java
+- =sudo apt install openjdk-21-jdk=
+- =sudo apt install openjdk-21-jre=
+
+** Install Leningen
+- [[https://leiningen.org/#install][Install instructions]]
+
+** Install SBCL
+- =sudo apt install sbcl=
+
+** Install Google Chrome
+- Go to =https://chrome.google.com/= and download the DEB installer
+
+** Install Firefox extensions
+- uBlock Origin
+- Recap
+- Stylus
+- SingleFile
+- React Developer Tools
+- Cookie Remover
+- GNOME Shell Integration
+
+** Restore from backups
+- Downloads folder
+- Videos folder
+- Configuration files
+  - mpv
+  - streamlink
+  - yt-dlp
+  - tmux
+  - Stylus user styles
+- Miscellaneous org-mode files
+
+** Install software
+- ffmpeg
+- mpv
+- tmux
+- Set up a virtualenv for streamlink and yt-dlp
+  - =sudo apt install virtualenv=
+  - =virtualenv ~/streamlink_venv=
+  - Update the =pip= inside the virtualenv with =pip install --ugprade pip=
+  - Install =yt-dlp=
+  - Install =streamlink=
+
+** Install printer driver
+- Printer: Brother HL-L2300D
+- Linux Driver: [[https://support.brother.com/g/b/downloadtop.aspx?c=us&lang=en&prod=hll2300d_us_eu_as]]

@@ -1,0 +1,34 @@
+* Work Bookmarks
+- [[https://wlweb.windlogics.com/radar/secure/Dashboard.jspa][JIRA/RADAR]]
+  - [[https://wlweb.windlogics.com/radar/secure/RapidBoard.jspa?rapidView=515&selectedIssue=OMNI-2574&quickFilter=4178][OMNI UI Kanban]]
+  - [[https://wlweb.windlogics.com/radar/secure/RapidBoard.jspa?rapidView=550&view=planning.nodetail&issueLimit=100][IRDOT Backlog]]
+- [[https://wlweb.windlogics.com/confluence][Confluence]]
+  - [[https://wlweb.windlogics.com/confluence/pages/viewpage.action?pageId=26807917][Seating Chart]]
+  - [[https://wlweb.windlogics.com/confluence/display/PM/Quarterly+WBS+Update][Quarterly WBS Update Instructions]]
+  - [[https://wlweb.windlogics.com/confluence/display/PR/2021+Q3+WBS+Allocations][WBS Allocations]]
+  - [[https://wlweb.windlogics.com/confluence/display/POLE/Getting+Started+-+IRDOT+%28EMPP%29+Developers][IRDOT Getting Started]]
+  - [[https://wlweb.windlogics.com/confluence/display/POLE/IRDOT+Development+Guide][IRDOT Development Guide]]
+  - [[https://wlweb.windlogics.com/confluence/display/POLE/EMPP+%28IRDOT%29+Documentation][IRDOT documentation]]
+- [[https://adfs.nexteraanalytics.com/adfs/ls/idpinitiatedsignon][AWS Sign In]]
+- [[https://console.aws.amazon.com/console/home?region=us-east-1][AWS Dashboard]]
+- Gitlab projects
+  - [[https://gitlab.windlogics.com/internal/polecat/baker/baker-ui][OMNI UI]]
+  - [[https://gitlab.windlogics.com/internal/polecat/baker/baker-api][OMNI API]]
+  - [[https://gitlab.windlogics.com/internal/empp/empp-api-service][EMPP API Service]]
+  - [[https://gitlab.windlogics.com/internal/empp/empp-ui][EMPP UI]]
+  - [[https://gitlab.windlogics.com/internal/empp/empp-api-job][EMPP API Job]]
+  - [[https://gitlab.windlogics.com/internal/empp/empp-api-scenario][EMPP API Scenario]]
+  - [[https://gitlab.windlogics.com/internal/empp/empp-api-capex][EMPP API Capex]]
+- [[https://omni-dev.nexteraanalytics.com][OMNI Dev]]
+- [[https://omni-demo.nexteraanalytics.com][OMNI Demo]]
+- [[https://omni.nexteraanalytics.com][OMNI Prod]]
+- [[https://myportal.fplu.fpl.com/irj/servlet/prt/portal/prtroot/Redirector.default?cmd=hr4u][HR4U]]
+  - [[http://myportal.fplu.fpl.com/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.fpl.portal.folder.content_provided_by_fpl!2fcom.fpl.portal.folder.business_units!2fcom.fpl.hr.folder.hr!2fcom.fpl.portal.folder.ECC_ESS_MSS!2fcom.fpl.hr.folder.ess_abap!2fcom.fpl.hr.iviews.iviews!2fcom.fpl.hr.iview.enter_time?][Timesheet tool for entering sick leave]] (Open in Chrome)
+  - [[http://myportal.fplu.fpl.com/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.fpl.portal.folder.content_provided_by_fpl!2fcom.fpl.portal.folder.business_units!2fcom.fpl.hr.folder.hr!2fcom.fpl.portal.folder.ECC_ESS_MSS!2fcom.fpl.hr.folder.ess_abap!2fcom.fpl.hr.iviews.iviews!2fcom.fpl.hr.iview.cost_distribution?][WBS Entry Page]] (Open in Chrome)
+- [[https://citrix.nexteraenergy.com/Citrix/NEECitrixWeb/][Citrix Client]]
+- IRDOT UI
+  - [[https://designer-dev.nexteraanalytics.com/iro/#/dashboard][IRDOT UI (Dev)]] (Open in Chrome)
+  - [[https://designer-dev.nexteraanalytics.com/iro/#/batch][IRDOT Dev Batch Scenario dashboard]] (Open in Chrome)
+  - [[https://designer-local.nexteraanalytics.com:4200/#/dashboard][IRDOT local UI]] (Open in Chrome)
+  - [[https://designer-local.nexteraanalytics.com:4200/#/batch][IRDOT Local Batch Scenario dashboard]] (Open in Chrome)
+  - [[https://designer.nexteraanalytics.com/iro/#/dashboard][IRDOT UI (Prod)]] (Open in Chrome)

@@ -1,0 +1,13 @@
+* Bittorrent Sites
+- [[https://thepiratebay.org/index.html][The Pirate Bay]]
+- [[https://www.1337x.to/][1337x]]
+  - [[https://1337x.st/][Alt 1]]
+  - [[https://x1337x.ws/][Alt 2]]
+  - [[https://x1337x.eu/][Alt 3]]
+  - [[https://x1337x.se/][Alt 4]]
+  - [[https://1337x.is/][Alt 5]]
+  - [[https://1337x.gd/][Alt 6]]
+- [[https://nyaa.si][Nyaa Anime Torrents]]
+  - [[https://nyaa.land/][Backup site]]
+- [[https://rutracker.org][RUTracker]]
+- [[https://yts.lt/][YTS]]

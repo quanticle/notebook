@@ -1,0 +1,822 @@
+#+TITLE: Stylus User Styles
+
+* Naval Gazing
+  #+BEGIN_SRC css
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+    #wikiedit textarea, #commentblock textarea {
+        resize: vertical;
+        font-family: Cascadia Code PL, Source Code Pro, monospace;
+        font-weight: 500;
+    }
+  #+END_SRC
+
+* Economist
+#+begin_src css
+  p.article__body-text {
+      font-weight: 500 !important;
+  }
+
+  small {
+      font-weight: 500 !important;
+  }
+#+end_src
+
+* Twitter
+
+#+begin_src css
+  div[aria-label="Timeline: Trending now"] {
+      display: none !important;
+  }
+
+  aside[aria-label="Who to follow"] {
+      display: none !important;
+  }
+
+  a[aria-label="Grok"] {
+      display: none !important;
+  }
+
+  a[aria-label="Premium"] {
+      display: none !important;
+  }
+
+  div[aria-label="Trending"] > div :nth-child(3) {
+      display: none !important;
+  }
+
+  svg[aria-label="Verified account"] {
+      display: none !important;
+  }
+#+end_src
+
+* Marginal Revolution
+#+begin_src css
+  footer.entry-footer {
+      display: none;
+  }
+#+end_src
+
+* Archive.is
+#+begin_src css
+  div[id*="stickypbModal"] {
+      display: none;
+  }
+
+  div.creative__shadow-root {
+      display: none;
+  }
+
+  div[id*="Liqwid_box"] {
+      display: none !important;
+  }
+
+  div[id*="Liqwid_close"] {
+      display: none !important;
+  }
+#+end_src
+
+* theindependent.co.ui
+#+begin_src css
+  div.video.sticky {
+      display: none;
+  }
+#+end_src
+
+* m-w.com
+- All pages
+  #+begin_src css
+    div#AdThrive_Footer_1_desktop {
+        display: none;
+    }
+  #+end_src
+
+* wikia.com
+- All pages
+  #+begin_src css
+    div.ac-lre-ima-ad-wrapper {
+        display: none;
+    }
+
+    div.ac-player-ph {
+        display: none;
+    }
+
+    div.gpt-ad-slot {
+        display: none;
+    }
+
+    div.jw-overlays {
+        display: none;
+    }
+
+    div.jw-wrapper {
+        display: none;
+    }
+
+    div[class*="VideoDetails"] {
+        display: none;
+    }
+
+    div#featured-video__player-container {
+        display: none;
+    }
+  #+end_src
+
+* Hacker News
+- All pages
+  #+begin_src css
+    form[action="comment"] {
+        display: none;
+    }
+
+    div.reply {
+        visibility: hidden;
+    }
+
+    span#karma {
+        visibility: hidden;
+    }
+
+    td.voteLinks {
+        visibility: hidden;
+    }
+
+    span.subline {
+        visibility: hidden;
+    }
+  #+end_src
+
+* Reuters
+- All pages
+  #+begin_src css
+    div[class*="video-player__floating-container"] {
+        display: none;
+    }
+
+    div[class*="sticky-container"] {
+        display: none;
+    }
+
+    div[class*="sticky-player"] {
+        display: none;
+    }
+
+    div#in-article-desktop-video-player {
+        display: none;
+    }
+  #+end_src
+
+* National Review
+- All pages
+  #+begin_src css
+    div.zephr-wrapper {
+        display: none;
+    }
+
+    div.ad-unit {
+        display: none;
+    }
+  #+end_src
+
+* Bloomberg
+- All pages
+  #+begin_src css
+    li[data-component="unordered-list-item"] {
+        display: block !important;
+    }
+  #+end_src
+
+* Ars Technica
+- All pages
+  #+begin_src css
+    div#cne-interlude-1 {
+        display: none;
+    }
+
+    .article-single #social-footer {
+        display: none;
+    }
+
+    section#comments-area {
+        display: none;
+    }
+
+    section.inline-playlist {
+        display: none;
+    }
+
+    div[id*="taboola-below-article-thumbnails"] {
+        display: none;
+    }
+
+    div.comments-hotness {
+        display: none;
+    }
+
+    .article-single aside#social-left {
+        display: none;
+    }
+
+    a.view-comments {
+        display: none;
+    }
+
+    div.single-comment-bubble {
+        display: none;
+    }
+
+    div.staff-picks {
+        display: none;
+    }
+
+    div.component-most-read {
+        display: none;
+    }
+  #+end_src
+
+* Lawfare
+- All pages
+  #+begin_src css
+    ins.adsbygoogle {
+        display: none !important;
+    }
+
+    div#aswift_2_host {
+        display: none !important;
+    }
+
+    div#aswift_3_host {
+        display: none !important;
+    }
+
+    span.left-side-rail-dismiss-btn {
+        display: none !important;
+    }
+
+    span.right-side-rail-dismiss-btn {
+        display: none !important;
+    }
+  #+end_src
+
+* Substack Sites
+- All pages
+  #+begin_src css
+    @font-face {
+        font-family: "EconomistSerif";
+        src: url('https://cdn.design-system.economist.com/assets/7.15.0/common/static/fonts/economist-serif-lf-roman.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    :root {
+        scrollbar-width: unset;
+        scrollbar-color: unset;
+    }
+
+
+    div.available-content {
+        cursor: auto !important;
+    }
+
+    div.post-header {
+        cursor: auto !important;
+    }
+
+
+    div.single-post p {
+        font-family: "EconomistSerif", serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    button[aria-label="View activity"] {
+        display: none;
+    }
+  #+end_src
+- Astral Codex Ten
+  #+begin_src css
+  #+end_src
+
+* The Race
+- All pages
+  #+begin_src css
+    div#disqus_thread {
+        display: none;
+    }
+
+    div.ci-adhesion {
+        display: none !important;
+    }
+
+    div.single-comments {
+        display: none !important;
+    }
+
+    div.viously-sticked {
+        display: none !important;
+    }
+  #+end_src
+
+* Fortune
+- All pages
+  #+begin_src css
+    div[id*="google_ads_iframe"] {
+        display: none !important;
+    }
+  #+end_src
+- Subpages =.*fortune\.com\/.+=
+  #+begin_src css
+    nav[aria-label*="nav-bar"] {
+        display: none !important;
+    }
+  #+end_src
+
+* AnandTech
+- All pages
+  #+begin_src css
+    div.bordeaux-anchored-container {
+        display: none !important;
+    }
+
+    div#taboola-mid-article {
+        display: none !important;
+    }
+
+    div.jwplayer {
+        display: none !important;
+    }
+
+    div.discussion {
+        display: none !important;
+    }
+
+    div[id*=taboola] {
+        display: none !important;
+    }
+
+    div.blog_top_right {
+        display: none !important;
+    }
+
+    div.cont_box1 > div.cont_box1_txt > a {
+        display: none !important;
+    }
+  #+end_src
+
+* Gunnerkrigg Court
+- All Pages
+  #+begin_src css
+    a.important {
+        display: none;
+    }
+  #+end_src
+
+* Effective Typescript
+- All pages
+  #+begin_src css
+    body.post p {
+        font-weight: 500;
+    }
+  #+end_src
+
+* Interfluidity Drafts
+- All pages
+  #+begin_src css
+    body main article div.entry-body div.flexmark.markdown p {
+        font-family: serif;
+    }
+
+    body main article div.entry-body div.flexmark.markdown p a {
+        font-family: serif;
+        font-size: 100%
+    }
+
+    body main article div.entry-body div.flexmark.markdown p em {
+        font-family: serif;
+        font-style: italic;
+    }
+  #+end_src
+
+* devever.net
+- All pages
+  #+begin_src css
+    div#all {
+        background: unset !important;
+    }
+  #+end_src
+
+* TechCrunch
+- All pages
+  #+begin_src css
+    html * {
+        cursor: auto !important;
+    }
+  #+end_src
+
+* Dan Luu
+- All pages
+  #+begin_src css
+    main {
+        width: 50vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+  #+end_src
+
+* Wall Street Journal
+- All pages
+  #+begin_src css
+    div.article-comments {
+        display: none;
+    }
+
+    span[class*="WSJTheme--stats"] {
+        display: none !important;
+    }
+
+    div#opinion {
+        display: none;
+    }
+
+    div#opinion-module {
+        display: none;
+    }
+
+    div[aria-label="Most Popular Opinion"] {
+        display: none !important;
+    }
+
+    div[aria-label="Most Popular News"] {
+        display: none !important;
+    }
+
+    div[aria-label="Recommended Videos"] {
+        display: none !important;
+    }
+
+    div#comments_sector {
+        display: none !important;
+    }
+
+    a[class*="CommentsLink"] {
+        display: none !important;
+    }
+
+    div[data-type="video"] {
+        display: none !important;
+    }
+
+    aside#most-popular-articles {
+        display: none !important;
+    }
+
+    aside#most-popular-opinion-articles {
+        display: none !important;
+    }
+
+    aside#recommended-videos {
+        display: none !important;
+    }
+  #+end_src
+
+* War on the Rocks
+- All pages
+  #+begin_src css
+    div.member-button-container {
+        display: none !important;
+    }
+
+    a[href="https://warontherocks.com/membership/"] {
+        display: none !important;
+    }
+  #+end_src
+
+* Fandom
+- All pages
+  #+begin_src css
+    div#featured-video__player-container {
+        display: none !important;
+    }
+  #+end_src
+
+* Matthew Garrett
+- All post pages
+  #+begin_src css
+    div#comments {
+        display: none !important;
+    }
+
+    ul.entry-interaction-links {
+        display: none !important;
+    }
+  #+end_src
+- Home page
+  #+begin_src css
+    li.entry-readLink {
+        display: none !important;
+    }
+
+    li.entry-replyLink {
+        display: none !important;
+    }
+  #+end_src
+
+* Weather.com
+- All pages
+  #+begin_src css
+    section[aria-label="Advertisement"] {
+        display: none !important;
+    }
+
+    div.jwplayer.jw-reset {
+        display: none !important;
+    }
+  #+end_src
+
+* Bulbapedia
+- All pages
+  #+begin_src css
+    div#adthrive-left-l {
+        display: none !important;
+    }
+
+    div#adthrive-right-l {
+        display: none !important;
+    }
+
+    div.adthrive-footer {
+        display: none !important;
+    }
+
+    div.jw-reset {
+        display: none !important;
+    }
+
+    div.adthrive-sticky-outstream {
+        display: none !important;
+    }
+
+    div#adthrive-collapse-close {
+        display: none !important;
+    }
+  #+end_src
+
+* A Collection of Unmitigated Pedantry
+#+begin_src css
+  div#comments {
+      display: none !important;
+  }
+
+  aside.widget_twitter_timeline {
+      display: none !important;
+  }
+
+  div#infinite-footer {
+      display: none !important;
+  }
+#+end_src
+
+* The Diplomat
+#+begin_src css
+  div[class*="publift-widget"] {
+      display: none !important;
+  }
+#+end_src
+
+* Discord
+#+begin_src css
+  li[class*='messageListItem'] {
+      font-family: 'Cascadia Code PL';
+  }
+
+  div[role='textbox' class*='editor']{
+      font-family: 'Cascadia Code PL';
+  }
+#+end_src
+
+* The Money Illusion
+#+begin_src css
+  div#skyscraper1_position {
+      display: none !important;
+  }
+
+  div#skyscraper2_position {
+      display: none !important;
+  }
+
+  div.no-print {
+      display: none !important;
+  }
+
+  p.commentheader {
+      display: none !important;
+  }
+
+  ol.commentlist {
+      display: none !important;
+  }
+
+  form#commentform {
+      display: none !important;
+  }
+#+end_src
+
+* Havoc's Blog
+#+begin_src css
+  #coreContent p, #coreContent li, #coreContent dd {
+      font-size: 14pt;
+  }
+#+end_src
+
+* Accuweather
+#+begin_src css
+  div.combinedTopAdsSectionWrapper {
+      display: none !important;
+  }
+#+end_src
+
+* Crooked Timber
+#+begin_src css
+  div#comments {
+      display: none !important;
+  }
+
+  p.to_comments {
+      display: none !important;
+  }
+#+end_src
+
+* Questionable Content
+#+begin_src css
+  ins.adsbygoogle {
+      display: none !important;
+  }
+#+end_src
+
+* Merriam Webster
+#+begin_src css
+  div#AdThrive_Footer_1_desktop {
+      display: none !important;
+  }
+#+end_src
+
+* Tom's Hardware
+#+begin_src css
+  div#hammerbot {
+      display: none !important;
+  }
+#+end_src
+
+* In The Pipeline
+#+begin_src css
+  div.news-article-content-footer {
+      display: none !important;
+  }
+
+  article.news-article-content {
+      font-family: "PT Serif", serif;
+      font-size: 1.125rem;
+  }
+#+end_src
+
+* Volokh Conspiracy
+#+begin_src css
+  @font-face {
+      font-family: "EconomistSerif";
+      src: url('https://cdn.design-system.economist.com/assets/7.15.0/common/static/fonts/economist-serif-lf-roman.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+  }
+  div.entry-content p {
+      font-family: "EconomistSerif", serif;
+      font-size: 20px;
+      font-weight: 400;
+  }
+
+  div.entry-content span {
+      font-family: "EconomistSerif", serif !important;
+      font-size: 20px;
+      font-weight: 400;
+  }
+      
+#+end_src
+
+* Defense News
+#+begin_src css
+  div[class*="View__MediaWrapper"] {
+      display: none !important;
+  }
+#+end_src
+
+* git.kernel.org
+#+begin_src css
+  div#cgit div.commit-msg {
+      font-family: "Cascadia Code", "Source Code Pro", "Courier New", monospace;
+  }
+#+end_src
+
+* lore.kernel.org
+#+begin_src css
+  pre {
+      font-family: "Cascadia Code", "Source Code Pro", "Courier New", monospace;
+  }
+
+  pre a {
+      font-family: "Cascadia Code", "Source Code Pro", "Courier New", monospace;
+  }
+
+  pre span {
+      font-family: "Cascadia Code", "Source Code Pro", "Courier New", monospace;
+  }
+#+end_src
+
+* Computers Are Bad
+#+begin_src css
+  body {
+      font-family: "Cascadia Code", monospace;
+      background-color: #919191;
+  }
+
+  pre {
+      font-family: "Cascadia Code", monospace;
+  }
+#+end_src
+
+* Chips and Cheese
+#+begin_src css
+  div.single-post-section {
+      display: none;
+  }
+
+  div.available-content {
+      cursor: auto !important;
+  }
+
+  div.post-header {
+      cursor: auto !important;
+  }
+
+  div.post-footer.use-separators {
+      display: none;
+  }
+
+  button[aria-label="View activity"] {
+      display: none;
+  }
+
+  div.comments-page {
+      display: none;
+  }
+#+end_src
+
+* LWN
+#+begin_src css
+  pre {
+      font-family: "Cascadia Code", monospace;
+      font-size: 13px;
+  }
+
+  tt {
+      font-family: "Cascadia Code", monospace;
+      font-size: 13px;
+  }
+#+end_src
+
+* Arms Control Wonk
+#+begin_src css
+  div.entry-content {
+      font-weight: 500;
+  }
+#+end_src
+
+* Hunterbrook
+#+begin_src css
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+  .sh-article {
+      font-family: Roboto;
+      font-weight: 400;
+  }
+#+end_src
+
+* Windows On Theory
+#+begin_src css
+  body {
+      font-weight: 400;
+  }
+#+end_src
+
+* Stratechery
+#+begin_src css
+  body {
+      font-weight: 500 !important;
+  }
+#+end_src
+
+* MoreCrows
+#+begin_src css
+  body {
+      background-color: #F0F0F0;
+  }
+#+end_src

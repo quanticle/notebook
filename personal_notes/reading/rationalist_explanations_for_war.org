@@ -1,0 +1,369 @@
+#+TITLE: Rationalist Explanations For War
+#+OPTIONS: toc:6
+#+OPTIONS: h:6
+#  LocalWords:  Fearon
+
+Author: James D. Fearon \\
+/International Organization/ Volume 49, Issue 3, Summer 1995 pp. 379-414 \\
+[[https://web.stanford.edu/group/fearon-research/cgi-bin/wordpress/wp-content/uploads/2013/10/Rationalist-Explanations-for-War.pdf][Web Link]] \\
+
+- The central puzzle of war is that it is costly, and yet it recurs with terrible frequency
+- There are three broad categories of scholarly explanation for this apparent paradox
+  1. State leaders are irrational
+     - Subject to biases and pathologies about how their actions will cause war
+     - Don't fully understand how costly wars can be
+  2. State leaders enjoy the benefits of war but the costs are borne by ordinary people
+  3. There are "rational explanations" for war --- even leaders who are rationally calculating the full costs and benefits may choose to go to war
+- This article focuses on the third category of explanation
+- Rationalist explanations occupy a certain pride of place in the International Relations scholarship because they form the foundation for neorealist theories of international relations
+- This article attempts to define what a rationalist explanation for war is, and determine what characteristics a rationalist explanation must have in order to be theoretically coherent and empirically plausible
+- This is an underdeveloped foundational topic of neorealism
+- Too many neorealist theories merely state that the condition of international anarchy is sufficient for war to occur without addressing any of the positive factors that would push states to go to war
+- War is costly and risky, and state leaders know this, so presumably there should be great incentives to find negotiated solutions without using force
+- Furthermore, a rationalist explanation for war should also show why a weaker state wouldn't back down when confronted by a stronger one
+- The article first addresses 5 categories of explanation currently advanced in the neorealist IR literature
+  1. Anarchy
+  2. Expected benefits greater than costs
+  3. Rational preventative war
+  4. Rational miscalculation due to lack of information
+  5. Rational miscalculation due to disagreements regarding relative power
+- Explanations 1, 2, and 3 do not address the question of what prevents state leaders from choosing to bargain, thus avoiding the costs of war
+- Explanations 4 and 5 do address that question, by stating that lack of information or misperceptions regarding relative power cause leaders to miss the superior alternative of a negotiated solution
+- However, those two explanations do not answer why leaders fail to attempt to resolve information deficits via diplomacy or other forms of communication
+- If these standard arguments from the neorealist IR literature do not provide rational reasons for leaders to go to war, then what does?
+- Three causal logics
+  1. Rational leaders have _private information_ about relative capabilities and _incentives to misrepresent_ this information
+  2. _Commitment problems_ --- states are unable to reach an agreement because one or both sides has an incentive to renege
+  3. _Issue indivisibilities_ --- it is simply not tenable to compromise on certain issues
+- Fearon doesn't really buy issue indivisibilty as an actual cause of war
+- In practice, states rarely negotiate over single issues in isolation, and it's often possible for a state to make concessions on other issues in order to secure favorable terms on an issue that is important to it
+- However, it might be the case that certain issues are effectively indivisible, due to domestic political concerns
+
+* The Puzzle
+- Most historians and political scientists believe that wars are wanted
+- The leaders involved viewed wars as a costly but worthwhile gamble
+- Wanted wars are thought to be Pareto-efficient --- no negotiated settlements exist that are preferable to the gamble of military conflict
+- Unwanted wars, where leaders do not want to fight, but are drawn into a fight anyway, are a resolvable and fairly rare puzzle
+- /In fact, I'm not even sure that unwanted wars actually exist/
+- /The example that everyone uses of an unwanted war is World War 1/
+- /However, as later scholarship, such as/ The Sleepwalkers, /shows, World War 1 was actually wanted by many of the leaders who instigated it/
+- This conventional distinction between wanted and unwanted wars misunderstands the puzzle posed by war
+- Doesn't distinguish between ex-ante efficiency and ex-post efficiency
+- War carries costs (however small) for both participants, for which no benefit is returned
+- As a result, war is always inefficient, unless states enjoy fighting for its own sake as a consumption good
+- /Fearon dismisses this explanation out of hand/
+- /In the context of exploring strictly rational neorealist explanations for war, he's arguably right to do so, but in a broader context it is plausible that nations "enjoy" war and fighting/
+- From a rationalist perspective, the puzzle of war is the ex-post inefficiency
+  - Both nations know there will be some cost
+  - Even if there are offsetting benefits, why wouldn't they negotiate to attempt to get the benefits without paying the cost?
+- A rationalist explanation for war must address this question
+- Three of the existing explanations for war, anarchy, preventive war and positive expected utility don't even attempt to address this question
+
+** Anarchy
+- Kenneth Waltz --- /Man, the State, and War/
+- Argues that war occurs because there is no supranational authority present to prevent it
+- Without the presence of a supranational authority that can credibly threaten reprisals for the use of force to settle disputes, states will sometimes be tempted to use force to resolve competing interests
+- However, although a state of anarchy is necessary to explain war, it is not sufficient
+- Using force is a costly option, and the outcome is uncertain
+- Another anarchy-related explanation for war is "security dilemmas"
+  - One state increases its level of armament, in order to render itself more secure against external threats
+  - However, because armaments can be used to attack as well as defend, the surrounding states feel less secure as a result
+  - This leads to security-insecurity spiral where attempts by one state to make itself more secure lead to its neighbors becoming less secure
+  - Then, when the neighbors attempt to improve their own security in response, this leads to the first state becoming less secure
+  - This arms-racing dynamic, in extremis, leads to a state launching preemptive war on another
+- However, the security-dilemma explanation, by itself, still doesn't explain why states can't engage in bargaining in order to address concerns posed by arms build ups
+- We need to show how the condition of anarchy _prevents_ states from writing enforceable contracts to secure peaceful bargains
+
+** Preventive War
+- If a declining power expects to be attacked by a rising power in the future, preventive war may be rational (/see also: Thucydides Trap/)
+- However, this analysis does not consider the possibility that the rising and declining power could construct a bargain that would leave both sides better off than a costly war
+- What stops the rising power from offering concessions while it is still weak?
+- If war is costly, why should the declining power fear war in the future?
+- Once again, anticipated shifts in the balance of power are a necessary explanation for war, but not necessarily sufficient
+
+** Positive Expected Utility
+- The most common informal rationalist explanation for war is that both sides fight when they have positive expected utility for doing so
+- But given that wars necessarily have winners and losers, how is it possible for _both_ sides to have positive expected utility?
+- Furthermore, given that war necessarily imposes some deadweight loss, why should nations fight rather than engage in diplomatic bargaining in order to secure the benefits of war without paying the costs?
+
+** When Will There Exist Bargains Both Sides Prefer To War?
+- Is there any game-theoretic scenario by which two rationally led states could prefer war to any negotiated settlement?
+- Consider two states, \(A\), \(B\), which have preferences over the set \(X = [0, 1]\)
+- \(A\) prefers outcomes closer to \(1\)
+- \(B\) prefers outcomes closer to \(0\)
+- Let the states' utilities for the outcome \(x \in X\) be \(u_A(x)\) and \(u_B(1-x)\)
+- Assume for now that \(u_A(\cdot)\) and \(u_B(\cdot)\) are continuous, increasing and weakly concave
+- This implies that \(A\) and \(B\) are risk-neutral or risk averse
+- Without loss of generality, we can set \(u_i(1) = 1\) and \(u_i(0) = 0\) for \((i = A, B)\)
+- For example, this function might represent the proportion of territory between \(A\) and \(B\) that is controlled by either \(A\) or \(B\)
+- In order to determine whether \(X\) contains negotiated settlements that both sides would prefer to conflict, we must determine how these states evaluate military options versus those outcomes
+- Given that the outcome of war is probabilistic, according to most analyses, this makes expected utility a natural tool for analyzing the outcome of war
+- Suppose that, if the two states fight a war, \(A\) prevails with probability \(p \in [0, 1]\)
+- The winner of the war gets to choose its favored outcome
+  - /If \(A\) wins, it will choose \(1\)/
+  - /If \(B\) wins, it will choose \(0\)/
+- Thus, \(A\)'s expected utility for war is \(pu_A(1) + (1-p)u_A(0) - c_A\) which reduces to \(p - c_A\)
+- Similarly \(B\)'s expected utility for war is \(1 - p - c_B\), where \(c_B\) represents the cost of war for \(B\)
+- Furthermore, we assume that neither \(A\) nor \(B\) derives any material benefit from war, so both \(c_A\) and \(c_B\) are positive
+- Thus, war becomes a costly lottery
+- _Given the assumptions above, there always exists a set of negotiated settlements that \(A\) and \(B\) will prefer to fighting_
+- Proof:
+  - We must show that there exists an interval \( [a, b] \subseteq [0, 1]\) such that
+    - \(\forall x \in [a, b] \quad u_A(x) \ge p - c_A\) and
+    - \(\forall x \in [a, b] \quad u_B(1-x) \ge 1 - p - c_B\)
+  - To do this
+    - Choose \(\epsilon\) such that \(0 \lt \epsilon \lt \mbox{min}\{c_A, c_B\}\)
+    - Define
+      - \(a = \mbox{max} \{0, p - \epsilon\} \)
+      - \(b = \mbox{min} \{p + \epsilon, 1\} \)
+    - Take any \(x' \in [a, b]\)
+    - Because \(u_A(\cdot)\) is weakly concave: \(u_A(x') \ge x' \hspace{1ex} \forall x \in [0, 1]\)
+    - Furthermore \(x' \gt p - c_A\) because \(x' \ge a \ge p - \epsilon \gt p - c_A\) by definition
+    - Thus \(u_A(x') \gt p - c_A\)
+  - We can follow a similar process to show \(u_B(1 - x') \gt 1 - p - c_B\) for all \(x' \in [a, b]\)
+- For example, in the risk-neutral case, \(A\) and \(B\) will prefer any settlement within \( \left(p - c_A, p + c_B\right) \) to fighting
+- Concrete example:
+  - Assume \(A\) and \(B\) are negotiating over $100
+  - If \(A\) and \(B\) can come up with a split that they both agree to, they each get the share that they agreed to
+  - However, each player also has an outside option: for $20 they can go to war
+  - If they win, they can keep the entire $100
+  - For the purpose of this example, let's assume the players are equally matched and each has a \(p = 0.5\) probability of winning, and neither is risk averse
+  - By the formula above, the expected value of war is $30 for each side, so neither side has an incentive to accept any bargain that sees them walk away with less than $30
+  - However, there is still a large range of outcomes: \( \left[$31, $69\right] \), where both sides are strictly better off than if they chose to go to war
+- Risk aversion broadens the range of acceptable outcomes even further
+- The existence of this ex-ante bargaining range derives from the ex-post inefficiency of war
+- Three substantive assumptions are necessary for this result, none of which seems especially counterintuitive
+  1. The states should understand that there is some "true" probability \(p\) of victory
+     - States may disagree over what \(p\) is
+     - However, the fact that \(p\) exists (even if its true value is unknown) implies that there is some range of outcomes whose expected utility is strictly preferable to going to war
+  2. States are risk-averse or risk-neutral
+     - Given the choice between 50-50 split and a 50% chance at all or nothing, states should be at worst neutral on the choice
+     - In other words, states should not prefer going to war and losing over an even split
+     - A risk accepting leader is one that choose to gamble repeatedly, with the expected outcome of total loss
+     - Even if we admit that such a leader may be rational, these sorts of leaders seem to be rare, with Hitler being a notable possible exception
+     - /I like how, for any IR theory, you always have to carve out an exception for Hitler/
+  3. There is a range of acceptable outcomes
+     - There are always feasible bargains between the states reservation levels, \(p - c_A\) and \(p + c_B\), respectively
+     - However, if the issue is not divisible (for example: choosing which successor sits on a throne) then small estimated costs and bad luck may result in a rational case for war
+     - The counterargument to the above is that states can always add money to the equation, or link multiple issues together in order to make divisible "baskets" out of individually indivisible issues
+     - Furthermore, if the issue is truly indivisible, then a system of random allocation or alternation could be just as preferable as going to war --- indeed Mafia dons have been known to set up lotteries to allocate construction contracts between their affiliated companies
+     - In practice however, linkages with other issues, cash compensation, or alternation seems very difficult to propose to states that are engaged in a conflict
+     - For example: the Franco-Prussian War was over a dispute over who would get to sit on the Spanish throne
+     - Although it seems possible for France and Prussia to have decided to have their respective candidate alternate sitting on the Spanish throne, to do so would have violated so many norms and conventions (both international and domestic) that it would have been an unworkable solution
+     - Similarly, in the late-19th and 20th centuries, it has become far more difficult for rulers to exchange territory by treaty or purchase, because of the rise of nationalism, and the increasing recognition of the inviolability of national borders
+     - However, all of these are external mechanisms to the issues themselves --- there is nothing, _in principle_, preventing leaders from linking issues together or adding side-payments to create divisibility for apparently indivisible issues
+     - Thus, the question remains: how is war possible between two nations led by strictly rational actors?
+
+* War Due To Private Information And Incentives To Misrepresent
+- One common reply to the above question is that war is the result of rational miscalculation
+- State leaders overestimate the chances of success against an adversary and thus have a disagreement about relative power that can only be solved by war
+- Another argument is that state leaders lack information about an adversary's willingness to fight over an issue, and thus underestimate the chance that any given challenge may lead to war
+- However, neither of these arguments addresses the fact that states can communicate with one another
+- Thus war cannot solely be explained by insufficient information --- there must also be an incentive to prevent information exchange that would prevent war
+- The mainstream IR literature takes for granted that states have incomplete information and incentives to misrepresent private information, but doesn't fully integrate these background conditions into explanations for war
+
+** Disagreements About Relative Power
+- In the example above, if both sides perceive that they would prevail in a war, then neither side will accept less than $80 out of the total $100
+- In other words, there is no range of negotiated outcomes that would be preferable to war
+- For this condition to hold \(A\) has to have an expected win probability of \(p\) and \(B\) has to have an expected win probability of \(r\) and \(p + r \gt 1\)
+- But how is this possible when we posit that both states are led by rational actors?
+- The current literature explains these conflicting probabilities as mistakes caused by human irrationality
+  - Nationalist rhetoric could irrationally bias leaders about the relative power of their military forces
+  - The outcome of war is the result of many complex interacting factors, and different nations may interpret the consequences of the interactions of new technologies, doctrines, and tactics differently on the outcome of battle
+  - State leaders may have private information about their own military capabilities, civil society's willingness to support a war, and third-state intentions that cause them to have a different probability of victory than their adversary
+- Under conditions of strict rationality, only the third condition may be admitted as a cause for war
+- Under conditions of strict rationality, agents with the same information must arrive at the same probabilities, per Aumann's Agreement Theorem
+- The second explanation above (differing opinions about the interaction of various forces on the outcome of war) could be a cause for war under conditions of bounded rationality --- leaders have differing abilities to reason about the outcome of war
+- However, the scope of this paper is to look at conditions of full rationality, rather than bounded rationality, so we will be assuming that Aumann's Agreement Theorem holds
+- The rationalist account of how differing estimates of the probability of winning arise seems empirically plausible
+- States certainly do have access to private information that they do not share with other states
+- However, rationalist leaders should understand that the other side _also_ has access to private information, and thus their own estimates of the probability of victory are suspect
+- In principle, both sides should prefer to exchange information until they arrive at a consensus estimate about their respective probabilities of victory, a process that, as we proved above, will necessarily reveal a range of negotiated outcomes that would leave each side better off than if they fought a war
+- Thus the question of what could lead states to have differing estimates of their probability of victory devolves to the question of what prevents states from sharing private information about factors that might influence victory in war
+
+** War Due To The Miscalculation Of An Opponent's Willingness To Fight
+- Another extant explanation for war in the literature is that wars arise because \(A\) transgresses \(B\)'s interests out of a mistaken belief that \(B\) will not go to war to defend those interests
+- Though rationally led, \(A\) happens to guess wrong about \(B\)'s willingness to fight and stumbles into war
+- Possible examples
+  - Germany underestimating Russia and Britain's willingness to fight in 1914
+  - Japanese leaders underestimating the US's willingness to fight in 1941
+  - The US underestimating the depth of China's support for North Korea in 1950
+- This explanation shows how states can go to war despite having accurate estimates of each others' relative power
+- Formal model
+  - Given a status quo, \(q \in X\)
+  - \(A\) chooses a revision, \(x \in X\) and presents it to \(B\) as a fait accompli
+  - Note that \(x = q\) is possible i.e. \(A\) chooses _not_ to do anything about the status quo
+  - The other state \(B\) has an choice of whether to go to war or acquiesce
+  - If neither state has private information, then the optimal outcome for \(A\) is to push the outcome so that it's just short of \(B\) reservation price, \(p + c_B\), leaving \(B\) in a state where it's just short of willing to go war
+  - However, if \(B\) has private information about the cost that it's willing to pay, \(c_B\), then \(A\) will not know if a particular demand \(x\) will lead to war
+  - If \(A\) cannot learn \(B\)'s private information about the price it's willing to pay for a war, and if the cost of war to \(A\) is relatively low, then the optimal demand \(x\) for \(A\) will produce a positive chance for war
+    - Assume state \(B\) has a cost of war, \(c_B\)
+    - \(c_B\) is drawn from a cumulative distribution function \(H(z)\) on the non-negative real numbers with a positive density function \(h(z)\) and a non-decreasing hazard rate \(h(z) / (1 - H(z))\)
+    - \(B\) can observe \(c_B\), but \(A\) cannot
+    - \(A\) moves first, issuing a demand \(x \in [0, 1]\)
+    - If \(B\) chooses to fight, then the expected payoffs are \(\left(p - c_A, 1 - p - c_b\right)\) as discussed above
+    - if \(B\) chooses not to fight, then the expected payoffs are \(\left(x, 1 - x\right)\)
+    - This "take-it-or-leave-it" game has a unique perfect Bayesian equilibrium where \(A\) demands \(x^*\) and \(B\) fights if and only if \(c_B \lt x - p\)
+    - \(x^*\) is defined as follows:
+      - \(x^* = p\) if \(h(0) \gt 1/c_A\)
+      - \(x^* = 1\) if \(\frac{h(1 - p)}{1 - H(1 - p)} \lt \frac{1}{p + c_A}\)
+      - Otherwise \(x^*\) is the unique solution to \(\frac{h(x - p)}{1 - H(x - p)} = \frac{1}{x - p + c_A}\)
+  - Thus if \(c_A\) is small, \(A\) will submit a revision that will cause \(B\) to go to war
+- The important thing to not there is that, unlike many standard IR explanations for war, this does not require states to misunderstand their strength relative to each other
+- The only thing they need to misunderstand is the value that the other state puts on the issues at stake, relative to the costs of fighting
+- Thus it seems we have a second plausible cause for war, again based on the notion of private information
+- However, the same objection as above applies --- why don't states ask each other if they're willing to go to war over a particular demand?
+- Once again we ask, what prevents states from sharing private information in order to reveal the range of negotiated solutions that would leave both sides better off than if they went to war?
+
+** Incentives To Misrepresent In Bargaining
+- While states wish to avoid the inefficiency of war, they also seek to obtain a resolution of the issues that is in their interests
+- This leads to an incentive for states to exaggerate their willingness or ability to fight
+- States also have an incentive to conceal their true military capabilities, if they think that doing so would make them less vulnerable to a first strike
+- There may also be domestic or international political pressure to avoid appearing as an aggressor, leading states to downplay their own military capabilities
+- A drawback of the simple bargaining model given above is that \(B\) has no opportunity to reply diplomatically to \(A\) --- all \(B\) can do is accept \(A\)'s revision or fight
+- However, giving \(B\) the opportunity to make a diplomatic reply, \(f\) to \(A\)'s action doesn't alter the outcome very much
+  - We assume that \(f\) is _cheap_, in other words, it has no effect on either side's payoffs
+  - Suppose that \(A\) conditions \(x\) on \(f\)
+  - Then \(B\) has an incentive to reply with an \(f\) that leads to the smallest demand from \(A\), regardless of \(c_B\)
+  - Thus \(A\) learns nothing from the announcement
+- This conclusion changes slightly if there is a real cost to making \(f\) (i.e. building weapons, mobilizing troops, signing alliances, etc.)
+- However, even if the signal is costly, there still remains a residual risk of miscalculation
+- Sending a costly signal may risk revealing too much about a state's actual willingness or ability to fight
+- A good example of the above model is the July Crisis that lead up to the outbreak of World War 1
+  - German leaders received communication from Russia that Russia would fight rather than acquiesce to Austro-Hungarian demands
+  - However, German leaders dismissed this communication as "bluster", indicating that they believed that Russia was overstating its willingness to go to war
+  - Similarly, German leaders also had incentives to underplay their own willingness and ability to go to war, in order to avoid appearing as the aggressor for supporting Austria-Hungary
+  - As a result, British leaders didn't understand the need to send costly signals about British willingness to fight until fairly late in the crisis
+- While the World War 1 example illustrates miscalculations resulting from misrepresentations about the willingness to fight, the 1904 Russo-Japanese War illustrates miscalculations resulting from disagreements about relative power
+  - On the eve of the war, Russian generals believed that their troops would almost certainly win a war against Japan
+  - However, at the same time, the Japanese chiefs of staff estimated a 50-50 chance of prevailing if they attacked immediately
+  - Thus the two sides had probabilities of victory that summed to more than 1
+  - Furthermore, this disagreement is cited as a major cause of Russian intransigence in the lead-up to the war --- Russia simply did not believe that Japan would dare attack its territory
+  - Although the Tsar was not eager for a war with Japan, he simply did not see the utility of making concessions from a perceived position of greater military strength
+  - The Japanese, however, had a clearer picture of Russian strengths and weaknesses compared to their own, and drew a different conclusion
+  - However, there was no way for Japan to reveal this information to Russia
+    - Russia would not have believed Japan
+    - Revealing the extensive information that the Japanese had on Russian forces would have caused Russia to alter the disposition of those forces, thus changing the probability of victory
+- The combination of private information about capabilities and will, combined with a strategic incentive to misrepresent these, leads to a tenable rationalist explanation for war
+  - States have incentives to avoid costly wars
+  - However, they also have incentives to do well in international bargaining
+  - These incentives mean that states cannot always use private communication to reveal mutually preferable settlements
+  - It might be that the only way to surmount these communication barriers is to take actions that could plausibly result in war
+- This incentive structure has two further consequences
+  - States have an incentive to project that the costs of war are lower than they really are, and that they have wider interests than they actually do
+    - A leader might choose to force a war in order to avoid having to make further concessions in the future
+    - Vietnam and Korea were examples of this, due to the "domino theory" that suggested that failure to fight in Vietnam and Korea would lead to the Communist bloc angling for further concessions down the line
+    - Similarly, weaker states might fight losing wars in order to develop a reputation for being hard to subjugate --- Finland is a good example of this
+    - In both instances, war itself is a costly signal about privately known and otherwise unverifiable information about willingness and ability to fight
+  - On the flip side, states might seek out war in order to credibly reveal private information about military capabilities
+    - This is different than above, because in the above, the war is perceived as essentially "defensive" --- undertaken to avoid having to make further concessions in the future
+    - Here, war is "offensive" --- states seek out war in order to demonstrate their military might in order to credibly reveal military capabilities in order to credibly bargain for concessions in the future
+    - /One example of this is the Gulf War, where the US demonstrated its military might not just to gain concessions from Iraq, but also to credibly reveal its superior military to the world, thus advantaging it in negotiations in the future/
+
+* War As A Consequence Of Commitment Problems
+- A second, somewhat different mechanism that could lead to war is the inability of states to trust each other to uphold a bargain
+- This mechanism holds even if states share sufficient information with one another to reveal the common set of shared negotiated settlements that would be preferable to war
+- In this category of explanations, structural anarchy re-emerges as a salient factor, though for reasons that are somewhat different than in the traditional IR literature
+- In standard security dilemma and "spiral model" arguments, the mutual suspicions and lack of trust engendered by anarchy emerge from states' inability to observe each others' motivations or from the knowledge that motivations can change
+- In contrast, this paper shows that lack of supra-national means of contract enforcement can lead to war even when states have fixed utility functions that are perfectly known to one another
+
+** Preemptive War And Offensive Advantages
+- Consider two gunslingers in the Old West
+  - Each would prefer to kill the other by stealth, with no possibility of retaliation
+  - However, absent that opportunity, each would prefer to leave the other alone in peace
+  - A gunfight endangering both lives is the worst of the possible outcomes, from the perspective of the gunslingers
+  - Absent an external means of enforcement, though, a gunfight may be unavoidable
+  - Neither party can credibly commit to avoid shooting the other in the back
+  - Because the loser in this scenario is permanently eliminated, iterated strategies such as tit-for-tat are infeasible
+- This situation analogizes to the choices states face over preemptive war
+  - If military technology or geography happens to create large advantages for first-strikes, then states might face the same problem as the gunslingers
+  - 3 ways of interpreting offensive advantage
+    - \(p\) of victory is greater if a state strikes first than if it defends
+    - Costs of fighting are lower for attackers than for defenders (i.e. \(c_A\) is lower if \(A\) is the attacker)
+    - Offensive advantages might increase the variance of outcomes, making total victory or total defeat more likely at the expense of stalemate scenarios
+- The "gunslinger problem" only arises under the first interpretation of offensive advantage
+  - Let \(p_f\) be the probability of \(A\)'s victory conditional on attacking first
+  - Let \(p_s\) be the probability of \(A\)'s victory conditional on defending or attacking second
+  - Let \(p\) be the probability of \(A\)'s victory conditional on \(A\) and \(B\) attacking each other simultaneously
+  - An offensive advantage exists when \(p_f \gt p \gt p_s\)
+  - Since states can always choose to attack if they wish, a peaceful bargain is only possible if neither side would gain by defecting unilaterally and attacking
+  - Given risk neutrality, for a given bargain \(x\), we must have
+    - \(x \gt p_f - c_A\) for \(A\) to prefer not to attack
+    - \(1 - x \gt 1 - p_s - c_B\) for \(B\) to prefer the negotiated outcome
+  - Thus outcomes are stable so long as \(p_f - c_A \lt p_s + c_B\)
+  - Therefore, the stable range of outcomes can be represented as the interval \(\left(p_f - c_A, p_s + c_B\right)\)
+  - As \(p_f\) increases or \(p_s\) decreases, this interval shrinks and eventually disappears entirely
+  - In the extreme case, when \(p_f - p_s \gt c_A + c_B\), no stable outcomes exist
+  - This does not mean that there are no outcomes that would be preferable to war --- rather it means that any agreement on one of those outcomes is unenforceable
+- Does this logic provide an empirically plausible explanation for any wars?
+  - We rarely find leaders talking about first-strike advantages completely eliminating the prospect for bargaining and enforceable agreements
+  - Rather, what we find is that perceived offensive advantages narrow the range of acceptable outcomes and exacerbate other causes of war
+  - This narrowing makes it more difficult to come up with a basket of issues or side payments that would make indivisible issues divisible
+  - Exacerbates the problems caused by misrepresentations of military power and willingness to fight
+
+** Preventive War As A Commitment Problem
+- In his history of European diplomacy from 1848 to 1918, historian A.J.P. Taylor argues that every major war between Great Powers has arisen as a preventive war, not a war of conquest
+- Within the rationalist framework outlined in this paper, preventive war arises from a commitment problem created by the international state of anarchy
+- The offensive advantage model can be adapted to study preventive war
+- Assume state \(A\) has the opportunity to choose the resolution of issues in an infinite number of successive periods
+- In period \(t = 1, 2, \ldots\), \(A\) can attempt a fait accompli, issuing demand \(x_t\)
+- Upon seeing \(x_t\) \(B\) can either choose to accept the demand or go to war
+- Given time period \(t\), \(A\) will win a war in that time period with probability \(p_t\)
+- Assume states are risk neutral and that there are "no takebacks" (i.e. the winner of the war gets to implement its resolution for all time periods in the future)
+- Assume that future payoffs are discounted by a factor \(\delta \in \left(0, 1\right)\)
+- These modifications extend the one-period bargaining game described above over an infinite horizon case where military power can vary over time
+- It's important to note than even in the infinite horizon case, war remains an inefficient outcome
+  - If states go to war in period \(t\), the expected payoffs are \(\frac{p_t}{1 - \delta} - c_A\) for \(A\) and \(\frac{1 - p_t}{1 - \delta} - c_B\) for \(B\)
+  - There will always exist peaceful settlements which the states would prefer implemented in every period from \(t\) onwards rather than go to war
+- The strategic dilemma here is that \(A\) may not be able to offer a credible commitment of future behavior that makes \(B\) not want to go to war in the future
+  - Assume \(A\)'s probability of victory starts at \(p_1\) and increases to \(p_2 \gt p_1\)
+  - Under anarchy, \(A\) cannot credibly commit to not using the greater bargaining power offered by the change in the balance of power reflected by \(p_2 \gt p_1\)
+  - Under equilibrium conditions, \(A\) will demand \(x_t = p_2 + c_B \left(1 - \delta \right)\) in periods \(t = 2, 3, \ldots\)
+  - In period \(t = 1\), \(B\)'s choice is between acquiescing to demand \(x_1\) or going to war
+  - This yields an expected payoff of \(1 - x_1 + \delta \frac{1 - x_2}{1 - \delta}\)
+  - In the maximal case, \(A\) reduces \(x_1\) to zero
+  - This makes the payoff to \(B\) for acquiescence \(1 + \delta \frac{1 - x_2}{1 - \delta}\)
+  - Therefore, if \(\delta p_2 - p_1 \gt c_B (1 - \delta)^2\), the payoff for \(B\) for going to war in \(t_1\) will exceed the payoff for acquiescence
+  - In other words, if \(A\)'s military power increases sufficiently (and therefore \(p_{t+1}\) is sufficiently larger than \(p_{t}\), then the expected payoff for a preemptive attack will exceed \(B\)'s discounted cost for war
+  - This is entirely due to the fact, that, in a state of anarchy, \(A\) cannot credibly commit to limiting its demands once its power grows
+- Several things are notable about this analysis
+  - There is no uncertainty --- both \(A\) and \(B\) have perfect information about each others' power, both now and into the future
+  - The declining state doesn't attack first because it fears attack, but rather because it fears having to accept an unfavorable bargain
+  - The lack of trust between states in this scenario is not due to insufficient information, nor of changing motivations
+  - Instead, the war arises from states' inability to enforce future commitments, which then leads to incentives to renege
+- This kind of commitment problem was key to the decision by German and Austrian leaders to go to war in 1914
+  - Feared increasing military strength of Russia
+  - Felt that allowing Russia to increase its military strength would allow Russia to more securely pursue its pro-Slav foreign policy, which would, in turn, cause domestic unrest in the Austro-Hungarian Empire
+  - In theory, Tsar Nicholas could have cut a deal with the Hapsburg monarchy in which it would have pledged to not push a pro-Slav policy in the Balkans
+  - However any such deal would have been totally unenforceable
+  - Both sides knew this, and thus no such deal was ever proposed
+- Although it's unlikely that preventive war concerns directly lead to World War 1, it's probable that they exacerbated the risk factors that led to the war
+
+** Commitment, Strategic Territory and the Problem of Appeasement
+- The objects that states fight wars over are often themselves sources of military power
+- Chief among these is territory
+- Prior to this point, the paper has been treating territory as a divisible, fungible good
+- However in reality, that isn't the case --- certain pieces of territory, such as the Golan Heights, offer much greater military advantages than others
+- Thus the transfer of territory could significantly advantage the other side in a future conflict
+- However, the underlying cause of war here is not the indivisibility of territory per se, but rather the inability of states to make credible future commitments
+- Example: 1939 Winter War between Finland and the Soviet Union
+  - Ostensible cause of the war was Finland's refusal to transfer some tiny islands that Stalin believed were vital to the defense of Leningrad
+  - Finland, however, believed that there was no guarantee that Stalin wouldn't use the transfer as a pretext for demanding further territorial concessions in the future
+  - Stalin's inability to commit himself led to a costly war that both sides wished to avoid
+  - /But did they? Stalin, at least, seems to have been rather indifferent about the prospect of war against Finland, believing that the Red Army would have no trouble gaining territory by force if the Finns refused to give up the territory willingly/
+
+* Conclusion
+- There are two major claims in this article
+  - There is always a negotiated settlement that presents less costs to states than war
+  - However, states are often unable to locate this negotiated settlement because of
+    - Private information about resolve or capability and incentives to misrepresent private information
+    - Inability of states to commit to upholding a deal
+- There are two potential criticisms to this theory
+  - We don't have any evidence that states actually engage in rational analysis of this sort before deciding to go to war
+    - The fact that rational bases for war exist doesn't invalidate the idea that states go to war for reasons of irrationality or bounded rationality
+    - We need to understand what causes war under the "ideal" case of rational unitary (billiard ball) states in order to explore the effects of irrationality or bounded rationality on real-world decision-making
+    - Indeed, this analysis may cause us to increase the estimate of the effect of irrationality, if we see that states rarely express ideas about future commitment problems or private information
+  - Anarchy and private information are constant factors in the sphere of international relations, so why do some crises lead to war while others are resolved with diplomacy?
+    - This model identifies the variables that lead to war
+    - However, the specific values that are assigned to those variables in the context of a particular crisis is a topic for further analysis
+- This paper has shown how idealized unitary rationalist states can still come to a positive decision to go to war, even though there always exists theoretical negotiated solution that both sides would prefer to war

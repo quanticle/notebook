@@ -1,0 +1,80 @@
+#+TITLE: LaTeX Notes
+
+* LaTeX preamble for ordinary documents
+#+begin_src latex
+  \documentclass[letterpaper, 12pt]{article}
+  \usepackage{palatino}
+  \usepackage{graphicx}
+  \usepackage{amsmath}
+  \usepackage[margin=1in]{geometry}
+  \begin{document}
+  \end{document}
+#+end_src
+
+* Special characters that need escaping
+- =_= -- Underscore
+- =#= -- Hash
+- =$= -- Dollar sign
+
+* Normal text in math mode
+- =\textrm{text}=
+
+* Remove Page Numbers
+- To remove page numbers for the entire document: =\usepackage{nopageno}=
+
+* Headings
+- Top level headings should be =\section=
+- Second level headings should be =\subsection=
+- Third level headings should be =\subsubsection=
+- To omit numbers from headings, use the starred forms, e.g. =\section*=
+
+* Lists
+- Numbered lists are made with =\enumerate=
+- Bulleted lists are made with =\itemize=
+- Within each list, list items are defined with =\item=
+- Nesting lists more than four deep requires you to define your own list environment with the =enumitem= package
+  #+begin_src latex
+    \usepackage{enumitem}
+    \newlist{longenum}{enumerate}{5}
+    \setlist[longenum,1]{label=\Roman*.}
+    \setlist[longenum,2]{label=\Alph*.}
+    \setlist[longenum,3]{label=\arabic*.}
+    \setlist[longenum,4]{label=\alph*.}
+    \setlist[longenum,5]{label=(\roman*)}
+  #+end_src
+- Then use =\longenum= to create the list
+
+* Centering Text
+- =\begin{center} centered text \end{center}=
+
+* Images
+- Graphics are handled with the =graphicx= package
+- The main command to include an image is =\includegraphics=
+- Mandatory argument is a file name
+- Takes in a number of other arguments regarding scaling and rotation
+  - =scale= --- (/number/) scale factor by which the image should be blown up or shrunk
+  - =width= --- (/length/) width to which the image should be scaled
+  - =height= --- (/length/) height to which the image should be scaled
+  - =keepaspectratio= --- (/true or false/) whether the aspect ratio of the image should be preserved through scaling
+- Images should be in JPEG or PNG format
+
+* Change Font
+- To get additional fonts, look at the LaTeX font catalogue: https://tug.org/FontCatalogue/
+- To load additional fonts into your document
+  - Install the appropriate font (usually packaged as =texlive-<font name>=)
+  - Load the the =fontenc= package with the appropriate options (specified in the font catalog)
+  - Load the package for the font
+- To use a custom font size that is not one of the pre-defined LaTeX font sizes, you should define a new environment
+  #+begin_src latex
+    \newenvironment{custom-font-size}{\fontsize{font-size}{baseline-skip}\selectfont}{}
+  #+end_src
+
+* XeLaTeX
+- [[https://www.overleaf.com/learn/latex/XeLaTeX][Tutorial]]
+- XeTeX is another distribution of LaTeX, like pdfLaTeX
+- Aims to bring modern font technologies to LaTeX
+- To set the font of a XeLaTeX document, invoke the =\setmainfont= command
+  - =\setmainfont{Times New Roman}=
+  - =\setmainfont{Merriweather}=
+- To include additional fonts in a XeTeX document, use the =\font= command
+  - ~\font\1=

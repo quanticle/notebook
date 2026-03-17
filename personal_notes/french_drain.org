@@ -1,0 +1,51 @@
+#+TITLE: French Drain
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+
+- [[https://www.homedepot.com/c/ah/how-to-install-a-french-drain/9ba683603be9fa5395fab9012cc2665][Instructions from Home Depot]]
+- [[https://www.youtube.com/watch?v=hms1xg291T0][Home Depot Tutorial Video]]
+- [[https://www.youtube.com/watch?v=wPkMB7qlUSo][Another Tutorial Video]]
+- [[https://deerbuilder.com/DB/features/foodplots/draintile/][Another person documenting building a larger french drain/drain tile to drain a farm plot]]
+- [[https://reid-pederson.com/blog/drain-tile-101/][French drains are the same as drain tiles]]
+
+
+* Instructions
+- Dig a trench approximately 18 inches deep and 9 - 12 inches wide
+- Trench should slope downwards at least 2 inches for every 10 feet of length
+- Will probably need to rent a backhoe/excavator to dig the trench
+- Line the trench with water-permeable filter fabric
+- Leave the filter fabric open with at least 10 inches of excess filter fabric along the sides
+- Pour and compact at least 3 inches of gravel bedding or landscaping stone on top of the filter fabric
+- Install inlet grate at the top of the trench
+- Lay pipe in the trench, making sure that the perforations are pointed downwards
+- Test water flow by pouring water into the top of the pipe and verifying that it comes out the bottom
+- Cover the pipe with approximately another 3 inches of gravel or crushed stone --- however make sure that the top of the gravel remains below ground level
+- Wrap the excess filter fabric over the top of the gravel covered pipe for additional protection
+- Backfill the remainder of the trench with topsoil and compact
+- When backfilling, cover the top of the inlet grate with some excess filter fabric to ensure that dirt and stones don't fall into the drain
+- Reseed the surface with grass or cover with landscaping stone as desired
+
+* Alternative Instructions
+- Use [[https://www.ndspro.com/us/en/products/drainage/french-drain-systems/ez-flow-french-drains][NDS EZFlow]] prefabricated french drain sections
+- Same instructions as above, but skip the gravel steps, as the prefab drain sections are wrapped with polystyrene pellets that mimic gravel
+
+* Digging a sloped trench
+- Put in stakes and stretch mason's string between them to mark out the trench
+- Adjust the string so that it's level
+- Divide the trench into segments, and set the depth for each segment
+- Dig each segment of the trench
+- Then use some of the leftover dirt to smooth out the steps between each segment
+
+* Equipment
+- Rental locations
+  - Highway 55 rentals
+  - Sunbelt Rentals
+- [[https://www.55rental.com/equipment.asp?action=category&category=40&key=040%2D0079][Bobcat E10 mini excavator]]
+  - 12" dig width
+  - 6' dig depth
+  - $270 per day
+  - $1080 per week

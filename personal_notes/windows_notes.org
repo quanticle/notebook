@@ -1,0 +1,87 @@
+* Windows Notes
+
+** Windows License Keys
+- My laptop: =M6TDM-XJNH7-K9X9Q-V979F-K4R9G=
+- Dad's laptop: =ND2PF-T7JXF-DGCMF-PFPGT-3V66T=
+- Mom's computer: =BNJBJ-4CJ2J-BG3KM-F2PW8-GVJXG=
+
+** Windows Package Manager
+- I use the scoop package manager:
+  #+BEGIN_EXAMPLE
+    Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+  #+END_EXAMPLE
+- Packages to install:
+  - =fd=
+  - =ag=
+  - =coreutils=
+- Note that scoop has current versions of most things, including but not limited to
+  - JetBrains tools (note: IntelliJ IDEA is listed as =idea=)
+  - =ffmpeg=
+  - =yt-dlp=
+  - =mpv=
+- To view packages that have updates: =scoop status=
+- To update a single package: =scoop update <package name>=
+- To update all packages: =scoop update *=
+
+** View the list of attendees of a Microsoft Teams meeting
+- [[https://support.microsoft.com/en-us/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310][Source]]
+- During the meeting
+  - Open the participants pane (if it's not already open) by selecting "Show Participants" in the meeting controls
+  - Select the down arrow icon next to "People" to download the current attendance info as a =.csv=
+- After the meeting
+  - Go to =Calendar=
+  - Open the meeting
+  - Select the =Attendance= tab
+  - For recurring meetings, click on the hamburger menu to see a dropdown list of the last ten recurrences to view the attendance list for a particular recurrence
+  - Alternatively, go into the =Chat= tab, and you'll see an =Attendance Report= tile that will let you download the attendance list as a CSV file
+  - Or, go into the =Details= tab and you'll be able to see the meeting attendance report
+- Note: this only applies to meeting organizers --- non-organizers can't download attendance reports
+
+** Set up WSL
+- In an admin PowerShell, run =wsl --install=
+
+** yt-dlp error
+- =nsig extraction failed: You may experience throttling=
+- To fix this error, install PhantomJS: =scoop install phantomjs=
+
+** mpv config file location
+- =scoop= puts mpv's config file location in a non-standard location
+- =C:\Users\quant\scoop\persist\mpv-git\portable_config\mpv.conf=
+
+** Set emacs' home directory correctly
+- =$env:HOME=$HOME=
+- =runemacs.exe=
+
+** Microsoft Edge Import Bookmarks From Firefox
+- Menu → Settings → Import From Another Browser
+
+** Remove Edge tabs from alt-tab switcher
+- Windows Settings → System → Multitasking
+
+** Flush the DNS cache
+- =ipconfig /flushdns=
+
+** Windows Sandbox configuration
+- To launch a program in a Windows sandbox, create an XML file with a =.wsb= extension
+- =.wsb= file format
+  - =<Configuration>= → root tag, has to be at the beginning of the file
+  - To enable GPU access: =<vGPU>[Enable | Disable]</vGPU>=
+    - =Enable= → enable GPU access
+    - =Disable= → disable GPU access
+  - To enable/disable Networking: =<Networking>[Disable | Default]</Networking>=
+    - =Disable=: Disables networking
+    - =Default=: Puts sandbox behind a virtual switch
+  - To map folders from the host machine
+    #+begin_example
+      <MappedFolders>
+        <MappedFolder>
+          <HostFolder>[Absolute path to host folder]</HostFolder>
+          <SandboxFolder>[Absolute path to folder in the sandbox]</SandboxFolder>
+          <ReadOnly>[true | false]</ReadOnly>
+        </MappedFolder>
+        ...
+      </MappedFolders>
+    #+end_example
+    - =<SandboxFolder>= is optional, if none is specified the host folder will be mapped to the desktop of the sandbox
+    - =<ReadOnly>= is optional, defaults to =false=
+  - =<MemoryInMB>[value]</MemoryInMB>= → determines how much memory will be allocated to the sandbox

@@ -1,0 +1,36 @@
+* Shower Cartridge Replacement
+
+- My shower cartridge: =Delta RP-19804=
+
+** Directions
+1. Turn off water at main
+   - Turn off mains water
+   - Turn off output from hot water heater
+2. Drain pipes by running, in order
+   1. Kitchen faucet
+   2. Lower bathroom faucet
+   3. Upstairs bathroom faucet
+   4. Shower
+3. Take faceplate off shower knob
+4. Remove screw
+5. Remove shower knob
+6. Remove trim sleeve with strap wrench
+7. Use strap wrench to loosen bonnet nut holding the shower cartridge in place
+8. Grab valve cartridge firmly and wiggle it to get it to come loose (/this might take a lot of pulling and fiddling/)
+   - /Helps to use the strap wrench to gain additional grip/
+9. Install the new cartridge, making sure the hot side is to the *left*
+10. Adjust the spacer on the new cartridge to set the maximum temperature of the shower
+11. Reinstall bonnet nut and tighten by hand fully
+12. Reinstall trim sleeve
+13. Reinstall shower knob
+14. Reattach shower knob screw
+15. Reinstall shower knob faceplate
+16. Turn water back on
+
+** Further shower noise
+- Shower making same noise as prior to cartridge replacement
+- Lower pitch and volume
+- Turning on the faucet makes the noise go away
+- Noise comes back instantly when faucet is shut
+- Shower also emits a high pitched hissing noise
+- Thought noise was normal, but it also goes away when I turn on the faucet, and comes back when I turn the faucet off

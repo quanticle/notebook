@@ -1,0 +1,187 @@
+#+TITLE: Org to pmwiki exporter
+
+* References
+- [[https://github.com/quanticle/ox-pmwiki][Link to ox-pmwiki repo]]
+- [[https://www.pmwiki.org/wiki/PmWiki/MarkupMasterIndex][PMWiki Markup reference]]
+- [[https://www.pmwiki.org/wiki/PmWiki/TextFormattingRules][Detailed list of PMWiki text formatting rules]]
+
+
+* Ordered list renumbering
+- Org-mode allows ordered lists to start from other than 1
+- PMWiki has the same functionality, by prefixing the item with =%item value=<counter>=
+
+* Images
+
+** Images In pmwiki
+- How do we add images to PMWiki pages?
+  - First upload the image to the wiki by appending =?action​=upload= to any page that has image uploads enabled
+  - Then reference the image with =Attach:<image name>=
+- For the purpose of ox-pmwiki, we can assume that the user will handle uploading the images, so all we need to do is write the =Attach:= syntax
+- To make an image that's a link to another image (i.e. a thumbnail) use =[[Attach:image.jpg | Attach:image_thumbnail.jpg]]=
+
+** Images in org-mode
+- Image links already work if they're HTTP(S) links
+- The only thing I need to convert are file links
+- Right now, file links are supported with the following code:
+  #+begin_src elisp
+    (defun org-pmwiki-link (link desc info)
+      "Transcode a LINK element into pmwiki format.
+    DESC is the description part of the link, or the empty string. INFO is a plist
+    used as a communications channel.
+
+    Note that, for now, only internet (i.e. http(s), ftp, mailto) and file links are
+    supported. ox-pmwiki assumes that if the user links to an org-file, they will
+    also be uploading that file as a wiki page with the page name as the file name,
+    and thus translates file links into wikilinks to the file name."
+      (let ((type (org-element-property :type link))
+            (raw-path (org-element-property :path link)))
+        (cond
+         ((member type '("http" "https" "ftp" "mailto"))
+          (let ((encoded-path (url-encode-url (concat type ":" raw-path))))
+            (if desc
+                (format "[[%s | %s]]" encoded-path desc)
+              encoded-path)))
+         ((string= type "file")
+          (let ((wiki-page-name (file-name-sans-extension
+                                 (file-name-nondirectory path))))
+            (if desc
+                (format "[[%s | %s]]" wiki-page-name desc)
+              (format "[[%s]]" wiki-page-name)))))))
+  #+end_src
+- Right now, the =file= case assumes that the only files that I'll be linking to are other org files
+- Need to update it to look at the extensions of the file name and determine whether the file is an image or whether the file is something else
+- Supported image types:
+  - =gif=
+  - =jpg=
+  - =png=
+- To get the extension of a file name: =(file-name-extension FILE)=
+- While handling width attributes would be nice, it's not necessary initially if we can handle images linking to images
+- If the file is of one of the supported types, I need to turn the link into the =Attach:= syntax with the file name
+- New =file= link logic:
+  - If the extension is =org=, then turn the link into a wiki link
+  - If the extension is one of the supported image types, turn the link into an =Attach:=
+  - It turns out that we don't actually need to do anything special with the description --- if it's a =file:=, then =ox= treats it as a nested link and runs the link handler recursively on the description
+
+** Image Captions
+- Captions are handled by =org-html-paragraph=
+  #+begin_src elisp
+    ((org-html-standalone-image-p paragraph info)
+     (let ((caption
+            (let ((raw (org-export-data
+                        (org-export-get-caption paragraph) info))
+                  (org-html-standalone-image-predicate
+                   #'org-html--has-caption-p))
+              (if (not (org-string-nw-p raw)) raw
+                (concat "<span class=\"figure-number\">"
+                        (format (org-html-translate "Figure %d:" info)
+                                (org-export-get-ordinal
+                                 (org-element-map paragraph 'link #'identity info t)
+                                 info nil #'org-html-standalone-image-p))
+                        " </span>"
+                        raw))))
+           (label (org-html--reference paragraph info)))
+       (org-html--wrap-image contents info caption label)))
+  #+end_src
+- Standalone images are paragraphs that only contain an image
+- How does =org-html-standalone-image-p= work?
+  - If the element is a paragraph, uses the element
+  - If the element is a link, grabs the parent element
+    - /I don't understand this part --- why would =org-html-standalone-image-p= get called from the link handler?/
+    - Looks like calling =org-html-standalone-image-p= from the link handler has something to do with how math and LaTeX environments are handled
+    - /I don't think I need to deal with this just yet/
+  - Runs =org-element-map= over the contents of the paragraph, retrieved with =org-element-contents=
+
+* Paragraphs
+- PMWiki expects paragraphs to be all on one line
+- So I need to remove newlines from the contents of the paragraph
+
+* Tables
+
+** How does PMWiki define tables?
+- PMWiki defines simple tables with =||=
+  - The first line of the table defines the table properties:
+    #+begin_example
+      || border=1
+    #+end_example
+  - Subsequent lines define the table contents
+    #+begin_example
+      || border=1
+      || cell 1 || cell 2 || content 3 ||
+      || row 2 cell 1 || row 2 cell 2 || row 2 cell 3 ||
+    #+end_example
+  - Note that there isn't a specific formatting marker to end the table
+  - To create a header cell, demarcate the cell with =||!=
+  - Alignment
+    - To left-align contents, include no spaces preceding the content, and include a space succeeding: =||contents ||=
+    - To center align contents, include a space preceding and succeeding the content: =|| contents ||=
+    - To right-align contents, include a space preceding, but no space succeeding: =|| contents||=
+- PMWiki defines complex tables with [[https://www.pmwiki.org/wiki/PmWiki/TableDirectives][table directives]]
+  - Create a new table with =(:table :)= and close it with =(:tableend :)=
+    - The =table= element can have the table-wide attributes
+    - =border=
+    - =width=
+    - =bgcolor=
+    - =cellspacing=
+    - =cellpadding=
+  - Header rows
+    - The first cell in a header row is defined with =(:headnr :)=
+    - Subsequent cells are defined with =(:head :)=
+  - Data rows
+    - The first cell in a new row is defined with =(:cellnr :)=
+    - Subsequent cells are defined with =(:cell :)=
+- I can't use table directives to define tables, because tables defined with table directives can't be nested inside lists
+
+** How does ox-html handle tables?
+- Look at these three functions:
+  - =org-html-table=
+  - =org-html-table-row=
+  - =org-html-table-cell=
+- Alignment is handled by =org-export-table-cell-alignment=
+
+** How should ox-pmwiki handle tables?
+- Very similar to how =ox-html= handles tables
+- Create =org-pmwiki-table=, =org-pmwiki-table-row= and =org-pmwiki-table-cell=
+- =org-pmwiki-table= will be responsible for the initial =||= with the table-wide attributes
+- =org-pmwiki-table-row= will practically be a no-op
+- =org-pmwiki-table-cell= will handle
+  - Outputting the contents of each cell
+  - Cell alignment
+- =org-pmwiki-table cell= needs to know whether it is part of a header row
+  - If part of a header row, output =||!= with the cell contents
+  - Otherwise just output =||=
+- I can use =org-export-table-cell-address= to get the a =(row . col)= (0-indexed) of the cell
+- To get the total dimensions of the table, I can use =org-export-table-dimensions=
+
+* Superscript and Subscript
+
+** PMWiki representation
+- Superscript: =^text^=
+- Subscript: =_text_=
+
+** Org-export
+- I need to create =org-pmwiki-superscript= and =org-pmwiki-subscript= functions to handle the =superscript= and =subscript= elements, respectively
+
+* Internal Links
+- Org allows for links to other headings within the same page
+- How does =ox-html= handle this?
+- Let's assume, for now, that internal links are to headings only not arbitrary text
+- =ox-html= assigns an ID to every headline that it exports, even if the headline isn't being referred to in a cross-reference
+  - Generates IDs with =(org-html--reference headline info)=
+- Uses =org-html--reference= to get the =href= for the link
+  - Calls =org-element-type= to get the type of the object
+  - If the type is =headline= or =inlinetask=, it calls =(org-element-property :CUSTOM_ID datum)= to get the custom ID for the headline, if it has one
+  - Otherwise it looks for an =:ID= property ont the datum
+  - If it has neither a =:CUSTOM_ID= nor an =:ID= property, it calls =org-export-get-reference=
+- =org-html--reference= comes up with stable IDs for org objects
+- I need a =org-pmwiki--reference= function that is simpler than =org-html--reference=
+  - Needs to only handle headlines
+  - Check if headline has a =:CUSTOM_ID= property
+  - If it does, use that
+  - Otherwise call =org-export-get-reference=
+- I need to update the headline generation code so that it adds the ID as an anchor for the headline
+  - To create an anchor target in PMWiki: =[[#target]]=
+
+* Categories
+- I need to add an option that allows the user to add category tags to exported pages
+- In order to add a category tag to the generated output, I need to put =[[!<category>]]= into the rendered output
+- The PMWiki documentation says that this directive can occur anywhere on the page, but I think putting it below the title would be best

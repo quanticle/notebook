@@ -1,0 +1,23 @@
+#+TITLE: Lawn Chair Painting
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+* Materials
+- Wire brushes
+- Sanding sponges
+- WD-40
+- Steel wool
+- Spray paint
+- Paper towels
+- Safety goggles
+- Masks
+
+* Procedure
+- Wear masks and safety goggles
+- Soak rusty areas with WD-40 and let stand for a few minutes
+- Scrub with sanding sponges, wire brushes and steel wool
+- Wipe clean with paper towels
+- Apply new paint

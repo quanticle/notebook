@@ -1,0 +1,8 @@
+.projectile
+*.html
+*.md
+*.bak
+*.odt
+*.xml
+*.tex
+*.eld

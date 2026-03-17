@@ -1,0 +1,203 @@
+#+TITLE: First Strike: China's Missile Threat To US Bases In Asia
+#+OPTIONS: toc:1
+
+Authors: Thomas Shugart, Javier Gonzalez\\
+Center for a New American Security\\
+[[https://s3.us-east-1.amazonaws.com/files.cnas.org/hero/documents/CNASReport-FirstStrike-Final.pdf][Web Link]]\\
+
+* Introduction
+- The threat that Chinese missiles pose is not primarily against US aircraft carriers
+- The threat is against US bases in the region
+- A preemptive strike against US bases in the region is a possibility, if the Chinese leadership thinks that deterrence against the US has failed
+- Chinese doctrine indicates that China believes that there is a significant first-mover advantage to its precision-strike capabilities
+- Modeling and simulation suggests that a Chinese first strike could have devastating consequences for US power projection in the Western Pacific
+
+* The People's Liberation Army Rocket Force: Precision Strike With Chinese Characteristics
+- The People's Liberation Army Rocket Force (PLARF) was originally founded as the PLA 2nd Artillery Corps
+- Initially tasked with operating the ballistic missiles that served as China's nuclear deterrent
+- After seeing the effects of US precision strike during the Gulf War, the force added conventionally armed ballistic missiles to its remit
+- The PLA has adopted a "projectile-centric" approach to precision strike
+  - Focus on increasing the range and accuracy of individual projectiles
+  - This is in contrast to the US strategy of keeping sophisticated guidance and navigation capabilities in reusable platforms (such as aircraft or submarines)
+- Minimizes the PLA's weakness in platform capabilities
+- Takes advantage of the lack of US and allied strategic depth in East Asia
+- Maximizes the advantage that China gets due to its relatively lower munitions production costs
+- Made possible by a gap in international law caused by Chinese non-participation in the Intermediate Nuclear Forces treaty
+- In 2015, after a long period of expansion, the 2nd Artillery Corps was elevated into a co-equal branch of the PLA military: the PLA Rocket Force
+- The PLARF's doctrine calls for a range of deterrence, compellence and coercive missions
+- Firepower strikes against an enemy's strategic rear areas
+  - Command centers
+  - Communication hubs
+  - Radar stations
+  - Air force and naval facilities
+  - Transport and logistical facilities
+  - Fuel depots
+  - Carrier strike groups
+- Chinese military writings on conventional missile strikes stress the need for surprise
+- While it is unlikely that China will undertake a true "bolt-from-the-blue" attack, preemptive missile strikes at the commencement of hostilities are consistent with China's "active defense" policy
+- "Active defense" considers any activities undertaken by an adversary with the goal of violating China's territorial integrity or sovereignty as the equivalent of a "strategic first shot"
+- Therefore, the Chinese leadershipe reserves the right to respond militarily to political actions that they feel would lead to violations of China's territorial integrity
+  - Ex: declaration of independence by Taiwan
+- China's doctrine is similar to that of the Soviet Union, in that it assumes a defensive posture strategically while committing to retain the initiative at the operational and tactical levels
+- Takes a holistic view of countering US weapons platforms by striking at their supporting infrastructure as well as the platforms themselves
+- The Chinese have sought to build a force capable of accomplishing something that the Soviet Union sought, but was was never able to achieve
+  - Strategic effects via coordinated strikes against enemy bases, logistics and command posts
+  - Without the use of nuclear weapons
+
+* Coming Of Age
+- According to the US Department of Defense, China currently fields
+  - 1,200 short-range ballistic missiles (SRBMs, 1,000 km max range)
+  - 200 - 300 medium-range ballistic missiles (MRBMs, 3,000 km max range)
+  - An indeterminate number of intermediate-range ballistic missiles (IRBMs, 5,500 km max range)
+  - 200 - 300 ground-launched cruise missiles (GLCMs, 1,500+ km max range)
+- In addition to raw numbers, the PLA Rocket Force has been making improvements in munitions quality and targeting
+  - Flechette submunitions for use against missile launchers, parked aircraft and ships in port
+  - Penetrating submunitions for use against runways, hardened shelters and underground fuel tanks
+- The Chinese plan appears to be to use an initial wave of ballistic missiles to crater runways, neutralize air defenses and cripple command centers
+- Follow-on strikes, conducted by cruise missiles and aircraft, would focus on hardened aircraft shelters and maintenance facilities
+- These capabilities may have already been tested
+  - Satellite imagery of PLA missile test ranges in the Gobi Desert shows a range of test targets representing the objectives that China would seek to strike with its missiles
+    - Air and missile defense batteries
+    - Runways
+    - Electrical power facilities
+    - Hardened shelters and bunkers
+  - While initial assessments of Chinese missiles indicated that they may not have had the necessary accuracy to destroy hardened aircraft shelters, improvements in accuracy mean those initial assessments are likely no longer accurate
+- The Chinese military has not been especially secretive about its advancing missile capabilities
+  - During the military parade commemorating the 70th anniversary of the founding of the PLA, the PLARF paraded the DF-26 "Guam-killer" IRBM with its identification number printed in English
+
+* Pearl Harbor 2.0
+- In 2010, Toshi Yoshihara, writing for the US Naval War College, wrote that PLA publications indicated that PLA was practicing strikes against US naval targets in port
+- Most notably targeting Yokosuka, Japan
+- /This is what I don't understand, though: by targeting Yokosuka, which is close to Tokyo, China would be guaranteeing Japanese entry into any potential conflict between itself and the United States/
+- Images taken in 2013 show a Chinese missile range target set up to resemble the configuration of moored Arleigh Burke-class ships in Yokosuka
+- This indicates that China believes that its first strike will be a surprise against the United States, because that is the only scenario in which it makes sense for the the US to have its ships moored at harbor
+
+* The Realm of the Possible? Operational Analysis of a Preemptive Missile Strike
+- Chinese missiles have the ability to strike US fixed assets in the Western Pacific with conventional warheads
+- Does China have sufficient capacity to carry out an effective preemptive strike
+- To determine whether China has the capacity, the authors of the report
+  - Examined the categories of targets mentioned in PLARF doctrine
+  - Conducted a "red team" exercise to determine what US and allied forces' fixed assets would be targeted
+  - Assessed numbers and types of missiles required to conduct an effective strike against the target set
+  - Compared these numbers and types to open-source inventories of PLARF inventories
+  - Attempted to model the effects of US and allied missile defenses against such a strike
+  - Attempted to model the damage that a preemptive strike would have on its targets
+- The goals of a preemptive strike were assumed to those from published PLARF doctrine
+  - Inflicting paralysis on the enemy's command system
+  - Weakening the enemy's military strength and its ability to continue operations
+  - Creating psychological shock
+  - Checking the enemy's ability to intervene in conflicts close to China
+- The authors assume that the primary goal of a preemptive strike would be to prevent intervention by the United States in a Taiwan or South China Sea conflict scenario
+- In order to accomplish this, China would launch its most powerful attack at the outset of the conflict
+  - Gain initiative
+  - Gain air and sea dominance
+  - Prevent the deployment of US reinforcements to existing bases
+- China would also likely seek to minimize the effects of such strikes on Japan's civilian population
+  - Drive a political wedge between the US and Japan
+  - Seek a "Finlandization" of Japan, where Japan chooses to assume neutrality after seeing the devastation that Chinese missile strikes have wrought on US bases
+- China would likely choose not to strike Korean assets, as that would result in a distracting second front
+- China would likely choose not to strike Guam
+  - Minimize conflict escalation by avoiding striking US territory directly
+  - Guam is a relatively hard target to hit because of its distance from mainland China and its layered missile defenses
+
+* Red-Team Target Selection Methodology and Results
+- The Red-Team target selection exercise compiled a list of possible PLARF targets in the following categories
+  - Strategic and campaign command centers
+  - Communication hubs
+  - Radar stations (limited to missile defense radars)
+  - Other command and control hubs
+  - Logistical facilities specifically related to the US armed forces' logistical needs
+  - Energy facilities directly supporting US air and naval forces
+  - Electrical power stations and power distribution infrastructure directly serving US bases, as well as on-base backup power systems
+  - Air defense systems, especially air defense systems defending major US bases in Japan
+  - US air bases, with a focus on fuel tanks, control centers, hangars, hardened shelters, runways and aircraft parking areas
+  - US naval bases, with a focus on drydocks, local command centers, fuel tanks and moored ships
+- The list ran to over 500 specific potential targets
+- Although this list is undoubtedly incorrect in the specifics, it does provide a rough sense of the planning challenge the PLARF faces in determining what targets to hit and how to hit them
+
+* Assessment of Required Inventory
+- The assessment of the numbers and types of missiles required to effectively execute a preemptive strike builds upon the RAND Corporation's 2015 study, /The US-China Military Scorecard/, which included a detailed numerical analysis of China's ability to attack Kadena Air Force Base on Okinawa
+- Assumptions for PLARF attacks on air force bases
+  - 50 foot CEP for runway cratering missiles
+  - Each critical aimpoint (runways, command centers, air defense units, hangars and hardened shelters) to be hit by at least two ballistic or cruise missiles
+  - 150 meter submunition radius for cluster munitions attacking aircraft parking areas with a 30% margin to cover irregularities in parking area shapes
+  - Each runway and taxiway targeted with enough aimpoints to ensure that there are no unbroken lengths of pavement longer than 5000 feet
+  - PLARF will attack using current doctrine
+    - Initial wave of ballistic missiles to crater runways, destroy air defense units, and trap aircraft on the ground
+    - Second wave slower cruise missiles to destroy hangars and hardened shelters
+  - USS /Ronald Reagan/'s air wing has completed its migration from Atsugi to Iwakumi, Japan
+- Assessments of attacks against US naval bases assume that 40% of US Navy ships will be at sea at any given time
+- Attacks of logistical facilities, communication hubs and electrical power facilities assume a 50m blast radius and 1 cruise missile per fuel tank
+- Under the above assumptions, the authors assess that a preemptive missile strike against the target list selected by the red-team analysis would require
+  - 170 DF-15 and 60 DF-16 SRBMs to attack Kadena Air Base and other facilities on Okinawa
+  - 60 DF-21 MRBMs to attack the US naval bases at Sasebo and Yokosuka, along with the air bases at Misawa, Iwakuni and Yokota
+  - 430 cruise missiles to attack various other less time-sensitive targets
+- Chinese inventories are more than adequate to support this initial strike
+  - 1200 SRBMs of various types
+  - 200-300 conventionally armed MRBMs
+  - Between 200-300 ground-launched cruise missiles and between 450 and 1250 air-launched cruise missiles (/very wide range on the ALCM estimate/)
+- The PLARF's launch capabilities are not likely to be limited by the number of launchers in their possession because launchers can be built more easily than missiles
+- China's missile testing program indicates that inventories of MRBMs are towards the high-end of the estimate, as it is unlikely that China would choose to expend a significant portion of its MRBM inventory on test launches
+
+* Strike Modeling and Simulation
+- Two different methodologies were used to assess the effectiveness of US air and missile defenses against this first-strike scenario
+- Spreadsheet approach to estimate how many missiles might be intercepted by US and allied missile defenses with the following assumptions
+  - All missile defense systems have a single-shot kill probability of 80%
+  - Defenses will ripple-fire two interceptors against each incoming missile in order to enhance the probability of a successful intercept
+  - Chinese missiles will not include any decoys or penetration aids
+  - Chinese missile forces will likely time their attacks such that all ballistic missiles arrive at their targets nearly simultaneously, in order to overwhelm missile defenses
+  - Assumptions re: missile defense capabilities
+    - Patriot PAC-3 radars can provide guidance information for up to 9 interceptors at a time
+    - THAAD radars can provide guidance information for up to 10 interceptors at time
+    - Post-intercept damage assessments are perfect --- no interceptor attempts to engage debris from a previous successful interception
+    - No degradation of probability of successful interception with increasing range
+    - Each Patriot PAC-3 battery has 5 launchers with 16 interceptors per launcher (80 total)
+    - Each THAAD battery has 6 launchers with 8 interceptors per launcher (48 total)
+    - Ships with ABM capabilities each have 20 SM-3 interceptors in their inventory
+- Simulation software
+  - Command: Modern Air and Naval Operations (CMANO)
+  - Used by analysts in the US Air Force and Navy
+  - /I wish I got paid to model US-China conflict scenarios in a video game/
+  - Used the software's scenario editor to model a potential Chinese first strike scenario
+  - Additional assumptions made for the simulation-based approach
+    - Placement of US and Japanese Patriot PAC-3 missile batteries in the locations given by open-source intelligence
+    - One THAAD battery in South Korea, which would be presumably avoided by Chinese missiles going towards Japan
+    - Each airbase has a number of fighters assigned to it based on estimates
+    - Each airbase has a number of larger aircraft (transports, airborne early warning, tankers) assigned to it based on Google Earth imagery
+    - Simulation software automatically assigns aircraft to hardstand, hangar or hardened shelters and adjudicates damage or destruction when missiles hit the base
+    - PLARF brigades were placed at known locations, and additional brigades were created in the simulation to give the PLARF sufficient launchers to carry out the first strike scenario described above
+    - PLARF would launch cruise and ballistic missiles simultaneously, in order to avoid alerting defenders
+    - Attack takes place at night, in moderate weather conditions
+    - Use simulation software's built-in assessments of weapon characteristics
+  - Simulation was run multiple times to generate an average outcome
+
+* Results of Modeling and Simulation
+- Under both approaches, enough ballistic missiles made it past defenses to cause significant damage
+  - Almost every fixed headquarters and logistical facility was struck
+  - Almost every US ship at pierside was hit
+  - Extensive runway cratering
+  - As a result of runway cratering, significant numbers of US aircraft were trapped on the ground and vulnerable to cruise missile strikes, leading to over 200 aircraft lost in the first hours of a conflict
+- Although there are several Patriot missile batteries in place to defend Kadena Air Base and other facilities on Okinawa, they would be swiftly overwhelmed by Chinese short-range ballistic missiles
+- Japanese missile defenses are oriented to protect Japanese cities against a missile attack from North Korea rather than protecting Japanese and US military facilities against a much larger missile attack from China
+- No missile defenses around Sasebo naval base or Iwakuni airfield
+
+* Operational Implications: The Need For Enhanced Deterrence Measures
+- The US needs to take further action to protect its bases against a preemptive PLARF strike
+- Deploy more missile defenses to Japan in order to create a more robust layered missile defense system
+  - More Patriot batteries
+  - Deploy THAAD to Japan
+  - Task Aegis cruisers with ballistic missile defense patrols
+- To test the efficacy of additional missile defense, the authors re-ran simulations with the following defensive enhancements
+  - Two dedicated ballistic missile defense ships, armed with significant numbers of SM-3 Block II-A interceptors
+  - 5 THAAD batteries, and the conversion of existing TPY-2 missile defense systems to THAAD
+  - Dedicated Patriot PAC-3 batteries to defend Sasebo and Iwakuni
+  - Modifying Patriot doctrine to fire one interceptor per missile
+- Although missile defenses on Okinawa would eventually still be overwhelmed by the sheer number of Chinese SRBMs, the damage would be significantly reduced
+- Almost all missiles headed for the rest of Japan would be successfully intercepted
+- This would allow US aircraft to take off and provide defense against cruise missiles
+- Would also allow moored US ships to bring up their defenses and move away from fixed, targetable locations
+- The only thing more expensive than building enhanced ballistic missile defense in Japan may be not doing so
+- BMD is expensive, requiring billions of dollars, but building better BMD saves potentially tens of billions of dollars and thousands of lives
+- Provides a margin of safety that would sow doubt in the minds of Chinese leadership about whether to even carry out such a strike
+- US and Japanese forces should conduct more exercises to practice coordinated missile defense
+- US and Japanese command centers should practice rapid evacuation and continuity of command plans --- warning time will be on the order of ten minutes, leaving no margin for hesitation or error

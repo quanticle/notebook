@@ -1,0 +1,65 @@
+* Weekly Dev Meeting
+
+** 2022-01-18
+- Tanner
+  - New UI proposal
+    - =react-jsonschema-form=
+      - Doesn't handle union types very well - doesn't handle discriminating field as the option very well
+      - Problem is that every field is going to require customization
+      - Not a great way to group UI fields
+      - Outdated material UI
+      - Validation is a concern
+        - API makes a distinction between schema validation and manual validation
+        - Manual validation is for data that can't be validated by a schema
+          - Example: if a battery is attached to a generator, it should be validating the correct generator
+        - If we don't rely on =react-jsonschema-form=, we can do more complex validation
+    - Could we use a schema-based approach, but not with this package?
+    - Seems less and less likely that the IRDOT API will be tied back into the main IRDOT UI
+    - Right now we have to double-implement a lot of things - once for the UI and once for the API
+    - If we have a new UI tied to the API directly, we can implement things in the API and maybe redirect users to the new UI for that feature, instead of having to reimplement the feature in the main UI every time
+    - Right now there's a lot of customization up front that's needed to make the components acceptable, but in the future, API changes shouldn't require a lot of work
+      - Change order of fields
+      - Maybe implement a custom field here and there
+    - Will this really get us to a point where we need to eliminate additional coding for API changes
+      - Won't eliminate additional coding entirely, but should reduce the amount of UI code for API changes
+      - We can add the field to the API and just accept the changes in the UI
+    - The bigger goal of this exercise is for the IRDOT user to be able to run a scenario from start to finish in one run
+      - Right now they have to set up a scenario, then configure batch, and then configure which specific batch scenario they want to run layout for
+      - The goal of the API is to allow this use case for OMNI, but DG isn't going to use OMNI
+    - What is the potential endgame? Will we eventually deprecate the existing IRDOT UI?
+      - This approach could coexist with the existing UI, handling the streamlined simple path
+      - Over time we could gradually move more and more features, but we don't know how likely that will be
+    - If we port things to react in a one-by-one fashion, we could get rid of some unnecessary complexity
+    - We can use =react-jsonschema-form= if the scope of what DG is asking for is small enough
+      - How much customization is DG asking for?
+        - Custom generators
+        - Custom NCF
+    - Get a meeting with Crosby to get direction from product
+      - What does DG actually want to do? How complex is their use case?
+      - What is the long-term vision for the IRDOT UI? Is the future vision more heavily focused on the API, or do we expect to maintain the API and the current UI over the next 2-3 years?
+    - When is DG looking for a production release? -- it's a quarterly goal for them, so we need to have this done by March
+  - From follow-up meeting
+    - The customers for this new UI are the current users of SDOT
+    - What we want is a one-page form that replicates the SDOT experience in IRDOT
+    - How does our work change if the data science team can do some of the permutation work in the optimizer?
+    - Our understanding is that some of the batch parameters will always be in batch
+    - The reason we run the base scenario before doing batch is because we don't want the user to submit a batch without knowing how long the base scenario will take to simulate
+    - We don't want to recreate the IRDOT API; the API already does orchestration, so whatever we come up with should use the IRDOT API to handle orchestration
+    - Can we add a new generator type?
+    - Does the API use the same JSON structure as the UI?
+      - The API generates the same JSON as the UI, but starts with a much more simplified schema
+    - Can we make the API have an endpoint that takes in an already-generated optimizer schema
+      - /How will this affect validation?/
+    - Will creating a standalone UI be faster than adding this UI to our existing UI?
+    - Investigate how much work it would be to add the new UI as a separate page in the existing IRDOT UI
+- Tom
+  - "Optimize For" in the advanced settings
+    - The "Optimize For" setting is getting moved out "Advanced Settings"
+    - Will simplify the UI
+  - Angular upgrade
+    - Was able to get us up to Angular 13 for the most part
+    - Enable lazy loading of modules - reduce the number of templates that Angular needs to compile in order to render a page
+    - Hot module replacement is working a bit better too
+    - Angular 13 drops support for IE11 - is that going to be a problem for us?
+    - Do we want to release just the Angular upgrade, or do we want to put in the modularization work too, given that the upgrade will require a full regression test anyway?
+    - Will be easier to sell the upgrade if we break it up into the smaller chunks

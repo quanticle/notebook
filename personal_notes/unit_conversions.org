@@ -1,0 +1,44 @@
+#+TITLE: Unit Conversions
+#+OPTIONS: num:nil
+#+OPTIONS: h:6
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+
+* Weight/Mass
+- 1 ounce = 28.34 g
+- 1 pound = 0.453 kg
+- 1 ton = 0.907 metric tons
+
+* Volume
+- 1 cu. in. = 16.387 cubic cm
+- 1 fl. oz. = 29.57 mL
+- 1 cup = 236.592 mL
+- 1 pint = 0.473 L
+- 1 quart = 0.946 L
+- 1 gallon = 3.785 L
+
+* Area
+- 1 acre = 4046.87 sq. m
+- 1 acre = 0.404687 hectare
+- 1 square inch = 6.4516 sq. cm
+- 1 square foot = 0.09290 sq. m
+
+* Length
+- 1 inch = 2.54 cm
+- 1 foot = 30.48 cm
+- 1 yard = 0.91 m
+- 1 mile = 1.61 km
+
+* Temperature
+- Fahrenheit to Celsius: \(c = \frac{5}{9}\left(f - 32\right)\)
+- Celsius to Fahrenheit: \(f = \frac{9}{5}c + 32\)
+
+* Time
+- 60 seconds = 1 minute
+- 3600 seconds = 1 hour
+- 1440 minutes = 1 day
+- 86400 seconds = 1 day
+- 168 hours = 1 week

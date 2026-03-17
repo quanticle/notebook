@@ -1,0 +1,188 @@
+#+OPTIONS: toc:6
+#+TITLE: Escalation Management & Nuclear Employment In Russian Military Strategy
+[[https://warontherocks.com/2020/06/escalation-management-and-nuclear-employment-in-russian-military-strategy/][War on the Rocks]]
+
+June 23, 2020
+
+- New Russian policy on nuclear weapons
+- /[[http://publication.pravo.gov.ru/Document/View/0001202006020040?index=0&rangeSize=1][Principles of State Policy of the Russian Federation in the Sphere of Nuclear Deterrence]]/
+- Intentionally ambiguous on key considerations
+- Proposes a spectrum of nuclear employment options and strategies
+- Does not resolve the debate over the role of nuclear weapons in Russian war strategy
+- Does Russia
+  - Plan to use nuclear weapons early in order to compel war termination ("escalate to de-escalate")
+  - Plan to take steps to ensure "escalation control" --- ensure that conflicts are contained at lower, non-nuclear levels
+- Neither of the above points of view fully captures Russian thinking on nuclear weapons
+- CNA's Russia studies program finished an analysis of Russia's strategy for intra-war deterrence
+  - Consulted a representative sample of over 700 Russian-language articles from military publications
+  - Found that the Russian defense establishment has developed a coherent escalation management strategy integrating conventional weapons, non-strategic nuclear weapons and strategic nuclear weapons
+- Russia does have a plan for limited nuclear war, but it is not a simplistic "escalate to de-escalate" model
+
+** What Problems is Russia's Nuclear Strategy Solving?
+
+- Russian military doctrine breaks conflicts into the following types, ordered in terms of increasing intensity
+  1. Armed conflict
+  2. Local war
+  3. Regional war
+  4. Large scale war
+  5. Nuclear war
+- Note that nuclear war, in the Russian typology, is a large scale nuclear exchange or strategic retaliatory strike
+- /In other words, not all wars that involve the use of nuclear weapons, are nuclear wars/
+- This analysis doesn't look at nuclear war as the Russians define it
+- Instead it looks at the potential for escalation and the use of nuclear weapons in
+  - Local wars: limited conflict between two states
+    - Russo-Georgian War of 2008
+    - Russo-Ukrainian War of 2014
+  - Regional war: coalition-sized fight representing the smallest version of a Russia-NATO conflict
+  - Large scale war: war between Great Powers involving multiple theaters or regions
+- The purpose of Russia's escalation strategy is to
+  - Deter aggresssion
+  - Prevent conflict expansion
+  - Prevent or preempt highly damaging attacks against the Russian homeland
+  - Terminate hostilities on terms favorable to Russia
+- Since the 1980s, Soviet, and later Russian, strategists have been grappling with the "precision revolution"
+  - Primary fear is that of a mased aerospace attack with precision conventional weapons
+  - Such an attack could
+    - Paralyze the military
+    - Cause catastrophic damage to critical infrastructure
+  - In more recent times, the fear of this kind of attack has been coupled with fears around political destabilization operations
+  - /In other words, what Putin is afraid of is what happened to Qaddafi/
+  - /There is some kind of political uprising against him, and when he goes to crush it, NATO intervenes with superior precision guided munitions to paralyze his military/
+- In Moscow's view, Russia has the ability to degrade such an attack, but not deny it altogether
+- Russia sees long-range precision guided munitions as a strategic capability
+- The Russian goal has been to find a way to deter adversaries with a force that they judge is insufficient to completely deter regional conflicts via conventional means
+- /The article maintains that this isn't about Russian inferiority in conventional weapons, and that the US may face some of the same dilemmas when faced with similar threats, but I don't think it can be denied that many of these problems would be much easier for Russia to handle if it had parity with the west in terms of precision-guided conventional weapons/
+- /How much of this doctrine rests on the assumption that Russia will inevitably lose a conventional war against NATO?/
+
+** Key Assumptions
+
+- In Russian doctrine, warfighting is distinct from deterrence
+- This distinction is so important, it informs the structure of the Russian military
+- Russian forces are split into "general purpose" and "strategic deterrence" roles
+- Strategic forces are further divided into offensive and defensive strategic forces
+- Strategic offensive capabilities involve
+  - Long-range conventional weapons
+  - Nuclear weapons
+  - Cyber-warfare
+  - Directed energy and other weaponse based on "novel physical principles"
+- Strategic defensive capabilities consist of
+  - Early warning radars
+  - Integrated air defenses
+  - Missile defense
+- An example of this distinction can be found by looking at a missile brigade
+  - A "general purpose" missile brigade is tasked with supporting the Russian army in the field with precision strikes on battlefield targets
+  - A "strategic" missile brigade, in contrast, is tasked with long-range strikes against critical economic or military targets far behind enemy lines
+- /The main point here is that we should be careful of conflating "strategic" and "nuclear"/
+- /In the Russian military, strategic forces are those tasked with generating strategic effects, with a variety of offensive capabilities, including nuclear, non-nuclear, cyber, etc./
+- /For example, using Tomahawk cruise missiles against enemy military headquarters would be a "strategic" attack, even though it's non-nuclear/
+
+** Military Strategy
+
+- One of Russia's key assumptions is that while its "general purpose" armed forces are sufficient to provide deterrence against armed conflict or local wars, strategic forces are required to deter regional and large-scale wars
+- /In other words, Russia doesn't think that it's possible to deter regional or large-scale war by making it obvious that its forces will win on the battlefield/
+- /Russia needs to credibly threaten strikes against critical military and economic infrastructure via/
+  - /Long range precision strike/
+  - /Cyber/
+  - /Non-strategic nuclear weapons/
+  - /Strategic nuclear weapons/
+- Like all deterrence based strategies, the Russian goal is to raise the costs of war above the expected gains
+- This deterrence involves both pre-emptive and retaliatory uses of force
+- The goal is to deny opposition forces (envisioned to be the US, possibly working in concert with NATO) a quick victory in the initial stages of a war, changing the calculus of costs relative to interests
+- This strategy seeks to solve a straightforward, but difficult, problem: how to prevent the US from using its overmatch in precision-guided conventional weapons to inflict unacceptable damage on the Russian military and homeland in the opening stages of a war?
+- The naive answer to this question is retaliation with non-strategic nuclear weapons
+- However, that strategy is judged to carry excessive escalatory potential
+- Instead, the Russian military aims to build a "deterrence ladder", with both conventional and nuclear rungs to manage escalation
+- The Russian military believes that as conflicts escalate towards large-scale war, they are unlikely to remain conventional
+- However, unlike their Soviet predecessors, they do not believe that the use of nuclear weapons necessarily leads to uncontrolled escalation
+- Believe that calibrated use of conventional and nuclear forces can be used to provide intra-war deterrence and escalation control
+- The Russian military does not adopt this view lightly, but instead believes that this is the best of a range of bad solutions to a "wicked" problem
+
+** Strategic Deterrence
+
+- To the Russian military, "strategic deterrence" is an umbrella term that encompasses a variety of means to contain, deter and inflict varying levels of damage on adversaries
+- Holistic concept that integrates both military and non-military measures to influence adversaries' decision-making
+- Strategic deterrence measures are used during peacetime to to contain adversaries and prevent wars from starting
+- Strategic deterrence measures during wartime try to limit escalation
+- Although stratetic deterrence includes non-military measures, it is founded first and foremost on military coercion
+  - Demonstrations of military presence
+  - Raising readiness in a visible and public manner
+  - Threatening, and then conducting single or grouped strikes to show resolve
+
+** Escalation management and war termination
+
+- Russian deterrence strategies start with fear-inducement and follow up with progressive infliction of greater and greater amounts of damage
+- Fear inducement operates by a series of demonstrative acts that show Russia is willing and able to strike vitally important targets
+  - Nuclear and hydroelectric power plants
+  - Chemical facilities and petroleum refineries
+  - Other targets that may lead to significant economic damage or loss of life
+- /Of note here is the complete lack of distinction between "civilian" and "military"/
+- Deterrence through limited use of force is based on destroying critical objects relevant to the economy or military, but doing so in a way that reduces the potential for unintended escalation
+  - "Force" does not solely imply kinetic strikes
+  - Can include e.g. cyber operations to disable economic infrastructure
+- Fear inducement and limited uses of force are intended to work in concert --- i.e. launching demonstrative conventional attacks while making nuclear threats
+- If escalation management fails, then capabilities are employed en masse for retaliation and warfighting
+- As a non-nuclear conflict escalates, Russian doctrine calls for first single, then grouped nuclear attacks for
+  - Demonstrative employment
+  - Attacking deployed adversary forces
+  - Attacking third-party supporters of the adversary
+    - /I don't understand this/
+    - /How is this supposed to _limit_ escalation?/
+- The purpose of these strikes is to shock adversaries and make them realize the economic, political, and military costs of escalation while offering off-ramps
+
+** Damage Levels
+
+- To manage escalation, Russia has a notion of "deterrent damage"
+- Varies from country to country
+- Consists of a combination of material damage and psychological effects
+- Russian planners are struggling to quantify this notion
+- /Even if it can be quantified, wouldn't the calculation be subject to constant flux depending on the internal political state of the adversary?/
+- /Or are the Russians mirror-imaging and assuming that their adversaries' political systems are as ossified as their own?/
+
+** Nuclear vs. Non-nuclear capabilities
+
+- Russian military strategists have embraced strategic conventional weapons are a means for enforcing deterrence against armed conflict and local wars
+- However, unlike the US, Russian planners still envision a role for non-strategic nuclear weapons to provide deterrence in regional and large-scale wars
+- The Russian military view conventional and nuclear deterrence as complementary rather than as substitutes
+- Russian planners think that nuclear weapons have a unique psychological effect that cannot be replicated with conventional weapons
+- Each "tier" of escalation is reinforced by the capabilities of the tier above it
+  - Conventional weapons have a greater effect if their use is seen as a prelude to non-strategic nuclear weapons
+  - Non-strategic nuclear weapons have a greater effect if they're seen as a prelude to a strategic nuclear exchange
+
+** Targeting
+
+- The Russian military seeks to target critical infrastructure whose destruction can have cascading effects
+- Aim for targets whose destruction will degrade the adversary's military capabilities while also having a deterrent effect against future escalation
+- Targets include
+  - Non-nuclear power plants
+  - Administrative centers
+  - Civilian airports
+  - Road and rail bridges
+  - Defense-industrial facilities
+  - Mass media
+- Targeting for deterrence strikes tends to avoid dams and nuclear power plants to avoid unintended escalation
+
+** The Question of Escalate to De-escalate
+
+- Russia sees nuclear weapons as essential for deterrence in a regional or large-scale war
+- The criteria for the use of nuclear weapons remain unchanged from the late 1990s
+- If anything, the role of nuclear weapons in deterrence has been reduced, as the Russian military has improved its conventional capabilities
+- However, Russia's strategy of deterrence by fear inducement makes it seem that Russia's leadership are freer with the use of nuclear weapons than they actually are
+- What we see as "escalate to de-escalate" is actually escalation management from the Russian perspective
+- While war termination is one form of escalation management, there are others
+  - Prevention of a regional war from becoming a large-scale war
+  - Geographic containment of a war
+  - Creating an operational pause for Russian forces
+  - Attaining a cessation of hostilities on acceptable, but not necessarily victorious terms
+- There is no belief in an escalate-to-win gimmick
+- While the Russian defense establishment has a greater comfort level with nuclear weapons than their counterparts in the West, this does not mean that the Russians don't understand the seriousness of nuclear escalation
+- Russians do not view the widespread use of nuclear weapons as a form of escalation management, they view it as a _failure_ of escalation management
+
+** Implications For American Strategy
+
+- Russia does not view its possession of lower-yield nuclear weapons as an advantage over the United States
+- The idea that the US is somehow hamstrung by its inability to respond "in kind" to a low-yield Russian nuclear weapon is an entirely American concern
+- The real gap between Russia and the US is one of planning
+- Russian planners have spent considerable time thinking about escalation management and the role that nuclear weapons have to play in it
+- We need to have an escalation management strategy of our own which allows us to confront Russia without risking uncontrolled escalation
+- We need to become more comfortable with thinking about and planning for how to respond to limited employment of nuclear weapons
+

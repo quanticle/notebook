@@ -1,0 +1,38 @@
+* Helpful Unicode
+
+** Symbols
+
+*** Text Symbols
+- Degree symbol: =°=
+- Copyright symbol: =©=
+- Trademark symbol: =™=
+- Interrobang: =‽=
+- Star: =★=
+- Hammer and Sickle: =☭=
+- Center dot: =•=
+- Pounds symbol: =₤=
+
+*** Math Symbols
+- Logical negation: =¬=
+- Infinity: =∞=
+- Set intersection: =∩=
+- Set union: =∪=
+- Delta: =Δ=
+
+*** Arrows
+- Left arrow: =←=
+- Right arrow: =→=
+- Up arrow: =↑=
+- Down arrow: =↓=
+- Diagonal up: =⭦= =⭧=
+- Diagonal down: =⭨= =⭩=
+
+** Emoji
+- Thinking face: =🤔=
+- Look of disapproval: =ಠ_ಠ=
+- Lenny: =( ͡° ͜ʖ ͡°)=
+- Shifty eyes: =¬_¬=
+- Sunglasses: =(⌐■_■)=
+- Shrug: =¯\_(ツ)_/¯=
+- Popcorn: =🍿=
+- Fire: =🔥=

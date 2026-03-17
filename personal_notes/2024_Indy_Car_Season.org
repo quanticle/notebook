@@ -1,0 +1,125 @@
+#+TITLE: 2024 Indy Car Season
+
+* 2024-04-10 Grand Prix of St. Petersburg
+
+** Race Notes
+
+** Results
+1. Pato O'Ward
+2. Will Power
+3. Colton Herta
+4. Alex Palou
+5. Felix Rosenqvist
+6. Alexander Rossi
+7. Scott Dixon
+8. Rinus VeeKay
+9. Santino Ferrucci
+10. Kyle Kirkwood
+11. Callum Ilott
+12. Kyffin Simpson
+13. Pietro Fittipaldi
+14. Graham Rahal
+15. Tom Blmoqvist
+16. Agustin Canapino
+17. Jack Harvey
+18. Christian Lundgaard
+19. Christan Rasmussen
+20. Colin Braun
+21. Linus Lundqvist
+22. Romain Grosjean (DNF)
+23. Marcus Ericsson (DNF)
+24. Sting Ray Robb (DNF)
+25. Marcus Armstrong (DNF)
+26. Josef Newgarden (Disqualified)
+27. Scott McLaughlin (Disqualified)
+
+* 2024-04-21 Long Beach Grand Prix
+
+** Race Notes
+
+*** Starting Grid
+1. Felix Rosenqvist
+2. Will Power
+3. Josef Newgarden
+4. Colton Herta
+5. Marcus Ericsson
+6. Alex Palou
+7. Christian Lundgaard
+8. Scott Dixon
+9. Marcus Armstrong
+10. Kyle Kirkwood
+11. Scott McLaughlin
+12. Graham Rahal
+13. Alexander Rossi
+14. Pato O'Ward
+15. Tom Blomqvist
+16. Romain Grosjean
+17. Linus Lundqvist
+18. Rinus Veekay
+19. Pietro Fittipaldi
+20. Augustin Canapino
+21. Christian Rasmussen
+22. Theo Pourchaire
+23. Jack Harvey
+24. Santino Ferrucci
+25. Sting Ray Robb
+26. Kyffin Simpson
+27. Nolan Siegel
+
+
+- 85 laps
+- On lap 1 Will Power jumps Felix Rosenqvist for the lead
+- Lap 4 --- Alexander Rossi pulls into pit lane with a potential problem --- had a flat tire caused by his teammate, Pato O'Ward running into him
+- Lap 6 --- Rosenqvist is falling back through the order, having been passed by Power, Newgarden, Ericsson, and Herta
+- Lap 11 --- Pato O'Ward has to serve a drive-through penalty for avoidable contact on his teammate, Alexander Rossi
+- Lap 15 --- Christian Rasmussen crashes, clips Jack Harvey, who has sidepod damage as a result, full course yellow declared
+- Will Power stops under the full course yellow and a few other cars come in as well, but the majority stay out
+- Power drops to 12th as a result, and Josef Newgarden is in the lead
+- Scott Dixon stops on the same lap as Will Power
+- Lap 24 --- Scott Dixon passes Will Power for 12th, meaning that effectively he has the lead over Power
+- Lap 27 --- Christian Lundgaard assessed a 5 position penalty for an unsafe release in the pit lane
+- Lap 28 --- Scott Dixon and Will Power start moving towards the front as the rest of the field make their pit stops
+- Lap 30 --- Joseph Newgarden pits from the lead and comes out in 17th
+- Lap 32 --- Colton Herta pits from the lead, allowing Scott Dixon to take the lead
+- Lap 33 --- Good battle on track between Alex Palou and Marcus Ericsson
+- Lap 41 --- Will Power is having to do a lot of fuel saving
+- Lap 51 --- Scott Dixon and Will Power pit, from the lead and second, respectively, allow Josef Newgarden back into the lead
+- Lap 58 --- Newgarden pits from the lead and comes back out in 7th, just ahead of Will Power
+- At this point Colton Herta is leading
+- Lap 61 --- Colton Herta pits from the lead, and comes back out in 3rd, behind Josef Newgarden
+- Lap 68 --- Newgarden is catching up to Dixon and challenging him for the lead
+- Lap 70 --- Although Newgarden has caught up to Dixon, he doesn't seem to be able to pass him, and Herta is catching up behind him
+- Lap 77 --- Newgarden stalls in the hairpin, after contact from behind from Herta allowing Colton Herta and Alex Palou through, dropping into 4th
+- /Scott Dixon drove a very tactical race, perfectly balancing going fast and saving fuel/
+- /Will Power, who was on approximately the same strategy, finished only 6th/
+- /It's a shame that Newgarden was bumped out of contention for the lead, but it was in no way intentional from Herta, so no action was taken/
+- /Rosenqvist qualified well, but he was a total non-factor in the race/
+
+** Results
+1. Scott Dixon
+2. Colton Herta
+3. Alex Palou
+4. Josef Newgarden
+5. Marcus Ericsson
+6. Will Power
+7. Kyle Kirkwood
+8. Romain Grosjean
+9. Felix Rosenqvist
+10. Alexander Rossi
+11. Theo Pourchaire
+12. Marcus Armstrong
+13. Linus Lundqvist
+14. Rinus Veekay
+15. Agustin Canapino
+16. Pato O'Ward
+17. Graham Rahal
+18. Sting Ray Robb
+19. Kyffin Simpson
+20. Nolan Siegel
+21. Santino Ferrucci
+22. Tom Blomqvist
+23. Christian Lundgaard
+24. Pietro Fittipaldi
+25. Jack Harvey
+26. Scott McLaughlin
+27. Christian Rasmussen (DNF)

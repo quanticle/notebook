@@ -1,0 +1,26 @@
+#+TITLE: Temperature conversions
+#+OPTIONS: H:6
+
+** Fahrenheit to Celsius
+$$
+\frac{5}{9}(F - 32)
+$$
+
+** Celsius to Fahrenheit
+$$
+\frac{9}{5}C + 32
+$$
+
+** Celsius to Kelvin
+$$
+C + 273.15
+$$
+
+** Fahrenheit to Kelvin
+$$
+\frac{5}{9}(F - 32) + 273.15
+$$
+$$
+\approx \frac{5}{9}F + 255.37
+$$
+

@@ -1,0 +1,102 @@
+#+TITLE: Local-First Software: Peter Van Hardenburg
+
+[[https://www.youtube.com/watch?v=KrPsyr8Ig6M][Video Link]]
+
+- [[https://www.inkandswitch.com/][Ink and Switch]]: Industrial research group exploring tools for thought
+- Examples of tools for thought
+  - Paper
+  - Physical objects
+  - Computers
+- Properties of good tools for thought
+  - Responsive
+  - Predictable
+  - Allow collaboration
+  - Allow privacy
+  - Longevity --- need to be able to rely on this tool for years or even decades
+- Software tools should be
+  - Available
+  - Collaborative
+  - Private
+  - Responsive
+- Local-first strategy
+  - Write software to run offline
+  - Keep authoritative copy of data on user's device
+  - Use cloud for backup and live sync
+- Technical architecture
+  - Apps run in the browser as a PWA to ensure offline availability
+  - Use [[https://crdt.tech/][Conflict-free Replicated Data Types]] (CRDTs) to sync data
+  - Use FS API or browser LocalStorage for storage
+- Examples
+  - [[https://github.com/automerge/trellis#readme][Trellis]](Trello clone)
+    - First use of CRDTs
+    - CRDTs make history generation easy
+    - WebRTC for peer to peer communication
+    - Instead of using a STUN server, they used Slack messages for handshaking
+      - (This was not scalable, of course)
+    - Early version of CRDTs had some horrible performance characteristics O(n^3) in some cases, but synchronization results were promising
+  - [[https://www.inkandswitch.com/pixelpusher/][PixelPusher]]
+    - Pixel art drawing tool
+    - Attempt to add CRDT-based collaboration to existing application
+    - Experiment with Dat and IPFS for sync
+    - Branching and merging
+    - IPFS was eliminated from contention because of content-based addressing
+      - When a new version of a document was created, IPFS would see that as a new document and create a new hash
+      - Was too difficult to share updated hashes with all clients which meant that some clients continued to see old data
+    - After IPFS was eliminated, they moved to Dat/Hypercore for sync
+  - [[https://www.inkandswitch.com/pushpin/][Pushpin]]
+    - "Spatial canvas"
+    - Data is organized as a collection of cards on an infinite canvas
+    - Everything in the application is a CRDT
+    - Each card has its own URL
+    - Also ran into scalability issues
+      - Too many URLs to sync
+      - Having /everything/ as a "file" meant there were far too many files --- was running into issues with file handle exhaustion on MacOS
+  - [[https://www.inkandswitch.com/cambria/][Cambria]]
+    - To-do list/project management app
+    - Built on the Pushpin infrastructure
+    - First use of "lenses" to enforce backward compatibility
+      - Lenses are a solution to the problem of data corruption caused by older clients writing older versions of data on top of data written by newer client versions
+      - Create an old data "view" onto newer data
+  - [[https://www.inkandswitch.com/backchannel/][Backchannel]]
+    - Distributed identity system
+    - Uses PetNames and PAKE to prevent impersonation while preserving privacy
+  - [[https://www.inkandswitch.com/peritext/][Peritext]]
+    - Experimental app that added rich text support to CRDTs
+  - Upwelling (unpublished)
+    - "Intentional editor" built on top of Peritext
+    - Designed to be a solution that sits in between highly formal, highly structured approaches such as Github pull requests and completely informal approaches like Google Docs
+- Conclusions
+  - Existing software is far too complex and requires far too much formal setup
+  - Sometimes all we need is a bicycle for the mind
+  - Building local-first fixes many complexity problems
+    - Software doesn't have to be specially crafted to work in a cloud environment
+    - No Amazon bills
+    - No 3am pages because some server went down
+    - Don't need to worry about securing user data, because you never store any
+  - Keep data and computation on the user's machine and use the cloud as the dumbest possible pipe to transfer data
+  - Limitations
+    - Peer-to-peer networking is horribly unreliable
+    - It's especially unreliable when one of your users is in an institutional setting (school, cafe, etc) where the network is restricted
+    - It's doubly unreliable when *both* of your users are in the same (institutional) setting --- "hairpin" problem
+    - The most reliable solution in a lot of cases is a simple relay server
+    - If you're considering having e.g. a STUN server for dealing with NAT, and you're not transferring too much data, consider foregoing peer to peer communication entirely and having all data be relayed by the central server
+  - "Offline" is indistinguishable from very high latency
+  - As latency increases, the need for tooling to deal with merge conflicts increases
+    - 0 - 300ms --- Application is responsive enough that users can avoid merge conflicts instinctively (i.e. Alice can see Bob editing a particular section, and stays out of his way)
+    - 300ms - 30s --- Merge errors are small enough that documents can feasibly fixed through manual rework
+    - 30s+ --- Tool support to detect and aid the user with fixing merge conflicts is necessary
+  - If your application supports both offline usage and collaboration, then you absolutely need to be thinking about version control
+  - Communicate by synchronizing data, rather than making API calls
+    - /He doesn't say this in the talk, but here I feel like going back to the original ReST paper would be helpful/
+    - /Transfer (bits of) state rather than making specific API requests/
+  - CRDTs can provide local-first data storage with incremental sync
+  - Browsers are bad at storing data (it's called a "browser" not a "keeper")
+    - This is why Electron apps are so common
+    - However, you can't share Electron apps by sending just a URL
+    - Solution: make a PWA first, then wrap it in Electron
+  - Developers already have offline-first tooling for themselves, in the form of editors and git
+  - We should think about bringing that kind of functionality to tools for other users
+- CRDT demo
+  - Look at [[https://automerge.org/][automerge]]
+  - Instruments changes to data structures
+  - Allows you to pass around incremental diffs generated with =automerge.save()=

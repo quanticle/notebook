@@ -1,0 +1,11 @@
+* 2022 Planning Meeting
+
+** Reduce IRDOT costs to < $10 per run
+- Can we make a simpler model that will make a
+- We need to make IRDOT faster and cheaper
+- All solar (and solar + storage) will go through IRDOT
+- Can we come up with a better optimizer that's focused on solar?
+- Can we make an IRDOT "lite" UI that runs off the API
+  - OMNI is the "single UI" for a lot of projects
+  - Might have a new UI for DG
+- The majority of our cost concerns are related to OMNI

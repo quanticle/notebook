@@ -1,0 +1,12 @@
+#+TITLE: Drywall Repair
+
+- To repair drywall in a manner that allows further mounting of hardware
+  - Use a Sawzall or hacksaw to square off the hole in the drywall
+  - Cut a section of 1 x 4" furring strip 4" longer than the hole
+  - Drill a screw into the center of the furring strip to act as a handle
+  - Slide the furring strip into the hole and center it
+  - Drill two drywall screws on either side of the hole to attach the furring strip to the back of the drywall
+  - Cut a section of drywall to the approximate size of the hole
+  - Use screws to attach the drywall patch to the furring strip
+  - Use spackle to fill in the cracks between the drywall patch and the pre-existing drywall
+  - Sand and paint

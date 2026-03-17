@@ -1,0 +1,20 @@
+#+TITLE: Browser Notes App
+
+* Requirements
+- Text notes
+- Image notes
+- Notes UI
+  - Alphabetical order
+  - Modified order
+  - Created order
+  - Custom order (drag and drop)
+- First line of note is the title - should be in a larger font
+
+* Design
+- Make it as a PWA
+- Clojurescript
+- Server-component used only for transferring data, not storing it
+- Reframe
+- Specter
+- Notes stored in IndexDB
+- Use Specter to navigate data

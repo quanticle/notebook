@@ -1,0 +1,7 @@
+#+TITLE: Museum Review Guidelines
+
+- Start with type, location, rating
+- Description of the ship
+  - What state is the ship in
+  - How accessible is it
+- Description of the exhibits and guidance

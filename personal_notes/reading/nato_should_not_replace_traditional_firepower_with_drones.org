@@ -1,0 +1,57 @@
+#+TITLE: NATO Should Not Replace Traditional Firepower With Drones
+
+[[https://www.rusi.org/explore-our-research/publications/rusi-defence-systems/nato-should-not-replace-traditional-firepower-drones][Original Article]] \\
+Justin Bronk \\
+RUSI \\
+Published: August 4, 2025 \\
+
+- Overreliance on uncrewed aerial systems is causing problems for the Ukrainian military and is not something that NATO armies ought to imitate
+- Since 2023, both Ukraine and Russia have dramatically scaled up their usage of first-person view (FPV) uncrewed aerial systems (UAS)
+- Many of these are one-way attack (OWA) drones
+- These systems have played an increasingly critical role in helping Ukraine defend against Russian offensives
+- In 2025, the Ukrainian battlefield is characterized by the use of millions of FPV OWA drones
+- Longer-ranged versions of these drones also supplement cruise and ballistic missile strikes by both sides
+- The proliferation of these drones has led many in the West to proclaim a new revolution in military affairs that renders previous doctrines such as air superiority and armored maneuver obsolete
+- Drones are seen as a more efficient means for achieving mass and lethality compared to "legacy" platforms such as artillery, tanks, manned fighter aircraft and submarines
+- While it is certainly imperative for NATO militaries to improve their own counter-UAS capabilities given the certainty of large waves of Russian Geran-2/3 OWA drones in a future conflict, it would be a mistake for NATO forces to rely on massed small UAS and OWAs to replace traditional firepower
+
+* Relying Too Heavily On Drones Plays Into Russia's Strengths
+
+- Russian forces currently field the most widespread and sophisticated counter-UAS systems in the world
+- Have integrated electronic warfare and short-range air defenses (SHORAD), right down the platoon and squad level
+- Russian fighting positions and vehicles are reinforced with spaced bar armor, anti-drone netting and portable jammers
+- Russian bases are increasingly hardened against OWA drones
+- Infantry training, limited though it is, covers anti-drone tactics
+- While none of these defensive countermeasures are foolproof, it is important to note that their effectiveness has been limited by Ukrainian use of traditional weapons, such as massed artillery, GMLRS and long-range cruise missiles
+- If NATO militaries let these capabilities atrophy in order to focus on massed UAS, Russian forces would find it even easier to counter NATO militaries than the Ukrainian military
+
+* Ukraine Is Forcing Russia To Focus On Counter-UAS Capability Development
+
+- Ukraine is using OWA drones because it has been forced to through a combination of manpower, equipment and ammunition shortfalls
+- This has enabled Russia to focus on countering the UAS threat
+- Russia established the Rubicon Center for Advanced Unmanned Technologies in 2024, to specifically focus on developing new tactics and technologies to defeat UAS
+- As a result, Ukrainian drone operator casualties have sharply risen in 2025, as Russian forces have concentrated on bringing artillery, glide bombs and their own UAS to bear on drone operator shelters
+- Conversely, the more the Russian military has to focus on countering the Ukrainian UAS threat, the less time it is able to spend on building the skills to fight NATO's traditional advantages
+
+* Ukraine Isn't Winning Despite Being Very Good At Developing And Using UAS
+
+- Ukraine is now a world leader at developing UAS
+- In 2024 Ukraine produced over 2 million short range FPV drones and over 100,000 long range OWA
+- These drones have been instrumental in preventing Russian breakthroughs and have inflicted very heavy losses on the invading Russian forces
+- Despite this, Ukraine is still taking heavy casualties itself and is gradually losing territory
+- The most significant Ukrainian victory of the war, its 2022 autumn counteroffensive, was enabled by massed artillery, motivated infantry and conventional maneuver, /not/ drones
+- Ukraine has been forced into using drones by necessity, not by choice
+- In areas of intense Russian pressure, Ukrainian commanders still prefer using artillery, especially artillery armed with guided shells, to stop Russian breakthroughs
+- In areas of less intense fighting, the slower response time of drones matters less, and drones' greater availability means that they get used more
+- It is unlikely that Western militaries will be able to scale up drone production faster than Ukraine has, and, as we see in Ukraine, even that level of scaling hasn't been sufficient to stop Russian advances
+
+* UAS Should Enable, Not Replace Traditional NATO Firepower
+
+- The Israel-Iran war was a stark reminder of the advantages that traditional firepower retains
+- Israel didn't use UAS to replace its traditional firepower; instead it used targeted attacks carried out by special forces using UAS to enable conventional strikes
+- Cheap drones can enable SEAD/DEAD operations by locating air defense systems
+- Ukraine used drones in such a manner to enable GMLRS launchers to strike Russian S400 air defense systems
+- Decoy systems can saturate defenses
+- No drone can compete with a JDAM for cost-effectiveness
+- Instead, drones should be used to augment and enhance the effectiveness of conventional ground artillery and aircraft
+- Instead of attempting to catch up in an area where Russia already has a head start, NATO forces should double down on their traditional advantages of precision firepower and integrate UAS as a further force multiplier for those advantages

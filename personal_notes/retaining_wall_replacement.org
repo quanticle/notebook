@@ -1,0 +1,85 @@
+#+TITLE: Retaining Wall Replacement
+#+OPTIONS: num:nil
+#+OPTIONS: toc:6
+#+OPTIONS: html-postamble:nil
+
+* Project Name
+- Patio seating wall
+
+* Tools And Materials
+- Paver base --- [[https://www.menards.com/main/building-materials/landscaping-materials/landscape-rock/paver-base-1-2-cu-ft/1891137/p-1444441405414-c-5784.htm][MasterCraft Paver Base]]
+  - 5.3 cu. ft. per bag
+  - Model # 1891137
+  - Menards SKU: 1891137
+  - Location: outside yard
+- Leveling sand --- [[https://www.menards.com/main/building-materials/landscaping-materials/landscape-rock/leveling-sand-1-2-cu-ft/1891138/p-1444441404926-c-5784.htm][MasterCraft Leveling Sand]]
+  - 1.33 cu. ft. per bag
+  - Model # 1891138
+  - Menards SKU: 1891138
+  - Location: outside yard
+- Tamper --- [[https://www.menards.com/main/outdoors/gardening/garden-landscaping-tools/shovels-tampers/yardworks-47-steel-handle-10-x-10-tamper/kr-2s-men/p-1642874278089013-c-13243.htm][Yard Works 47" Steel Handle 10"x10" tamper]]
+  - Model # KR-2S-MEN
+  - Menards SKU: 2655539
+  - Location: Aisle 1122 Section B
+- [[https://www.menards.com/main/plumbing/pipe-fittings/pvc-pipe-fittings/pvc-sch-40-solid-core-pipe/pvc040071000hc/p-1444426392757-c-8571.htm][3/4" inner diameter (1" outer diameter) PVC pipe]]
+  - Model #  PVC040071000HC
+  - Menards SKU 6898517
+  - Location: Aisle 200 Section S
+- Masonry adhesive --- [[https://www.menards.com/main/paint/adhesives-glue-tape/adhesive/construction-adhesives/loctite-reg-pl-reg-500-landscape-block-adhesive/1654392/p-1444432340815-c-7921.htm][Loctite PL500 Landscape Block Adhesive]]
+  - Model # 1654392
+  - Menards SKU: 5202011
+  - Location: Aisle 534 Section N
+- Marking paint --- [[https://www.menards.com/main/paint/spray-paint/all-purpose-spray-paint/rust-oleum-reg-professional-inverted-marking-spray-paint-15-oz/2545838/p-1444452958519-c-8050.htm][RustOleum Professional Caution Yellow Marking Paint]]
+  - Model # 2545838
+  - Menards SKU: 5575349
+  - Location: Aisle 7 Section B
+- Section of 2 x 4 lumber for screeing sand
+- Wall blocks --- need to consult and research
+  - [[https://www.menards.com/main/building-materials/landscaping-materials/retaining-wall-block/4-x-20-kendall-freestanding-wall-block/1793753/p-9115189600887343-c-5787.htm][Kendall freestanding]]
+    - Model # 1793753
+    - Menards SKU: 1793753
+  - [[https://www.menards.com/main/building-materials/landscaping-materials/retaining-wall-block/3-1-2-x-14-tumbled-large-belgian-wall-block/1793650/p-1444441411627-c-5787.htm?tid=ff97ec69-d330-42fd-8363-13e9daffe3e6&ipos=1&exp=false][Tumbled Belgian freestanding]]
+    - Model # 1793650
+    - Menards SKU: 1793650
+  - [[https://www.menards.com/main/building-materials/landscaping-materials/retaining-wall-block/6-x-13-bullnose-retaining-wall-cap/1793013/p-9115189600888288-c-5787.htm][Bullnose cap blocks]]
+    - Model # 1793013
+    - Menards SKU: 1793013
+    - Needs to be special ordered
+  - [[https://www.menards.com/main/building-materials/landscaping-materials/retaining-wall-block/2-x-20-kendall-duo-paver-freestanding-wall-block/1793758/p-9115189600888099-c-5787.htm][Kendall Duo]]
+    - Model # 1793758
+    - Menards SKU: 1793758
+- Gloves
+- Rubber mallet
+
+* Process
+ 
+- Calculate trench dimensions
+  - Trench needs to be wide enough to accomodate the first layer of the wall (between 10" and 20", depending on wall design)
+  - 6" deep
+  - Plus another inch of depth for every foot of wall height
+- Draw the curve or radius for the wall on the ground with paint
+- Dig the trench
+  - Use a pointed shovel to dig down
+  - Use a rake to smooth dirt
+  - Make sure that base is approximately level
+  - Tamp dirt with hand tamper
+  - Lay 5" of gravel base
+    - Lay 2" of gravel
+    - Tamp
+    - Verify that gravel is level
+    - Repeat
+  - Lay 1" leveling sand
+    - Place PVC pipe on gravel
+    - Pour sand and use the 2 x 4 to scree the sand flat, so it just covers the pipe
+    - Do not tamp
+    - Remove the pipe, fill in the gap with more sand and scree it flat again
+- Build the wall by stacking blocks in alternating rows
+  - Pay extra attention when building the first row
+  - Use level to ensure that the blocks are level
+  - Use a mallet to make adjustments if the blocks are not level
+- After each layer of the wall is dry-fit, secure it to the layer below with masonry adhesive
+- At the end, add a layer of cap stones, once again securing it to the layer below with masonry adhesive
+
+* Pre-designed projects
+
+https://sp.menardc.com/main/items/media/MWBLK001/Color_Chart/OutdoorLivingBrochure_050923_compressed.pdf

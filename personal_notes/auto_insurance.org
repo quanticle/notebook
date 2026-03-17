@@ -1,0 +1,38 @@
+#+TITLE: Auto Insurance
+
+** Progressive auto insurance
+
+*** Bodily Injury & Property Damage
+
+**** Bodily injury
+- $100,000 per person
+- $300,000 per accident
+
+**** Property damage
+- $100,000 per accident
+
+*** Uninsured/underinsured motorist
+- $100,000 per person
+- $300,000 per accident
+
+*** Personal injury protection
+- $20,000 medical expenses with $100 deductible
+- $20,000 economic limits with $100 deductible
+
+*** Comprehensive
+- $250 deductible
+
+*** Collision
+- $250 deductible
+
+*** Rental reimbursement
+- No rental reimbursement
+
+*** Roadside assistance
+- No roadside assistance
+
+*** Custom parts coverage
+- No custom parts coverage
+
+*** Loan/lease payoff
+- No loan/lease payoff

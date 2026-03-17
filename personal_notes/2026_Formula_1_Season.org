@@ -1,0 +1,235 @@
+#+TITLE: 2026 Formula 1 Season
+#+OPTIONS: toc:2
+
+* Australian Grand Prix (2026-03-08)
+
+** Track Info
+- Albert Park, Melbourne, Australia
+- 3.28 miles
+- Not very many overtaking opportunities
+
+** Tire Info
+- C5, C4, C3
+- Softest in the range
+
+** Qualifying
+- Cadillac has joined the grid --- 22 cars now
+- Cars now have active aerodynamics instead of DRS
+- New turbo rules --- No more MGUH, and the MGUK is now much bigger, and more battery capacity has been added
+- Cars have less grip than they did last year
+- Because there are now 22 cars, the bottom six will be dropped in Q1 and Q2 respectively
+- Williams' car is overweight, and Williams admits they're almost a full second down in terms of performance as a result
+
+*** Q1
+- Carlos Sainz and Lance Stroll are unable to start due to mechanical issues with their cars
+- Mercedes are working hard to put Kimi Antonelli's car back together after he had a big crash at the end of FP3
+- Audi go out first, with Nico Hulkenberg taking the lead
+- New car are more reliant on battery power, so warm-up and cool-down laps are slower to allow the cars to recharge
+- Lando Norris is struggling with the grip on his McLaren
+- Track evolution is likely to be a factor, as Albert Park is a temporary facility
+- Hamilton does his first push lap with medium tires
+- George Russell sets the fastest time of the initial laps
+- Arvid Lindblad (Racing Bulls) goes into second after setting a good lap
+- Hamilton goes third, still on medium tires
+- _Verstappen crashes on his first qualifying lap_ --- red flag
+  - /This is good news for Kimi Antonelli, whose mechanics now have more time to work on his car/
+  - /Looks like it might have been a mechanical (electromechanical?) issue with the Red Bull --- the rear axle locked up the moment Verstappen put his foot on the brake/
+- Mercedes managed to fix Kimi Antonelli's car thanks to the red flag delay due to Verstappen's crash
+- Even after the red flag, the Ferraris go out with medium tires
+- Hamilton, on medium tires, manages to post the fastest time
+- Kimi Antonelli's first lap is good enough for 3rd
+- Russel and Piastri go P1 and P2 respectively
+- LeClerc has a big lockup and ruins his fast lap (/and also possibly his tires/)
+- Norris' time is good enough only for fourth
+- /Haas aren't in last place/
+- /Looks like the Ferraris did their Q1 on medium tires/
+- Eliminated in Q1
+  - Fernando Alonso --- Aston Martin
+  - Sergio Perez --- Cadillac
+  - Valteri Bottas --- Cadillac
+  - Max Verstappen --- Red Bull
+  - Carlos Sainz --- Williams
+  - Lance Stroll --- Aston Martin
+
+*** Q2
+- /Ferraris are on soft tires now/
+- Russell goes fastest once again
+- Norris is considerably slower, .9 sec behind Russell
+- Hamilton has bailed out on two fast laps
+- LeClerc, in the other Ferrari is 7th, after the first couple of laps
+- Hulkenberg does well, pushing himself up into 9th, with a chance at a Q3 spot
+- Hamilton's first full lap is only good for 6th
+- Pierre Gasly's 
+- Eliminated in Q2
+  - Nico Hulkenberg --- Audi
+  - Ollie Bearman --- Haas
+  - Esteban Ocon --- Haas
+  - Pierre Gasly --- Alpine
+  - Alex Albon --- Williams
+  - Franco Colapinto --- Alpine
+
+*** Q3
+- Gabriel Bortoleto's Audi broke down in the entrace to pit lane at the end of Q2, delaying the start of Q3
+- /Mercedes' engine looks really good/
+- Kimi Antonelli's Mercedes was released onto the racetrack with a piece of the blower in the garage, which then fell off onto the track --- will probably result in a penalty for send the car out onto the track in an unsafe condition
+- The piece on the racetrack was hit by Lando Norris and exploded into a shower of debris
+- Triggers a red flag while the errant pieces are picked up
+- Norris's front wing is being fixed with tape
+- Kimi Antonelli goes into the gravel on his first lap after the red flag delay
+- Russell goes into the lead, while Isaac Hadjar, of Red Bull, does a great job and goes into second place
+- Norris has an even better lap and goes into P2 behind Russell
+- Kimi Antonelli has a great second lap, takes first for a bit but is dropped down into second after Russell has an even better lap
+- Final top 10 qualifying order
+  1. George Russell --- Mercedes
+  2. Kimi Antonelli --- Mercedes
+  3. Isaac Hadjar --- Red Bull
+  4. Charles LeClerc --- Ferrari
+  5. Oscar Piastri --- McLaren
+  6. Lando Norris --- McLaren
+  7. Lewis Hamilton --- Ferrari
+  8. Liam Lawson --- Racing Bulls
+  9. Arvid Lindblad --- Racing Bulls
+  10. Gabriel Bortoleto --- Audi
+
+** Race
+
+*** Starting Grid
+1. George Russell --- Mercedes
+2. Kimi Antonelli --- Mercedes
+3. Isak Hadjar --- Red Bull
+4. Charles LeClerc --- Ferrari
+5. Oscar Piastri --- McLaren (not starting due to pre-race crash)
+6. Lando Norris --- McLaren
+7. Lewis Hamilton --- Ferrari
+8. Liam Lawson --- Racing Bulls
+9. Arvid Lindblad --- Racing Bulls
+10. Gabriel Bortoleto --- Audi
+11. Nico Hulkenberg --- Audi
+12. Oliver Bearman --- Haas
+13. Esteban Ocon --- Haas
+14. Pierre Gasly --- Alpine
+15. Alex Albon --- Williams
+16. Franco Colapinto --- Alpine
+17. Fernando Alonso --- Aston Martin
+18. Sergio Perez --- Cadillac
+19. Valteri Bottas --- Cadillac
+20. Max Verstappen --- Red Bull
+21. Carlos Sainz --- Williams
+22. Lance Stroll --- Aston Martin
+
+
+- 58 laps
+- /Oscar Piastri not starting will be disappointing for the crowd in Australia/
+- Drivers are unfamiliar with the new cars, and the new specification could result in reliability issues
+- Most drivers are starting on medium tires, with some going for hard tires to have a longer first stint
+- Both one-stop and two-stop strategies are viable
+- Unlike last year, weather conditions are good
+- /This year DRS is no longer present; instead cars can alter their aerodynamics into a low-drag mode at specific zones along the racetrack/
+- /The new specification places a greater emphasis on battery power, so drivers will have to manage charging and deploying energy from their batteries strategically throughout the race/
+- Lap 1
+  - /I really don't like the new start procedure forced by the larger batteries/
+  - /Instead of revving the engines conventionally, the drivers put the car in neutral and floor the accelerator, redlining the engines in order to charge the battery/
+  - /This sounds horrible/
+  - Russell is slow off the line and LeClerc jumps into the lead
+  - Hadjar jumps up into 3rd
+  - Lindblad makes it into 4th
+  - Antonelli has a poor launch, and falls back into 7th
+  - Later in the lap, Lindblad and Hamilton pass Hadjar, with Hamilton going into 3rd and Lindblad going into 4th
+  - Verstappen also improves 4 places, to 16th
+- Lap 2 --- George Russell passes Charles LeClerc for the lead
+- Lap 3
+  - LeClerc has an easy pass on Russell to retake the lead
+  - /Possible difference in battery deployment strategy?/
+- Lap 4 --- Verstappen is up into 13th place, after passing Alex Albon
+- Lap 6
+  - Kimi Antonelli has retaken 4th
+  - Russell is increasingly pressuring LeClerc for the lead
+- Lap 8 --- Russell passes LeClerc for the lead, but LeClerc retakes the lead later in the lap with the advantage of greater battery power
+- Lap 9
+  - Russell attempts to pass LeClerc for the lead and has a big lockup
+  - LeClerc retains the lead and now Hamilton is just behind Russell
+- Lap 10 --- Verstappen has moved up into 10th
+- Lap 11
+  - Isak Hadjar's Red Bull is blowing smoke and he is running slowly
+  - Hadjar pulls over off the racetrack and stops
+  - /Sucks for him --- he had a really good start/
+  - /Potential reliability issue for Red Bull?/
+  - Virtual safety car declared
+- Lap 12
+  - Norris, Ocon, Gasly and Lawson all pit under the VS
+  - All switch from medium tires to hard tires
+- Lap 13
+  - Russell and Antonelli pit and go from medium to hard tires
+  - Come out in 3rd and 5th respectively
+  - Ferrari have stayed out with both their drivers
+  - Hamilton is frustrated that one of them wasn't pit
+- Lap 14
+  - VSC ends
+  - Verstappen, starting on hard tires, took advantage of others' pit stops during the VSC to move up into 6th
+  - /The question is whether he can build enough of a lead to hold that position against other people on fresher tires behind him/
+  - Fernando Alonso pulls into the pits and stops with a mechanical issue --- won't result in yellow flag
+- Lap 15 --- Norris passes Ocon for 9th
+- Lap 16 --- Antonelli passes Lindblad for 4th
+- Lap 18
+  - Valteri Bottas pulls over and stops; yellow flag shown
+  - A second virtual safety car is declared
+  - Lindblad, Verstappen and Bearman pit under the VSC
+  - Verstappen comes out ahead of Bearman, but behind Lindblad
+  - Lindblad, Verstappen and Bearman come out in 6th, 7th and 8th, respectively
+  - /Verstappen only lost one place in the pit stop and doesn't have much of a gap to Lindblad so he should be able to retake 6th quite easily/
+  - However, Norris is now ahead of this group, having pit during the previous VSC
+  - The pit entry is closed under the VSC in order to allow race staff to recover Bottas' stricken Cadillac
+- Lap 20
+  - VSC ends after Bottas' car is cleared
+  - Lindblad holds off Verstappen after the VSC start
+- Lap 21 --- Verstappen passes Lindblad for 6th
+- Lap 25
+  - LeClerc pits from the lead and comes out in 4th
+  - /This is confusing from Ferrari, because they had the opportunity to make pit stops under VSC earlier, but they chose to stay out/
+- Lap 28
+  - Russell passes Hamilton for the lead
+  - Hamilton pits from 2nd and comes out in 4th, behind LeClerc
+- Lap 29 --- Russell reports that he's comfortable with a 1-stop strategy
+- Lap 33 --- Norris reports higher than expected tire wear on the medium tires for his McLaren
+- Lap 34
+  - VSC deployed because of debris on the track; some bits fell off Sergio Perez's car
+  - Marshals do a good job of recovering the debris correctly and the VSC ends on the same lap
+- Lap 35
+  - Norris pulls into the pits and allows Verstappen to pass him for 5th, comes back out in 8th
+- Lap 40 --- Bearman passes Lindblad for 7th
+- Lap 42 --- Verstappen pits again from 5th and comes out in 6th behind Norris
+- Lap 45 --- Verstappen is catching up to Norris for 5th
+- Lap 48 --- /Russell and Antonelli have pulled well clear of the rest of the pack/
+- Lap 50 --- Norris is defending hard against Verstappen
+- Lap 58
+  - Russell wins
+  - Mercedes get the 1-2
+  - LeClerc is 3rd and Hamilton is 4th
+  - /I think Ferrari were somewhat betrayed by their strategy --- maybe they couldn't have won if they'd pit during the VSC, but I think they could have made it closer/
+  - Arvid Lindblad gets points on his debut race
+  - Norris stays ahead of Verstappen for 5th
+  - /Lots of DNFs, but that's to be expected for the debut race of a new car specification/
+
+** Results
+1. George Russell --- Mercedes
+2. Kimi Antonelli --- Mercedes
+3. Charles LeClerc --- Ferrari
+4. Lewis Hamilton --- Ferrari
+5. Lando Norris --- McLaren
+6. Max Verstappen --- Red Bull
+7. Oliver Bearman --- Haas
+8. Arvid Lindblad --- Racing Bulls
+9. Gabriel Bortoleto --- Audi
+10. Pierre Gasly --- Alpine
+11. Esteban Ocon --- Haas
+12. Alex Albon --- Williams
+13. Liam Lawson --- Racing Bulls
+14. Franco Colapinto --- Alpine
+15. Carlos Sainz --- Williams
+16. Sergio Perez --- Cadillac
+17. Lance Stroll --- Aston Martin
+18. Fernando Alonso --- Aston Martin (DNF)
+19. Valteri Bottas --- Cadillac (DNF)
+20. Isak Hadjar --- Red Bull (DNF)
+21. Oscar Piastri --- McLaren (DNS)
+22. Nico Hulkenberg --- Audi (DNS)

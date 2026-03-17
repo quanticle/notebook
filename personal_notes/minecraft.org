@@ -1,0 +1,79 @@
+* Minecraft
+
+** Minecraft Server:
+- Server address: =135.148.5.66:25607=
+- Server FTP access
+  - Server address: =147.135.69.21=
+  - Server port: =21=
+  - FTP username: =quanticle@quanticle.net.416759=
+  - Use =ftp -p= to log in
+
+** Disable pause on lost focus
+- F3 + P
+
+** Locations
+- Home base: -222, 70, -36
+- Village: 7, 65, 752
+
+** Base to village railway
+- To build a railway from my base to the village, I'll need
+  - 752+13 = 765 z
+  - 205+7 = 212 x
+- 765 + 205 = 970 rails
+- 96 iron = 256 rails = 1.5 stacks
+- I need 6 stacks of iron just for the rails
+- Plus a stack for tool replenishment
+- Current iron inventory: 1 stack + 57
+- Iron occurs mostly around y = 14
+
+** Iron Farm
+- Source video: [[https://www.youtube.com/watch?v=6HQ4g98GU9c][https://www.youtube.com/watch?v=6HQ4g98GU9c]]
+- Location
+  - Near enough to your base to be loaded in, but also a little bit isolated
+  - About 20-ish blocks above the ground
+  - Should not be near other villagers
+- 3 villagers, zombie with nametag
+- Materials
+  - Exact amounts
+    - 3 beds
+    - 10 hoppers
+    - 2 chests
+    - 12 signs
+    - 1 name tag
+    - 1 lava bucket
+    - 1-2 buckets of water
+  - Building blocks
+    - Any kind of generic stone (blackstone, cobblestone, deepslate, etc) - 4-5 stacks
+    - 1 stack of walls
+    - Fences (better if they're non-burnable, but you can use wood fences?) - 3 stacks
+    - Glass - 4 stacks
+  - Transport system for villagers & zombie
+    - Kelp - 1 stack
+    - Soul sand - 1
+- To move villgers up into the iron farm, you can use
+  - Mine cart
+  - Bubble column
+  - Pushing them manually (least efficient)
+- The build
+  - Underside
+    - 4 chambers
+      - 1 zombie chamber - 1x1
+      - 3 villager chambers - 3x1
+      #+BEGIN_EXAMPLE
+        |
+        |
+        |
+        x---
+        |
+        |
+        |
+      #+END_EXAMPLE
+      - =x= is the zombie chamber
+  - Build walls that fully box the chambers in
+    - /But then how are you going to get the villagers inside/
+    - Walls should be 3 blocks high
+    - Each room should have workstation inside it, in order to attract the villager
+  - Put in some temporary blocks that block the villager from seeing the zombie cell, in order to keep the farm from starting up prematurely
+  - Wall off the zombie cell
+  - Place a water source in the zombie cell to keep the zombie from burning up
+  - Light source inside each of the villager chambers

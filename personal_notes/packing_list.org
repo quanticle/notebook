@@ -1,0 +1,71 @@
+#+TITLE: Packing List
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+
+** Clothes
+- Underwear
+- Socks
+- T-shirts
+- Sweatshirts
+- Pants
+- Shorts
+- Night suit
+- Jacket
+- Rain jacket
+- Hat
+- Gloves
+- Extra shoes/sandals
+- Swimming trunks
+- Formalwear
+  - Kurta
+  - Kurta pants
+  - Suit jacket
+  - Suit pants
+  - Khaki pants
+  - Formal shirt
+  - Undershirt
+  - Belt
+  - Tie
+  - Socks
+  - Formal shoes
+
+** Toiletries
+- Toothbrush
+- Tongue cleaner
+- Floss
+- Razor
+- Hairbrush
+- Deodorant
+- Toothpaste
+- Shampoo
+- Conditioner
+- Body wash
+- Eye drops
+- Lip balm
+- Towel
+
+** Electronics
+- USB A to C cable
+- Short USB-C to USB-C cable
+- Long USB-C to USB-C cable
+- USB chargers
+- Power bank
+- Laptop
+- International plug adapters
+
+** Miscellaneous
+- Passport
+- Book
+- Folder
+- Pen
+- Travel pillow
+- Toll pass
+- Gift(s)
+- Mints
+- Air mattress
+- Bedsheets
+- Constant Comment tea

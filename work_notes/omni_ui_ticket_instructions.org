@@ -1,0 +1,10 @@
+* OMNI UI Ticket Instructions
+- To create a new OMNI ticket:
+  1. Go into the [[https://wlweb.windlogics.com/radar/projects/OMNI][OMNI project]]
+  2. Hit "Create" button at top of screen
+  3. Set issue type to either bug or story
+  4. Set the sprint to the current sprint
+  5. Create the ticket and hit "Select For Work" to make it show up on the sprint board
+- To work on a ticket
+  - Hit the "Start Progress" button to move the ticket into the "In Progress" state
+  - When finished, hit the "Resolve Issue" button to resolve the issue

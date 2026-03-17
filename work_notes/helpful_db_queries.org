@@ -1,0 +1,19 @@
+* Helpful DB Queries
+- Get all scenarios for a project:
+  #+BEGIN_EXAMPLE
+    SELECT
+        project.name AS project_name,
+        project.id AS project_id,
+        proposal_scenario.name AS scenario_name,
+        proposal_scenario.id AS scenario_id
+    FROM project INNER JOIN (
+        project_proposal INNER JOIN (
+            proposal_scenario INNER JOIN proposal ON proposal_scenario.proposal_id = proposal.id
+        ) ON project_proposal.proposal_id = proposal.id
+    ) ON project.id = project_proposal.project_id
+    WHERE project.id = <project ID>
+  #+END_EXAMPLE
+- Get all projects which intersect with prime farmland
+  #+BEGIN_EXAMPLE
+    SELECT project.id, project.name FROM project WHERE project.prime_farmland = TRUE
+  #+END_EXAMPLE

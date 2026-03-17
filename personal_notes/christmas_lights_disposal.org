@@ -1,0 +1,14 @@
+* Christmas Lights Disposal
+- Christmas lights are accepted at both the Brooklyn Park and Bloomington waste disposal facilities
+- No charge
+- Bloomington facility:
+  #+BEGIN_EXAMPLE
+    1400 West 96th St
+    Bloomington, MN 55431
+  #+END_EXAMPLE
+- Brooklyn Park facility
+  #+BEGIN_EXAMPLE
+    8100 Jefferson Highway
+    Brooklyn Park, MN 55445
+  #+END_EXAMPLE
+- Hours: Tuesday - Saturday: 9am - 5pm

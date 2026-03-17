@@ -1,0 +1,16 @@
+#+TITLE: Toilet Flush Handle Replacement
+
+- When buying a flush handle, ensure that it has
+  - Flush handle
+  - Tank lever
+  - Tank lever nut
+- Adjustable wrench
+- Remove tank lid
+- Disconnect flapper chain from old tank lever and hook it over the toilet's overflow tube
+- Unscrew the tank lever nut with the adjustable wrench (lever nut is reverse-threaded)
+- Remove the nut from the flush handle and remove the handle and tank lever from the toilet
+- Install the new toilet handle by inserting the new tank lever into the tank and align the bolt to correctly fit on the tank
+- Slide the new lever nut over the tank lever and screw it onto the shank of the bolt
+- Tighten the nut a little over hand tight with the adjustable wrench
+- Reattach flapper chain
+- Test the toilet flush

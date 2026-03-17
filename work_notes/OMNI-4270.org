@@ -1,0 +1,168 @@
+* OMNI-4270: Test OMNI Capex Architecture
+
+** Ticket Description:
+- Stress test the OMNI CapEx API using the script from the IRDOT API repo
+- Deliverable
+  - Report with stress test results
+  - Follow up with John Renner re: areas of concern and make tickets to address areas of concern
+
+** Ticket Notes
+- [[https://gitlab.windlogics.com/internal/empp/empp-api-service/-/merge_requests/102][Tanner's MR]] -- documentation from the script
+- Look at =omniCapexBulkRun=
+- Load testing scripts are in =scripts/analysis= under the =empp-api-service= repository
+- Script talks to =empp-api-capex=, not E&C CapEx directly
+- Set up =empp-api-capex= locally, as =empp-api-capex= talks to the E&C Capex endpoint and does a bunch of necessary translations
+- Run the stress testing script against =empp-api-capex= and report performance
+- To set up the =empp-api-capex= project locally
+  - Clone the [[https://gitlab.windlogics.com/internal/empp/empp-api-capex][=empp-api-capex=]] repo
+  - Set up Python 3.8
+    - =pyenv install 3.8.12=
+    - =pyenv local 3.8.12=
+  - Install the Poetry dependency manager: =curl -sSL https://install.python-poetry.org | python -=
+  - Add the Poetry binary to the =$PATH=: =export PATH="/Users/rpatnaik/.local/bin:$PATH=
+  - Install dependencies by running =poetry install= (this will also create a virtualenv for the project)
+    - Virtualenv created in =/Users/rpatnaik/workspace/empp-capex-api/.venv=
+  - Set up PyCharm for the project:
+    - Open the project directory
+    - Configure the project interpreter to =/Users/rpatnaik/workspace/empp-capex-api/.venv/bin/python=
+- To run =empp-api-capex=
+  - Get a =local-credentials.json= file and place it under the project root
+    #+BEGIN_EXAMPLE
+      {
+        "atc_hazards_api_key": "k9407guxi3gghheo",
+        "atlas_cognito_client_id": "632up6euuj2re46a9hl9l8qqu2",
+        "atlas_cognito_client_secret": "3eulh4o9mr3na0mksmlrpts0o0ob9bsueg3ql7926hotlel06ng",
+        "dg_capex_api_key": "8ZZb9odwMF9qJ5avMN4NJwCY1e9fqRsaxdaDtFuj",
+        "gis_service_api_key": "JfNYoYA67l2EnkjiKp1Qi5lHcnrsoIkCah951wEr",
+        "google_maps_api_key": "s0TwvlioYfZnJvYsj4FYfltleq8=",
+        "omni_capex_api_id": "9sw4o67tc5",
+        "omni_capex_api_key": "LXfyZuypLt8gfbZdQ3Bal6gYFIdOchoq2hC6u1N8",
+        "sdot_data_api_key": "YUVAFCMAmL54KHCS48X9E9fi3EaRIvHi73NbS7Hi"
+      }
+    #+END_EXAMPLE
+  - Run =poetry run python devserver.py=
+  - API is at: =http://localhost:9400/api/iro/capex=
+- To run the load test script
+  - In =empp-api-service=, run =yarn analysis stressTest=
+  - For a simple run, select =2= for =1-solar.json=
+  - Error
+    #+BEGIN_EXAMPLE
+      Validating inputs before submitting...
+      [EMPP][Request] POST https://designer-dev.nexteraanalytics.com/api/iro/service/submit/input-fill
+      (node:43485) UnhandledPromiseRejectionWarning: Error: Failed to retrieve secrets. ENCRYPTED_SECRETS is undefined and /Users/rpatnaik/workspace/empp-api-service/dev-credentials.json cannot be found.
+          at /Users/rpatnaik/workspace/empp-api-service/src/clients/secrets.ts:21:10
+          at async getCognitoAuth (/Users/rpatnaik/workspace/empp-api-service/src/clients/empp/cognito-auth.ts:115:41)
+          at async authRequestInterceptor (/Users/rpatnaik/workspace/empp-api-service/src/clients/empp/auth.ts:20:22)
+          at async Promise.all (index 0)
+          at async validateInputs (/Users/rpatnaik/workspace/empp-api-service/scripts/analysis/util.ts:42:29)
+          at async /Users/rpatnaik/workspace/empp-api-service/scripts/analysis/functions/stress-test.ts:54:27
+          at async Object.stressTest (/Users/rpatnaik/workspace/empp-api-service/scripts/analysis/functions/stress-test.ts:46:32)
+          at async main (/Users/rpatnaik/workspace/empp-api-service/scripts/analysis/index.ts:12:2)
+      (Use `node --trace-warnings ...` to show where the warning was created)
+      (node:43485) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+      (node:43485) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    #+END_EXAMPLE
+  - Do I need a copy of =local-credentials.json= in =empp-api-service=?
+  - Copying =local-credentials.json= from =empp-api-capex= to =empp-api-service= results in a different error
+    #+BEGIN_EXAMPLE
+      [EMPP][Request] POST https://designer-dev.nexteraanalytics.com/api/iro/service/submit/input-fill
+      (node:77064) UnhandledPromiseRejectionWarning: Error: Data does not match "Secrets" format
+          at safeParseObj (/Users/rpatnaik/workspace/empp-api-service/src/util/safe-parse.ts:21:9)
+          at safeParseJson (/Users/rpatnaik/workspace/empp-api-service/src/util/safe-parse.ts:11:21)
+          at /Users/rpatnaik/workspace/empp-api-service/src/clients/secrets.ts:24:23
+          at async getCognitoAuth (/Users/rpatnaik/workspace/empp-api-service/src/clients/empp/cognito-auth.ts:115:41)
+          at async authRequestInterceptor (/Users/rpatnaik/workspace/empp-api-service/src/clients/empp/auth.ts:20:22)
+          at async Promise.all (index 0)
+          at async validateInputs (/Users/rpatnaik/workspace/empp-api-service/scripts/analysis/util.ts:42:29)
+          at async /Users/rpatnaik/workspace/empp-api-service/scripts/analysis/functions/stress-test.ts:54:27
+          at async Object.stressTest (/Users/rpatnaik/workspace/empp-api-service/scripts/analysis/functions/stress-test.ts:46:32)
+          at async main (/Users/rpatnaik/workspace/empp-api-service/scripts/analysis/index.ts:12:2)
+      (Use `node --trace-warnings ...` to show where the warning was created)
+      (node:77064) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+      (node:77064) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    #+END_EXAMPLE
+  - What is the =Secrets= format?
+  - Look at =secrets.ts= in =empp-api-service=
+  - The =Secret= type has the following properties:
+    - =irdotApiUsername=
+    - =irdotApiPassword=
+    - =sdotDataApiKey=
+    - =sdotLayoutServiceApiKey=
+    - =mapboxAccessToken=
+  - File from Tanner
+    #+BEGIN_EXAMPLE
+      {
+        "irdotApiUsername": "service-api-dev",
+        "irdotApiPassword": "5Ep8ep6*wj;bC4zGbH`rbVP,:\\AdSG",
+        "sdotDataApiKey": "YUVAFCMAmL54KHCS48X9E9fi3EaRIvHi73NbS7Hi",
+        "sdotLayoutServiceApiKey": "cLKClR24KGaxy7QYVwRe012fL64OfWnL4uPLpXKX",
+        "mapboxAccessToken": "pk.eyJ1Ijoid2luZGxvZ2ljcyIsImEiOiJaRk80SmVvIn0.TBlvUCtMaOD5gB0QrYfqqw"
+      }
+    #+END_EXAMPLE
+  - New error
+    #+BEGIN_EXAMPLE
+      [EMPP][Request] POST https://designer-dev.nexteraanalytics.com/api/iro/service/submit/input-fill
+      (node:82398) UnhandledPromiseRejectionWarning: UnrecognizedClientException: The security token included in the request is invalid.
+          at Request.extractError (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/protocol/json.js:52:27)
+          at Request.callListeners (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+          at Request.emit (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+          at Request.emit (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/request.js:686:14)
+          at Request.transition (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/request.js:22:10)
+          at AcceptorStateMachine.runTo (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/state_machine.js:14:12)
+          at /Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/state_machine.js:26:10
+          at Request.<anonymous> (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/request.js:38:9)
+          at Request.<anonymous> (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/request.js:688:12)
+          at Request.callListeners (/Users/rpatnaik/workspace/empp-api-service/node_modules/aws-sdk/lib/sequential_executor.js:116:18)
+      (Use `node --trace-warnings ...` to show where the warning was created)
+      (node:82398) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+      (node:82398) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    #+END_EXAMPLE
+    - Invalid security token
+    - Request going to =api/iro/service/submit/input-fill=
+    - Handled by =empp-api-service-api-dev= lambda
+    - Entry point: =api.handler=
+      - Called with =submit/input-fill= and =POST= body
+    - =api.handler= calls =proxy= from =aws-serverless-express=
+    - Proxies to =api/express-app=
+    - =api/express-app= gets its endpoints from =endpoints/*=
+    - Look at =post-submit-input-fill.ts=
+    - Looks like the problem is in what's calling =submit/input-fill=
+    - Look for =submit/input-fill= in =empp-api-service=
+    - The message above the error is =Validating inputs before submitting=
+    - Message comes from =scripts/analysis/util.ts=
+    - Calls =serviceClient.postSubmitInputFill=
+    - =serviceClient= is a =openApiClient=, defined in =src/clients/empp/index.ts=
+    - =openApiClient= comes from =@nea/openapi-axios-client= based on:
+      #+BEGIN_EXAMPLE
+        const emppServiceAxiosClient = makeAxiosInstance(`${emppApiBaseUrl}/api/iro/service/`, 'EMPP`);
+      #+END_EXAMPLE
+    - Where is this client getting authentication information from?
+    - The authentication info is provided by a request interceptor:
+      #+BEGIN_EXAMPLE
+        export const authRequestInterceptor = async (config: AxiosRequestConfig) => {
+            const { IdToken } = await getCognitoAuth();
+            if (!IdToken) {
+                throw new Error('Failed to retrieve Cognito ID token');
+            }
+            return applyAuthHeaders(config, IdToken);
+        }
+      #+END_EXAMPLE
+    - I don't see a =Failed to retrieve Cognito ID token=, so it is getting a token?
+    - Where is =getCognitoAuth= getting its token from?
+    - =getCognitoAuth= defined in =cognito-auth.ts=
+    - Calls =getSecretValues= from =secrets.ts=
+    - =getSecretValues= access =dev-credentials.json=
+    - =getCognitoAuth= looks up =irdotApiUsername= from =dev-credentials.json= via =secrets.ts=
+    - =getCognitoAuth= then looks for cached cognito auth credentials in DynamoDB, if they're available, via =getCachedCognitoAuth=
+    - So are we getting expired cognito auth credentials from DynamoDB
+      - DynamoDB table is =auth=
+      - I see credentials for =service-api-dev= in the DynamoDB table, but it looks like they're getting renewed by the code
+      - So the DynamoDB credentials can't be expired, since we're getting them fresh and storing them
+    - Credentials look valid
+    - We're calling =getNewCognitoAuth=, from =cognito-auth.ts=
+      - Gets =irdotApiUsername= and =irdotApiPassword= from =dev-credentials.json=, with =getSecretValues=
+      - Then calls =cognito-srp= to get an =AuthenticationResult=
+      - But what if the password has expired? Does it just throw an error in that case?
+  - Why is the stress test talking to =designer-dev.nexteraanalytics.com=?
+    - The stress test tries to validate its inputs, and in order to do so, it has to talk to the EMPP API service client
+- I'm not getting any console logging from inside =getCognitoAuth=

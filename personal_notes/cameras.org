@@ -1,0 +1,11 @@
+#+TITLE: Cameras
+
+* Instant Cameras
+- Fuji Instax
+  - Square film, SQ1 --- $260
+  - Mini film, Instax Mini 41 --- $129
+
+* Lomo Instant Automat
+- Battery: 2x CR2
+- Manual: https://qr.lomography.com/manuals/lia
+- Film: FujiFilm Instax Mini

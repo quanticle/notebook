@@ -1,0 +1,6 @@
+#+TITLE: Property Tax Information
+
+- Property ID: 18-118-22 14 0082
+
+* Levies
+- 2025: $2629.08

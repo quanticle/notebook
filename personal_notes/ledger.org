@@ -1,0 +1,53 @@
+#+TITLE: Ledger
+#+OPTIONS: h:6
+
+[[https://ledger-cli.org/doc/ledger3.html][Ledger Documentation]]
+
+- Install ledger with =sudo dnf install ledger=
+- The fundamental unit of a ledger journal is a transaction
+- To create a transaction, specify source and destination accounts, as follows
+  #+begin_example
+    2023/05/24 * Transaction description
+        Transaction destination  $amount
+        Transaction source  $-amount
+  #+end_example
+  - Note the double-space between the account name and the amount
+- So, for example, to record a $35.24 purchase at Target, paid by one's Citibank Mastercard
+  #+begin_example
+    2023/05/24 * Stuff from Target
+        Expenses:Target  $35.24
+        Liabilities:Citibank:Mastercard  $-35.24
+  #+end_example
+- Ledger is smart enough to figure out the debit amount if the remainder of the transaction is unambiguous
+  #+begin_example
+    2023/05/24 * Stuff from Target
+        Expenses:Target  $35.24
+        Liabilities:Citibank:Mastercard
+  #+end_example
+- To create an initial balance, just create a transaction from a special account
+  #+begin_example
+    2023/05/24 * Opening Balance
+        Assets:Checking  $10000
+        Assets:Savings  $50000
+        Liabilities:Citibank Credit Card  $-400
+        Special:Opening Balance
+  #+end_example
+- Ledger transactions can be in one of two states: pending or cleared
+  - A cleared transaction has an asterisk, as above
+  - A pending transaction replaces the asterisk with =!=:
+    #+begin_example
+      2023/05/24 ! Pending expense
+          Expenses:Whatever $amount
+          Liabilities:Credit Card
+    #+end_example
+  - A good practice is to make all transactions pending at first, and then set them to cleared once you've reconciled them with your bank statements
+- To check the balance of an account: =ledger balance -f <ledger file> <account>=
+  - Note: Ledger uses hierarchical accounts, delimited by =:=, so, for example, =Expenses:Groceries:Walmart= and =Expenses:Auto:Valvoline= are both subaccounts of =Expenses=
+  - So to check the balance of the =Expenses= account: =ledger balance -f <ledger file> Expenses=
+  - One can also use PCREs instead of account names in order to produce a balance for multiple accounts
+  - To check the balance for a particular time period: =ledger balance -f <ledger file> -b <begin date> -e <end date> <account>=
+    - =-b= specifies all transactions that occur on or after the specified begin date
+    - =-e= specifies all transactions that occur /before/ the specified end date --- in practice this means that you'll want to set =-e= to be one day past the last day of your report
+  - To list only pending items, append =--pending=
+  - To list only cleared items, append =--cleared=
+- To have ledger output without colors, pass the =--no-color= option

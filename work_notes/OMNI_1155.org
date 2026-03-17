@@ -1,0 +1,146 @@
+* OMNI-1155 Enable View of Uploaded Buildable Land Layer
+[[https://wlweb.windlogics.com/radar/browse/OMNI-1155][Ticket Link]]
+- Task description: Add JES - buildableprojectlayer variable to the layer control and make it visible on all maps
+- Name: "Buildable Land (From Env)"
+  - Actual variable name: =buildable_project_area=
+- Where is this variable?
+- Example project: [[https://omni.nexteraanalytics.com/model?projectId=60&proposalId=1355&scenarioId=1355&variableId=2906][https://omni.nexteraanalytics.com/model?projectId=60&proposalId=1355&scenarioId=1355&variableId=2906]]
+- Where is this data stored?
+  - Stored as a variable on the project
+  - How do I see the variables on a project?
+    - =variable= has the variable metadata
+    - Actual variable information is stored in =variable_data= table
+    - =variable_data= also has a foreign key relationship with =project=
+    - To see which projects have the =buildable_project_layer= variable:
+      #+BEGIN_EXAMPLE
+        SELECT
+            project.id AS project_id,
+            project.name AS project_name,
+            variable.id AS variable_id,
+            variable.name AS variable_name,
+            variable.variable_name AS variable_var_name
+        FROM
+            project INNER JOIN (
+                variable_data INNER JOIN variable ON variable_data.variable_id = variable.id
+            ) ON variable_data.project_id = project.id
+        WHERE
+            variable.variable_name = 'buildable_project_area';
+      #+END_EXAMPLE
+  - Each project has multiple entries --- =buildable_project_area= varies by scenario
+  - The buildable project area is a =geojson= data type
+  - How do I display data from a variable in the map?
+    - Look at how we're doing this for project boundaries
+- Project boundary is displayed as =GeoJson Layer 0=
+  - I think it's something that's passed in to the map
+  - How does the project detail view use the map?
+    #+BEGIN_EXAMPLE
+      <Map
+          class="mt-3"
+          aspect="3:2"
+          v-if="sidePanelData.boundary"
+      />
+    #+END_EXAMPLE
+  - Where does =sidePanelData= come from?
+    #+BEGIN_EXAMPLE
+      sidePanelData() {
+          return this.queryForPanelData ? this.queryPanelData : this.panelData;
+      }
+    #+END_EXAMPLE
+  - =queryPanelData= is a GraphQL call:
+    #+BEGIN_EXAMPLE
+      queryPanelData: {
+          query: getProjectDetails,
+          variables() {
+              return {
+                  filters: {
+                      id: this.panelData.id,
+                  }
+                  proposalId: this.panelData.proposalId,
+                  proposalScenarioId: this.panelData.proposalScenarioId,
+              }
+          }
+          update: data => data?.projects?.edges?.[0]?.node,
+          skip() {
+              return !this.queryForPanelData;
+          }
+          error(error) {
+              this.displayAlert({
+                  title: 'Project Data Query Error',
+                  message: `Unable to query for project data due to ${error}`
+              });
+              this.$log.error('unable to query for project data', error);
+          }
+      }
+    #+END_EXAMPLE
+  - The actual GraphQL is
+    #+BEGIN_EXAMPLE
+      export const getProjectDetails = gql`
+          query getProjectDetails(
+              $filters: ProjectFilter
+              $proposalId: ID
+              $proposalScenarioId: ID
+          ) {
+              projects(filters: $filters) {
+                  edges {
+                      node {
+                          ...projectDetails
+                          proposals(filters: { id: $proposalId }) {
+                              edges {
+                                  node {
+                                      id
+                                      name
+                                      isDefault
+                                      proposalScenarios(filters: { id: $proposalScenarioId }) {
+                                          edges {
+                                              node {
+                                                  id
+                                                  proposalId
+                                                  name
+                                                  isDefault
+                                              }
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+          ${projectDetails}
+      `;
+    #+END_EXAMPLE
+  - +In the process of loading the project details screen, we do make a =getVariables= call+
+    - That =getVariables= call is just for origination counties
+  - So in general, we do not have access to variable data in the project
+- We have two problems
+  1. +The map can only take a single GeoJSON layer as input, so we can't pass in both the project boundary and the =buildable_project_area= variable+
+  2. The side panel only queries the project data, not any project variables
+- To enable the map to take in multiple GeoJSON layers
+  - Look at the =geoJson= prop on =FlexibleMap=
+  - Looks like =geoJson= can already be an array
+  - What happens if =geoJson= is an array?
+    - The =geoJson= prop is processed by:
+      #+BEGIN_EXAMPLE
+        const { geoJsonLayers } = useGeoJsonLayers(
+            geoJson,
+            preGeneratedGeoJson,
+            tooltipData,
+            layerKey
+        );
+      #+END_EXAMPLE
+    - =useGeoJsonLayers= comes from =@components/map/layers/useGeoJsonLayers=
+    - =useGeoJsonLayers= converts single layers into a single-element array and sets up layers for multiple GeoJson objects
+- How do I get the =buildable_project_area= variable for a particular project?
+  #+BEGIN_EXAMPLE
+    SELECT
+        variable_data.value AS value
+    FROM
+        project INNER JOIN (
+            (variable_data INNER JOIN proposal_scenario ON variable_data.proposal_scenario_id = proposal_scenario.id)
+            INNER JOIN variable ON variable_data.variable_id = variable.id
+        ) ON variable_data.project_id = project.id
+    WHERE
+        variable.variable_name = 'buildable_project_area' AND
+        project.id =
+  #+END_EXAMPLE

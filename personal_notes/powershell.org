@@ -1,0 +1,122 @@
+* PowerShell Tips
+
+** Unzip File
+- =Expand-Archive <filename>=
+  - Expand archive to a particular directory: =Expand-Archive -DestinationPath <path>=
+
+** Create a zip file
+- =Compress-Archive -Path <path to compress> -DestinationPath <path to zip file>.zip=
+
+** Set Window Title
+=$host.UI.RawUI.WindowTitle = <title>=
+
+** Escape Special Characters
+- The PowerShell escape character is the backtick =`=
+- Use single quotes for strings unless you specifically want interpolation
+  - In a single-quoted string, need to escape =[= and =]=
+
+** Start an executable whose path is a quoted string
+- To start an executable whose path is a quoted string:
+  - =Start-Process -FilePath 'Executable Path' -ArgumentList 'Arguments'=
+- To run this executable as administrator, add =-Verb runas=
+
+** Open A File With Its Default Handler
+- You can use =Start-Process= with a filename to launch the filename with the default handler
+
+** Get first or last item in a list
+- =Select-Object -First 1=
+- =Select-Object -Last 1=
+- Can swap =1= with =n= to get the first/last =n=
+- To get the nth object, use the =-Skip= parameter: =Select-Object -First 1 -Skip n=
+
+** Get the filename without extension
+- The filename without the extension is the =basename= property of the file object
+
+** Get Free Disk Space
+- =$(Get-CimInstance -ClassName Win32_LogicalDisk | ?{$_.DeviceID -eq "<drive letter>:"}).FreeSpace=
+- Get free space, properly formatted: =[math]::Round($(Get-CimInstance -ClassName Win32_LogicalDisk | ?{$_.DeviceID -eq "<drive letter>:"}).FreeSpace / 1GB, 2)= → gets free space in gigabytes
+- Get total disk space =[math]::Round($(Get-CimInstance -ClassName Win32_LogicalDisk | ?{$_.DeviceID -eq "<drive letter>:"}).Size / 1GB, 2)=
+- Get percentage free:
+  #+BEGIN_EXAMPLE
+    Write-Host "$([math]::Round(($(Get-CimInstance -ClassName Win32_LogicalDisk | ?{$_.DeviceID -eq "<drive letter>:"}).FreeSpace / $(Get-CimInstance -ClassName Win32_LogicalDisk | ?{$_.DeviceID -eq "<drive letter>:"}).Size) * 100, 2))%"
+  #+END_EXAMPLE
+
+** Get Folder Size
+- =$(Get-ChildItem -Recurse | ?{!$_.PSIsContainer} | Measure-Object -Sum -Property Length).Sum / 1GB=
+- As a function:
+  #+BEGIN_EXAMPLE
+    function Get-FolderSize {
+        param(
+            $FolderName
+        )
+        $(Get-ChildItem -LiteralPath $FolderName -Recurse | ?{!$_.PSIsContainer} | Measure-Object -Sum -Property Length).Sum
+    }
+  #+END_EXAMPLE
+
+** Get the sizes of all subdirectories of the current directory
+- =Get-ChildItem | Where-Object {$_.PSIsContainer} | ForEach-Object {[PSCustomObject]@{Name~$_.Name; Size~$(Get-FolderSize $_.Name)}} | Sort-Object -Property "Size" -Descending | Format-Table -Property Name, @{Label​="Size (GB)"; Expression~{[math]::Round($_.Size / 1GB, 2)}}=
+- As a oneliner that doesn't rely on =Get-FolderSize=:
+  #+BEGIN_EXAMPLE
+    Get-ChildItem | Where-Object {$_.PSIsContainer} | ForEach-Object {[PSCustomObject]@{Name=$_.Name; Size=$(Get-ChildItem -LiteralPath $_.Name -Recurse | ?{!$_.PSIsContainer} | Measure-Object -Sum -Property Length).Sum}} | Sort-Object -Property "Size" -Descending | Format-Table -Property Name, @{Label="Size (GB)"; Expression={[math]::Round($_.Size / 1GB, 2)}}
+  #+END_EXAMPLE
+
+** Get total size of the files in just this directory (without descending into subdirectories)
+- =Get-ChildItem | ?{!$_.PSIsContainer} | Measure-Object -Property "Length" -Sum=
+- Nicely formatted: =[math]::Round($(Get-ChildItem | ?{!$_.PSIsContainer} | Measure-Object -Property "Length" -Sum).Sum / 1GB, 2)=
+
+** Format Properties using =Format-Table=
+- You can reformat item properties for display in =Format-Table= by passing a dictionary with =Label= and =Expression= keys
+- For example, to format file sizes in terms of GB:
+  #+BEGIN_EXAMPLE
+    Get-ChildItem | Format-Table Name, @{Label="Length (GB)"; Expression={[math]::Round($_.Length / 1GB,2)}}, LastWriteTime
+  #+END_EXAMPLE
+
+** Navigate into a directory whose name contains special characters
+- =Set-Location -LiteralPath $(Get-ChildItem -Filter "<glob expression>")=
+
+** Download a file
+- =Invoke-WebRequest -Uri <url> -OutFile <destination>=
+
+** Get the actual upload time of a YouTube video
+- Assumes =yt-dlp= is on the =$env:PATH=
+  #+BEGIN_EXAMPLE
+    [DateTime]::ParseExact($(yt-dlp -j "<video URL>" | ConvertFrom-Json).upload_date, "yyyyMMdd", $null)
+  #+END_EXAMPLE
+
+** Get the first or last item
+- First item: =Select-Object -First 1=
+- Last item: =Select-Object -Last 1=
+
+** Generate a new GUID
+- =New-Guid=
+
+** Launch program in background
+- =Start-Process -NoNewWindow=
+
+** Enable GNU ReadLine command editing shortcuts
+- Install the PowerShell readline module: =Install-Module -Name PSReadLine -AllowClobber -Force= (only needs to be done once)
+- Enable emacs editing mode by putting the following in the profile: =Set-PSReadLineOption -EditMode emacs -PredictionSource None=
+  - Profile, on my personal laptop, is: =C:\Users\quant\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1=
+
+** List drives
+- =Get-CimInstance -ClassName "Win32_LogicalDisk" | Format-Table "DeviceID", @{Label​="Size (GB)"; Expression={[math]::Round($_.Size / 1GB, 2)}}, @{Label​="Free Space (GB)"; Expression={[math]::Round($_.FreeSpace/1GB, 2)}}=
+
+** Extract a compressed zip file with 7zip
+- 2-step process
+  - =7z -aoa x <compressed_archive>.tar.gz= → creates an uncompressed =.tar= file
+  - =7z -aoa x <archive>.tar= → extracts the files from the archive
+- =-aoa= allows 7-zip to overwrite files
+
+** Get the full path for a file
+- Read the =FullName= property of the file
+
+** Copy text onto the clipboard
+- =Set-Clipboard -Value "<text>"=
+
+** PowerShell bulk rename
+- =Get-ChildItem | Rename-Item -NewName {$_.Name -replace "<string>, "<replacement>"}=
+
+** Search for a string
+- =Get-ChildItem <file name> | Select-String "<regular expression>"=
+- This will search all the files that =Get-ChildItem= yields
+- To search without regular expressions, pass the =-SimpleMatch= parameter

@@ -1,0 +1,25 @@
+#+TITLE: Stellantis
+
+- Formed from the merger for Fiat-Chrysler and PSA (owner of Peugeot & Citroën)
+
+* Brands
+
+** American Brands
+- Chrysler
+- Dodge
+- Jeep
+- Ram
+
+** European mass-market
+- Citroën
+- Fiat
+- Opel
+- Peugeot
+- Vauxhall
+
+** Luxury and performance
+- Abarth
+- Alfa Romeo
+- DS Automobiles
+- Lancia
+- Maserati

@@ -1,0 +1,22 @@
+#+TITLE: LED Screen Questions
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+
+* LED Screen
+- How to turn on the LED screen
+- How to turn off the LED screen
+- How to connect to the LED screen with
+  - iPad
+  - Cell phone
+  - Laptop
+
+
+* Audio
+- What are the bluetooth settings for the mixer
+- How to connect microphones to the mixer
+- How to connect keyboards to the mixer
+- How to connect drums to the mixer

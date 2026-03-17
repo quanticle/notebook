@@ -1,0 +1,163 @@
+#+TITLE: Armies In Retreat: Chaos, Cohesion And Consequences
+#+OPTIONS: toc:1
+
+* Chapter 1: Introduction
+- Why do armies retreat?
+- Why are some retreats orderly while others are chaotic?
+- How do societies view a retreating army?
+- This work attempts to answer the above questions
+- Is a response to increasingly triumphalist narratives in works covering large-scale combat operations
+- This trend has become especially pronounced as publications have switched from covering small wars to big ones
+- Example: much of the literature on the opening stages of World War 2 focuses on Japanese and German advances
+- But what of American and French retreats?
+- Every retreating army is, in some way, unique
+  - Some retreat because of battlefield failure
+  - Some retreat to regroup for a counterattack
+  - Some maintain cohesion
+- Some retreats cause armies to disintegrate, as units lose cohesion and soldiers desert, whereas other retreats leave the army in question relatively unharmed
+- The book is organized thematically rather than chronologically
+  - First section focuses on chaotic retreats that result in a defeated army
+    - Sometimes, as with Cornwallis' retreat to Yorktown, the retreat is the cause of the defeat
+    - Other times, as with Polish forces during World War 2, the retreat is a symptom of a broader defeat
+  - Second section focuses on orderly retreats
+    - Platean retreat from Thermopylae --- allowed the Plateans to contribute to later Greek victories over the Persians
+    - Provisional Air Corps' retreat from the Philippines shows how strong leadership can preserve unit cohesion and combat effectiveness
+    - German army's operational competence on the retreat on the Eastern Front of World War 2
+    - Role of logistics in enabling armies to retreat without losing cohesion in the Korean War
+    - /I feel like there's a missed opportunity here to look at the Soviet retreat from Afghanistan --- this was handled very well, and even today is used as an example of a reasonably graceful retreat from a lost war/
+  - Final section focuses on the consequences of retreat
+    - Retreats have cultural impacts that resonate beyond the battlefield
+    - How a unit retreats can frame the way it's viewed by the broader population
+- There has been very little meaningful analysis of retreating armies
+- Oftentimes analyses of retreats are used as vehicles for those on the losing side of a war to push a self-serving agenda
+  - German generals blaming Hitler for the retreat on the Eastern Front, instead of acknowledging superior Soviet firepower and operational competence
+  - "Lost Cause" narrative pushed by Confederate veterans after the Civil War
+- /Defeat and Memory: Cultural Histories of Defeat in the Modern Era/ by John Horne identifies 5 types of defeat:
+  1. Temporary defeat in battle which is reversed by a victorious outcome to the war
+  2. Definitive defeat that shapes the subsequent peace
+  3. Total defeat --- vanquished state is stripped of political sovereignty and is rebuilt in the image of the victor
+  4. Internal defeat in civil war --- victor seeks to rebuild a unified state in their image
+  5. Partial defeat --- military and diplomatic stability is shocked but the state's territorial integrity is not threatened
+- This book deals with retreat in the context of all of these types of defeats
+- Jason Lyall, in /Divided Armies: Inequality & Battlefield Performance in Modern War/, divides "effectiveness" into two categories
+  - Ability of an army to inflict damage on others with little cost to itself
+  - Cohesion --- ability of an army to absorb losses without losing resiliency or the will to fight
+- Both of these analytical frameworks are useful when analyzing retreating armies
+- Ultimately, this book is about surviving defeat
+  - Not every battle's outcome will be to the United States' favor
+  - The US military needs to understand retreat in order to ensure that its military can respond gracefully when the unexpected does happen
+
+* Chapter 2: "Left Him Alone With His Glory": Sir John Moore and the Miracle of Corunna
+- British Army led by Sir John Moore retreated across northern Spain in December 1808 and January 1809
+- Culminated in the army's evacuation from Corunna on January 17, 1809
+- British Army struggled against a host of disadvantages
+  - Facing off against Napoleon at the height of his power
+  - Poor weather
+  - Lack of familiarity with terrain
+  - Insufficient logistical support
+- The most impressive aspect of the campaign was the performance of the British /Navy/ in landing, sustaining and extracting the Army
+- Demonstrates that, for Britain, the sea has always been an ally and a place of refuge
+- Although the Corunna campaign was a defeat for the British, it could have been much worse, but for the leadership and cohesion of the army
+
+** The Situation
+- In early 1808, Britain stood alone against Napoleon
+- However, Napoleon's march on Portugal and his usurpation of the Spanish throne allowed Britain the possibility of finding new allies
+- The installation of Joseph Bonaparte resulted in a popular uprising in Spain, resulting in the defeat of a French army at Bailén on July 19, 1808
+- Thus the British leadership saw in Spain both a potential ally and a field on which Napoleon could be fought on favorable terms
+- In August 1808, British troops under General Arthur Wellesley (/better known as the Duke of Wellington/) landed in Portugal and won victories against Napoleon's forces in Roliça and Vimerio
+- After these victories, Wellesley and his superiors, Generals Hew Dalrymple and Harry Burrard negotiated the Convention of Cintra, under which French troops would be allowed to retreat from Portugal unmolested and with full honors of war
+- The political outcry against the Convetion of Cintra led to the recall of Wellesley, Dalrymple and Burrard and their replacement by John Moore, who was redirected from Sweden to the Iberian Peninsula
+- Although Moore was widely regarded as a competent officer, he was beset from the outset by political problems
+  - Was a well known supporter of the Whigs, when the government was controlled by the Tories
+  - British Army was not the primary force, but was auxiliary to the Spanish requiring diplomatic skills on the part of the British commander
+  - Had to closely coordinate with the Navy in order to ensure that both he and his allies received necessary materiel
+- British leadership had an optimistic view of Spanish capabilities
+  - War Secretary Stewart, Lord Castlereagh, and Foreign Secretary Canning overestimated the level of support for the Spanish Patriot cause
+  - Ordered Moore to lead British forces out of Portugal and into Spain in order to support Spanish forces attacking across the Ebro river, behind which French forces had retreated
+- Moore faced logistical issues even before he left Portugal
+  - No carts capable of traversing mountainous roads during winter
+  - Portuguese contractors insisted on payments in gold or silver, and did not accept promissory notes
+  - Moore was unable to establish forward supply depots
+  - Had to split his forces, with General Baird's forces landing at Corunna, as it was not clear that artillery and heavy equipment could traverse the roads leading out from Portugal --- this led to delays and loss of cohesion
+- Compounding these difficulties were rapidly changing battlefield circumstances
+  - Spanish forces were defeated at the Battle of Tudela, on November 23, 1808
+  - This allowed French forces under Marshal Jean Lannes to advance and reoccupy Madrid
+  - By the time Moore reached his area of operations, at the border of Leon and Castille, his allies had been scattered and he was in grave danger of being surrounded by French forces advancing from the south and east
+- From December 27 1808 to January 17 1808, the British peninsular army fought a desperate retreat from Sahagún, Spain to the port of Corunna
+
+** Doctrine, Training and Experience
+- Amphibious expeditionary forces are often seen as having the advantage of having a secure line of retreat, so long as naval superiority is maintained
+- However, this oversimplifies matters by ignoring the difficulty of actually accomplishing an amphibious extraction under fire
+- US and British doctrine devote barely any space to discussing how amphibious retreats should be conducted
+- This is surprising because both the US and the UK are geographically remote powers, reliant on amphibious expeditionary forces in order to exert influence on faraway events
+- The lack of doctrine covering how to successfully evacuate an expeditionary force signals a refusal to accept the fact that no plan survives contact with the enemy
+- This lack of doctrine was painfully evident during the Corunna campaign
+  - Contemporaneous doctrine was mostly tactical --- discussed how to position troops during battle
+  - This tactical focus extended to retreat --- no discussion of what to do if an army was pursued after it "retired" from the battlefield
+- While Moore can be forgiven for his lack of knowledge of how to conduct a fighting retreat, given that military strategy had only recently become a formal field of study, the continued lack of study on operational retreats is much less forgivable today
+- /In conclusion, Moore's army did not have any doctrine, training or experience in retreating, and had to develop its practices as it marched, while under attack/
+- /This lack of doctrine persists into the present, as both the United States and United Kingdom's military doctrines only cover retreat in tactical terms, viewing it as a temporary pause or setback before a resumption of the offensive/
+
+** Morale and Resilience
+- The mark of a successful military is its ability to continue fighting even after a setback
+- Retreat is severely detrimental to morale and is a great test of the resilience of an army
+- While Moore's army was in high spirits during the advance, morale became extremely poor once the order to retreat had been given
+- Although Moore attempted to raise morale by addressing his army on December 27, December 30 and January 6, these attempts were undermined by his order to destroy stores
+- Lack of morale resulted in lack of discipline
+  - At Benevente, on December 28 and again at Bembibre on January 2, hundreds of troops became inebriated and separated from the army, resulting in their loss to the elements or capture by French forces
+  - Astorga was pillaged, with British troops stealing stores meant for their Spanish allies
+  - The Army's pay chest was lost after it was thrown in a gorge, resulting in the loss of £25,000 in silver
+  - Wagons containing sick and wounded were abandoned at Monte Cebrero
+- The lack of discipline was the result of three primary causes
+  - Lack of supply depots established along the route of march
+  - Loss of equipment due to the lack of draft animals
+  - Large numbers of non-combatants (wives and children of soldiers) accompanying retreating troops
+- Exacerbating these causes was the lack of regard on the part of regimental officers for the welfare of their soldiers
+- Lack of logistical organization meant that British troops often came into conflict with each other when looking for billets
+- Supplies were prematurely destroyed for fear of enemy capture
+- Units at the tail of the army experienced proportionately fewer casualties despite having to fight rearguard actions against the French as their proximity to advancing French forces forced them to maintain discipline
+
+** Reconstitution
+- Moore's army suffered 21% attrition during the campaign, as a result of combat, disease, exposure and desertion
+- Although Moore's cavalry suffered far less (less than 10% attrition), the stress of the retreat had ruined its horses' health
+- Vast quantities of military equipment had to be abandoned or destroyed as the army retreated
+- However, ongoing British economic strength during this period ensured that the loss could be absorbed
+- The larger concern was the loss of cavalry horses
+  - Over 90% of the horses shipped from England were lost during the campaign
+  - The time consuming nature of breeding and training warhorses ensured that the British army remained short of cavalry until 1813
+  - /This is analogous to the loss of highly specialized systems, like tanks or fighter jets, today/
+- Replacing casualties was also a difficult task
+- In addition to the attrition suffered during the retreat many of Moore's troops became gravely ill on the sea voyage home
+- This was exacerbated by the decision on the part of the Inspector of Army Hospitals to close medical facilities at Gosport, Plymouth, and Deal --- this meant that when the retreating army arrived at those ports, there were no fixed medical facilities to accomodate the wounded and the sick, and temporary facilities had to be created, resulting in worse outcomes
+- Although the personnel crisis was acute, the British military possessed sufficient reserves to backfill losses --- within the year the majority of the infantry battalions were re-staffed and ready for deployment
+- Today, the British Army doesn't have the same resilience when it comes to personnel
+  - Medical facilities are shared with the National Health Service, where the emphasis is no longer on rapid treatment and return to combat fitness
+  - Large elements of the Army Reserve are already committed in the course of normal operations
+  - The British Army struggled to sustain a casualty rate of 4.7% during its campaign in Helmand, Afghanistan from 2007-2014
+- High intensity warfare results in a /lot/ of casualties --- armed forces should be prepared to treat them, and should have sufficient reserves to backfill
+
+** Amphibious Sustainment
+- Moore recognized that British success hinged on access to sea lines of communication
+- British expeditionary capability was only possible due to the decisive victory won by Britain at Trafalgar
+- After Trafalgar, France no longer had the means to build large fleets, and smaller fleets were easily dealt with by the Royal Navy
+- One of the reasons that Britain intervened in Portugal was to prevent France from taking advantage of the Portuguese and Russian fleets that were docked there
+- However, dominating the seas came at an enormous cost to Britain
+  - 140,000 sailors
+  - 800 ships
+  - Nearly 1/4 of total government spending going to the Navy
+- However, battle at sea is not the strategic purpose of the Navy, sustainment of forces on land is
+  - Lord Castlereagh organized civilian shipping under the Transport Board
+  - This ensured that the British government had access to sufficient transport capacity to dispatch and retrieve Moore's army
+  - At a minimum ratio of 1.25 tons per man, just the transport of infantry required over 40,000 tons of shipping
+  - A single regiment of cavalry required a further 20,000 tons of shipping
+  - Artillery and various support functions required yet more
+- To support the Corunna campaign, 803 vessels, totalling 196,670 tons were taken up from merchant service, at a cost of £1,292,781 pounds sterling (/£94,502,091 in 2023 pounds, actually not that unreasonable a cost/)
+- Moore was fortunate that he had enough shipping available to evacuate his army --- many of the ships used to transport Moore's army back to Britain were already off the coast of Spain to deliver supplies to Baird or Britain's Spanish allies
+- Today, no Western navy has a transport capacity comparable to that available to Moore in the early 19th century
+  - The UK posesses only 4 strategic ferries and a similar number of amphibious landing platforms
+  - Many of these assets are aging, or employed in roles that would make them unavailable at short notice
+  - If Britain had to mount another expeditionary campaign on its own, it would have to reply on Ships Taken Up From Trade (STUFT), as it did during the Falklands War
+  - However, the number of ships in Britain's merchant marine is even lower today than it was at the time of the Falklands War
+- In addition to a sufficient quantity of ships, an army must have suitably located and well organized embarkation points
+
+# page 33

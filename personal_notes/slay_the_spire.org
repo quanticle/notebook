@@ -1,0 +1,74 @@
+#+TITLE: Slay The Spire
+
+* Ironclad
+
+** Strength Build
+- Strength builders
+  - Spot Weakness
+  - Flex
+    - Grants two strength at the start of the turn
+    - Strength goes down by two at the end of the turn
+    - Strength loss can be mitigated with Artifact
+  - Inflame - priority for upgrade
+  - Demon Form
+  - Limit Break - upgrade to get rid of the Exhaust effect
+- Attack cards
+  - Whirlwind
+  - Sword Boomerang
+  - Twin Btrike
+  - Heavy Blade - especially good when upgraded
+  - Reaper - important source of healing, scales with strength
+- Relics
+  - Sling - start elite fights with 2 strength
+  - Girya - gain strength at rest sites
+  - Red skull - grants 3 extra strength when below 50% health
+  - Mutagenic strength
+    - Grants 3 strength at the start of combat
+    - Strength is lost at the end of the first turn
+    - However this loss can be prevented via Artifact
+  - Shruiken - playing 3 attacks in one turn increases strength
+  - Self-forming clay - taking damage grants block next turn
+  - Horn cleat - grants 14 block on the second turn
+
+** Rampage Build
+- 1 Rampage that you keep cycling to increase its damage
+- Keep the deck /small/
+- Remove cards at every opportunity
+- Add cards that have cycling/card draw
+  - Warcry
+  - Headbutt
+  - Battle Trance
+- Add cards that make the enemy Vulnerable
+  - Bash - especially good when upgraded
+  - Uppercut - applies Vulnerable and Weak
+  - Thunderclap - AOE Vulnerable
+- Double Tap is an optional extra that will allow you to hit twice with Rampage
+- Relics
+  - Bag of Marbles - applies 1 Vulnerable to all enemies at the start of combat
+  - Paper Phrog - enemies take 75% extra damage when Vulnerable, rather than 50% extra
+  - Peace Pipe - allows you to remove cards at rest sites 
+- Strategy
+  - Get Rampage in your hand
+  - Make enemy vulnerable
+  - Keep the deck small
+  - Cycle, cycle, cycle
+
+** Searing Blow Build
+- Searing Blow is a card that starts out doing 12 damage, but which can be upgraded infinitely
+- The damage formula for Searing Blow is \(\frac{n^2 + 7n}{2} + 12\)
+- If you can upgrade this card 10 times, it does more than 100 damage
+- What other cards do you need
+  - Other than Searing Blow, this deck is pretty similar to the Rampage build
+  - Cards that apply Vulnerable (see previous section)
+  - Card draw (see previous section)
+    - Headbutt
+    - Dual Wield
+    - Secret Weapon
+  - Double Tap - allows you to hit with Searing Blow twice
+  - Armaments upgrades the card during combat
+- Relics
+  - Anything that gets Searing Blow into your hand or helps you get to more rest sites
+  - Warped Tongs - upgrades random cards in your hand
+  - Necronomicon - Similar to Double Tap
+  - Winged Boots - Allows you to jump to rest sites by jumping between paths
+  - Paper Phrog - Similar to Rampage build, increases the effect of Vulnerable

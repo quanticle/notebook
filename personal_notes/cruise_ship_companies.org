@@ -1,0 +1,7 @@
+#+TITLE: Cruise Ship Companies
+- Carnival --- Largest by passenger count
+- Royal Caribbean --- Largest by revenue
+- Norwegian Cruise Lines
+- MSC Cruises
+- Genting Group
+- TUI Cruises

@@ -1,0 +1,304 @@
+* India's China War
+/India's China War/ by Neville Maxwell. Pantheon Books. Copyright 1970
+
+** Preface
+- The Sino-Indian boundary dispute is one of the most dramatic passages of the 20th Century
+  - Asia's two most populous states had previously been on a path of amicable cooperation
+  - Fell out over "tracts of difficult, desolate, useless territory"
+  - Fought a brief war
+  - Sharply reduced the role of India in foreign affairs
+  - Discredited Nehru's foreign policy
+    - Non-alignment
+    - Self-reliance in defense
+    - Independence in foreign policy
+    - Forsaking investment in the military in favor of economic development
+  - All of the above policies relied on India having good relations with China, which the Sino-Indian war destroyed
+- The war and the ongoing dispute that followed, struck a huge blow against Nehru's political power
+  - /Did it? Look up more corroboration here/
+- The border war confirmed the general view of China as a bellicose power, and led to the international community being more sympathetic towards the Soviet Union in its border disputes with China
+- The Sino-Indian conflict has been one of the most thoroughly documented conflicts in recent history
+- However the underlying facts and locations have been so obscure that the conflict has been misunderstood anyway
+- Maxwell's interest in the topic started with his position as a foreign correspondent for the London Times in New Delhi
+- Arrived in 1959, just after the Longju Incident
+- Covered the border dispute and subsequent war from New Delhi
+- This book started out as a section of a planned book on India in the 1960s, with a special focus on the death of Nehru in 1964
+- Maxwell initially intended to summarize his dispatches from New Delhi, but after re-reading them and going over the white papers released by the Indian government, he thought a reappraisal of the war was called for
+- The basic inspiration is still the journalistic work that Maxwell did during his tenure in India, and the account in the book is informed by the moods, emotions and unregistered comments that don't make it into the official record
+- Until he left India in 1967, Maxwell conducted long and repeated interviews with the political, diplomatic and military officials who had been involved in the dispute
+- After he left India, he went to the School of African and Oriental Studies in London to do historical research and finish the book
+  - The book shows that the border dispute is the culmination of 150 years of political, legal and military maneuvering around the Himalayas
+  - /Ah yes, back when you could name an institution the "School of African and Oriental Studies" and still get away with it/
+- The scheme of the book is roughly chronological, but with significant overlaps as the future ramifications of past events are explored
+- The purpose of the book is to show the motivations of the each side in the war without necessarily indicting either
+- While Maxwell has cited his sources where possible, at times he's drawn from unpublished files and documents
+- Maxwell acknowledges that one problematic aspect of his narrative is that he has had far more access to the internal deliberations of the Indian side than he has had to the Chinese side
+- This necessarily makes the Indian side look worse in comparison because it is rare for a government's internal deliberations to be wholly aligned with its public pronouncements
+
+** Historical Introduction: The Limits of Empire
+
+*** The Western Sector
+- Historically empires push outwards until
+  - They meet a strong neighbor
+  - Encounter a natural barrier which provides a logical stopping point
+  - Expansionary force is exhausted
+    - /I think by this Maxwell means that they reach the limits of their logistical capabilities/
+- The British Empire in India expanded outwards "naturally" until met the Himalayas, which form both a natural barrier and the border with the Chinese empire
+  - /"Naturally" because the British weren't the first empire in India/
+  - /Initially the frontier of British Bengal was its border with the broader Mughal empire/
+  - /Framing British expansion in India as "inevitable" or "natural" is a classic tactic of British imperial apologia/
+- The central sector of the frontier zone held a number of petty states and feudatories
+- (British) India and China began a contest for dominance that goes on to this day
+  - /I'm guessing here that he's talking about Nepal, Bhutan and Sikkim/
+- In the northwest and northeast portions of the border, the British sought secure and settled boundaries with China
+- They failed to achieve these boundaries, and that failure is the root cause of the Indo-Chinese border war
+- As the British empire expanded in India, it also approached the other natural boundary of the subcontinent: the Hindu Kush and Karakoram mountains
+- Imperial Russia advanced towards these boundaries from the other side
+- The British and the Russians both used the same internal logic for their expansion
+  - Each empire was defined by the contrast between the "civilized" people of the center and the "semi-savage" tribes of the periphery
+  - As tribes were brought into the fold of the empire, they themselves became subject to the attacks of yet more distant tribes on the periphery
+  - Thus each empire sought to expand in order to reduce instability along its borders
+  - /The phrasing that Maxwell quotes, though, is such classic Victorian British: "the natural impulse of the civilized to overrun the uncivilized on their borders"/
+- However although each empire expanded according to the same internal logic, each saw the other expanding toward it with malign intent
+- Both London and St. Petersburg expected a collision along an eventual mutual border between their empires
+- The basic British aim was constant: keep the Russians as far away as possible from the Indo-Gangetic plain
+- The tactics pursued for that aim varied
+- Two major schools of thought
+  - Forward school: British Empire should advance to meet the Russian threat directly and as far away from the plains of India as possible
+  - Moderate school
+    - Establishing a frontier in the remote and difficult mountains carries enormous costs
+    - Better to establish some kind of neutral power in between the two empires to act as a buffer state
+- The moderate school looked to a number of border states to play the role of a buffer between the two empires
+  - Afghanistan
+  - Smaller states, such as Hunza
+    - /Hunza used to be one of the princely territories that now constitutes the Pakistani-administered region of Gilgit-Baltistan/
+    - /Part of the overall Kashmir complex now/
+    - /Were historically allied with the Chinese empire/
+  - Most importantly: China
+- The Chinese empire was not willing to play the role of a buffer between Britain and Russia and resisted British attempts to settle the border between India and China
+  - /One of the things I'm taking away from this section is that, in the 1700s and 1800s especially, as the three empires jockeyed for position in Central Asia, it was not a given that the borders between them would end up where they ended up/
+  - /The British were encouraging China to take more of a role in Central Asia, in order to have China as buffer state against the Russian empire/
+  - /The Chinese were not willing to play this role, and Maxwell speculates that it's because the Chinese had learned from prior experience that they were often the losers in any arrangement between the three powers/
+- The history of British boundary policy in the north-west is an alternation between the forward and moderate schools
+- However, both schools shared a common goal: establishing a clear linear boundary between the British and Russian empires
+- This goal is a relatively modern one
+- Historically states had a gradient of sovereignty that faded off into a neutral/lawless border or frontier region
+- Lord Curzon highlighted the concept of a demarcated frontier as a modern European invention, noting that European states in the past and Asian states of his time relied upon frontier zones rather than demarcated boundaries
+- It was this form of boundary that Imperial China sought to maintain with the British Empire --- a zone of separation rather than a "bright line" boundary
+- When India and China broke free from their Western imperialistic masters, they inherited the frontier characterized by a no-man's land and the war was the result of the two nations attempting to translate zones into lines and failing to agree on a method to do so
+- In the 19th century, the frontier between Imperial Britain and Imperial China did not much concern the British
+- Much more attention was paid to the frontier with Imperial Russia
+- The moderate school saw the Indus River as the "natural boundary" of the British Empire
+- The annexation of Punjab in 1849 pushed the boundaries of the British Raj out to the Khyber Pass
+- From there, the logic of imperial expansion argued that the British should continue outwards to Kabul, or even Herat
+- Lord Curzon, an advocate of the forward school made the argument for expansion as follows
+  - India is akin to a fortress
+  - Sea forms a moat on two sides
+  - The mountains of the Himalayas and Hindu Kush form the walls on the remainder of her borders
+  - These walls are not impregnable
+  - Beyond the walls lies a [[https://en.wikipedia.org/wiki/Glacis][glacis]] (Afghanistan)
+  - While Britain should not occupy the glacis, it should also intervene to ensure that it was not occupied by hostile forces
+  - /I think this is what a lot of people miss with the glib "graveyard of empires" quip about Afghanistan/
+  - /The British never really sought to occupy Afghanistan/
+  - /To them, Afghanistan was the buffer between Britain and Russia/
+  - /Even Curzon admits that British occupation of Afghanistan is infeasible/
+- By 1880, British Afghan policy was a shambles
+  - Two wars had led to the collapse of the Afghan state that Britain had sought to reinforce
+  - This led to the ascendance of the moderate school, which sought to see the British Empire remain behind its mountain barriers and leave Afghanistan be
+- The British thus relinquished Kandahar and retreated to Peshawar
+- The Afghans, by and large, were satisfied by the border drawn by the British --- gave territory to the Afghans territory that would have been otherwise been claimed by Persia
+  - /Who was in charge of Persia at this time, anyway? The Ottomans?/
+- The one area of dissatisfaction was over the placement of the Durand Line
+- The Durand Line was a line drawn by the British after negotiations with the Emir of Afghanistan
+- Sought to limit the influence of the Afghan tribes in the Northwest Frontier provinces
+- Notably, the British did not advance their administration to the Durand Line
+- The purpose of the line was to keep the Afghan Pashtun tribes separated from Peshawar
+- The Durand Line was a poor boundary --- described as "illogical from the point of ethnography, strategy and geography", but it served its purpose
+- Demarcation vs. Delimitation
+  - Dictionaries treat demarcation and delimitation as synonyms
+  - However, they're not the same thing
+  - Delimitation is the process of negotiating and agreeing on a boundary
+  - Demarcation is the process of actually marking that boundary
+- The Durand Line was demarcated by Henry McMahon (the same McMahon after which the McMahon Line was named)
+- Another area that attracted attention on the frontier area was Kashmir
+  - Indian control over Kashmir was one of the consequences of the British-Sikh war
+  - Kashmir was ruled as an autonomous kingdom --- not part of the greater British Raj
+  - Ruled by Gulab Singh, a Dogra leader
+  - Singh originally ruled Jammu, but he threw in with the British and conquered Kashmir
+  - This is how a Hindu ruler came to rule over a Muslim population, setting the stage for the troubles ongoing today
+- Gulab Singh also conquered the Kingdom of Ladakh
+  - Ladakh was formerly part of Tibet, but gained independence in the 10th Century
+  - In the 14th Century, the kingdom was conquered by the Mughal Empire
+  - When the Mughal Empire declined, Ladakh reverted to being an independent kingdom
+  - Being Buddhist, Ladakh aligned with Tibet
+  - At this time, in the early 19th century, although Tibet was nominally independent, it was heavily influenced by Imperial China
+  - In 1834, Gulab Singh invaded Ladakh in order to make it a tributary of Punjab
+  - The conquest of Ladakh was supposed to be the first part of a campaign to conquer all of Tibet
+  - By the spring of 1841, Gulab Singh's Dogras were in control of all the territory up to and including the sacred lakes of Rakas Tal and Manosarawar
+  - The Dogras made the mistake of overwintering in Ladakh, where they were beseiged and their commander killed by Tibetan forces
+  - The Tibetan counterstroke encountered Singh's reserve force and in turn were defeated at Leh
+  - In 1842 Singh and the Tibetans signed a nonaggression pact which specified that each side should retreat behind the historical frontier without actually specifying where the frontier was
+  - The fact that both the Sikhs and the Tibetans were satisfied with this arrangement indicates that the Sikh and Tibetan kingdoms were neighboring but not contiguous
+  - Both kingdoms were satisfied by treating the mountainous region between them as a no-man's land, knowing that each would have to send an expeditionary force across it in order to attack the other
+- The British looked on Gulab Singh's actions with great concern
+  - Were worried that Singh would be seen as an official representative of the British Empire, and that his actions in Ladakh and Tibet would draw Britain into a war with Imperial China
+  - Accordingly, the treaty of Amritsar (1846), which recognized Gulab Singh's conquest of Kashmir and Ladakh, /forbade/ Singh from expanding his territory without the express consent of the British
+  - Worried that Singh might seek to expand his territory clandestinely, the British contacted the Chinese and sought a clearer delimitation (to be followed by demarcation) of the border between Ladakh and Tibet
+  - However, the Chinese response was contradictory
+    - At first, the Chinese government's representatives in the region said that no formal demarcation was necessary because historical frontiers were sufficiently clear
+    - Then, later, insisted on sending a party to meet the British and jointly mark the boundary
+    - When the British arrived, there was no Chinese delegation present, and the local Tibetans were hostile
+  - Thus the British had to postpone their original goal to demarcate the India-Tibet border in 1946
+- The British did undertake a preliminary boundary survey in 1846-47, since their intent was to draw a line that Gulab Singh should not cross, rather than to get the maximum amount of territory
+- British understood that this area was largely barren and unproductive, and thus were not overly concerned with where, specifically, the boundary should lie, so long as there was a clear boundary
+- During that period the British drew a line from Pangong Lake to the Spiti River
+- The British surveyors felt that the terrain to the north, from Pangong Lake to the Karakoram pass was /terra incognita/, and thus could not be demarcated
+- It was this area that was to become the center of the boundary dispute between India and China
+- In 1865, W.H. Johnson drew an initial map that showed Aksai Chin and a slice of territory to the north as being within Kashmir
+  - The motivation behind Johnson's map are suspect
+  - Shortly after his trip over the Karakoram pass, he was appointed as Kashmir's commissioner in Ladakh
+  - It's likely that he drew his map in order to satisfy the expansionism of Gulab Singh's son, who had succeeded his father as the ruler of Kashmir
+- Although Johnson's boundary was treated with skepticism by his contemporaries, it was a boundary, and thus it found its way into numerous publications and atlases during the late 1860s
+- By the late 1860s, British imperial policy had switched from attempting to limit the influence of Kashmir to forbearance, in an attempt to increase trade flows from the north of British India into Central Asia
+- At this time, China's western provinces had rebelled and organized themselves into the independent kingdom of Kashgaria, under Yaqub Beg
+- Unlike the Qin Dynasty, Beg was interested in establishing trade and diplomatic relationships with the British
+- However, in 1877, the Chinese Empire reconquered Kashgaria and turned it into the province of Sinkiang (Xinjiang)
+  - /So that's where the Chinese paranoia about Xinjiang comes from/
+  - /Xinjiang has a history of rebellion/
+- During this period from the late 1860s to the late 1870s, the British were not overly concerned with the status of the boundary --- were more concerned with
+  - Excluding the Russians
+  - Establishing trade relations between the British Empire and the incipient Kingdom of Kashgaria
+- Both the British and the Russians were paranoid about attacks from the other over the Karakorams, despite the fact that the mountain passes were more than 20,000 feet above sea level, and no sustained military operation could be carried out at those altitudes with the technology of the era
+- In 1895, the British and the Russians consented to the settlement of the Pamirs in the Wakhan Corridor, which was incorporated into Afghanistan as a buffer between the two empires
+- Similarly, the British hoped to induce the Chinese empire to fill out the border between Britain and Russia, leaving no power vacuums which might result in a conflict between the two
+  - /We must remember that this was in the context of the Crimean War having been recently fought, so the prospect of conflict between the two empires was a realistic threat, even if the particular scenarios being mooted here were far-fetched/
+- The Chinese were busy fending off the Russians, and kept the Kuen Lun mountains as the recognized southern boundary of their territory
+  - These boundary disputes were settled (at great cost to the Chinese) with the treaties of Aigun (1858) and Peking (1860)
+  - /I'm not sure of the timeline here --- aren't we already into the late-1870s by the time China reconquers Kashgaria?/
+- In 1890, when Captain Younghusband was sent to the Pamirs to finalize the boundary there, the Chinese told him that their southern boundary now extended to the Karakorams
+- The British welcomed this arrangement, but with the caveat that the Chinese had drawn their boundary unilaterally and thus the boundary had no standing in international law
+- Thus the pass over the Karakoram range became a fixed point in the boundary between India and China, but the border on either side remained unsettled
+- By the mid-1890s the Chinese were contesting the Johnson line
+  - 1896 --- Ambassador Macartney presents an atlas to the Chinese which contains the Johnson line
+  - Chinese object, claiming Aksai Chin as their territory
+- Macartney himself was inclined to hear the Chinese out, commenting that the reality of the situation was probably that part of Aksai Chin belonged to China and part belonged to Kashmir
+- At this time, theoreticians of the forward school were suggesting that the optimal way to forestall an attack by Russia would be to claim almost the entire area that Johnson had assigned to Kasmir, including the whole of Aksai Chin
+  - Asserted that Chinese territorial claims would not last long in the face of Russian advances --- China was too weak to be an effective buffer
+  - While the Karakoram mountains did form an acceptable defensive frontier, the northern slopes of the mountains needed to be patrolled in order to prevent hostile forces from mounting raids through the passes
+  - Thus this school of thought advocated advancing the nominal boundary from the Karakorams to the Kuen Lun range, putting the whole of Aksai Chin in British hands
+- The office of the Viceroy rejected the proposal, citing the diplomatic and practical difficulties of the move
+  - Would result in strained relations with the Chinese, at best, and might result in a war at worst
+  - Might precipitate the Russian advance that this move sought to forestall
+  - Extreme height and ruggedness of the Karakorams would make it very difficult to keep the forward outposts on the Kuen Luns supplied
+- The Viceroy did recognize the problem of patrolling the northern slopes of the Karakorams, and proposed an alternative boundary along a range of smaller hills that divide Aksai Chin --- the Lak Tsang range (the Macartney-Macdonald line)
+- This boundary was proposed to the Chinese in 1899
+  - Although Chinese officials in Xinjiang seemed to be amenable to the boundary, no official reply was received from the center in Peking
+  - Lord Curzon, the new British viceroy in India, argued that the British should treat the 1899 line as official, because the Chinese didn't actually reject the proposal
+- Throughout the 1890s and early 1900s, British policy was to treat Aksai Chin as part of Tibet, rather than Xinjiang, because of an agreement with the Russian empire that the Russians would stay out of Tibet --- if Aksai Chin were part of Tibet, the Russians would be obligated to stay out of there as well
+- The 1911 [[https://history.state.gov/milestones/1899-1913/chinese-rev][Xinhai Revolution]] which ended the Chinese Empire, put an end to most negotiations over the boundary between British India and China
+- Moreover, British maps, which would later become Indian maps, continued to show the 1865 Johnson line as the boundary between India and China
+- Facts on the ground, however, continued as they had for more than a century - the boundary areas were barren and largely unpopulated
+- Although Britain claimed Aksai Chin according to its maps, it never attempted to build outposts there or impose any sort of centralized authority on it
+- Many hunters made their way up to the mountain passes to shoot yak and antelope
+- Farther east, lay the small states of Nepal, Bhutan and Sikkim
+  - Originally all of these states were Tibetan protectorates, and tied to China by way of Tibet
+  - The British sought to flip these states' loyalty towards India, as part of a concerted effort to build up a buffer between British India and Imperial China
+  - The British had considered annexing Nepal outright after its defeat in the Gurkha War of 1814-1816, but decided that to do so would likely provoke a Chinese reaction
+  - Instead they sought to ensure that the loyalties of these three states would be split, with Sikkim and Bhutan declaring loyalty to Britain, and Nepal remaining nominally loyal to China, but in fact becoming a quasi-British protectorate
+  - Another state, Kuamon, took the opposite position to Nepal, nominally allying itself with the British, but remaining heavily influenced by Imperial China
+    - /Today, Kuamon is an administrative division of Uttarkhand/
+- By 1907, the central sector border between Britain and China was secured by Nepal, Bhutan and Sikkim
+- Farther west, while the border between Kashmir and Tibet remained unsettled, the terrain was so inhospitable that the lack of an agreed-upon boundary was not a major concern for either the British or the Chinese
+
+*** The McMahon Line
+- The previous chapter covered the state of the border of British India from Afghanistan to Bhutan
+- To the east of Bhutan, India was not bordered by coherent states, but rather a scattering of tribes in a thinly populated, mountainous, and heavily jungled belt about 60 miles wide
+- Assam was added to the British Empire in 1826
+- Initially its borders consisted of just the Brahmaputra valley
+- However, as tea planters and timber harvesters started having designs on the jungles in the foothills of the Himalayas, the British laid down a further boundary in 1876, the /Inner Line/
+- The Inner Line was an administrative boundary, not an international one
+- No one was permitted to cross beyond the Inner Line without a special permit
+- Inner line also marked the extent of British tax collecting authority
+- The international border was the /Outer Line/, which ran coterminous to Bhutan's southern boundary, and extended along the foothills of the Tibetan plateau
+- During the 19th Century, this belt of tribal lands was largely unexplored
+- Some explorers had gone up the Lohit Valley and recommended that a road be built to Rima, in Tibet
+- The British government was not enthusiastic about this project, because it knew that a road, once built, would have to be defended, and escorts provided against attacks from hostile tribes
+- Immediately to the east of Bhutan, there was a gap where British India and Imperial China directly bordered each other: the Tawang Tract
+- Was seen as a potentially valuable trade route between India and China
+- British established an annual fair at Udalgiri to encourage trade
+- Tawang Tract was not disputed at this time by the British, who saw it as under Tibetan control, and demarcated it as part of their demarcation of the Indo-Bhutanese boundary
+- In the east, just like in the west, the British were primarily preoccupied with the threat posed by Imperial Russia
+- Saw Tibet as an important buffer state keeping British India and Russian Mongolia apart
+- In 1907, the Lhasa Convention between Britain and Russia set Tibet up as a buffer state --- both powers agreed only to deal with Tibet via China
+- Chinese sovereignty over Tibet was not seen as a threat at the end of the 19th Century
+- At this point, the Chinese state was so weak that it was safer for Chinese officials to travel to Tibet via Calcutta and Darjeeling than directly via the overland route
+- However, towards the end of the Manchu Dynasty, Chinese attitudes towards Tibet sharply changed, prompting a revision in British policy
+  - Chinese sought to exert greater control over Tibet, replacing the theocratic government there with one that would exert greater control over its borders
+    - /I think Maxwell is laying the groundwork here for an argument that the Chinese Communist Party's policy in Tibet is actually a continuation of the Manchu Dynasty's/
+  - With this new policy, China eclipsed Russia as the primary threat on the eastern border of British India
+  - By 1910, the Imperial Chinese had occupied Rima (/see above/)
+- These moves were seen with great alarm by the British, because here the border was not desolate and unproductive terrain, but held important economic resources
+  - Tea plantations
+  - Timber tracts
+  - Coal fields
+- Thus by 1910, just as there were forward and moderate schools of thought on the western border with regards to Russia, so too developed forward and moderate schools of thought with regards to the eastern border with China
+- The retiring Viceroy, Lord Minto, was a proponent of the forward school, and advocated advancing the Outer Line to the Tibetan plateau itself, encompassing all of the tribal territory between India and Tibet
+- The new Viceroy, Lord Hardinge, was a proponent of the moderate school, pointing out that if China attacked India overland, Britain was well positioned to attack China from the sea
+  - /Referring, to Hong Kong/
+- The British-Indian government felt that any advance of Indian frontiers via military force would raise questions in Parliament
+- Although the official government policy was to discourage any advance beyond the Outer Line, this was often conveniently ignored government officials and officers on the frontier
+- Thus, in 1911, a British official, Noel Williamson, was murdered by tribespeople well north of the Outer Line
+- Although Williamson had explicitly disobeyed orders in order to go where he did, the London government felt that his death could not go unpunished, and authorized a punitive expedition
+  - /This is a very standard pattern in British imperialism/
+  - /Often, the imperialistic moves are not precipitated by some grand plan in London, but are rather the result of London reacting to the actions of local officials who are acting in their own self-interest/
+  - /The best example, is how the British got their empire in India in the first place -- it was Robert Clive's meddling, against the orders of his superiors in the East India Company, that secured the British their foothold in Bengal/
+- In addition to punishing the local tribes for their murder of an Englishman (/who, let's be real, probably deserved what he got/) the expedition was to survey a new boundary for British India, which would encompass most of the tribal territory
+- The goal was to survey a boundary that would keep China far away from British India, which would form the British opening bid in a delimitation negotiation to take place in the future
+- In 1911 and 1912, several expeditions were sent into tribal territory, to punish the tribespeople and to survey this border
+- In September of 1911, a memorandum prepared for the surveyors asked them to bear in mind the military defensibility of any boundary they surveyed
+- Memorandum proposed the annexation of the lower part of the Tawang Tract, and later documents advocated surveying a boundary that would bring the entirety of the Tawang Tract, as well as the Tibetan administrative center of Tsona Dzong into India
+- Although the British were busy surveying this boundary, they were careful not to broadcast their intentions
+- Knew that China had competing claims, and would advance those claims if they declared their intent to annex Tawang
+- Moreover, the government in India did not wish to answer awkward questions from Parliament about advancing the Indian frontier without permission
+  - When a member of Parliament did catch wind of what was going on, he was told that no operations were taking place beyond the frontier
+  - When he produced maps that showed that military forces had advanced beyond the frontier, he was told that the maps were not accurate
+  - A further justification was a claim that the military activities were not intended to increase the area administered by the government of India, a claim that was /technically/ accurate, because only the Outer Line was being advanced, not the Inner Line
+- Growing increasingly concerned about an active Chinese presence on the Indian frontier, the British convened a conference in Simla in 1913 to further clarify the status of Tibet
+  - /Maxwell does a really tricky thing here by completely eliding over the fact that the Imperial Chinese government had collapsed in 1912/
+  - /The Chinese representatives that the British were negotiating with in 1913 were not representing the same Imperial Chinese government that Maxwell says the British were concerned about earlier/
+  - /They were representing the newer, much weaker, Republican China/
+  - /As such, I find it disingenuous that Maxwell accepts the British justification of increased Chinese activity as the basis for a boundary renegotiation/
+  - /It seems like the 1913 conference was a barely concealed land-grab: the British were taking advantage of the weakness of the new Chinese government to force a new boundary that would give Britain the greater part of Tibet/
+  - /So, in this sense, the Chinese Communists aren't really making any new claims by denying the legitimacy of the McMahon line, they're carrying forward the denial of their Republican predecessors/
+- Just as the Lhasa Convention of 1907 turned Tibet into a buffer between British India and Russia, the Simla Convention of 1913 was to turn Tibet into a buffer between British India and China as well
+- The British goal at the Simla convention was to turn Tibet into a state that, while nominally under Chinese influence, would be functionally controlled by Britain, to the exclusion of both the Chinese and the Russians
+- This was tricky because the Lhasa Convention specified that both Britain and Russia could only deal with Tibet via China
+- The British delegation as Simla was chaired by Henry McMahon, who as stated above, had demarcated the Durand Line
+  - By this point McMahon had been knighted as was serving as the Foreign Secretary
+- The British goal at Simla was to get the Chinese to accept division of Tibet into two zones: Inner Tibet and Outer Tibet
+  - Similar to the division between Inner Mongolia and Outer Mongolia that China had agreed to with the Russians
+  - While China would have nominal sovereignty over all of Tibet, the Chinese Empire would have no administrative presence in Outer Tibet, and thus would be kept well back from the Indian border
+- China was not prepared to accept this division, but they didn't reject it out of hand either
+  - /This is one of the humiliating episodes that the Communists refer to when they talk about the "century of humiliation" that China suffered at the hands of the West/
+  - The Chinese delegation as Simla recognized their weak bargaining position, but also realized that Tibet was of utmost strategic importance for China
+    - At Simla, the Chinese delegation was led by Chen I-Fan
+    - However, the key Chinese official was the /amban/ (Viceroy) in Lhasa, Lu Hsing-chi
+    - Lu's advice to Beijing was consistent: yield nothing
+    - However all communications from both Lhasa and Simla were being monitored by the British, so the British knew both what the Chinese actual bargaining position was and what the Chinese thought the British bargaining position was
+  - The Chinese understood that the purpose of the zonal division of Tibet was to carve the greater part of Tibet away from the Chinese Empire, just as Russia had done with Mongolia
+  - However, they also knew that they were not in a position to contest militarily, should it come to that
+  - Thus, instead of objecting outright to the division, they quibbled over where the boundary between Inner Tibet and Outer Tibet should run, and it was this dispute that would prevent the conference from reaching a satisfactory conclusion
+  - In April 1914, McMahon able to get Chen I-Fan to /initial/ a draft treaty and accompanying map, with the understanding that an initial was not a full signature
+  - However, even this limited step resulted in a strong rebuke from Beijing, and furthermore, any limited validity that the initials may have given was canceled by the fact that Russia insisted upon changes to the treaty when it was referred to them for consultation
+- McMahon, therefore, with the knowledge of Chen I-Fan, signed a declaration between the governments of India and Tibet alone
+  - Chen I-Fan was not told what was signed, nor was the actual text of the treaty published, because Britain was not supposed to be signing treaties with the Tibetans without Chinese consent (as per the Lhasa Convention)
+  - The Chinese did not recognize the ability of the government in Tibet to conclude treaties as a sovereign, and thus did not acknowledge the treaty
+  - Furthermore, the terms of the treaty had to be kept secret in order to dissuade Russian protests
+- The Simla Conference ended in a farce with two parties of a tripartite conference openly signing a secret treaty, with one draft text initialled by all three participants, another draft intialled by two, and an example map initialled by all three
+- The central conclusion of the Simla conference is clear, however: there was no agreement that was agreed to by the Chinese
+- Moreover, because of the Chinese opinion of Tibet as a subordinate part of the Chinese empire, the Chinese stated that they would not recognize any separate agreement between Tibet and Britain
+- There was an agreement between Tibet and Britain over the boundary of Assam: the McMahon Line
+  - This agreement was deliberately kept secret from both China and Russia
+  - The British government entered into this agreement in contravention of both the 1907 Lhasa Convention and the Anglo-Chinese Convention of 1906
+- British preferences re: the boundary changed during the period of the Simla conference
+  - Initially the British were willing to let Tibet keep the Tawang tract
+  - However, in October of 1913, the British updated their map so that the 

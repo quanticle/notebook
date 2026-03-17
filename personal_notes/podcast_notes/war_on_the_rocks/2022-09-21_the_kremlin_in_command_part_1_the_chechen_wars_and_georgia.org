@@ -1,0 +1,89 @@
+#+OPTIONS: H:6
+#+TITLE: The Kremlin In Command, Part 1: The Chechen Wars and Georgia
+
+[[https://warontherocks.com/2022/09/the-kremlin-in-command-part-i-the-chechen-wars-and-georgia/][Podcast Link]]
+
+* Panelists
+- Host: Ryan Evans
+- Guests
+  - Lawrence Freedman
+  - Michael Kofman
+
+* Podcast Notes
+- Book recommendation: /Command: The Politics of Military Operations/ by Lawrence Freedman
+- First Chechen War
+  - Started in 1994
+  - Was an absolute catastrophe for the Russian military
+  - Russian military was ruined by the collapse of the Soviet government
+  - Struggling to recruit
+  - Struggling to pay those whom it has recruited
+  - Completely hollowed out with corruption
+  - The military, during the first Chechen war, exhibits many of the same failings that it has exhibited in Ukraine, only to a greater degree
+  - Sends armor into central Grozny, unsupported, and loses a significant number of armored vehicles in the process
+    - Very similar to how the Russians charged Kyiv in 2022
+    - Thought that they could intimidate the Chechens into surrendering
+    - Russian leadership has a very chauvinistic attitude --- think that the mere presence of Russian tanks will be sufficient to cow the Chechens (/another similarity to the current conflict/)
+  - Russians don't actually win this war, despite having massive superiority on paper and fighting for a number of years --- war ends in 1996 significant political concessions to the Chechens
+  - Many senior military officers see this war as "illegitimate" --- are not comfortable with fighting a war against those whom they see as fellow Russians
+  - The Russian military, then as now, is desperate for light infantry --- has lots of vehicles, but not enough soldiers to protect them in a combat environment
+- The first Chechen war takes place before Putin is in a leadership position
+- Putin arrives in the national leadership structure first as head of the FSB and Russian national security council during the NATO intervention in Kosovo
+- Is deeply suspicious of the motives of NATO countries
+- Puts up a facade of cooperation, but orders Russian troops to rush in and occupy Pristina airport before NATO troops arrive
+- Yeltsin trusts the FSB more than he trusts the military, which is why Putin has such an influential role in the Russian government
+- Putin is appointed as Vice President and the presumed successor to Yeltsin, but initially few think he'll be able to actually succeed Yeltsin into the top job, given his relatively low public profile
+- At this point the second Chechen war starts
+  - Allows Putin to portray himself as a decisive war leader
+  - Shows him "solving" the Chechen insurgency and independence movement, which had been ongoing since the first Chechen war
+- What did Putin take away from the first Chechen war that informed his handling of the second?
+  - Putin's lessons had less to do with military than they had to do with politics
+  - Putin ensured that the war occurred "at the right time", before presidential elections
+  - There are ongoing questions about whether the apartment bombings that served as the justification to go to war were actually a pretext set up by the FSB
+  - As the second Chechen war went on, Putin adopted a "divide and rule" approach, setting up the Kadyrov clan as rulers of Chechnya
+- In between the first and second Chechen wars, Russia does carry out a limited number of military reforms
+- Russia was able to carry out the second Chechen war without relying on mobilization, which would have been extremely politically unpopular
+- The Chechen wars are complex because they were in many respects both wars and counterterrorism
+  - Significant involvement of the Ministry of Interior, as well as the Ministry of Defense
+  - Significant problems with interoperability between counterterrorism units of the Ministry of Interior and the regular military forces of the Ministry of Defense (/again, then as now/)
+- The initial Russian approach to the second Chechen war was very destructive
+- During the course of the war, Russia implicitly changes its objective in Chechnya "from sovereignty to suzerainty"
+  - Found Akhmad Kadyrov as a strongman through which Russia could rule
+  - Exchanged an acknowledgement that Chechnya was part of Russia in exchange for de facto local autonomy
+  - Akhmad Kadyrov was killed in an assassination bombing, and rule of Chechnya passed to his son, Ramzan, who rules today
+- 2008 Russo-Georgian War
+  - Short war
+  - Russian military doesn't perform all that impressively, but it gets the job done
+  - Russia goes to war because of domestic political reasons
+    - Facing a weakening economy as oil prices dip in the wake of the global financial crisis of 2007
+    - Feels like he cannot be seen to be allowing Georgia to become aligned with the EU and NATO
+  - War takes place shortly after NATO's Bucharest summit, where both Ukraine and Georgia lobby unsuccessfully for NATO membership
+    - George W. Bush favored NATO membership for both Georgia and Ukraine
+    - Angela Merkel and Nicholas Sarkozy opposed
+    - Summit ends with a resolution expressing an aspirational goal of eventual Ukrainian and Georgian membership in NATO without making any firm promises or setting out a timeline
+      - Worst of both worlds
+      - Ukraine and Georgia took the resolution to mean that NATO membership was off the table for them
+      - Putin, on the other hand, took this mean that NATO membership remained a goal for both Ukraine and Georgia
+  - The immediate origins of the Russo-Georgian War can be traced to when Mikhail Saakashvili came to power in Georgia
+    - Had some early success in recapturing Georgian territory that had fallen under the control of various warlords
+    - Initially has a positive relationship with Putin, a relationship that deteriorates as Saakashvili focuses on building up Georgia's relationship with the EU
+    - The first signs of potential conflict between Russia and Georgia occur prior to the Bucharest summit
+      - Saakashvili is concerned that Putin will use the NATO recognition of the independence of Kosovo as a pretext for recognizing the independence of the disputed territories of Abkhazia and South Ossetia
+      - Saakashvili tells Putin that he has assurances from the United States and the EU regarding Georgian territorial integrity
+      - Putin reacts extremely negatively to this
+      - Russia holds a series of exercises aimed at displaying the Russian military's readiness to intervene in Georgia
+  - As we get into the summer of 2008 there is a lot of "compressed" decision making on the part of Russia and Georgia
+  - Leaders driven by loss aversion
+  - Although the specific events that occurred in the days and hours that preceded the Russian military's intervention are disputed, the overall course of the war is well understood
+  - In Michael Kofman's opinion, the Russian decision to use force in Georgia was a pro-active decision, rather than a reaction to Georgian actions in South Ossetia
+  - Goal was to preclude NATO enlargement into NATO by showing the Russian military's ability and willingness to attack Georgia
+    - Make Georgia an example for others
+- At the time of the 2008 Russo-Georgian war, the Russian military is in the midst of reforms
+  - Army top leadership has recognized that the structure and organization it inherited from the Soviet Union is unsustainable
+  - However, there is significant opposition to the reforms from mid-level officers because it would result in a significant number of these officers getting laid off
+- The Russo-Georgian War illustrated that, when it came to the Russian military, the sum was less than its parts
+- Russian military leadership used the military's performance in the Russo-Georgian war to try to push through reforms
+- The most significant political event of the Russo-Georgian war was Nicholas Sarkozy's mediation
+  - Indicated to Putin that the EU not particularly willing to take sides
+  - In reality Europe was hesitant to take a firm position because of the complex way the war started --- not a clear case of Russian aggression
+- However Putin saw the mediation by Sarkozy and the "reset" with Hillary Clinton as a tacit acknowledgement by the West that Russia had the right to intervene in post-Soviet states that hadn't joined NATO or the EU
+

@@ -1,0 +1,179 @@
+#+TITLE: YouTube Video List
+
+- [[https://developers.google.com/youtube/v3/docs/?apix=true][YouTube API main site]]
+
+* 3-column format
+- The 3-column format should appear neat, with the title column being set to the width of the widest title
+- In order to do this, the 3-column format needs to have the whole video list
+- Split the titles of all the videos, then find the widest and set the middle column width to that
+- I have a list of lists, where the inner list is a line of the title:
+  #+begin_example
+    [[line 1] [line 2] [line 3]]
+  #+end_example
+
+* Add duration to 3-column format
+- Switch to using command line flags, rather than env vars to determine which format to output
+  - Use =tools.cli= to parse command line flags
+  - The =parse-opts= function returns a map:
+    - =:options= is a map where the keys are the explicitly specified options and the values are the user-specified values for those options
+    - =:arguments= is the remaining arguments
+    - =:errors= is a list of validation errors
+- Rename =three-column-format= to =multi-column-format=
+- Update the =video-info= record to hold duration
+- Update =get-video-info= to get the duration
+- Duration info isn't in the =playlistItem= data --- need to query the actual video info
+  - Need to batch video IDs for efficiency
+  - What URL do I need to query for video data?
+    - Send a =GET= request to =https://www.googleapis.com/youtube/v3/videos=
+    - Set the =id= URL parameter to a comma separated list of video IDs
+    - Set =part= to =id,contentDetails=
+    - If I have many video IDs, can I just send them all as one request?
+    - I can't use one request --- results in a =400= response complaining about bad filter parameters
+    - However, I can send 50 video IDs at a time (but no more)
+- What I need to do is partition the videos into blocks of 50 and query the durations for each partition on a separate thread
+- In order to do a query on a separate thread, look at =future=
+- I have a hashmap of video data without durations, keyed by video ID
+- I have a list of video-id/video-duration pairs
+- What I want to do is grab the video data element for the given ID from the hashmap, assoc in the duration, and add it to a seq
+- I think this should be possible with =into= and =map=
+
+* Handle YouTube custom URLs
+- YouTube channels have the option of setting a custom URL
+- Ex: =https://www.youtube.com/c/Flamuu=
+- In order to get the channel ID for a custom URL, we need to use this [[https://stackoverflow.com/questions/37267324/how-to-get-youtube-channel-details-using-youtube-data-api-if-channel-has-custom/65218781#65218781][nasty search workaround]]
+- Apparently there's no official way to get the channel ID if all you have is a custom URL
+- What I have to do is
+  - Send a request to the search API (=https://www.googleapis.com/youtube/v3/search=), with the following parameters
+    - =q=: =<custom URL name>= (i.e. the part after =/c/= in the URL)
+    - =part=: =snippet=
+    - =order=: =relevance=
+    - =type=: =channel=
+  - Then, for each channel in the first page of results, grab the channel ID, then call the channels API (=https://www.googleapis.com/youtube/v3/channels=) with the following parameters
+    - =id=: =<channel IDs>=
+    - =part=: =snippet=
+  - Then go through each of the snippets to see if it has a =customUrl= field, as follows:
+    #+begin_example
+      {:kind "youtube#channelListResponse",
+       :etag "DIh6406T1NJSTaKvkV7x40fN2O0",
+       :pageInfo {:totalResults 1, :resultsPerPage 5},
+       :items
+       [{:kind "youtube#channel",
+         :etag "AyHp2T7QZbqkrJX21ChfiMOskKo",
+         :id "UC6jZ3uNWJKtJokkJxPLA88g",
+         :snippet
+         {:title "Flamu",
+          :description
+          "Want to become a better player? My goal is to help you, with a combination of analyzing my own games and some rather rough criticism aimed at both myself and others.\nTwitch Partner @ http://www.twitch.tv/flamuu\nDiscord Partner @ https://discord.gg/flamu\nBusiness email: flamubusiness@gmail.com",
+          :customUrl "@flamuu",
+          :publishedAt "2007-08-17T00:17:10Z",
+          :thumbnails
+          {:default
+           {:url
+            "https://yt3.ggpht.com/ytc/AGIKgqPLwATw_zCxmc5pNo23eReKaRPJr9XnonD2KnPHsw=s88-c-k-c0x00ffffff-no-rj",
+            :width 88,
+            :height 88},
+           :medium
+           {:url
+            "https://yt3.ggpht.com/ytc/AGIKgqPLwATw_zCxmc5pNo23eReKaRPJr9XnonD2KnPHsw=s240-c-k-c0x00ffffff-no-rj",
+            :width 240,
+            :height 240},
+           :high
+           {:url
+            "https://yt3.ggpht.com/ytc/AGIKgqPLwATw_zCxmc5pNo23eReKaRPJr9XnonD2KnPHsw=s800-c-k-c0x00ffffff-no-rj",
+            :width 800,
+            :height 800}},
+          :localized
+          {:title "Flamu",
+           :description
+           "Want to become a better player? My goal is to help you, with a combination of analyzing my own games and some rather rough criticism aimed at both myself and others.\nTwitch Partner @ http://www.twitch.tv/flamuu\nDiscord Partner @ https://discord.gg/flamu\nBusiness email: flamubusiness@gmail.com"},
+          :country "FI"}}]}
+    #+end_example
+    - If it does, you need to strip the leading =@=, and compare it to the lower-case version of the name from the custom URL
+- Conclusion: Steve Yegge continues to be correct about Google
+
+* XKCD What If Channel
+- The channel URL is: =https://www.youtube.com/@xkcd_whatif=
+- One possible function that could be failing is =get-channel-id-for-custom-url=
+- =get-channel-id-for-custom-url= takes in the channel name and should return a channel ID
+- =get-channel-id-for-custom-url= returns =nil= when given =xkcd_whatif=
+- What does the search response look like?
+- We're able to extract a channel ID from the search response
+- The problem is that the channel ID is for a completely different channel: =@minutephysics=
+- This doesn't match =@xkcd_whatif=, so the lookup fails
+- However, if I search on the YouTube website with =@xkcd_whatif= I do get the correct channel
+- Yet, if I search using the API, the only result I get is for =@minutephysics=
+- What if I drop the =:type "channel"= filter
+- I was able to find the result for the first video, from which I was able to derive the channel ID: =UC6IxnFzHofFJ5X2PycSMsww=
+- Updated the URL in my notes to use the channel ID rather than the short name
+
+* Acquisitions Incorporated
+- Triggering null pointer exceptions, in =get-video-length-for-partition=
+- It's possible that one of the videos doesn't have properly formatted video details, which is resulting in =parse-video-length= being unable to interpret the video length
+- In order to diagnose this, I need to get the "raw" video data
+  - Call =load-client-key= to get the API key
+  - Call =get-uploads-playlist-id= to get the uploads playlist
+    - Channel URL is: =https://www.youtube.com/@acquisitionsincorporated=
+  - Call =get-video-info-from-playlist= to get the video info
+- Then, once I have the raw video info, I need to "manually" get the duration information for each video
+- Alternatively, what if I add some exception handling to try to find the offending video?
+- Adding the exception handling worked
+- Failing video ID: =nK3UYp3JBfo=
+- When I try to get the information for that ID using =yt-dlp=, it tells me that it's a video that hasn't premiered yet
+- Looking at the =contentDetails= portion of the response, the video doesn't have the =duration= field at all
+- I should exclude videos that lack durations
+- Add a =filter= clause to =(:items response-data)= which will remove those items which do not have a duration
+
+* Performance profiling
+- =youtube-video-list= runs slowly for channels that have a large number of videos
+- Is this due to a problem in my code, or is it just the YouTube API that's being slow?
+- Profile code using =clj-async-profiler= (see =clojure_tips.org=)
+- Should create a development profile
+  - Create file =profiles.clj=
+  - Add the following contents
+    #+begin_src clojure
+      {:dev {:dependencies [[com.clojure-goes-fast/clj-async-profiler "1.2.2"]]
+             :jvm-opts ["-Djdk.attach.allowAttachSelf"]}}
+    #+end_src
+- Need to bypass =print-video-info= --- don't actually need to see the video info
+- Write a new function in the REPL just for profiling
+  #+begin_src clojure
+    (defn profile-video-list []
+      (let [api-key (load-client-key client-key-file-name)
+            channel-url "https://www.youtube.com/user/nismotv2013"
+            uploads-playlist-id (get-uploads-playlist-id api-key channel-url)]
+        (set-video-lengths api-key (get-video-info-from-playlist api-key uploads-playlist-id))))
+  #+end_src
+- The function that seems to be taking the most time is =get-video-info-from-playlist=
+- This is a bit surprising, because I'd have thought that the most time would be spent in =set-video-lengths= or =get-video-length-for-partition=
+- It seems like the most time is spent just waiting for the YouTube API to deliver the next page of playlist results
+
+* Mary Cagle's channel
+- Channel URL: =https://www.youtube.com/@CubeWatermelon=
+- Getting a HTTP 400 error in =get-video-info-from-playlist=
+- Are we able to get the uploads playlist ID for this channel?
+- YouTube has updated their API with a new =forHandle= parameter
+- I need to update =get-uploads-playlist-id= to use =forHandle=
+- What does the response look like if I use =forHandle=
+- Can I use =forHandle= for both =/c/<name>/= URLs and =@<name>= URLs?
+- Seems like yes --- both =/c= and =@= URLs use the same handles
+
+* Karakurist
+- This channel has both English and Japanese titles for their videos
+- I'd prefer to get the English titles
+- Karakurist uploads playlist ID: =UUjONLy4oUaBC9fJENAiZKWg=
+- I'm currently extracting video titles and upload dates from the =playlistItems= API, but perhaps I should be getting it from the video data
+- I need to pass a =hl= parameter set to =en= to the videos endpoint in order to get the video info in English
+- I should refactor =get-video-length-for-partition= into a more general information retrieval function that returns both lengths and titles
+
+* Performance Pt 2
+- I'm still suspicious that the performance issue is on my end
+- One possible issue is that =extract-video-info-from-partition= uses a =future= to get video info asynchronously
+- However, in =set-video-lengths= I do
+  #+begin_src clojure
+    (flatten (map #(deref (extract-video-info-from-partition api-key %))))
+  #+end_src
+- So what I'm doing is launching a future, and then immediately waiting for it to finish before moving on to the next one
+- What I should be doing is launching all the futures in one step, and then waiting for them to finish in the next
+- Outcome:
+  - Changing it to the two-step method didn't seem to make much of a difference
+  - If anything, the two-step method was slower

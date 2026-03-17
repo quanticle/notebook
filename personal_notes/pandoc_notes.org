@@ -1,0 +1,11 @@
+* Pandoc Notes
+
+** Convert Markdown to HTML
+- ~pandoc -s --mathjax --from "gfm+tex_math_dollars+smart" --css "../pandoc.css" --shift-heading-level-by=-1 -o <output_file.html> <input_file.md>~
+
+** Convert org to markdown
+- ~pandoc -s --from org --to gfm --wrap none -o <output_file.html> <input_file.org>~
+
+** Convert org to HTML
+- ~pandoc -s --mathjax --from "org+smart" --css "../pandoc.css" --shift-heading-level-by=-1 -o <output_file.html> <input_file.org>~
+- Alternatively, if the org-mode file is one of the new ones: ~pandoc -s --mathjax --from "org+smart" --css "../pandoc.css" --shift-heading-level-by=1 -o <output_file.html> <input_file.org>~

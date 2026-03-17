@@ -1,0 +1,201 @@
+#+TITLE: uBlock Origin Custom Filters
+
+* Custom Filters
+- Syntax: =<domain>##<css selector>=
+- My filters:
+  #+begin_example
+    cnn.com##.el__featured-video
+    forbes.com##.video-placeholder
+
+    ! 1/22/2020 https://blogs.sciencemag.org
+    blogs.sciencemag.org###comments
+    ! 1/25/2020 https://www.businessinsider.nl
+    www.businessinsider.nl##.sidebar__desktop.sidebar
+    ! 1/25/2020 https://medium.com
+    medium.com##.dp.n.ju > .rc
+    ! 1/27/2020 https://www.reuters.com
+    www.reuters.com##.VideoPlayer__video___3LqxA
+    www.reuters.com##.HpVideoModule__container___39OVT
+    ! 1/29/2020 https://www.reuters.com
+    www.reuters.com##.Video_docked.Video_container
+    ! 2/6/2020 https://mungowitzend.blogspot.com
+    mungowitzend.blogspot.com###comments
+    ! 2/9/2020 http://voices.washingtonpost.com
+    voices.washingtonpost.com##div.commentText
+    voices.washingtonpost.com##.sectionhedComment
+    washingtonpost.com##.powa-wrapper
+    bloomberg.com###banner-outlet
+    cnet.com##div[section="rColumn"]
+    theatlantic.com##.c-nudge__container
+    gelbooru.com###twitch-embed
+    gelbooru.com##main center div
+    econlib.org##.comments-section
+    ! 2/14/2020 https://changelog.com
+    changelog.com##.comments
+    ! 2/18/2020 https://www.reuters.com
+    www.reuters.com##div.RightRail_sticky.Sticky_track
+    www.reuters.com###hp-wire
+    ! 2/18/2020 https://caravanmagazine.in
+    caravanmagazine.in##.promotion-content-wrapper > .sticky.wrap
+    caravanmagazine.in##.side-panel-wrapper.is-offset-1-widescreen.is-4.column
+    ! 2/28/2020 https://www.wired.com
+    www.wired.com##.callout--has-top-border.callout--inset-left.callout
+    ! 3/1/2020 https://www.gwern.net
+    www.gwern.net###ta_background
+    www.gwern.net###ta_paywall
+    ! 3/2/2020 https://thehill.com
+    thehill.com##.player-container
+    ! 3/23/2020 https://www.anandtech.com
+    anandtech.com##.blog_comments
+    anandtech.com###comments
+    anandtech.com##.twitter
+    anandtech.com##div.jwplayer
+    ! 3/26/2020 http://crookedtimber.org
+    crookedtimber.org###comments
+    crookedtimber.org##.to_comments
+    ! 3/30/2020 https://www.bloomberg.com
+    www.bloomberg.com##.video-player
+    ! 4/3/2020 https://www.themoneyillusion.com
+    www.themoneyillusion.com##.commentlist
+    www.themoneyillusion.com###comments
+    www.themoneyillusion.com###commentform
+    www.themoneyillusion.com###respond
+    www.themoneyillusion.com##.postmetadata
+    ! 4/15/2020 https://www.realclearpolitics.com
+    www.realclearpolitics.com##.jw-reset.jw-wrapper
+    ! 4/17/2020 https://nypost.com
+    nypost.com###nyp-piano-flyout
+    nypost.com##.opaque.detached.floating-share
+    ! 4/20/2020 https://timesofindia.indiatimes.com
+    timesofindia.indiatimes.com##.socialwidget
+    ! 4/20/2020 https://devblogs.microsoft.com
+    devblogs.microsoft.com###comments
+    ! 4/20/2020 https://www.forbes.com
+    www.forbes.com##.video-placeholder
+    ! 4/23/2020 https://warisboring.com
+    warisboring.com##.o2-in-side-view
+    ! 4/27/2020 https://www.bellingcat.com
+    www.bellingcat.com##.commentsCont
+    www.bellingcat.com###comments
+    www.bellingcat.com###comment-nav
+    www.bellingcat.com###respond
+    foodandwine.com##.video
+    foodandwine.com##.docked-sharebar-docking-container
+    safegraph.com###drift-widget-container
+    gelbooru.com##a.ad > video
+    https://gelbooru.com/extras/ghost/gbStomping.webm
+    breitbart.com###SideW
+    economist.com##.subscription-proposition
+    stackoverflow.com###hot-network-questions
+    washingtonpost.com##aside.right-rail
+    washingtonpost.com###right-rail
+    washingtonpost.com##.top-sharebar-wrapper
+    navytimes.com##div.jwplayer
+    navytimes.com##.pb-f-article-mco-comments-facebook
+    bloomberg.com##div.sticky-container
+    twitter.com##div[aria-label="Timeline: Trending now"]
+    twitter.com##aside[aria-label="Who to follow"]
+    theatlantic.com##p[data-id="injected-recirculation-link"]
+    theguardian.com##div[data-link-name="epic"]
+    theguardian.com##div.discussion__top-border
+    nationalreview.com##div.jwplayer-inline
+    pajhwok.com##div.region-sidebar-ad
+    sci-hub.tw###minime
+    sci-hub.st###minime
+    newsweek.com###pollContainer
+    wired.com##.sticky-box
+    cbsnews.com##div.uvpjs
+    gunnerkrigg.com##a.important
+    armscontrolwonk.com###comments
+    marinecorpstimes.com##.o-videoPlayer
+    reason.com##.recent-posts-widget
+    overcomingbias.com###disqus_thread
+    overcomingbias.com###recentcomments
+    imgur.com##div.Gallery-Sidebar
+    imgur.com###side-gallery
+    imgur.com##div.BottomRecirc
+    backstabbr.com###twitter-widget-0
+    datasecretslox.com##li.postcount
+    cnn.com##.el__video.el__video--fullwidth
+    firstpost.com##.floating-social-div
+    weather.com##section[aria-label="Top Stories"]
+    weather.com##section[aria-label="Recommended"]
+    weather.com##section[aria-label="Photo Gallery"]
+    weather.com##aside.regionSidebar
+    weather.com##div[class^="CurrentConditions--messaging"]
+    weather.com##section[data-testid="ContentMediaModule"]
+    weather.com##div[data-region="sidebar"]
+    !! Block all Disqus
+    ###disqus_thread
+    interfluidity.com##.commentpane
+    interfluidity.com##.postmetadata > a
+    reason.com###comments
+    timesunion.com##div.stickyWrapper
+    timesunion.com##section.article--content-embed
+    www.tomsguide.com##div.sticky-player-background
+    www.schneier.com##h3#comments
+    www.schneier.com##article.comment
+    www.schneier.com##p.posted > a:nth-child(2)
+    www.schneier.com##div#respond
+    stackoverflow.com##div#sidebar
+    stackexchange.com##div#sidebar
+    serverfault.com##div#sidebar
+    superuser.com##div#sidebar
+    reuters.com##div[class*="VideoPlayer"]
+    thedailywtf.com##.article-footer
+    theverge.com##section#comments
+    theverge.com##a[href="https://www.theverge.com/pages/how-to-whitelist-the-verge"]
+    theverge.com##img[src="https://cdn.concert.io/lib/adblock/verge-01-desktop.png"]
+    scholars-stage.org###comments
+    econbrowser.com###comments
+    overclock3d.net##div#forum-posts-con
+    jalopnik.com##div.js_comments-iframe
+    languagelog.ldc.upenn.edu###comments
+    languagelog.ldc.upenn.edu###commentlist
+    languagelog.ldc.upenn.edu###postcomment
+    languagelog.ldc.upenn.edu###commentform
+    bloomberg.com##aside[data-testid="right-rail"]
+    slatestarcodex.com##div#comments
+    bloomberg.com##div#fortress-preblocked-container-root
+    dailymail.co.uk##div.puff
+    www.dailymail.co.uk##div.puff
+    navalgazing.net##div.list-comments
+    www.lawfaremedia.org##div[data-sf-element="Rail Content"]
+    theprint.in##mybot
+    ft.com##div[data-n-messaging-name="cookieConsentC"]
+    economist.com##div.css-1tllssg.e5tfikp1
+    economist.com##div.css-1h1me4y.e1lug06p1
+    yahoo.com###module-spotIm
+    yahoo.com###module-moreStories
+    nypost.com##div.layout__item--sidebar
+    reuters.com##div.video-player__floating-container__3wYFH
+    jefftk.com##div#comments
+    jefftk.com##div#preview
+    anandtech.com##div.blog_top_right.hide_resp2
+    nypost.com##div.nyp-video-player
+    nypost.com##div.membership-comments-module
+    commonsense.news##div.comments-section
+    lwlies.com##div.test-adblock-overlay
+    vanityfair.com##div.cne-player-container
+    arstechnica.com###social-footer
+    arstechnica.com##div.comments-hotness
+    arstechnica.com##aside#social-left
+    arstechnica.com##section#comments-area
+    foreignpolicy.com##div#comments-container
+    the-race.com##.viously-ui-container
+    the-race.com###disqus_thread
+    thedrive.com##div[data-spotim-module="conversation"]
+    thedrive.com##div[data-spotim-module="recirculation"]
+    wsj.com##div[data-type="video"]
+    wsj.com##div[data-layout-type="most-popular-news"]
+    wsj.com##div[data-layout-type="most-popular-opinion"]
+    wsj.com##div[data-layout-type="buyside-right-rail"]
+    wsj.com##body > div#__next > div.layout-grid > main > div.article-container > div.aside-container
+    accounts.google.com/gsi/*
+  #+end_example
+
+* Trusted Sites
+- reuters.com
+- wsj.com
+- economist.com
+- the

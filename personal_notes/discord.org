@@ -1,0 +1,4 @@
+#+TITLE: Discord Notes
+
+** Search highlights
+- In the search box, search for =mentions:@me=

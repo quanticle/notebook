@@ -1,0 +1,248 @@
+* OMNI-1544: Calculate and show field values in inventory
+[[https://wlweb.windlogics.com/radar/browse/OMNI-1544][Ticket Link]] I need to add the following layers:
+- Federal Land
+- State Land
+- Tribal resource
+- Wetland and Juris Water
+- Critical Habitat
+- Prime Farmland
+- Buildings
+
+** To Do
+- Hook up =update_project_booleans= to =fetch_and_store_gis=
+- Unit tests
+  - =land_status_calculator=
+  - =gis_project_boundary_ingest=
+- Prime Farmland layer permission
+
+** Git branches
+- OMNI-UI: =OMNI-1544_Add_Buildable_Land_Layers=
+- OMNI-API:
+  - =OMNI-1544_add_buildable_land_variables=
+  - =OMNI-1544_calculate_yes_no=
+
+** Critical Habitat layers
+- Critical habitat is two layers, not one
+- Create a custom layer that has an array of URLs?
+- Then, in =toggleLandLayer=, we check to see if the pre-built layer is an object or an array and add both
+- Should I move =createEsriLayer= into =MapControLandLayers=?
+  - I don't think I can because of this code:
+    #+BEGIN_EXAMPLE
+      watch:
+      ...
+      esriLayer: {
+          immediate: true,
+          handler: async function(url) {
+              if (url) {
+                  await this.$nextTick();
+                  this.setMapObject();
+                  this.fitBounds();
+                  this.map.addLayer(this.createEsriLayer(url, '1=1', 'blue'));
+              }
+          }
+      }
+    #+END_EXAMPLE
+  - =esriLayer= is a prop =->= can be passed to =FlexibleMap= from calling code
+  - Does any code set the =esriLayer= prop?
+    - =FlexibleMap= is used by =Map=
+    - What uses =Map=:
+      - =GeoJsonPolygonVariable=
+      - =GeoJsonLatLngVariable=
+      - =ArcGisVariable=
+      - =GeoJsonUploadVariable=
+      - =ProjectSidePanel=
+      - =ProjectDetails=
+      - =ScenarioSidePanel=
+      - =Competitor=
+    - =ArcGisVariable= sets the =esriLayer= prop
+- What is the implementation of =createEsriLayer= like?
+  #+BEGIN_EXAMPLE
+    createEsriLayer(url, whereStr, color) {
+        return esri.featureLayer({
+            url,
+            simplifyFactor: 5,
+            precision: 4,
+            minZoom: this.minEsriZoomLevel,
+            renderer: L.canvas(),
+            style: {
+                color,
+            },
+            where: whereStr
+        });
+    }
+  #+END_EXAMPLE
+- To add custom =esriLayers= to =MapControlLandLayers=
+  #+BEGIN_EXAMPLE
+    import * as esri from 'esri-leaflet';
+    import L from 'leaflet';
+    layer = [
+        esri.featureLayer({
+            url: "<critical habitat linear URL>",
+            simplifyFactor: 5,
+            precision: 4,
+            minZoom: 10,
+            renderer: L.canvas(),
+            style: {color: this.orangeHex}
+        }),
+        esri.featureLayer({
+            url: "<critical habitat polygon URL>",
+            simplifyFactor: 5,
+            precision: 4,
+            minZoom: 10,
+            renderer: L.canvas(),
+            style: {color: this.orangeHex}
+        })
+    ]
+  #+END_EXAMPLE
+  - Then to display the layers, I need to update =toggleLandLayer=
+    #+BEGIN_EXAMPLE
+      if (Array.isArray(selectedLayer.layer)) {
+          for (l of layer) {
+              this.map.addLayer(l);
+          }
+      } else {
+          this.map.addLayer(layer);
+      }
+    #+END_EXAMPLE
+
+** Errors
+- =Error: Cannot find module 'lodash.range'=
+  - I think I need to shut down the server, run =npm install= and restart
+  - That worked
+- =[Vue warn]: Error in render: "TypeError: _this$buildableLandLa.wind is undefined"=
+  - Error occurring in =MapControlLandLayers.vue=, in =landLayers()=
+  - Why is =buildableLand= empty?
+  - Looks like this code runs before the GraphQL results have been returned, so the first time this runs, we need to anticipate that =buildableLand= is empty
+
+** Unit Tests
+- =FlexibleMap.spec.js: TypeError: Cannot read property 0 of undefined=
+  - Error line: =expect(wrapper.vm.map.addLandLayer.mock.calls[0][0]).toBe(layerSpec.layer);=
+  - What is undefined here?
+    - =wrapper.vm.map.addLandLayer.mock.calls= is an empty array
+    - Is =toggleLandLayer= even being invoked
+    - =toggleLandLayers= is being invoked but the test layer doesn't have a =show= property
+
+** Pipeline Failures
+- =pricing_e2e_test.py= - What is the test command?
+- Test command is: =python -m unittest pricing_e2e_test.py=
+
+** Calculate Yes/No on intersections
+- I need to calculate intersections for the following
+  - Federal land
+  - State land
+  - Wetlands/Juris water
+  - Critical habitat
+  - Tribal resource
+  - Buildings
+- I have the project boundaries and the URLs of the Arcgis servers for most of the above
+- Look at acreage calculations for site control
+- The site control code uses the =ParcelStatusArcgisClient=
+  #+BEGIN_EXAMPLE
+       def build_request_params(self, boundary_polygon: Polygon, where_str: str, out_fields: str) -> Dict:
+       bounding_box = f"{{'xmin': {boundary_polygon.bounds[0]}, 'ymin': {boundary_polygon.bounds[1]}, 'xmax': {boundary_polygon.bounds[2]}, 'ymax': {boundary_polygon.bounds[3]}, 'spatial_reference': {{'wkid': 4326}}}}"
+       return {
+        "f": "geojson",
+        "geometry": bounding_box,
+        "where": where_str,
+        "outFields": out_fields
+      }
+    def send_arcgis_request(self, project_boundary: BaseGeometry, where: str, out_fields: str) -> Dict:
+        feature_collection = {"type": "FeatureCollection", "features": []}
+        boundary_polygons = self.get_polygons(project_boundary)
+        for boundary_polygon in self.get_polygons(project_boundary):
+            response = requests.get(str(self.arcgis_api_endpoint / "query"), params=self.build_request_params(boundary_polygon, where, out_fields)).json()
+            if "error" in response:
+                raise Exception(f'Exception when fetching land parcel data: {response["error"]}')
+            feature_collection["features"].extend(response["features"])
+        return feature_collection
+  #+END_EXAMPLE
+- I need to refactor the existing =ParcelStatusArcgisClient= into a more generic =ArcgisClient=, which is used by the =ParcelStatusArcgisClient=
+  - Create =ArcgisClient=
+  - There is a =us_parcel_arcgis_client.py=, what's that used for?
+    - Don't bother with the =us_parcel_status_arcgis_client= for now
+  - =ArcgisClient= API:
+    - =build_request_params=
+    - =send_arcgis_request=
+- +Now I need to create the other layer-specific arcgis clients+
+- +Layer-specific Arcgis clients+
+  - +Initializes the generic =ArcgisClient= with the URL for that layer+
+  - +Provides a facade for =send_arcgis_request=+
+- I've decided against layer-specific Arcgis clients because those classes will be almost empty
+  - Just have layer-specific calculators that set up their own instances of the =ArcgisClient= and populate the appropriate project variable
+- Layer-specific calculators
+  - =FederalLandYesNoCalculator=
+  - =StateLandYesNoCalculator=
+  - =TribalResourceYesNoCalculator=
+  - =WetlandJurisWaterYesNoCalculator=
+  - =CriticalHabitatYesNoCalculator=
+  - =PrimeFarmlandYesNoCalculator=
+  - =BuildingsCalculator=
+- Layer URLs:
+  - Where are the URLs defined
+  - The client gets the URL with the =getBuildableLandLayers= query
+  - URLs are defined in =baker_engine/business_unit_model/jes_model/gis.py=
+  - I'd like to have these URLs accessible to =baker_service=
+- I need to move =boundary_to_geometry_collection= into a utility file =->= moved to =gis_util.py=
+- Integration
+  - I need to integrate the new calculator classes into the boundary update code
+  - Boundary update code: =chalicelib.baker_service.gis.gis_project_boundary_refresh=
+  - That calls =chalicelib.baker_service.gis.gis_project_boundary_ingest.GisProjectBoundaryIngest.fetch_and_store_gis=
+  - =fetch_and_store_gis=, in turn calls =update_land_acres= and =update_site_control=
+  - I need another function that will update the yes-no variables on the project: =update_project_booleans=
+  - Project model: =chalicelib.baker_service.model.models.Project=
+    - =federal_land=
+    - =state_land=
+    - =wetland_or_jurisdictional_waters=
+    - =critical_habitat=
+    - =tribal_resources_within_one_mile=
+    - =prime_farmland=
+  - Need to hook up =update_project_booleans= to =fetch_and_store_gis=
+- Unit tests
+  - =ParcelStatusArcgisClient= tests become =ArcgisClient= tests
+  - New =gis_project_boundary_ingest= tests
+    - Refactor tests so that common mocks are moved into annotations on the test class itself
+    - Need to update tests to patch =land_status_calculators=
+      - =chalicelib.baker_service.gis.gis_project_boundary_ingest.FederalLandBooleanCalculator=
+      - =chalicelib.baker_service.gis.gis_project_boundary_ingest.StateLandBooleanCalculator=
+      - =chalicelib.baker_service.gis.gis_project_boundary_ingest.TribalResourceBooleanCalculator=
+      - =chalicelib.baker_service.gis.gis_project_boundary_ingest.WetlandJurisWaterBooleanCalculator=
+      - =chalicelib.baker_service.gis.gis_project_boundary_ingest.CriticalHabitatBooleanCalculator=
+      - =chalicelib.baker_service.gis.gis_project_boundary_ingest.PrimeFarmlandBooleanCalculator=
+  - Add unit tests for new land calculator classes
+    - =FederalLandBooleanCalculator=
+- Error with Critical Habitat layer
+  - ='geometry' parameter is invalid=
+  - Passing geometry as a simple list instead of JSON works
+- Prime Farmland layer
+  - The prime farmland layer is a raster layer
+  - We need to use =rasterio= to convert it to a shape in order to query the intersection
+
+** Update Errors
+- Wetland/Juris water did not update for Buffalo Ridge Wind (Project ID: =29=)
+- We attempted to update this site on =2021-06-25T06:07:21.430-05:00=
+- Error message: =chalicelib.baker_service.gis.gis_project_boundary_ingest [gis_project_boundary_ingest.py:191] WARNING: Unable to update wetland and jurisdictional waters intersection with error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), skipping.=
+- Further errors:
+  - =chalicelib.baker_service.gis.gis_project_boundary_ingest [gis_project_boundary_ingest.py:191] WARNING: Unable to update wetland and jurisdictional waters intersection with error Error when fetching ArcGIS data: {'code': 400, 'message': 'Failed to execute query.', 'details': []}, skipping.=
+- Geometry envelope: =-96.30125857019968,44.19010124043553,-96.16965156426305,44.284889018971185=
+- Server URL: =https://www.fws.gov/wetlands/arcgis/rest/services/Wetlands/MapServer/0/query=
+- Query parameters:
+  #+BEGIN_EXAMPLE
+    {
+        "f": "geojson",
+        "geometry": "-96.30125857019968,44.19010124043553,-96.16965156426305,44.284889018971185",
+        "where": "1=1",
+        "outFields": "*",
+        "inSR": '{"wkid": 4326}',
+        "geometryType": "esriGeometryEnvelope"
+    }
+  #+END_EXAMPLE
+- Need to set the following parameter: ="returnCountOnly": "true"=
+- The problem is that =ArcgisClient= looks for =features=, whereas this result is returning a =count=
+- =ArcgisClient= wants to return a =FeatureCollection=, which requires the response to be a list of features
+- I need to refactor =ArcgisClient= so that it can return a count
+  - Add =retrieve_feature_count= method
+  - Refactor =land_status_calculators= to use the =retrieve_feature_count= method
+  - Rename =send_arcgis_request= to =retrieve_feature_collection=
+- Critical habitat update failure
+  - The critical habitat server is retrieving a =FeatureCollection= rather than a JSON collection
+  - Need to rewrite =retrieve_feature_count= to handle both plain JSON and =FeatureCollection= values

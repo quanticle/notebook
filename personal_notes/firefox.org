@@ -1,0 +1,190 @@
+#+TITLE: Firefox
+
+** Pinned Tabs
+- Mail
+- Hennepin County Library Online Resources
+- Google Scholar
+- Google
+- Google Maps
+
+** Extensions
+- [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]]
+- [[https://github.com/iamadamdev/bypass-paywalls-chrome][Bypass Paywalls]]
+- [[https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/][TreeStyleTab]]
+- [[https://addons.mozilla.org/en-US/firefox/addon/styl-us/][Stylus]]
+- [[https://addons.mozilla.org/en-US/firefox/addon/cookie-remover/][Cookie Remover]]
+- [[https://addons.mozilla.org/en-US/firefox/addon/old-reddit-redirect/][Old Reddit Redirect]]
+- [[https://addons.mozilla.org/en-US/firefox/addon/export-cookies-txt/][Export Cookies]]
+- [[https://addons.mozilla.org/en-US/firefox/addon/alwayskillsticky/][AlwaysKillSticky]]
+
+** Fix scrolling on Linux
+- Set =mousewheel.default.delta_multiplier_y= to =33=
+
+** Open tab next to current tab
+- Ctrl-click on the new tab button
+
+** Link to a particular page in a PDF
+- Append =#page=<page number>= to the URL
+
+** Disable tab bar
+- If using [[https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/][TreeStyleTab]], the tab bar at the top of the browser is redundant. To get rid of it:
+  1. Enable loading of =userChrome.css=:
+     - Go to =about:config=
+     - Search for: =toolkit.legacyUserProfileCustomizations.stylesheets=
+     - Toggle it from =false= to =true=
+  2. Find your Firefox profile directory:
+  3. Go to =about:profiles=
+  4. Find the in-use profile and click the "Open Folder" button on its root directory
+     - Create a =chrome= directory if it is not present
+     - In the =chrome= directory, create a =userChrome.css= file with the following contents:
+       #+begin_src css
+         #TabsToolbar { display: none !important; }
+         #titlebar { display: none !important; }
+         #alltabs-button { display: none !important; }
+       #+end_src
+  5. Restart Firefox
+  6. If, after a restart, Firefox doesn't seem to be picking up the changes from =userChrome.css=, try going into =about:profiles= and hitting the =Restart= button there
+
+** Remove back and forward buttons
+- Enable =userChrome.css= (as per the disable tab bar section)
+- In =userChrome.css=, add the following:
+  #+begin_src css
+    #back-button, #forward-button { display:none !important; }
+  #+end_src
+
+** Remove close tab buttons
+- Enable =userChrome.css= (as per the disable tab bar section)
+- In =userChrome.css=:
+  #+begin_src css
+    .tabbrowser-tab .tab-close-button {
+        visibility: collapse !important;
+    }
+  #+end_src
+** Disable Sidebar Transparency in MacOS:
+- Add the following to =userChrome.css=
+  #+BEGIN_EXAMPLE
+    #sidebar-box, .sidebar-panel .sidebar-placesTree {
+      -moz-appearance: none !important;
+      opacity: 1;
+    }
+  #+END_EXAMPLE
+
+** Efficiently move tabs around
+- Move tab left: =Ctrl-Shift-PgUp=
+- Move tab right: =Ctrl-Shift-PgDn=
+
+** Always show the tab dropdown
+- Go into =about:config= and set =browser.tabs.tabmanager.enabled= to =true=
+
+** Always open new tabs next to the current tab
+- Go into =about:config= and set =browser.tabs.insertAfterCurrent= to =true=
+
+** =SSL_ERROR_PROTOCOL_VERSION_ALERT= when accessing Google Services
+- Go into =about:config= and set =security.tls.enable_0rtt_data= to false
+  - Tracked by [[https://bugzilla.mozilla.org/show_bug.cgi?id=1718520][this bug]]
+- Go into =about:config= and set =security.tls.version.min= to =1=
+  - Also set =security.tls.version.fallback-limit= to =1=
+
+** =SSL_ERROR_RX_MALFORMED_SERVER_HELLO=
+- Go into =about:config= and set
+  - =security.osclientcerts.autoload= to =true=
+  - =security.enterprise_roots.enabled= to =true=
+
+** Deactivate search within the address bar
+- Go into =about:config= and
+  - Set =browser.urlbar.suggest.searches= to =false=
+  - Set =keyword.enabled= to =false=
+
+** Go to your homepage quickly
+- On MacOS: =Option-Home= (=Option-Fn-Left=)
+- Windows: =Alt-Home=
+
+** Force reload
+- MacOS: =Cmd-Shift-R=
+- Windows: =Ctrl-F5=
+
+** Fix lag when pasting into text fields
+- Disable the accessibility service
+  - Go into =about:config=
+  - Set =accessibility.force_disabled= to =1=
+  - Restart Firefox
+
+** Disable URL bar autocomplete
+- =Settings → Privacy and Security → Address Bar --- Firefox Suggest → <uncheck everything>=
+
+** Always hide the PDF sidebar when viewing PDFs
+- Go into =about:config=
+- Set =pdfjs.sidebarViewOnLoad= to =0=
+
+** Disable AI integration
+- Go into settings
+- Select =Show Sidebar= under =Browser Layout=
+- Click the gear icon in the bottom left of the screen, on the new sidebar
+- Uncheck =AI Chatbot=
+
+** Disable cursor blinking
+- Unfortunately there isn't a way to disable the blinking entirely but the following approach will allow the cursor to blink only once
+- Go into =about:config=
+- Search for =ui.caretBlinkCount=
+- Select the radio button for =number= and hit the =+= box
+- Set it =0=
+
+** Make YouTube shorts into regular YouTube URLs
+- I need to write a Firefox extension that will intercept requests to =https://youtube.com/shorts/<video_id>= and rewrite them to =https://youtube.com/watch?v=<video_id>=
+- Use the =delarativeNetRequest= API to do the URL rewriting
+- Don't need any JS
+- In =manifest.json=
+  #+begin_src json
+    {
+      "permissions": ["declarativeNetRequestWithHostAccess"],
+      "host_permissions": ["*://youtube.com/*"]
+    }
+  #+end_src
+- Then, I need to add create a rules file that will have my rewrite rules: =src/rules.json=
+  #+begin_src json
+    [
+      {
+        "id": 1,
+        "priority": 1,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+            "regexSubstitution": "https://www.youtube.com/watch?v=\\2"
+          }
+        },
+        "condition": {
+          "regexFilter": "^https?://(www.)?youtube\\.com/shorts/(.{11})",
+          "resourceTypes": ["main_frame"]
+        }
+      }
+    ]
+        
+  #+end_src
+  - Note that all rules need to be in an array
+- Then I need to load the rules in =manifest.json=
+  #+begin_src json
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset",
+          "enabled": true,
+          "path": "src/rules.json"
+        }
+      ]
+    }
+  #+end_src
+
+** Force paste into password field
+- Get the input field's ID or class via dev tools
+- In the console:
+  #+begin_src javascript
+    let passwordField = document.getElementById("inputFieldId");
+    let pass = "password";
+    for (const passChar of pass) {
+      passwordField.value += passChar;
+      passwordField.dispatchEvent(new InputEvent("input", {bubbles: true, data: passChar}));
+    }
+  #+end_src
+
+* Waterfox
+- Waterfox, as a Flatpak app, stores its user profiles in =~/.var/app/net.waterfox.waterfox/cache/waterfox/=

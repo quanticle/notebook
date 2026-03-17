@@ -1,0 +1,122 @@
+#+TITLE: The End of Zeitenwende: Reflections After Two Years of Action Group Zeitenwende
+#+OPTIONS: toc:2
+
+Source: [[https://dgap.org/en/research/publications/end-zeitenwende][The German Council on Foreign Relations]]
+
+- Zeitenwende has been a failure
+- Action Group Zeitenwende (AGZ) was two-year collaboration between the German Council of Foreign Relations (DGP) and international politicians and experts
+- On February 27 2022, chancellor Olaf Scholz proclaimed a Zeitenwende, a historic turning point
+- Laid out the 5 priorities in Germany's response to the full-scale invasion of Ukraine
+  1. Supporting Ukraine in its fight for freedom and democracy
+  2. Reducing dependence on Russian energy while continuing to pursue climate goals
+  3. Taking a tougher approach to Russia and authoritarian states
+  4. Enhancing Germany's role in strengthening the European Union and NATO
+  5. Arming Germany to be able to defend itself
+- The AGZ developed a [[https://ip-quarterly.com/en/zeitenwende-here-its-just-unevenly-distributed][four-part framework]] to assess Germany's Zeitenwende initiatives
+  1. Ambition: does the initiative go far enough? What would be the pros and cons of being more bold?
+  2. Depth: Does the initiative have a sufficient depth of political support to be sustainable
+  3. Speed: Is the change being made fast enough?
+  4. International awareness: Is the change being conducted with or in defiance of partners and allies?
+- Analyses by the AGZ and its partners show that Germany's change is dangerously inadequate and incomplete
+- Has lost political and public traction
+- It is counterproductive for Germany to continue to use the term Zeitenwende, when its policies represent more continuity than change
+
+* Ukraine: Failure To Commit To Victory Undermines Substantial Support
+- Germany has failed to understand that the war in Ukraine is a war that must be won
+- Chancellor Scholz has complained that others do not appreciate the full scope of Germany's contribution to Ukraine
+  - Germany is the second largest donor to Ukraine
+  - Hosts a large number of Ukrainian refugees
+  - Highest European contribution to Ukraine in absolute financial terms
+- However, Germany's contribution to Ukraine lags in relative terms --- as a proportion of GDP, Germany's contribution to Ukraine's security lags behind other states
+- The German government points out that other European states, notably France and Italy are also laggards in supporting Ukraine
+- However, this is flawed logic --- supporting Ukraine is in Germany's best interest, so why should it care what France and Italy are or are not doing?
+- Germany has delayed deliveries of critical war supplies, like howitzers, rocket artillery and main battle tanks
+- These delays have allowed Russia to proactively adapt to improving Ukrainian capabilities, largely nullifying the advantage that these advanced weapons could give Ukraine
+- Germany has failed to provide advanced long-range missiles, such as the Taurus, hampering Ukraine's strategic position
+- Although Germany has provided advanced air defense systems to Ukraine, these systems are ultimately a stopgap solution which do not solve the problem of Russia launching missiles in the first place
+- The key problem is that Chancellor Scholz has failed to state that Ukraine should _win_
+- The German government is now cutting funding for Ukraine
+- These cuts undermine allies' commitments to Ukraine
+- Germany has, in effect, spent a lot of money to make Europe less safe
+
+* Energy Policy: Rapid Change Marred By Questionable Direction and Durability
+- The largest success of Zeitenwende has been German diversification away from Russian gas
+- Germany rapidly completed two new LNG terminals on the Baltic Sea coast to allow for alternative energy supplies
+- However, the dual mandate of quickly reducing usage of Russian gas and denuclearization caused Germany to increase its use of coal
+- The new sources of Germany's natural gas, Azerbaijan and Qatar, are not geopolitically stable either
+- Germany's long-term plan for electricity generation is reliant on wind and solar
+- However, fluctuating sources, such as wind and solar, require a steady-state backstop
+- Currently, Germany is using natural gas and coal for this
+- Nuclear would be a better option, as it would result in German energy independence from authoritarian regimes while reducing carbon emissions
+- In addition, German's solar buildout is heavily dependent on cheap solar panels from China
+- In the event of a Taiwan conflict, Germany would be under extreme pressure from the United States to cut its dependence on Chinese suppliers
+- The lack of investment in local production means that Germany pays for rather than profits from its transition to cleaner energy sources
+- Furthermore, Germany's unilateral actions to secure its energy supplies, such as the €200 billion fund to subsidize gas supplies, have alienated allies and have shown a short-term focus on the part of the German government
+
+* Approach To Authoritarian States: Shaky In Practice, Misguided in Strategy
+- Part of Zeitenwende was Germany abandoning its accomodationist approach to authoritarian states
+- Germany's accomodationist "change through trade" approach to Russia was widely seen in central and eastern Europe as contributing to Russia's aggression
+- However, even in the original Zeitenwende speech, Olaf Scholz emphasized that, in the long term, European security cannot be achieved in opposition to Russia
+- Since the speech, German messaging on Russia has been mixed
+  - Scholz says that the full-scale invasion in 2022 was a turning point, and there can be no going back
+  - Also emphasizes the importance of relations with Russia after the war
+- The German government's repeating of Russian nuclear threats has been counterproductive
+- Germany has opposed seizing Russian assets frozen in Europe
+- On China's German government policy has been even worse
+- Germany has largely left the process of "de-risking" investments in China up to individual businesses
+- In the process, several businesses have actually increased their investment in China
+- Germany has sought to water down European tariffs on imported Chinese electric vehicles
+- Delayed proposals to remove Huawei networking equipment from German 5G cell networks
+- Has allowed significant Chinese investment in the port of Hamburg
+- Might be making the same mistake with China that it made with Russia
+- Germany remains dependent on the US for its security, but is increasing economic ties with China
+- The incoherence of the 2023 German National Security Strategy is the result of having to balance the growing systemic rivalry between democracies and autocracies and the preference for a multi-polar approach driven by geography rather than shared values
+
+* EU and NATO: Insufficient Change Leaves Germany Adrift Of European Allies
+- The incoherence of German strategy towards authoritarian states has undermined Germany's alliance relationships
+- Germany remains reluctant to confront Russia and is increasing its economic ties with China
+- However, it remains dependent on the United States for its security
+- Germany has acted unilaterally on energy policy, alienating its EU allies
+- Has refused to consider an pan-EU joint debt fund to increase defense spending, particularly alienating Poland
+- Although Germany's policies towards Ukraine are aligned with the US, these policies are misaligned with several of its European allies, which would like Germany to be more forceful in arguing that Ukraine should have the materiel to ensure victory
+- Current German policies would destabilize Europe by creating a strategic "gray zone" on Europe's borders
+- There are two positive exceptions to Germany's incoherence with regards to its allies
+  - Agreement to deploy a full combat brigade to Lithuania
+  - European Sky Shield Initiative (ESSI) --- a twenty-country program to jointly acquire air missile defense systems
+- However, both of these exceptions come with caveats
+  - The brigade that will deploy to Lithuania lacks tanks, transport and logistics
+  - These will take time to build up
+  - ESSI lacks participation from France or Poland
+- Germany is not living up to Olaf Scholz's promise that Germany would take "special responsibility" for European security
+
+* Rearming Germany: Too Little, Too Slow, Too Uncertain
+- The centerpiece of the Zeitenwende was a new €100 billion dollar special fund which would redress decades of underinvestment in the Germany military
+- Scholz also committed to meeting NATO's guidelines that 2% of GDP be allocated to defense
+- However, Germany has underinvested in its defense by €600 billion
+- Special fund will run out in 2027
+- Unclear whether there will be the political will to sustain defense spending at 2% of GDP by that point
+- Furthermore not clear that 2% of GDP is sufficient to meet Germany's stated goals
+- Minister of Defense Boris Pistorius has stated that the German military needs to be "war ready" in 5 years
+- This would require spending approaching 3-3.5% of GDP
+- Although Pistorius requested €6.5 billion for defense, Germany's latest budget only allocates €1.2 billion
+
+* Conclusion: After The Failed Zeitenwende, Germans Need Real Change
+- The changes implemented thus far as part of the Zeitenwende program have been dangerously inadequate
+- The failure of Zeitenwende has put Germany's security at risk and undermined its relationship with its allies
+
+* Real Change, Strategic Shift, and National Renewal
+- The single largest positive change Germany could make in its defense policy is committing to Russia's strategic defeat in Ukraine
+- This requires a definition of victory and a theory of victory
+  - Definition --- Ukraine must be restored to its internationally recognized 1991 borders
+  - Theory --- plan for how Ukraine, with Western assistance, can regain those borders
+- Any theory of victory must include removing overcautious restrictions on when and how Ukraine can use weapons that are supplied to it
+- Ukraine's victory must be properly funded by seizing Russian assets to finance development of Ukraine's own defense-industrial base
+- A genuine German rearmament is necessary, and would be a complement to aid for Ukraine
+- Germany should learn from Poland, and be much more aggressive in placing orders and long-term contracts for military systems
+- The German government should drop its opposition to joint EU debt financing for defense
+- Germany should commit at least 3% of national GDP to defense
+- The debt brake poses a severe complication for plans to increase defense spending
+  - Getting rid of the debt brake would require a 2/3s parliamentary majority, which doesn't appear feasible in near future
+  - However, the debt brake poses a major obstacle to increasing defense spending
+- The current government's multipolarity strategy fails to align German security with prosperity
+- Germany needs to set out clear goals for its foreign policy and invest the necessary resources into achieving them

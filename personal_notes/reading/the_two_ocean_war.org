@@ -1,0 +1,58 @@
+#+TITLE: The Two Ocean War: A Short History of the United States Navy in the Second World War
+
+Samuel Eliot Morison\\
+1963
+
+* Chapter 1: The Twenty-Year's Peace
+
+** Naval Limitation: 1922 - 1937
+- World War 1 and World War 2 were fundamentally different wars for the US military
+- World War 1
+  - One theater war for the Army
+  - One ocean war for the Navy
+  - No surface engagements against enemy forces
+  - US troops could deploy into Europe through secure, friendly ports
+  - Influence of air power was negligible
+  - US troops are supplied largely with allied weapons
+  - American tactics and operations are viewed with disdain by other participants --- US commanders are seen as "enthusiastic but amateurish"
+  - US retreats into isolationism after the war
+- World War 2
+  - Five major theaters for the Army
+  - Two oceans for the Navy
+  - Over 20 major naval surface engagements
+  - US troops had to invent and learn new amphibious warfare tactics in order to force their way onto hostile shores
+  - Air power plays a major factor
+  - US is the "arsenal of democracy" and supplies a large portion of the weapons for all Allied forces
+  - American tactics and operations are at least equal and often superior
+  - After the war, US remains in Europe and Japan, forming the basis for a long-term anti-communist alliance system
+- A crucial moment in the US retreat into isolationism after World War 1 was the US Senate's rejection of the League of Nations treaty
+  - Some of this rejection was due to domestic political matters
+  - However, there was also a feeling that US interests had been betrayed in the Paris Peace Conference and that participating in the League of Nations would drag the US into conflicts that had nothing to do with US priorities
+- Even though the US rejected the League of Nations, its foreign policy was still oriented around international peace
+- To this end, President Harding, who succeeded Woodrow Wilson, convened a Naval Arms Limitation Conference in Washington on November 12, 1921
+  - Conference was suggested by the British
+  - Was partially in response to a naval buildup authorization that had been passed by the US Congress in 1916, which would have authorized the construction of fleet equal to any two of the US' rivals
+  - Britain, which also had a policy of maintaining naval supremacy, did not have the financial resources to meet this construction program
+  - At the conference, Secretary of State Charles Evans Hughes proposed that the US would give up its plans to expand its navy if other major naval powers would also forego building fleets of their own
+  - This conference culminated in the Washington Naval Treaty of 1922
+- Washington Naval Treaty
+  - Signed on February 6, 1922
+  - Set a 5 : 5 : 3 : 1.75 : 1.75 ratio of tonnage of battleships and aircraft carriers between the US, Britain, Japan, France, and Italy, respectively
+  - /Germany, at this time, had its navy severely curtailed by the Treaty of Versailles/
+  - 10 year moratorium on building new capital ships
+  - Limited displacement of new battleships to 35,000 tons
+  - /That seems like a rather low displacement, given that the US and UK were in the process of constructing battleships with displacements exceeding 40,000 tons, at the time/
+  - In order to persuade the Japanese to agree to the treaty the US and UK also foreswore reinforcing military bases in the Philippines and Guam, and east of Singapore and north of Australia, respectively
+- The US expected that the Washington Naval Treaty would be the start of a new era of disarmament, but this was not the case
+- A later conference did result in an agreement to limit cruiser displacement to 10,000 tons, but while the US abided by this limit, the Japanese flouted it
+- The US and the UK, reassured by the treaties, allowed their armed forces to slip into obsolescence
+- Congress refused to authorize a naval buildup even to the lowered limits set by the treaties
+- To the extent that spending was authorized for the Navy, it was due in no small part to the efforts of the Navy League, a civilian organization dedicated to the maintenance of US naval power
+- Economic trouble in the US made the Congress wary of funding armaments that may never be used
+- After President Harding came President Coolidge
+- Although Coolidge was no fan of the sea, he did advocate for the US to build its fleet up to parity with the British, and the limit authorized by the treaty
+- Even this was controversial, however, and it took several attempts for the Coolidge administration to enact a "cruiser bill" which authorized the construction of 15 heavy cruisers and one aircraft carrier
+- This was a pared down version of a more aggressive proposal which called for the construction of five aircraft carriers and 21 cruisers, which was rejected by the Senate
+- The cruiser bill was the origin of the /Astoria/, /Brooklyn/ and /Indianapolis/ classes
+- Although the "cruiser bill" was passed in 1928, no keels were laid down until 1930, and the US did not commence building any /Brooklyn/-class cruisers until 1935
+- 

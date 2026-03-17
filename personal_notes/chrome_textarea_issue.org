@@ -1,0 +1,3 @@
+* Chrome TextArea Issue
+- [[https://jsfiddle.net/rfok412e/][JSFiddle]]
+- [[https://stackoverflow.com/questions/63747542/how-do-i-prevent-the-cursor-in-chromes-textarea-from-jumping-to-the-top-when-th][StackOverflow question]]

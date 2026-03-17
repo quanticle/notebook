@@ -1,0 +1,23 @@
+#+TITLE: 2026 OSA Convention Website
+
+- Centralized website domain --- Nashville
+- Dallas is the second convention to use the centralized website
+- Need to validate membership numbers
+- Check annual membership numbers
+- Non-members or expired members need to register with the OSA Website
+  - Paypal --- immediate membership
+  - Zelle --- manual process, needs a manual database update
+- Website implemented using Wordpress
+- However Wordpress needs a license --- may need to implement a new backend
+- Database stored in Amazon RDS
+- OSA convention has a different domain, running on a different EC2 instance, connected to a different database
+- Make everything self-serve
+- Can we use people's OSA accounts to validate their membership
+- Website running on t2.micro EC2 instance
+- Domain: =osa<year>.osaconventions.org=
+- Set up CloudFlare DDOS protection for website
+- Review OSA convention and awards guidelines
+- Website should be up by November 15
+- Automate 
+
+Pag

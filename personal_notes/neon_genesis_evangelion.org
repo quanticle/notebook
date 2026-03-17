@@ -1,0 +1,1974 @@
+#+TITLE: Neon Genesis Evangelion
+#+OPTIONS: toc:1
+
+* Episode 1: Angel Attack 
+
+- /OP is really good; I'd forgotten how good _A Cruel Angel's Thesis_ was/
+- 2015
+- Flooded city (Tokyo?)
+- Row of tanks lined up (against what?)
+- Evacuation order
+- Boy standing at a phone booth — Shinji Ikari
+- Sees a blue-haired girl standing out of the corner of his eye; looks agains and she's gone
+- Immediately after that — large explosion and we see the giant monster, under attack by a bunch of hover-jets
+- /This is presumably the attacking "Angel"/
+- /The illustrations of military equipment are really good/
+- Cut to a military headquarters of some kind, see a Commander and his lieutenant
+- Military armaments are useless
+- Angel has an 'AT-field'
+- Cut back to Shinji
+- Lady pulls up — Misato Katsuragi
+- As they're driving away, the military nukes the Angel
+- Nuclear mine damages the Angel, but does not kill it
+- Angel stops and starts to heal
+- Misato is annoyed that the mission to pick up Shinji has wrecked her car, but she's doing a good job of hiding it
+- Angel is referred to as an autonomous weapons (/sent by whom/)
+- Allusion to an event 15 years ago (/Y2k?/)
+- Misato works for NERV — secret organization under the UN
+- NERV was created specifically to fight this threat
+- Commander of NERV is Shinji's father
+- To fight the Angel, they will activate Unit 01
+- No pilot
+- Elder Ikari says that another pilot is on the way — presumably Shinji
+- On the train to NERV HQ, Shinji is given a top secret file, which informs him about what NERV is and what it does
+- Prior to that he was told nothing — his summons were an ID card and a completely redacted report annotated with "Come" and signed by his father
+- Shinji realizes that the only reason his father sent for him is because he has some use for him — very distant relationship between son and father
+- Misato says that she doesn't get along with the senior Ikari either
+- Train emerges into underground city
+  - Geo-Front
+  - NERV HQ
+  - "Fortress for all mankind"
+- NERV HQ is a pyramid and an inverted pyramid inside the Geo-Front
+- /Misato is sure acting pretty casual for someone who knows there's a giant monster which survived a nuclear explosion right outside/
+- Ritsuko Akagi — Head of R&D at NERV
+- Misato — Head of Operations
+- According to the Marduk Report, Shinji is the Third Child
+  - /Who were the other two/
+- Very small possibility of activating Unit 01
+- /At 13:03, there's a giant hand in the background — nobody comments on this/
+- /I would expect Misato and Ritsuko to be used to it, but I am surprised that Shinji doesn't speak up — "What is *that*?"/
+- We finally get to see Unit 01 — giant purple robot from opening sequence
+- Robot is "mankind's ultimate weapon" — Synthetic Human - Evangelion 01
+- Unit 00 is still in cryostasis — they're planning on using Unit 01 even though there's a tiny possibility of activation
+- Rei (/who?/) can't pilot
+- Shinji will be the pilot of Unit 01
+- Misato asks how Shinji will be expected to pilot Unit 01 when it took Rei 7 months to synchronize
+- Senior Ikari says that all Shinji has to do is sit in the Evangelion and the rest will take care of itself
+- This is a last-ditch plan to stop the Angel
+  - /It's weird that an organization specifically created to stop an attack like this would be caught with its pants so far down/
+- Interesting contrast between apparent desperation of Misato and Ritsuko and supreme confidence of the senior Ikari
+- Shinji has questions
+  - Why was I sent for
+  - Am I going to be expected to fight the angel
+  - Why am I being asked now?
+  - /All reasonable questions, IMO/
+- Shinji is convinced he can't pilot the robot
+- Father says that either he'll pilot it or he'll leave
+  - /At this point, I would have said, "You know what? *Screw you!* I'm out. Have fun saving the world or whatever."/
+  - /Shinji's dad is a tremendous narcissist/
+- At this point the Angel resumes its attack
+- Ritsuko says that they're out of time — Shinji has to pilot
+- Misato tells Shinji to get in
+- Says that he mustn't run away
+- Shiji is still frozen with fear
+- Shinji's father's lieutenant — Fuyutsuki — is asked to go wake up Rei
+- Rei has been strongly implied to be incapacitated
+- Elder Ikari makes an audio-only call to Rei — asks if she'll pilot again
+- Rei agrees to pilot again
+- Ritsuko calls for Unit 01 to be reconfigured for Rei
+- Shinji realizes that he was unnecessary this entire time
+  - /Oh really, Shinji? You're unnecessary? If you were unnecessary, do you think that Misato would have risked her life to go rescue your sorry ass?/
+- Rei (blue-haired girl that Shinji caught a glimpse of in the vision right at the beginning) is wheeled in on a hospital bed with an IV
+- Heavily bandaged
+- Angel's attack finally smashes into the underground base — causes lights to fall from the ceiling and Rei to fall out of her bed
+- Evangelion moves on its own to protect Shinji
+- Shinji notices that Rei is bleeding through her bandages
+- At this point, Shinji reluctantly says that he'll pilot the Evangelion
+  - /You got played, fool!/
+- The pilot of the Evangelion enters the robot via a canister known as an "entry plug"
+- Entry plug is filled with a liquid called LCL — oxygenates the blood and presumably shields against G-forces
+- Shinji has a 41.3% synchronization rate, even though he's never been in the robot before
+- Eva is launched and episode ends with Eva facing off against the Angel
+
+* Episode 2: Unfamiliar Ceiling/The Beast
+
+- Starts immediately after Episode 1
+- Eva is facing off against Angel
+- Shinji is ordered to concentrate on walking
+- Takes one step, and then the Eva falls flat on its face in the second
+- At this point, the Angel attacks the Eva
+- /Is the Angel sentient? Is it thinking, "Really? *Really*? This is the best you have?/
+- Angel picks up Unit 01 and breaks its arm — Eva and pilot are connected via neural link so Shinji feels as if his arm has also been broken
+- Angel picks up Unit 01 by its head and starts battering it with its beam weapon
+- /At this point, Misato's order to Shinji, "Dodge!" makes zero sense — how can he dodge when the Angel has him literally by the face?/
+- Eva gets blasted into a building and starts bleeding — has a hole blasted right through its head
+- Jump cut to Shinji waking up in a hospital bed
+- Jump cut to salvage operation where we see the Eva's head armor being lifted by a crane
+- /I really like the way Anno cuts in this episode — there's always a clear step forward in the story whenever he cuts/
+- Jump cut to some kind of council meeting (NERV council?) — telepresence, people marked by colored desks
+  - Angels have reappeared after 15 years (see vague reference in episode 1)
+  - Angels are now public knowledge, as is information manipulation
+    - /Manipulation by whom, and for what purpose?/
+  - NERV must operate quickly and prudently
+  - Senior Ikari starts reassuring the council
+- Jump cut back to Misato and Ritsuko at the salvage operation
+  - Public scenario B-22 - implication is that NERV has a wide variety of contingency plans for dealing with the aftermath of an Angel attack
+  - Misato says that NERV is covering up the truth once again
+  - Ritsuko replies that people are acting casual when they're really scared inside
+  - From background:
+    - No danger of contamination
+    - Only samples of Angel were those that clung to the Eva
+- Jump cut back to council
+  - Senior Ikari is is facing questions about his management
+  - Cost of repairs to Unit 00
+  - Now Unit 01 is completely wrecked
+  - Questions re: his son piloting Unit 01
+  - Reminder that the true priority is the Human Instrumentality Project — even the reappearance of the Angels cannot excuse delays there
+  - At the end of the meeting, most the of council signs off, but one person (the chairman?) remains, and tells Shinji's father that there is "no turning back"
+  - Ikari agrees, saying "Mankind has no time left"
+- Cut to Shinji, now in the hallway outside his room
+  - Sees Rei wheeled past
+  - /I really like the lack of dialogue and the the slowness of this scene/
+- Cut to Misato and Ritsuko in one of the salvage trucks
+  - /Are the vehicles in Evangelion self-driving? Misato and Ritsuko are in the cab of a semitrailer, but there's no evidence of a steering wheel/
+  - /Yet Mistato's car clearly is not self-driving, since she had to drive it manually in Episode 1/
+  - Ritsuko hears on a carphone (truckphone?) that Shinji has woken up
+  - No external injuries but his memory is fuzzy
+  - Misato worries about "neural contamination" (/from what? the Angel or the Eva?/) but is reassured that Shinji is fine
+  - Memory issues are to be expected given the strain on Shinji's nervous system
+  - To this, Misato replies, "Don't you mean his heart?" /I have no idea what she means by this, but the shot lingered on her, so I can only assume Anno wanted us to notice/
+- Cut to Shinji, who is looking at his arm, surprised that it's whole (/I wonder if Anno had read _Dune_, because if so, this would be a really neat callback to the gom jabbar scene right at the beginning of that book/)
+- Cut back to Misato and Ritsuko, now back at base
+  - Misato says that if the city and the Eva both fulfill their potential, humanity will make it through this
+  - Ritsuko has her doubts
+  - Misato replies that sometimes a little wishful thinking is what you need
+- Misato meets Shinji at the hospital
+- Shinji's father comes down as well, they do their usual staring at each other awkwardly thing
+- Shinji is initially assigned a room by himself; Misato intervenes and gets Shinji assigned to her apartment
+- Buying groceries, Shinji and Misato hear people talking about moving away, now that the city has become a war zone
+- On the way home, Misato and Shinji watch the buildings rise up out of the Geo-Front, Misato says that Tokyo 3 (/finally, the city is named/) is a fortress designed to protect its inhabitants against the Angels
+- Shinji and Misato arrive at Misato's apartment — it's a total mess
+- /The slide-out racks in Misato's fridge are awesome, even if they're not actually useful for storing food/
+- Fridge has nothing but ice, snacks and a whole lot of beer
+- /There's an interesting inversion here — here we have a woman living like a stereotypical bachelor/
+- Shinji notices a second fridge; Misato says not to worry about it as "he's probably sleeping"
+- Misato appears to subsist entirely off instant food and beer
+- Shinji doesn't find it appetizing — says it's not what he's used to
+  - /Which raises the question, what *is* Shinji used to? We know nothing about his life prior to that initial scene where Misato comes and picks him up out of a literal war zone/
+- Misato says this is your home now, and you can take advantage of everything in it, clearly including herself, but Shinji is totally oblivious
+- Shinji goes to take a bath and encounters a penguin!
+- His name is Pen Pen and he's the inhabitant of the second fridge
+- Cut to Ritsuko and elder Ikari in a smashed control room
+  - Outside the control room is Unit 00, which has clearly punched the wall and probably the control room as well
+  - Ikari says that Rei Ayanami (/finally, we hear Rei's last name/) will be ready in 20 days
+  - By that time they'll have Unit 00 out of cryo-stasis
+- Cut to Shinji listening to an SDAT tape as he goes to sleep remembering the fight
+- Where we resume, Eva isn't responding to control signals
+- Shinji's vitals have all flatlined
+- Misato says that preserving the life of the pilot is the first priority; orders ejection
+- Ejection fails — even the emergency signals aren't working (/of course they aren't, this wouldn't be anime if things were engineered and tested well/)
+- Eva reactivates on its own and goes berserk
+- Elder Ikari seems to have anticipated this — says that they've won
+- Eva heals its arm and shreds the Angel's AT field with its own
+- Angel self destructs
+- The control crew is terrified — "Is this the Eva's true form?"
+- Eva's head armor falls off and Shinji sees the reflection of the face of the Eva in one of the buildings and realizes he's in a living thing and screams
+- Cut back to present — Misato tells Shinji that he's done a very praiseworthy thing
+
+* Episode 3: The Silent Phone/A Transfer 
+
+- Starts with Shinji in the Eva on a training exercise
+- Get some exposition about how the Eva works
+  - Runs off electricity provided by an umbilical cable
+  - Internal battery
+    - 1 minute of activity at full power
+    - 5 minutes in "minimum activity mode"
+- Shinji is training with a gun
+  - /Why aren't they training with the AT field, since that was the key element in his defeating the previous Angel?/
+- Ritsuko says that Shinji just does what he's told to
+  - /No initiative or adaptability --- not what you want in an Eva pilot/
+  - /Implication is that Shinji is cannon fodder/
+- Misato is in the back of the control room looking annoyed, but it's impossible to tell whether she's annoyed at Ritsuko or Shinji
+  - /Knowing Misato, it's probably both/
+- Domestic life with Shinji and Misato
+  - Misato is often on night duty, so she's sleeping when Shinji leaves for school
+- Misato receives a call from Ritsuko and they discuss Shinji
+  - /You know what's really weird about Evangelion? Everyone still uses landlines/
+  - Misato is worried that Shinji has no friends
+  - Ritsuko says that Shinji is victim to the "hedgehog's dilemma" --- the closer two hedgehogs get, the more they hurt each other with their spines
+  - Misato says that getting used to getting hurt is part of growing up
+- At school, the kids don't believe the official line that no one was killed or injured in the previous Angel attack
+- Toji Suzuhara --- student who has been absent for the last two weeks
+  - Absent because his sister was injured in the attack and has been recovering in a hospital
+  - Toji is the only person who can take time off to take care of his sister
+  - Class population has dropped because of people moving away (/see grocery store discussion in previous episode/)
+  - Toji blames the pilot of the Eva for hurting his sister
+- More history (/official/propaganda history/)
+  - In 2000 a meteor hit Antarctica
+  - This knocked the Earth off its axis and instantly melted the Antarctic ice sheet, leading to ecological catastrophe
+  - As a result thousands of species and approximately half of humanity perished
+  - This event is known as the _Second Impact_ (/if this was the *Second* Impact, what was the *First*?/)
+- Shinji's fellow students ask if he is the pilot of the Evangelion, he replies that he is
+  - /Did no one tell Shinji that this information was classified?/
+  - /He knows that the details of the Eva are secret, but he can't keep his mouth shut about being the pilot?/
+- After school Toji beats up Shinji for allowing his sister to get hurt
+- Right then there's another Angel attack
+  - Previous Angel was a green humanoid
+  - This one's a red floating crab/lobster-like thing
+- /Bataille Decisive is excellent as always/
+- While Shinji suits up in the Eva, Toji and his friend evacuate to a shelter with the rest of the civilians
+- This is the fourth Angel
+  - /This means that the Angel that Shinji fought was the third Angel --- what happened with the first two?/
+  - Gap between previous two Angel attacks was 15 years, gap between these two is 3 weeks
+  - Fuyutsuki lampshades that the conventional weapons being fired at the Angels are a waste of taxpayer money
+- Shinji wonders why he's piloting the Eva even though his father isn't here to order him in, and all piloting the Eva has been good for so far has been getting him beaten up
+- Toji's friend, Kensuke, says that he has to get out and witness the battle, at least once in his life
+- Says that Toji has a duty to witness the battle to, since he beat up the Eva's pilot
+- Shinji deploys against the Angel 
+- Shinji deploys his AT field and opens fire with a long full-auto burst against the Angel
+  - /Turns out that they did practice with the AT field/
+  - Smoke from rounds impacting the target obscures the Angel
+  - /To be fair to Shinji this is a problem that even trained soldiers have trouble with/
+  - /There's a reason that even the military version of the M-16 rifle doesn't have full auto anymore/
+  - /US was finding that troops firing in full auto in Vietnam were wasting a lot of ammo and doing nothing but revealing their own positions/
+  - /We also see this in US observations of Taliban fighters in Afghanistan --- lots of full-auto firing, very little accuracy/
+  - /Fire discipline is difficult! This is why we have sergeants!/
+- Angel uses cover of smoke to retaliate with its tentacles, which have some kind of beam/electric charge component
+- Shinji panics and freezes
+  - /Of course he freezes, this is his first taste of real combat/
+  - /Keegan found that, in the Korean War, something like 50% of soldiers didn't even fire their weapon in their first combat encounter/
+  - /For another example, look at Cpl. Blithe in _Band of Brothers_/
+- Kensuke and Toji are observing the battle from a nearby hilltop --- Kensuke accuses Toji of disabling Shinji by beating him up
+- Angel continues to beat up the Eva and severs its umbilical
+  - /What I don't understand here is why the timer shows 5 minutes remaining/
+  - /Shouldn't it show 1 minute, since the Eva is operating at full combat power?/
+- Angel picks up Unit 01 and slams it into the hill that Toji and Kensuke are on, almost hitting them in the process
+- Shinji notices his classmates and freezes up some more
+- Misato orders Shinji to let his classmates into the cockpit and retreat
+- Shinji allows his classmates into the cockpit, but instead of retreating, he draws the Eva's knife
+  - /Again, this is fairly typical of new soldiers in combat --- alone they're cowards, but in small groups they can be aggressive to the point of foolhardiness/
+  - /Another reason why we have sergeants, and also why we "leaven" green units with experienced vets/
+- Shinji attacks and succeeds in killing the Angel right before his batteries run out
+- Unlike the previous Angel, this one doesn't self-destruct and explode
+- Later Toji regrets that he didn't apologize to Shinji
+- Kensuke gives Toji Shinji's number and tells Toji to call and apologize
+- Episode ends with Toji standing in front of the phone, unable to make the call
+
+* Episode 4: Rain and after running away / Hedgehog's Dilemma
+
+- In the aftermath of the previous Angel attack, Shinji is skipping school
+- When Misato checks in on him, she found he's run away
+- She isn't surprised by that fact, however
+- Toji and Kensuke stop by --- Misato lies to them, saying that Shinji is in training
+- Shinji is aimlessly riding the train, listening to his SDAT player
+- Gets off at the end of the line and goes to a movie
+- /Pretty clear that he doesn't have a plan; he just wants nothing to do with NERV or the Eva/
+- Misato keeps saying "Idiot" to herself, and while at first it's clear that she means Shinji, later on it's unclear as to whether she's referring to Shinji or herself
+- Shinji runs away from the city entirely, takes a bus out into the countryside
+- Shinji hates the fact that he's the only one who can pilot Unit 01
+- Hates that he still gets bossed around anyway
+- Misato discusses this with Ritsuko --- says that if piloting the Eva causes Shinji nothing but pain, then maybe it's for the best that he ran away
+- Ritsuko points out that they don't have any other pilots
+- Cut to Kensuke playing at being a soldier out in a field
+- Sees Shinji walking past
+- Kensuke invites Shinji over to his campsite
+- Tells him that Toji's sister scolded him for punching Shinji --- "that robot saved our lives"
+- Kensuke says that his mother has also passed away, leaving him in the same position as Shinji
+  - /How does Kensuke know that Shinji's mom is no more?/
+  - /This is also the viewer's confirmation of something that he or she would have suspected all along --- that Shinji is functionally an orphan/
+  - /This only deepens the mystery in my mind of what Shinji was doing before he came to Tokyo-3 and joined NERV/
+- Shinji asks Kensuke what he's doing out in the countryside --- some sort of military training, perhaps?
+- Kensuke replies that it's just for fun --- the weapons that he has are "toys"
+  - /Unclear as to whether the guns are actually toys or whether they're toys compared to the power of the Evangelion and the Angels/
+  - /Once again, the level of detail on the equipment here is so unnecessary, yet so awesome/
+- Shinji spends the night at Kensuke's campsite, and in the morning NERV security finds him and arrests him
+- Toji blames Kensuke for not sticking up for Shinji; Kensuke says that there was nothing he could have done in the presence of trained security personnel
+- Shinji is visited in his holding cell by Misato
+- Shinji says that the only reason he pilots the Eva is because Misato, Ritsuko and the others expect it of him
+- Misato replies that if that is his attitude, he has no business in the cockpit of the Eva and that he should leave
+- Shinji's dad isn't troubled by Shinji leaving
+- Says that they'll reconfigure Unit 01 for Rei, and will proceed with 01 going forwards
+  - /Was Shinji's only role to wake up Unit 01/
+  - /I'm confused, since in Episode 1, it was strongly implied that they'd tried to have Rei pilot Unit 01 without success/
+  - Says that the "fourth child" hasn't been located yet by the Marduk report (/there's that report again/)
+  - /So far all we know is that Shinji is the third child. We don't know if Rei is Child #1 or #2/
+- Shinji is fired from NERV (/even though his canceled ID card says "resigned", we all know he was fired/)
+- At the train station as he's about to leave Tokyo-3, he meets Toji and Kensuke
+- Toji apologizes to Shinji and tells Shinji to hit him in return
+- Also says that now that he sees Shinji leaving, he'll probably leave soon --- implying that the city is screwed now that there's no one to pilot the Eva
+- Says, however, that he doesn't blame Shinji for leaving --- he saw how much pain and stress piloting the Eva caused him
+- As he's led away, Shinji says that he's the one who deserves to be hit, that he's a coward and weak
+- Misato arrives just as the train that Shinji is supposed to be on departs
+- However, after the train leaves, Shinji is still on the platform
+- Shinji realizes that Tokyo-3 is his home and that he wants to fight for it
+
+* Episode 5: Rei, Beyond The Heart / Rei I
+
+- Starts with a flashback to 22 days ago
+- Activation test of Unit 00
+- Something goes wrong and they can't shut it down
+  - /This makes their inability to shut down Unit 01 when it went berserk even more inexcusable/
+- Unit 00 breaks free of its restraints
+- Shinji's father orders the ejection of the power umbilical --- Unit 00 has 35 seconds of activation on its partially charged batteries
+- Unit 00 starts punching the windows to the control room, shattering them
+- Auto-ejection system of entry plug activates, causing the entry plug to rocket free and bounce around the enclosed test chamber
+  - /Why was that system even active in the first place?/
+  - /Seriously, have these people never heard of experimental protocol? And we leave the fate of humanity to these clowns?/
+- As the Eva shuts down, Ritsuko orders the activation of a "Bakelite" spray to encase the Eva in some kind of (plastic) cement
+  - /I don't understand the point of this either/
+  - /Either the Eva shuts down when it runs out of energy, at which point it's inert and you don't have to do anything about it, or it goes berserk and it has the strength to break out of your little plastic cement tomb/
+- Ikari runs to the fallen entry plug
+- Burns his hands on the emergency open handle
+  - /Why is the entry plug even that hot in the first place?/
+  - /If it's hot enough to scald your hands when you're opening it, it's hot enough to literally cook whoever is inside --- and yet he opens the plug not only is Rei uncooked, she's still conscious/
+- In the process of getting Rei out of the entry plug, Ikari's glasses fall off and land in the LCL spilling out of Unit 00's entry plug --- warp and lenses crack
+  - /While initially I assumed this was from the heat of the LCL, it's also possible that the LCL itself reacted chemically with the frames, warping them/
+- Shinji's father is genuinely concerned about Rei's safety
+- The first time so far that he's shown any kind of emotion at all
+- Cut to machines cutting Unit 00 free from the plastic cement
+- Ritsuko narrates some background
+  - Rei Ayanami: 14 years old
+  - No past --- all records have been eradicated
+  - First Child (first child identified by Marduk report)
+  - /So who is the second child?/
+  - Ritsuko believes that Rei is not mentally stable and that this caused the Eva to go berserk
+  - She has an idea as to the cause of this instability but refuses to share what it is
+- Cut back to present day --- scene of Shinji's fight with the fourth Angel (from episode 3)
+- We see the salvage operation on the crab-like Angel
+- Most of the Angel is intact except for the part of the core that Shinji damaged in defeating it
+- Ritsuko says that it's an ideal sample
+- They have no idea what the Angel is made out of
+- Ritsuko says that it's a form of "matter that has both particle and wave properties, like light"
+  - /Pro-tip: matter that has both particle and wave properties is just *matter*/
+- They've found the Angel's power source, but have no idea how it works
+- Ritsuko says that although Angels are comprised of a different form of matter, their "waveform pattern" is a close match to human genes
+  - /I don't get it --- you don't know what this thing is made out of, but you can find its analog to genes?/
+- Shinji sees the Angel's damaged core being lifted out and inspected by his father
+- Ikari says that only the core is important, the rest of the Angel is inconsequential
+  - /Ikari definitely seems to know more about the Angels than Ritsuko, even though Ritsuko is ostensibly head of research on these things/
+- Shinji notices that the palms of his father's hands are burned --- asks Misato and Ritsuko about it
+- Ritsuko explains what happened at Unit 00's activation test
+- Shinji has a hard time believing that his dad would put himself at risk for another person like that
+- Cut to school
+- Shinji notices that Rei always seems to be alone --- Toji and Kensuke confirm that they've never seen her make friends
+- Even though they're both Eva pilots, Shinji has hardly spoken to Rei
+- Cut to Eva test chamber with both Unit 00 and Unit 01 undergoing tests
+- Shinji notices that Rei gets along well with his dad, and that his dad smiles at her
+- Cut to that evening, with Shinji, Misato and Ritsuko eating dinner
+- Misato is an awful cook
+- Even Pen Pen can't stand her cooking /and since when do penguins eat curry?/
+- Ritsuko gives Shinji Rei's new security pass, since her old one has expired
+- Explains that she keeps forgetting to give it to Rei herself
+- Misato teases Shinji, saying that he finally has a chance to go talk to Rei and stop ogling her from a distance
+- When Shinji asks Ritsuko what Rei is like, she says that Rei is a "nice girl" but is very much like Shinji's father --- they're both "not very adept at living"
+- The next day, Shinji visits Rei --- lives in a dilapidated building on the outskirts of Tokyo-3
+- Shinji walks in an looks around --- nobody seems to be home and the apartment is a mess
+- He sees his father's old glasses on Rei's table, and wonders if they belong to Rei
+- At that moment, Rei walks out of the bathroom... naked
+- She walks up to Shinji and pulls Ikari's glasses off his face
+- This causes Shinji to lose his balance and fall on her
+- The as she's getting dressed, she asks Shinji why he's there
+- Shinji stammers out that he's there to give her the new ID card, but by the time he gets the explanation out, she's already left
+- At the entrace of NERV headquarters (Central Dogma), Rei finds that her card doesn't work
+- Shinji hands her the new card, and she snatches it out of his hand and walks off
+- Shinji follows Rei in and asks if she's nervous about the upcoming activation test of Unit 00
+- Rei asks if Shinji trusts his father's work
+- Shinji replies, "Of course not," whereupon Rei slaps him and storms off
+- Cut to reactivation test of Unit 00, which is successful
+- At this point Fuyutsuki tells Ikari that an unidentified flying object is approaching --- likely the fifth Angel
+- Ikari says to stop the test and go to battle stations
+- Fuyutsuki asks why Ikari isn't planning on using Unit 00 in this battle, and Ikari replies, "She's not ready"
+- Fifth Angel is a giant floating octahedron
+- Angel seems to anticipate the Eva's arrival and fires a high-energy beam at Unit 01 right as it emerges from its elevator
+  - /What is it with Misato and the useless orders to "Dodge!" First in Episode 1, and now here, she keeps telling Shinji to dodge when he has no realistic chance of doing so/
+- Beam hits Unit 01 in the midsection  which results in Shinji screaming in pain (/Yes, let's have the pilot be psychically connected to the robot; it'll improve combat performance they said/)
+- Episode ends
+
+* Episode 6: Decisive Battle In Tokyo-3 / Rei II
+
+- Picks up right where the previous episode left off
+- Misato orders the Eva to be lowered back into the elevator
+- Once the Evangelion retreats, the Angel stops attacking and continues moving towards Tokyo-3
+- Shinji's brain waves and pulse are erratic, and they have to defibrillate him using the Eva's life-support system
+- When Misato retrieves Shinji from the Eva, he's bleeding from his nose
+- Fifth Angel parks itself over Tokyo-3 and extends a drill
+- Starts drilling into the Geofront
+- Shinji is taken to the emergency room and placed in a cryotherapy chamber
+- NERV probes the Angel's defenses
+  - Angel fires at anything that looks like an Evangelion
+  - Fires at anything that shoots at it
+  - /How do the Angels know what Evangelions look like?/
+  - /If we painted Unit 01 blue, would be sufficient to neutralize the Angel's pattern recognition?/
+  - /How smart are Angels, exactly?/
+  - The Angel also has a very powerful AT-field (distortion is enough to be visible when something strikes it)
+- The drill will chew through the armor plates above NERV HQ and will reach NERV HQ in less than 10 hours
+- Unit 01's armor has sustained significant damage, but the core control systems are fine
+- Unit 00 has passed its reactivation tests, but there are still some problems that preclude it from being used in combat
+- Shinji appears to have suffered no lasting damage from the attack and will be out of the ER shortly
+- Misato goes to Shinji's father and Fuyutsuki with a plan to have the Unit 01 fire at the Angel from long range with a weapon powerful enough to penetrate the Angel's AT field
+- NERV will requisition the SDF's prototype positron cannon and turn it into a beam rifle that the Eva can fire
+- In order to power the rifle, they'll need to use the electricity from all of Japan
+- Finally, they've also managed to scrounge a heat-shield from a SSTO spacecraft (kind of like a space shuttle) as a defensive measure
+- The heat shield should hold up against the Angel's beam from 17 seconds before it melts
+- Cut to Shinji waking up in the hospital
+- Rei is there, looking angry
+- Says that she's there to brief Shinji on Operation Yashima, NERV's name for this counterattack strategy
+- Shinji expresses reluctance to pilot Unit 01 again
+- Rei says that he he won't pilot Unit 01, she will
+  - /At this point, I'm surprised that Shinji doesn't recognize the empty threat for what it is/
+  - /I'm sure that if Ritsuko and Shinji's father _could_ have reconfigured Unit 01 to accommodate Rei, they would have/
+- Shinji and Rei take their Evangelions to the firing position
+- Shinji has his doubts about the plan, but Ritsuko assures him that it'll work
+- Before they enter their Evas and start the firing process, Shinji asks Rei why she pilots Unit 00
+- Rei replies that she is "bound" to --- that she has a "bond" with all people 
+- Also says that she has nothing else
+- Shinji prepares to fire the cannon and as he lines up his shot, the Angel detects the power output from the cannon
+- Angel fires a beam right as Shinji fires the positron rifle, beams interfere with each other and both miss
+- Angel launches an immediate follow-up attack
+- Rei, in Unit 00, steps in front of Unit 01 and the rifle
+- Shinji has to wait for the rifle to recharge 
+- In the meantime the Angel's attack burns through the heat shield and begins damaging Unit 00
+- Shinji fires the the positron rifle again, and this time kills the Angel
+- Hurriedly extracts the entry plug from Unit 00
+- Rei is unconscious, but wakes up when she hear's Shinji's voice
+  - /This scene is an intentional mirror of the training accident scene from the start of episode 5/
+  - /Note how Shinji shouts "Ayanami!", while his father shouted "Rei!"/
+- Shinji says that Rei shouldn't say things like she has nothing else
+- Rei is unsure of how to respond; Shinji says that all she has to do is smile
+
+* Episode 7: A Human Work
+
+- Starts with Shinji's father thanking someone on the phone for arranging a cover-up about NERV
+- Voice on phone asks if he should do something about the _other_ project --- Shinji's father says no, it'll be fine
+- Cut to Shinji eating breakfast
+- Misato joins him and Pen Pen and cracks open a beer
+- Misato says that she'll be coming to school for Shinji's parent-teacher conference
+- Shinji asks if it would be too much trouble, with her work keeping her busy
+- Misato replies that her job is to take care of Shinji, and attending the parent teacher conference is part of that
+- Realizes her mistake and says that she didn't mean it like that
+  - /It says something that Misato is coming as Shinji's guardian and not Shinji's actual dad/
+- After Shinji leaves, Misato says that she's glad that Shinji is loosening up and appears to have made some friends
+- Later, Misato arrives at Shinji's schools and immediately attracts attention from all the boys
+  - /She's driving a red car in this scene, where before her car was blue. Is that a continuity error, or was her car truly wrecked after the first Angel attack?/
+- Shinji thinks to himself that they wouldn't find her half as attractive if they knew how much of a slob she was at home
+- Cut to Shinji doing tests with Unit 01
+  - Asks himself how much he really knows about the nature of the Evangelion
+  - Reflects that even though the entry plug smells like blood, he feels comfortable in the Eva
+  - Realizes that he knows basically nothing about what the Eva is
+- Cut to Shinji on an elevator with Misato and Ritsuko
+  - Complaining about budget
+  - Wondering whether things will get better once Unit 02 arrives from Germany
+  - /So does this mean that the Second Child was in Germany?/
+  - /Or is this the Fourth Child?/
+- Cut to Shinji's father on a plane (either going to or returning from a conference)
+  - Another official sits down next to him
+  - Says that NERV's budget requests have been approved
+  - Says that funding for Unit 06 has almost been approved --- USA is the only holdout, but they'll come around soon
+  - /They're building Evas faster than they can find pilots/
+  - Official says that his country will join the Eva program starting with Unit 08
+  - /Just how many of these things are they planning to build?/
+  - Official also questions the lack of pilots
+  - Shinji's father replies that humanity has no choice but to fight the Angels, implying that more pilots will be found
+- Cut to Shinji with Misato and Ritsuko
+  - Learns that the official story on the South Pole incident was a lie
+  - It wasn't a meteorite that vaporized the South Pole ice cap, but an Angel
+  - Polar explorers found an Angel (/either first or second, since Shinji started fighting with the Third Angel/) in Antarctica
+  - While studying it, they caused an explosion which vaporized the ice sheet --- Second Impact
+  - Misato looks annoyed with Ritsuko's explanation
+    - /Is there a cover-up in the cover-up?/
+  - The purpose of NERV is to fight the Angels and prevent a "Third Impact"
+- Ritsuko tells Misato that the "event" tomorrow will go as planned
+- The next morning sees Misato unusually sober and well-groomed
+- Says that she's going to Old Tokyo on business and that Shinji should order take-out for dinner
+- Old Tokyo is an abandoned, half-flooded ruin
+- Misato and Ritsuko are at a weapons demonstration
+- Hosted by Japan Heavy Chemical (JHC) corporation
+- Weapon to be demonstrated is the JA (Jet Alone) --- a nuclear powered walking robot designed to fight Angels
+- JA is a natural rival to the Evangelions, so Ritsuko objects to it
+  - Asks about the risks of nuclear propulsion
+  - JHC rep replies that nuclear power allows JA to have 150 days of active time, as opposed to 5 minutes for an Evangelion
+  - Says that the weapon is safer, and because it's remote controlled there's no pilot to risk in combat operations
+  - Follows up by saying that there's no way that the JA can go berserk, like the Eva did
+  - Ritsuko asks if they've managed to figure out how to deal with the Angel's defensive measures
+  - JA rep replies that they haven't yet figured out how to nullify an AT field, but they're confident they'll figure it out soon
+- Later Misato wonders how the JHC rep knew about AT fields and Unit 01 going berserk
+- Ritsuko replies that there was a significant leak of confidential data
+- At the activation test, JA doesn't accept a stop order
+- Reactor control rods fail to insert --- risk of meltdown
+- Misato says that there has to be a last ditch way of stopping JA
+- Is told that there is a way to enter an abort password at a console located inside JA, but that the area will probably be flooded with radiation
+- Misato insists and gets the password ("Hope") from the JA rep
+- Misato has Unit 01 mobilized and asks Shinji to restrain JA while she goes in and enters the password
+  - /Ritsuko is distinctly unenthusiastic about this plan/
+- Shinji runs up alongside JA and puts Misato on its back
+- /It's real convenient that JA has a giant handle right on its back that an Eva can hold on to/
+- Misato gets inside and enters the password
+- Error --- password isn't accepted
+- Realizes that JA's control program must have been altered
+- Tries to force in the control rods manually
+- Right before the reactor melts down, the control program wakes up and shuts down the reactor
+- Shinji thinks it's a miracle, but Misato realizes it was a set-up to sabotage the JA project
+- Later, we see Ritsuko in Shinji's father's office, saying that except for Misato's actions, everything went according to plan
+  - /Now we know why Ritsuko was so hesitant about Misato going off and trying to save the "runaway" robot/
+  - /Robot was only meant to look like it was runaway, to scare the government into shutting down the JA project/
+- Finally, at the end we see Shinji going to school complaining about Misato's personal habits
+- Toji and Kensuke shut him up by saying that Misato allows Shinji to see a part of herself that nobody else gets to see, which makes him family to her
+
+* Episode 8: Asuka's Arrival In Japan / Asuka Strikes!
+
+- Starts with Shinji's father confirming the departure of a cargo shipment from Sasebo port
+- Cut to Shinji, Misato, Toji and Kensuke aboard a military transport helicopter
+  - /One thing I find weird is that Kensuke is allowed to film; usually military folks are pretty wary of people filming aboard and around their equipment/
+  - /Helicopter is described as a MiG 55, which is weird to me because Mikoyan Gurevich makes fixed wing planes; helicopters are made by the Mil Helicopter Factory. But who knows? Maybe in this timeline, MiG and Mil merged or something/
+- Transport helicopter is carrying an adapter to allow Unit 02, coming from Germany, to use the reactor of the aircraft carrier that is escorting it
+- Aboard the carrier, Shinji & co. meet the Second Child, Asuka Langley Sohryu, pilot of Unit 02
+- Asuka is not impressed by Shinji
+- The commander of the battle group escorting the carrier is not happy about NERV's interference
+- Doesn't see why they need to make preparations to activate Unit 02; thinks the fleet can provide enough firepower to drive away an Angel
+- UN fleet commander says that he retains command until the fleet makes port
+- Misato agrees, but reminds him that in case of emergency, she takes command
+- At this moment Kaji steps onto the bridge
+- Kaji and Misato don't get along
+- Later, at lunch, Kaji makes it clear that he used to date and slept with Misato --- this embarrasses Misato to no end
+- Kaji praises Shinji for piloting an Eva with no training
+- This causes Asuka to be resentful
+- Later, Kaji and Asuka are talking about Shinji
+  - Asuka comments that she doesn't find him impressive at all
+  - Kaji replies that Shinji had a synchronization ratio of over 40% with no training
+  - Asuka find this hard to believe
+- Asuka takes Shinji to see Unit 02
+- Says that unlike Unit 00 and Unit 01, which were prototype and test models, Unit 02 is the first Evangelion designed for combat from the outset
+- Right then, an Angel attacks
+- UN Navy retaliates with conventional weapons --- it's of course useless
+- Asuka prepares to activate Unit 02; orders Shinji to come along
+  - /I don't understand why she does this; is she that narcissistic?/
+- Shinji asks if they have permission to launch; Asuka replies that they can get permission after they've defeated the Angel
+- Misato notices that the Angel is circling, as if it's hunting for something
+- Kaji is on the phone with Shinji's father; says that an Angel attack wasn't part of the bargain that he had with Shinji's father
+- Shinji's father replies that Unit 02 is there to deal with any Angels, and he was even generous enough to provide a backup pilot (i.e. Shinji)
+- Cut to Shinji and Asuka starting up the Eva
+  - Shinji's presence causes mental interference
+  - Asuka has to change the language to Japanese in order to get synchronization
+  - /Asuka, at this point, is pretty much a spoiled brat who treats the Eva as her personal plaything/
+- The fleet commander notices that Asuka is launching. He tries to order her to stop, but is overridden by Misato
+- Eva jumps from ship to ship and makes it to the aircraft carrier; plugs in with the adapter supplied at the beginning of the episode
+- Angel jumps onto the flight deck of the carrier
+  - Looks like a really large manta ray, but with a beak
+- Drags the Eva into the sea
+- Eva is dragged through an underwater city
+  - /Once again, the detail on the military equipment is so gorgeous; you can clearly tell those are F-18s the Eva's cable is sweeping off the flight deck/
+- At this moment, Kaji departs for shore in a custom Yak-38 VTOL aircraft
+  - Says that he has something to deliver
+  - Misato and Toji curse him for cowardice
+- Cut to Shinji and Asuka in the Eva underwater
+- Eva isn't responding; Shinji points out that this is because the Eva is using the "B-Type" equipment, which isn't rated for underwater use
+- Angel comes up and bites the Eva dragging it further
+- Toji remarks that it's almost like they're fishing
+- This inspires Misato to come up with a plan to use Unit 02 as bait, dragging it into the path of two battleships, which will fire their guns into the Angel's mouth, and then self-destruct, destroying the Angel
+- Misato orders the ship to start reeling in the cable, dragging the Eva and Angel up towards the surface
+  - /Once again, why doesn't the Angel fight it?/
+  - /I would have expected the Angel to fight being dragged up to the surface, but it seems to come up quite easily/
+- Asuka and Shinji cooperate to open the Angel's mouth, allowing the battlehsips to crash in, fire their guns and explode
+- Fleet arrives at port
+- Ritsuko meets with Misato, says that they gathered lots of useful data
+- Says that Shinji and Asuka both broke their synchronization ratio records
+- Misato replies that it was only for 7 seconds, and was likely due to the danger the two were in
+- Asuka runs up to Misato and asks where Kaji is
+- Misato replies that "that idiot" is probably at NERV headquarters
+- Cut to Kaji at NERV HQ, in Shinji's father's office
+  - Opens the case that he had with him in his quarters aboard the aircraft carrier
+  - Says that the thing inside the case is frozen in dura-Bakelite, but that it's still alive
+  - Shows Shinji's father something like a human embryo, says that this is the keystone to the Human Instrumentality Project
+  - Shinji's father says that this is the first human: Adam
+
+* Episode 9: Moment and Heart Together / Both of You Dance Like You Want To Win
+
+- Asuka, the only foreign student, is attracting lots of attention at the school
+- Kensuke has started a business selling pictures of Asuka (i.e. paparazzi)
+  - /I forgot how downright creepy Evangelion can be/
+- Toji says that the people who admire Asuka don't know her personality --- result of her beating up on him when they were on the aircraft carrier
+- Asuka starts teasing Shinji
+- Looks for Rei, finds her reading on a bench
+  - /What is Rei reading?/
+  - /It looks like some kind of biology text... in German‽/
+- Rei is aloof towards Asuka --- says that she'll befriend Asuka "if I'm ordered to"
+- Cut to Ritsuko analyzing data on the 6th Angel
+- Kaji comes up behind her and embraces her; asks if she's lost weight
+  - /Has Kaji slept with Ritsuko too?/
+- Ritsuko points out that Misato is watching them
+  - /Did Kaji embrace Ritsuko just to troll Misato?/
+- Misato snaps at Kaji, but before she can go farther, they get warning of an Angel
+- 7th Angel is detected offshore and NERV mobilizes to intercept it there, because they're still cleaning up from the 5th Angel in Tokyo 3
+- NERV sends Unit 01 and 02 to attack --- goal is to finish it off with a decisive blow before it can come on shore
+- Asuka doesn't understand why Unit 01 has to be there; wants to fight the Angel alone
+- While Shinji shoots at the Angel from range, Asuka attacks and splits the Angel in half with a single blow
+- While she's gloating about her decisive strike, the two pieces regenerate into individual bodies and rapidly eliminate the two Evas
+  - /We don't actually get to see the Evas get knocked out --- is this intentional, or is it a result of Gainax not having the budget to do more fight scenes?/
+- Cut to after-action report
+  - Shinji and Asuka are arguing about whose fault the defeat was
+  - Fuyutsuki tells them to stop arguing, and says that they've both shamed NERV
+  - NERV had to give control of the battle back to the UN, which used a nuclear bomb to stun the Angel
+  - Nuclear bomb burned away 28% of the Angel's mass, which gives NERV time to come up with a strategy while the Angel regenerates
+    - /The nuke was that effective? Does this Angel have a very weak AT field?/
+    - /Earlier, we don't see Asuka have to extend any effort to slice into the Angel, either/
+- Cut to Misato buried in paperwork as a result of the failed op
+- Ritsuko stops by, and Misato reflects that she's lucky that Shinji's father is away, otherwise she'd have been fired on the spot
+- Ritsuko delivers a memory stick from Kaji with a potential strategy for defeating the Angel
+- Cut to Shinji coming home and finding his room full of Asuka's moving boxes
+- Misato arrives and announces that Shinji and Asuka will be living together as preparation of the upcoming counterattack against the splitting Angel
+  - When this angel splits, its core splits, and both cores have to be attacked simultaneously
+  - As a result, Shinji and Asuka need to develop perfect coordination
+    - /Why Shinji and Asuka? Why not Asuka and Rei? Why not Shinji and Rei?/
+    - /So far we've never *once* seen Rei actually attack an Angel --- why is that?/
+  - Angel will have healed itself in 6 days --- they have that long to practice their attack
+  - This is why they'll be living together so that they can practice intensively
+  - In order to achieve perfect synchronization, the attack will be set to music
+- Cut to Asuka and Shinji practicing coordination on what looks like a really fancy DDR mat, with Toji, Kensuke and the class rep looking on
+  - Practice isn't going well, Asuka says that it is impossible to work with Shinji
+  - Misato asks Rei to demonstrate --- Rei gets near perfect synchronization on the first try
+  - Misato threatens to alter the mission plan to have Shinji and Rei attack instead
+    - /Why threaten? Why not actually just alter the mission plan?/
+  - Asuka storms off, crying
+  - Class rep tells Shinji that it's his responsibility because he "made" Asuka cry and that he should go to her
+    - /Which is complete and utter BS! How is it Shinji's fault that Asuka thinks she's "too good" to do these exercises?/
+    - /Asuka is a spoiled little snot pt. 2/
+- Shinji finds Asuka at a convenience store, brooding
+- Asuka says that she knows she screwed up, and that she'll come back and work with Shinji in order to prove herself to Misato and Rei
+  - /Finally some actual maturity out of the stuck up little snot/
+- Cut to the night prior to the attack
+  - Asuka sleepwalks into Shinji's room and get in his bed
+  - Shinji moves as if to kiss her, but pulls back when he notices that she's crying in her sleep and calling out for her mother
+  - Shinji realizes that Asuka's tough exterior is just an act, and that inside she's just as much of a scared kid as he is, only she can't admit it
+  - Feels contempt for Asuka, rather than sympathy
+- Cut to Kaji and Misato kissing in an elevator
+  - Misato says that there's nothing between them any more and that Kaji shouldn't kiss her like that again
+  - Kaji replies, "Your lips didn't say no"
+    - /I'd totally forgotten about this scene from my first viewing of the series/
+    - /This scene downgrades Kaji in my mind from "creepy weirdo" to "sex offender"/
+- Later Misato meets Ritsuko for coffee
+  - Ritsuko comments that Misato is unusually sober, and Misato says that she has to be for the op tomorrow
+  - Ritsuko asks, "Still in love?" which prompts an outburst from Misato about Kaji
+  - Ritsuko clarifies that she meant to ask whether _Kaji_ was still in love with Misato, but Misato immediately (mis)interpreted the question to mean whether she was in love with Kaji
+  - Says that Misato should be more "honest" with herself, regarding her feelings for Kaji
+    - /The gaslighting is _real_, yo/
+- Cut to battle
+  - Unit 01 and Unit 02 attack each piece together, coordinated by music
+  - Attacks force the pieces to merge, and the two Evas strike the Angel's core together, causing the core to shatter and the Angel to explode
+  - /Evas have a 1 minute timer in this battle/
+  - /Does this mean that in previous battles, they weren't operating at max power?/
+  - /Does the 1 minute vs. 5 minute distinction come down to whether they're using their AT field on battery power?/
+- Episode ends with Evas draped on top of one another in the crater, and Shinji and Asuka shouting at each other for getting their Evas tangled up
+
+* Episode 10: Magma Diver
+
+- Episode starts with Asuka and Kaji on a shopping trip
+- /This is the first time I've seen Tokyo 3 appear like a normal bustling city/
+- Asuka is busy buying new clothes for a school trip to Okinawa
+- She asks Kaji where he went on his school trip, and Kaji replies that he didn't have one, due to the Second Impact
+- However, when they get back, Misato says that Shinji and Asuka can't go on the trip because they'll be on combat standby at that time
+- Asuka says that she's tired of waiting around for an enemy that may or may not come
+- Wants to go on the offensive against the Angels
+- Misato replies that if it were that easy, NERV would have done it a long time ago
+- Misato says that in addition to waiting for Angels, Shinji and Asuka can use the time to study and bring up their slipping grades
+- Shinji and Asuka see off their classmates
+- Cut to NERV command center
+  - Relaxed atmosphere
+  - Ritsuko asks if it isn't a bit decadent for schoolkids to be going on trips with the world in the state that it is
+  - Misato replies that these things might be necessary in order to restore a sense of normality and hope
+- Cut to scene of Rei swimming in a pool while Shinji studies
+- Asuka shows up in her new swimsuit
+- Says that if she can't go scuba diving in Okinawa, she'll go scuba diving in the pool
+- Helps Shinji with a physics problem
+- Shinji wonders why Asuka is having trouble in school when she's clearly good at math
+- Asuka replies that she doesn't understand Japanese well enough to get the problems, so she gets them wrong
+- Asuka also says that she's already graduated in Germany, so school is a bit of a joke for her
+  - /So why does she have to go to high school in Japan?/
+- Cut to NERV VTOL flying above a volcano
+- At NERV headquarters they're studying images from Mt. Asama Earthquake Observatory
+- Images have some suspicious shadows on them
+- 50-50 chance it's an Angel
+- Misato, on site at the observatory, orders a probe lowered into the volcano
+- Probe discovers an embryonic Angel (8th Angel) just before it's crushed by the pressure
+  - /Cmdr. Ikari calls the Angel in the next episode the 8th Angel, so it's not clear which number this one is/
+  - /However, in the meeting with SEELE in Episode 14, this is referred to as the 8th Angel/
+- Misato requests an A-17 order
+- Cut to NERV council meeting
+  - Council is surprised by the A-17 request
+  - Objects that the proposed operation is too dangerous
+  - References Second Impact
+    - /So here's my theory concerning the Second Impact/
+      - /In Antarctica, humanity discovered an embryonic Angel, much like this one/
+      - /However, in the process of investigating it, they caused it to hatch/
+      - /In order to take it down, they had to use a lot of nuclear weapons (given that they probably didn't have Evas at the time)/
+      - /This caused the Antarctic ice sheet to melt, and led to general ecological havoc/
+  - Shinji's father says that this is an opportunity to take the offensive against the Angels
+  - Says that this is a rare opportunity to capture an Angel alive
+  - NERV council reluctantly agrees but warns that failure will not be tolerated
+  - After the rest of the council signs off, Fuyutsuki remarks that failure will mean the extinction of the human race
+- Ritsuko briefs Shinji and Asuka on the plan
+  - Angel is in a chrysalis
+  - Objective is to capture the Angel alive
+  - If the Angel cannot be captured, it must be immediately destroyed
+  - Asuka will be the lead on this operation and Shinji will be the backup
+- Unit 02 will be encased in protective 'D-type' armor as it descends into the volcano
+- Asuka is annoyed because the armor makes Unit 02 look fat and ungainly
+- Rei volunteers to pilot Unit 02 if Asuka is unwilling, but Asuka says that she'd rather go in D-Type armor rather than let Rei touch Unit 02
+- At the scene, Asuka wonders where Kaji is
+- Misato replies, annoyed, that Kaji isn't here because there's nothing for him to do
+- Cut to Kaji, in a cable car, elsewhere
+- With a woman, who knows about the A-17 order
+  - She says that the A-17 will freeze all current "assets"
+  - /Seems like she's talking about spies/
+  - /If she's a spymaster, and Kaji is her spy, then who are they spying for?/
+  - Asks why Kaji didn't stop the order
+  - Kaji replies that the order was official, and that there was nothing he could do to stop it
+- Cut back to Shinji, in Unit 01, at the volcano's edge
+  - Notices some jets circling in the distance
+  - Shinji and Asuka are notified that if they fail in capturing or killing the Angel, the UN will seal the volcano (and them inside it) with nuclear depth charges
+  - Shinji asks who would give such a horrible order, and is informed that it was given by his father
+- Unit 02 is lowered into the volcano
+- Even with advanced sensors visibility is low and they can't find the Angel
+- Misato orders Unit 02 lowered beyond the nominal crush depth of the equipment, over the objections of the NERV technicians
+- As Unit 02 is lowered further the increasing pressure causes its knife holster to fall off, leaving Unit 02 weaponless
+- Eventually Asuka sees the Angel
+- Ritsuko warns Asuka that the convection currents are unstable and that she'll have only one chance to make contact
+- Asuka goes up to the Angel and deploys a forcefield cage around its chrysalis
+- Misato is relieved --- says that if this operation had gone badly, there would have been a repeat of the Second Impact
+- Right then, the Angel wakes up inside the cage
+- It had matured more quickly than NERV had anticipated
+- Asuka jettisons the cage just as the Angel breaks out of it, and realizes that her knife is gone
+- Shinji, from above, throws his knife to Asuka, who catches it right as the Angel circles around and attacks
+- Angel attempts to bite through Unit 02's armor
+- Even armed with a progressive knife, Unit 02 is having trouble cutting through the Angel's armor --- Ritsuko says that it's because this Angel is adapted to the ultra-high temperatures and pressures of the volcano
+- Asuka takes one of her coolant lines and shoves it into the Angel's mouth
+- Thermal expansion of the coolant kills the Angel from within
+- However, as it dies, the Angel severs the lines that are dragging Unit 02 up out of the magma, and Unit 02 begins to shrink as well
+- Asuka is rescued by Shinji, who dove into the magma in Unit 01, even though it didn't have D-Type armor
+  - /We can handwave this by positing that Asuka was mostly out of the magma, so Shinji didn't have to go in nearly as deep as she did/
+- Later, Shinji, Asuka and Misato visit some hot springs
+- Asuka notices that Misato has a scar
+- Misato says that it's the result of the Second Impact
+- Asuka asks if Misato knows about her past
+- Misato replies that she knows about Asuka's past, and that both of their pasts are ancient history and that they shouldn't let the past bother them
+
+* Episode 11: In The Still Darkness / The Day Tokyo 3 Stood Still
+
+- Starts with Ritsuko picking up laundry
+- Shows other NERV officers going about their business when they're off duty
+- Ritsuko sees Fuyutsuki on the train, who complains about Ikari dumping the drudge work on him
+- The city government of Tokyo 3 is a shell --- everything is actually run by the Magi computers
+- Cut to Ritsuko conducting an activation test on Unit 00 --- there's a problem and they decide to start over after tweaking some parameters
+- Cut to Misato, who tries to dodge out of being in an elevator again with Kaji, but fails
+- Cut to Shinji, calling his father from a pay phone
+  - Shinji's father is not happy to be called
+  - Shinji says that his school is having a career day, to which Ikari replies that these duties are delegated to Misato
+  - While Ikari is in the process of telling Shinji not to call him again with such trivialities, the line goes dead
+  - /What does Ikari do, actually? Yes, he's the commander of NERV, but day to day, what are his responsibilities? After all, he's dumped all the bureaucratic work on Fuyutsuki. Ritsuko takes care of maintaining and running the Evas, and Misato does the same for their pilots. So what does Shinji's dad do, exactly?/
+- Cut to Misato and Kaji in the elevator, as the power goes out
+- Cut to Ritsuko's experiment losing power
+- Misato says that everything should switch to backup power shortly, and there's nothing to worry about
+- Cut to the NERV command center, where we find out that the backup power supply isn't coming online
+- Fuyutsuki orders the diversion of what remaining power they have to the Magi computers and Central Dogma, even at the cost of sacrificing life support
+- Street lights and traffic signals in Tokyo 3 stop working
+- Cut to Shinji walking with Asuka and Rei --- describes the phone call and says that it didn't seem like his dad hung up on him, rather it seemed like a mechanical failure
+- As the three arrive at the doors to NERV HQ, they see that the card readers aren't working to let them in
+- Cut to Ritsuko emerging from her lab, saying that something's wrong --- the power has been out for 7 minutes, far longer than it ought to have been
+- We see Misato telling Kaji that something's wrong --- there are three independent power supplies for the Geo-Front, and it's not likely that all three would have failed at exactly the same time
+- Shinji's father suspects sabotage
+- Fuyutsuki says that it would be very inconvenient if an Angel attacked right then, and sure enough the alarms go off
+- Ikari says that this is likely the 8th Angel
+  - /But didn't they fight the 8th Angel in the volcano, in the last episode?/
+  - /Is this the same Angel?/
+  - /According to the recap episode, this is actually the _9th Angel_/
+- Cut to the UN military headquarters, which has gone on alert, but hasn't mobilized
+  - They've learned their lesson and they see that the Angel is heading straight for Tokyo 3
+  - They figure NERV will handle it
+- As the UN command center receives no response from NERV, after repeated communications attempts, the generals at the UN command center grow frustrated, then worried
+- We see Ritsuko trying to make her way to the command post on backup gangway ladders --- says that she thought they were an anachronism until now
+- We see Shinji, Asuka and Rei trying other doors in order to find their way into NERV
+- Misato, still in the elevator with Kaji tries the emergency phone and finds that it isn't working either --- her suspicion of sabotage is confirmed
+- Cut back to the Eva pilots and Rei pulls out an emergency manual, which points the way to a door that can be opened manually
+- At the UN HQ, we see that the Japanese government in Tokyo-2 is preparing to evacuate; the generals decide to dispatch a messenger to see what's going on at NERV
+- We get our first good look at the Angel, which looks like a giant spider
+  - /So it's _not_ the same as the volcano angel?/
+- Ikari, Fuyutsuki and Ritsuko theorize that the reason that the power was sabotaged was so that assailant could probe the structure of NERV HQ by looking at what parts got powered on first
+- Ritsuko says that she'll randomize the order in which parts of the HQ receive power in order to prevent information leakage
+- Ikari says that it's ironic that the worst havoc wreaked on NERV HQ was not done by an Angel, but was done by man --- the true enemy of man is his fellow man
+- As Shinji, Asuka and Rei make their way through maintenance corridors, they hear Hyuga drive past, announcing that an Angel is approaching
+- Rei leads them into a shortcut so that they can get to HQ faster
+- As they're crawling through the shortcut, Shinji asks what the Angels are
+  - Why does everyone call them Angels, when angels are supposed to be benevolent
+  - Asuka doesn't have time for this philosophizing, and asks why does it matter what they're called
+- Shinji, Asuka and Rei approach a fork, and don't know which way to go --- Asuka takes the lead and leads them in the wrong direction
+- They end up on the surface, where they see the Angel
+- Meanwhile, Hyuga arrives in NERV HQ, where he says the Angel is very close
+- Ikari goes to prep the Evas for launch --- says that there's an emergency backup diesel generator they can use
+- Fuyutsuki points that they have no pilots, but Ikari and Ritsuko are very confident that Shinji & co. will make it back before the Angel arrives
+- Shinji, Asuka and Rei arrive at HQ and see that the Evas are prepped and waiting
+- When Shinji asks how they were able to do this, Ritsuko says that Shinji's father led the crew in manually prepping the Evas for launch, because he had absolute confidence that Shinji, Asuka and Rei would make it back
+- Launch process is started using a backup diesel generator, but with the elevators out, the Evas have to climb up a vertical shaft to get to the surface
+- As the Evas climb, the Angel arrives and pours acid down the shaft, which causes the Evas to slip and fall
+- Shinji, in Unit 01, manages to catch the three of them, but they lose their rifles and spare batteries
+- The three Evas take shelter in a side passage while they strategize
+- Asuka proposes a 3-part plan
+  - One Eva will go up the shaft and extend its AT field, sheltering those below from the Angel's acid
+  - Another Eva will go to the bottom of the shaft and retrieve the weapons
+  - A third Eva, in the middle, will take the weapons and fire them at the Angel
+  - Surprisingly, Asuka places herself in the defensive role (even though Rei initially volunteers for it)
+  - Says that she doesn't want to remain in Shinji's debt permanently for his rescuing her from the volcano
+  - Rei is to go to the bottom of the shaft and retrieve the rifles
+  - Shinji will be the shooter
+  - /How convenient, another battle, another instance in which Rei doesn't have to attack the Angel/
+- The three of them execute the plan and succeed in killing the Angel
+- The episode ends with the three of them on a hillside outside of town musing about how the stars are pretty when there's no artificial light to drown them out
+- Rei points out that man always seeks to banish darkness through fire and light
+- Shinji wonders if this is why the Angels are attacking humanity
+- Episode ends with the lights coming back on in Tokyo 3
+- /Interesting to note that it's never revealed who attacked NERV/
+- /Although everyone realizes that this is a terrorist attack, their reaction is more akin to people experiencing a natural disaster/
+
+* Episode 12: The Value of A Miracle Is / She Said, "Don't make others suffer for your hatred"
+
+- Starts with flashback to the Second Impact
+- View from the moon - bright flash of light at the Earth's South Pole
+- Cut to bloodstained figure putting a young girl into an escape capsule as a storm rages outside
+- Zoom out to a high-altitude shot --- wings of light emerge from the center of the storm
+- Cut back to escape capsule, now floating in the ocean --- girl sees two pillars of light at the center of the storm
+- We return to the present, and we see that the person having the flashback was Misato --- she was the girl in that escape capsule
+- Still wears the cross pendant she was wearing on that fateful day
+  - /We still don't know how humanity killed that first Angel/
+  - /Did humanity kill that Angel or did the Angel self-destruct on its own?/
+- Cut to Shinji, Toji and Kensuke waiting out a rainstorm in Shinji's apartment
+- Kensuke notices that Misato has a new rank insignia, and congratulates her on the promotion --- Capt. Katsuragi is now Maj. Katsuragi
+- Calls Shinji out for being oblivious to these things
+- Cut to Shinji, Rei and Asuka conducting a synchronization test
+  - Shinji shows significant improvement
+  - Levels almost as good as Asuka's, despite his lack of training
+  - Ritsuko wonders that it's almost like Shinji was born to pilot an Eva
+    - /Foreshadowing?/
+  - Misato says that given how painful piloting an Eva is for Shinji, he won't be happy to hear that
+- Asuka is not happy that Shinji is catching up to her
+  - /Is each child in the Marduk Report better than the previous one?/
+  - /Will the Fourth Child improve upon Shinji in the same way that Shinji improved upon Asuka?/
+- Later Shinji wonders why Asuka got mad at him when he was praised for his improvement
+- Misato says that Shinji should worry less about what other people think
+- Kensuke and Toji throw a party to celebrate Misato's promotion
+- Shinji is not used to being around this many people in this noisy an environment
+  - /I feel you, Shinji, I feel you/
+- Shinji asks why Misato doesn't seem too happy about the promotion and Misato replies that she didn't join NERV for the ranks
+  - However Misato is not willing at that moment to say the real reason she joined NERV
+- Kaji and Ritsuko arrive, and say that Misato must be moving up in Cmdr. Ikari's graces, because he's left her in charge of NERV while he and Fuyutsuki go to the South Pole
+  - /Wait, if Misato is the ranking officer, why is she drinking? What if an Angel attacks?/
+- Cut to Cmdr. Ikari and Fuyutsuki on an aircraft carrier battle group sailing through what remains of the South Pole
+  - Red ocean with white pillars sticking out of it
+  - Carrier has a long skinny cylindrical object on its deck, all wrapped up with tarpaulins
+- Fuyutsuki says that the South Pole is a world of death, which permits no life to exist
+- Ikari replies that nevertheless they are there
+- Fuyutsuki responds that the only reason they are able to be there is because they are under the protection of science
+- Ikari says that science is the power of Man
+- Fuyutsuki replies that it was that kind of arrogance which led to the Second Impact
+- Ikari says that the South Pole is a pure world, cleansed of Original Sin, to which Fuyutsuki responds that he prefers a world with people even if it is sinful
+- Right then, they get a telegram from NERV, saying an Angel (/{-9th Angel, I guess-} According to the recap episode, this is the 10th Angel/) has been spotted in orbit over the Indian Ocean
+- Cut to NERV headquarters where they get satellite imagery of the Angel
+- Huge creature, looks like three eyes in a kind of ovoid frame
+- Buds off pieces of itself and drops them from orbit
+- Uses kinetic energy and AT field to do damage
+- Angel is adjusting its aim to hit NERV HQ
+- Ritsuko theorizes that once it has a firing solution, it'll drop itself and annihilate NERV
+- NERV tries to stun the Angel with high altitude nuclear weapons, but they don't work and the Angel uses its AT field to jam NERV's sensors and communications
+- As a result, they have no contact with Cmdr. Ikari --- Misato is on her own for this operation
+- Magi computers recommend evacuation
+- Misato evacuates all civilians and nonessential personnel, but plans on staying and fighting
+- Ritsuko doesn't agree with Misato's decision --- thinks this is a foolhardy plan which will result in the loss of all three Evas and their pilots
+- Says that Misato is letting her personal desire for revenge cloud her judgment
+- Cut to Misato going over the plan with the three Eva pilots
+- Plan is to have the three Eva's catch the Angel, and cancel its AT field with theirs
+- Asuka thinks the plan is ridiculous and will need a miracle to work, but still agrees to do it
+- Evas are positioned at three points of a triangle that covers the area in which the Angel could drop and still wipe out NERV HQ
+- Plan is to have the closest Eva catch the Angel, while the others catch up and attack it
+- As Shinji, Asuka and Rei ride down to their Evas, Shinji asks Asuka why she pilots
+- Asuka says that she pilots to show her skills to the world
+- Shinji wonders if this is Asuka's way of showing the world that she exists and Asuka says it's something like that
+- Asuka asks Shinji why he pilots and Shinji replies that he doesn't know
+- As the three Evas take their positions, Misato reflects that ironically the safest place to be during this op is inside an Eva
+  - Even if everything goes wrong the Evas' AT fields will protect their pilots
+- As he's waiting for the operation to start, Shinji has a flashback to Misato telling him why she joined NERV
+  - Misato's father was much like Shinji's
+  - Devoted to his work at the expense of his family
+  - But in the end, he sacrificed himself to save Misato during the Second Impact
+  - Misato joined NERV to destroy the Angels which caused the Second Impact
+- The operation goes as planned
+  - Shinji catches the Angel
+  - Rei runs up and cancel its AT-field
+    - /Finally get to see Rei actually fight an Angel/
+  - Asuka stabs the Angel's core
+  - Angel self-destructs, but the combined AT fields of the Evas limits the damage
+- After the op, they get a phone call from Cmdr. Ikari
+  - Praises Misato for handling the situation well
+  - Praises Shinji for his role in the operation
+- At their celebration dinner, Shinji says that when his father praised him, he felt for the first time what it was like to receive praise for a job well done
+- Says he pilots the Eva to hear those words from his father
+
+* Episode 13: An Angel's Invasion / Lilliputian Hitcher
+
+- Starts with Ritsuko and Maya performing maintenance on the Magi supercomputers
+- Cut to them conducting more tests with the Eva pilots
+  - /I'm pretty sure having the pilots naked for this test is purely for the needs of fanservice/
+- Goal of the test is to have a system that allows the pilots to use the Magi computers to control the Evas remotely
+- After the test, Ritsuko tells Misato that you can see the personality of their creator in the Magi
+- Misato is confused --- didn't Ritsuko create the Magi?
+- Ritsuko explains that while she set up and installed the Magi, they were actually designed by her mother
+- Cut to Fuyutsuki and Hyuga looking at some kind of corrosion that's spreading along one of the walls around the test chamber
+- As Ritsuko begins another remote control test, the "corrosion" begins to sparkle and a contamination alarm goes off
+- Ritsuko aborts the test and orders the affected area to be cut off
+- However, the corrosion is spreading at an exponential rate and quickly spreads into the test chamber
+- As the corrosion spreads into the test chamber, NERV deploys autonomous submersibles with lasers
+- When the lasers hit the corrosion, it sparkles with an AT-field
+  - /This is {-the 10th Angel-} supposedly the 11th Angel, but Ikari disavows its existence in the meeting with SEELE later, and it's not present in the _Rebuild_ series so who knows what this one is/
+- Corrosion takes over the simulated Evas that are being used for the tests 
+- Fuyutsuki orders the physical isolation of the affected test chamber and questions how they could have let an Angel infiltrate the facility
+  - /He's one to talk; he looked at the Angel as well, when it was just "corrosion" and he didn't say anything/
+- Cmdr. Ikari orders the contamination alarm silenced and for NERV to report that the alarm was due to equipment malfunction
+  - /Doesn't want this to embarrass NERV in the eyes of the Japanese government/
+- Cmdr. Ikari orders the Evas to be launched without their pilots in order to keep them away from the contamination
+  - Priority is to be given to Unit 01
+- NERV tries to use ozone to purge the Angel from the test chamber
+  - While the ozone works at first, the Angel quickly adapts and spreads anyway
+- The Angel evolves again and begins tapping electronic circuits
+- Starts hacking into the Magi supercomputers and quickly takes over Melchior
+- NERV manages to stop the Angel while it's in Balthazar
+- The third Magi computer, Casper, is uncontaminated
+- The Angel is a swarm entity with billions of micromachines cooperating to attack the Magi supercomputer
+- Misato proposes the physical destruction of the Magi, but Ritsuko says that the Magi belong to the Technology Division, and Misato doesn't have jurisdiction over them
+- Ritsuko says that she can craft a counter-virus to attack and kill the Angel
+- However, in order to attack, they'll have to lower the barrier that's keeping the Angel out of Casper
+- In order to reprogram Casper, they have to physically access the hardware
+- When the open up the computer, they find a bunch of notes from Ritsuko's mother pasted to the hardware itself --- programmers notes indicating potential shortcuts
+- As Ritsuko and Maya are developing the counter-virus, Ritsuko explains the design of the Magi to Misato
+  - Magi are a personality-transplant system
+  - Earlier iteration of the same technology that was used for the control systems for the Evas
+  - Personality-transplant system was developed by Ritsuko's mother and it was her personality that was transplanted onto the Magi
+  - /Eva sure takes the concept of a "neural net" seriously --- you do realize you could have used an array of GPUs, right?/
+  - /If it was Misato's mother whose personality was used as a template for the Magi, whose personality was used as a template for the Evas?/
+- As they lower the barrier and prep their attack, the Angel takes over Balthazar and begins attacking Casper
+- Angel initiates self-destruct protocol for NERV
+- Ritsuko and Maya launch their countervirus, which attacks and kills the Angel
+  - /This is the first time we've seen an Angel defeated without the use of the Evangelions/
+- In the aftermath of the attack, Ritsuko explains that the three supercomputers are actually slightly different from each other in that they represent three different aspects of her mother
+  - Her mother as a scientist
+  - Her mother as a mother
+  - Her mother as a woman
+- The three Magi represent these three aspects of her mother's personality, struggling for dominance
+- Ritsuko explains that, because she doesn't plan on having kids, she doesn't understand her mother as a mother
+- Ritsuko respected her mother as a scientist
+- But, as a woman, she hated her mother
+- However, Casper, the computer which held out longest against the Angel's attack, and which allowed Ritsuko to launch her counterattack was the aspect of Ritsuko's mother which represented her as a woman
+
+* Episode 14: SEELE: The Throne of Souls / Weaving A Story
+
+- Episode starts with recap of the Angels faced so far
+  - 3rd Angel: Sachiel /(first Angel in the series)/
+  - 4th Angel: Shamshel /(crab-like angel with the electric whips)/
+  - 5th Angel: Ramiel /(octahedron with particle cannon)/
+  - 6th Angel: Gaghiel /(underwater battle with Unit 02)/
+    - Encounter was not exactly as predicted
+    - However, the outcome was still within parameters
+    - /NERV has predictions for when/where Angels will attack/
+  - 7th Angel: Israfel /(Angel that could split in two --- required synchronized attack from Unit 01 and 02 to defeat)/
+  - 8th Angel: Sandalphon /(Volcano Angel)/
+    - /According to this episode the 8th Angel was the one from/ Magmadiver
+    - /Yet in the actual series, Ikari says that the 8th Angel is the next one, the spider one/
+  - 9th Angel: Matarel /(The spider with acid, which attacked while NERV was taken offline by some kind of sabotage)/
+    - /Interesting to note that, even as of this episode, we've never heard anything about who perpetrated the sabotage/
+    - /NERV is pretty relaxed about having been sabotaged by unknown parties/
+  - 10th Angel: Sahaquiel /(Orbital strike)/
+  - 11th Angel: rumored to have infiltrated NERV HQ
+    - Committee with the colored desks is actually the Human Instrumentality Committee (a.k.a SEELE)
+    - Says that the invasion of NERV occurred "too early"
+      - /So at some point is an Angel _supposed_ to break through to NERV HQ?/
+    - If "contact" had occurred, the entire Instrumentality project could have ended in disaster
+      - /Contact between the Angel and... what?/
+    - Cmdr. Ikari straight up lies and says that there was no 11th Angel attack on NERV HQ
+    - Says that the committee can check the records of the Magi computers
+      - /Of course the records have been erased by Ritsuko's counter-virus/
+    - Ikari says that the schedule is proceeding exactly as foretold by the Dead Sea Scrolls
+    - SEELE is suspicious --- says that Ikari is a master of hiding the truth
+    - Ikari says their suspicions don't matter --- everything is proceeding according to SEELE's script
+    - /I am half convinced that the entire reason they have this scene is so they can re-align the numbering after they screwed up in Episode 11 and had Ikari say that the 8th Angel was Matarel/
+    - /Note that this Angel is not present in the _Rebuild of Evangelion_ series/
+- Cut to Rei in Unit 01
+  - Has a series of visions
+  - Rei says that she is a "vessel for a soul" and that the entry plug is the "throne for a soul"
+  - Sees an infinite regress of herself and wonders what she is
+  - Asks who is Cmdr. Ikari?
+  - Sees the unmasked visage of the Eva that Shinji saw in Episode 1 and wonders who the Eva is
+    - /Interesting that she asks "who", not "what", like Shinji/
+- Cut to the instrument room
+  - Ritsuko and Maya note that Rei's synchronization with Unit 01 is almost the same as her synchronization with Unit 00
+  - Asuka asks if they plan to do any interchange tests with her and Unit 02
+  - Misato replies that Asuka has stated that she only wants to pilot Unit 02, and she doesn't want anyone else piloting Unit 02
+  - Privately notes that while Shinji and Rei can interchange between Unit 01 and Unit 00, Asuka is tied to Unit 02, and that interchange is not possible
+- Next experiment is Shinji in Unit 00
+  - Initial phase of experiment goes well
+  - Maya notes that while the synchronization rate is lower than with Unit 01, it's still within acceptable parameters
+  - Ritsuko says that this means they're good to try the "dummy plug" system
+  - Maya registers strong objections to the project, but says that she'll proceed with it if ordered to
+  - Ritsuko says that it's a necessary preparation for the survival of mankind
+  - They proceed to the next phase of the test
+  - Shinji gets visions of Rei, but somehow it's _not_ Rei
+  - At that moment Unit 00 activates and breaks free from its restraints, just like in the activation test in Episode 5
+  - In this case, the auto-eject system does not activate
+  - Maya notes that the Eva is "contaminating" Shinji
+  - Ritsuko wonders if the Eva is trying to absorb Shinji
+  - We see Rei standing in front of the windows to the test chamber as Unit 00 attempts to smash them --- appears as if Unit 00 is trying to get to Rei
+  - Misato wonders whether Unit 00 is attempting to kill Rei
+  - Ritsuko, however, is certain that Unit 00 is attempting to kill her
+  - After Unit 00 runs out of power, they extract the entry plug
+  - Shinji wakes up in a hospital bed, with no memories of what happened, but no signs of contamination either
+- Cut to Asuka who wonders what kind of person Rei is and why nobody seems to be telling her anything about Rei
+- Cut to Cmdr. Ikari and Fuyutsuki, playing chess
+  - Fuyutsuki says it wasn't wise to provoke SEELE like that
+  - Ikari says it doesn't matter, everything is going according to their script
+    - /Note the ambiguity --- we don't know if everything is going according to SEELE's script or Ikari's/
+  - Fuyutsuki says that the accident with Shinji and Unit 00 wasn't in the script
+  - Ikari replies that it doesn't matter --- Unit 00 was able to successfully resynchronize with Rei
+  - Fuyutsuki notes that Ikari is far too concerned with Rei
+  - Fuyutsuki asks about the Adam project
+  - Ikari replies that it's going well and it's on schedule 
+    - /This is the same Adam that Kaji brought with him on the aircraft carrier with Unit 02, right?/
+  - Fuyutsuki asks about the Lance of Longinus
+  - Ikari replies that Rei is handling it
+- Episode ends with Rei in Unit 00, walking down a long corridor
+  - Unit 00 is holding a red twin-tipped spear in its right hand
+  - /This must be the long cylindrical thing that Ikari and Fuyutsuki retrieved from the South Pole/
+
+* Episode 15: Lies and Silence / These women longed for the touch of others' lips and thus invited their kisses
+
+- Starts with Fuyutsuki and Cmdr. Ikari
+  - Fuyutsuki is telling Ikari that Chairman Kiel is unhappy with him and is even hinting that Ikari might be fired
+  - Ikari replies that the Adam project is going well and that the Eva project has started work on dummy plugs; what is SEELE complaining about?
+  - Fuyutsuki replies that the Human Instrumentality Project is behind schedule
+  - Ikari says that all the projects are linked; there won't be any trouble
+  - Fuyutsuki asks, "Including Rei?" which Ikari doesn't dignify with an answer
+  - Fuyutsuki asks what they should do about "that man"
+    - /Not clear whether he's referring to Chairman Kiel or maybe Kaji/
+  - Ikari replies that they'll leave him to his own devices; that like the Marduk Institute, they can use him for a little while longer
+- Cut to Kyoto
+  - Kaji is sneaking into an abandoned warehouse
+  - Asks, "What started here, sixteen years ago?"
+    - /Before the Second Impact?/
+  - Kaji meets with another spy who tells him to investigate Shannon Bio, the owner of this warehouse
+  - Shannon Bio has owned this warehouse for 9 years, yet no activity has taken place there and the warehouse is as dilapidated as it was when the company bought it
+  - Shannon Bio is associated with the Marduk Institute
+  - All of the companies associated with Marduk appear to be shell corporations
+  - Kaji is given the board of directors of Shannon Bio:
+    - Gendo Ikari
+      - /Finally we learn Shinji's dad's first name/
+    - Kozu Fuyutsuki
+    - Kiel Lorenz
+  - The Marduk Institute is supposed to be just an advisory body to NERV, selecting Eva pilots
+  - However, its true purpose is not clear
+  - Kaji's contact reminds him that his mission is to investigate NERV, and that going after Marduk is a bad idea
+  - Kaji remarks that he's the kind of person who has to see things for himself
+  - /Was the delivery of Adam a ploy to get Kaji into NERV HQ?/
+- Cut to Asuka trying to call Kaji
+  - Annoyed that he doesn't seem to have time for her any more
+  - Class rep asks Asuka if she has any plans for the weekend
+  - Says that her sister's friend was interested in Asuka and asks Asuka on a date on this friend's behalf
+- Meanwhile Misato and Ritsuko are overseeing more tests of the Eva pilots
+  - Ritsuko asks Misato which dress she's going to wear to an upcoming wedding
+  - Misato says that she can't decide --- she's been to so many weddings lately and she doesn't want to wear the same dress twice
+  - Everyone is rushing to get married before they turn 30
+    - /Oh, Japan/
+- After the test, Shinji and Rei are in an elevator
+  - Shinji says that tomorrow he has to see his dad
+  - Asks Rei what he should talk about with his dad
+  - Rei asks why Shinji is asking her and Shinji replies that he once saw Rei happily speaking with Gendo
+  - While Rei has visions of speaking with Gendo, she doesn't seem to remember the specific thing that Shinji is talking about (/see episode 5/)
+  - Shinji also notes that when they were cleaning the classroom earlier, the way Rei wrung out the cleaning cloth was "like a mother", which causes Rei to blush
+    - /Like *a* mother or like *his* mother?/
+- Cut to Asuka watching TV at home
+  - Misato gets home and asks where Shinji is
+  - Asuka says he's shut himself in his room
+  - Shinji is thinking about how his relationship with his father has changed now that he's started piloting an Eva
+  - Misato comes in and asks if Shinji is scared of seeing his fater
+  - Says that he mustn't run away and that he has to take that step forward
+    - /Given the fact that Shinji's father is basically a textbook case of emotional abuse and child neglect, I honestly can't blame Shinji for his reluctance/
+    - /I think this is another case of "Shinji is the only reasonable person, and everyone around him is a ridiculous caricature," which is one of the running themes in this show/
+  - Misato says that tomorrow Shinji should go meet Gendo with his head held high because he'll be visiting his mother too (/I guess they're doing the visiting the ancestral grave thing/)
+- Cut to the next day
+  - Misato, Ritsuko and Kaji are attending the wedding referred to above
+    - Kaji shows up late
+    - Misato says that Kaji is late
+    - Ritsuko says that Misato must be referring to their dates because Kaji always shows up for work on time
+    - Ritsuko notes that Misato and Kaji fight like they're already married, amusing Kaji and annoying Misato
+  - Shinji and his father are visiting his mother's grave
+    - Shinji's mother: Yui Ikari (1977 - 2004)
+      - /Shinji's mother survived the Second Impact/
+      - /Shinji appears to have some recollection of his mother, so she didn't die in childbirth/
+      - /Just how *did* Shinji's mother die?/
+    - Gendo notes that it's been three years since they last visited
+    - The last time they were here, Shinji ran away
+      - /More frustrating hints at what Shinji was doing before he was summoned by his father to NERV/
+    - Shinji says that he doesn't remember his mother's face
+    - Gendo replies that man survives by forgetting but there are some things that should never be forgotten
+    - He says that Yui taught him about the value of irreplaceable things, and that he comes here every year to remind himself of that
+      - /Is Gendo implicitly rebuking Shinji for forgetting?/
+      - /New theory: Gendo is just super-duper autistic/
+    - Shinji asks his father if he has any photos of his mother
+    - Gendo replies that there are no photos left
+    - Even the grave is an empty symbol --- there's no body
+    - Shinji says that Gendo threw away all evidence of Yui
+    - Gendo replies that he keeps the important memories in his heart and that is enough for now
+    - A NERV VTOL lands and Gendo says that he's leaving
+    - Shinji notices Rei is also in the VTOL
+- Cut to Shinji playing cello
+  - Asuka comes in, surprised
+  - Didn't realize that Shinji played
+  - Shinji says that the only reason he knows how to play the cello is because he was ordered to start learning and no one told him to stop
+- Shinji notes that Asuka is back early from her date
+  - Asuka replies that her date was boring so she ditched him
+- Cut to Kaji, Misato and Ritsuko at the reception
+  - Kaji notes that he and Misato were far less emotionally mature when they first dated
+  - Kaji gives Ritsuko a souvenir from his trip, but lies and says it's from Matsuhiro
+  - Ritsuko, however, realizes the truth and asks what Kaji was doing in Kyoto
+  - Tells him not to dig too deep
+  - Ritsuko makes her excuses and leaves, leaving Misato and Kaji together
+  - Misato calls Shinji and tells him and Asuka not to wait for her, that she'll be out late with Kaji
+- Cut to a very drunk Misato being literally carried by Kaji
+  - Misato explains that she broke up with Kaji because he reminded her too much of her father (/see episode 12/)
+  - Says that by joining NERV and fighting the Angels, she was just running away, exactly like Shinji
+  - In the middle of this self-pitying speech, Kaji kisses her
+- Cut to a bored Shinji and Asuka
+  - Asuka asks Shinji if he wants to kiss
+  - Shinji is surprised; asks why
+  - Asuka says no reason other than boredom
+    - /Pretty clear that Asuka is attracted to Shinji and has been ever since she arrived/
+    - /The only reason she's not more obvious about it is because she's the tsundere to end all tsunderes/
+  - They kiss but neither of them really enjoys it
+- Kaji and Misato arrive; Shinji and Asuka help Kaji put Misato to bed
+  - Asuka smell's Misato's perfume on Kaji and grows jealous
+- The next day, Rei isn't at school
+  - Cut to Central Dogma, underground level
+  - See some kind of machine with lots of tubes, terminating in Rei suspended in a glass tube full of LCL
+  - Gendo looks on and smiles
+    - /Now that isn't creepy at all/
+- Cut to even deeper level --- Terminal Dogma
+  - Kaji is attempting to get in
+  - Misato comes up behind him and draws a pistol
+  - Asks who the real Kaji is
+    - Kaji of NERV's Special Investigation Department
+    - Kaji of the Investigation Department of the Japanese Minister of Home Affairs
+      - /So we get to see who Kaji is spying for, finally/
+  - Kaji says that he's a double agent that Gendo is using
+  - Misato doesn't believe him
+  - Kaji says Gendo is hiding things from her as well, and uses his keycard to open Terminal Dogma
+  - We see a giant Angel-like creature, white with a purple head and six eyes
+  - Creature is cut in half and crucified
+  - The Lance of Longinus is sticking into it
+  - LCL is pouring from the bottom half of its body
+  - Kaji says that this is Adam, the First Angel
+    - /Which is totally a lie, since we saw Kaji deliver Adam to Gendo, and Adam was in an embryonic state at that point/
+  - This revelation appears to win over Misato, who says that NERV is even deeper than she thought
+
+* Episode 16: Sickness Unto Death / Splitting of the Breast
+
+- Starts with Asuka getting mad at Shinji for apologizing for everything
+  - Says that Shinji automatically apologizes for everything just to avoid getting yelled at
+  - Apology doesn't really mean that he's sorry
+- Cut to yet another synchronization test
+  - Shinji posts the highest score
+  - Congratulated by Misato
+  - This really annoys Asuka
+  - /Asuka thinks that she's not the best pilot any more, so what good is she anyway?/
+- On his way home on the bus, Shinji is in a good mood, but that disappears when some kids up front laugh at him
+- 12th (/maybe the 12th, depending on whether the 11th Angel is official or not/) Angel arrives
+  - No warning --- Angel just suddenly appeared above Tokyo-3
+  - Floating sphere with black and white stripes
+  - Pattern orange as opposed to the normal blue pattern
+  - Magi computers can't verify that this is an Angel despite it having all the outward characteristics of one
+  - No AT field
+- Evas are told to approach carefully and try to lure the Angel outside the city
+- Asuka, still resenting Shinji's high score from the previous day's tests tells him to take the lead
+- Shinji, normally hesitant, overconfidently agrees
+- Shinji moves into position and shoots the floating sphere, even though Asuka and Rei aren't in a position to back him up
+- Floating sphere disappears and a circular shadow appears under Unit 01
+- Unit 01 begins to disappear into the shadow
+- Shinji panics and can't climb free
+- Asuka and Rei move into position with Unit 02 and 00 respectively to try to rescue Shinji
+- Rei fires at the sphere, which again disappears
+- Shadow appears under Unit 02
+- However, Asuka shows more presence of mind than Shinji and manages to escape
+  - Says that there's a difference between acing tests and performing well in real-world combat
+  - /This is a reference to a common trope in Japanese mecha animes where, right around this part of the season, the cocky and talented young pilot will meet an experienced adversary, and get defeated by the adversary's superior combat experience/
+- Rei and Asuka are told to pull back, even though Unit 01 is still trapped in the Angel's shadow
+- NERV reels in the umbilical for Unit 01 and finds that the other end has been severed
+- Ritsuko says that if Shinji doesn't flail around in the Eva and goes to low power mode, the Eva has enough power for 16 hours of life support
+- Angel's shadow spreads to a radius of just over 600 meters
+- Asuka says that it's Shinji's own fault that he got sucked into the Angel's shadow; he ignored the plan and got overconfident
+  - This annoys Rei, who asks if Asuka just pilots to hear praise from others
+  - Asuka replies that she pilots to praise herself
+  - Misato tells them both to shut up and says they'll discuss this after they retrieve Shinji
+  - Misato blames herself for allowing Shinji to become overconfident, leading to him getting into this situation
+- Cut to Shinji, inside the Angel
+  - Has been sleeping to conserve energy
+  - Starts up external sensors
+  - Still no change --- dark, nothing on radar or sonar
+  - 12 hours have elapsed since he was sucked into the Angel and he's beginning to give up hope of being rescued
+- Cut to NERV planning
+  - Find out that the "shadow" is the Angel's actual body
+  - 680m diameter with a thickness of just 3 nm
+  - AT field is directed inwards, creating a separate universe inside, called a "Sea of Dirac"
+  - The sphere is, in a sense, the shadow of the Angel
+  - Asuka thinks they don't have a chance of defeating the Angel
+- Cut back to Shinji, inside Unit 01
+  - Shinji notices that the LCL is getting cloudy --- purification systems are breaking down
+  - Notices the smell of blood again (/see episode 7/), but this time it isn't comforting to him
+  - Panic catches up to him and he starts battering at the entry plug's hatch
+    - /This isn't as unreasonable as might first appear/
+    - /At this point Shinji has been in what is effectively a sensory deprivation tank for north of 12 hours/
+    - /It's fairly expected that the claustrophobia is going to catch up to him/
+- Cut back to NERV's planning
+  - Ritsuko proposes a plan where they drop 992 nuclear warhead into the Angel
+  - Unit 02 and 00 will use their AT fields to cancel out the Angel's AT field for a millisecond
+  - In that time, they'll set off the nukes
+  - This should destroy the Angel and return Unit 01 to this universe
+  - Misato thinks the plan will mean certain death for Shinji
+  - Ritsuko says that at this point the priority is recovery of Unit 01, even at the cost of the pilot's life
+  - Misato slaps Ritsuko and asks why Unit 01 is so important; what are Gendo and Ritsuko hiding from her?
+  - Ritsuko says that Misato needs to trust her, and takes command of the operation
+  - Misato is left wondering about the Human Instrumentality Project, the Second Impact, Adam and what else she's in the dark about
+- Cut back to Shinji, inside the Angel
+  - Shinji begins to hallucinate
+  - Hears from a voice that also claims to be Shinji Ikari
+  - The voice claims that it is the self within the self
+  - There are two selves
+    - The self that is seen
+    - The self that does the seeing
+      - /A bit of Cartesian Theater, eh?/
+  - There are actually many Shinjis --- there is a Shinji inside the mind of everyone who knows Shinji
+  - None of these are the true Shinji Ikari, and yet Shinji is still afraid of them
+  - Why does Shinji care so much about what other people think of him?
+  - Shinji says that he's afraid of other people hating him, to which the voice replies that he's afraid of being hurt
+  - Flashback to Asuka chewing Shinji out for apologizing so much
+    - /More proof that Asuka really does care deeply about Shinji; she just has a hard time showing it/
+  - The voice asks Shinji if he has to continue deceiving himself in order to live
+  - Shinji replies, sure, that's how everyone lives, don't they?
+  - Shinji says that he's unwanted, to which the voice replies that he was the one who chose to run away
+  - Flashback to Shinji running away
+    - We see that Gendo is implicated in the death of Yui
+    - The were both at some kind of genetics research lab in the aftermath of the Second Impact --- 2004
+    - Gendo was the lab director
+    - Something got loose and Yui died
+    - Allegedly Gendo bribed people to look the other way, leading to the accident, but nothing was ever proven and Gendo was found not-guilty at the subsequent trial
+      - /Strong implication that there was a cover-up/
+    - The last vision that Shinji has is his father walking away
+- Shinji wakes up from his hallucination and notes that the heating and circulation have gone out
+  - Resigns himself, once again, to dying
+  - However, as he loses consciousness, he feels the presence of his mother
+- Cut to the other Evas standing outside the Angel, about to start the plan
+  - Just before they drop the bombs, the Angel's body suddenly starts tearing apart
+  - Unit 01 tears its way out of the spherical "shadow" of the Angel
+  - Asuka and Ritsuko are horrified by the Eva's power --- just what kind of a monster has humanity created in the form of the Evangelions
+  - Misato says that Evas are partially based on Adam, the first Angel
+    - /Is that actually true, though, or is that misinformation that has been fed to Misato?/
+    - Wonders what NERV's plan is for the Evas once the Angels have all been destroyed
+    - /So we have possible confirmation that there are fixed number of Angels?/
+    - /How much does Misato know about the prophecies from the Dead Sea Scrolls?/
+- After Unit 01 emerges from the Angel and ejects the entry plug, Misato runs to Shinji, who is barely conscious
+  - Shinji says, "I just wanted to see you one more time," before falling into unconsciousness
+    - /Ambiguous as to whether Shinji is talking about Misato or his mother/
+- Later, we see Ritsuko and Gendo standing in front if Unit 01 as it is being decontaminated
+  - Ritsuko says that if Rei or Shinji were to learn the Eva's secrets, they wouldn't forgive either of them
+    - /Shinji and Rei specifically? What about Asuka?/
+- Shinji wakes up in a hospital bed, with Rei standing over him
+- Rei tells him to take it easy, even though Shinji protests that he feels fine
+- As she leaves, we see Asuka waiting outside, pretending to be unconcerned
+
+* Episode 17: The Fourth Child / Fourth Children
+
+- Starts with Misato testifying in front of SEELE
+  - Questioned over over events from episode 16
+  - SEELE asks if the Angel attempted to communicate with Shinji
+  - Misato reports that she has no indication of that
+  - SEELE notes that the Eva's data recorder was inactive, so they have no way of verifying what she said
+  - /On a side note: you can tell that Gainax is starting to run out of money --- look at how the first few minutes of this episode are basically just a single frame with no animation/
+  - Misato reports that they have no idea as to whether the Angels have a theory of mind
+  - SEELE asks, this is the first time an Angel has tried to take an Eva into itself --- does this have anything to do with the predicted "Thirteenth Angel"?
+  - Misato replies that there is no pattern or systematic organization among the Angels
+    - /Misato is probably (unknowingly) lying here/
+    - /We know that Gendo and Fuyutsuki have some kind of idea as to the true nature of the Angels and what their objection is/
+  - Misato's testimony ends and Gendo says that the Angels are beginning to become smarter --- time is running short
+- Cut to Toji visiting his sister the hospital
+  - People talk about how devoted Toji is
+- Cut to Gendo asking Rei how she's doing
+  - Rei says everything is going fine
+  - School is going fine
+- Cut to school where we find out that Kensuke has been skipping to film military units in New Yokosuka
+- Cut to satellite shot showing a glowing red dot somewhere in what appears to be North America
+- Cut to NERV HQ, which is on high alert
+  - 2nd Branch of NERV (in Nevada, USA) just vanished
+  - Unknown cause
+  - All that's left is a crater
+  - Satellite feed shows an expanding shock-wave and an expanding red field and then goes dead
+  - Evangelion Unit 04 and all facilities in an 89km radius have vanished
+    - /What happened to Unit 03?/
+  - From looking at the schedule, NERV HQ speculates that this was an accident related to the installation of the experimental "S2 engine" --- experimental system that was restored in Germany
+    - /Restored from what?/
+  - Ritsuko says that the facility was probably swallowed by a Sea of Dirac
+    - /So the S2 engine has something to do with AT-field generation?/
+    - /Was the S2 engine based off the Angel core they salvaged in episode 5/
+- Later Misato and Ritsuko discuss Unit 03
+  - US government is moving Unit 03 to the main NERV facility at Tokyo-3
+  - Misato is annoyed that US government is foisting an untested unit onto them
+  - Ritsuko replies that they shouldn't be surprised, given what happened to 2nd Branch and Unit 04
+  - Misato asks if Ritsuko plans to use the dummy plug for the next activation test
+  - Ritsuko says that she's not sure
+- Cut to Gendo and Ritsuko in front of the dummy plug
+  - Plaque on dummy plug
+    - REI: dummy plug Evangelion - 2015 - Rei 00
+  - The dummy plug is not a real pilot
+  - Just transmits brainwave data to the Evangelion
+  - Gendo says that bugs aren't important, so long as the dummy plug can synchronize and activate the Eva
+- Cut to Gendo and Ritsuko standing in front of the machine in Central Dogma from episode 15
+  - Gendo tells Ritsuko that Unit 03 will be arriving soon
+  - Ritsuko says that it's still early to risk an activation test with a dummy plug, but there is a child whose data can be prepared quickly
+  - As Gendo tells Rei to come out of the LCL, Ritsuko looks vaguely disgusted
+- Ritsuko tells Misato that Unit 03 is coming and they'll be using the Fourth Child for the activation test
+  - Misato hadn't heard that the Fourth Child had been found
+  - Ritsuko says the Fourth Child was found yesterday
+  - Misato says that she hadn't received a report from the Marduk Institute
+  - Ritsuko says the official documentation will arrive tomorrow
+  - Misato is suspicious and asks Ritsuko if she is holding something back
+  - Misato looks at who was selected as the Fourth Child and is surprised --- it's someone that Shinji knows
+  - Ritsuko says that it can't be helped --- they gathered all the pilot candidates together, so of course they'd make friends with each other
+  - Misato says that while Asuka and Rei are exceptions, Shinji understands that there is no glory in piloting an Evangelion
+- Cut to school
+  - Class rep gives Toji some papers to deliver to Rei
+  - Volunteers to go to Rei's apartment with him, but Toji asks Shinji to accompany him
+  - Class rep is disappointed --- she wanted to go with him
+- Shinji and Toji go to Rei's apartment
+  - Deliver the papers
+  - Shinji cleans up some trash
+  - Toji says that Shinji has changed since he first met him --- he's become a lot more selfless
+  - Rei arrives and is surprised to see that Shinji has cleaned --- thanks Shinji
+- After they leave, Rei reflects that this is the first time she remembers saying "Thank you"
+  - Even when she was rescued from the runaway Evangelion in episode 5, she didn't explicitly thank Gendo
+- Cut to Gendo and Fuyutsuki on the train
+  - Reflecting on Tokyo 3
+  - Gendo says that the city is a reflection of man's cowardice
+  - Fuyutsuki says that's fine --- cowards live longer
+  - 7th phase of Tokyo-3 will soon be completed
+  - /Honestly the most unrealistic aspect of this scene is that they're talking on the train; in Japan, _no one_ talks on the train/
+  - Fuyutsuki asks how Gendo is going to report the loss of Unit 04 to SEELE
+  - Gendo says he'll report the facts --- loss was due to an unknown cause
+  - Fuyutsuki says that SEELE is furious, this is a catastrophic loss
+  - Gendo contradicts him and says that the loss is acceptable
+  - Even with the loss of the actual S2 Engine, they still have all the data that was gathered in Germany
+  - Gendo says that the fact that this loss wasn't part of the Dead Sea Scrolls prophecies will be a valuable lesson to SEELE on the limits of prophecy
+- Cut to Kaji flirting with Maya in the break room
+  - /Kaji is a sex offender, part 4/∞/
+  - Misato cuts in and tells Kaji to stop distracting the technology division staff
+  - Kaji replies that it then must be acceptable for him to hit on Misato, because she's operations, and the current crisis isn't in her jurisdiction
+  - Misato agrees, on the condition that Kaji give her some information
+  - Asks Kaji about the Marduk Institute and why the Fourth Child was so conveniently found at the moment they needed another Eva pilot
+  - Kaji replies that the Marduk Institute is just a front for NERV itself
+  - Asks Misato to check out Code 707 --- Shinji's school
+  - Before he can tell her more, Shinji arrives and tells Misato that Ritsuko wants to speak with her
+- Cut to Shinji and Kaji hanging out
+  - Kaji takes Shinji to a watermelon patch that he's growing
+  - Gardening is Kaji's "secret hobby"
+  - Says that gardening allows you to learn a lot from nurturing something
+  - Kaji asks Shinji if he hates suffering
+  - Shinji replies that of course he doesn't like it
+  - Kaji asks if Shinji has found something that he actually enjoys
+  - Shinji doesn't reply and Kaji drops the subject
+  - Kaji says that knowledge of suffering makes you more capable of kindness towards others
+- Cut to yet another synchronization test
+  - Shinji's score has dropped
+  - Ritsuko says that the encounter with the 12th Angel must have affected Shinji psychologically
+  - Misato says that this will make it even more difficult to inform Shinji who the Fourth Child is
+  - Ritsuko says that Misato will have to do it soon --- the pilot of Unit 03 will be informed of their selection tomorrow
+- Cut to Shinji's class the next day
+  - Toji is called to the principal's office
+  - There he meets Ritsuko /who presumably tells him that he's the pilot of Unit 03, even though that's not made explicit/
+- Meanwhile Shinji and Kensuke are talking
+  - Kensuke asks Shinji about the forthcoming arrival of Unit 03 and the loss of Unit 04 and NERV's Second Branch
+  - Shinji doesn't know anything --- he's been kept in the dark about all of this
+  - Kensuke says that makes sense --- Shinji doesn't have need to know, so of course he wouldn't have been informed about these sorts of things
+- Cut back to classroom
+  - /Interesting side note: the teacher is talking about how, since the Second Impact, there have been fewer and fewer children with every generation/
+  - /This is, of course, a reflection on the fertility crisis in Japan, which was at its peak around that time, with fertility dropping down to something like 1.1/
+  - Toji comes back to class late
+  - Appears preoccupied
+- At the end of the day, Toji is eating his lunch in the classroom, alone
+  - Class rep stops by the ask Toji to straighten the desks and write up the day's records
+  - Notes that he always buys his lunch from the school cafeteria
+  - Toji replies that he doesn't have anyone at home to cook a lunch for him
+  - She says that she cooks lunch for her sisters and that she will be happy to cook lunch for him as well
+  - Toji agrees, and is totally oblivious to her crush
+- Cut to Asuka, outside of Kaji's office
+  - Asuka asks to talk to Kaji
+  - Kaji says, not now, he's busy
+  - Asuka mutters under her breath that Kaji makes time for Misato and barges in anyway
+  - Sees that Toji is the Fourth Child
+  - Asks why it has to be him
+- Cut to shot of 1st Branch (USA), with a transport plane taking off with Unit 03 in a rainstorm
+  - Unit 03 is transported crucified, much like the ('non') Adam we saw in Terminal Dogma
+- Episode ends with class rep cooking and Toji shooting free throws on the basketball court
+
+* Episode 18: The Choice of Life / Ambivalence
+
+- Starts with transport plane carrying Unit 03
+- Plane flies into a thundercloud, but that doesn't seem to bother the pilots
+- /One thing I don't understand is that at the end of Episode 17, the Eva was shown hooded, but here its face is visible/
+- Cut to Shinji leaving for school
+  - Asks where Asuka is
+  - Misato (/in dress uniform/) tells Shinji that Asuka has left early
+  - She implies that Asuka is avoiding her over jealousy over Kaji
+    - /Which is super-weird given that Asuka is, at most, 18, and Misato is about the same age as Kaji/
+  - Shinji asks about the rumor that Unit 04 has gone missing
+  - Misato (/to her credit/) confirms the rumor and says that while testing the S2 Engine, Unit 04 and all of NERV's Second Branch disappeared
+  - Shinji asks about Unit 03's activation tests
+  - Misato says that she'll be out for four days and that he and Asuka will be under Kaji's supervision in the meantime
+  - Shinji asks who the pilot of Unit 03 is
+  - Before Misato can tell him, the doorbell rings
+  - Kensuke is at the door and asks to be the pilot of Unit 03
+- Cut to Misato and Ritsuko in a transport truck
+  - Ritsuko is surprised that Misato hasn't told Shinji that Toji is the pilot of Unit 03
+  - Misato says that she's scared to tell Shinji because she doesn't know how he'll react
+  - Ritsuko says that Misato should get it over with, because they'll be calling in Toji the next day for the second phase of activation tests
+  - Misato wonders whether Toji will tell the others himself
+  - Ritsuko says that it's not likely --- Toji isn't choosing to pilot an Evangelion out of a desire for glory
+    - /Implied that Toji is doing this for his sister/
+- Cut to school, where Toji is zoned out and Kensuke is disappointed when Misato told him he wouldn't be piloting Unit 03
+  - Asuka arrives
+  - Shinji wonders why she ended up coming to school after them even though she left for school long before
+  - Asuka is angry and tells Shinji, Toji and Kensuke that she's avoiding them 
+- At lunchtime, Shinji and Kensuke notice that Toji isn't with them for lunch
+  - Shinji notes that Toji has been acting weird lately
+  - Toji, meanwhile is on the school roof, looking out pensively
+  - Approached by Rei
+  - Toji states that Rei and Asuka know that he's the pilot of Unit 03
+  - Shinji is the only one who doesn't know
+  - Toji wonders why Rei is coming to him when the one she really cares about is Shinji
+  - Rei seems surprised by this, but concedes Toji's point that she does care about Shinji
+  - Class rep (Hikari) is looking up at Toji and notices him with Rei
+- Toji cuts class in the afternoon, worrying Shinji
+  - Toji is outside, reflecting on the fight he had with Shinji (in episode 3)
+- Cut to Asuka and Hikari, walking home
+  - Hikari is surprised that Asuka has chosen to walk with her, given that Asuka usually walks with Shinji
+  - Asuka says that she and Shinji are only together because of work, and that normally she can't stand Shinji
+  - Hikari says that she thinks that Rei has a crush on Toji, based on seeing them together at lunchtime that day
+  - Asuka says that there's no way that Rei has a crush on Toji, given that she's even more dense when it comes to other people than Shinji --- this reassures Hikari
+  - Asuka asks what Hikari sees in Toji
+  - Hikari replies that she sees Toji's kindness, which surprises Asuka
+    - /Asuka doesn't know how much Toji cares for his sister, which apparently Hikari does/
+- Cut to Asuka and Shinji studying
+  - Shinji wonders who the pilot of Unit 03 is going to be
+  - Asuka almost replies, but says she doesn't know at the last minute
+- Later that night, Shinji asks Kaji what his father is like
+  - Says that he's found out a lot more about his father and his mother since he's joined NERV
+  - Has a better understanding of who his father is
+  - Kaji replies that Shinji only thinks he has an understanding
+  - It's actually impossible for one person to understand another
+  - It's probably impossible for one person to even understand him or herself
+  - But despite all that, people never stop trying to understand each other
+  - Shinji asks if this applies to Kaji and Misato's relationship
+  - Kaji replies that the word "she" in Japanese means "the faraway woman"
+  - Women will always be mysterious
+- Cut to Unit 03's activation test
+  - Ritsuko is impressed with Unit 03 --- says that it's almost ready for combat as-is
+  - Misato says that with direct control of 4 Evas, she'd have enough power to end the world (/foreshadowing/)
+  - Ritsuko asks if Misato has told Shinji who the pilot is, and Misato says that she'll tell Shinji after the activation test
+- Cut to school
+  - Hikari is looking for Toji
+  - Asuka tells her that Toji might not be in school that day
+  - Meanwhile Kensuke is asking Shinji about the activation test for Unit 03
+  - Wonders if Toji could be the pilot, given that he's absent, but Shinji says that isn't very likely
+- Cut back to activation test
+  - Something goes wrong
+  - Ritsuko orders an abort
+  - Eva reveals itself as an Angel, and there's a large explosion
+- Cut to NERV HQ
+  - Large explosion in Matsushiro
+  - Movement detected at explosion site
+  - Pattern orange, no idea if it's an Angel
+  - Gendo orders battle stations
+- Cut to Shinji, in Unit 01
+  - Worried about Misato and Ritsuko after hearing about Matsushiro explosion
+  - Wonders who will run their operations
+  - Rei informs him that Gendo will be managing this operation directly
+- Cut to NERV HQ
+  - See Unit 03 approaching
+    - /How is Unit 03 completely undamaged after such a large explosion?/
+  - Gendo orders an abort signal and entry plug ejection
+  - Unit 03 ignores the abort signal
+  - We see some kind of webbing covering the entry plug, preventing its ejection
+  - Gendo asks about the pilot, and hears that while there's pulse and respiration, they're not able to pick up any brain activity
+  - /Angel must be providing power to Unit 03 somehow, since it's been way more than 5 minutes since Unit 03 went rogue/
+- Gendo designates Unit 03 as the 13th Angel, and orders the other Evangelions to attack it
+- Shinji doesn't want to attack another Eva
+  - Wonders if there's another pilot like himself inside it
+  - Asuka cuts in to inform him who the pilot is, but before she can tell him, Unit 03 attacks Unit 02
+  - Radio message cuts off with a scream, and Asuka ejects
+- Unit 03 heads towards Unit 00
+  - Rei hides Unit 00, but hesitates when ordered to attack
+  - Unit 03 seems to sense the presence of Unit 00 and does a backflip onto Unit 00, pinning it
+  - Oozes some kind of goo onto Unit 00's arm --- Angel attempts to suborn Unit 00 as well
+  - Gendo orders Unit 00's arm severed, causing Rei great pain and disabling Unit 00
+- After Unit 00 is disabled, Unit 03/13th Angel approaches Unit 01
+- Shinji is told that the Angel has disabled Unit 00 and 02 --- he is the last line of defense
+  - However, when ordered to attack, Shinji sees an entry plug and finds himself unable to shoot
+  - Unlike with Unit 00, the Angel doesn't attempt to suborn Unit 01 --- it just grabs Unit 01 by the neck, choking it
+  - Even with the Angel choking Unit 01, potentially killing it and him, Shinji refuses to fight
+  - When Gendo asks why, Shinji says that he'd rather die than take a life
+    - /Why doesn't Gendo simply lie to him (like he lies to SEELE) and tell Shinji that the other pilot is already dead?/
+  - When Shinji refuses to fight, Gendo orders control of Unit 01 to cut over to the dummy plug system
+- Dummy plug takes over, and Unit 01 seems to go into berserker mode, just like in Episode 02
+  - Unit 01 chokes the Angel, and snaps its neck, killing it
+  - Unit 01 goes further and dismembers the body --- gruesome scene that is disturbing to watch, even in NERV HQ
+  - Shinji is increasingly horrified by Unit 01's actions and calls for his father to stop it
+  - Unit 01 finally extracts the entry plug from the Angel and crushes it
+  - This finally seems to sate Unit 01's bloodlust and it shuts down
+- Cut to rescue effort in Matsushiro
+  - See Misato in a stretcher, with Kaji beside her
+  - Kaji says that Ritsuko made it out too, with fewer injuries than Misato
+  - Misato asks about Unit 03 and is told that it was destroyed by Unit 01 as an Angel
+  - Misato says that she hasn't told Shinji anything, and calls him
+- Cut to Shinji brooding in the cockpit of Unit 01
+  - Gets call from Misato
+  - As Misato is about to tell him that Toji was the pilot of Unit 03, he hears that there are signs of life in the entry plug from Unit 03
+  - Sees Toji's unconscious form pulled from the wreckage
+
+* Episode 19: A Man's Battle / Introjection
+
+- Starts with Shinji inside Unit 01, in the aftermath of the previous fight
+  - Shinji is threatening to go rogue with Unit 01 and destroy NERV HQ
+  - Holds his father responsible for what was in his view, an attempted murder of Toji
+  - Doesn't accept the argument that Gendo acted for the greater good
+  - Gendo orders LCL pressure increased, which causes Shinji to fall unconscious
+- Cut to an bandaged Ritsuko standing in front of the wreckage of Unit 03
+  - Misato, with a broken arm, comes up and asks what happened to Shinji
+  - Ritsuko says that they cut open the hatch to the entry plug and forcibly extracted Shinji
+- Cut to Asuka and Rei outside the hospital room where Shinji is unconscious
+  - Asuka says this might actually be the end of Shinji's piloting of the Eva
+- Cut to Toji, who wakes up and sees Shinji unconscious next to him before he fades back into unconsciousness himself
+  - Dreams he's next to Shinji and Rei on a train
+  - Shinji and Rei are arguing
+  - Rei asks Shinji why he did that
+  - Shinji replies that his father betrayed him, and moreover that his father doesn't try to understand his feelings at all
+  - Rei asks whether Shinji has ever tried to understand his father's feelings
+  - Shinji replies that he's tried, but he just can't
+  - Rei says that Shinji just runs away from unpleasantness
+  - Shinji asks, what's wrong with that?
+  - Dream ends with Toji wonering what they're arguing about
+- Toji wakes again to see Hikari standing over him
+  - Hikari informs him that he's been unconscious for three days
+  - Toji says that he regrets not being able to eat the lunch Hikari prepared
+  - Asks where Shinji is — Hikari says that Shinji was discharged yesterday
+    - /So the conversation that Toji heard was real, but filtered by his unconscious/
+    - /I wonder how much of that was because they didn't want to actually animate the conversation, so a relatively static dream sequence served as a stand-in/
+  - Toji asks Hikari to reassure his sister that he's all right
+- Cut to Shinji, in jail
+  - Shinji is brought before Gendo and charged with insubordination, misappropriation of resources and issuing threats
+  - Shinji replies only that he doesn't wish to pilot an Eva any more
+  - Gendo tells Shinji to leave
+  - As Shinji turns and goes, Gendo asks if Shinji is running away again, and says that he's disappointed in Shinji and doubts that they'll ever see each other again
+  - Shiji replies that he has no desire to see Gendo again and walks off
+- As we see Shinji walking off, we hear a voice-over of Gendo calling for the erasure of Shinji's pilot records and the reassignment of Rei to Unit 01
+  - /In episode 14, we see that it's possible, in theory, for Rei to activate Unit 01, even though her sync ratio is lower with it than it is with Unit 00/
+- Cut to Shinji in Misato's apartment with his boxes all packed up
+  - Gets a call from Kensuke, which he allows to go to voice mail
+  - Kensuke says that he too is disappointed that Shinji is running away
+  - Says that he really admired Shinji and doesn't understand his decision
+- Cut to Shinji and Misato at the train station
+  - Shinji is glad that Asuka isn't there
+  - Misato replies that Shinji will have a hard time later in life if he keeps burning his bridges the way he's doing
+  - Shinji says that's Misato's opinion, not his own
+  - Asks why Toji was chosen as the Fourth Child
+  - Misato replies that all the Fourth Child candidates were in his class
+  - She says that she only found out about this setup recently
+    - /This is somewhat plausible — we only see Ritsuko talk about the Fourth Child candidates being gathered together in episode 17/
+    - /However, Misato doesn't look all that surprised by that fact, so it might be that Misato is lying to Shinji about not knowing about the Fourth Child candidates being grouped together/
+  - Misato says she's sorry for pressuring Shinji, but that she had no choice
+  - Shinji says that's a self-serving reason and Misato agrees
+  - Misato says that she'll leave Shinji's passcodes as they are, in case he wants to come back
+  - Shinji says that she shouldn't bother — he won't be piloting an Eva again
+  - As Shinji is about to leave, the Angel alarm goes off
+    - /This is an interesting contrast to the departure scene in episode 4, where Shinji's access cards are all revoked right away/
+- Cut to NERV HQ
+  - Floating tombstone-like figure — 14th Angel
+  - Fires beams that result in cross-shaped explosions
+  - Much like the third Angel, but much more powerful
+  - The angel is advancing too quickly and packs too much firepower for the Evas to meet it above in the city
+  - The plan is to have Asuka in Unit 02 confront the Angel inside the Geo-Front with Rei backing her up
+  - However, Unit 00 still hasn't regrown its arm
+  - Gendo orders Rei to sortie in Unit 01 instead
+  - When Rei attempts to activate Unit 01, it rejects her
+    - /This is what I've been saying from the beginning — the threats to pull Shinji from Unit 01 are all empty — in a real combat situation, only Shinji can activate Unit 01/
+  - Gendo then orders Rei to sortie in Unit 00, even though it is damaged
+  - Misato objects, but Rei says she'll go — thinks, "If I die, I can be replaced" (/foreshadowing/)
+  - Gendo then orders Unit 01 to sortie with the Dummy Plug
+- Cut to Shinji on his way to a shelter
+  - As he sees the Angel devastating Tokyo-3, he begins to regret his decision
+- Angel breaks through to the Geo-Front, where it is confronted by Unit 02
+  - Asuka is determined to win without Shinji's assistance, but her attacks fail to even penetrate the Angel's AT field
+  - Angel attacks with ribbon-like appendages which simultaneously slice both of Unit 02's arms off
+  - Even disarmed, Asuka charges the Angel, and it attacks again, decapitating Unit 02
+- Cut to Shinji in an evacuation shelter
+  - Hears an explosion and sees a corner of the shelter has caved in due to the fact that Unit 02's head has fallen on it
+- Angel moves past the now-disabled Unit 02
+- NERV attempts to activate Unit 01, but it's not responding to the dummy plug either
+  - Gendo leaves Fuyutsuki in charge of the control room and heads off to supervise the activation attempts of Unit 01 personally
+- Cut back to Shinji, evacuating from the now-ruined shelter
+  - As he leaves, he sees Kaji outside, watering his garden
+  - Kaji asks Shinji what he's doing there
+  - Shinji replies that he won't pilot an Eva ever again
+  - Asks what Kaji is doing outside at a time like this
+  - Kaji says that if he has to die, he'd rather die at his garden than in a shelter
+  - Explains that if an Angel can make it to the bottom of NERV HQ and join with Adam, it will trigger the Third Impact, which will wipe out all of humanity
+- Right then, Rei emerges with the one-armed Unit 00
+  - Has a N2 bomb in its other arm
+  - Charges the Angel and shoves the bomb in through the Angel's AT field by using Unit 00 to momentarily cancel the Angel's AT field
+  - Right before the bomb goes off, the Angel covers its core
+  - N2 mine goes off, stunning Unit 00, but not the Angel
+  - Angel attacks Unit 00, disabling it as well
+- As Shinji watches all this play out, Kaji explains that while the only thing he can do is stand by and water his garden, Shinji has a choice
+  - No one is forcing him, this time
+  - He should do the thing that will cause him the fewest regrets
+- Angel blasts open the shaft leading down to Terminal Dogma, and Adam
+- Cut to Gendo supervising attempts to get Unit 01 to activate with the Dummy Plug
+  - Shinji arrives, breathless, and asks to pilot Unit 01
+  - Gendo asks why Shinji has returned
+  - Shinji replies that he has returned because he is the pilot of Unit 01
+- Cut to NERV control room
+  - Angel bursts in, and right as it's about to attack, Unit 01 bursts in from the side and punches the Angel
+  - Angel fires a beam and severs Unit 01's right arm, but Shinji keeps fighting
+    - /Tis but a scratch!/
+  - Shinji pushes the Angel onto one of the Eva launch elevators and Misato activates it, launching both Eva and Angel back to the surface
+  - Right as Unit 01 is about to deliver the finishing blow to the Angel, it runs out of energy and shuts down
+  - Angel uses its ribbon-like appendage to grab Unit 01 by the head and fling it into a hillside, (just like in episode 3)
+  - Slices open Unit 01's armor and exposes its core
+  - Begins attacking the core
+  - Shinji pleads with the Eva to wake up
+  - After much pleading, the Eva wakes up in berserker mode
+  - Tears off one of the Angel's ribbon arms and uses it to regrow its own
+  - Seeing this, Ritsuko wonders whether, "She's awakened"
+  - Maya reports a synchronization ratio of 400% — far beyond anything that they've seen in the past
+  - Unit 01 lets out a bellow and falls into an ape-like quadruped stance
+  - Begins feeding on the now-fallen Angel
+  - As Unit 01 feeds and gains power from the Angel, its armor plates begin to fall off
+  - Ritsuko explains that the "armor plate", is in fact a system for limiting and controlling the Eva's power, and now those control systems have been degraded
+- Cut to Kaji, who looks up at the unchained Unit 01 and wonders if this is part of Gendo's plot against SEELE
+- Episode ends with Gendo and Fuyutsuki looking on at Unit 01
+- Gendo says, "It begins here"
+
+* Episode 20: Shape of Heart, Shape of Human / Weaving A Story 2: Oral Stage
+
+- Episode starts with SEELE discussing the rampaging Unit 01
+  - Evangelions are not capable of growing their own S2 engines
+  - So what Unit 01 did was /eat/ the S2 engine out of the Angel
+  - /This confirms that the accident in Nevada was the result of NERV experimenting with the S2 engine that it salvaged from the fourth Angel (in episode 3)/
+  - This turn of events is far off SEELE's script
+  - SEELE members ask if they were correct to entrust NERV to Gendo
+  - But, on the other hand, without Gendo, there's no way they could have come this far
+  - SEELE committee wonders what Gendo's real agenda is
+- Recap of Gendo looking at Unit 01, saying, "It begins here"
+- The 1st Day
+  - Shot of Unit 02 armless and decapitated
+  - Shot of Unit 01 with its skull split open
+  - Damage is beyond the Hayflick Limit (/implication: Evas can't regenerate their way out of this on their own/)
+  - Shots of damage to NERV HQ
+  - NERV is planning on abandoning the HQ (/too much damage, not worth repairing?/)
+  - Magi computers are offline, but they can be tranferred
+  - NERV is planning on using a secondary control center which is in theory just as capable as their primary control room, but has never been tested
+  - Don't know whether Unit 01 is salvageable
+- Cut to Unit 01
+  - Bandaged up, with the core still exposed
+  - Appears to be completely inert
+  - However, Misato says that as of yesterday, Unit 01 has moved while being supposedly inert on three occasions, so they shouldn't take anything for granted
+  - Don't know what it will do when they start working on it
+- Cut back to SEELE
+  - Also concerned with damage to Unit 00 and 02
+  - Huge financial cost with NERV HQ being partially destroyed
+  - Central Dogma was breached
+  - SEELE committee blames Gendo — should have put him on a tighter leash
+  - SEELE says that someone was supposed to warn them when Gendo was going off-script, but failed to do so
+    - /Initially I thought they were referring to Kaji here, but Kaji ostensibly works for the Japanese government/
+  - They're going to take measures to ensure that Gendo sticks with the Human Instrumentality Project's plan, not his own plan
+- Cut to Kaji in Gendo's office
+  - Asks how Gendo and Fuyutsuki intend to explain this disaster to SEELE
+  - Gendo says that they'll explain what happened — unintended loss of control of Unit 01
+  - Gendo says that Unit 01 will remain frozen until they get further orders from SEELE
+  - Kaji asks if Shinji is still trapped inside Unit 01
+- Cut to Ritsuko attempting to eject the entry plug — Eva is rejecting all attempts to do so
+- They manage to get a video feed from inside the plug and see that Shinji has vanished!
+  - Just see his plugsuit floating in the LCL
+  - Ritsuko says that this explains the 400% sync rate as Shinji was fighting the 14th Angel — he merged with the Angel
+  - Misato asks how this is possible — just what _is_ an Eva?
+  - Ritsuko replies that an Eva is something created by man in man's image
+  - Misato thought an Eva was just a copy of the Angel that caused the Second Impact
+  - Ritsuko says that it's not an exact copy because it's imbued with a human will
+  - Misato then slaps Ritsuko and asks whether Shinji was _intentionally_ absorbed
+  - Tells Ritsuko to take responsibility for her creation and get Shinji back
+- 2nd Day
+  - We see the other Eva pilots
+  - Rei wakes up in a hospital bed and wonders that she's still alive
+  - Asuka has trashed her room in a fit of rage
+    - When Misato calls to let her know that Rei is still alive, she says she doesn't care
+    - Can't get over the fact that Shinji saved her yet again
+- 3rd Day
+  - Ritsuko says that Shinji still exists in the Eva
+  - When Maya asks why Ritsuko is so concerned with human life now, Ritsuko says that they can't afford to lose Shinji now
+    - /Reference to episode 16, where Ritsuko said that primary priority was the recovery of the Eva, rather than saving Shinji's life/
+  - Misato asks whether the reason Ritsuko is so interested in saving Shinji this time is because she knows that only he can activate Unit 01
+  - Ritsuko doesn't deny it
+  - Maya explains how they plan to get Shinji back
+    - Shinji is basically dissolved in the Eva — floating around "in quantum form"
+    - His soul has lost its ability to distinguish a boundary between himself and the Eva
+    - If they can remind him that he is separate from the Eva, his body should regenerate and reappear inside the LCL
+    - The plugsuit is proof that Shinji exists to some extent — if Shinji had been fully absorbed, the plugsuit would have gone as well
+  - Misato asks if this plan is actually workable
+  - Ritsuko replies that it can be done, once they get the Magi back online
+  - Misato says that what they're discussing is theory and they won't know what will actually happen until they try it
+- 4th Day
+  - See things from the perspective of Shinji's disembodied consciousness
+  - Wonders where he is
+  - Sees his empty plugsuit
+  - Has visions of a beach and flashes of people he knows as he remembers
+  - Has visions of the Angels he's fought, remembers that they're the enemy
+  - Remembers NERV and remembers that he piloted the Eva for NERV
+  - Wonders why he still fights
+    - Maybe he doesn't need a reason
+    - Maybe he's not supposed to think about it
+    - The Angels threaten humanity, so what's wrong with humanity fighting in self-defense?
+  - Cut to replay of scene from episode 5 where Rei asked Shinji whether he trusted Gendo
+  - In this version, Rei asks Shinji why he hates his father
+    - Shinji replies that his father abandoned him
+    - Says he was abandoned because Gendo loved Rei more — Rei was the child that Gendo actually wanted
+    - A younger version of Rei retorts that Gendo didn't abandon him — he ran away
+    - Shinji can't confront this painful truth
+  - Cut to replay of scene from episode 1, where Gendo tells Shinji to pilot the Eva
+    - Shinji asks his father why he is asking Shinji to put himself in danger
+    - Gendo says that the only reason he called Shinji is because he needed him
+    - The only reason Shinji is there is because only he can activate Unit-01
+    - /I guess the real question I have is, what's wrong with that? Everyone has a talent and this one is yours/
+  - Shinji realizes that Episode 1 wasn't the first time he'd seen the Eva
+  - He'd seen it right before he ran away as a child
+  - /Vision appears to indicate that his mother was alive at the time, but this isn't 100% clear/
+- 30th Day
+  - Ritsuko says that the plan to salvage Shinji comes from data about an incident that occurred 10 years ago
+  - /Is this the incident that killed Yui?/
+  - Ritsuko says that while this incident was before her time, her mother was there and recorded the data
+  - The previous attempt, however, was a failure /I guess this is why Misato was so pessimistic/
+- 31st Day
+  - Shinji has more visions
+  - Scene with Rei in elevator, from episode 15
+  - Rei asks questions
+    - What is loneliness?
+    - What is happiness?
+    - Shinji replies that he didn't understand them before but he does now
+    - Asks why others are kind to Shinji
+    - Shinji replies that he's treated well because he pilots the Eva
+    - His reason for being at NERV is to pilot the Eva
+    - Not just pilot, but fight the Angels
+    - Not just fight, but win
+  - Shinji feels that he's only praised when he fights the Angels
+  - Feels that he's owed praise and kindness for doing his best while piloting the Eva and fighting
+  - Shinji has visions of Misato, Asuka and Rei who ask him in turn if he wants to become one with them
+    - /I'm guessing that Shinji has the temptation to let himself go and merge with the Eva, but it's really not at all apparent what this sequence means/
+  - Cut back to Ritsuko who is managing the attempt to pull Shinji out of the Eva
+  - Sends signals into the Eva to try to wake Shinji
+  - Shinji hears Misato, Asuka, Toji, Kensuke and Rei, calling out to him in a loop
+  - Alarm goes off; Shinji's consciousness is looping, somehow
+  - Ritsuko wonders whether Shinji doesn't want to leave the Angel
+  - Shinji hears Asuka, Rei, Misato and finally his mother ask, "What do you wish?"
+  - At this moment everything goes haywire — the entry plug pops open and all the LCL drains out, carrying with it Shinji's empty plugsuit
+  - Cut to Shinji waking up in the hospital bed (from episode 2)
+  - Wonders where he is
+  - Cut to Shinji on a train facing his younger self
+  - Asks where he is and his younger self tells him that he is inside the Eva
+  - Doesn't seem to remember choosing to pilot the Eva
+  - Cut to second goodbye scene from episode 19
+    - Misato tells Shinji that he is the person who he is because he piloted the Eva
+    - Says that even though he piloted the Eva in the past, he still has a choice about what to do in the future
+    - /This seems like a really convoluted way of telling Shinji that he doesn't have to define himself as an Eva pilot/
+  - Cut to Misato, who is holding the empty plugsuit, distraught
+    - Asks what good is all this science if it couldn't save just one person
+  - Cut back to Shinji, whose consciousness appears to be reawakening
+    - Smells a familiar scent and realizes its his mother's
+    - Hears Gendo asking Yui what Shinji's life will be like in the post-apocalyptic world
+    - Yui replies, "If you have the will to live, anywhere can be heaven."
+    - Hears Gendo say, "If it's a boy, Shinji, if it's a girl, Rei"
+    - /He's hearing his mother's memories — foreshadowing re: the true nature of the Eva/
+  - Shinji floats upwards in space towards the blue glow that appeared in the previous episode when he asked the Eva to awaken in the previous episode
+  - As he gets closer, the blue glow turns red
+  - Cut to outside scene where a naked Shinji appears facedown and unconscious in front of the Eva's core
+    - /Symbolic rebirth of Shinji?/
+- 33rd Day
+  - Misato and Ritsuko are driving
+  - Ritsuko says that Unit 01 is almost repaired
+  - Misato ponders that humanity will use even God's power as a tool if it suits their objectives
+  - Ritsuko says that SEELE is proposing a freeze on the Eva program, in light of recent events
+  - Misato says that, for being manmade creations, there a lot of unknowns surrounding the Evas
+  - Reflects that everything turned out well in the end
+  - Misato drops Ritsuko off and goes off to have sex with Kaji
+  - Asks Kaji questions
+    - How far has the Instrumentality project progressed?
+    - Why is Adam, destroyer of Humanity, being kept underground?
+  - Kaji replies that he can't say in an insecure location
+  - What is NERV and Cmdr. Ikari's true objective?
+    - Kaji says that he'd like to find out himself
+  - At the very end of the scene, Kaji gives Misato a pill and says that it's his first gift in 8 years
+  - /You can definitely tell that they're running out of money --- I'm half convinced that the entire reason they had the sex scene is because they could put up a single image and it be audio-only, saving on animation costs/
+
+* Episode 21: NERV is Born
+
+- Starts in Antarctica, 2000 — just before the Second Impact
+- Static scene, with audio in the background
+  - Research team discussing Dr. Katsuragi's theories regarding the Angel that was just discovered
+  - Some think Katsuragi's "super-solenoid" S2 theory is obviously correct, whereas others are skeptical
+  - Discuss the "spear of Longinus", an artifact brought in from the dead sea
+  - /This must be the same spear that we see in episode 14/
+  - In the background, we overhear a conversation about how scientists get fixated on theories even though ostensibly they're seeking the truth
+- Cut to blurry security camera footage
+  - Panicked voices — the Angel has awakened and is rampaging
+  - /Implied that it awoke after it was touched by the Spear of Longinus/
+  - At the end of the video, we hear a howling noise, and see a giant pair of glowing white hands
+  - Video cuts to static and a UN security clearance warning
+- Cut to the present day, with Kaji calling Misato from a pay phone
+  - Call goes to voice mail
+  - Kaji says that this is his last job — the red on his security card reminds him of blood
+- Cut to Misato in her office, learning that Fuyutsuki has been abducted
+  - She hears that the security breach was instigated by an insider
+  - Suspicion naturally falls on Kaji
+  - Misato understands that because of her relationship with Kaji she is also suspect
+  - Hands over her badge and gun and voluntarily goes into detention
+- Cut to Fuyutsuki, in restraints, in front of SEELE (who are present in audio only as grey monoliths)
+  - Chairman Kiel references the events of episode 19 and episode 20, and says that SEELE has no intention of creating a new god
+  - They refer to Fuyutsuki as "Professor Fuyutsuki", which causes Fuyutsuki to reminisce
+- Cut to 1999
+  - Fuyutsuki goes out for a drink with some of his students and a senior professor
+  - The other professor mention sthat there's a bioengineering student who has submitted an interesting paper that he should look at — Yui Ikari
+- Cut to Fuyutsuki meeting Yui in his office
+  - Says that the paper was quite good
+  - Asks Yui what her plans are: does she intend to get a job or work in the research labs at the university
+  - Yui mentions a third possibility: a domestic life, if she can find someone suitable
+  - /Is this a critique of changing Japanese social norms? When Evangelion was written, Japan was going through the worst of its panic about declining fertility rates/
+- Jump back to 2015
+  - SEELE explains that with its integration of the S2 engine, Unit 01 has become an "absolute being"
+  - SEELE has no use for an "actualized god"
+  - Cannot allow "that man" (Gendo) to create a god
+    - /Well, it's kind of too late now, isn't it?/
+  - Asks whether Gendo can be trusted
+- Leads to Fuyutsuki remembering his first meeting with Gendo
+  - Gets a call from the police station, saying that Gendo wishes to be picked up by Fuyutsuki
+  - Gendo is in jail because he got into a drunken brawl
+  - This leads a strongly negative first impression
+  - Later he hears that Yui is dating Gendo — Fuyutsuki is very surprised by this
+  - Yui says that Gendo is quite sweet, once you get to know him
+  - Fuyutsuki replies that Gendo is certainly an interesting person, even though he's hard to like
+  - However, the rumor is that Gendo approached Yui because she was being supported by SEELE, and for her talents as a bioengineer, rather than because he genuinely loved her
+- Cut to 2002
+  - Humanity is still reeling from the Second Impact
+  - Fuyutsuki is practicing medicine in the ruins of Toyohashi City
+  - Man in a suit visits Fuyutsuki, and says that he's wasting his talents working as an unlicensed doctor
+  - Invites Fuyutsuki on a UN-sponsored expedition to Antarctica, to try to figure out what happened in the Second Impact
+  - On the ship, Fuyutsuki sees Gendo — surprised to see that Gendo survived, since he was supposed to be on the expedition
+  - Gendo states that he luckily returned to Japan the day before the Second Impact occurred, and was thus able to survive
+  - Gendo also tells Fuyutsuki that he and Yui are married and that the now have a son
+    - /One thing I found interesting is that Gendo took Yui's family name — is this normal in Japan?/
+  - Later, Fuyutsuki expresses his distaste for SEELE and its secrecy
+  - Gendo replies that no "clean" organization can survive any more
+  - Fuyutsuki realizes that his role is to be a token third party, to ensure that the expedition won't be composed solely of SEELE members
+- Cut back to 2015
+  - Misato is in a holding cell — says that she's still afraid of the dark
+- Flashback to 2002, aboard the research vessel
+  - Fuyutsuki sees Misato, in a brightly lit room, staring off into space
+  - The person he's with says that she hasn't spoken in two years, because of psychological trauma
+- Everything Fuyutsuki finds in the investigation raises more questions than it answers
+  - Localized atmospheric change
+  - Complete eradication of all living organisms, right down to the microscopic level
+  - Traces of an enormous spherical cavern right below ground zero
+  - Records of a "giant of light" 
+- However, shortly after the investigation completes, the UN releases a report that blames the Second Impact on a meteor traveling at 20-30% of the speed of light
+- Fuyutsuki realizes there's been a cover-up and that Gendo and Chairman Kiel are deeply involved
+- He investigates further and learns of Yui's involvement as well
+- Goes to Gendo, who is now the chief of the UN Artificial Evolution lab
+- Says that he figured out that Gendo _knew_ the Second Impact would occur when it did
+- Gendo was given away by the fact that he took his research with him when he left the expedition
+- Also notes that Gendo has far more money than can be explained by his work
+- Threatens to go public with these findings
+- Gendo asks Fuyutsuki to come look at something before he publishes
+- Takes Fuyutsuki underground into the Geo-Front
+- The Geo-Front is a cavern that is identical to the cavern under ground zero in Antarctica
+- Fuyutsuki wonders whether Gendo and SEELE are going to trigger another Impact
+- Gendo takes Fuyutsuki into the half-finished NERV headquarters, and shows him that, in addition to Yui, Ritsuko's mother is working there as well
+  - /At this point, both Ritsuko and her mother have reddish-brown hair, even though grown-up Ritsuko has blond hair/
+- Fuyutsuki is taken to the half-finished Eva 00
+- Asks whether this is Adam, and is told, no, this is Eva, created from Adam, by man
+- Gendo tells Fuyutsuki that SEELE's intention is to create a new era for mankind 
+- Jump back to 2015, where we see Ritsuko reminiscing about how she met Misato
+  - They met in 2005, in college
+    - /In the flashback, Ritsuko has blond hair, so she started dyeing her hair blond sometime between 2002 and 2005
+  - Ritsuko says that Misato is the only person she's met who isn't put off by the Akagi name
+  - She knows that Misato was the only survivor of the expedition, and remarks that she talks as if to make up for the years she spent aphasic
+  - We see Misato meet Kaji through Ritsuko's eyes
+  - While Misato takes a liking to Kaji, Ritsuko finds him sloppy and frivolous
+    - /This is a marked contrast to how Ritsuko and Misato view Kaji in the present day — Ritsuko thinks Kaji works hard, whereas Misato finds him sloppy and frivolous
+- Cut to 2003, with Fuyutsuki talking to Yui
+  - Fuyutsuki says that if the prophecies of the Dead Sea Scrolls hold, there will be a Third Impact some time in the next decade
+  - Yui replies that it's the job of Gehirn to prevent that from happening
+    - /Gehirn is the predecessor organization to NERV/
+  - Fuyutsuki replies that he won't go public with his findings
+  - Says that he'll support Yui's ideas, but not SEELE's
+  - Asks why it's necessary for Yui to be the first test subject
+  - Yui replies that she's doing it for Shinji
+- Cut to 2004, and the first Unit 00 activation test
+  - Fuyutsuki sees a toddler Shinji wandering around the test facility, and remarks that this isn't a kindergarten
+  - Yui apologizes and says that it was her idea to bring Shinji in on this important day
+  - The last thing anyone hears from her is her desire for Shinji to see the future
+  - During the activation test, something happened and Yui disappeared in unnatural circumstances
+  - Ritsuko's mom holds herself responsible
+- After Yui's death, Gendo throws himself into his work
+- Proposes the Human Instrumentality Project to SEELE
+  - /Gendo proposed the Human Instrumentality Project? But I thought Gendo was opposed to Instrumentality?/
+- Cut to 2008
+  - We see Ritsuko on her way to the Geo-Front
+  - She's accepted a job with Gehirn, just like her mother
+  - She goes into the half-finished command center and sees her mother kissing Gendo
+  - Overhears her mother telling Gendo that he can't forget Yui
+- Cut to 2010
+  - We see Gendo with Rei as a child
+  - Gendo introduces her as a "friend's daughter"
+  - Ritsuko's mom notices the resemblance with Yui
+  - Later, she tries to look up Rei's background but finds that her data files are completely blank
+- Cut to the completion of the Magi computer system
+  - Ritsuko tells her mother that she'll be leaving early to visit Misato, who is recently arrived from Germany
+  - Ritsuko's mom asks about Kaji and Ritsuko tells her that he and Misato broke up
+  - After Ritsuko leaves, her mother notices Rei in the command center
+  - Rei says that she's lost, but refuses Ritsuko's mother's offer to help
+  - Rei calls her an old hag and says that's what Gendo calls her behind her back
+  - This causes Ritsuko's mother to snap and strangle Rei
+  - As she's strangling Rei, she says that Rei can be replaced, same as her
+  - After killing Rei, Ritsuko's mom is consumed by remorse and throws herself from the top level of the headquarters, killing herself
+  - The next day, the Human Instrumentality Committee dissolves Gehirn and creates NERV in its place
+- Cut back to 2015
+  - Kaji rescues Fuyutsuki from captivity
+  - Fuyutsuki says this will cost Kaji his life
+  - Kaji says he doesn't care
+    - Just wants to get to the truth
+    - Besides, his life is already forfeit because he diverted the Adam sample to Gendo, against SEELE's orders
+- Cut to Misato
+  - Security officers release her from the holding cell and say that the matter has been resolved
+  - Don't tell her Kaji's fate, but Misato assumes the worst
+- Cut to Kaji standing in front of a ventilation duct
+  - Faces the camera, says "Hey, you're late," right before a cut to black accompanied by a gunshot
+- Cut to Misato arriving home
+  - Shinji is there, listening to his SDAT player and doesn't notice Misato arrive
+  - Misato notices a voicemail on the answering machine, from Kaji
+  - Says that the truth is with her now and that he's sorry for all the trouble he's put her through
+  - Upon hearing this, Misato breaks down
+- Shinji notices Misato crying
+- Realizes that he's still a child, because in that moment, there was nothing he could say or do for Misato

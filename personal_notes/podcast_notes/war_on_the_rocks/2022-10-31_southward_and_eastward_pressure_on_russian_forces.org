@@ -1,0 +1,74 @@
+#+OPTIONS: h:6
+#+TITLE: 2022-10-31 Southwards and Eastward Pressure on Russian Forces
+
+[[https://warontherocks.com/2022/10/southward-and-eastward-pressure-on-russian-forces/][Podcast link]]
+
+* Panelists
+- Ryan Evans
+- Michael Kofman
+
+* Southern Offensive to Retake Kherson
+- Ukrainian forces are in for a hard fight
+- Russians have reinforced their troops with mobilized conscripts
+- Fairly high density of forces
+- The Russian position is precarious but there are no sights that they are making plans to abandon the area west of the Dnipro
+- Russian logistics have been disrupted, but Russian forces still have sufficient ammunition and supplies to continue the fight
+- Ukrainians are prioritizing force preservation
+  - Trying to make gains without taking unnecessary losses
+  - Fight smart by using their advantages in long-range precision-guided artillery
+- The Ukrainian estimate that they can press the Russians out of their foothold west of the Dnipro is probably optimistic
+- Very different situation from Kharkiv/Luhansk
+- The infrastructure in this area isn't great and wasn't great even before the war
+- Overly optimistic analyses are not helpful
+- Russia isn't fighting dumb --- Russian forces are developing secondary and tertiary defensive fortifications and establishing lines of retreat
+
+* Donetsk
+- Wagner's "perpetual grind" against Bakhmut has suffered badly
+- Ukraine was able to counterattack in order to stabilize the situation
+- Pointless offensive --- the offensive makes no sense after the Russian defeat in Lyman and Izyum
+- The goal of this offensive appears to be to make a case for Prigozhin as Minister of Defense by showing that only Wagner is capable of making forward progress in Ukraine
+
+* Kharkiv/Luhansk
+- Ukraine has brought under fire the main road linking the two Russian hubs at Kreminna and Svatove
+- Series of pitched battles as Ukrainians try to push on Svatove and the Russians counterattack near Kreminna
+- Ukrainian offensive operations hampered by weather
+
+* Belarus
+- Not a high likelihood of Belarus launching an attack on Ukraine
+- Belarussian military not capable of operating on its own --- relies on Russia for support and logistics
+- No real objective for Belarus to attack; they don't have the combat power to drive on Kyiv
+- However, Belarus could possibly do some kind of raiding attacks against Ukrainian infrastructure targets
+
+* Russian attacks on Ukrainian infrastructure
+- Russian attacks are having an effect
+- Ukrainian cities are often dark at night because of electricity conservation
+- Ukrainians are able to fix damage relatively quickly for now
+- Russian goal appears to be wear down the Ukrainian ability to wear down the Ukrainian ability to repair and rebuild their infrastructure with a sustained bombing/loitering-munition campaign
+- There is a clear sense that the people programming these loitering munitions know what they're trying to hit
+- Russian efforts at infrastructure destruction might become more effective if Russia gets Iranian ballistic missiles
+
+* Nova Kakhovka dam
+- While it's possible that Russia has rigged the dam with explosives, it would be counterproductive for Russia to blow the dam
+- The eastern side of Kherson Oblast, which Russia controls, is lower ground than the western side
+- Russia would be flooding its own troops
+- Blowing the dam might also damage the canal that takes water to Crimea
+- If Russia does blow the damage, it would be an act of desperation
+
+* Mobilization
+- Large differences in training and equipment for newly mobilized troops
+- Some get 0 days of training, some get up to 30 days
+- Some units get obsolete T-62s, others get modern T-90s
+- Hard to build a consolidate picture of the newly mobilized conscripts
+- Numbers appear to be sizeable --- 200,000 is plausible
+- However, it's unlikely that the Russians have mobilized the 300,000 troops they've claimed to have mobilized
+- Ukrainians are taking the threat seriously
+- The real impact of mobilization will probably be seen in 3-4 months
+- A sufficient number of mobilized personnel allows Russia to rotate units and build an operational reserve
+
+* Dirty bomb threats
+- Not all that meaningful
+- Russians are just trying to get a reaction out of us
+- No practical use for a dirty bomb for either side
+- Kofman doesn't rate the probability of a Russian false-flag dirty bomb very highly
+- A bigger concern is the status of the Zaporizhzhia nuclear power plant
+- In the event of a successful Ukrainian offensive in that region, Russian leadership may be tempted to sabotage the reactors

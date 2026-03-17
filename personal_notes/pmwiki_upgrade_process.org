@@ -1,0 +1,6 @@
+* PMWiki Upgrade Process
+
+- Make a backup of the wiki.d directory, in case anything goes wrong
+- Get the latest version of PMWiki from https://pmwiki.org/wiki/PmWiki/Download --- file will be =pmwiki-latest.tgz=
+- Expand =pmwiki-latest.tgz= → =pmwiki-<version>/=
+- =cp -a pmwiki-<version>/. /var/www/quanticle.net=

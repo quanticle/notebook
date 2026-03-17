@@ -1,0 +1,8 @@
+#+TITLE: Electronics
+
+* Breadboard Wire
+- Breadboard wire is usually 22 AWG solid core
+
+* Shipping electronics
+- Buy polyethylene foam (Amazon)
+- Buy anti-static bags (Amazon)

@@ -1,0 +1,5 @@
+* Substitutes for Twitter and YouTube
+- Twitter: =https://twitter.com -> https://nitter.net=
+  - [[https://github.com/zedeus/nitter/wiki/Instances][Alternative instances if the main instance of Nitter is down or rate-limited]]
+- YouTube: =https://youtube.com -> https://invidious.snopyta.org=
+  - [[https://redirect.invidious.io/][Alternative instances if the main instance of Invidious is down or rate limited]]

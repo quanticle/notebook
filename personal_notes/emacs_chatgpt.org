@@ -1,0 +1,8 @@
+#+TITLE: Emacs ChatGPT plugin
+
+** Integration
+- Company mode?
+- yasnippet?
+
+** ChatGPT API
+

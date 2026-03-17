@@ -1,0 +1,604 @@
+#+TITLE: Strategy for a Post-Power Projection Era
+
+Center for Strategic and Budgetary Assessments\\
+December 2010\\
+
+* Introduction
+- With the end of the Cold War and the collapse of the Soviet Union, the US finds itself in a "unipolar moment"
+  - No rivals on any critical dimension of power
+  - Advantage over rivals exceeded even those of Britain during the /Pax Britannia/ era
+- While there are a number of political and economic factors behind American primacy, a large contributor is American military strength
+  - The US possesses the world's foremost land, maritime, aerospace and nuclear forces
+  - Dominates the "global commons", allowing it to deploy its forces across vast distances
+- The combination of military domination and an isolated homeland has allowed the US to defend its interests overseas at relatively little cost
+- Is the preferred ally for nations that fear local challengers more than a distant hegemon
+- However, we should not assume that this state of affairs will last forever
+- We need to grapple with the implications for American grand strategy if power projection is no longer cost-free for the United States
+- Potential adversaries are unlikely to compete with the US symmetrically
+- Are taking steps to offset or neutralize key US advantages in order to take advantage of our vulnerabilities in an asymmetric manner
+- This trend is already taking place across a range of conflicts
+  - Hezbollah, a non-state actor, used anti-ship missiles against the Israeli Navy in 2006
+  - Iran is combining ballistic missiles, cruise missiles, anti-ship missiles and swarming speedboats in order to challenge the US Navy in the Persian Gulf
+  - China is eroding the monopoly that the US enjoys on long-range precision guided munitions
+- These efforts are a mere harbinger of things to come
+  - "Proliferation of precision"
+  - Allows both state and non-state actors to build air defenses, long-range missiles and short-range precision systems with which to threaten US bases and deployed forces
+  - Proliferation can occur along two axes
+    - "Horizontal" --- increasing number of threat actors with a given sophisticated capability
+    - "Vertical" --- precision threats increase in depth, coverage and sophistication
+  - Permissive operating environments will gradually disappear
+- The US's ability to translate military strength into coercion could rapidly disappear
+- Two primary objectives:
+  1. Examine the causes and potential consequences of the US's declining ability to project power overseas
+  2. Develop a new grand strategy that will allow the US to preserve its leading position even as the cost of projecting power increases
+
+* Chapter One: American Power Projection From The Continental Era To The Cold War
+- Sustained US power projection abroad has been a post-1941 phenomenon
+- Prior to that, American foreign policy was characterized by relative isolationism, periodic expansionism and sporadic offshore balancing
+- /I would argue that we're returning to that long-term historical norm right now under the Trump administration/
+  - /Relative isolationism --- reluctance to intervene abroad/
+  - /Periodic expansionism --- taking Greenland from Denmark/
+  - /Sporadic offshore balancing --- supporting Israel against Iran/
+- By the midpoint of the second world war, however, it was clear to US policymakers that the US would need to take an active role in world affairs to prevent the emergence of a Eurasian hegemon and to ensure the stability of the international system
+
+** The First Century: Continental Expansion and Continental Defense
+- Although the US always had enormous potential power, it did not actually project that power abroad until the end of the 19th Century
+- Threats to national security largely arose in North America and were disposed of in North America
+- The US's small army and limited navy made power projection beyond this continent prohibitive
+- Therefore, the overriding goal for the US military was homeland and continental defense
+- Fit with US ideology
+  - Nation was more interested in expanding within the North American continent than in acquiring overseas territories
+  - Viewed large government-controlled militaries as threats to liberty at home
+  - Disinclined to get involved in disputes between European nations
+- At the same time, the US enjoyed an enormous amount of "free" security due to
+  - Geographic isolation
+  - Increasing strategic depth (/i.e. geographic expansion within North America making the US too large to physically invade and conquer/)
+  - European balance of power considerations making it impossible for other world powers to freely attack the US
+- During the "continental" era, the permanent Army remained a very small force
+  - Fluctuated between 6,000 and 15,000 troops prior to the Civil War
+  - In the 1880s, after the Civil War had ended, the Army had once again shrunk down to approximately 26,000 troops
+- Primary functions
+  - Disrupting strikes and riots
+  - Occupying forts along internal frontiers
+  - Pacifying Native American tribes that sought to oppose further westward settlement
+- In addition to the three primary functions above, the Army was also responsible for coastal defense
+  - In 1794, Congress authorized the construction and refurbishment of a number of coastal forts
+  - Following the War of 1812, President James Madison appointed a Board of Engineers to devise new coastal fortifications
+  - The US's threat assessment identified Britain as the primary potential adversary, and assumed that future conflicts would be similar to the War of 1812
+  - As a result, the US sought to build forts in order to protect coastal cities against seaborne attack
+  - Building a navy suitably powerful to act as a first line of defense was seen as being infeasibly expensive for the young nation
+  - Therefore, coastal fortifications were crucial
+    - Protected American naval bases, allowing the small US Navy to operate in a more offensive role
+    - Enabled the Army to concentrate at key defensive points, rather than dispersing itself all along a long coastline
+    - Prevented enemy fleets from accessing harbors and use them as staging areas for invading ground forces
+    - Forced opposing ground forces to land in relatively isolated and underdeveloped areas, allowing the US to call up militias and mobilize reserves in order to meet the threat
+- As the Indian Wars wound down in the late-19th century, the Army embraced its coastal defense role with more enthusiasm
+- Although coastal defense was initially also a Navy mission, the Navy quickly moved away from this role towards being a set of globally-dispersed squadrons focused on protecting US commercial interests abroad
+  - Stations included locations in Mediterranean, South Atlantic, Eastern Pacific, Western Pacific and Caribbean
+  - Each station was staffed by one or two frigates or ships of the line accompanied by a number of smaller vessels
+- These overseas squadrons were administrative rather than tactical units (/I'm guessing that this means that the ships overseas squadrons were not expected to coordinate closely in the field/)
+- Notably, the US did not make many territorial acquisitions to support these forward deployed squadrons, instead relying on leased basing rights and facilities shared with commercial operations
+- /One can make a similar analogy with Chinese naval expansion today/
+  - /China has not formally acquired territory or exclusive basing rights/
+  - /Instead it relies on building commercial ports with an implicit bargain that these ports will be available for naval use if necessary/
+- Despite the US Navy's small size and lack of overseas infrastructure, it was aggressive in promoting and protecting US commerce across the globe
+  - Engaged in over 130 punitive expeditions between 1798 and 1883
+  - Bombarded Algiers and the North African coast to deter Barbary pirates
+  - Opened China to American commerce following the conclusion of the First Opium War
+  - Opened Japan in the same manner after Commodore Perry's "black ships" entered Edo harbor in 1853
+- The US Navy was quite potent, however, it could not project power against any of the Great Powers of the era, except for individual ship-to-ship engagements and commerce raiding
+- Despite the massive mobilization for the Civil War, US overseas power projection efforts remained limited during the Continental Era
+- The US had a policy of passive defense that would allow for sufficient time for mobilization to occur if there was a threat to the homeland
+
+** The Spanish-American War to World War II: Overseas Expansion and Offshore Balancing in the Oceanic Era
+- The US began to emerge as a major military power in the 1890s
+- Planned major military campaigns overseas rather than conducting punitive strikes or commerce protection missions
+- At the start of this "oceanic" era, the US no longer faced any threats on the North American continent
+- Major threats came from the Atlantic and Pacific oceans, and the nations bordering those oceans
+  - Britain
+  - Japan
+  - Germany
+- As a result the US sought to establish supremacy across these oceans just as it had established supremacy within the North American continent
+- During this time, America was a rising power, with increasing geopolitical ambitions
+- A series of recessions punctuated by internal unrest convinced US policymakers that access to overseas markets was necessary for economic prosperity and domestic stability
+- As part of this, US forces participated in a multinational effort to suppress the Boxer Rebellion in China
+- The writings of Alfred Thayer Mahan began to influence the Navy Department
+  - Emphasized sea control and decisive battles between naval forces
+  - Led US officials to advocate for a fleet composed of battleships that could directly challenge major European and Asian rivals
+- Congress authorized a battleship construction program in 1893 and by 1898 the US had 11 battleships either in service or under construction along with a number of armored cruisers
+- By 1914, the US Navy was only behind Britain and Germany
+- Rather than dispersing its fleet as previous doctrine would have called for, the US concentrated its fleet in the Atlantic, in anticipation of decisive fleet battles that would decide control of the Atlantic
+- Positioning the fleet in the Atlantic also allowed the US to act against German influence in South America
+- The Spanish-American War made the US an imperial power
+  - The US acquired Puerto Rico, Guam and the Philippines
+  - Subsequently annexed Hawaii, Samoa and the Wake Islands
+  - Established a protectorate over Cuba
+- These territorial acquisitions enabled the US to sustain military forces at much greater distances
+- The need to defend these territories from external threats and internal unrest provided the motivation to project power
+- The US was also facing a greater sense of vulnerability
+  - The balance of power between European nations was breaking down
+  - British naval dominance was in decline
+  - Germany was building a blue-water navy to complement the most powerful army on the continent
+  - In Asia, the Anglo-Japanese alliance and the outcome of the Russo-Japanese War left Japan as the preeminent power in East Asia
+  - Steam power had made the transport of large-scale military forces across oceans a reality
+- The primary US concern was not an attack on the homeland, but threats to the Monroe Doctrine, which had said that European powers could involve themselves in Western Hemisphere affairs only with permission of the United States
+- After Britain effectively ceded domination of Caribbean to the US with the Hay-Pauncefote treaty of 1902, the primary threats to the US were Germany and Japan
+- The US was concerned about threats to a potential Panama Canal
+- However, the greatest security challenge was the defense of the Philippines
+  - The US Navy's fleet was unbalanced
+  - Overweighted in favor of battleships
+  - Neglected the cruisers, destroyers, transports and logistics ships necessary to sustain the fleet on a deployment in defense of the Philippines
+- The initial 1914 iteration of War Plan Orange, a study contemplating a potential conflict against Japan, highlighted that the US was simply unprepared to fight and win a war against Japan in the Western Pacific
+- Although the US sent over 2 million men to Europe to support Britain and France in World War 1, this was viewed by most as an aberration, and the US quickly returned to its policy of noninvolvement in European affairs
+- Over the next 20 years, the Army reduced in size from a peak of 2.5 million men to a low of 110,000
+- However, this was still a larger force than it was prior to World War 1
+- While the Army shrank, the Navy did not
+- Fleet remained qualitatively on par with the Royal Navy
+- US Navy continued to prepare for a conflict with another great power
+- This reflected a policy disagreement between the Navy and the Army
+  - Navy had a geographically expansive notion of American commercial and security interests
+  - Army emphasized autarky over trade, and held that its troop commitments to the Philippines, China and other overseas territory were unwise and unnecessary
+- During the second half of the oceanic era, the Army war structured for small wars and coastal defense, while the Navy was fixated on the possibility of a war with Japan
+- Japan became the primary security concern for the United States after German power had been shattered by the Treaty of Versailles
+- Reinforcing this concern was secret Japanese fortifications of islands that it acquired from Germany as a result of the post-World War 1 settlement
+- These islands lay astride the lines of communication connecting the US mainland to the Philippines
+- Would allow Japan to launch offensive operations into the Eastern Pacific, and provided strategic depth for a defense of its Home Islands
+- Although the US battle fleet was divided between the Atlantic and the Pacific following World War 1, by 1922 the fleet was reconsolidated in the Pacific to meet the Japanese threat
+- The Navy was also developing capabilities and operational concepts that would form the basis for US fleet maneuvers during World War 2 and the Cold War
+- Although the Navy still prized battleships as the core of its fleet, it experimented with naval aviation and submarines
+- Also developed mobile at-sea logistics to allow ships to be sustained in the absence of ports
+- Just as a growing sense of vulnerability preceded the shift from continental to hemispheric defense prior to World War 1, the US faced a growing sense of insecurity that would cause it to shift from hemispheric to global defense during the inter-war years
+- Many policymakers felt that the United States could no longer remain aloof from global affairs
+  - A British collapse would remove the lone obstacle preventing Germany from transiting the Atlantic and attacking the Western Hemisphere
+  - Fifth-columnists in Latin America could help establish air bases that would be used by hostile powers to attack the United States
+  - Long-range aviation was increasingly viable as a weapon, and if hostile forces gained a foothold in the Western Hemisphere or the Caribbean, the US homeland would no longer be safe
+- /I get all this, but I still don't see how this leads the US to shift from hemispheric defense to global defense/
+- /It seems to me like this would double the emphasis on hemispheric defense --- as the outside world grows more hostile, the US would withdraw and husband its resources to protect the Western Hemisphere/
+- This led to a debate between isolationists and interventionists around where to draw the line for US security interests
+  - Isolationists argued that US security interests should be strictly scoped to the Western Hemisphere only
+  - Interventionists argued that US needed to intervene in support of allies overseas in order to prevent security threats to the Western Hemisphere from becoming insurmountable
+- /Okay, so I wasn't the only one who was confused --- this was an active debate during the '20s and '30s/
+- After the fall of France in 1939 (/1939? France didn't surrender until June 1940/) and the attack on Pearl Harbor in 1941, the interventionists won the debate decisively
+- From 1941 to 1945, the US embarked on two of the most extensive strategic offensives in history, practically fighting two distinct major wars simultaenously on different sides of the globe
+- As the US began to look forward to the post-war world, hemispheric defense expanded into global commitments
+
+** The Cold War: Containment and Global Power Projection in the Transoceanic Era
+- With the defeat of Germany and Japan and the erosion of British military power, the United States emerged from World War 2 as the preeminent economic and military power
+- Had uncontested command of the seas
+- However, its erstwhile ally, the Soviet Union, threatened Europe
+  - Had a massive army which could overrun Europe by force
+  - Was exploiting post-war devastation to support local Communist parties to expand its influence and control
+- Given the dawn of the nuclear competition with the Soviet Union testing their own nuclear bomb in 1949, the US could no longer rely on the geographic isolation of the North American continent to keep its homeland safe
+- Nor could the US rely on European balance of power considerations to counterbalance the Soviet threat --- Germany, France and the UK were all either devastated or significantly weakened by the war and could not counterbalance the Soviet Union, either alone or together
+- As a result, the US formalized its commitment to Europe with North Atlantic Treaty, ratified in 1949
+- The US abandoned its former role as an "offshore balancer" and became deeply involved in European affairs in order to prevent Soviet hegemony from expanding
+- After World War 2, the US retained a much larger military than it had after World War 1 and established a set of forward bases with which to contain the Soviet Union
+- Broke from its long-standing tradition of isolationism and brokered a large number of alliances
+- In addition to NATO, the US signed the Rio Pact, CENTO, SEATO and ANZUS, cementing American commitments to Latin America, the Middle East, Southeast Asia and Oceania respectively
+- The US also signed bilateral defense agreements with Japan, South Korea and Taiwan
+- US forces' overseas basing was driven by two considerations
+  - The need to provide defense in depth to ensure US supremacy in the Atlantic and Pacific Oceans in order to keep hostile powers far from the US mainland
+  - The need to project American power quickly and decisively against any potential adversary
+- Although these two overarching policy objectives were clear as early as 1943, the specific details behind them remained unsettled throughout the 1940s
+- Initially, under the influence of George Kennan, the US emphasized a policy of defending geopolitical "strong-points"
+  - Major industrial centers in Western Europe as well as Japan which would greatly enhance Soviet industrial capacity if they fell within Moscow's sphere of influence
+  - Potentially vulnerable areas, such as Greece, Turkey and the Philippines bordering those strong points
+- However, under Kennan's successor, Paul Nitze, the US transitioned to a policy of "perimeter defense", which called for preventing the Soviet Union or its proxies from expanding their influence anywhere in the world
+- Perimeter defense was predicated on a "domino theory" whereby unchecked Soviet expansion anywhere would inevitably lead to the erosion of US interests
+- This policy was set for in NSC-68
+- While many in the Truman administration were skeptical of this policy, the outbreak of the Korean War appeared to confirm the view set forth in NSC-68 that the Soviet bloc was monolithic and expansionist
+- The Korean war resulted in persistent increases in US defense spending, and gave the Truman administration the justification it needed to allow West German rearmament
+- The US also increased its military commitment to West Germany in response to the Korean War, sending an additional 4 divisions to supplement the two already conducting occupation duty
+- However, under the Eisenhower administration, the US continued to expect that the need for troops in Western Europe would diminish as NATO allies rebuilt their own militaries
+- When it became apparent that conventional parity between non-US NATO forces and the Soviet forces in Europe was not achievable, the US began deploying its tactical nuclear weapons to Europe, signalling a long-term commitment by US forces
+- US analysts felt that the US had to establish a forward presence in Europe, as the reality of Soviet nuclear weapons meant that it was no longer certain that NATO could mount an effective counterattack if its forces were pushed back
+- The Korean War also led to a significant expansion in US basing
+  - Between 1945 and 1949, US forces had relinquished many of the bases that had enabled the US to project power into Europe and the Pacific during the World War 2
+  - However, by 1957, the system of US bases had expanded once again, in response to the Korean crisis
+- Consistent with NSC-68's emphasis on perimeter defense, the US extended its policy of containtment to continental Asia
+  - Began supporting French forces against Ho Chi Minh
+  - Continued to station troops in South Korea even after active hostilities were ended by the 1953 armistice
+  - The US 7th fleet patrolled the Taiwan Strait between mainland China and Taiwan
+- The US Navy, during this time, developed its deployment strategy that would continue for the remainder of the Cold War
+  - Carrier battle groups and logistical support ships forward deployed to
+    - The Mediterranean
+    - Northeast Asia
+    - Arabian Sea/Indian Ocean region
+  - Development of nuclear propulsion for carriers and submarines in order to allow them to remain forward deployed without requiring as much logistical support
+  - Prepositioned stockpiles of war materiel
+
+** Conclusion
+- The Cold War represents a major departure for the US
+- The US develops a forward-deployed military posture that replaces reliance on geographic isolation with deterrence created by the ability to project massive military force anywhere in the world
+- Provided deterrence against the Soviet Union and protected allies with extended deterrence
+- Much of this posture carried forward into the post-Cold War era, even as the threat from the Soviet Union receded
+
+* Chapter 2: Power Projection Hubris
+- After the end of the Cold War, the US had a military designed to deter a rival superpower, but its primary superpower rival had collapsed
+- Therefore, there was no one to contest the projection of US military power overseas
+- William Wohlforth observed that the US is the only state with a true blue water navy and global power projection capabilities
+- He argues that American's military advantage is so overwhelming, it has become self-perpetuating --- it's so obviously futile to compete with the US that no one will bother trying
+- /This is some true post-Cold War, pre-China hubris/
+- This optimistic assessment misses the importance of American military power for maintaining primacy and the fragility of that power
+
+** Power Projection, International Stability and US Grand Strategy
+- The ability to project military power overseas differentiates the US from its near-peer competitors
+- Russia and China only have militaries capable of projecting power against nearby states
+  - While Russia managed to defeat Georgia in less than a week, its effort revealed shortcomings in training, logistics and intelligence that would be magnified if Russia attempted to project power against a stronger or more distant adversary
+  - /That's some prescient writing, right there/
+  - China is emerging as the US's nearest military competitor, but will not be able to sustain small units far beyond the Chinese mainland until at least 2015, with major power projection capabilities not coming online for at least another decade after that
+  - /More prescient writing --- it's 2025 and Chinese power projection capabilities are finally coming online with its naval expansion and construction of modern CATOBAR carriers/
+- While the US is experiencing relative economic decline due in large part to the rise of regional powers such as India and China, few nations, China included, can realistically hope to develop comparable power projection capabilities over the next decade or so
+- Developing a modern blue-water navy requires
+  - Large-deck aircraft carriers
+  - Large surface combatants
+  - Amphibious assault ships
+  - Nuclear-powered submarines
+  - Infrastructure to build the above and sustain them
+  - Soldiers, sailors and airmen trained in conducting
+    - Long distance, long duration missions
+    - Carrier flight operations
+    - Anti-submarine warfare operations
+    - Underway replenishment
+- These weapons and skills cannot be developed quickly
+- /They can't be developed quickly, but they can be developed with a patient, systematic approach, and that is what the Chinese military has been doing over the past two decades/
+- The US also retains access to a vast network of foreign bases
+- This network would be almost impossible for a rival to replicate, as they're a legacy of US power projection during World War 2 and the Cold War
+- Arguably, US foreign basing is a legacy of the British Empire, which turned over significant infrastructure to the United States in exchange for its support in World War 2
+- American military power also helps underpin the stability of the international system
+- Major wars have often resulted when a dominant but declining power meets a rising challenger
+- These wars often occur between a dominant naval power, with the ability to project power globally (e.g. the Netherlands, Britain or the United States) and continental powers with large land forces and a desire to expand their territory (e.g. Spain, France, Germany, and the Soviet Union)
+- According to international relations theorists, when a there is a dominant naval power and no continental power dominates its region, major wars are avoided
+- However, when the major maritime power loses its economic and military dominance, and a continental power simultaneously achieves a preponderance of land power in its region, the stage is set for a catalytic war that will reshape the international system
+- /Is that where we are today?/
+  - /While the US may or may not be losing its economic dominance, its military certainly is no longer as dominant as it was in 2010/
+  - /Simulataneously, China has been heavily upgrading its military forces, and has arguably already achieved a preponderance of land power in Asia/
+- As a maritime nation that is simultaneously both the leading global naval and land power, US military dominance has helped underwrite two decades of global peace
+- Overseas power projection is the basis for the most important parts of American grand strategy
+- The US has two key strategic objectives
+  - Preserve stability in the world's major geostrategic regions
+    - Western Europe
+    - Northeast Asia
+    - Middle East
+  - Prevent the emergence of new poles of power and maintain sufficient regional peace and stability to uphold a US-dominated international order
+- During the Cold War, this involved preventing the Soviet Union from dominating the Eurasian landmass
+- Once the Soviet Union fell, the US shifted its attention to countering territorial expansion by rogue regional powers such as Iraq, Iran and North Korea
+- The US has also extended security guarantees to allies in order to prevent those allies from acquiring capabilities that would lead to destablizing arms races
+- Thirdly, the US has sought to maintain an economically liberal international order by ensuring freedom of the seas, in order to facilitate international trade
+- All of this is underwritten by the US's unprecedented ability to project power abroad
+
+** Traditional Challenges To Power Projection
+- Transoceanic power projection has historically presented nations with a host of difficulties
+- Power projection is subject to a host of variables
+  - Distance across which power must be projected
+  - Balance of resources between the nation projecting power and its intended target
+  - Quality and quantity of military platforms and technology
+  - Relative skill of personnel
+- In order to project power, a nation must successfully complete three steps
+  1. Deploy military forces beyond its territorial boundaries
+  2. Defeat the forces of its adversary or adversaries
+  3. Exercise control over the territory of the defeated opponent
+- The mere deployment of sufficient military power to defeat a foreign opponent is often difficult
+  - /Yeah, just look at the Russian effort in Ukraine, circa 2022/
+  - As the deployment distance of a military force grows, that force becomes weaker
+  - Supply lines lengthen
+  - The "tooth-to-tail" ratio shrinks as more resources must be devoted to logistics and the protection thereof
+  - This ensures that fewer men and weapons systems are available to engage the adversary as opposed to sustaining the overall effort
+  - /Overseas deployment are subject to a "rocket equation" of sorts --- the more troops a nation tries to deploy, the more troops are needed to sustain the troops being deployed/
+  - Geographic barriers often multiply the difficulty of foreign deployments
+  - Mearsheimer points out that when major powers are separated by large bodies of water, they find it difficult to project power against each other
+  - The body of water multiplies the natural dissipation of power over distance
+- Even if the nation can deploy a substantial force beyond its territorial boundaries, it has to deal with the fact that, in most circumstances, the defender has the advantage over the attacker
+  - A commonly cited rule of thumb in land warfare is that the attacker must possess a 3:1 numerical advantage over the defender to have a chance at success
+  - Absent this advantage, the defender can use his interior lines of communication to swiftly reinforce areas under assault
+  - The defender has the advantage of fighting on familiar ground that is often prepared for his benefit with fortifications, mines, obstacles, etc
+- Finally, even if the nation projecting power is successful at defeating defending forces, it must then control the territory that it has nominally conquered
+  - Historically, the radius of practicable rule has always been much smaller than the radius of military conquest
+  - Conquering armies achieve success via concentration
+  - Push through unpacified terrain, leaving just enough forces behind to safeguard its lines of communication
+  - Those who couldn't retreat before the conquering army would formally submit to it
+  - However, in order to establish political control over conquered territory, the conqueror must disperse his forces, throwing away his military advantage
+  - No conqueror in history has been able to overcome this dilemma
+- Furthermore, hegemonic powers, like Britain and the United States, often take regional attempts at power projection to be a challenge to their military primacy and intervene on the side of the defender
+- America's massive ability to project power therefore weakens the ability of all other nations to do so
+
+** The New American Way of War and the Anti-Access Challenge
+- The US has historically overcome the challenges to power projection by having vastly superior material resources, a higher technology level and a more proficient military
+- Even so, the difficulties the US faces in occupying Iraq and Afghanistan show that power projection across long distances remains difficult
+- We should expect the United States' ability to project power to decline in the future
+- Adversaries are studying and finding vulnerabilities in "the American way of war"
+  - The US tends to rely on large, heavy, high-signature units like carrier battle groups and heavy ground combat brigades
+  - These units are often composed of "low-density" assets that cannot sustain significant attrition
+  - Forces need extensive time to mobilize before combat operations are initiated
+  - The need to deploy forces across large distances means the US needs in-theater staging areas
+    - Airbases
+    - Ports
+    - Assembly areas for ground forces
+  - Coordinating forces across long distances requires an extensive space-based communications infrastructure
+- This style of power projection is due to several factors
+  - Post-Cold War "peace dividend" meant that the US military was no longer as large as it once was, and thus lost the ability to sustain losses
+  - The US has a long-standing preference for technological substitution --- prefers to use materiel rather than manpower whenever possible
+  - This preference has contributed to the acquisition of increasingly advanced, increasingly expensive platforms in ever smaller numbers
+  - The US has also changed its expected deployment strategy
+    - In the Cold War, the US military was a garrison force, expecting to fight a defensive war against invaders
+    - In the post-Cold War era, the US military has shifted to being an expeditionary force, deploying from permanent bases to distant theaters of operations
+- The US has three primary assumptions underlying its military planning since the first Gulf War
+  1. The US military will mostly be called up on to carry out one of two missions
+     - Peacekeeping and counterinsurgency operations against poorly armed and equipped forces
+     - Regional wars against countries like Iraq and North Korea, whose militaries are expected to resemble the Soviet Union in miniature
+  2. The US will have the support of local allies
+  3. The US will retain a unilateral advantage in precision weapons, resulting in minimal threat to logistics, C4ISR, and aerial and naval platforms that operate far from the battlespace
+- However, these assumptions no longer appear viable
+  - China is developing an anti-access/area denial (A2AD) network to guard its coastline
+  - This network is likely to include a number of long-range precision strike conventional weapons along with the C4ISR systems to enable those weapons to hit targets
+- This network is specifically designed to target US bases on allied soil in order to apply coercive pressure on those allies to deny those bases to the US during a potential pre-conflict deployment phase
+- China has also been developing anti-satellite and cyberwarfare capabilities to target US communication networks necessary both to deploy and coordinate US forces during any potential conflict
+- In China, the US is likely to face a well-prepared opponent who has structured its military to concentrate numerically superior forces against a smaller number of American platforms that cannot absorb attrition
+- In the face of this challenge, it is not clear that the United States can use its current operational concept without incurring an unacceptable level of risk
+- The China challenge is merely the first instance of a broader trend --- the "proliferation of precision"
+- Iran, for instance, is developing relatively advanced ballistic and anti-ship cruise missiles
+- Has purchased advanced Kilo-class diesel electric subs and is developing its own smaller "midget" submarines
+- While Iran's missiles are not yet considered to be very accurate, they could pose enough of a threat for other governments in the Middle East to deny US basing privileges in advance of a potential conflict
+- /This is one place where the paper's predictions don't hold up/
+- /Far from causing other Middle Eastern governments to deny the US basing rights, Iran's proliferation of advanced missiles has driven other Middle Eastern governments into the arms of the US, and, to a lesser extent, Israel/
+- /Other governments know that only the US and Israel have sufficient military power to challenge Iran directly, and so have expanded their cooperation with the US and Israel in order to get the US and Israel to extend their deterrence umbrella to them/
+- /Similarly, I'm not sure that China's coercive targeting of US airbases in Japan would work to keep Japan out of a potential conflict with China --- it might do the opposite by triggering the self-defense clauses in the Japanese constitution/
+- /During the latest Iran-Israel conflict, Iran's submarine force, and, indeed, Iran's entire navy, was totally irrelevant/
+- Hezbollah, during its 2006 war with Israel, used a number of guided weapons against the IDF, including anti-tank weapons and, in one instance, an anti-ship cruise missile
+- Since that conflict, Hezbollah has restocked its supplies and has worked to improve the sophistication of its arsenal by acquiring more anti-ship cruise missiles, shoulder-fired anti-aircraft missiles, Scud-type ballistic missiles and GPS-enabled solid rockets with a CEP of less than 200 meters
+- /Another point where the paper doesn't really hold up/
+- /Yes, Hezbollah's missile inventory was impressive, but Israel's Iron Dome was even more impressive/
+- /It's not a given that the proliferation of precision privileges offense over defense/
+- /The same technologies that make long range guided missiles easy to make make defensive interceptors even easier to make/
+
+** Conclusion
+- The United States has been able to avoid or overcome many of the challenges associated with transoceanic power projection through a combination of luck and investment
+- The dependence of the international order on the US's ability to project power overseas is underappreciated
+- The growing presence and sophistication of anti-access/area denial technologies will make overseas power projection more difficult in the future
+
+* Chapter 3: The Potential Consequences of a Post-Power Projection Era
+- During the first Gulf War, the combination of low-observable strike aircraft, precision munitions, and satellite-based tracking and communication systems enabled the US to defeat the Iraqi Army rapidly and with a minimum number of casualties
+- However, as adversaries have matured and deployed their own precision guided weapons, the United States can no longer rely on the sorts of unilateral advantages that it enjoyed during the Gulf War
+- The strategic consequences of this are dependent on a number of other factors
+  - How quickly potential adversaries develop anti-access/area denial capabilities
+  - How effectively those capabilities are deployed
+  - Whether US allies continue to remain under the US security umbrella or bandwagon with powerful regional actors
+  - What measures the US takes to offset a deteriorating military balance and maintain its presence in critical geostrategic regions
+
+** The Maturing Guided Weapons Regime and the Declining Viability of Power Projection
+- The continuing maturation of adversary reconnaissance-strike complexes (RSCs) will make overseas power projection even more difficult than it already is
+- Regional powers defending their territory or conducting limited campaigns in their near abroad could come to enjoy a decisive advantage over global powers attempting to conduct operations in distant theaters
+- Regional powers possess
+  - Greater knowledge of the relevant terrain
+  - Interior lines of communication
+  - Greater number of bases in proximity to the conflict theater
+  - Ability to quickly concentrate their forces against an opponent
+- By contrast, global powers such as the United States
+  - Have to keep forces dispersed to prepare for a wide range of contingencies
+  - Transport and sustain those forces over significant distances
+  - Rely on local allies for bases and infrastructure --- which can be denied in a crisis
+- A robust anti-access network is likely to exacerbate these "home field" advantages by making large concentrations of forces and "high signature" platforms more vulnerable
+- Overcoming these disadvantages may not be economically feasible
+- /That's true, but it also means that the nations being aggressed against could put up formidable defenses of their own/
+- /Every disadvantage that the US could come to face when fighting China in its backyard over Taiwan is a disadvantage that Taiwan, in turn, could impose on China/
+- /Just as the US will have to concentrate troops and deploy "high signature" platforms in order to counter an invasion of Taiwan, the PLA will have to concentrate troops and deploy high-signature platforms to mount a viable attack against Taiwan/
+- /These concentrations and platforms are just as vulnerable to Taiwanese A2/AD as US platforms are vulnerable to Chinese A2/AD/
+- /Unfortunately the Taiwanese have been investing in "conventional" "high-end" assets rather than A2/AD platforms/
+- These trends could converge to create a "defense-dominant" environment at the operational level
+- Any amphibious invasion would have to contend with submarines armed with wake-homing torpedoes, fast attack craft armed with anti-ship missiles, and land based mobile batteries of anti-ship cruise missiles
+- Forces that manage to make it to land would be vulnerable to guided rockets, artillery, missiles and mortars (G-RAMM) as they attempted to establish a beachhead
+- Even a ground invasion would have difficulty in an A2/AD scenario
+  - Increasingly sophisticated air defenses would make gaining air superiority over the adversary difficult
+  - Advancing ground forces would be vulnerable to G-RAMM, just like landing forces in the invasion scenario
+- These factors do not make power projection impossible, merely more expensive
+- A stronger state may determine that it is willing to pay even a dramatically higher price in order to project power in order to secure its interests
+- Specific types of power projection, such as missile bombardments, are likely to remain viable as they employ many of the same advantages that anti-access/area denial capabilities would gain
+- Thus it may be worthwhile to distinguish between means of power projection depending upon their requirement for manpower and sustainment in forward areas
+- Means of power projection that are relatively manpower and sustainment light will come to be favored over "heavier" means such as ground invasions
+- This suggests that regional powers are likely to launch wars that increase the costs of resistance and invite adversaries to capitulate while avoiding wars of outright conquest
+- /I feel like Vladimir Putin didn't get this memo/
+- /This does describe the current Middle East though/
+- /When Israel launched its campaign against Iran, it wasn't a regime change operation, it was an operation to coerce the existing Iranian government into a specific policy change, i.e. abandoning its nuclear weapons program/
+
+** The United States and Post-Power Projection World
+- These trends affect any nation seeking to project power beyond its immediate periphery, not just the United States
+- China, for example, has been building out a fleet of aircraft carriers and seeking a system of overseas bases from which to deploy and refuel them, which could leave it vulnerable to adversary A2/AD
+- However, the US is likely to be most affected by developments in defensive systems in the near-to-medium term
+- The US has spent decades building up its forces to support a particular power projection model
+- Therefore the US has more to lose if that model of power projection suddenly becomes vulnerable to new developments in weapons and tactics
+- American forces have become accustomed to relatively favorable operating conditions
+  - Access to large ports and airfields near the theater of operations
+  - Strong support of local allies
+  - Uncontested lines of communication
+  - Reliance on a diminishing number of increasingly vulnerable platforms
+- Even if adaptation is possible, the costs changing how the US military operates could be infeasibly high
+- The US is geographically isolated, yet has worldwide economic and military commitments
+- Therefore, future conflicts will likely take place far away from US territory
+- Scholars such as Barry Posen suggest that the US military is already facing challenges in "contested zones"
+  - Airspace below 15,000 feet
+  - Land areas with complex terrain, such as mountains, jungles or urban areas
+  - Littoral waters
+- In these contested zones, adversary can inflict losses on US forces with relatively rudimentary weapons
+- Adversary advantage comes from the ability to exploit local terrain and superior manpower
+- Contested zones will likely become more dangerous as time goes on
+- Deploying forces into hostile or contested terrain will become more difficult as the distance between those forces and their objective decreases
+- While precision has made accuracy independent of range, it has not made accuracy independent of cost
+- Short range precision-guided munitions will likely proliferate more than long-range munitions
+  - Less encumbered by treaty considerations such as the MTCR
+  - Require less sophisticated sensors to mark targets
+- These short-range munitions could enable relatively unsophisticated adversaries to build RSCs that can inflict damage on an unprepared opponent
+- Anti-access capabilities will be most dense in close proximity to adversary objectives
+- Contested zones are likely to expand and overlap with the "global commons"
+
+** Implications for the International System and American Strategy
+- The United States' ability to project military power is likely to erode
+- What are the implications of this erosion?
+- Can the US continue to maintain its primary foreign policy objectives
+  - Preserve freedom of the seas
+  - Deter expansionism
+  - Defend allies
+  - Retain its position as the global hegemon
+
+*** The End of Unipolarity
+- Military power and the ability to project that military power across oceans has been the basis of American unipolarity
+- While the US is likely to retain its advantages in military power, increasing adversary abilities to inflict costs is likely to render that advantage less relevant
+- It's unlikely that regional state and non-state actors will gain an ability to project military power comparable to the United States
+- This could result in the US becoming a "hollow hegemon" --- clearly pre-eminent in objective metrics of military power, but increasingly unable to effectively employ that military power to accomplish foreign policy goals
+
+*** The New Sources of Instability, Order, Conflict
+- If US primacy erodes or ends, several destabilizing possibilities could arise
+- Aspiring local hegemons could become emboldened
+  - Brandish militaries to exert dominance over local rivals
+  - Drive a wedge between the United States and local allies by attempting to demonstrate that the United States will not intervene on their behalf
+  - Create exclusive economic zones that are "carved out" of the global commons and lock out major power competitors
+- US allies could lose faith in security guarantees
+  - Forward-deployed US forces could shift from being security guarantees to tempting targets
+  - US allies could choose to deny the US basing rights in order to avoid being drawn into a conflict that they think the US cannot win
+- Nations that exclude themselves from the US-led global security architecture would have two options
+  - Build up their own militaries --- results in "zones of conflict" as regional powers clash and seek to establish new equilibria
+  - Bandwagon with local hegemons --- results in states becoming "Finlandized" as they reorient their economic and foreign policy under intense pressure
+- Major powers could come to rely on indirect methods of power projection
+  - Surrogate or proxy forces
+  - Conduct military campaigns in areas were A2/AD systems are less dense
+  - Would represent a return to pre-World War 1 Great Power politics
+    - Positional competitions like the "Great Game" between Britain and Russia in Central Asia
+    - Proxy battles like the 7 Years War between Britain and France in India and North America
+    - Cold War-style proxy conflicts (e.g. Korea, Vietnam)
+
+*** The Future of American Strategy
+- The increasing proliferation and sophistication of adversary RSCs threatens to undermine American grand strategy
+- Unless the US can find ways to project power effectively, it will be compelled to abandon its strategy of primacy
+
+* Chapter 4: Developing a Strategy for a Post-Power Projection Era
+- If the US is no longer able to project military power abroad nearly cost-free, then strategies and policies that depend on this ability are no longer viable
+- A strategy for this new era assumes the following
+  - Proliferation of precision-strike capabilities will continue, and possibly even accelerate
+  - However, the US will have the ability to shape the proliferation of these capabilities, e.g. by working to deny capabilities to some actors while accelerating their proliferation to others
+  - China represents the largest and most imminent threat
+  - Although there will be other threats beyond China, they will largely possess many of the same capabilities that China is seeking to build
+
+** A Strategic Alternative to Offshore Balancing
+- An inability to project military power abroad could prompt a retreat into isolationism
+- Proponents of a return to a strategy of offshore balancing welcome this outcome
+  - The size, insularity and nuclear arsenal of the United States renders it safe from most regional threats
+  - US's economic and military strength is waning, and strident efforts to preserve it will paradoxically accelerate its decline by prompting the creation of balancing coalitions
+  - America's alliances pose disproportionate risk to the US as they allow allies to free-ride on US security infrastructure while doing little to help themselves
+- However, there are several major problems with an offshore balancing strategy
+  - Relying on local actors to balance emerging threats is risky as local actors may instead bandwagon with the rising power
+  - Weaker balancing powers face coordination problems and an incentive to allow others to take the initiative
+  - Balancing powers must actually be strong enough to take on an emerging regional hegemon --- it's not at all clear that US allies could take on regional hegemons like China without direct US support
+  - US withdrawal could provoke regional security competitions which have been dampened by US presence
+- The US needs to maintain its forward presence, but it must radically rethink how it does so
+
+** Elements of a Strategy for the Post-Power Projection Era
+- In the past, US forces have been positioned to repel invasions and topple hostile governments
+- In the future, US forces may be limited to punishing hostile acts and denying foreign adversaries their objectives
+- Engage in military coercion that stops short of regime change
+- The US should invest in capabilities that can interdict enemy forces before they can project power
+- Aim to create zones of denial rather than zones of control
+- This represents a change from the traditional American way of war, which emphasizes offensive action and decisive battles
+- US allies will have to transition from being "protectorates" to "buffers", working with the US to enhance their own capabilities so they can take a more active role in their defense
+- However, these changes don't mean a complete break from the US's traditional strengths
+- The US will continue to dominate the global commons to confine its opponents to land
+- Should attempt to redirect military competition into peripheral theaters where anti-access/area denial technologies are less concentrated
+
+*** Preserving and Extending the Most Viable Elements of Power Projection
+- There are some concrete steps the US can take to preserve its ability to project power
+  - Build platforms and systems that can survive an initial onslaught of adversary precision-guided munitions
+  - Be able to operate from beyond the range of opponent A2/AD systems
+  - Develop new operational concepts to project power into non-permissive environments
+  - Divest capabilities that are vulnerable in an environment with significant adversary A2/AD
+- Long-range low-observable surveillance and strike platforms will be critical to deter and defeat opponents with robust A2/AD
+- Develop new stealthy strike platforms with large payloads and relatively inexpensive munitions
+- Land-based and submarine-launched ballistic missiles will remain extremely difficult to defend against
+- The US could develop conventionally armed ICBMs, however, this may be limited by treaty and political considerations
+- Undersea platforms will remain survivable, and their importance will grow as surface platforms are subject to greater risk
+- Dispersed, low-signature special operations forces will also be important
+- In addition to the above capabilities, which the US already possesses to a greater or lesser extent, the US should seek to build the following new tools
+  - Offensive cyber-warfare --- adversaries' greater dependence on C4ISR will likely result in more vulnerabilities that can be exploited by offensive cyber operations
+  - Directed energy weapons --- have the potential to reverse the offense-defense cost ratio when it comes to defending against missile salvos
+  - Surface-based ballistic missile launch ships
+    - Less expensive than undersea systems
+    - Able to launch from beyond an adversary's A2/AD envelope
+    - Shift military competition to the high seas, where the US still retains a significant advantage
+  - Forward-based ground-launched missiles
+    - Use short-ranged ground launched missiles to hold enemy formations and naval forces at risk
+    - Would be subject to the 1987 INF treaty and the Army's retirement of ballistic and cruise missile capabilities
+    - These forces might be a more effective tripwire, serving to deter adversary aggression
+    - /Another point where the paper shows its age/
+    - /The US would [[https://www.war.gov/News/News-Stories/Article/Article/1924779/us-withdraws-from-intermediate-range-nuclear-forces-treaty/][withdraw from the INF treaty]] in August 2019/
+    - /The Army is currently working to rebuild its ballistic and cruise missile capabilities, notably with the [[https://www.congress.gov/crs-product/IF12135][Typhon]] and the [[https://www.congress.gov/crs-product/IF11991][Long Range Hypersonic Weapon]]/
+- The US should divest itself of the following systems that would be vulnerable in an A2/AD environment
+  - Large surface combatants intended to project power against adversaries from close-in ranges, including aircraft carriers
+  - Short-range tactical aircraft that are dependent on forward bases that would be vulnerable in the opening hours and days of a conflict
+  - High-signature amphibious assault forces that require conventional landing craft and secure beachheads
+  - Heavy ground combat brigades, whose logistics would be vulnerable to enemy A2/AD
+  - Some high-visibility space platforms in low-earth orbit
+- Preserving capabilities that are likely to remain useful and divesting capabilities whose usefulness will end as adversary A2/AD becomes more robust will enable the US to manage its transition to the post-power projection era
+
+*** Transforming American Alliances and Creating Allied "Hedgehogs"
+- For the last 60 years, the US has deterred attacks on its frontline allies via
+  - Forward-stationed ground and air forces
+  - Nuclear security guarantees
+  - Promising to dispatch expeditionary forces to reinforce allies in the event that conflict does break out
+- In turn these allies
+  - Distracted Soviet power and attention
+  - Served as physical barriers against Soviet access to the high seas
+  - Provided bridgeheads into Europe and Asia
+  - Offered specialized military capabilities to complement US striking power
+- That said, US allies were ultimately entirely dependent on the US to provide security, a dynamic that accelerated after the fall of the Soviet Union removed the immediate security threat, especially in Europe
+- As the US's ability to project power declines, allies will have to take greater responsibility for providing for their own defense
+- Allies will face a choice between joining with emergent regional hegemons or developing their own independent and robust military capabilities
+- The US should encourage and support its allies in making the latter choice
+- Encourage allies to make miniature versions of China's A2/AD complex
+- Selectively proliferate advanced capabilities to chosen partners
+- Example: encourage countries such as the Philippines, Vietnam and Taiwan to develop robust anti-ship and anti-amphibious warfare capabilities to counter the PLAN's buildup
+- More capable allies could develop offensive capabilities of their own --- ex: Japanese Naval Self-Defense Forces could eventually acquire ship-based land-attack capabilities
+- /I think this displays a misunderstanding of Japanese domestic politics/
+- /It's one thing for Japan to build up its navy in order to defend its home islands; it's quite another thing to expect Japan to build up its navy to conduct strikes on the Chinese mainland/
+- Vietnam could purchase fast attack craft to swarm Chinese naval vessels in the South China Sea
+- In the case of resource-poor but strategically located nations like the Philippines, the US should work to ensure that they don't fall under China's sphere of influence
+- If US allies do begin to develop a greater ability to defend themselves, the US contribution to the alliance system will have to change as well
+  - US will still patrol and ensure access to the global commons
+  - US can still provide global infrastructure, such as navigation and timing data
+  - Provision of extended range precision-guided systems
+  - Global magazine and production line of precision-guided munitions
+- Historical antecedents
+  - Franklin Delano Roosevelt's "Arsenal of Democracy" approach
+  - Nixon's "Guam Doctrine"
+- In order for this transition to be successful, the US must cease encouraging its allies to develop power projection capabilities and instead encourage them to focus on domestic defense
+- The US defense-industrial base will have to be retooled to produce cheaper anti-access/area denial systems to compete against less advanced but less expensive foreign systems
+- The US will have to assume more risk in transferring technology to its partners
+
+*** Preserving Command of the Commons
+- A number of adversaries are beginning to challenge US control of the global commons, especially in areas such as space and cyber
+- However, the US still retains significant advantages in controlling physical space, especially in the sea and in the air
+- The US should focus on enhancing these strengths
+  - Naval forces should lean towards a mix of submarines and frigates
+    - Submarines, while expensive, will remain survivable even in the face of enemy anti-access/area denial
+    - Frigates are inexpensive and can be acquired in greater numbers
+    - /The problem here is that even an "inexpensive" frigate holds approximately 200 crew/
+    - /Losing one is not "inexpensive", it is merely less expensive than losing a carrier/
+  - Air forces should emphasize long endurance surveillance craft and high-volume bombers to conduct surface attacks
+  - Ground forces should seek to regain their anti-air and anti-ship capabilities
+- US naval superiority should be focused towards ensuring the free flow of international trade and denying adversaries the ability to secure economically important resources
+- Goal should be to divert conflict towards peripheral areas and insulate the Western Hemisphere
+
+*** Channeling the Competition Towards the Periphery
+- The United States and future peer adversaries will have trouble attacking each other directly because the proliferation of precision will contribute towards a "defense-dominant" environment
+- US advantages will be greatest in peripheral theaters where the US can use its advantages in command of the global commons, force projection, along with proxy forces, in order to impose costs on adversaries
+- The relative lack of anti-access/aread denial systems in these theaters will allow the US to use its legacy forces most effectively
+- One potential peripheral theater to contest growing global Chinese influence is Central Asia
+  - Persistent Chinese fears of irredentism in Western China
+  - Increased need for Central Asian resources to fuel its manufacturing economy
+- Proliferating short-range precision-guided weapons into Central Asia would potentially be a good way for the US to constrain and impose costs on China
+- /This is another area where the paper really shows its age/
+- /There's no way for the US to proliferate anything into Central Asia without Russian cooperation, and that's not going to be forthcoming anytime soon/
+
+*** Insulating the Western Hemisphere
+- The US needs to create its own anti-access/area denial systems to prevent adversaries from being able to position forces within the Western Hemisphere
+- Should also bolster defenses against long-range strategic threats, including space and cyber capabilities that could allow adversaries to strike at the US homeland from extended ranges
+- The US should update and bolster the Monroe Doctrine
+  - Oppose efforts by adversaries to stage long-range precision-strike capabilities within the Western Hemisphere
+  - Oppose efforts by other Western Hemisphere states to acquire long-range precision-strike capabilities
+  - 

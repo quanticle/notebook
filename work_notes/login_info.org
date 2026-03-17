@@ -1,0 +1,5 @@
+* Login Info
+- E-mail address =rpatnaik@nexteraanalytics.com=
+- SLID: =RXP02VD=
+- FPL Domain: =FPLNT=
+- Local domain: =windlogics\rpatnaik=

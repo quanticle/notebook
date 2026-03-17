@@ -1,0 +1,161 @@
+#+TITLE: Debian Linux
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+* Clean Install
+
+** Make Backups
+- Back up Downloads directory
+- Back up Videos directory
+- Back up Podcasts directory
+- Back up =~/.local/bin/= directory
+- Back up configuration files
+  - Alacritty
+  - Fontconfig
+  - mpv
+  - streamlink
+  - yt-dlp
+  - tmux
+  - Stylus user styles
+- Check in changes to notebook, journal, website and emacs-config repositories
+- Verify SSH and GPG key backups
+
+** Create Debian Install Media
+- Download the Debian netinstall image from =https://www.debian.org/=
+- Insert a thumbdrive
+- Use =sudo lsblk= to see which device (=/dev/sd*=) the thumbdrive is
+- Unmount the thumbdrive (if applicable)
+- =sudo cp <debian_image>.iso <thumbdrive_device>= (note: it's important to copy the image to the device itself (=/dev/sda=, =/dev/sdb=, =/dev/sdc=, etc) instead of a partition on the device (=/dev/sdc1=))
+- =sudo sync=
+
+** Install Debian
+
+** Install Cascadia Code fonts
+- Download Cascadia Code from =https://github.com/microsoft/cascadia-code/releases=
+- Install the individual =.otf= files
+- Set up Gnome Terminal to use Cascadia Code
+
+** Enable sudo access
+- =usermod -aG sudo quanticle=
+- Reboot
+
+** Restore =/etc/fstab= entries for removable media
+#+begin_src text
+  # External HDDs
+  UUID=e7362bba-4d26-4b01-937e-e13b685f6f7d  /home/quanticle/archive/archive_1  ext4  user,noauto,rw  0  0
+  UUID=04d56010-8ba4-471d-991d-d98a399322b5  /home/quanticle/archive/archive_2  ext4  user,noauto,rw  0  0
+
+  #Thumbdrive
+  UUID=80C7-3CB6  /home/quanticle/thumbdrive  vfat  user,noauto,rw,dmask=022,fmask=133 0 0
+  UUID=DE6D-E4AE  /home/quanticle/thumbdrive2  exfat user,noauto,rw,dmask=022,fmask=133 0 0
+#+end_src
+
+** Restore bash aliases
+#+begin_src bash
+  PS1="[\u@\h \W]$ "
+  unalias "ls"
+  unalias "grep"
+  alias cp="cp --preserve=timestamps"
+  function title {
+      PS1="\[\e]0;$*\a\][\u@\h \W]$ "
+  }
+  export PASSWORD_STORE_CHARACTER_SET="[:alnum:]?$@#%^&*"
+  function get_real_url {
+      curl -L --max-redirs 1 -o "/dev/null" -w "%{url_effective}\n" --connect-timeout "30" "$1"
+  }
+#+end_src
+
+** Restore SSH and GPG keys
+- Copy SSH key from =~/thumbdrive/laptop_ssh_keys/<latest_backup>/ssh/= to =~/.ssh/=
+- Set directory permissions to 700
+- Set file permissions to 600
+- Copy GPG key from =~/thumbdrive/gpg_keys/<latest_backup>/gnupg/= to =~/.gnupg/=
+- Set directory permissions to 700
+- Set file permissions to 600
+
+** Restore Password Manager
+- =sudo apt install pass=
+- =pass init "[ultimate] Rohit Patnaik <quanticle@quanticle.net>"=
+- =pass git init=
+- =pass git remote add origin "git@github.com:quanticle/pass.git"=
+- =pass git fetch=
+- =pass git checkout origin/master=
+- =pass git checkout -B master=
+- =pass git branch -u origin/master master=
+
+** Enable non-free software
+- =apt install software-properties-common=
+- =add-apt-repository contrib=
+- =add-apt-repository non-free=
+- =add-apt-repository non-free-firmware=
+
+** Install Java
+- =apt install openjdk-17-jdk=
+- =apt install openjdk-17-jre=
+
+** Install Leiningen
+
+- [[https://leiningen.org/#install][Install instructions]]
+
+** Install SBCL
+- =sudo apt install sbcl=
+
+** Install C compiler
+- =sudo apt install build-essential=
+
+** Get Emacs and Org-Mode
+
+*** Emacs
+- Remove pre-installed emacs (if applicable)
+  - =emacs-gtk=
+  - =emacs-common=
+  - =emacs-bin-common=
+  - =emacs-common-non-dfsg=
+  - =emacs-el=
+- Install prerequisites (libraries and development headers for those libraries)
+  - =libgtk-3-dev=
+  - =xaw3dg-dev=
+  - =libxpm-dev=
+  - =libpng-dev=
+  - =zlib1g-dev=
+  - =libjpeg-dev=
+  - =libtiff-dev=
+  - =libgif-dev=
+  - =librsvg2-dev=
+  - =libgccjit-12-dev=
+  - =libgnutls28-dev=
+  - =libncurses-dev=
+  - =libjansson-dev=
+  - =texinfo=
+- Download the latest emacs source from http://ftpmirror.gnu.org/emacs/
+- Expand the archive with =tar -xvf "emacs-<version>.tar.xz"=
+- =cd "emacs-<version>"=
+- Run =./configure --with-native-compilation --with-json --with-pgtk=
+- Run =make=
+- Run =src/emacs -Q= to verify that the build process produced a runnable emacs
+- Run =sudo make install= to install emacs into the system and make it available as a normal application
+
+*** Org-Mode
+- Get org-mode sources from: =git://git.sv.gnu.org/emacs/org-mode.git=
+- Clone into =~/emacs-org/=
+- Run make
+
+*** Emacs Configuration
+- =git clone git@github.com:quanticle/emacs-config.git ~/emacs-config/=
+- Switch to the =personal_computer= branch
+- Copy =init.el= to =~/.emacs.d/=
+
+* Get Notebook Repository
+- =git clone git@github.com:quanticle/notebook.git ~/notebook/=
+
+* Install Google Chrome
+- Go to =https://chrome.google.com/= and download the Debian installer
+- =sudo apt install ~/Downloads/google-chrome-stable_current_x86_64.deb=
+- Install the Stylus extension
+- Restore Stylus styles
+
+* Install =mpv= and codecs
+- =sudo apt install libavcodec-dev libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi ffmpeg mpv=

@@ -1,0 +1,243 @@
+#+TITLE: 2024 Rohan Car Shopping
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+
+(all prices include blind spot monitoring)
+
+* Tiny Cars
+
+** Nissan Versa
+- Blind spot monitor available at the SV trim level
+- MSRP: $19,970
+- Reviews
+  - [[https://www.edmunds.com/nissan/versa/][Edmunds review]]
+  - [[https://www.caranddriver.com/nissan/versa][Car and Driver review]]
+  - Reviews state that it is good value for the money
+  - However, it does seem to be rather small and underpowered
+
+* Small Cars
+
+** Toyota Corolla
+- Blind-spot monitor with rear-cross traffic alert optional
+- MSRP: $24,500
+- Reviews
+  - [[https://www.edmunds.com/toyota/corolla/][Edmunds review]]
+  - [[https://www.caranddriver.com/toyota/corolla][Car and Driver review]]
+  - Good fuel economy
+  - Small trunk
+  - Infotainment system can be laggy
+
+** Honda Civic
+- Blind-spot monitor only available on the EX trim level
+- MSRP: $27,000
+- Reviews
+  - [[https://www.edmunds.com/honda/civic/][Edmunds review]]
+  - [[https://www.caranddriver.com/honda/civic-2024][Car and Driver review]]
+  - This appears to be the reviewers' favorite small car
+  - However, it's also the most expensive small car
+  - Fuel economy isn't great either
+
+** Hyundai Elantra
+- Comes with blind-spot monitor standard
+- MSRP: $21,625
+- Reviews
+  - [[https://www.edmunds.com/hyundai/elantra/][Edmunds review]]
+  - [[https://www.caranddriver.com/hyundai/elantra][Car and Driver review]]
+  - Reviews highlight the 10-year/100,000 mile powertrain warranty
+  - Spacious rear seats
+  - Also seems to get really good fuel economy, while still delivering decent power
+  - Good looking car
+
+** Kia Forte
+- Blind spot monitor available on the LXS trim level, with the LXS technology package
+- MSRP: $22,145
+- Reviews
+  - [[https://www.edmunds.com/kia/forte/][Edmunds review]]
+  - [[https://www.caranddriver.com/kia/forte][Car and Driver review]]
+  - Same warranty as the Hyundai Elantra, but doesn't include roadside assistance
+  - Similar fuel economy as the Elantra as well
+  - Large trunk
+
+** Nissan Sentra
+- Blind spot monitor standard
+- MSRP: $21,180
+- Reviews
+  - [[https://www.edmunds.com/nissan/sentra/][Edmunds review]]
+  - [[https://www.caranddriver.com/nissan/sentra][Car and Driver review]]
+  - Slow
+  - Not especially good fuel economy
+  - Cheap, but not that cheap compared with something like the Hyundai Elantra
+
+** Subaru Impreza
+- Blind spot monitor available as an option on the Sport trim level
+- MSRP: $26,895
+- Reviews
+  - [[https://www.edmunds.com/subaru/impreza/][Edmunds review]]
+  - [[https://www.caranddriver.com/subaru/impreza][Car and Driver review]]
+  - Four-wheel drive standard
+  - Good handling, but acceleration is a bit slow
+  - Smooth ride
+  - Doesn't have A/C vents for the rear passengers
+
+** Mazda 3
+- Blind spot monitor standard
+- MSRP: $24,170
+- Reviews
+  - [[https://www.edmunds.com/mazda/3/][Edmunds review]]
+  - [[https://www.caranddriver.com/mazda/mazda-3][Car and Driver review]]
+  - The best looking and best driving small car
+  - Don't get the hatchback version --- terrible rear visibility
+  - Infotainment system is controlled by a knob, rather than being a touchscreen like on every other car
+
+* Big Cars
+
+** Toyota Camry
+- Blind-spot monitor standard
+- MSRP: $30,700
+- Reviews
+  - [[https://www.edmunds.com/toyota/camry/2024/][Edmunds review]]
+  - [[https://www.caranddriver.com/toyota/camry-2024][Car and Driver review]]
+  - It's a Camry
+  - Will be redesigned for the 2025 model year --- might be able to get a deal on 2024 models
+
+** Honda Accord
+- Blind-spot monitor only available on the EX trim level
+- MSRP: $29,910
+- Reviews
+  - [[https://www.edmunds.com/honda/accord/][Edmunds review]]
+  - [[https://www.caranddriver.com/honda/accord][Car and Driver review]]
+  - Reviewers always think the Accord is better than the Camry
+  - Has been freshly redesigned for this year
+
+** Hyundai Sonata
+- Comes with blind-spot monitor standard
+- MSRP: $27,500
+- Reviews
+  - [[https://www.edmunds.com/hyundai/sonata/][Edmunds review]]
+  - [[https://www.caranddriver.com/hyundai/sonata][Car and Driver review]]
+  - Also new for 2024
+  - Good fuel economy
+  - Roomy interior
+
+** Kia K5
+- Comes with blind-spot monitor standard
+- MSRP: $26,990
+- Reviews
+  - [[https://www.edmunds.com/kia/k5/][Edmunds review]]
+  - [[https://www.caranddriver.com/kia/k5][Car and Driver review]]
+  - Redesigned for 2025
+  - Reviewers like the tech, specifically calling out the number of USB charge ports that it has
+  - However the rear seat can be a bit small, especially for taller people, because of the Kia's sloping roof
+
+** Subaru Legacy
+- Blind spot monitor available as an option on the Premium trim level
+- MSRP: $28,195
+- Reviews
+  - [[https://www.edmunds.com/subaru/legacy/][Edmunds review]]
+  - [[https://www.caranddriver.com/subaru/legacy-2024][Car and Driver review]]
+  - Comes with all-wheel drive standard
+  - However, it's more expensive than its competitors as a result
+
+** Nissan Altima
+- Comes with blind-spot monitoring standard
+- MSRP: $26,370
+- Reviews:
+  - [[https://www.edmunds.com/nissan/altima/][Edmunds review]]
+  - [[https://www.caranddriver.com/nissan/altima][Car and Driver review]]
+  - Reviewers think the engine is underpowered
+  - Like the amount of interior space
+  - Good fuel economy
+
+* Small SUVs
+
+** Honda HR-V
+- Blind spot monitor available on the Sport trim level
+- MSRP: $27,200
+- Reviews
+  - [[https://www.edmunds.com/honda/hr-v/][Edmunds review]]
+  - [[https://www.caranddriver.com/honda/hr-v-2024][Car and Driver review]]
+  - Underpowered engine
+  - Uncomfortable front seats
+  - No USB charge ports for rear-seat passengers
+  - Roomy front seats, but rear seats are somewhat cramped
+
+** Hyundai Venue
+- Blind-spot monitor only available on the SEL trim level
+- MSRP: $22,000
+- Reviews
+  - [[https://www.edmunds.com/hyundai/venue/][Edmunds review]]
+  - [[https://www.caranddriver.com/hyundai/venue][Car and Driver review]]
+  - No all-wheel drive option
+  - Not great fuel economy
+  - Roomy interior that's easy to get in and out of
+
+** Hyundai Kona
+- Comes with blind-spot monitor standard
+- MSRP: $24,250
+- Reviews
+  - [[https://www.edmunds.com/hyundai/kona/2025/][Edmunds review]]
+  - [[https://www.caranddriver.com/hyundai/kona][Car and Driver review]]
+  - Seems like a solid small SUV
+  - Lots of legroom in the interior
+  - Soft suspension means that it doesn't handle very well and can lead to excess bouncing over bumps
+  - Reviewers like the cargo cover that can fold out of the way for larger items
+
+** Kia Seltos
+- Blind spot monitoring available on the S trim level
+- MSRP: $25,090
+- Reviews
+  - [[https://www.edmunds.com/kia/seltos/][Edmunds review]]
+  - [[https://www.caranddriver.com/kia/seltos][Car and Driver review]]
+  - Good styling, with Land Rover-esque design touches
+  - Lots of cargo space
+  - Comfortable seats
+
+** Kia Niro
+- Only comes as a hybrid, plug-in hybrid or EV
+- Blind-spot monitoring standard
+- MSRP: $26,940
+- Reviews
+  - [[https://www.edmunds.com/kia/niro/][Edmunds review]]
+  - [[https://www.caranddriver.com/kia/niro][Car and Driver review]]
+  - Impressive fuel economy, up to 53 mpg, as befitting a hybrid
+  - Quiet interior
+  - Reviewers call it out for having USB-A charging ports instead of USB-C
+
+** Nissan Kicks
+- Blind spot monitor standard
+- MSRP: $21,340
+- Reviews
+  - [[https://www.edmunds.com/nissan/kicks/][Edmunds review]]
+  - [[https://www.caranddriver.com/nissan/kicks-2024][Car and Driver review]]
+  - Slow engine
+  - No all-wheel drive option
+  - Roomy rear seats
+  - However, it's low price means it's a good value
+  - /Note: this information pertains to the 2024 Kicks. It has been significantly redesigned for 2025, with an upgraded engine, larger body, and much different styling/
+
+** Toyota Corolla Cross
+- Blind spot monitor only available on the LE trim level
+- MSRP: $26,190
+- Reviews
+  - [[https://www.edmunds.com/toyota/corolla-cross/][Edmunds review]]
+  - [[https://www.caranddriver.com/toyota/corolla-cross][Car and Driver review]]
+  - De-facto replacement for the Toyota CH-R
+  - Not great legroom in the rear --- compares poorly even against smaller competitors such as the Hyundai Kona
+  - Slow engine
+  - Comfortable ride
+
+* Toaster
+
+** Kia Soul
+- Blind-spot monitor available with the LX technology package
+- MSRP: $22,065
+- Reviews
+  - [[https://www.edmunds.com/kia/soul/][Edmunds review]]
+  - [[https://www.caranddriver.com/kia/soul][Car and Driver review]]
+  - Decently fast engine
+  - Lots of headroom and legroom in the back because of the boxy shape
+  - Huge storage, again because it's a box

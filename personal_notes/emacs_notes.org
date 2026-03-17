@@ -1,0 +1,1387 @@
+#+OPTIONS: toc:6; html-style:nil; num:nil; html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../html_export_style.css" />
+#+TITLE: Emacs Notes
+
+* Install the latest emacs on Ubuntu
+- Add Kevin Kelley's PPA for the latest emacs stable releases
+  - =sudo add-apt-repository ppa:kelleyk/emacs=
+  - =sudo apt update=
+- Then remove the existing emacs installation
+  - =sudo apt remove emacs emacs-common=
+- Then install the new emacs with native compilation
+  - =sudo apt install emacs28-nativecomp= 
+
+* Run emacs on Windows
+- Emacs, when installed using the scoop package manager, doesn't receive a desktop or start menu shortcut
+- Instead, to run emacs, bring up the Run menu with =Win + R= and type =runemacs.exe=
+
+* Movement:
+- Up: =C-p=
+- Down: =C-n=
+- Forward: =C-f=
+- Back: =C-b=
+- Page down: =C-v=
+- Page up: =M-v=
+- End of file: =M-S->=
+- Beginning of file: =M-S-<=
+- Matching parenthesis: =C-M-n= / =C-M-p=
+
+* Other common controls
+- Copy: =M-w=
+- Cut: =C-w=
+- Paste: =C-y=
+- Delete: =C-d=
+- Save file: =C-x C-s=
+- Quit emacs: =C-x C-c=
+- Find: =C-s= (search)
+  - Find with regexp: =C-u C-s=
+- Replace: =M-x replace-string=
+  - Replace regexp: =M-x replace-regexp=
+
+** Create a new file on disk
+- =M-x dired-create-empty-file=
+
+* Repeat last command
+- =C-x z= for first repeat, then =z= to continue repeating
+
+* Set font
+- =(set-face-attribute 'default nil :font "Cascadia Code PL-12")=
+  - On Windows, we need to specify the usage of ClearType anti-aliasing: =(set-face-attribute 'default nil :font "Cascadia Code PL-12:antialias​=natural)= 
+- =(set-face-attribute 'fixed-pitch nil :family 'unspecified)=
+
+* Set up the package manager
+#+begin_src elisp
+  (require 'package)
+  (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                      (not (gnutls-available-p))))
+         (proto (if no-ssl "http" "https")))
+    (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t))
+  (package-initialize)
+#+end_src
+
+* My Emacs packages
+- vscode-dark-plus
+- [[https://docs.projectile.mx/projectile/index.html][Projectile]]
+- [[https://github.com/abo-abo/swiper][Ivy]]
+- [[https://github.com/ericdanan/counsel-projectile][Counsel Projectile]]
+
+* Better buffer navigation with =ibuffer=
+- =(global-set-key (kbd "C-x C-b") 'ibuffer)=
+
+* Disable the bell
+- =(setq ring-bell-function 'ignore)=
+
+* Smooth scrolling
+- =(setq scroll-conservatively 9999)=
+
+* Disable the startup message
+- =(setq inhibit-startup-message t)=
+
+* Set the mode of the scratch buffer
+- =(setq initial-major-mode 'text-mode)=
+
+* Set the scratch buffer message to blank
+- =(setq initial-scratch-message "")=
+
+* Disable scroll bars
+- =(scroll-bar-mode -1)=
+
+* Disable menu bar
+- =(menu-bar-mode -1)=
+
+* Disable tool bar
+- =(tool-bar-mode -1)=
+
+* Show column numbers
+- =(column-number-mode 1)=
+
+* Enable display of parentheses
+- =(show-paren-mode 1)=
+
+* Set up the =vscode-dark-plus= theme
+- =(load-theme 'vscode-dark-plus t)=
+- Put this at the very end of =init.el=, after the auto-generated code
+
+* Projectile notes
+- Enable projectile and ivy completions with:
+  #+BEGIN_SRC elisp
+    (projectile-mode +1)
+    (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+    (counsel-projectile-mode 1)
+    (ivy-mode)
+    (setq ivy-use-virtual-buffers nil)
+    (setq ivy-count-format "(%d / %d) ")
+    (setq enable-recursive-minibuffers t)
+    (setq projectile-indexing-method 'alien)
+  #+END_SRC
+- Open a project with =C-c p p=
+- Open a file in a project with =C-c p f=
+- One limitation of projectile is that, in a git repo, it uses git commands to list files
+  - A deleted file will still show up in projectile if the deletion hasn't been committed
+  - To manually remove a file from the projectile cache: =M-x projectile-purge-file-from-cache=
+  - To manually remove a directory from the projectile cache: =M-x projectile-purge-directory-from-cache=
+- Remove a project from Projectile
+  - =M-x projectile-remove-known-project=
+- To force projectile to reindex a project (if newly added files aren't showing up, for example): =C-u C-c p f=
+- Projectile gets confused by the =workspace= directory in my home folder, and thinks =$HOME= is a Bazel project
+  - To fix this: =(assq-delete-all 'bazel projectile-project-types)=
+- To prevent projectile from automatically adding projects (such as my home directory), I need to
+  - Set =projectile-track-known-projects-automatically= to =nil=
+  - Manually add projects with =M-x projectile-add-known-project=
+- To forcibly enter a value when there are no ivy completions: =C-M-j= --- this is useful when trying to create a new file
+
+* Choose which browser emacs uses on a per-website basis
+- Add the following to =~/.emacs.d/init.el=:
+  #+BEGIN_EXAMPLE
+    (setq browse-url-handlers
+      '((".*fpl\\.com.*" . browse-url-chrome)
+        ("." . browse-url-firefox)))
+  #+END_EXAMPLE
+- If necessary (i.e. WSL), configure your browsers
+  - =setq browse-url-firefox-program=
+  - =setq browse-url-chrome-program=
+
+* Enable auto-revert of files
+- =(global-auto-revert-mode 1)=
+
+* Markdown Mode
+
+** Fix Markdown-mode fixed pitch font
+#+BEGIN_EXAMPLE
+  (set-face-attribute 'fixed-pitch nil :family 'unspecified)
+#+END_EXAMPLE
+
+** Markdown toggle check-boxes
+- =C-c C-d=
+
+** Markdown insert new list item
+- =M-RET=
+
+* Associate markdown with =text-mode=
+- =(add-to-list 'auto-mode-alist '("\\.md\\'" . text-mode))=
+
+* Copy from terminal
+- Select text
+  - MacOS: =M-| pbcopy=
+  - Windows: =M-| clip.exe=
+- Note that, in a terminal, =meta= is =option= on MacOS
+
+* Org-mode notes
+
+** Org change list type
+- =C-c -=
+- =S-<left/right arrow>=
+
+** Promote/demote heading/list item
+- Promote: =M-S-left=
+- Demote: =M-S-right=
+
+** Open link
+- =C-c C-o=
+
+** Lists
+- Insert list item: =M-RET= 
+- Insert to-do item: =M-S-RET=
+- Turn a list item into a todo: =C-u C-c C-c=
+- Toggle todo item: =C-c C-c=
+- Change list type: =C-c -=
+
+** Disable automatic indentation
+- To disable automatic indentation and stop org-mode from adjusting the indentation of child items when adjusting the level of headlines: =(setq org-adapt-indentation nil)=
+
+** Disable blank lines between plain list items
+- Set =org-blank-before-new-entry=:
+  #+BEGIN_EXAMPLE
+    (setq org-blank-before-new-entry '((heading . auto) (plain-list-item . nil)))
+  #+END_EXAMPLE
+
+** Prevent org-mode from truncating
+- =(setq org-startup-truncated nil)=
+
+** Set everything to be visible by default
+- =(setq org-startup-folded nil)=
+
+** Convert to markdown
+- Add the following to your =init.el=
+  #+begin_example
+    (require 'ox-md)
+    (setq org-export-with-toc nil)
+  #+end_example
+- Then export by launching the org-export dispatcher with =C-c C-e=
+- In order to export headings greater than heading level 3 correctly, add the following to the top of the file
+    #+begin_src 
+        #+OPTIONS: H:6
+    #+end_src
+
+*** Org-markdown (ox-md) exporter issue
+- Using =**= as the top level heading doesn't have the intended behavior in markdown export
+- Just like the HTML exporter, the markdown exporter has the same behavior --- treats =**= as the top level, and makes those =#= headings
+- Both HTML export and markdown export use =org-export-get-relative-level= to get the "relative" level of the headline when exporting
+- This means that whatever level is highest, whether it be =*=, =**= or whatever, is set as the highest header level in the exporter
+- However, the HTML exporter has a variable =org-html-toplevel-hlevel= that sets "top level" headings to =<h2>=, reserving =<h1>= for use as the page title
+- I need to implement a similar variable =org-md-toplevel-hlevel=, that sets a "top level" heading for markdown
+  - Create a =defcustom= variable
+  - Read that variable when setting up the =:options-alist=
+  - Need to read the value from the options when setting the output level for the headline
+    #+begin_example
+      (+ (org-export-get-relative-level headline info)
+	 (1- (plist-get info :md-toplevel-hlevel)))
+    #+end_example
+  - Doesn't look like I'll have to update TOC generation logic --- in the HTML version, that doesn't seem to be reading =:html-toplevel-hlevel=
+  - Will need to update the logic that outputs the TOC headline
+- Building org-mode is problematic on Windows
+- The best way to build is to push the code to a git repo and check it out under WSL
+  - Run =make all=
+  - Run =make autoloads=
+  - Copy the contents of the =lisp= directory to a directory in the home folder: =C:/Users/quant/org-mode-build=
+  - Add that directory to the load path: =(add-to-list 'load-path "C:/Users/quant/org-mode-build")=
+  - Restart emacs
+  - Make sure that =(require 'ox-md)= is in =init.el=, otherwise the markdown exporter won't load
+
+** Convert to HTML
+- To convert to HTML: =C-c C-e h h=
+- To set the title property add =#+TITLE:= to the top of the file, and get rid of the top-level heading
+- Keep using =**= as the primary heading level --- the HTML exporter can deal with having the highest heading level in the file be a second-level heading
+- This keeps things consistent between HTML and Markdown export
+
+** Convert to PMWiki
+- Writing a new exporter, [[file:ox-pmwiki.org][ox-pmwiki]]
+
+** Insert structure template
+- To insert a new structure template: =C-c C-,=
+
+** Edit structure template
+- To edit the contents of a template in a new window: =C-c '=
+
+** Add checkboxes to a simple list
+- On the first item of a list, =C-u C-c C-c=
+
+** Simplify checkboxes
+- 
+
+** Don't fold subtrees when yanking
+#+begin_example
+  (setq org-yank-folded-subtrees nil)
+#+end_example
+
+** Convert a plain list into a heading
+- =C-c *=
+
+** Sort headings
+- Select the range of headings that you want to sort, then hit =C-c ^= to bring up the sort dispatcher
+
+** Fix org-mode indentation
+- To prevent org from auto-indenting your headers
+  - Set =org-startup-indented= to =nil=
+  - Set =org-adapt-indentation= to =nil=
+
+** Escape formatting marks
+- To escape formatting (for example, equals signs in code blocks), add a zero-width space before the character being escaped
+- To add a zero-width space: =C-x 8 RET zero width space=
+
+** Add a newline without indenting
+- By default in Org 9.4 =RET= automatically indents
+- To insert a new line without indenting, hit =C-j=
+- To return to the old behavior, disable electric indent for org-mode
+  #+begin_example
+    (add-hook 'org-mode-hook (lambda () (electric-indent-mode -1)))
+  #+end_example
+
+** Task Management
+- First select one or more files which will be used for the agenda by visiting the files and hitting =C-c [=
+- To add a new agenda item: =S-M-RET=
+- To convert an existing headline into an agenda item: =C-c C-t=
+- To toggle the done state of an agenda item: =C-c C-t=
+- To add a deadline to an agenda item: =C-c C-d=
+  - To go forward one day: =S-<right>=
+  - To go back one day: =S-<left>=
+  - To go forward one week: =S-<down>=
+  - To go back one week: =S-<up>=
+- To display the agenda: =M-x org-agenda=
+  - I prefer a highly simplified agenda view
+    - Set the agenda to display just today by default: =(setq org-agenda-span 1)=
+    - Set the agenda to display just today's tasks: =(setq org-deadline-warning-days 0)=
+    - Get rid of the obnoxious red font and underline: =(set-face-attribute 'org-imminent-deadline nil :inherit 'default)=
+    - Get rid of the useless "Deadline:" prefix: =(setq org-agenda-deadline-leaders '("" "" ""))=
+    - Set a consistent face for every day in the agenda: =(setq org-agenda-weekend-days '())=
+  - To jump to the entry in the agenda file: =TAB=
+  - To refresh the agenda buffer: =g=
+  - To jump to another date: =j=
+  - Bind =C-c a= to launch the agenda dispatcher: =(global-set-key (kbd "C-c a") 'org-agenda-list)=
+- To prevent agenda entries with time of day indications from jumping to the top of the priority grid
+  #+begin_example
+    (setq org-agenda-sorting-strategy '((agenda deadline-up category-keep)
+                                        (todo priority-down category-keep)
+                                        (tags priority-down category-keep)
+                                        (search category-keep)))
+  #+end_example
+- To remove a file from org-agenda, visit the file and hit =C-c ]=
+
+** Building org-mode
+- If =make autoloads= fails with an =Org version mismatch= error, run =make clean=
+
+** Number and ordered list from a value other than 1
+- Prefix the list entry with =[@<number>]=
+  #+begin_src org
+    5. [@5] Item five
+    6. Item six
+  #+end_src
+
+** Promote and demote org items without using the arrow keys
+- To and demote items without having to use the arrow keys, set the following keybindings
+  #+begin_src elisp
+    (add-hook 'org-mode-hook (lambda () 
+                               (define-key 'org-mode-map (kbd "C-c <") 'org-metaleft)
+                               (define-key 'org-mode-map) (kbd "C-c >") 'org-metaright))
+  #+end_src
+- This does override some org-calendar keyboard shortcuts, but I never use them, so it's fine
+- This means that I can reduce my usage of arrow-keys in org-mode without having to install something as heavyweight as =evil=
+
+** Move org items up and down without using the arrow keys
+- To move items up and down without using the arrow keys
+  #+begin_src elisp
+    (define-key org-mode-map (kbd "C-c v") 'org-metadown)
+    (define-key org-mode-map (kbd "C-c M-v") 'org-metaup)
+  #+end_src
+
+** Expand all subtrees
+- To cycle the visibility state of all subtrees in the buffer: =C-u TAB=
+- To restore visibility to default: =C-u C-u TAB=
+
+** Remove numbers from headings when exporting
+- Add =#+OPTIONS: num:nil= to the top of the file
+
+** Remove footer from exported HTML file
+- Add =#+OPTIONS: html-postamble:nil= to the top of the file
+- To disable globally: set =org-html-postamble= to =nil=
+
+** Include images
+- To enable inclusion of images, first set =org-image-actual-width= property to a reasonable value in a list:
+  #+begin_src elisp
+    (setq org-image-actual-width '(512))
+  #+end_src
+- Setting the value in a list enables you to override the width with attributes in the file itself
+- Then, to actually include the image, put in a link (without description) to the image file:
+  #+begin_example
+    [[./images/cat.jpg]]
+  #+end_example
+- This will display the image at the default width
+- To override the width, set a width HTML attribute
+  #+begin_example
+    ,#+ATTR_HTML: :width 300px
+    [[./images/cat.jpg]]
+  #+end_example
+- Furthermore, images can have captions:
+  #+begin_example
+    ,#+CAPTION: A picture of a cat
+    ,#+ATTR_HTML: :width 300px
+    [[./images/cat.jpg]]
+  #+end_example
+- To toggle the inline display of images: =C-c C-x C-v=
+
+** Custom CSS for HTML export
+- To include custom CSS in HTML export, set the following options on the org-file
+  - =html-style:nil=
+  - =#+HTML_HEAD: <link rel​="stylesheet" type​=text/css href​="<path to stylesheet>"=
+  - For files in my notebook, the style sheet is =html_export_style.css= located in the root of the notebook
+- To disable the default style globally: set =org-html-head-include-default-style= to =nil=
+
+** Navigation
+- =C-c C-n= --- next heading
+- =C-c C-p= --- previous heading
+- =C-c C-f= --- next heading, same level
+- =C-c C-b= --- previous heading, same level
+- =C-c C-u= --- Go "up" a heading level
+- =C-c C-j= --- org-goto
+
+** Publishing websites
+- org-mode includes a publishing system that can export a _project_ to a set of HTML files ready for upload
+- Configured through =org-publish-project-alist=
+- The =car= of each element is a string that uniquely identifies the project
+- The =cdr= of the element is the configuration for the project
+  #+begin_src elisp
+    (:property "value" :property "value")
+  #+end_src
+- Alternatively, a project may be composed of multiple sub-projects
+  #+begin_src elisp
+    (:components ("project-name" "project-name"))
+  #+end_src
+- When such a "meta-project" is published, all the individual sub-projects are processed and published in order
+- Sources and destinations
+  - At a minimum emacs needs to know the sources and destinations of project files
+  - =:base-directory= --- specifies the source directory
+  - =:publishing-directory= --- specifices the output directory
+  - =:preparation-function= --- function that will be called prior to the publishing process starting
+  - =:completion-function= --- function that will be called after the publishing process completes
+- Selecting files
+  - At a minimum, all =.org= files will be selected
+  - =:base-extension= --- regular expression that matches extensions (without dot) of source files
+    - If you want to get all files in the source directory, set this to =:any=
+  - =:exclude= --- Regular expression that matches files to be excluded, regardless of their extension
+  - =:include= --- List of files that should be included regardless of =:base-extension= and =:exclude=
+  - =:recursive= --- Set this to non-nil to recursively check the base directory for files to publish
+- Publishing action --- I shouldn't have to mess around with this because the default action, HTML export, is what I want
+- I need to set the following options on the HTML publisher
+  - =:html-head-include-default-style nil=
+  - =:html-head "<link rel​=\"stylesheet\" type​=\"text/css\" href​=\"<path to stylesheet>\""=
+- Then I need to create a stylesheet for each page on the site
+- To actually publish the project
+  - =C-c C-e P x= --- to be prompted for which project to publish
+  - =C-c C-e P p= --- to publish the current project
+  - =C-c C-e C-f P p= --- Force-publish
+    - Re-publish all files in the site, regardless of whether they've been changed or not
+    - This is helpful if you've made changes to the template and want to re-publish the site to view template changes
+
+** Publishing Gemini Files
+- To export to the Gemini format, install [[https://melpa.org/#/ox-gemini][ox-gemini]] from MELPA
+  #+begin_src elisp
+    (use-package ox-gemini
+      :ensure t)
+  #+end_src
+
+** Publishing a RSS feed
+- Use [[https://github.com/emacsmirror/ox-rss][ox-rss]]
+
+** Tables
+- To create a table in org-mode, start a table with =|=
+- To re-align table rows, press =C-c C-c=
+- =Tab= moves to the next cell
+- =Shift-Tab= moves to the previous cell
+- =Ret= moves to the next row
+- =M-x org-table-blank-field= blanks the current cell
+- To override the automatic alignment for a row, use =<l>=, =<c>=, or =<r>= to indicate that a row should be left, center or right aligned respectively
+- To insert a new row: =M-S-<down>=
+
+** Org-mode debugging
+- To debug org-mode issues, run =make repro= from the org-mode repository
+
+** Org-mode link fontification issue
+- Repro steps
+  - Create a buffer with two lines
+    - The first line should have just a link (for example: ~[[https://www.google.com][Link]]~)
+    - The second line should be empty
+  - Place the point at the end of the first line and hit =M-x describe-char=
+  - Note that character is =C-j= and its face is =nil=
+  - Place the point at the beginning of the line, and use =C-s= to perform an incremental search for the link description (i.e. =Link=)
+  - Hit enter to leave the search
+  - Hit =C-f= or =C-n= to go to the next line
+  - Note that the link underline now appears to extend past the end of the link
+  - Note that the =C-j= at the end of the line now has the =org-link= face
+- This has been fixed as of the latest org-mode builds
+
+** Customize viewer for PDF files
+- To customize the applications used to open various file types, set =org-file-apps=
+- =org-file-apps= is an alist consisting of pairs, where the car is the filetype, and the cdr is the command line that should be invoked for the filetype
+  - Example: =("\\.x?html?\\'" . "firefox %s")= invokes Firefox on HTML and XHTML files
+  - Example: =("\\.pdf\\'" . "evince %s")= invokes evince on PDF files
+
+** Formatting Guidelines
+- Don't nest formatting inside other formatting
+  - If text is *bold*, don't /italicize/ it, or vice versa
+  - If +striking through+ text, remove the formatting marks from inside the text being struck
+  - Don't put formatting codes inside links, instead format the entire link
+- In notes, use /italics/ to indicate editorial opinion and *bold* to emphasize individual words or terms
+
+** Time Tracking
+- The way I want to do time tracking with org-mode is by setting up an org-mode file called =projects.org=
+- I'll put the projects that I'm working on in there, and then to track time, I can do =C-c C-x C-i= on the project to clock in and track time
+- =C-c C-x C-o= clocks out
+- To cancel a clock-in: =C-c C-x C-q=
+- To create a report of time spent
+  - Hit =C-c C-x x= to insert a dynamic block
+  - Select =clocktable= as the dynamic block type
+  - Set =:scope= to =file=
+  - Set =:block= to =today=
+  - Hit =C-c C-c= on the dynamic block to update it
+  - To update all clock tables in a file, hit =C-u C-c C-x C-u=, which updates all the dynamic blocks
+    - Can also type =M-x org-update-all-dblocks=
+- To get a weekly time card, specify =:tstart= and =:tend=, and make sure that the specified time stamps are quoted
+- To make the modeline clock display the current session time for a task rather than the total time clocked, set =org-clock-mode-line-total= to ='current=
+- Instead of tracking time for everything, my goal will be to try to get a certain amount of work done on projects in each week
+
+*** Make time-tracking truncate the headline
+
+- By default org-mode's clock displays the entire headline
+- But if the headline is long, this can take up unnecessary space on the modeline
+- I would like to truncate the heading to =n= characters when it is displayed on the mode line
+- Org uses =org-mode-line-string= to display the heading
+- This variable is updated with =org-clock-update-mode-line= in =org-clock.el=
+- There is a variable, =org-clock-string-limit= which should do this already, try setting it?
+- =org-clock-string-limit= works, but it's rather inelegant
+- It truncates the string, which means that the closing parenthesis doesn't show
+- I would like it to display a properly closed string, with an ellipsis
+- Right now, =org-clock-string-limit= is applied in =org-clock-update-mode-line=
+- I think it should be applied in =org-clock-get-clock-string=
+- How should I handle very small =org-clock-string-limit= values?
+  - Right now, it's handled in the dumbest way possible --- It just gets truncated down to some stupid thing
+  - Should it be handled the same way?
+  - How do I determine if the heading will be truncated entirely?
+- The overall headline format is
+  - =[<clock>] (<headline>)= if effort tracking is off
+  - =[<clock>/<estimate>] (<headline>)= if effort tracking is on
+- The =total length= is =clock length= + =headline length= + =5=
+- There are three cases
+  - =total length= less than =org-clock-string-limit= --- easy, do nothing, just build up the mode line string like normal
+  - =clock length + 5= less than or equal to =org-clock-string-limit= --- just show the (truncated) clock
+  - =org-clock-string-limit= is between =clock length + 5= and =total length= --- truncate the headline such that =total length= falls below the limit
+- I need to get rid of the hardcoded spaces and parens length
+  - Create a format-string for the mode-line string with the headline
+  - Create a format-string for the mode-line string without the headline
+  - Calculate the spaces and parens length by formatting the mode-line string for the headline with empty strings
+  - To get the length of a string: =length=
+- I accidentally lost the =org-mode-line-clock-overrun= face application
+  - I need to make it so that if elapsed time exceeds the logged effort estimate, I apply the =org-mode-line-clock-overrun= face
+  - The original code is
+    #+begin_src elisp
+      (propertize (org-duration-from-minutes clocked-time)
+                  'face
+                  (if (and org-clock-task-overrun
+                           (not org-clock-task-overrun-text))
+                      'org-mode-line-clock-overrun
+                    'org-mode-line-clock))
+    #+end_src
+  - I should be able to replicate this code when I evaluate =clock-format-effort-str=
+  - How do I test this behavior?
+  - I need to verify that the duration string has the correct property
+  - I can use =(get-text-property <position> 'face <object>)= to check what face a particular character has
+  - I need to set the =org-clock-task-overrun= flag, and check whether the clock string has the =org-mode-line-clock-overrun= face
+
+** Default directives for files meant for HTML export
+#+begin_src text
+  ,#+OPTIONS: num:nil
+  ,#+OPTIONS: h:6
+  ,#+OPTIONS: html-style:nil
+  ,#+OPTIONS: html-preamble:nil
+  ,#+OPTIONS: html-postamble:nil
+  ,#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+#+end_src
+
+** Link to headlines
+- A link to a headline should look like =[[* A Headline]]=
+- To insert these links, select some text, hit =C-c C-l= and set the link target to =* A Headline=
+- The link target needs to be the entire headline, not a subset
+- The link needs to have the same number of leading asterisks as the headline
+- To navigate to the linked item, hit =C-c C-o= on the link as usual and emacs will jump to the target headline
+- To go back to the link, hit =C-c &=
+
+** Make subscript and superscript require curly brackets
+- Set =OPTION: ^:{}=
+
+** Inline LaTeX
+- Prefer =\( \)= for LaTeX
+
+** Mark Ring
+- To set a mark: =C-c %=
+- To jump to the previous marks: =C-c &=
+- To clear the mark ring, add the following to your =init.el=
+  #+begin_src elisp
+    (defun clear-org-mark-ring ()
+      (interactive)
+      (setq org-mark-ring nil)
+      (setq org-mark-ring-last-goto nil)
+      (dotimes (_ org-mark-ring-length) (push (make-marker) org-mark-ring))
+      (setcdr (nthcdr (1- org-mark-ring-length) org-mark-ring) org-mark-ring))
+  #+end_src
+
+** Footnotes
+- =C-c C-x f= --- define or edit a footnote
+- =C-c C-c= or =C-c C-o= --- jump to footnote or jump back
+
+** Run org-mode unit tests
+- =make test= runs all tests
+- To run a single test: =M-x ert t RET=
+- Before running tests in a file, you should evaluate the =org-test.el= file as well
+  - Eval =org-test.el=
+  - Then eval the file
+  - If you've run tests in the file without eval-ing =org-test.el= first, you'll need to re-eval the file after you eval =org-test.el=
+
+** Org-mode stable IDs
+- I'd like to make stable IDs for org-export
+- Look at =org-export-get-reference=
+- When =org-export-get-reference= needs a new ID, it calls =org-export-new-reference=
+- The current implementation of =org-export-new-reference= creates a random reference ID
+- I shouldn't mess with that
+- Instead, what I should do is create a new function =org-export-new-stable-reference=, which takes the existing list of references, and the element we're creating
+
+** Insert subheading below current heading
+- Insert the text as a normal line
+- Then hit =C-c *= to turn the text into a heading
+
+** Configure which browser org-mode uses when you select a link
+- If necessary (i.e. WSL), configure your browsers
+  - =setq browse-url-firefox-program=
+  - =setq browse-url-chrome-program=
+- Then configure which browser you want to use for which websites:
+  #+BEGIN_EXAMPLE
+    (setq browse-url-browser-function
+      '((".*<domain>\\.com.*" . browse-url-chrome)
+        ("." . browse-url-firefox)))
+  #+END_EXAMPLE
+- This opens all =<domain>.com= sites in Chrome and everything else in Firefox
+
+** Remove links
+- Move the cursor onto the link
+- Hit =C-c C-l=
+- Delete the link URL
+- Leave the text alone
+
+** Kill Subtree
+- To cut an entire subtree: =C-c C-x C-w=
+
+* Set the cursor color
+- =(set-cursor-color "#<hex color>")= --- be sure to do this /after/ the =(load-theme)= call, otherwise the theme will overwrite your cursor color
+
+* Set the background color of highlighted text
+- =(set-face-attribute 'region nil :background "#<hex color>")=
+
+* Make Cascadia Code Italics work properly on Linux
+- Make sure to install the OTF versions of Cascadia Code rather than the TTF versions
+- Install the versions from the =static= directory
+- Make sure you've installed the GTK version of emacs, not emacs-lucid
+
+* Disable backup and autosave files
+#+BEGIN_EXAMPLE
+  (setq make-backup-files nil)
+  (setq auto-save-default nil)
+  (setq create-lockfiles nil)
+#+END_EXAMPLE
+
+* Magit
+- Install Magit with =M-x package-install RET magit RET=
+- Run magit with =C-x g=
+
+** Magit Manual
+https://magit.vc/manual/magit/index.html#SEC_Contents
+
+** Magit error
+- =error in process sentinel: magit-section-maybe-cache-visibility: Symbol's value as variable is void: alist-get=
+- Do a =M-x byte-force-recompile RET ~/.emacs.d/ RET= and restart emacs
+
+** Magit undo multiple commits
+- Open the recent commit log
+- Hit =M-SPC= to activate the region
+- Select the commits to revert, and hit =V v= to undo the changes
+
+** Add a remote
+- In the Magit menu, invoked by =C-x g=
+- Hit =M= to bring up the remote menu
+- Hit =a= to add a remote
+- =k= removes a remote
+- =u= updates the URL of a remote
+
+** Continue a rebase
+- After resolving conflicts, stage the files, then press =r r= to continue the rebase
+
+* Insert spaces instead of tabs
+- Add the following to your =~/.emacs.d/init.el=:
+  #+BEGIN_EXAMPLE
+    (setq-default indent-tabs-mode nil)
+  #+END_EXAMPLE
+- To replace tabs with spaces:
+  - =M-x replace-string=
+
+* Better Text editing
+#+BEGIN_EXAMPLE
+  (add-hook 'text-mode-hook
+    '(lambda ()
+       (setq indent-tabs-mode nil)
+       (setq tab-width 4)
+       (setq indent-line-function 'insert-tab)
+       (electric-indent-mode -1)))
+#+END_EXAMPLE
+
+* Windows
+- Emacs calls its splits =windows=, for historical reasons
+- What the rest of us call windows, Emacs calls =frames=
+- Split horizontally: =C-x 2=
+- Split vertically: =C-x 3=
+- Increase the height of a window: =C-x ^=
+- Increase the width of a window: =C-x }=
+- Equalize windows: =C-x +=
+- Close a window: =C-x 0=
+- Close all other windows: =C-x 1=
+
+* Replace string inside hidden variables
+- In org-mode, by default, =replace-string= will not replace strings inside org-mode links
+- To alter this behavior, set the =search-invisible= variable to =t=
+- To avoid matching hidden text, set =search-invisible= to =nil=
+- The default value of this variable is =open=, which expands links, etc, when their content matches the search text
+
+* Set frame title to buffer title
+#+begin_example
+  (setq frame-title-format "%b")
+#+end_example
+
+* Sensible buffer titles
+- To make emacs prepend the folder name to the filename when opening multiple files with the same name:
+#+begin_example
+  (setq uniquify-buffer-name-style 'forward)
+#+end_example
+
+* Disable C-z
+- By default emacs binds =C-z= to =suspend-frame=, which is annoying
+- To remove that keybinding
+  #+begin_example
+    (global-unset-key (kbd "C-z"))
+    (global-unset-key (kbd "C-x C-z"))
+  #+end_example
+
+* Display date and time in the mode line
+
+- Set the =display-time-format= variable to control how the time is displayed
+  #+begin_src elisp
+    (setq display-time-format "%l:%M %p %Y-%m-%d")
+  #+end_src
+- To remove the load average, customize =display-time-string-forms=
+  #+begin_src elisp
+    (setq display-time-string-forms
+          '(#1= ""
+                (propertize (format-time-string display-time-format now)
+                            'help-echo
+                            (format-time-string "%a %b %e, %Y" now))))
+  #+end_src
+- Finally enable the time display with
+  #+begin_src elisp
+    (display-time-mode 1)
+  #+end_src
+
+* Prevent the transfer of text properties when yanking
+- Set =yank-excluded-properties= to =t= in order to have emacs strip all text properties when yanking
+
+* Make emacs work like other text editors when it comes to highlighted text
+- Add =(delete-selection-mode 1)= to =init.el=
+
+* Delete all lines that match or don't match a regex
+- To delete all lines that match a regex: =M-x delete-matching-lines=
+- To keep lines that match a regex and delete everything else: =M-x delete-non-matching-lines=
+
+* Pretty-print XML
+- To pretty print XML, we have to counterintuitively use =sgml-mode=
+- =M-x sgml-mode=
+- =C-x h= to select the entire buffer
+- =M-x sgml-pretty-print=
+
+* Calc
+- To activate =M-x calc=
+- To move the trail pointer:
+  - =t p= --- moves the pointer up
+  - =t n= --- moves the pointer down
+- To grab the value that the trail pointer is pointing to: =t y=
+- To change radix
+  - =d<radix>=
+  - =d2= --- binary
+  - =d8= --- octal
+  - =d6= --- hexadecimal
+  - =d0= --- decimal
+- To enter hex numbers use =#= (e.g. =#2F=)
+- To enter numbers in a different radix than the current one, do =<radix>#<number>= (e.g. =10#15=)
+- To copy an entry off the stack, move the cursor onto the relevant stack entry with the movement commands, then hit =M-k=
+- To prevent copying from also copying the line number, set =calc-kill-line-numbering= to =nil=
+- To reset calc: =C-x * 0=
+- Disable trail display: =t d=
+- To sum numbers: =C-u <number of entries> u +=
+- To average numbers; =C-u <number of entries> u M=
+- To round a number to the nearest integer: =R=
+- To calculate the inverse of a number: =&=
+
+** Unit conversions
+- Calc can operate on numbers with units
+- To enter a number with a unit, hit ='= to enter algebraic input mode
+- Then enter the number, followed by a space, followed by the unit
+- To convert non-temperature units, use =u c=
+- To convert temperature units, use =u t=
+- To display the units table, in order to look up the abbreviations for units: =u v=
+- It's possible to have expressions with compound units
+  - For example
+    #+begin_example
+      '6 ft
+      '4 in
+      +
+    #+end_example
+  - This results in a value of =+ 4 ft + 7 in=
+  - In order to use this value in further computations, you need to simplify it by hitting =u s=
+
+** Random Numbers
+- To generate a random number: =k r=
+- If a numerical argument is given, it uses that as the range to draw random numbers from
+- Otherwise it uses the top of the stack as the range
+
+** Precision
+- =p= sets the precision of the calculator
+- =d f= sets the number of displayed decimal digits
+
+* Make auto-fill-mode behave better
+- By default auto-fill expects double spaces after sentence ends
+- To make auto-fill-mode respect single spaces after sentence endings set =sentence-end-double-space= to =nil=
+
+* Indent to tab stop
+- To indent to the next tab stop: =M-i=
+
+* Force update of version control info for current buffer
+- =M-x vc-refresh-state=
+
+* Remove version control info from the mode line
+- =(setq vc-handled-backends 'nil)=
+
+* Save all files without prompting
+- =C-u C-x s=
+
+* Fringe settings
+- To set fringe widths, call =(set-fringe-mode '(<left fringe width> . <right fringe width>))=
+  - Fringe widths that work on my laptop: =(set-fringe-mode '(8 . 12))=
+  - To disable fringes entirely and use =\= as a continuation marker: =(set-fringe-mode '(0 . 0))=
+- To set fringe colors: =(set-face-attribute 'fringe nil :background "#000000" :foreground "#000000")=
+
+* Find out which keys are bound to a command
+- =C-h w <command name>=
+
+* Add a new global key binding
+- Use =keymap-global-set= to add a new key binding
+- =(keymap-global-set (kbd "<key spec>") <command>)=
+
+* Better promotion and demotion keyboard shortcuts
+- To avoid having to reach for the arrow keys, define =C-c d= and =C-c p= as promotion and demotion in org mode (by default the keys are unassigned)
+  #+begin_example
+    (add-hook 'org-mode-hook (lambda ()
+      (progn
+	(global-set-key (kbd "C-c p") 'org-metaleft)
+	(global-set-key (kbd "C-c d") 'org-metaright))))
+  #+end_example
+
+* Paredit
+- [[https://mumble.net/~campbell/emacs/paredit.html][Paredit manual]]
+- [[https://raw.githubusercontent.com/joelittlejohn/paredit-cheatsheet/master/paredit.pdf][Paredit cheatsheet]]
+- To install: =M-x package-install RET paredit RET=
+- To enable:
+  #+begin_src elisp
+    (autoload 'enable-paredit-mode "paredit" "Turn on pseudo-structural editing of Lisp code" t)
+    (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
+    (add-hook 'cider-mode-hook #'enable-paredit-mode)
+  #+end_src
+- Paredit tries to keep parentheses balanced at all times
+- Automatically adds close parentheses when you add open parentheses
+- Doesn't let you delete parentheses unless all contents of the parentheses have been deleted
+- To enclose the following expression: =M-(=
+- To "unwrap" an expression: =M-s=
+- To "pull" the next expression into the current parentheses: =C-)=
+- To "push" the last expression out of the current parentheses: =C-}=
+
+* Load a file
+- To load an elisp file: =M-x load-file RET <filename>=
+
+* Reduce GC pauses
+- Sometimes emacs will pause randomly, due to its garbage collector
+- In order to reduce the frequency of garbage collector pauses on a machine with a large amount of RAM, set =gc-cons-threshold= to a high value (e.g. =8589934592= (8GiB))
+- Then set the GC to only run when emacs has been idle for 5 minutes with
+  #+begin_example
+    (run-with-idle-timer 300 t 'garbage-collect)
+  #+end_example
+
+* Make emacs use UTF-8 by default
+- =(prefer-coding-system 'utf-8)=
+
+* Set the home directory correctly
+- See =windows_notes.org=
+
+* Open a file as read-only
+- =C-x C-r=
+
+* Toggle a buffer as read-only
+- =C-x C-q=
+- Useful when viewing log files
+
+** Automatically make a buffer read-only when opening
+- Define a custom-function to make the buffer =fundamental-mode=, disable undo and open it read-only
+  #+begin_src elisp
+    (defun open-log-file ()
+      (fundamental-mode)
+      (read-only-mode)
+      (buffer-disable-undo))
+  #+end_src
+- Then configure Emacs to run this function when opening, e.g. log files
+  #+begin_src elisp
+    (add-to-list 'auto-mode-alist '("\\.log\\'" . open-log-file))
+  #+end_src
+
+* List all lines matching a regular expression
+- =M-x occur=
+
+* URL Decode
+- =(url-unhex-string "STRING")=
+
+* Dired
+
+** Make dired kill buffers associated with deleted files
+- Load dired-x
+- Set =dired-clean-up-buffers-too= to non-nil
+#+begin_example
+  (with-eval-after-load 'dired
+    (require 'dired-x)
+    (setq dired-x-hands-off-my-keys nil)
+    (setq dired-clean-up-buffers t))
+#+end_example
+
+** Create a directory with dired
+- =+= --- =dired-create-directory=
+
+** Bulk rename with dired
+- Hit =C-x C-q= to make the buffer editable
+- Edit the filenames using normal emacs commands
+- =C-c C-c= commits changes
+- =C-c C-k= abandons changes
+
+** Create a new file
+- =M-x dired-create-empty-file=
+
+* Emacs built-in version control
+- To enable, undo =(setq vc-handled-backends nil)=
+- To open a project, use =C-x v d= to open the directory in =vc-dir-mode=
+- To mark files
+  - =m= to mark an individual file
+  - =M= to mark all files with the same status as the current file
+- =x= refresh the buffer and hide up-to-date and ignored files
+- =q= to quit =vc-dir=
+- =C-x v v= to commit
+- After entering a commit message =C-c C-c= to confirm and commit the change
+- Recommended workflow
+  - Use =vc= to open projects and check in files
+  - Use command line =git= for everything else
+
+* Emacs built-in project management
+
+** Adding and removing projects
+- =C-x p p= --- switch project or open new project
+- =M-x forget-known-project= --- remove a known project
+
+** Project commands operating on files
+- =C-x p f= --- visit file in the current project
+- =C-x p g= --- find matches for a regular expression in the current project
+
+** Project commands operating on buffers
+- =C-x p b= --- visit a buffer associated with the current project
+- =C-x p k= --- kill all buffers associated with the current project
+
+* Language Server
+- To get IDE-like autocomplete, I need two components
+  - Language server support
+  - =company-mode=
+- In order to get language server support, I should install
+  - =lsp-mode=
+  - =lsp-java= (for Java specific support)
+- Then, add the following to =~/.emacs.d/init.el=
+  #+begin_example
+    (require 'lsp-java)
+    (add-hook 'java-mode-hook #'lsp)
+    (add-hook 'java-mode-hook #'company-mode)
+    (setq lsp-enable-snippet nil)
+  #+end_example
+- Install the =lsp-ui= package for better messaging from LSP
+- For JS/TS
+  - Install [[https://github.com/nvm-sh/nvm][nvm]]
+  - =echo "lts/*" > ~/.nvmrc=
+  - Add =nvm use= to =.bashrc=
+  - Log out and log back in
+  - =npm install --global typescript=
+  - =npm install --global typescript-language-server=
+  - Add the following to =~/.emacs.d/init.el=
+    #+begin_src elisp
+      (add-hook 'js-mode-hook #'lsp)
+    #+end_src
+  - Open a Javascript file, and you'll be prompted for which language server to install
+  - Install the =ts-ls= server, not the =jsts-ls= server
+- LSP servers are stored in =~/.emacs.d/.cache/lsp/=
+
+* Delete trailing whitespace
+- =M-x delete-trailing-whitespace=
+
+* Minimal emacs config for new machines
+#+begin_src elisp
+  (global-unset-key (kbd "C-z"))
+  (global-unset-key (kbd "C-x C-z"))
+  (prefer-coding-system 'utf-8)
+  (require 'package)
+  (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                      (not (gnutls-available-p))))
+         (proto (if no-ssl "http" "https")))
+    (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t))
+  (package-initialize)
+  (setq frame-resize-pixelwise t)
+  (set-face-attribute 'default nil :font "Cascadia Code PL-12")
+  (set-face-attribute 'fixed-pitch nil :family 'unspecified)
+  (setq ring-bell-function 'ignore)
+  (setq scroll-conservatively 9999)
+  (setq inhibit-startup-message t)
+  (setq initial-major-mode 'text-mode)
+  (setq-default initial-scratch-message "")
+  (setq-default indent-tabs-mode nil)
+  (scroll-bar-mode -1)
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (column-number-mode 1)
+  (show-paren-mode 1)
+  (delete-selection-mode 1)
+  (setq make-backup-files nil)
+  (setq auto-save-default nil)
+  (setq create-lockfiles nil)
+  (global-auto-revert-mode 1)
+#+end_src
+
+* Building emacs from source
+1. Remove prepare-installed emacs (if applicable)
+   - =emacs=
+   - =emacs-common=
+   - =emacs-goodies=
+2. Install prerequisites (libraries and development headers for those libraries)
+   - =libXaw3d=
+   - =libxpm=
+   - =libpng=
+   - =libz=
+   - =libjpeg=
+   - =libtiff=
+   - =libgif=
+   - =librsvg2=
+   - =libgccjit=
+   - =gnutls=
+   - =ncurses=
+3. Download the latest emacs source from http://ftpmirror.gnu.org/emacs/
+4. Expand the archive with =tar -x -v -f "emacs-<version>.tar.xz"=
+5. =cd "emacs-<version>"=
+6. Run =./configure --with-native-compilation=
+7. Run =make=
+8. Run =src/emacs -Q= to verify that the build process produced a runnable emacs
+9. Run =sudo make install= to install emacs into the system and make it available as a normal application
+
+*** To install emacs into your home directory
+- Run =./configure --prefix​=<home directory> --bindir​=<bin directory>=
+
+* JS-mode set indent amount
+- To set the indent amount to two spaces for =js-mode=
+  #+begin_src elisp
+    (add-hook js-mode-hook 
+              (lambda ()
+                (setq tab-width 2)))
+  #+end_src
+
+* Encrypt org-mode files
+- First set up emacs for encryption
+  #+begin_src elisp
+    (require 'epa-file)
+    (epa-file-enable)
+  #+end_src
+- Then, in the org-file, add this as the first line:
+  #+begin_example
+    # -*- mode:org; epa-file-encrypt-to: <e-mail address associated with GPG key> -*-
+  #+end_example
+- Save files with the extension =.org.gpg=
+
+* Add a confirmation dialog around quitting emacs
+#+begin_src elisp
+  (global-set-key (kbd "C-x C-c") (lambda ()
+                                    (interactive)
+                                    (if (y-or-n-p "Really quit?")
+                                        (save-buffers-kill-terminal))))
+#+end_src
+
+* Set auto-fill on a per-file basis
+- In general, I don't like having auto-fill, but on certain files, especially those containing a lot of plain text, it can be nice
+- To set auto-fill on a per-file basis: =-*- fill-column: 80; eval: (auto-fill-mode 1) -*-=
+
+* Rename frame titles
+- To get a reference to the current frame
+  #+begin_src elisp
+    (selected-frame)
+  #+end_src
+- To update the frame title: 
+  #+begin_src elisp
+    (modify-frame-parameters frame-reference (list (cons 'name new-name)))
+  #+end_src
+- Final function
+  #+begin_src elisp
+    (defun rename-frame ()
+      "Command to allow the user to rename frames. Prompts the user for a new frame
+    name. If the user passes 'default as the new frame name, this command resets the
+    name to the default value specified by FRAME-TITLE-FORMAT."
+      (interactive)
+      (let ((current-frame (selected-frame))
+            (new-frame-name (read-string "New frame name: ")))
+        (if (string-equal new-frame-name "'default")
+            (modify-frame-parameters current-frame (list (cons 'name nil)))
+          (modify-frame-parameters current-frame (list (cons 'name new-frame-name))))))
+  #+end_src
+- This changes the frame name from =frame-title-format=, the default frame name, to a string of the user's choosing
+- If the user passes a value of ='default=, it switches the name back to the default
+
+* use-package
+- =use-package= is a great way to ensure that your emacs configuration is the same from machine to machine
+- To ensure that =use-package= is installed
+  #+begin_src elisp
+    (if (not (package-installed-p 'use-package))
+        (package-install 'use-package))
+  #+end_src
+- Then, to actually use packages
+  #+begin_src elisp
+    (use-package <package-name>
+      :ensure t ;; Download the package from ELPA/MELPA, etc
+      :demand ;; Optional --- ensure that the package is loaded, instead of lazy loaded
+      :init
+      ;; Elisp code that will be run immediately before the package is loaded
+      :config
+      ;; Elisp code that will be run after the package is loaded)
+  #+end_src
+
+* Spell-checking
+- First make sure =ispell= or =aspell= is installed with the appropriate dictionaries
+- Then add the following packages to get flyspell to integrate with Ivy:
+  - =flyspell-correct=
+  - =flyspell-correct-ivy=
+  #+begin_src elisp
+    (use-package flyspell-correct
+      :ensure t
+      :bind (:map flyspell-mode-map
+                  ("C-;" . flyspell-correct-wrapper)
+                  ("C-c $" . flyspell-correct-at-point)))
+  #+end_src
+- Enable flyspell: =(add-hook 'org-mode-hook 'turn-on-flyspell)= to enable flyspell in org-mode
+- To use flyspell, hit =C-;= to jump to the nearest previous misspelled word, and bring up the suggestions list
+- To bring up the actions menu (i.e. to add the word to the personal dictionary), hit =M-o=
+
+* Android Development With Emacs
+- Looks like the easiest way to use emacs for Android development is to use Android Studio to create the project, then use the command line tools that are included in the project directory to run the project
+- Install Kotlin mode:
+  #+begin_src elisp
+    (use-package kotlin-mode
+      :after lsp-mode
+      :hook (kotlin-mode . lsp))
+  #+end_src
+
+* Emacs terminal
+- To launch a terminal in the current directory: =M-x term=
+- By default, Emacs' terminal launches in line-mode, a line oriented mode that assumes that programs will output lines of text
+- Line mode allows you to use normal Emacs shortcuts to move around the terminal and copy/paste text, but can cause issues with programs that output progress bars or other TUI elements
+- To accommodate those programs, switch to character mode, with =C-c C-k=
+- To switch back to line mode, use =C-c C-j=
+- To send a literal =C-c= to the program, use =C-c C-c=
+
+* Emacs Gemini Client
+- The emacs Gopher/Gemini client is [[https://github.com/emacsmirror/elpher][Elpher]]
+- To add to my emacs
+  #+begin_src elisp
+    (use-package elpher
+      :ensure t)
+  #+end_src
+- To launch elpher: =M-x elpher=
+- To navigate to a page: =g=
+  - Alternatively =o= will open the URL prompt and have it be initialized to the current URL
+- To go back: =u=
+- =s= displays history
+- To jump between links in a Gopher/Gemini page: =<Tab>= / =S-<=
+
+* Emacs get info on character at point
+- =M-x describe-char= tells you what the character is and what face(s) apply
+
+* Byte-recompile all packages
+- To force a recompilation of all installed packages
+  - Hit =M-:= to bring up the elisp evaluator
+  - Run =(byte-recompile-directory package-user-dir nil 'force)=
+
+* Emacs Lisp Programming
+
+** Jump to definition
+- To jump to definition of a symbol, use =M-.= to activate the xref functionality to go to definition
+- To go back to where you were before, use =M-,= to go back
+
+** Eval file
+- To eval an entire file: =C-c C-e= with no region active
+
+** Lisp Evaluation
+- Evaluate an Emacs Lisp expression and display it in the message buffer: =M-:=
+- Evaluate an Emacs Lisp expression and insert the result in the current buffer: =C-u M-:=
+- To evaluate an sexp in the current buffer and insert the result into the buffer: =C-u C-x C-e=
+  - Make sure the point is after the end of the sexp
+  - To insert the result of the evaluation on a new line, just add a new line after the sexp and hit =C-u C-x C-e=
+
+** Debugging
+- To set a breakpoint: =M-x debug-on-entry= and type the function name that you wish to debug
+- To remove a breakpoint: =M-x cancel-debug-on-entry= and type the function name that you no longer wish to debug
+- To view a variable's value: =p=
+
+** Regular Expressions
+
+*** To see if a string matches any one of a number of literal strings
+- Use the =regex-opt=
+
+* Child Processes/Subprocesses
+- To see which subprocesses are running for a given emacs session: =list-processes=
+
+* Diff Buffer with file on disk
+- =M-x diff-buffer-with-file=
+
+* Emacs Manual
+
+** Navigating Nodes
+- To access the emacs manual: =C-h r=
+- To go to the next page: =n=
+- To go to the previous page: =p=
+- To go to a sub-topic, press =m= to bring up the menu of subtopics
+- To go up a level: =u=
+- To follow a cross-reference, move the point onto the cross-reference and hit =RET=
+- To go back to the node from which you went to the cross reference, hit =l=
+
+** Navigating Within A Node
+- Page down: =space=
+- Page up: =backspace=
+- Jump to beginning of node: =b=
+- =space= at the end of a node jumps to the next node
+- =backspace= at the beginning of a node jumps to the previous node
+
+* Emacs Calendar Navigation
+- =C-f= --- Forward by one day
+- =C-b= --- Back by one day
+- =C-n= --- Forward by one week
+- =C-p= --- Back by one week
+- =M-}= --- Forward by one month
+- =M-{= --- Back by one month
+
+* Restore open files
+- To save and restore emacs files across a planned restart
+  - =M-x desktop-save=
+  - Restart emacs
+  - =M-x desktop-read=
+
+* Evil Mode
+- The best way to think about =evil-mode= is not that it's a total substitute for vim
+- Instead think of it as an alternative set of keybindings for emacs
+
+** Motion
+- Normal motion is with the vi =hjkl= keybindings
+- Page down is =C-f=
+- Page up is =C-b=
+- Evil mode also includes a command to scroll a half-page down, with =C-d=
+
+** Window Management
+- =:split= splits horizontally
+- =:vsplit= splits vertically
+- =C-w <hjkl>= moves the cursor between windows
+- =C-w o= closes all windows except for the current window
+
+** Org Mode
+- Although evil-org-mode includes a command to insert a new heading, I find it easier to just type a new heading manually
+- Hitting =o= on a list item creates a new list item beneath it
+- =>>= demotes the list item by one level
+- =<<= promotes the list item by one level
+- ~<<~ and ~>>~ work on selections as well as individual entries
+
+** Region
+- =v= activates the region
+- =C-v= activates block mode
+- Note that in evil mode the character under the cursor is part of the region, unlike in regular emacs, where the region ends one character prior to the cursor
+
+** Tables
+- =)= moves to the next table cell
+- =(= moves to the previous table cell
+
+** Calc
+- =evil-collection= swaps =u= and =U=
+  - =u= is now undo
+  - =U= is now the units command
+
+** Calendar
+- =evil-collection= includes vi-style keybindings for the calendar
+- Instead of =M-{= and =M-}= to backwards and forwards by one month, just use ={= and =}= directly
+
+** Programming
+- Evil mode defines =M-.= as =evil-repeat-pop-next=
+- In order to go to definition, hit =gd= in normal mode
+- In order to go back hit =M-,= just like in regular emacs
+- Or, alternatively, you can hit =C-o=, just like in vim
+
+* Use emacsclient as git editor
+- =git config --global core.editor "emacsclient -c"=
+
+* Load Files at Startup
+- To load files programmatically
+  - =find-file= --- for files
+  - =dired= --- for directories
+
+* Always load a file in its own frame
+- To always load a file into its own frame, update =display-buffer-alist= to specify that emacs should load the buffer corresponding to that file in its own frame
+- =display-buffer-alist= is a list of cons cells of the form =(condition . action)=
+  - =condition= can be many things, but in practice it's often a regular expression that matches the buffer name
+  - =action= is an alist that consists of =(functions . parameters)=
+  - =functions= is a list of "action functions" applied in order --- see the documentation for =display-buffer= for a list of action functions
+    - To open a buffer in a new frame, use =display-buffer-pop-up-frame=
+  - =parameters= is itself an alist containing the parameters to the action function
+    - For example, setting =parameters= to =((pop-up-frame-parameters . ((name . "<frame title>"))))= sets the name of the new frame used to display the given buffer
+- For example, I want to load my to-do list in its own frame, so I can add the following entry to =display-buffer-alist=
+  #+begin_src elisp
+    ("todo\\.org" .
+     ((display-buffer-pop-up-frame) .
+      ((pop-up-frame-parameters . ((name . "To Do"))))))
+  #+end_src
+
+* Get an elisp REPL
+- =M-x ielm=
+
+* Disable blinking cursor
+- Set =(blink-cursor-mode -1)=
+
+* Run a shell command
+- To run a shell command asynchronously
+  - =M-x async-shell-command=
+  - =M-&=
+
+* Remote editing with TRAMP
+- To edit a remote file with SSH, use the following file name format: =/ssh:user@host:/path/to/file=
+
+* Emacs Mode Line
+
+** Remove the list of major and minor modes
+
+- I want to get rid of the list of major and minor modes in the mode line, in order to free up space
+- The items shown in the mode line is controlled by =mode-line-format=
+- The default value of =mode-line-format= is
+  #+begin_src elisp
+    ("%e" mode-line-front-space
+     (:propertize
+      ("" mode-line-mule-info mode-line-client mode-line-modified
+       mode-line-remote mode-line-window-dedicated)
+      display (min-width (6.0)))
+     mode-line-frame-identification mode-line-buffer-identification "   "
+     mode-line-position (project-mode-line project-mode-line-format)
+     (vc-mode vc-mode) "  " mode-line-modes mode-line-misc-info
+     mode-line-end-spaces)
+  #+end_src
+- To update the value of the mode-line, use =setq-default= to update the default, rather than the buffer-local value
+- I should be able to remove just the =mode-line-modes= entry
+
+* Edit text in isearch
+- After hitting =C-s= to launch =isearch=, you can hit =M-e= to edit the text in the =isearch= interface
+- This is especially useful when you paste a search string
+
+* Configure Emacs to use tree-sitter grammars
+
+** Javascript/Typescript
+#+begin_src elisp
+  (add-to-list 'major-mode-remap-alist '(js-mode . js-ts-mode))
+  (add-to-list 'major-mode-remap-alist '(js-jsx-mode . tsx-ts-mode))
+  (add-to-list 'major-mode-remap-alist '(typescript-mode . typescript-ts-mode))
+#+end_src
+
+* List the major modes active in a buffer
+- The major mode for a buffer is stored in the =major-mode= variable
+- In order to list all the active minor modes, iterate =minor-mode-list= and check to see if the minor mode is active for the given buffer
+- In order to see if a minor mode is active, check to see if its symbol is bound and non-nil in the current buffer
+- Thus we can write the following function to get the list of modes:
+  #+begin_src elisp
+    (defun get-all-modes ()
+      (interactive)
+      (let ((active-modes '()))
+        (mapc (lambda (mode)
+                (condition-case nil
+                    (when (and (boundp mode) (symbol-value mode))
+                      (push mode active-modes))
+                  (error nil)))
+              minor-mode-list)
+        (push major-mode active-modes)
+        (message (string-join  (flatten-list `("Active modes:" ,(mapcar symbol-name active-modes))) " "))))
+  #+end_src

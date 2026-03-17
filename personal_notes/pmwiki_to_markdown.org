@@ -1,0 +1,39 @@
+* PMWiki To Markdown
+I need to convert the following PMWiki syntax elements:
+1. Headings
+2. Lists
+3. Code blocks
+4. Formatting
+   - Bold
+   - Italic
+   - Inline code
+5. URLs
+6. Code blocks
+
+** Headings
+- Headings are relatively easy:
+  - Convert =H2=: =s/^!!/##=
+  - Convert =H3=: =s/^!!!/###=
+  - Convert =H4=: =s/^!!!!/###=
+  - I don't think I use =H5= or =H6= anywhere, but they can be converted in similar fashion
+
+** Lists
+- Lists are considerably more tricky but can be converted from innermost to outermost
+- First figure out what the deepest list level is
+- Then replace all the stars before the deepest with four spaces
+  - Example: =s/^\*\*\*/        *=
+- I don't think I have lists nested more than 4 levels deep so searching for a 5th level list and working outwards from there should be sufficient
+
+** Formatting
+1. ='''''= -> bold & italic
+2. ='''= -> bold
+3. =''= -> italic
+4. =@@= -> inline code
+- Remember to substitute in that order
+
+** Code Blocks
+- Replace =[@ @]= with =```=
+- Then indent the code to match the indentation of the parent list element
+
+** URLs
+- =s/\[\[\([^[:space:]]+\) ?| \(.*\)\]\]/[\2](\1)/g=

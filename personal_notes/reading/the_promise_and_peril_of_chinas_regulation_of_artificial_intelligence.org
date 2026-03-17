@@ -1,0 +1,13 @@
+#+TITLE: The Promise And Peril of China's Regulation of Artificial Intelligence
+
+* Introduction
+
+- China has emerged as a pioneer in AI regulation
+- Unveiled the first regulation specifically for recommendation systems in 2021
+- The Chinese Cyberspace Administration (CAC) introduced laws addressing the production of deepfakes in 2023
+- When ChatGPT launched in November 2022, this prompted another flurry of legislation and rulemaking
+- Within 3 months, the Chinese government had a comprehensive framework for regulating generative AI
+  - Security assessments
+  - Algorithms need to be registered with the CAC
+- China is the only country in the world that requires ex-ante licensing for AIs
+- 

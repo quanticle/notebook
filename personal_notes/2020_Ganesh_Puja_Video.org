@@ -1,0 +1,18 @@
+* 2020 Ganesh Puja Video
+- 2 elements
+  - Intro video
+  - Photo slide show ** Make photo slide show using Powerpoint & export it to a file
+  - Add intro video at beginning
+- Timestamps:
+  - Start of first video: =0:05=
+  - End of first video: =1:30=
+  - Start of 2nd video: =1:42=
+  - End of 2nd Video: =5:42=
+  - Start of 3rd Video: =5:45=
+  - End of 3rd video: =7:12=
+  - Start of 4th video: =7:24=
+  - End of 4th video: =8:09=
+  - End of video: =8:15=
+- Start music: 0:10
+- End music: 0:24
+- Len: 0:14

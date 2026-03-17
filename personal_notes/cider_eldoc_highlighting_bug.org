@@ -1,0 +1,46 @@
+#+TITLE: CIDER eldoc highlighting bug
+
+- Bug: https://github.com/clojure-emacs/cider/issues/3307
+- Problem
+  - When the point is in a special-form, the highlighted element is incorrect, because the first element of the arglist for the special-form includes the special-form itself
+- What displays the documentation in the notification area?
+  - Handled by =cider-eldoc.el=
+    #+begin_src elisp
+      (defun cider-highlight-arglist (arglist pos)
+        (concat "[" (cider-highlight-args arglist pos) "]"))
+    #+end_src
+  - Is =pos= set incorrectly?
+  - =cider-highlight-arglist= is called by =cider-eldoc-format-arglist=
+- The actual function to look at is =cider-eldoc-format-function=
+  #+begin_src elisp
+    (defun cider-eldoc-format-function (thing pos eldoc-info)
+      (let ((ns (lax-plist-get eldoc-info "ns"))
+            (symbol (lax-plist-get eldoc-info "symbol"))
+            (arglists (lax-plist-get eldoc-info "arglists")))
+        (format "%s: %s"
+                (cider-eldoc-format-thing ns symbol thing 'fn)
+                (cider-eldoc-format-arglist arglists pos))))
+  #+end_src
+- The problem is that when we call =cider-eldoc-format-function= for a special form, the arglists in =eldoc-info= have the special form as the first element
+- =eldoc-info= comes from =cider-eldoc-info-in-current-sexp=
+  #+begin_src elisp
+    (defun cider-eldoc-info-in-current-sexp ()
+      (or (when cider-eldoc-display-for-symbol-at-point
+            (cider-eldoc-info-at-point)
+            (cider-eldoc-info-at-sexp-beginning))))
+  #+end_src
+- =cider-eldoc-info-at-point= calls =cider-eldoc-info=
+- The actual eldoc info comes from =(cider-sync-request:eldoc thing)=
+  #+begin_src elisp
+    (defun cider-sync-request:eldoc (symbol &optional class member)
+      (when-let* ((eldoc (thread-first `("op" "eldoc"
+                                         "ns" ,(cider-current-ns)
+                                         ,@(when symbol `("sym" ,symbol))
+                                         ,@(when class `("class" ,class))
+                                         ,@(when member `("member" ,member)))
+                                       (cider-nrepl-send-sync-request (cider-current-repl) 'abort-on-input))))
+        (if (member "no-eldoc" (nrepl-dict-get eldoc "status"))
+            nil
+          eldoc)))
+
+  #+end_src

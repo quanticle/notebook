@@ -1,0 +1,209 @@
+#+TITLE: GDPR and the Lost Generation of Innovative Apps
+#+OPTIONS: H:6
+
+Source: [[https://www.nber.org/papers/w30028#fromrss][NBER Working Papers]]
+
+** Introduction
+
+- In May 2018, the EU enacted the General Data Protection Regulation (GDPR)
+- Restricted the use of personal information
+- Required developers of mobile applications to engage in potentially costly compliance activities
+- Did this have the unintended consequence of restricting entries into the app market?
+- While it is difficult to tell which products will succeed in a market, the entry of new products into a given market has society-wide benefits
+- Digitization has thus benefited society by drastically reducing entry costs
+- GDPR is like digitization in reverse --- increases entry costs
+- Dataset: Google Play app store
+  - 4.1 million apps available between July 2016 and October 2019
+  - Measures of usage based on user ratings and cumulative installations
+- Questions
+  - Document the impact of GDPR on app exit, the flow of new app entry and the resulting number of available apps
+  - Explore the impact of GDPR on the privacy-intrusiveness of apps
+  - Examine the welfare impacts of GDPR, asking whether the lost apps would have been valuable to consumers --- does the smaller post-GDPR app birth cohort represent fewer aggregate installations and highly successful apps?
+  - Look for higher app development costs from increased realized usage
+- Structural welfare model
+  - Nested logit model
+  - Measure GDPR's impact on consumers and producers
+- Findings
+  - GDPR sharply curtailed the number of available apps
+    - When it took effect, GDPR precipitated the exit of a third of available apps
+    - After it took effect, the rate of new entry fell by 47.2% --- lost generation of apps
+  - The falloff of app entry prevented the launch of both successful and unsuccessful apps --- the number of apps reaching 10,000 or 100,000 cumulative installations within 4 quarters of launch fell by nearly as much as the overall decline in new apps
+  - Post GDPR, apps became less intrusive, but this can be modeled as the extension of an existing trend
+  - Average usage per app rose for apps launched after GDPR, consistent with GDPR raising application development costs
+  - The structural entry model yields a 32% reduction in consumer surplus and a 30.6% reduction in aggregate usage
+- Whatever GDPR's benefits, it has carried significant unseen costs in the form of a diminished choice set and increased costs
+
+** Background
+
+*** The App Market
+
+- The number of apps available on the Google Play app store increased from 300,000 in 2012 to 2.2 million in 2016
+- During 2016 and 2017, the number of new apps entering the store averaged 200,000 per quarter
+- Apps generate revenues from a combination of charging users and in-app advertising
+- Revenue from apps grew from $43.6 billion in 2016 to $83.6 billion in 2019
+- 2/3s of this revenue comes from Apple devices
+- Aggregate mobile advertising revenue grew from $80.7 billion in 2016 to $189.2 billion in 2019
+- From 2016 to 2019, just over 2/3s of all mobile app revenue was from ads
+
+*** GDPR
+
+- GDPR was an effort to protect privacy and harmonize privacy laws across states in the EU
+- Strengthened user privacy rights and forced app developers to take security measures
+- Under GDPR, app developers must guarantee users
+  - Access
+  - Rectification
+  - Erasure
+  - Restrictions on data processing
+  - Rights to data portability
+  - Right to object (/not sure what this means/)
+- Developers are to protect user data "by design and by default"
+- Law applies to all firms processing data of EU citizens, regardless of the firm's headquarters location
+- GDPR gives the EU the power to investigate and impose fines of up to 20 million Euros or 4% of annual revenue, whichever is larger
+
+**** Timing
+
+- Law was passed on April 27, 2016 and went into effect on May 25, 2018
+- Developers were aware of this law
+  - Increase in volume of Google searches for GDPR as the date of enactment approached
+  - Increase in volume of comments about GDPR on various forums, such as reddit and StackOverflow
+
+**** Anticipated Effects on Developers' Costs And Revenues
+
+- Conducted a survey of 650 German app developers in October 2019
+- Results are conservative, because of selection bias --- only those developers who were still in the app market were surveyed
+- The primary challenges with regards to GDPR as reported by developers were
+  - Administrative burdens
+  - Additional costs
+  - Lack of knowledge about the details of GDPR regulation
+- Developers mentioned spending money on hiring data protection officers
+- Spent substantial effort on implementing GDPR compliance
+- 1/7 of developers reported removing an app because it wasn't worth it to implement GDPR compliance
+- 1/11 of developers reported not launching an app because the increased costs imposed by GDPR compliance
+- Several developers experienced reductions in app revenue, especially if they received a majority of their revenue from in-app advertising
+  - /GDPR: working as designed/
+
+*** Related Literature
+
+- /I'm not summarizing this part, it's just the usual list of additional research papers you can read for more background about their modeling strategy/
+
+** Theoretical Framework
+
+- Based on the previous discussion, GDPR is anticipated to have two effects
+  - Raise operating costs of existing apps
+  - Raise development costs and reduce revenue from new apps
+- Both mechanisms should eliminate low-value apps --- those with few users and presumably generating little revenue
+- However, the less predictable app success is, the larger the effect on the overall value of the app choice set
+
+*** GDPR, entry, and exit
+
+- Developers contemplating creating an app form estimates of the revenue this app is expected to earn
+- This estimate can be modeled as $r = \rho + \epsilon$ where $\rho$ is the true revenue the app is expected to earn and $\epsilon$ is a random error
+- App development has a fixed sunk cost $C_0$
+- GDPR had two effects on this equilibrium
+  - Raised development costs to $C_1 > C_0$
+  - Reduced revenue by $\Delta$ such that the new revenue that an app was expected to earn was $r' = r - \Delta$
+- These changes affect entry and exit differently
+  - Effects on entry
+    - Products that may have had positive expected revenue prior to GDPR no longer have positive expected revenue, so the rate of new app entry falls
+    - Developers will only launch apps that have higher expected usage
+  - Effects on exit
+    - The incremental development cost attributable to GDPR is $\Delta C = C_1 - C_0$
+    - Apps already existing prior to GDPR are earning $\rho$ per time period
+    - Absent GDPR, apps continue existing until they are obsolete
+    - When GDPR goes into effect, the developer will look at the cost of bringing an app into compliance $\Delta C$ and will only bring the app into compliance if the ongoing revenue generated by the app, $\rho - \Delta$ exceeds $\Delta C$
+    - Unlike for entry, the revenue of existing apps in known, so existing apps will leave the market when the law goes into effect, not before
+- By reducing the available revenue per user and increasing development costs, GDPR requires the marginal app to attract more users in order to be successful in the market
+
+*** GDPR and welfare
+
+- The welfare of an app market consists of developer profit plus consumer surplus
+- *GDPR may improve privacy in ways that are socially valuable, but which consumers do not appreciate*
+  - /Yes, this is in fact the entire point of GDPR/
+- Welfare analysis provides a measure of the costs of GDPR to allow policymakers to balance the costs against the benefits
+
+**** Reduced Consumer Welfare from a Diminished Choice Set
+
+- GDPR can have a substantial value on the value of the app choice set to consumers
+  - Unpredictability of app quality at entry
+  - Dramatic reduction in the entry of new apps
+- The missing apps have low expected revenue, but given the uncertainty in app revenue, we can predict that many of these lost apps would have been valuable to consumers
+- If app success is unpredictable at the time of entry, the birth cohorts that contracted at the time of GDPR passage will account for less subsequent usage
+  - /They compare the reduction in number of new apps entering the market (cohort size, $x$) to the success of those apps, measured by reduction in cohort market share ($y$)/
+  - /If $x = y$, then GDPR did not have a selective effect --- developers don't have a good idea as to how valuable an app will be, so there's just a blanket reduction in the overall number of apps entering the market/
+  - /If, on the other hand, $x > y$, then there is a selective effect --- least valuable apps are staying out of the market while more valuable apps still enter/
+- However, apps are often substitutable
+- If GDPR prevents the entry of an app for which a close substitute already exists, consumer welfare may not be significantly impacted
+- /As far as I can tell thus far, their argument is essentially probabilistic/
+  - /Developers don't know how much money apps will make before they launch/
+  - /Consumer don't know how high quality apps will be before they're available/
+  - /Reducing the number of apps available thus reduces the value of the app choice set by preventing a large number of apps that would have been launched from launching/
+  - /Sure, most of these apps would have been shovelware junk, but there would have been presumably some gems in there that we're all missing out on because developers never entered the market after seeing the drop in revenue from in-app advertising/
+  - /But, on the other hand, there are already a million to-list apps out there. Does preventing the entry of the marginal to-do list app really hurt consumer welfare all that much?/
+
+**** Welfare Costs Borne By Producers
+
+- The second source of welfare costs arises from the additional costs and potentially reduced benefits borne by developers
+- Effects on expected revenue depend strongly on the predictability of app success
+  - If app success is completely unpredictable, then every app has the same expected revenue
+  - Expected revenue for all apps is zero, as the profits of successful apps would be balanced by the losses of unsuccessful apps
+  - If app success is somewhat predictable, however, then, on average, inframarginal apps generate more revenue than marginal apps
+    - If we assume that costs are the same across apps, then this implies that inframarginal apps generate profits on average, while marginal apps do not
+    - However, it might be the case that the cost of an inframarginal app are higher than the costs of the marginal app, so the equal cost assumption provides an upper bound on profit
+
+** Data
+
+*** Data Collection and Preparation
+
+- To measure GDPR's effect on the app market, we need to observe product entry, exit and app usage
+- These measures are derived from Google Play Store information
+- There is no available catalog of all apps
+  - Started with initial list of apps from AndroidPIT
+  - For every app in the AndroidPIT list
+    - Query Google Play Store
+    - Get a list of suggested apps
+    - Add any apps that haven't been seen before
+  - /How comprehensive is the AndroidPIT list/
+  - /What apps could be missed by this approach?/
+- Using the list derived above, the researchers queried the Google Play apps store quarterly between 2016 and 2019
+  - Added new suggestions as new apps entering the market
+  - Gathered quarterly data on each app's availability, cumulative downloads, and user ratings
+  - Observe privacy, features, and developer's country of origin for a subsample
+- This approach gives rise to two kinds of missing data
+  - Sometimes an app is missed during subsequent data collection passes, usually for a single quarter
+  - Affects 6.82% of all apps surveyed
+  - Not all apps are immediately surfaced by Google's related app suggestions, which means that sometimes new apps are not picked up in their birth quarter
+  - 89% of new apps picked up were picked up in the first four quarters of their lives
+- An app's exit data is the last quarter in which it was seen in the app store
+
+**** Supplementary Aggregate Data
+
+- Supplement the data that they gathered themselves with app installation data from AppBrain and AppMonsta (which covers iOS)
+
+**** App Usage Measures
+
+- Unable to measure usage time of each app
+- Unable to measure new installations in a quarter directly
+- Cumulative installations only available as a categorical metric
+- Use user ratings as a proxy for demand for welfare estimation
+  - /But user ratings are manipulated, especially for less widely known apps/
+- Use number of ratings as a proxy for total cumulative usage of apps
+  - /Once again, user ratings are so widely faked that I don't trust any derivatives of that data/
+
+**** Privacy Measures and Other Control Variables
+
+- Document the evolution of privacy measures surrounding the enactment of GDPR by looking at the proliferation of privacy policies and permissions requested by the app
+- Summary statistics
+  - Number of ratings per quarter
+    - Mean: 117.32
+    - Standard deviation: 6794.29
+    - /The standard deviation is literally an order of magnitude higher than the mean/
+  - Number of installations
+    - Mean: 1.3e+05
+    - Standard deviation: 8.9e+06
+  - Percentage of apps with privacy sensitive permissions
+    - Mean: 52%
+    - Standard deviation: 49%
+    - /I'm not even sure what this is measuring/
+    - /Is it the percentage of apps requiring privacy-sensitive permissions per quarter?/
+    - /The table is very poorly labeled --- the row is marked % of apps requiring privacy sensitive permissions, but the text indicates that the value is a fraction, not a percent --- guys there's a big difference between 0.52% and 0.52/
+

@@ -1,0 +1,56 @@
+#+OPTIONS: h:6
+#+TITLE: Ukraine and the Future of Offensive Maneuver
+
+Source: /[[https://warontherocks.com/2022/11/ukraine-and-the-future-of-offensive-maneuver/][War on the Rocks]]/
+
+- The initial impressions of the war indicated that the balance of power in modern warfare had shifted in favor of the defender
+  - Cheap, portable, precision munitions made concentration in advance of offensive maneuver risky
+  - Surprise was thought to be no longer possible given the plethora of air and space-based sensors monitoring the battlefield
+- However, this initial impression was premature
+  - Ukraine achieved operational surprise with its counteroffensive in Kharkiv
+  - Both the Kharkiv offensive and Kherson offensive used tanks and other armored vehicles to a significant extent --- /the tank is not dead/
+- Offensive maneuver warfare is far from over
+
+** Variations in Force Employment
+
+- The pattern of combat operations in Ukraine has provided examples of both successful offensives and successful defenses
+- Althoug the initial Russian offensive was poorly executed in many ways, it was successful in capturing a great deal of Ukrainian territory
+- Then, over the summer, battle lines stabilized with Ukrainian defenses holding firm even in the face of heavy Russian offensive pressure, especially in the east
+- In autumn, Ukrainian forces launched a pair of counterattacks, in Kherson and Kharkiv, aimed at recapturing a significant amount of territory before the end of the year
+- While the Kharkiv counteroffensive made great progress, the Kherson offensive struggled in the face of well prepared Russian defenses, resulting in slow progress and high casualties for Ukraine
+- The success of both offensive and defensive operations is hard to square with any kind of technologically deterministic theory that suggests that either offense or defense has an inherent advantage in this era of warfare
+- Precision guided munitions and modern surveillance have played a role in both offensive and defensive operations
+- Despite initial skepticism from Western observers on the continued utility of tanks in modern warfare, Ukraine's tanks have played a crucial role in both defensive and offensive operations
+- The real difference between Ukrainian and Russian armies has been force employment
+  - Ukraine mobilized early and received the advantage of Western training and equipment
+  - Allowed Ukraine to develop a meaningful operational reserve which exploited the weakness in the lightly manned Russian positions near Kharkiv
+  - Conversely, the undersized Russian invasion force was forced to make difficult choices about where to defend and where to attack
+    - Concentrated defenses in Kherson
+    - Attack near Bakhmut
+    - Accept risk in Kharkiv
+- Both sides have struggled against deep well-prepared defenses and enjoyed success against hastily constructed, lightly manned defenses
+
+** Repeating Lessons From the History of Land Warfare
+
+- None of the above should be surprising
+- Ever since 1917, it has been exceedingly difficult to achieve breakthroughs against well supplied, layered defenses
+- Although our impression of World War 2 is dominated by "blitzkrieg", the majority of the war was characterized by by relatively slow, grinding offensives
+- Similarly, in the Iran-Iraq war, both Iraqi and Iranian offensives foundered when they encountered prepared defenses
+- On the other hand, when attackers have achieved surprise or when defenders have been ill equipped or ill prepared, rapid offensive gains have been achieved
+  - 1972 Arab Israeli War
+  - Desert Storm
+  - Nagorno-Karabakh
+
+** Force Employment and Combat Outcomes
+
+- The fact that the post-World War 1 historical record (including the Ukraine War) includes examples of both offensive and defensive successes should make us wary of thinking in epochal terms
+- Instead of offense or defense having an "inherent" advantage, success usually goes to the side that employs its military forces more effectively
+- Even well trained attackers backed by modern weaponry will struggle when confronted by deep, well-supplied defenses
+- However, this sort of defense is not necessarily easy to set up and manage
+- New equipment rarely revolutionizes warfare
+
+** Long Live Offensive Maneuver
+
+- Even in the face of modern weapons and surveillance breakthroughs are possible
+- Conversely, covered and concealed positions are still difficult to break, even with modern sensors and precision guided weapons
+- We should be wary of redesigning militaries on an assumption that technology has fundamentally redefined the offense-defense balance

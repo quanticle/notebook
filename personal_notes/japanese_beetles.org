@@ -1,0 +1,10 @@
+#+TITLE: Japanese Beetles
+
+- Scientific name: /Popillia japonica/
+- Insecticides:
+  - Chlorantraniliprole
+  - Lambda-Cyhalothrin
+  - Acetamiprid
+  - Deltamethrin
+  - Phosmet
+  - Abamectin

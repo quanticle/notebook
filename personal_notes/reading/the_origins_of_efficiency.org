@@ -1,0 +1,42 @@
+#+TITLE: The Origins of Efficiency
+
+Brian Potter\\
+Stripe Press
+
+* Introduction
+- Efficiency is the art of making more with less
+- Doesn't seem like a particularly exciting topic
+- However, improvements in efficiency have been the basis for almost all civilizational progress over the past three centuries
+
+** The Story of Penicillin
+- While penicillin had been discovered in 1928 by Alexander Fleming, the original mold strain produced penicillin in too small a quantity to be therapeutically useful
+- Furthermore, penicillin in its initial state was far too delicate a substance to be isolated --- after several attempts Fleming had given up on attempts to isolate the specific chemical the mold was producing to halt bacterial growth
+- Ernst Chain, Howard Florey and Norman Heatly, biologists at Oxford University, found that by carefully controlling temperature and pH, penicillin could be preserved long enough to allow it to be freeze-dried, allowing it to be incorporated into medication
+- However, problems remained with obtaining enough penicillin to be therapeutically useful --- the initial patient treated with penicillin relapsed and died as there was not enough of the drug to kill his staph infection
+- As wartime restrictions made research difficult in Britain, the trio moved to the US, where they worked with the US Department of Agriculture to find ways of scaling up penicillin production
+- Found that corn steep liquor, a byproduct of cornstarch manufacturing was an ideal growth medium for the penicillin mold
+- However, this still wasn't enough, as the mold would only grow on surfaces of vessels, rather than within the growth medium itself
+- The researchers undertook a survey of tens of thousands of mold strains, until they found one growing on a cantaloupe, which could grow submerged in solution while producing greater amounts of penicillin than Fleming's original strain
+- This strain was further improved via X-Ray bombardment, which induced mutations to increase the production of penicillin
+- All of these improvements led to several orders of magnitude increases in the amount of penicillin available
+  - In 1941 the US did not have enough penicillin to treat even a single patient
+  - By the end of 1942 US penicillin production was sufficient to treat only a hundred patients
+  - By the end of 1943, the US was producing enough penicillin to meet the demand of all Allied armies
+- As penicillin production scaled up, costs decreased proportionately
+  - In 1943 a 600 mg vial of penicillin cost $200 (/$3,700 in 2025 dollars/)
+  - By 1952 the price of that vial had dropped to $1.30 (/$15.81 in 2025 dollars/)
+- These efficiency gains, coupled with the discovery of other antibiotics were responsible for a 23 year increase in average human lifespan
+- While the discovery of penicillin was important, it was the efficiency improvements in its production that led to its dramatic impact on the world
+- /In other words, Without efficient production of penicillin, it'd just be yet another curiosity languishing in the backwaters of scientific journals/
+
+** Efficiency and Abundance
+- The story of human civilization, is, in many ways, the story of the pursuit of efficiency
+- For most of human history, producing anything took vast amounts of effort
+- The majority of human effort, historically, went towards just ensuring that there was enough food
+- As late as AD 1500, over 75% of the population of Europe worked in subsistence agriculture
+- A single crop failure could lead to devastating famines --- in AD 1315 a combination of intense rains and cold temperatures led to the loss of 10-15% of Europe's population
+- By comparison, today, fewer than 2% of the population of the United States works in farming, despite the US having started as an agrarian nation
+- The US produces vastly more food than it did in the 1800s, with corn and wheat production having risen more than tenfold
+- Does so using less land --- producing a bushel of wheat today requires only 10% of the land that was required in 1866
+- The Green Revolution propagated these efficiency gains to the rest of the world, with worldwide deaths from famine declining by over 90% after 1970
+- 

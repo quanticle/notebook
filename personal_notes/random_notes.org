@@ -1,0 +1,5 @@
+#+TITLE: Random Notes
+
+- The inflatable drogue-like cone parachute that is attached to some bombs is known as a [[https://en.wikipedia.org/wiki/Ballute][ballute]]
+  - Portmanteau of "balloon" and "parachute"
+  - Intended to slow bombs and spacecraft at supersonic speeds without the potential instability of a conventional parachute

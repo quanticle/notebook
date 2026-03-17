@@ -1,0 +1,90 @@
+#+TITLE: Combat Jet Aircraft Generations
+#+OPTIONS: toc:6
+#+OPTIONS: h:6
+
+
+* Zeroth generation
+- Characteristics
+  - Pre-jet designs with jet engines added on
+  - Straight wings
+- Examples
+  - Me-262
+  - P-80/F-80 Shooting Star
+  - Gloster Meteor
+
+* First generation
+
+- Characteristics
+  - High-subsonic speeds
+  - Swept wings for stability at transonic speeds
+- Examples:
+  - F-86 Sabre
+  - MiG-15
+  - Hawker Hunter
+  - Dassault Mystere IV
+
+* Second Generation
+
+- Characteristics
+  - Sustained supersonic flight, enabled by
+    - [[https://en.wikipedia.org/wiki/Area_rule][Area ruled]] fuselages
+    - Afterburners
+  - Early air-to-air missiles
+  - Many 2nd generation planes were designed primarily as interceptors, to deal with the threat of high-speed, high altitude bombers
+- Examples:
+  - F-104
+  - MiG-21
+  - English Electric Lightning
+
+* Third Generation
+
+- Characteristics
+  - First aircraft designed around air-to-air missiles as their primary weapon, with guns relegated a secondary role
+  - Look-down/shoot-down radar
+  - Much more maneuverable than generation 2
+  - Much higher payloads than generation 2
+- Examples:
+  - F-4 Phantom II
+  - MiG-23
+  - Mirage F-1
+
+* Fourth Generation
+
+- Characteristics
+  - Turbofan engines for reduced fuel consumption
+  - [[https://en.wikipedia.org/wiki/Relaxed_stability][Relaxed stability]]
+  - Fly-by-wire (necessary because of relaxed stability)
+  - Introduction of computerized/digital systems into cockpits
+  - Electronic Scanned Array radars capable of tracking many targets
+  - Datalink (often described as "4th generation++", as it's often a retrofit)
+- Examples
+  - F-15 Eagle
+  - F-16 Falcon
+  - Su-27
+  - MiG-29
+  - Mirage 2000
+  - Eurofighter/Typhoon
+
+
+* Fifth Generation
+
+- Characteristics
+  - *Stealth*
+  - Vectored-thrust/high angle-of-attack capabilities
+  - Fully computerized cockpits (glass cockpits)
+  - Head-mounted displays replacing HUDs
+  - "Supercruise" --- able to travel at supersonic speeds without afterburner
+  - Advanced sensors, electronics, and software, capable of integrating data from multiple sources and presenting a unified view of the processed information to the pilot ("sensor fusion")
+- Examples
+  - F-22 Raptor
+  - F-35 Lightning II
+  - Chengdu J-20 (with WS-15 engine)
+  - Sukhoi Su-57 (formerly known as the PAK-FA) (operational status uncertain)
+- Currently the US and China are the only countries with operational 5th generation fighters
+- Russia is attempting to build a 5th generation fighter fleet with the Su-57, but it's unclear how many production models they have and what their readiness is
+
+
+
+
+#  LocalWords:  PAK Eurofighter Rafale Su Datalink Afterburning WS
+#  LocalWords:  Mystere gunsights Transonic DeHaviland HUDs

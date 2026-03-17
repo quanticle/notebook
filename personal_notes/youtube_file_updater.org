@@ -1,0 +1,9 @@
+* YouTube File Updater
+- YouTube API Key: =AIzaSyB1IHcqvooh5qU23fOSSh35rghaPeC388o=
+- Shell script to update the mtime of a video:
+    #+begin_src bash
+      function update-video-mtime {
+          java -jar "/home/quanticle/.local/bin/fix-youtube-mtime-0.1.0-SNAPSHOT-standalone.jar" "$1"
+      }
+    #+end_src
+- [[https://console.cloud.google.com/apis/api/youtube.googleapis.com/quotas?project=upload-time-getter][YouTube API quota dashboard]]

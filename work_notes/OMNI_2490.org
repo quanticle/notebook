@@ -1,0 +1,222 @@
+* OMNI 2490 Add Prime Farmland Layer To The Inventory Screen
+
+** Inventory Yes/No
+- The prime farmland layer is a raster layer, which means we need to query it differently
+- Sample query
+  #+BEGIN_EXAMPLE
+    https://deventerprisegisarcgis.nexteraenergy.com/server/rest/services/ES/Farmland_Classification/MapServer/identify?f=json&geometry={"x":-10034423.762192892,"y":3504390.6508154455,"spatialReference":{"wkid":102100,"latestWkid":3857}}&tolerance=1&returnGeometry=true&mapExtent={"xmin":-10050781.286245897,"ymin":3487345.193507874,"xmax":-10014779.445923626,"ymax":3519754.4935007454,"spatialReference":{"wkid":102100,"latestWkid":3857}}&imageDisplay=838,424,96&geometryType=esriGeometryPoint&sr=102100&layers=all:0
+  #+END_EXAMPLE
+  - URL: =https://deventerprisegisarcgis.nexteraenergy.com/server/rest/services/ES/Farmland_Classification/MapServer/identify=
+  - Parameters:
+    #+BEGIN_EXAMPLE
+      {
+          "f": "json",
+          "geometry": "<bounding box>",
+          "geometryType": "esriGeometryEnvelope",
+          "inSR": '{"wkid": 4326}'
+      }
+    #+END_EXAMPLE
+  - What I need to do is refactor =build_request_params= to =build_feature_params= and then add a new =build_raster_params= which will set up the params for the raster data
+- The raster data coming back has the following format:
+  #+BEGIN_EXAMPLE
+    {
+        "results":[{
+            "layerId":0,
+            "layerName":"ES Farmland Classification Risk",
+            "displayFieldName":"",
+            "attributes":{
+                "Pixel Value":"3",
+                "OBJECTID":"3",
+                "FARMLNDCL":"High Risk",
+                "COUNT":"10719788560"
+            },
+            "geometryType":"esriGeometryPoint",
+            "geometry":{
+                "x":-10034423.762192892,
+                "y":3504390.6508154469,
+                "spatialReference":{"wkid":102100,"latestWkid":3857}
+            }
+        }]
+    }
+  #+END_EXAMPLE
+  - I need to iterate through all the returned data
+    - For each data field
+    - Iterate through the results array
+    - For each value in the results array
+    - Look at the =FARMLNDCL= field
+    - If the =FARMLNDCL= field is ="High Risk=
+    - Check the =COUNT= field
+    - If =COUNT > 0=, return =True=
+- Testing
+  - Need to run project boundary ingest on one project
+  - Lambda: =baker-api-dev-update_project_boundary=
+  - Test event:
+    #+BEGIN_EXAMPLE
+      {
+          "Records": [
+              {
+                  "body": '{"version": 1, "project_id": 29}',
+                  "receiptHandle": null
+              }
+          ]
+      }
+    #+END_EXAMPLE
+
+** Map Layer
+- What is the new map layer API?
+- Look at existing buildable land layers
+- Buildable land layers are populated by =useBuildableLandLayers.js=
+  #+BEGIN_EXAMPLE
+    buildableLandLayers.value = [
+        getEsriLayer('wind', purpleHex, 'Wind'),
+        getEsriLayer('solar', orangeHex, 'Solar'),
+        getEsriLayer('federalLand', orangeHex, 'Federal Land'),
+        getEsriLayer('stateLand', orangeHex, 'State Land'),
+        getEsriLayer('tribalLand', orangeHex, 'Tribal Land'),
+        getEsriLayer('jurisWater', orangeHex, 'Wetlands and Juris Water'),
+        getEsriLayer('primeFarmland', orangeHex, 'Prime Farmland'),
+        {
+            id: 'criticalHabitat',
+            layerName: 'Critical Habitat',
+            layers: [criticalHabitat0.value, criticalHabitat1.value],
+            visible: false,
+        }
+    ]
+  #+END_EXAMPLE
+- What does =getEsriLayer= do?
+  #+BEGIN_EXAMPLE
+    function getEsriLayer(key, color, name) {
+        const { esriLayer } = useEsriLayer(ref(getUrl(key)), {
+            minEsriZoomLevel,
+            color,
+            id: key,
+            layerName: name,
+            visible: false,
+            whereStr: getWhere(key),
+        });
+        return esriLayer.value;
+    }
+  #+END_EXAMPLE
+- What does =useEsriLayer= do?
+  #+BEGIN_EXAMPLE
+    export default function useEsriLayer(
+        esriLayerUrl,
+        {
+            minEsriZoomLevel = 11,
+            color = 'blue',
+            id = 'esriLayerFromUrlProp',
+            layerName = 'GIS Layer',
+            whereStr = '1=1',
+            visible = false
+        } = {}
+    ) {
+        const esriLayer = ref(undefined);
+        watch(esriLayerUrl, createEsriLayer, {immediate: true});
+        function createEsriLayer() {
+            if (!esriLayerUrl.value) {
+                esriLayer.value = undefined;
+            } else {
+                esriLayer.value = {
+                    id: unref(id),
+                    layerName: unref(layerName),
+                    visible: unref(visible),
+                    esriOptions: {
+                        url: unref(esriLayerUrl),
+                        simplifyFactor: 5,
+                        precision: 4,
+                        minZoom: unref(minEsriZoomLevel),
+                        where: unref(whereStr),
+                        style: {
+                            color: unref(color)
+                        }
+                    }
+                }
+            }
+        }
+        return {
+            esriLayer
+        }
+    }
+  #+END_EXAMPLE
+  - Looks like a stateless component that returns the parameters to create an =esriLayer=
+  - Gets =ref=, =watch=, =unref= from =vue/composition-api=
+  - Key function appears to be =watch=
+    - 3 options: reactive reference or getter function, callback, optional configuration options
+    - Create a watcher on =esriLayerUrl= that fires =createEsriLayer= whenever =esriLayerUrl= changes
+    - Where is this watcher stored?
+    - Looks like =watch= stores the watcher somewhere, we don't need to worry about it
+  - But how are these parameters used?
+  - The watcher sets the value of the returned =ref= to the =esriLayer= props
+- =buildableLandLayers.value= is an array of objects, where each object's =esriLayer= property is a =ref= with the properties to create the =esriLayer=
+- But where is =buildableLandLayers= used?
+  - =buildableLandLayers= is used to build =buildableLandLayersFlat=
+    #+BEGIN_EXAMPLE
+      buildableLandLayersFlat.value = buildableLandLayers.value
+      .map(bll => bll.layers || bll)
+      .flat();
+    #+END_EXAMPLE
+  - =buildableLandLayersFlat= is referenced in =FlexibleMap.vue=:
+    #+BEGIN_EXAMPLE
+      <EsriLayer
+          v-for="landLayer in buildableLandLayersFlat"
+      />
+    #+END_EXAMPLE
+- =EsriLayer= is defined in =components/map/EsriLayer.vue=
+- Is there already a raster layer?
+  - Does not seem to be a raster layer
+- I need to:
+  - +Create Raster layer vue component+
+  - +Create =useRasterLayer.js=+
+  - Update =buildableLandLayers= to handle =primeFarmland= the same as it handles =criticalHabitat=
+- +To create a raster layer+
+  - +I need to use the =ImageMapLayer= component from =esri-leaflet=, rather than =FeatureLayer=+
+- I don't actually need to create a separate raster layer component, I don't think
+  - I should be able to override the =esriLayerClass= prop in =EsriLayer= in order to display a raster layer
+- How do I override the =esriLayerClass= prop?
+  - +I need to follow the pattern for the parcel status layer+
+  - +=FlexibleMap= gets the parcel status layer as follows:+
+    #+BEGIN_EXAMPLE
+      const { parcelStatusLayer, showParcelStatusLegend } = useParcelStatusLayer(
+          parcelStatusProjectTypes,
+          map
+      );
+    #+END_EXAMPLE
+  - +=useparcelstatuslayer= comes from =components/maps/layers/useParcelStatusLayer=+
+  - +I need to create a =useParcelStatusLayer.js= in =components/maps/layers/useParcelStatusLayer=+
+  - +=useParcelStatusLayer.js= will need to return a =ref= which has the details for the parcel status layer+
+  - +Then, in =FlexibleMap=, I'll need to add:+
+    #+BEGIN_EXAMPLE
+      <EsriLayer
+      />
+    #+END_EXAMPLE
+  - =imageMapLayer= will need to be imported from ='esri-leaflet'=
+  - I need to update =useEsriLayer= to take in a =layerClass= parameter
+  - Update =useBuildableLandLayer= to pass in the =layerClass= parameter
+  - Update =FlexibleMap= to transfer the =layerClass= parameter to the =EsriLayer= component
+- The actual map type I needed to use was [[https://esri.github.io/esri-leaflet/api-reference/layers/dynamic-map-layer.html][=dynamicMapLayer=]]
+- What I ended up doing in =useBuildableLandLayers= was sort of the same thing as the critical habitat layer above
+  #+BEGIN_EXAMPLE
+    const { esriLayer: primeFarmland } = useEsriLayer(
+        ref(
+            'https://deventerprisegisarcgis.nexteraenergy.com/server/rest/services/ES/Farmland_Classification/MapServer'
+        ),
+        {
+            minEsriZoomLevel,
+            color: orangeHex,
+            id: 'primeFarmland',
+            layerName: 'Prime Farmland',
+            layerClass: dynamicMapLayer,
+            visible: false,
+        }
+    );
+    primeFarmland.value.esriOptions['f'] = 'image';
+    primeFarmland.value.esriOptions['layers'] = [0];
+  #+END_EXAMPLE
+- Then when we build up the value of =buildableLandLayers=, I add the following: =primeFarmland.value=
+- The problem is that this code looks pretty hacky to me
+  - Not sure that we should be reaching into the =value= of the layer like that in =useBuildableLandLayers=
+  - Should I patch =useEsriLayer= to take in additional options that it can then set on the =esriOptions= property?
+- Where are the tests for this code?
+  - =useEsriLayer.spec.js=
+  - There are no tests around =useBuildableLandLayers=
+- I think I should remove the prime farmland URL from the server side, because it's not being used by the client

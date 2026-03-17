@@ -1,0 +1,45 @@
+* Jetbrains Notes
+
+** PyCharm
+
+*** Configure Runtime
+- File → Settings → Project → Python Interpreter
+
+** IntelliJ IDEA
+
+*** Linux Install
+- [[https://www.jetbrains.com/idea/download/#section=linux][Download IntelliJ]]
+- Extract the =.tar.gz= archive
+- Current location: =/home/quanticle/intellij_idea/idea-IU-221.5591.52=
+- Create a shortcut for IntelliJ (see =unix_tips=)
+
+*** Cursive License
+#+begin_example
+  ---------- BEGIN LICENCE ----------
+  Rohit Patnaik
+  Cursive Personal Licence
+  2023-03-08
+  #075477
+
+  6490D8CA 542CDAD5 E8DC511F 543FEAFB
+  F89F3BA9 4D21AE32 CFDE34C5 4B325C4D
+  55A2C8AC F670DA0D 5CDBB625 7AA51E05
+  2B31C4B2 3E733BB3 7666B42B 20680E64
+  1EA57DE8 37BD5932 043159AF 12CEE736
+  361B17DE 0ED9887F 78F0073C 209D8403
+  328327EB AB9CAE95 D433F13D BABB1199
+  2461BD7B 5F65F380 C49C6C77 7F3C677F
+  C504EF58 E6A1D4B1 4C4DA445 2C3E3AE7
+  67AB5D29 93973C6F BA0DD635 02990422
+  615D5FCB 93B68970 AA147282 98726E77
+  ED0F332A 3C657974 8093E575 6D8900CC
+  6CAB64B0 5CD55C66 57F81D01 F2957A1F
+  2EDE388E 3DD9BE27 CC5FDB1C 62E0D26E
+  332E7C60 9977162A 0AF47DB7 88C007C6
+  1278FA91 6251287F C73ABEF0 FC10F2BD
+  ---------- END LICENCE ------------
+#+end_example
+
+*** Fix TextMate bundle cannot be loaded errors
+- Go into File → Settings → Editor → TextMate Bundles and see where the bundles are being loaded from
+- If the bundles are not needed they can be deregistered by hitting the =-= button in the top left

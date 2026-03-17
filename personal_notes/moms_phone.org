@@ -1,0 +1,70 @@
+#+TITLE: Mom's Phone Setup
+
+* App List
+- Discord
+- Excel
+- Facebook
+- Google Keep
+- Google Docs
+- Instagram
+- Facebook Messenger
+- Ring
+- Shaadi
+- Spotify
+- T-Mobile visual voicemail
+- TCF Bank
+- Temu
+- US Bank
+- Uber
+- Visual Voicemail
+- Walmart
+- Whatsapp
+- Youtube TV
+- Zoom
+
+
+* Accounts
+- E-mail
+  - patnaik_sarita@comcast.net
+  - Pass: Catbert2!
+- Discord
+  - Login: adminchair@hsmn.org
+  - Pass: Jaijagannath2024!
+- Excel:
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert1!
+- Facebook
+  - Login: patnaik_sarita@comcast.net
+  - Password: Catbert1!
+- Google
+  - Personal Google
+    - Login: patnaiksarita64@gmail.com
+    - Pass: Catbert1!
+  - HSMN
+    - adminchair@hsmn.org
+    - Pass: Jaijagannath2024!
+- Facebook
+  - Login: ppatnaik@comcast.net
+  - Password: Catbert1!
+- Apple ID
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert1
+- Ring
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert1!
+- Shaadi
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert1!
+- Spotify
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert1!
+- Temu
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert1!
+- Uber:
+  - Login: patnaik_sarita@comcast.net
+  - Pass: Catbert2!
+- Whatsapp
+  - Login: 7634396368
+  - Pass: Catbert1!
+

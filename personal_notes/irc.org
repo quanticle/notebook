@@ -1,0 +1,27 @@
+* IRC
+
+** Channels
+- ##dgaf
+- ##proggit
+- ##proggit-bookclub
+- ##proggit-anime
+- ##proggit-superfriends
+- ##proggit-resistance
+- ##kenning
+- #lesswrong
+- #lw-politics
+- #lw-fandom
+- #lw-bitcoin
+- #lw-gpt
+- #oborlobsters
+- #clojure
+- #emacs
+- #lisp
+- #fedora
+- ##history
+- #rooc
+- #rooc-chat
+
+** Weechat
+- To set the autojoin list for weechat: =/set irc.server.libera.autojoin ##dgaf,##proggit,##proggit-bookclub,##proggit-anime,##proggit-superfriends,##proggit-resistance,##kenning,#lesswrong,#lw-politics,#lw-fandom,#lw-bitcoin,#lw-gpt,#oborlobsters,#clojure,#emacs,#lisp,#fedora,##history,#rooc,#rooc-chat=
+

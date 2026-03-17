@@ -1,0 +1,502 @@
+#+TITLE: The Yom Kippur War and the Shaping of the United States Air Force
+#+OPTIONS: toc:2
+
+Author: Squadron Leader Joseph S. Doyle, Royal Air Force\\
+School of Advanced Air and Space Studies\\
+Air University, Maxwell Air Force Base Alabama\\
+June 2016
+
+* Introduction
+- The Yom Kippur War of 1973 had a fundamental influence on the US Air Force
+- High intensity combat between Israeli and Arab air forces was taken as proxy for a future fight between US and Soviet Air Forces
+- Vicarious experience interacted with lessons learned from Vietnam
+- Standard histories of the US Air Force that focus on Vietnam and mention the Yom Kippur War only in passing are incomplete
+- The lessons learned from the Yom Kippur War form the strengths of the US Air Force, but also many of its operational weaknesses
+- Reinforced an emphasis on high-intensity conventional combat (i.e. "war as battle")
+- Justified the rejection of building capabilities for irregular warfare
+- The Yom Kippur War was an Israeli war, but it was fought with American equipment
+- The major lessons the US Air Force took from the Yom Kippur War were
+  - Lethality and high attrition rates of modern battle
+  - Challenges posed by Soviet air defense systems
+  - Need to train for suppression of enemy air defense missions
+  - Need for improved aircraft survivability
+  - Importance of airlift
+  - Need for technological advantages to "offset" Soviet numerical superiority in Europe
+- Some of these lessons were already apparent after Vietnam
+  - Need for more realistic training
+  - Need for defense suppression capabilities
+- However, other programs, most notably the F-117 project were started only as a result of the Yom Kippur War
+- The Yom Kippur War also reinforced the need for closer coordination between the Air Force and Army --- led to the Air Land Battle concept
+- The Yom Kippur War also led the US Army and US Air Force to reject uncomfortable, but potentially useful lessons from Vietnam about irregular warfare and counterinsurgency
+
+* Chapter 1
+
+** The Yom Kippur War in Overview
+- Yom Kippur War was the fourth in a sequence of Arab-Israeli conflicts
+- Two of these conflicts (the 1948 War of Independence and the 1967 Arab-Israeli conflict) resulted in strategic victories for Israel
+- /The third conflict was the Suez Crisis, which resulted in Israeli diplomatic defeat/
+- The 1967 war was an especially spectacular win, with the Israeli Air Force destroying its Egyptian counterpart on the ground in a single morning
+- Israeli combined arms forces then raced to victory on multiple fronts, taking the Sinai Desert, the Golan Heights and, most importantly for Israel, full possession of the city of Jerusalem
+- The 1967 conflict was followed by sporadic fighting between Israel and Egypt, which culminated in the construction of the Bar Lev defensive line
+- The construction of the Bar Lev defensive line prompted Egypt to intensify its attacks on Israeli positions in the Sinai --- War of Attrition (1969 - 1970)
+- The War of Attrition was characterized by artillery exchanges, commando raids, and airstrikes
+- As part of this conflict, the Egyptians stationed increasing numbers of Soviet-made air defense systems along the Suez Canal
+- These systems resulted in the steady loss of Israeli aircraft, despite Israel acquiring electronic countermeasure (ECM) systems from the United States
+- While there was a growing sense of unease among Israeli Air Force leaders regarding the increased potency of Egyptian air defenses, the IDF retained the reputation for invincibility that it had acquired in the 1967 conflict
+- Unlike in 1967 the 1973 war was not an unambiguous Israeli victory
+- Although Israel had received warnings from the United States, Israeli Prime Minister Golda Meir was not convinced that Arab countries were preparing to attack
+- Furthermore, unlike in 1967, it was not possible for Israel to carry out a preemptive attack against its enemies, as it was understood that US support for Israel was contingent on Israel not being the aggressor in a future conflict
+- The combination of Israeli hubris and the wider diplomatic situation caused Israel to cede the initiative to its adversaries
+- On October 6, 1973, massed formations of Egyptian armor and infantry crossed the Suez Canal
+- Simultaneously, Syrian forces supported by Iraqi and Jordanian troops attacked the Golan Heights
+- The Israeli Air Force scrambled to relieve the pressure on embattled ground forces, but found itself confronting dense formations of Soviet air defense systems which formed an "umbrella" over advancing Arab forces
+- Total Israeli mobilization prevented a collapse of the Israeli state; however, by October 8, Arab forces had consolidated advances in the Golan Heights and the Sinai desert
+- The tide of the war eventually turned through a combination of Arab mistakes, Israeli adaptation, and material support from the United States, most notably Operation Nickel Grass, which airlifted weapons, ammunition and aircraft from US front-line units to Israel
+- As a result, by the time a ceasefire was declared on October 24, the Israeli military was ascendant
+- However, the cost to Israel was enormous
+  - Approximately 2500 killed and 7250 wounded --- in 19 days Israel lost proportionally more soldiers than the US had lost in 10 years of fighting in Vietnam
+  - The cost of the war to Israel had been between $5 and $6 billion, a sum representing 40% of the Israeli GDP
+
+** Missiles and Bent Wings: The Air War
+- In the 1973 war, the Israeli Air Force was unable to conduct the missions it had prepared for
+- The dominant offensive mission was the defense of Israeli territory from air attack and the destruction of the enemies' air forces
+- A second priority, the destruction of enemy air defenses, was added to account for the Israeli experience during the War of Attrition
+- Interdiction and ground attack was a tertiary priority
+- However the surprise attack in 1973 forced the Israeli air force to tackle these in reverse priority order --- interdiction and ground attack missions had to be carried out immediately even though enemy air defenses had not been suppressed
+- As a result, the Israeli air forces suffered severe losses in the opening days of the war
+  - 14 strike aircraft were lost to Egyptian air defenses in the first three hours of the war
+  - A preplanned offensive against Egyptian air defenses, Operation Tagar, was compromised by urgent requests to attack Egyptian ground formations, and as a result only some airfields and AAA sites were attacked, leaving Egyptian SAMs intact, rendering the operation a failure
+  - Similarly, Operation Dugman, against Syrian air defenses lacked ECM support and resulted in the destruction of a single Syrian SAM site at the cost of 6 F-4 Phantoms lost and another 10 heavily damaged
+  - Col. Oded Erez, an infantry commander fighting in the north, called for air support only to see an entire 4-ship of A-4 Skyhawks get shot down, and half of the subsequent 4-ship get shot down as well
+  - Israel suffered 5% attrition of its aircraft over the Golan Heights on the first day of the conflict alone
+- The Israeli air force only found relief from Egyptian and Syrian air defenses when their respective ground armies began to attack beyond the maximum range of their air defenses on October 14
+- On that day, the Egyptians lost 260 tanks to Israeli defenses and air attacks
+- Even more decisive was a raid across the Suez Canal by an Israeli armored division on October 16
+- This raid destroyed a significant number of SAM batteries and caused Egyptian commanders to pull their other SAM batteries back, opening the skies above the battlefield to the Israeli air force
+- In the north, however, Syrian defenses were never significantly degraded, and Israeli planes only enjoyed freedom of action when Syrian forces ventured beyond the range of their protective SA-2 and SA-6 systems
+- Although attacking Syrian formations were decimated by Israeli air power, an interlocking web of air defenses and fortified rear positions meant that the Syrian front quickly turned into a stalemate
+- While Israeli Air Force's support of ground formations had been compromised by enemy air defenses, it did succeed at its primary missions of protecting the Israeli homeland from air attack and destroying enemy air forces
+  - Throughout the war, the air over Israel remained "clean", and no Arab aircraft were able to attack Israeli infrastructure
+  - Air-to-air kill ratios favored Israel enormously, with estimates ranging between 46:1 and 67:1 in favor of the Israeli Air Force
+- Nevertheless, the initial analysis of the war's aftermath was that the "[surface-to-air] missile had bent the airplanes' wings"
+
+** Post-War Analysis: Academic and International Views
+- The Yom Kippur War presented an opportunity to revise various military theories with data from an actual conflict
+- Although there was some hyperbole initially regarding findings from the war, an enduring set of insights emerged, which informed the development of the US Air Force
+
+** Hyperlethality and Attrition
+- The Yom Kippur War was the first war to demonstrate the shocking level of lethality that modern weapons are capable of
+- On the ground, both tank guns and anti-tank weapons had dramatically increased in lethality since World War 2, and, as a result entire battalions could be consumed in hours
+- This lethality was increased by the use of air-launched anti-armor weapons, such as the Maverick missile and cluster munitions
+- The total number of tanks lost was roughly 3000, in a conflict that lasted barely three weeks
+- /The Yom Kippur war was intense, even compared with modern conflicts like the Russo-Ukrainian War/
+- The apparent effectiveness of surface-to-air and air-to-air missiles meant that the skies were no safer than the ground
+- As US Army General William DePuy stated, in 1974: "What can be seen can be hit. What can be hit can be killed."
+- Hyperlethality suggested a growing primacy of defense over offense
+- However, this was not comforting to NATO planners --- plans for war in Europe relied heavily on armor forces and aircraft that appeared increasingly vulnerable to enemy weapons
+- The hyperlethality of warfare in 1973 was linked a drastically higher than anticipated consumption of munitions, especially guided munitions
+- This led to concerns on the part of NATO as to whether they had enough ammunition to fight even a short conventional war
+
+** Control of the Air and the SAM Threat
+- The initial days of the Yom Kippur War highlighted the importance of air superiority and the growing ability of ground-based air defenses to contest that air superiority
+- In areas where the Israeli Air Force had struggled to provide air support, ground and armor losses were far higher
+- This led to a certain level of fatalism in the immediate aftermath of the war, as certain Israeli generals and politicians questioned whether continued investments in air power were necessary, given how air power had been blunted by surface-to-air missile systems
+- Chaim Herzog, IDF General and later President of Israel claimed in his book, /War of Atonement/, that the proliferation of surface to air missiles meant that in the future air power would only be suitable for deep strike missions with the goal of isolating the battlefield and preventing enemy reinforcements from being brought forward
+- Close air support was dead
+- Herzog's conclusion presumed that the missile threat over the battlefield could not be defeated
+- /This is reinforced by the current Russo-Ukrainian War, where Ukraine, bolstered by donated Western air defense systems, has largely been successful at denying the Russian air force the ability to conduct close air support over the front lines/
+- However, if air forces could suppress enemy air defenses, then they would be able to carry out other missions over the battlefield
+- Herzog also did not allow for improvements in the ability of aircraft to evade ground-based air defenses via countermeasures such as chaff, flares, and jamming
+- The true lesson of the Yom Kippur War is that more focus needed to be paid to aircraft survivability and the suppression or destruction of ground-based air defenses
+- In a later campaign over the Bekaa Valley in 1982, the Israeli Air Force demonstrated that it had learned these lessons by gaining total dominance over Syrian SAM systems
+- This victory was noted by the US Air Force, as it sought to reform its doctrines and improve its aircraft
+
+** Airlift
+- The Yom Kippur War was not a purely vicarious experience for the US Air Force
+- Operation Nickel Grass tested US logistics and power projection capabilities
+- US Military Airlift Command transported over 22,000 tons of weapons and equipment during Operation Nickel Grass
+- US Navy and the US Air Force delivered replacement F-4 and A-4 aircraft
+- This bolstered Israeli confidence even in advance of the aid being delivered
+- /In contrast, the delays in delivering aid to Ukraine sapped Ukrainian confidence, and it remains to be seen how much this loss of morale contributed to battlefield reverses/
+- Operation Nickel Grass reaffirmed the utility of strategic airlift, as it allowed the US to effectively counter the Soviet Union's resupply of its clients
+
+** Towards an Offset Strategy
+- The real shock of the Yom Kippur War was that, for the first time since independence, Israel found itself at a technological disadvantage compared to its enemies
+- A variety of technological innovations were suggested as a result of the Yom Kippur War
+  - Unmanned aerial vehicles for reconnaissance
+  - Improved precision-guided munitions to allow aircraft to suppress air defenses with a minimum amount of exposure
+  - Passive defenses
+    - Improved armor for tanks
+    - Electronic countermeasures for aircraft
+  - Increased levels of situational awareness through improved communications systems to enhance coordination of friendly forces
+- The Yom Kippur War also reaffirmed the importance of competence and professionalism
+  - While Arab combat performance had improved, the IDF remained far better trained, more skilled and more adaptable, and it was these advantages that were key to the eventual Israeli victory
+  - Israeli Air Force had significantly altered its doctrine and tactics during by the end of the three week conflict (/this is no easy feat --- just look at how long it took for Russia to adapt to Ukrainian tactics/)
+
+* Chapter 2
+
+** The US Air Force and the Yom Kippur War: Processes, Lessons and Official Conclusions
+- The Yom Kippur War was an opportunity for the US Air Force to test its assumptions around the use of air power in a future conflict
+- To gather data from the Israeli experience, the US Air Force participated in a number of formal initiatives that resulted in recommendations that influenced policy
+
+** The Learning Process
+- Immediately after the cease fire on October 24 1973, Secretary of Defense Schlesinger created a joint military team to visit Israel and gather lessons learned
+- On October 30, Chairman of the Joint Chiefs, Moorer, outlined the aims and composition of the team, titled "US Military Operational Survey Team" (USMOST), as determining operational lessons from the Arab-Israeli conflict
+  - Comprised 3 members from the joint staff, four members each from the US Army and US Air Force, two members each from US Navy and US Marine Corps, one member from the US European Command and one member from the Defense Intelligence Agency (DIA)
+  - Tasked specifically with determining the effectiveness of weapons systems and operational tactics
+    - Israeli coordination between air and ground forces during close air support and air defense missions
+    - Israeli air force air-to-air and air-to-ground effectiveness
+    - Lessons regarding the employment of AIM-7 and Maverick missiles
+    - The effectiveness of countermeasures and tactics against SA-3, SA-6 and SA-7 systems that the US had limited exposure to in Vietnam
+    - Electronic warfare
+    - Command, control and communications
+  - Would coordinate with a DIA team already in Israel, codenamed "Druid Grove"
+- In addition to USMOST, a parallel equipment-focused team, US Military Equipment Validation Team, Israel (USMEVTI), deployed to Israel ahead of USMOST to assess Israeli equipment losses and replenishment needs
+- USMEVTI would also collect ad hoc impressions of weapons effectiveness that would be transferred to USMOST when the latter arrived
+- In addition to these formal initiatives, representatives of the US Air Force would accompany members of Congress to Israel and Egypt and would discuss the lessons of the Yom Kippur War directly with military leaders on both sides
+- The Air Force also convened the Air Force Policy Council on October 30, 1973 to get a head start on processing the lessons of the Yom Kippur War, accepting that all the relevant analysis had not yet been completed
+- The Air Force Tactical Fighter Weapons Center also formed a working group, comprising of 3 panels, covering air-to-ground, air-to-air and surface-to-air respectively
+- Questions examined included
+  - Effects of electronic countermeasures on radar proximity fusing
+  - Weapon-to-target matching for specific targets
+  - Israeli experiences with laser-guided and optically guided munitions
+  - Chaff tactics against the SA-6
+  - Use of "drones" as SAM decoys
+  - Effects of Arab jamming on Israeli ground control signals
+- In addition to establishing organization-to-organization links, the Israeli Air Force and the US Air Force established person-to-person contacts
+- General Peled of Israel personally met with William DePuy, head of US Army TRADOC and General Dixon, head of USAF Tactical Air Command (TAC)
+
+** US Air Force Findings
+- The Air Force's findings from the Yom Kippur War are still partially classified
+- Although the USMOST report is still classified, the USMEVTI report was declassified in 1982, and contains a useful amount of analysis beyond raw materiel statistics
+- Other Air Force working papers have been declassified, which allows us to determine what the Air Force learned from the war
+
+** Lethality and the SAM Threat
+- USAF was very interested in the loss rates and causes of aircraft loss
+- The USMEVTI mission compiled a table of Israeli aircraft losses and their causes
+  | Aircraft Type | SAM | AAA | SAM + AAA | SA-7 + AAA | Enemy Aircraft | Unknown | Total |
+  |               |     |     |           |        <r> |            <r> |         |       |
+  |---------------+-----+-----+-----------+------------+----------------+---------+-------|
+  | F-4E          |   9 |   9 |         1 |          1 |              3 |       9 |    32 |
+  | A-4           |  29 |  12 |         3 |    No Data |        No Data |       9 |    53 |
+- /Note here that the SA-7 is categorized differently because it is a man-portable anti-aircraft missile/
+- SAM systems accounted for roughly half of all losses
+- Many aircraft were lost to AAA because they were attempting to fly low in order to avoid SAMs
+- In addition to the losses, 26 A-4s were damaged by enemy SA-7s but successfully returned to Israeli airfields
+- A number of the unknown losses were likely due to anti-aircraft fire or the result of controlled flight into terrain while avoiding anti-aircraft fire
+- Although Arabs claimed a great many air-to-air kills, at most only 25% (3 confirmed + 18 unknown out of 85 total) of Israeli planes could have been shot down by enemy aircraft
+- Further breakdowns of loss rates by day indicate the improvement in the Israeli Air Force's ability to deal with SAMs
+  - On the first day of the war, Israel lost 7 F-4s and had two more that were severely damaged, out of 85 airframes total --- over 10% of Israel's F-4s were knocked out permanently on October 7
+  - Israel also lost 14 A-4s out of a force of 230, roughly 6%
+  - This was out of 187 F-4 sorties and 278 A-4 sorties flown, representing a sortie loss rate of 4.8% and 5% respectively
+- However, these loss rates rapidly improved as the Israeli Air Force adjusted its tactics and procedures to account for enemy air defenses
+- During the last five days of operations only two F-4s were lost even though 890 sorties were flown during this time, representing a sortie loss rate of 0.3%
+- This was an approximately tenfold reduction in attrition, despite the fact that Air Force was still flying close air support missions
+- The reduction represents the increased freedom the Air Force enjoyed as a result of the destruction and subsequent withdrawal of Egyptian SAMs
+- A-4 loss rates, however, tell a more nuanced story
+  - Between October 15 and October 19, Israel lost 9 A-4s while flying 947 sorties, a loss rate of 0.95%
+  - However, there was a stark difference between loss rates on the Egyptian front, where air defenses had been pushed back and the Syrian front, where they had not
+  - On the Egyptian front, on October 17, 155 sorties were flown, with no aircraft losses
+  - On the Syrian front, two aircraft were destroyed after only 9 sorties
+- The Israeli response was to this divergence was to suspend A-4 operations on the Syrian front after October 17
+- The difference between A-4 loss rates on the Egyptian front and the Syrian front demonstrates the difference between intact air defenses and degraded air defenses
+- The USMEVTI report backs this up, stating that early post-war hyperbole about the demise of tactical aviation was unwarranted
+- Instead, it advised that suppression of air defenses had to be a consideration as part of any campaign plan
+- Specifically pointed to the need for more "Wild Weasel" attack aircraft
+- Israeli pilots also lacked training and knowledge of American air-to-surface missiles, and therefore had to overfly SAM sites in order to target them with bombs, placing aircraft at much greater risk
+
+
+** Attrition and Materiel Consumption
+- More generally, the USMEVTI report highlighted the huge material consumption of the "hyperlethal" modern battlefield
+- The Israeli F-4 force started the war with 86 operational aircraft
+- By October 15, this had been reduced to 59 operational aircraft --- a 31% reduction in ten days
+- Comparable attrition in Europe would have exhausted the US Air Force in two weeks
+- Furthermore, the need to replenish the Israeli Air Force affected US combat readiness
+  - 34 F-4s were delivered to Israel between October 15 and October 21
+  - As a result, one American F-4 wing was compromised
+    - One squadron had no aircraft
+    - Another squadron was reduced to partial readiness, capable of only carrying out a subset of its expected wartime tasks
+- This highlighted that the US should extrapolate its readiness requirements for a future conflict with the Soviet Union based on not only its own needs but also its allies needs for replenishment
+- In addition to airframe attrition, the usage of air-delivered munitions was extremely high
+  - During the war, the Israeli Air Force used up its entire inventory of CBU-58 cluster bombs, plus another 1601 out of the 2041 additional bombs supplied by the United States
+  - Israel finished the war with only 859 CBU-58s, as compared with a prewar inventory of 4670
+  - Also fired 175 of 276 AIM-9 Sidewinder missiles
+  - Fired 49 out of 106 AIM-7 Sparrow missiles
+  - Used up 197 out of 145 Shrike anti-radiation missiles, with the excess once again coming from US stocks
+- Although US policy called for the US Air Force to have a 60-day supply of munitions, the Israeli experience suggested that under anticipated wartime demands inventory at the time would run out in less than 30 days
+- The Israeli experience bolstered the case for the F-16, as it became apparent that the US would need quantity in addition to quality
+
+** Technological Offsets
+- The US Air Force identified a number of technological counters to the newly lethal surface threats encountered by the Israeli military
+- Guided and standoff weaponry
+  - Of note was the utility of the AGM-65 Maverick missile
+    - 50 Mavericks were fired against vehicles and fortified positions
+    - 39 hit
+    - 1 near-miss
+    - 7 complete misses
+    - 3 failures
+  - This hit rate was very impressive to the Israelis
+  - The IDF was also impressed with the Walleye and Mark-84 guided munitions, recording a 96% and 78% hit rate with those two weapons respectively
+  - General Peled identified Israel's relative lack of precision-guided munitions as a source of weakness during the war, stating that the Israeli Air Force had been forced to rely on unguided cluster bombs launched on lofted trajectories
+  - Israel specifically requested a stand-off weapons (range of 25-40 miles) which could achieve assured destruction of a SA-6 site
+  - While Israel was satisfied with the Maverick, they requested an improved version of the Shrike
+  - While the Pentagon report didn't address Israeli dissatisfaction with the Shrike specifically, it did note that US aircraft would be armed with the AGM-78 Standard ARM, which was much improved over the Shrike
+- Countermeasures
+  - The utility of chaff was noted by the USMEVTI report
+  - The most common aircraft lost was the A-4H, which did not equip a chaff dispenser
+  - In addition, few Israeli aircraft equipped radar warning receivers
+- Increased aircraft survivability
+  - The A-4N variant had fewer losses against the SA-7 portable anti-aircraft missile because of its greater top speed
+  - In addition, it was noted that SA-7 hits were often towards the tail of the aircraft, as the missile homed in on the hot jet exhaust
+  - This led Israel to extend the A-4's tail pipe to keep SA-7 shrapnel farther away from the engine
+  - The small warhead on the SA-7 only tended to damage, rather than destroy the aircraft
+  - The Israeli experience with the A-4 suggested that aircraft could be optimized to survive hits by missile systems, which informed the US's A-10 program
+  - While electronic countermeasures were effective against SA-2 and SA-3 acquisition radars, Israeli officers were hesitant to use jammers against the SA-6, as they thought that the SA-6's semi-active homing capability would allow home in on jammers
+
+** Conceptual Offsets
+- In addition to technological counters, the US Air Force highlighted the importance of conceptual and operational procedures to eventual Israeli victory
+- The Israeli air force flew approximately 25 hours per month in training, giving Israeli pilots approximately 1500 flight hours of experience on average at the start of the war
+- This training and competence enabled Israeli pilots to fly as low as 20 ft above ground level when carrying out attacks
+- The superior training and competence of Israeli pilots was most evident during the limited air-to-air engagements that occurred during the war, an arena where Israel dominated
+
+** Airlift
+- In addition to examining the Israeli experience, the US Air Force also took the opportunity to examine its own experience of resupplying Israel during the war
+- Operation Nickel Grass had delivered 22,395 tons of materiel in 556 missions
+- The C-5 strategic transport aircraft proved its utility, delivering half of the total tonnage, while recording only 25% of the total missions
+- Israeli leaders specifically commended the C-5 in testimony before Congress
+- Furthermore, the US resupply effort easily exceeded Soviet efforts to resupply Arab armies, requiring 42% fewer sorties to deliver 47% more tonnage over a distance that was nearly 4 times as great
+- However, the success of the airlift depended on the availability of [[https://en.wikipedia.org/wiki/Lajes_Field][Lajes airfield]] in the Azores to serve as a refueling stop for C-141 aircraft
+- As a result, the US Air Force's recommendations suggested the acquisition of more C-5 aircraft and the addition of aerial refueling capability to C-141s
+- /US logistics kicks ass, as usual/
+
+** Official Conclusions
+- Although the lessons of the Yom Kippur War were complementary to the lessons of the Vietnam War, the big surprise was /scale/
+- The Yom Kippur war demonstrated that the reach and lethality of Soviet surface-to-air missiles had improved significantly since Vietnam
+- Furthermore, the emphasized the need develop targeting information rapidly enough to attack mobile SAM systems like the SA-6
+- The US Air Force needed to couple improvements in technology with conceptual and doctrinal improvements
+- Re-emphasized the need to build up munitions stockpiles
+- Highlighted the importance of having sufficient airlift capability to actually deliver those stockpiles to the battlefield
+- Overall while the Israeli experience in the Yom Kippur War didn't identify many new weaknesses beyond those already identified in the aftermath of Vietnam, it did suggest that those weaknesses were more severe than previously supposed
+
+* Chapter 3
+
+** Equipment, Training and Tactics: Tracing Developments Through - and /To/ - The Yom Kippur War
+- The Yom Kippur War was instrumental in persuading the US Air Force to adopt an offset strategy that sought to counter Soviet numerical superiority through qualitative supremacy of weapons systems and soldier competence
+- An overview of budget initiatives in the aftermath of the war illustrates the influence of the war on USAF planning
+- In the case of SEAD capabilities, long-term developments can be traced through the Yom Kippur War to previous experiences, most notably Vietnam
+- In the case of stealth, long-term developments can be traced to the Yom Kippur War
+- The Yom Kippur War influenced many post-Vietnam training reforms, such as Red Flag
+
+** Acquisition Programs and Technology
+- As a result of the Yom Kippur War, the US Air Force made a number of supplemental budget requests to Congress in 1975
+- Emphasized further development of new tactical aircraft, such as the A-10 and the F-15, which would be more likely to survive against modern air-to-air threats
+- /This is something to further research: was the A-10 obsolete even when it was introduced? One of the weaknesses of the A-10 is that its design philosophy, emphasizing armor over speed, makes it well equipped to resist gun-based anti-aircraft, but renders it fatally vulnerable to missile threats/
+- /The Yom Kippur War demonstrated that missiles were going to be the primary threat going forward/
+- These new tactical aircraft were to be supported by improved surveillance and warning capabilities, as embodied in the E-3 AWACS program
+- In addition to new platforms, the USAF prioritized improvements to existing weapons and platforms
+  - Laser-guided variant of the Maverick missile
+  - Improvements to EF-111 electronic warfare aircraft
+  - Improvements to stand-off attack capabilities
+- The Israeli Yom Kippur War was also seen as supporting the "high/low" concept of having a smaller number of highly sophisticated platforms backed by a larger number of less sophisticated, but cheaper and easier to build platforms
+- As a result, the Air Force also sped up work on the Lightweight Fighter Program that would eventually result in the F-16
+- To bolster airlift capabilities that had proven their worth in Operation Nickel Grass, the air force prioritized
+  - Adding aerial refueling capabilities to its cargo transports
+  - Additional purchases of C-130 transport aircraft
+- The FY 1975 budget also made special provision for measures to improve aircraft survivability and suppression of enemy air defenses
+  - Improved radar warning receivers
+  - Procurement of additional Advanced Location Strike System modules --- a system to automatically detect and target surface-to-air missile radars
+  - Additional chaff dispensers, to be retrofitted to existing aircraft (/kind of surprising that not every combat aircraft had chaff and flares, which, today are considered a sort of minimum baseline in terms of defensive capabilities/)
+  - 800 additional Shrike anti-radiation missiles
+  - Increased research and development funding for the High-Speed Anti-Radiation Missile (HARM)
+  - New jamming pods and improvements to existing ECM systems
+  - Development of a Precision Emitter Location and Strike System that would enhance or replace ALSS
+- Although substantial additional funding was allocated to the aforementioned development and acquisition program, the funding was undermined somewhat by the oil-shock driven inflation of the late 1970s
+
+** The Yom Kippur War and SEAD
+- Prior to the Yom Kippur War, Suppression of Enemy Air Defense had not been tightly defined
+- Although the Air Force had convened a working group focused on the SAM threat after the introduction of the SA-2 in Vietnam, resulting in many innovations and a marked reduction in SA-2 effectiveness, the USAF had never embarked on a systematic campaign to suppress North Vietnamese air defenses
+- In Vietnam, while the Air Force had attacked missile launchers, it had ignored communications nodes and search radars
+- Launchers were attacked because they were considered part of the defenses surrounding another target, not because they were targets in and of themselves
+- The severe losses experienced by the Israeli Air Force in attacking integrated Egyptian and Syrian air defenses showed that the Vietnam-era piecemeal approach was no longer viable
+- Instead, in the future, campaign plans would need to include a SEAD component to break enemy air defenses to allow follow-on strikes by tactical and strategic aviation
+- The Yom Kippur War raised SEAD from a secondary, incidental priority to a primary priority in budget requests --- weapons and systems specifically dedicated to SEAD were sought
+- The emphasis on SEAD as a dedicated specialization gained further momentum after the Israeli raid on Syrian air defenses in the Bekaa Valley in 1982
+  - A dedicated Israeli SEAD force neutralized the SAM batteries electronically, enabling a follow-on force of strike aircraft to physically destroy the launchers and radars
+  - Required electronic warfare aircraft, strike aircraft, UAVs and ground support to operate in close coordination
+- The Bekaa Valley raid offered limited reassurance to the USAF that its investments in SEAD were the right approach for dealing with Soviet air defenses
+- By 1984, the Air Force had updated its doctrine to include SEAD as a specific mission type to "neutralize, destroy or temporarily degrade enemy air defense systems in a specific area by physical or electronic attack"
+- The true maturity of SEAD capabilities was revealed in Desert Storm, which opened with a comprehensive SEAD campaign conducted by US Air Force, US Army, US Navy and US Marine Corps using specialist electronic warfare aircraft, non-specialist aircraft, attack helicopters, surface-to-surface missiles, and long-range cruise missiles in close coordination to destroy the Iraqi integrated air defense system
+
+** The Origins of the F-117
+- The primary focus of aircraft survivability after the Yom Kippur war was in reducing the observability of aircraft by radar, i.e. stealth
+- Prior to the Yom Kippur War, the only US aircraft that had incorporated some low-observability characteristics was the SR-71
+- However, the SR-71's stealth features were compromised by its need to fly at high speeds and at high altitudes
+- Although low-observability test vehicles had been recommended as an avenue of investigation for the US Air Force in 1971, they only became a priority after 1973
+- Based on a 1974 extrapolation from the Yom Kippur War, the Defense Science Board estimated that NATO air forces would be decimated in as little as two weeks by Soviet air defenses
+- As a result, DARPA proposed a "silver bullet" aircraft designed specifically to penetrate and destroy Soviet defenses
+- The novelty of the F-117 was its focus on radar cross section reduction through entirely passive means, without resorting to electronic countermeasures
+- DARPA requested proposals from five companies
+  - Northrop
+  - McDonnell-Douglas
+  - General Dynamics
+  - Fairchild-Republic
+  - Grumman
+- However, the winner of the contest was Lockheed, whose experience with "skunk works" projects enabled it to produce the "Have Blue" concept, and subsequently the F-117 itself, which was codenamed "Senior Trend"
+- The F-117 achieved initial operating capability in 1983, and was first used in combat for Operation Just Cause, the US intervention in Panama, in 1989
+- The F-117's most famous missions would take place during Operation Desert Storm, in 1991, when F-117s successfully penetrated the Iraqi integrated air defense system and attacked key targets in Baghdad
+- This is notable because the threat environment in Iraq in 1991 was very similar to the threat environment faced by Israeli planes in 1973
+- Thus, the development of F-117, and its success during Desert Storm, can be viewed as a direct outcome of US Air Force analyses of the Yom Kippur War
+- The further application of stealth technology to the F-22 and the F-35 can be viewed as the fulfillment of an intention to create tactical aircraft that could survive in a threat environment where Israeli Phantoms and Skyraiders could not
+
+** Training Reforms and Tactical Developments
+- One of the lessons of Vietnam for the United States was that its training for fighter pilots placed inadequate emphasis on maneuver
+- Aircraft only conducted practice missions against aircraft of the same type, rather than aircraft selected to have similar characteristics to adversary aircraft
+- Tanker and cargo pilots were often reassigned to fighters with only short and simplistic training courses, diluting the quality of fighter units
+- While the US Navy recognized the problems caused by inadequate training in 1969, establishing the "Top Gun" Fighter Weapons School, the US Air Force only started considering changes to fighter pilot training in 1972, establishing its "Red Flag" exercise only in 1975
+- The Yom Kippur War thus occurred at a critical moment in US Air Force doctrinal change --- the Air Force had recognized that its fighter pilot training doctrines needed to change, but had not yet determined how they should change
+- The lesson of the Yom Kippur War were crucial in spurring the US Air Force to recognize that, in addition to revising air-to-air training, air-to-ground missions would also need more realistic training
+- Furthermore, Israeli visitors to the US in the aftermath of the Yom Kippur War noted a US flight culture that excessively prioritized flight safety, to the point where it made realistic training impossible
+- The Israelis also transferred captured Soviet equipment to the US, and provided crucial data about the SA-6
+- This information allowed the US Air Force to create a "Green Flag" exercise, an electronic warfare counterpart to Red Flag
+- The Israeli experience was crucial in persuading the US Air Force to adopt low-altitude tactics as a counter to Soviet radar-guided SAMs, even though this would potentially make aircraft more vulnerable to gun-based AA and portable anti-aircraft missiles
+- However, by the 1980s, the US Air Force would revert to a medium-altitude approach, as simulations proved that gun-based AA and portable missiles presented too much of a threat
+- Instead, the favored approach was to carry out low-level attacks in order to degrade enemy air defenses, which would allow the majority of missions to be carried out from medium altitude
+- Crucial to enabling this was the maturation of stealth and electronic warfare capabilities whose development had been spurred by the Yom Kippur War
+
+** Capability Realization: The Gulf War
+- The Gulf War Air Power Survey was explicit in noting that many of the strengths of the US Air Force during the Gulf War were due directly to initiatives that had been started to address the lessons of the Yom Kippur War
+- Airlift capabilities upgraded after the lessons of Operation Nickel Grass allowed the US Air Force to effectively support the Coalition, flying four times the tonnage that had been flown during Nickel Grass
+- Although guided bombs only formed a small portion of the munitions dropped during Desert Storm, they were used to attack key air defense targets, and provided the sort of "risk-minimizing standoff" that had been noted as a requirement after the Yom Kippur War
+- The Air Force used the lessons learned from observations of munitions expenditures during the Yom Kippur war to pre-position a significant amount of materiel in advance of Desert Storm
+- Although this sacrificed redundancy and stripped assets from other theaters, it did ensure that coalition forces were adequately supplied with both munitions and logistics during Desert Storm
+- It's important to realize that the Yom Kippur War was still in the relatively recent past when Desert Storm occurred --- only 17 years separate the Yom Kippur War and Desert Storm, fewer years than which separate Desert Storm and the bombing of Libya in 2011
+- The Air Force was able to learn the lessons of the Yom Kippur War and turn them into actionable changes in training, technology and logistics in a relatively short period of time
+
+* Chapter 4
+
+** The Yom Kippur War and Air Force Doctrine: Operational Concepts and Operational Success
+- General Don Starry, who formulated the AirLand Battle operational concept, was profoundly influenced by the Yom Kippur War
+- AirLand Battle channeled the Army and Air Force into a joint operational doctrine, and, although it was primarily an Army doctrine, it had a significant influence on the Air Force
+- The Air Force also learned independent doctrinal lessons from the Yom Kippur War via John Warden, who established suppression of enemy air defense as a primary mission for the Air Force
+
+** Learning By Proxy: The US Army, AirLand Battle, and the Air Force
+- Initially, after the Yom Kippur War, it was the Army which pursued deep doctrinal changes, while the Air Force busied itself with technical solutions to the challenges that Israel had faced
+- The Air Force focused on improving tactics, while the Army focused on operational improvements
+- Don Starry, head of the US Training and Doctrine Command (TRADOC), toured the Golan battlefield with Gen. Peled of the IDF
+- The conclusions he drew from walking that battlefield were remarkably durable
+  - Modern battlefields are weapons-dense --- large numbers of weapons systems, each of which is highly lethal
+  - Direct-fire combat is intense --- high numbers of equipment losses in a short period of time
+  - Air battle will be just as intense and lethal as the ground battle
+  - Density and lethality means that no single weapons systems can deliver a lasting advantage --- the only way to win is by employing all weapons in a coordinated fashion
+  - Regardless of who is attacking or defending, battlefield outcomes will be decided by factors other than sheer numbers --- training and doctrinal excellence will carry the day
+- Starry concluded that the best way to win against Soviet-style units attacking in echelons is through "deep attacks" against the enemy rear areas
+- In order to achieve those attacks, enemy air defenses had to be suppressed
+- The AirLand Battle operational concept built atop Active Defense concept which had been published in the 1976 edition of the Army Operations field manual (FM 100-5) by Gen. DePuy
+- Active Defense recognized the interdependency between ground operations and air operations --- sometimes (as with the Israeli tank raid across the Suez) it's the ground operations which are supporting the air
+- However, Active Defense was seen as being too reactive, and too focused on static engagements rather than maneuver and multiple-echelon engagements
+- To address these shortcomings, General Starry worked closely with General Creech of TAC, much as Gen. DePuy had worked closely with Gen. Dixon
+- Starry and Creech emphasized informal collaboration, to avoid "Pentacrete" --- their term for the bureaucratic inertia endemic to the Pentagon
+- The result of this collaboration was AirLand Battle, published in the 1982 edition of FM 100-5
+- The core tenets of AirLand Battle were
+  - See deep --- intelligence and reconnaissance assets must be able to see into the enemy second echelon and beyond
+  - Move fast --- US maneuver units must be able to concentrate firepower at a moment's notice, in order to blunt attacks and exploit weaknesses
+  - Strike quickly --- US Air Force units must work closely with ground units to unleash massive firepower in order enable ground forces to maneuver
+- AirLand Battle significantly influenced Air Force acquisition programs
+  - Joint Surveillance Target Attack Radar System (JSTARS) was prioritized as a way to acquire data about enemy rear echelon units
+  - The US Army also pushed the US Air Force to invest in unmanned surveillance systems, which would demonstrate their utility in the Israeli raid on the Bekaa Valley in 1982
+  - AirLand Battle also blurred the lines between "strategic" and "tactical" Air Force assets, with even strategic assets, such as the B-52 being tasked with performing interdiction missions to support the Army on the battlefield
+  - As a result, AirLand Battle resulted in the primacy of TAC over SAC as the most influential command within the Air Force
+  - The Air Force that fought in Desert Storm was one that had moved beyond the strategic/tactical distinction, although it would not be formally reorganized to reflect this unification until the creation of Air Combat Command in 1992
+
+** The Airman's View of Air Power: The Yom Kippur War and John Warden
+- While the United States Army's doctrinal changes certainly had an effect on the Air Force, the Air Force also pursued its own independent doctrinal changes in response to the Yom Kippur War
+- The Gulf War was characterized by an extended preparatory aerial bombardment that destroyed a significant fraction of the Iraqi Army from the air
+- In addition, the Air Force conducted deep strikes against infrastructure and leadership targets in Baghdad
+- These aspects of the war were beyond what was envisioned by Don Starry's AirLand Battle concept
+- The Air Force aspects of the Gulf War were largely the result of the work of Colonel John Warden
+- "Instant Thunder" --- air-only campaign plan with which to defeat Iraq
+- Warden's air power ideas emphasized gaining and maintaining control of the air
+- Warden felt that air superiority, rather than close air support, should be the primary object of US tactical air power
+- However, he extended air superiority to include defeat of surface-to-air weapons
+- Argued that the Israelis were only able to turn the tide after the recognized the need to suppress enemy surface-to-air missile systems, in his book, /The Air Campaign/
+- Warden also highlighted the effects of the Israeli Air Force's attacks on Syrian fuel and ammunition reserves to demonstrate the impact of deep interdiction strikes
+- Felt that deep interdiction was a better use of air power than close air support
+- The Israelis had attacked political and economic targets deep inside Syria to get Syria to pull air defense assets back from the front line
+- Warden's doctrinal changes would have been impossible to implement without the technological improvements in stealth and precision weapons that were themselves also a product of the Yom Kippur War
+
+** Influential - and /Influenced/ - Individuals in Operation Desert Storm
+- Many of the officers chosen to plan and execute Desert Storm cited the Israeli experience in the Yom Kippur War as a direct influence on their planning for Desert Storm
+- Notably, Brigadier General Larry L. Henry, architect of the electronic warfare portion of the campaign deeply studied the Israeli experience in the Yom Kippur War and cited it as a direct influence on his planning for the Gulf War
+  - Had interviewed Israeli and US officials involved in both the Yom Kippur War and the later Bekaa Valley raid
+  - Wrote a paper constrasting the effectiveness of Israeli attacks against air defense in 1973 versus 1982
+- Another officer to be influenced by the Yom Kippur War was Lt. Gen. Horner, overall air commander for the Gulf War
+  - Horner is less categorical about the influence of the Yom Kippur War, citing it as one of a number of factors that influenced his thinking, along with his experience in Vietnam
+  - However, Horner de-emphasized low-level attacks as a response to the SAM threat, citing the relative ineffectiveness of Israeli aircraft flying at low level
+    - Low level strikes make aircraft more vulnerable, as they're now flying within range of gun-based anti-aircraft systems in addition to anti-aircraft missiles
+    - Pilots become completely overloaded by avoiding flak, missiles and the ground
+    - Weapons releases become haphazard and miss rates go up
+- Horner, drew different conclusions than Warden from the 1973 war
+  - Objected to Warden's "Instant Thunder" plan which called for an exclusive focus on deep strikes, ignoring troops in the field
+  - Noted that in addition to deep strikes, the Israeli Air Force also continued to carry out close air support missions throughout the war
+
+* Conclusion
+
+** An American-Israeli Way of War
+- The Yom Kippur War fundamentally influenced US Air Force equipment, tactics and doctrine
+- Emphasized the need for defense suppression
+- Showed that modern war required a large quantity of munitions, as well as qualitative advantages
+- The lessons from this war formed the basis of the technological "offsets" that would enable the US to win a decisive victory in Desert Storm
+- The Yom Kippur War also reinforced an emphasis on a "high-end", battle-oriented approach to planning for conflict
+- This has led to challenges when deploying American air power in contexts other than high-intensity regular war
+- US and Israeli air power have traced similar paths since 1973
+- Israel, too, has had mixed results with employing air power in irregular warfare, notably in 1982, 2000 and 2006
+- Another legacy of the Yom Kippur War is the tension between peerless capability in conventional war and mixed results in irregular warfare
+
+** At The High End: War As Battle
+- In 1973, just before the Yom Kippur War, the historian Russell Weigley introduced the concept of "an American Way of War"
+  - Focuses on the annihilation of the enemy
+  - A central problem of American strategy has been figuring out (or failing to figure out) how to achieve the annihilation of the enemy without paying an unacceptable cost
+- The American way of war is
+  - Technology-loving and technology-dependent
+  - Firepower-oriented
+  - Aggressive and offensive
+  - Regular
+  - Often profoundly tone-deaf to the historical and cultural context of its surroundings
+- Identifies wars with battles
+- Americans are profoundly uncomfortable waging war with limited means for ambiguous objectives
+- The Yom Kippur War presented an affirmation of the American way of war
+- Was a miniaturized version of the Second World War
+- The timing of the conflict was fortuitious in that it occurred immediately after an uncomfortable mismatch between the preferred American mode of conflict and an incompatible context in Vietnam
+- The Yom Kippur War further supported analytical trends that had emphasized the regular aspects of the Vietnam conflict over the irregular ones
+- Conversely, the Yom Kippur War enabled the US military to forget the lessons of Vietnam before it could properly assimilate them
+- Gave the US military "cover" to "close the door" on irregular warfare
+- Ignored the fact that the US had military obligations that ranged widely across all types of warfare
+- The post-Vietnam Air Force was the product of the lessons of the regular parts of the Vietnam War, plus the profoundly regular Yom Kippur War
+- This paid off handsomely in Desert Storm, but since Desert Storm, US air power has had a less comfortable fit with the types of conflicts the US military has been asked to fight
+  - Balkan conflicts
+  - Afghanistan
+  - Iraq
+- In these conflicts, Air Force leaders have argued that the Air Force has been failed by circumstances
+  - Not allowed to strike targets in central Belgrade during the Balkan conflict
+  - Lack of targets in general during counterinsurgencies
+- The emphasis on high-end conflict has left the Air Force short of resources in areas such as reconnaissance
+- /The Air Force had to be dragged kicking and screaming into adopting UAVs after 9-11, despite evidence from the CIA that UAVs were highly effective in a counterinsurgency context because of the persistent surveillance they're able to provide and the fact that they don't place friendly soldiers at risk/
+
+** American-Israeli Parallelism
+- One of the consequences of the Yom Kippur War on the Israeli Air Force was to make it more like the US Air Force
+- Close relationships between Israeli and US Air Force officers
+- Common equipment
+  - Israeli was one of the first foreign operators of the F-15 and F-16
+  - The first operational missions carried out by the F-15 and F-16 were in Israeli service
+    - First recorded F-15 kill - 1979
+    - The raid against the Iraqi nuclear reactor at Osirak was a demonstration of the F-16's capabilities
+  - Israelis used American airborne early warning aircraft for the raid on the Bekaa Valley in 1982
+- Shared conceptual underpinning
+  - The Israelis have adopted the American way of war in miniature
+  - However, as time goes on, the 1969 and 1973 wars that Israel fought begin to look more and more like anomalies
+  - The usual Israeli war is an extended occupation aimed at suppressing irregular forces
+  - This is best seen in Israel's conflicts in Lebanon, in 1982 and then again in 2006
+    - In both cases, the Israeli Air Force was largely ineffective in suppressing Hezbollah forces
+    - In 2006 Hezbollah was able to fire rockets into Israel successfully throughout the 34-day conflict
+    - Israeli ground forces suffered unexpectedly high casualties despite having total control over the skies
+    - A post-war Israeli commission found that 

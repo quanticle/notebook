@@ -1,0 +1,117 @@
+* OMNI-2550: Export KML Non-responsive on boundary
+[[https://wlweb.windlogics.com/radar/browse/OMNI-2550][Ticket Link]]
+
+** Problem Description
+- Boundary will not export as KML
+- Export JSON is working
+- Example URL: =https://omni.nexteraanalytics.com/model?projectId=1108&proposalId=1138&scenarioId=1138&variableId=4528=
+- Project:
+  - Tecumseh Solar
+  - Base project
+  - Base scenario
+  - P-3899
+  - In dev, Project ID: 1341
+  - In prod the variable that's having trouble with export is the =boundary= variable in the =NEA/Global Variables= folder
+- Looks like I don't have export permissions
+- Error message =e.replace= is not a function
+- Exported KML file is empty
+
+** Debugging information
+- Where is the KML export code?
+- Error occurring in =ExportAsButton.vue:168=
+  #+BEGIN_EXAMPLE
+    toKML(data) {
+        const mergedData = Array.isArray(data) ? mergeGeoJson(data) : data;
+        const content = this.toKmlOptions ? tokml(mergedData, this.toKmlOptions) : tokml(mergedData);
+        return this.prepBlobData(content, 'kml')
+    }
+  #+END_EXAMPLE
+- Error seems to be occurring in =tokml(mergedData)=
+- =tokml= function comes from =[@maphubs/tokml](https://github.com/maphubs/tokml)=
+- The base error is in [[https://github.com/maphubs/tokml/blob/master/lib/xml-escape.js#L11][line 11]] of =xml-escape.js=:
+  #+BEGIN_EXAMPLE
+    return string.replace(new RegExp(pattern, "g"), function (str, item) {
+        return escape.map[item];
+    });
+  #+END_EXAMPLE
+- Somehow the object getting passed in is not a string
+  - But it's not =null= or =undefined= either, because there are checks for those
+  - Could it be a number?
+- Called from [[https://github.com/maphubs/tokml/blob/master/lib/strxml.js#L19][line 19]] of =strxml.js=:
+  #+BEGIN_EXAMPLE
+    function attr(attributes) {
+        if (!Object.keys(attributes).length) return "";
+        return (
+            " " +
+            Object.keys(attributes)
+                .map(function (key) {
+                    return key + '="' + esc(attributes[key]) + '"';
+                })
+                .join(" ")
+        );
+    }
+  #+END_EXAMPLE
+  - =esc(attributes[key])= is failing
+- Where is =attr= called?
+- =attr= is called by =tag(el, attributes, contents)=: =return "<" + el + attr(attributes) + ">" + contents + "</" + el + ">";=
+- The call to =tag= that's blowing up is:
+  #+BEGIN_EXAMPLE
+    return (
+        styleDefinition +
+        tag(
+            'Placemark',
+            attributes,
+            name(_.properties, options) +
+                description(_properties, options) +
+                extendeddata(_properties) +
+                timestamp(_properties, options) +
+                geometryString +
+                styleReference
+        )
+    )
+  #+END_EXAMPLE
+- I think the critical lines are the two lines above:
+  #+BEGIN_EXAMPLE
+    var attributes = {};
+    if (_.id) attributes.id = _.id
+  #+END_EXAMPLE
+- =_= is the feature
+- I think it expects =feature.id= to be a string
+- In our case =feature.id= is an integer
+- This is the same as [[https://github.com/maphubs/tokml/issues/4][this known issue]]
+- Minimal example to validate my hypothesis:
+  #+BEGIN_EXAMPLE
+    { "type": "FeatureCollection",
+        "features": [{
+            "id": 1,
+            "type": "Feature",
+            "geometry": { "type": "LineString",
+            "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
+            },
+            "properties": {
+                "prop0": "value0",
+                "prop1": "val2"
+                }
+            }
+        ]
+    }
+  #+END_EXAMPLE
+- Running this in the test cases causes the test cases to fail
+- [[https://github.com/maphubs/tokml/pull/5][My PR fixing the issue upstream]]
+- In the meantime, however, I need to fix our code to have string feature IDs
+- I need to add a filter that converts the feature IDs to strings
+  - Needs to handle either a single feature or a feature collection
+  - In order to distinguish, I need to look at the =type= value
+  - If =type == "Feature"=, then we have a single feature, and I need to look at =id=
+  - If =type == "FeatureCollection=, then we have a feature collection, and I need to iterate through the =features= array
+  - Can't convert the feature IDs to strings in place --- need to have a pure function
+- How do I test my changes?
+  - Need to set up =fileData= as
+    - Individual =Feature=
+    - Array of =Feature=
+
+** MR Feedback
+- Instead of writing a workaround, we can use [[https://www.npmjs.com/package/patch-package][patch package]] to patch =tokml= directly
+- Grab my local modified copy of =index.js=, and copy it over =node_modules/@maphubs/tokml/index.js=
+- Run =npx patch-package @maphubs/tokml= to create a patch file
+- Error when running =npx patch-package @maphubs/tokml=: =ERR! Unable to authenticate, need: BASIC realm "Sonatype Nexus Repository Manager"=

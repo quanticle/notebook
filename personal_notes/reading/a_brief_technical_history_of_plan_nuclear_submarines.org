@@ -1,0 +1,202 @@
+#+TITLE: A Brief Technical History of PLAN Nuclear Submarines
+#+OPTIONS: toc:1
+#+OPTIONS: h:6
+
+Authors: Christopher P. Carlson, Howard Wang \\
+Published by: China Maritime Studies Institute (China Maritime Report No. 30) \\
+[[https://digital-commons.usnwc.edu/cmsi-maritime-reports/30/][Web Link]] \\
+
+* Introduction
+- It has been 55 years since the People's Republic of China began construction of its first nuclear powered submarine
+- Began in 1958, when Mao Zedong authorized the "09 Project"
+- After it became clear that the Soviet Union would not be forthcoming with technical assistance, China began a path of self-reliance in nuclear submarine development, and project work began in earnest in 1959
+- For the next 5 years (/until 1963/), progress was slow
+  - No nuclear expertise
+  - Vast political and economic chaos caused by the Great Leap Forward
+- In 1963, Chinese officials recognized that nuclear powered submarines and the Chinese atomic weapons program were competing for the same talent, and put the submarine project on hold
+- After China's successful test of an atomic weapon in 1964, the submarine project restarted in 1965
+
+* First Generation: Type 091 [Han] and Type 092 [Xia] SSBN
+
+** Type 091
+- The ultimate goal for China was to build a nuclear powered submarine capable of launching ballistic missiles (SSBN)
+- However, the simultaneous creation of a submarine platform along with a new ballistic missile system was cause for concern
+- Chinese officials arrived at a compromise
+  - Submarine design was to proceed on a nuclear powered attack submarine (SSN)
+  - Missile design would proceed independently
+- Once the missile was ready, a new submarine would be built, with the benefit of the experience gained from building the attack submarine
+- The technical requirements for the SSN were daunting
+  - 9m pressure hull, nearly twice as large as the Romeo-class diesel-electric submarines that China had been operating up to that point
+  - 300m maximum depth, same as the Romeos
+  - Ability to launch torpedoes at that depth (unlike the Romeos, which had a maximum torpedo launching depth of 80m)
+- The greatest challenge, however, was developing the reactor
+- Chinese designers had to make do with open-source data on Soviet and US naval reactors
+- Looked at designs for non-military vessels
+  - /[[https://en.wikipedia.org/wiki/Otto_Hahn_(ship)][Otto Hahn]]/ --- West German nuclear powered freighter
+  - /[[https://en.wikipedia.org/wiki/NS_Savannah][Savannah]]/ --- American nuclear powered freighter
+  - /[[https://en.wikipedia.org/wiki/RV_Mirai][Mutsu]]/ --- Japanese nuclear powered freighter
+  - /[[https://en.wikipedia.org/wiki/Lenin_(1957_icebreaker)][Lenin]]/ --- Soviet nuclear powered icebreaker
+- After examining these designs, Chinese designers selected a loop-type pressurized water reactor, similar to those used on the /Savannah/, /Lenin/ and /Mutsu/
+- After selecting the reactor design in 1965, Chinese officials decided to proceed with the reactor and hull development simultaneously
+- This was a calculated risk, but was deemed necessary in order to make up for lost time due to earlier delays
+- The design and construction was quick
+  - Technical design was finalized in 1967
+  - Construction finished and submarine launched in 1970
+  - Sea trials concluded, and submarine commissioned in 1974
+- The second Type 091 submarine was commissioned in 1980, a long delay due to the turmoil associated with the Cultural Revolution
+- Although the two Type 091 submarines did represent a technical triumph for China, they were beset with problems
+  - Corrosion issues
+  - Reactor coolant pumps that leaked radioactive water into the engineering spaces
+  - Claims of crew falling ill due to high radiation levels
+  - Poor quality pumps, condensers, and gears
+- In order to address these defects, the second batch of Type 091 submarines was lengthened by 8m and new quality control procedures were enacted
+- The extra space allowed for greater crew comfort and reduced radiation exposure
+- The last Type 091 was fitted with a reactor incorporating enhancements discovered during the design work for the Type 092, resulting in a 20% power increase
+- However, reliability was still a concern and no Type 091 carried out a dive to its maximum specified depth of 300m until 1988, 14 years after the commissioning of the first hull
+- The Type 091 was not an effective combat submarine
+  - Slow (max speed: 24-25 knots), loud, with limited sensors
+  - Similar in theoretical capability to the Soviet Hotel, Echo and November classes from roughly around the 1960s
+  - However, even this is overstating the case, as, until 1989, the Type 091 lacked torpedoes
+    - As part of designing the new deep water launch system, Chinese engineers switched from using compressed air to a hydraulic launcher
+    - This changed shortened the torpedo tubes, which meant that existing Chinese torpedoes would no longer fit
+    - The development of the new Yu-3 torpedo took longer than anticipated, and Chinese Type 091 submarines did not receive working torpedoes until 1989
+- The PLAN has carried out modernization of the Type 091 class, but only on hulls 403, 404, and 405, the last three built
+  - Flank sonar arrays
+  - Improved torpedoes, possibly upgrading to the Yu-6 torpedo
+  - Improved fire-control systems
+  - Anechoic coating
+  - New, seven-bladed screw
+
+** Type 092
+- Often described a Type 091 with a missile section grafted on, which is an accurate assessment
+- Missile section necessitated some minor technical changes
+  - Increase in the diameter of the pressure hull from 9m to 10m
+  - Higher-power reactors (shared with the later Type 091 hulls)
+- The largest challenge with the Type 092 was the missile ejection system
+  - How to eject a 14-ton missile from the submarine and get it to the surface without damaging it
+  - How to maintain a hospitable environment for the missile as it sits in the launch tube
+  - How to compensate for the weight difference between a missile tube containing an un-fired missile and a missile tube full of water after firing
+- The Chinese adopted a gas-steam generator, similar to the US Polaris SSBN
+  - A small solid rocket motor flashes a quantity of distilled water into superheated steam
+  - This steam propels the missile out of the tube at high speed
+  - While the Chinese examined a "cold gas" launch assist device, like those used on Soviet ballistic missile submarines, they did not adopt this mechanism because it would require liquid fueled missiles
+- The construction of the Type 092 was started in 1971, but the submarine was not launched until 1981, due to the chaos caused by the Cultural Revolution
+- The submarine was commissioned in 1983, and only 1 instance of the type were built
+- The development of the missile for the Type 092, the JL-1, was beset with more problems than the development of the submarine
+  - Preliminary design started in 1967
+  - First submerged firings (from a Type 031 diesel-electric testbed submarine) occurred in 1982
+  - In 1985, the first launches from a Type 092 submarine occurred, but both missiles failed after launch
+  - A successful test of the JL-1 from a submerged Type 092 would not occur until 1988
+- The Type 092 suffered from many of the same warfighting issues as the Type 091
+  - Slow (max speed: 22 knots)
+  - Loud
+  - No self-defense capabilities until 1989 (due to the torpedo issue discussed above)
+  - Unreliable reactor
+- The Type 092 was deployed infrequently, spending much more time in port than at sea
+- No open-source documents list the JL-1 as an "operational" missile
+- /I think what the authors are saying is that it's better to view the Type 092 as a research prototype than an operational naval asset/
+
+* Second Generation: Type 093/093A/093B [Shang I, Shang II, Shang III] SSN and Type 094 [Jin] SSBN
+
+** Type 093
+- English-language details on this generation of Chinese nuclear submarines is sparse
+- These boats were designed after Mao's death and the ascension of Deng Xiaoping
+- Nuclear submarines were not a priority for Deng
+  - High cost
+  - Limited capability
+- Deng indicated that existing hulls under construction would be completed, but no new hulls would be started
+- Although there was some preliminary design work done in the late '80s, Chinese submarine construction would not start anew until 1994, after Jiang Zemin took over as President of China
+- The primary concern for Chinese nuclear submarine designers was power, and, as a result, it's thought that the second generation of Chinese nuclear submarines employ two loop-type reactors
+- US Office of Naval Intelligence's (ONI) /World Submarine Challenges 1997/ depicts the Type 093 and Type 094 with two reactors
+- Target maximum speed estimated to be in the range of 30 knots, roughly comparable to the Soviet Victor III-class
+- China was thought to have received assistance from Russia on quieting technology, and, as a result, the radiated noise of the Type 093 was initially thought to be comparable with the Victor III-class as well
+- The first two Type 093 hulls rolled out in 2002 and 2003, and were commissioned in 2006 and 2007, respectively
+- During testing, it became clear that speed and quieting goals had not been met
+  - Open-source estimates of maximum speed were in the range of 26-28 knots, an improvement over the Type 091, but short of the presumed 30 kt goal
+  - Although revisions were made to make the sail more streamlined, it's unlikely that this improved the submarine's top speed significantly
+  - In 2009, the ONI published an assessment of Chinese submarines that showed that the Type 093 was barely better than the Type 091 in terms of noise level, and was considerably worse than the Victor-III class of Soviet/Russian submarines
+  - This made it clear that China did not receive significant Russian assistance on noise reduction
+- Although there were some blog posts on Chinese media that claimed that the Type 093 was using a "raft" structure, similar to American or Russian submarines, to isolate machinery from the hull, the high radiated noise levels of the Type 093 make this possibility unlikely
+- Furthermore, the smallest submarines with rafts have hull diameters of approximately 9.7m, larger than the 9m pressure hull diameter of the Type 093
+- Instead, it's likely that the Chinese used noise-isolating machinery mounts, which were less effective than the full raft structures used on American and Soviet vessels
+- After the initial batch of Type 093s was completed in 2003, Chinese slipways were busy building Type 094 SSBNs
+- During this time, the Chinese incorporated a set of modifications and enhancements to the Type 093, resulting in the Type 093A
+  - More drag reduction modifications to the sail, possibly allowing the Type 093A to reach the original speed goal of 30 kts
+  - Bulged area behind sail likely holding the machinery to operate a towed-array sonar
+  - Reverse-engineered Russian noise reduction technology
+    - Anechoic coatings
+    - Pneumatic noise isolation mounts
+- The Type 093As were constructed in quick succession, with one launching each year from 2015 to 2018
+- Although the 093A was quieter than the Type 093, it was still not especially difficult to track
+- The Type 093A was further improved after 2002, when China acquired a significant quantity of naval technology from Russia
+- Among the technology acquired likely were examples of the noise isolation mounts used on modern Russian submarines, such as the Project 971 (Akula-class) and the Project 885 (Yasen-class)
+- These more advanced noise isolators were likely fitted onto later examples of the Type 093A (resulting in the Type 093A, version 3)
+- If they work as advertised, it would mean that the Type 093A has reached a noise level comparable with the Soviet Victor III type
+- Currently, Chinese shipyards are building yet another variant of the Type 093, the Type 093B, expected to launch in the mid-2020s
+  - Lengthened hull
+  - Pump-jet propulsor
+  - Acoustic signature could be as low as that of a Soviet Sierra-class
+
+** Type 094
+- Just like the Type 092 was a Type 091 with a missile section grafted into the middle, the Type 094 is a Type 093 with a missile section grafted into the middle
+- The Type 094's missile section is much taller than the Type 092's, because it carries larger JL-2 missiles
+  - These missiles have a range of 7,200 km
+  - Higher than the JL-1, but still requires the submarines to venture far out into the Pacific to hit targets in the continental US
+  - Type 094 submarines will not present a real threat to the US until and unless they're outfitted with the more advanced JL-3, which possesses a 10,000+ km range, allowing Chinese submarines to target the US from bastions near the Chinese coast
+- This large missile compartment results in a distinctive (/and rather unsightly/) "turtleback", which hurts speed
+  - Maximum speed of 24 knots
+  - Barely faster than the Type 092, despite having a much more powerful powerplant
+
+* Third Generation: Type 095 SSGN and 096 SSBN
+- While the actual designs of the Type 095 and 096 have yet to be seen, it's possible to come up with a likely set of design considerations
+  - Pump-jet propulsor
+  - Single reactor design with high power and natural circulation capability
+  - Integrated electric propulsion system (IEPS)
+  - Noise reduction through the use of a free-floating horizontal raft
+  - Long-range strike
+  - Hybrid hull design, with the submarine having a double hull for only a portion of its body
+- Pump-jet propulsor
+  - The first example of the Type 093B likely has a pump-jet propulsor
+  - Even if this is a one-off prototype, it's very likely that future Chinese submarines will be designed with pump-jet propulsors from the outset
+  - Advantages in noise reduction massively outweigh disadvantages resulting from increased weight and cost
+- Reactor
+  - In 2010, the heads of Rosatom and the China Atomic Energy Agency announced a new nuclear technology partnership between Russia and China
+  - Gives China access to a new generation of Russian naval reactors, used in free-floating nuclear power barges and new nuclear-powered icebreakers
+  - The Russian KLT-40S reactor appears to have served as the inspiration for a new Chinese design, the ACPR50S
+  - The maximum power rating of the ACPR50S is 200 MW, higher than the combined output of the dual reactors in the Type 093 and 094
+  - Although both the KLT-40S and the ACPR50S require forced coolant circulation, they're both in the same family as the OK-650
+  - The OK-650 is the naval reactor found on the Project 945 (Sierra I/II-class) Soviet SSNs
+  - Can achieve up to 30% of its total power without the use of coolant pumps
+  - Thus, we can estimate that the Type 095 and 096 will have 200 MW single-reactor powerplants with up to 30% of this power available using natural circulation
+- Integrated Electric Propulsion System
+  - Although there has been some speculation regarding a fully-electric propulsion system, it's unlikely that the 095/096 will have one
+  - China has yet to build permanent magnet DC motors in the 30-35 MW range
+  - As a result, it's had to use induction motors, which are too large and heavy to fit into a submarine hull
+  - This suggests that future Chinese submarines would still use geared turbines for high-speed operations, with a possible secondary electric drive for low-speed/stealthy cruising
+- Free-floating raft
+  - It's very likely that future Chinese submarine designs will have a free-floating raft structure with two levels of noise isolation for machinery
+  - This raft structure will demand a much larger pressure hull radius
+- Long-range strike
+  - The PLAN have fitted their Type 032 experimental testbed submarine with VLS cells
+  - This is likely an indication that the forthcoming Type 095 will also have VLS
+  - The number of VLS cells is open to debate
+  - VLS will be able to accomodate a range of land-attack and anti-ship cruise missiles
+  - Although these missiles could theoretically be launched from torpedo tubes, having VLS would significantly increase the salvo size that could be launched from a submarine
+- Hybrid Hull Design
+  - Previous PLAN nuclear submarines featured a full double-hull
+  - This is likely due to the influence of Russian submarine design, which prefers the large reserve bouyancy provided by a double-hull
+  - The hybrid hull designs featured in open-source materials would have little advantage over a full double-hull
+    - Hybrid hull is only about a meter smaller than a double-hull
+    - Marginal improvements in drag
+    - Might actually have a larger acoustic signature than a double-hull
+    - Inability to survive with one compartment flooded
+  - Regardless of which hull type is selected, it's likely that the Type 095 and 096 will be significantly larger than the Type 093 and 094
+  - While the Type 093 retains the approximately 9m pressure hull diameter of its predecessor, open source imagery of test hull sections from the Bohai Shipyard in Huludao indicates a pressure hull diameter of 11-12m
+  - Whatever the final design, it's likely that the Type 095 and 096 will once again be significantly quieter than their predecessors, possibly comparable to the Soviet Akula-class
+
+* Conclusion
+- The PLAN has traveled a difficult path in producing its nuclear submarines
+- Denied aid by the Soviet Union, China had to pursue an indigenous approach at the beginning
+- However, the fall of the Soviet Union meant that China could pursue catch-up innovation by imitating purchased Russian technology
+- However the Type 093 and 094 hulls were too small to take full advantage of the quieting technology developed by the Russians
+- After nearly 50 years of effort, China is finally on the verge of producing a world-class nuclear submarine

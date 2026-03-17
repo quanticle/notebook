@@ -1,0 +1,877 @@
+#+OPTIONS: H:6
+#+OPTIONS: toc:2
+#+TITLE: Explaining Foreign Policy: International Diplomacy and the Russo-Georgian War
+
+* Preface
+
+- Book seeks to explain foreign policy in general, with a specific focus on the international diplomacy surrounding the 2008 Russo-Georgian War
+- No normative stance --- book seeks to support neither Russia nor Georgia
+- This book is among the first works to integrate material from WikiLeaks
+- 2 anticipated audiences
+  - People interested in the diplomacy around this specific conflict
+  - People interested in drawing general conclusions about foreign policy
+- For the latter audience this book evaluates a range of explanatory levels
+  - International system
+  - Inter-state relations between Russia and Georgia
+  - Intra-state factors
+    - Decision-makers' misinformation and misperceptions and wishful thinking
+    - "Lessons of the past"
+    - Effects of domestic politics and separatist movements
+  - How can we combine insights from different explanatory levels to come up with an explanation for the conflict?
+- This work is intended as a follow-up to Graham Allison's /Essence of Decision: Explaining the Cuban Missile Crisis/
+
+* Chapter 1: Explaining Foreign Policy
+
+- On August 8, 2008, the Russian army and air force attacked Georgia after Georgia attacked the capital of South Ossetia, Tskhinvali
+- The Georgian intervention was in response to fighting between pro-Georgian and pro-Russian militias in South Ossetia
+- The Russians achieved both strategic and tactical surprise and, over the course of the next 5 days, defeated the Georgian military
+- War ended with Russian troops 35 km from the Georgian capital of Tbilisi
+- In the days that followed, both sides engaged in furious PR and diplomacy to present their version of events to the world
+- Russia's intervention in Georgia was its first intervention in foreign territory since the end of the Cold War
+- First Russian challenge to George H.W. Bush's "New World Order"
+- Deliberate challenge to US foreign policy as it related to post-Soviet states in particular
+  - Georgia had been hailed as a "beacon of liberty" for its political and economic reforms by George W. Bush
+  - Was in the top-10 recipients of US foreign aid
+  - US was pressuring NATO to admit Georgia
+- In a 2007 speech at the Munich Security Conference, Vladimir Putin had spelled out his country's dissatisfaction with the post-Cold War American-led order
+  - US hyperpower hegemony
+  - Neglect of UN resolutions and international law
+    - /This has more salience because the Iraq War was still a fresh concern/
+  - Disregard of promises to ensure Russia's security by advancing NATO's borders ever closer to Russia
+- The 2008 attack by Georgia on South Ossetia provided Vladimir Putin with an opportunity to put his foot down and draw the limits of Western hegemony in the post-Soviet sphere
+- With the US "reset" in relations in 2009, the US provided acceptance of Russia's actions against Georgia, acquiescing to a de-facto Russian sphere of influence in the region
+- The diplomacy around the Russo-Georgian War of 2008 presents a number of puzzling aspects
+  - Georgia's puzzling attack on Tshinkvali
+    - Why did Georgia attack Tshinkvali precisely when there were large-scale Russian military exercises happening on the other side of South Ossetia
+    - The attack provided Russia with the perfect excuse to intervene with troops that it had already mobilized
+  - Russia's well-prepared and swift retaliation
+    - While the fact of Russia's retaliation is not a puzzle, the extent of it is
+    - Why did Russia stop short of the Georgian capital?
+    - Which potential gains were the decisive factors driving Russia into the war?
+  - The United States letting down its most loyal friend
+    - Is this allegation true?
+    - Why was the US reaction to the invasion of Georgia so restrained
+  - Europe divided
+    - How can we explain the divided nature of European responses to the invasion?
+    - What implications does the lack of a unified response have on the EU's ambitions to become a major foreign policy actor?
+  - The seemingly successful EU mediation
+    - Given the divided nature of the EU response, why was Nicholas Sarkozy able to successfully mediate a ceasefire 
+  - Russia's near-abroad and China "united in caution"
+    - All of the other states in Russia's near-abroad, plus China had very lukewarm reactions to the Russian attack on Georgia
+    - What explains this unity in the absence of a supra-state structure like the EU or NATO?
+
+** Foreign Policy Explanations: Competitive or Complementary?
+
+- When we explain something in foreign policy, we typically do so by referencing an explicit theory or a loose theoretical perspective
+- However, individual theories are often inadequate for explaining the totality of evidence in any given scenario, even if they may explain the preponderance of evidence
+- Can we combine theories in order to achieve greater explanatory power?
+- There are few works which attempt to explain the same event through the lenses of different theories
+  - The most famous work which does this is Graham T. Allison's /Essence of Decision: Explaining the Cuban Missile Crisis/ published in 1972
+  - Explains the Cuban Missile Crisis from three perspectives:
+    - Unitary actor
+    - Organizational process
+    - Bureaucratic politics
+- However unlike Allison, who sought to keep his three perspectives separate, the authors believe that perspectives can and should inform one another
+  - Two apparently contradictory theories may be at play in any given situation
+  - These theories may push the actor in opposite directions, resulting in a course of action that represents a compromise between two extremes
+- The authors believe that this is valid approach for both practical and epistemological reasons
+  - Epistemics handled in Chapter 2
+  - Practical reason: considering multiple theoretical perspectives of any given event is an antidote to compartmentalization and overspecialization
+
+** Explaining Much By Little
+
+- Among two equally powerful theories, we should obviously favor the more parsimonious one
+- This differs from Allison's practice --- Allison refuses to consider that the unitary actor model is much simpler than his other models
+- The authors consider theories via a stepwise abandonment of simplifying assumptions
+  - Transition from most abstract theory to the most detailed
+  - Start with international system approach
+  - If that fails, then add inter-state explanations
+  - If inter-state + international systems approach is still failing, only then consider intra-state complexities
+    - /Is this really the gradation from most to least parsimonious/
+    - /Could we argue that intra-state politics are more parsimonious than inter-state politics, which are themselves more parsimonious than the grand international system?/
+- May sound contradictory that the authors advocate for both parsimony and level combination
+  - Parsimony is preferred when establishing theories and in the initial exploratory phase of analyzing a problem
+  - However, if no established theory is sufficient to explain an event, they allow for theories to be combined in order to create meta-theories that do explain the whole event
+
+** Realism and Foreign Policy
+
+- The authors approach the work of explaining the Russo-Georgian war from a background of neoclassical realism
+- Neoclassical realism holds that the international system creates constraints and opportunities for states
+- However, the way that states respond to those constraints and opportunities is informed by domestic political considerations
+- Neoclassical realism holds that the way state power is perceived can be as important as the power itself
+
+** The Spatial Blindness of Modern Neorealism
+
+- A weakness of neoclassical realism is its spatial blindness
+- Neoclassical realism recognizes only two abstractions: the international system as a whole and individual states acting within the international system
+- Neoclassical realists ignore regional issues and seek to explain foreign policy either in terms of domestic intra-state factors or as a result of the broader international system
+- However, this ignores the geographic reality of the world
+- This viewpoint is the result of a US-centric worldview that takes super/hyper-power level power-projection ability as a given
+
+** Structure of the Volume
+
+- Chapter 2: theoretical tools
+  - Foreign policy profiles and strategies
+  - Methodology and epistemology
+  - Theories selected at each level
+- Chpater 3-8 are empirical chapters
+  - Chapter 3: Georgia
+  - Chapter 4: Russia
+  - Chapter 5: United States
+  - Chapter 6: European states
+  - Chpater 7: European Union
+  - Chapter 8: Russia's near-abroad and China
+- Chapter 9: Conclusion
+  - Discussion of the hows and whys of the conflict
+  - Repercussions for foreign policy in the analyzed states
+  - Implications for future foreign policy studies
+- Each of the empirical chapters is broken down into two sections
+  - Description: Describes the state's position throughout the conflict
+  - Explanation: Uses the multi-stage approach to explain why each state or actor in the conflict took the position that it did
+
+** Historical Roots of the 2008 Conflict
+
+- The history of Russo-Georgian relations is complex
+- 1783: Kingdom of Kartli-Kakheti signs the treaty of Georgievsk with Russia
+- Although the treaty is intended to ensure the protection of the kingdom against the Persians and Ottoman Turks, Russia declines to intervene during the invasions of 1785 and 1795
+- In 1801, Kartli-Kakheti is annexed into Russia by Tsar Alexander and the kingdom was declared abolished
+- Russia annexes the western Georgian kingdom of Imereti in 1810
+- Over the next several decades, the Russian Empire continues annexing the territories that would form the modern state of Georgia, culminating with the annexation of Abkahzia in 1864
+- In 1878, after the Russo-Turkish War, the Russian Empire consolidates its rule over the entire Caucasus region, treating it as a buffer zone between itself and the Ottoman Empire
+- During the 20th century, Russo-Georgian relations were turbulent
+  - In May 1918, during the ongoing Russian civil war, Georgia declared independence
+  - However, after just under three years of independence, Georgia was invaded by the Red Army in February 1921, and a communist government loyal to Moscow was installed
+  - In 1922 Georgia, Armenia and Azerbaijan were incorporated into the Transcaucasian Federated Soviet Socialist Republic (TcFSSR), with Tbilisi as the capital of the unified sub-state
+  - In 1936, the three were split back into their own SSRs
+  - During this period, in accordance with Lenin's policy of national self-determination, the provinces of South Ossetia and Abkhazia were awarded the status of "autonomous districts", with Abkhazia having the status of a full Soviet Socialist Republic from 1921 to 1931
+- Despite this early turbulence, the Soviets described Georgia as the "land of plenty and wonder"
+  - Georgia was a popular vacation destination for Soviet tourists
+  - Was the wealthiest of the Soviet republics
+  - /Even today, Georgia is noted for its luxury goods, notably wine/
+- However starting in the 1950s, Georgia had a national elite who were exceptionally nationalistic and anti-Soviet
+  - Nationalists groups were established by Merab Kostava and Zviad Gamasakhurdia
+  - There were notable riots in Tbilisi in 1956 and 1978, with the latter riots prompting the Soviets to make Russian the sole official language in Georgia
+  - In 1983, an Aeroflot plane departing Tbilisi was hijacked by Georgian nationalists
+  - In 1989, the Soviets killed 19 protestors at an rally protesting continued Russian rule
+  - This led to Georgian nationalists seizing the political initiative, which, in turn led to the nationalists winning a decisive victory in subsequent parliamentary elections
+  - On October 28, 1990, Gamasakhurdia became Prime Minister, leading a nationalist coalition
+  - In 1991 Georgia declared independence, even before the Soviet Union dissolved
+- The collapse of the Soviet Union created a Georgian state that included both Abkhazia and South Ossetia
+  - The inclusion of Abkhazia and South Ossetia in the breakaway Georgian republic was the result of an action-reaction process that strengthened nationalist discourse in Georgia
+  - 1988: Abkhazia begins to lobby for independence from Georgia
+  - 1989: South Ossetia lobbies for either annexation with North Ossetia (part of Russia) or independence
+  - In 1990, Georgia outlawed regional parties, in an effort to quash the South Ossetian independence movement
+  - As a result, the Ossetians declared themselves a separate Soviet Democratic Republic and held their own elections, which Georgia did not recognize
+  - /And where was Russia in all this?/
+  - Violent conflict breaks out in the latter part of 1991 in South Ossetia and continues until the summer of '92
+  - /And what about Abkahzia?/
+  - By the end of '92, the Georgian state had little authority in either Abkhazia or South Ossetia
+- The relationship between Georgia and Abkhazia/South Ossetia quickly became dominated by mutual distrust
+  - Abkhazians and South Ossetians feared that an independent Georgia would curtail the autonomous privileges these provinces had enjoyed under the Soviet Union
+  - The Gamasakhurdia government in Georgia did little to mollify these fears, with Gamasakhurdia using the threat of Abkhazian and South Ossetian separatism to justify increased concentration of power in the office of the presidency
+  - This resulted in a "triangular struggle"
+    - Georgia fighting for independence from the Soviet Union
+    - Moscow trying to keep Georgia part of Russia
+    - Abkhazia and South Ossetia trying to win independence from Georgia
+- In 1992, Gamasakhurdia was ousted in a coup and replaced by the former Soviet Minister of Foreign Affairs Eduard Shevardnadze
+  - However this did not bring any relief for Abkhazia and South Ossetia
+  - In 1992, Georgia sends troops to Abkhazia, but by 1993 the troops are driven from Abkhazia by rebel forces, along with almost the entire Georgian civilian population
+- The first round of conflicts over Abkhazia and South Ossetia ended with the two breakaway provinces gaining de facto autonomy
+  - Peace settlements brokered by Russia
+  - Russian peacekeepers in both provinces
+  - Settlement with Abkhazia approved by UN
+  - Settlement with South Ossetia approved by OSCE
+- Throughout the '90s, Georgia holds an ambivalent view towards its breakaway provinces
+  - Does not acknowledge the independent status of the two provinces
+  - Is not strong enough militarily to reconquer them
+- In the initial years after independence, Russia was the strongest military power in the region
+  - Provided weapons, both legally and illegally to Abkhaz and Ossetian rebels
+  - Provided weapons to the Georgian military as well
+  - Controlled border with Turkey
+  - Maintained the Transcaucasus Military District Headquarters (ZAVKO) in Tbilisi
+- In the aftermath of the collapse of the Soviet Union, the Russian Federation felt that Russia's own borders were indefensible
+  - Established "forward security zones" in the Commonwealth of Independent States
+  - CIS was seen as the "strategic border" of Russia
+  - Russian presence in the CIS was also designed to fill a post-Soviet security vacuum, preventing Turkey or the United States from stepping into the role of security guarantor in Russia's near abroad
+- Following this logic, Georgia was governed as a semi-protectorate of Russia through the early and mid-1990s
+  - Despite its early opposition to Georgian independence, Russia was allowed to keep its bases in Georgia
+  - Vardiko Nadibaidze, deputy commander of ZAVKO, was appointed as Defense Minister
+  - Georgia explicitly supported Russian actions in Chechnya and allowed Russia use of Georgian airspace for its military operations there
+- Beginning in the mid-90s, however, Georgia began cooperating with the United States and started to move away from the Russian sphere of influence
+  - In 1999, Georgia sought to remove itself from the collective security treaty with Russia that it had been pressured into after its independence
+  - Sought to remove Russian bases from Georgia
+  - Georgia and the US cooperate on military training and assistance, starting in 2002
+  - Initially this is intended as a way of /defusing/ tensions between Georgia, Russia and the United States
+  - In 2003, Georgia becomes the third largest member of the "Coalition of the Willing", sending some 2000 troops to Iraq
+    - /That's a lot for a tiny country like Georgia/
+  - US influence over the Georgian military seeks to make it NATO compatible, directly challenging Russian influence
+- Russian influence over Georgian politics was further reduced by the "Rose Revolution"
+  - Occurred in November of 2003
+  - Brought Mikhail Saakashvili to power
+  - Initially Saakashvili sought closer ties with Moscow
+    - Launched a crackdown on Chechen separatists using Georgia as a safe haven
+    - Cooperated with Russia to negotiate with yet another restless province, Ajaria
+    - Attempted to improve economic ties between Georgia and Russia
+- However, in the long run, closer relations with Russia were incompatible with Saakashvili's "dual project" of reunification and modernization
+- In the following years, the Saakashvili administration sets up military bases at Senaki, near Abkhazia and Gori, near South Ossetia
+- In 2008, after Kosovo's declaration of independence and international recognition thereof, Russia warned the West that this would have implications for Abkhazia and South Ossetia
+- Russia also warned NATO against its offer of membership actions plans to Georgia and Ukraine 
+- Starting in April of 2008, Russia started a series of military provocations around Abkhazia and South Ossetia
+  - April: Russia accuses Georgia of preparing an attack on Abkkazia, and increases troop levels in the region; a Russian warplane also shoots down a Georgian military drone over Abkhazia
+  - Georgia responds to this provocation by deploying 12,000 troops to Senaki
+  - In June, Russia deploys 400 soldiers to Abkhazia to rebuild damaged railways
+  - Georgia accuses Russia of preparing an invasion
+  - In July, four Russian fighter aircraft violated Georgian airspace as Secretary of State Condoleeza Rice was visiting
+  - There were numerous other provocations claimed by each side during that summer, leading to two countries reaching the brink of war three times
+  - Attempts by the US, EU, and Germany to mediate were fruitless
+  - A compromise plan involving the partition of Abkhazia was proposed by Georgia and rebuffed by Russia
+  - Although the initial provocations were around Abkhazia, as the summer wore on, the axis of the conflict shifted to South Ossetia
+- Even though tensions were high between the two countries, the actual breakout of war was a surprise to the international community, and even to the Russians and Georgians themselves, if their claims are to be believed
+
+* Chapter 2: A New Explanatory Framework
+
+- International politics is understood as the interaction of two or more sovereign units, typically states
+- Sovereignty matters more than size
+- Foreign policy is characterized as the external behavior of a state
+  - Distinct from transnational activites carried out by substate actors
+  - External → directed towards units outside the state
+- Foreign policy and international politics are difficult to disentangle
+  - Difference is a matter of emphasis
+  - International politics: focused on the outcome caused by the interaction of several states' foreign policies
+  - Foreign policy: focused on explaining the actions of an individual state
+  - In order to understand international politics, one needs to understand the foreign policies of the states under consideration
+  - In order to understand foreign policy, one needs to understand the potential reactions of other states to a given policy action
+- In order to understand the international politics of the Russo-Georgian War, we need to understand the foreign policies of the states that were involved, and how those foreign policies reacted to one another
+
+** Foreign Policy Profiles and Strategies
+
+- States have foreign policy profiles: outward appearances of foreign policy
+- These profiles may differ across issue areas, regions and over time
+- However, in order to avoid the appearance of inconsistency, most states strive to avoid overt inconsistencies or reversals
+- In the Russo-Georgian conflict, it was Russian actions that were primarily being reacted to by the international community
+- We can distinguish the following profiles:
+  - Russia hawk --- harshly critical of Russia's assertion of power; advocated immediate countermeasures
+  - Russia dove --- mildly critical and advocated a cautious reaction
+  - Russia supporter --- agreed with Russia's reaction (as opposed to the doves who disagreed with Russia's reaction but thought that not much could be done about it)
+  - Devoted Russia supporter --- willing to sacrifice some of their own interests in supporting Russia
+  - Mediator --- willing to intervene to stop hostilities, but not necessarily aligned with either Russia or Georgia; most typically combined with the Russia doves
+- Foreign policy strategies are the underlying courses of action that can be categorized into a foreign policy profile
+  - Presupposes deliberate coordination and forethought
+  - A profile is often a compromise between two or more strategies being advocated in internal deliberations
+  - Can be inferred from policies and rhetoric, however
+  - Judgements about strategy can be revised when confidential sources become public
+- How do strategies map to the foreign policy profiles listed above?
+  - Russia hawks
+    - Balancing
+      - Counter Russia with negative sanctions, both substantive and superficial
+      - Threaten Russia with further sanctions if it asserts its power again
+      - Credibility of balancing is predicated on the balancer possessing sufficient military or economic power to follow through on its threats
+      - However, this power can be "borrowed" if the balancer is in an alliance system with other nations
+  - Russia doves
+    - Binding (/Einbindung/)
+      - Bind a potentially threatening Great Power in a web of international commitments
+      - Socialize a Great Power into a security community in which war is unthinkable
+      - /As stupid as this sounds, it actually worked for both Germany and Japan after World War 2 --- both were "socialized" into a web of alliances and international institutions, to the point where it's practically unimaginable for either to wage offensive war/
+      - Characterized by general optimism and downplaying of provocations
+    - Fear-bandwagoning --- nation acts as a dove out of fear of Russian retaliation
+    - Profit-bandwagoning --- nation acts as a dove because it hopes to profit from trade with Russia
+    - Indifference --- a nation may simply be indifferent towards both Russia and Georgia
+  - Russia supporters
+    - Characterized by the same "bandwagoning" strategies as above
+    - What distinguishes Russia supporters from Russia doves is the absence of a counterweight that limits Russian influence
+  - Devoted Russia supporters
+    - Identify with Russia's position in the war
+    - See Russia's position and priorities as their own
+    - Are ready to offer sacrifices while asking nothing in return
+  - Mediators
+    - Vested interest in peaceful conditions
+    - May also be motivated by reputation-seeking 
+
+** What is an "interesting" explanation
+
+- Description answers "how"
+- Explanation answers "why"
+- The object of the explanation is the thing that we find puzzling and which "requires" explanation
+- In a foreign policy context, the object of explanation is a pattern of profiles or strategies
+- The emphasis is in this book is on how to combine existing explanations, rather than the generation of novel explanations
+- We're searching for "interesting" explanations, rather than "full" explanations
+  - A "full" explanation is the full causal chain of events that leads to a particular outcome (i.e. A is caused by B, which is caused by C, ..., which is caused by Z)
+  - The "interesting" explanation is the "root cause" which kicks off the chain of events (i.e. Z, in this example)
+- Every explanation rests on a set of tacit assumptions
+- Those tacit assumptions will not be elucidated in this book unless they've been in violated in a way that materially affects the explanation
+- Explanations may deal with a state actor's circumstances, goals, implementation of decisions, the roles the decision-makers play or their perceptions
+- Interesting explanations are those which push specifically towards the puzzling outcome
+- Another divide that cross-cuts the interesting/trivial distinction is the distinction between efficient (active) causes and permissive (passive) ones
+  - Permissive causes are those which create the necessary preconditions for active causes to work
+  - For example, a permissive cause of the invasion of Georgia was the fact that Russia had a military that was capable of invading Georgia
+  - This is not an efficient cause, because Russia's military capabilities were sufficient for it to invade a number of small Central Asian states
+  - Doesn't explain why Russia invaded Georgia in particular 
+- Our focus should be on those explanations that are both interesting and efficient 
+- Note that explanations may change dramatically if we change the explanatory object only slightly
+  - For example the explanation for why war broke out on 8 August 2008 specifically will be very different than an explanation for the overall heightened tensions in the 2006-2008 period between Russia and Georgia
+- To reiterate, the explanatory objects are (see chapter 1):
+  - Georgia's puzzling attack on Tshinkvali
+  - Russia's well prepared and swift retaliation
+  - The United States letting down a loyal ally
+  - The divided reactions in Europe
+  - The successful EU mediation
+  - Russia's near-abroad and China united in a cautious response
+
+** Methodology and Explanatory Levels
+
+- This book uses the following three "explanatory levels" (ordered from most to least abstract)
+  - International systemic
+  - Interstate
+  - Intrastate
+- Study is based on a modified version of Popper's critical rationalism
+  - When two explanations are equally powerful, we prefer the simpler one
+  - Use the stepwise abandonment of simplifying assumptions → reduce abstraction in order to find the simplest theory that explains a given state action
+- The most abstract level of explanation is the "international system"
+  - States are described as "rolling billiard balls"
+  - Ignores spatial relationships and domestic politics
+  - Only relative power matters
+  - States all have the same view of the structure of the international system
+    - Unipolar
+    - Bipolar
+    - Multipolar
+  - In this highly abstract view of international relations, states simply seek to balance systemic power
+  - However, if this level of abstraction is sufficient to explain state behavior, we have no need of going further
+  - /Is the international system level of explanation sufficient for explaining anything? I'm surprised that you can just ignore spatial relationships and still make meaningful observations about the world/
+- If explanations at the level of the international system fail, we start by abandoning the simplifying assumption that spatial relationships are irrelevant
+  - This is the "interstate" level of explanation
+  - Now states have definite sizes, shapes and are fixed in relation to one another
+  - Each state has a specific environment with its own power relations
+  - Different states may have different views of the balance of power between great powers, influenced by their spatial relationship to those great powers
+  - States seek to balance "proximate" rather than "systemic" power --- rather than attempting to balance the power of all states in the international system as a whole, they seek to achieve a stable balance of power in their local proximity
+  - Note that proximate power may include power projected by faraway great powers
+- If, even after acknowledging spatial relationships, we still cannot explain state behavior, we drop the simplifying assumption that states are unitary actors
+  - This is the "intrastate" level of explanation
+  - In addition to being located in a specific place, with specific spatial relationships to neighbors and great powers, states are now no longer imagined to be single unitary agents
+  - Instead, we now consider each state to be composed of a number of agents, such as political parties, bureaucracies, interest groups, etc.
+  - We also consider the biases and perceptions of the decision-makers
+- This three-level hierarchy is distinct from the Waltzian neorealist theory, which only has two levels: the international systemic level, and the intrastate level
+- Each step down the hierarchy of abstraction makes explanation easier
+- However, the increase in detail at each level reduces the parsimony of the explanation
+- As a result, in order to fulfill the requirements of Popperian critical rationalism, we must start at the simplest, most abstract level of explanation (the international systemic level) and stop once we have reached a level that satisfactorily explains the action taken
+  - /For example: if we can explain an action that Georgia took as the result of Georgia seeking to balance Russia and the United States in the context of the international system, we must stop there *and accept that explanation*, even if that action can also be explained in terms of internal Georgian factional politics/
+
+** Epistemology and Reality
+
+- The goal of this study is, like Allison's work with the Cuban Missile Crisis, to explain a single international conflict from several theoretical angles
+- Forcing several different theoretical models to explain the same event allows us to examine the differences in the models themselves without being confounded by the differing details of the events themselves
+- Unlike Allison, we use /parsimony/ in addition to explanatory power as a criterion for evaluating a model
+- This presents two advantages, one theoretical and one practical
+  - The theoretical advantage is that taking parsimony into account lets us distinguish between models that have the same explanatory power
+  - The practical advantage is that models that are more abstract are usually easier to research
+    - It's much easier to research the actions of state when you model it as a single unitary executive rather than a collection of interacting interest groups, political parties and bureaucracies
+    - Allison, in contrast, prefers the intrastate model, which is much more data-demanding
+- There is a related methodological difference having to do with whether we consider combining models to be valid
+  - This is the difference between perspectivism and epistemological realism
+  - Perspectivism holds that our perception of reality is inseparable from the models that we use to interpret that reality
+    - As a result, it doesn't make sense to combine different models
+    - Using a different model is tantamount to asking a different question
+    - For example, a perspectivist approach to the Cuban Missile Crisis would say that a model of the conflict that focuses on the bureaucracies of the states has to necessarily answer a different question than a model that focuses treats the United States and Soviet Union as unitary actors
+  - On the other hand, epistemological realism holds that it is possible for multiple models to be applied to the same question
+    - Example: why did Carl Bildt condemn the Russian invasion of Georgia?
+    - One explanation could look at his personal career experience and determine that Carl Bildt condemned the invasion out of personal conviction
+    - We can also look at his position as the Foreign Minister of Sweden and see his condemnation as an expression of Sweden balancing Russia
+    - However, we can acknowledge that Bildt's response was, in some ways, overdetermined
+      - Yes, Sweden had an interest in balancing Russia
+      - However, Bildt's response was also informed by his experiences in the former Yugoslavia to a situation that he saw as similar to the Russo-Georgian War
+- However, the fact that we can combine levels of interpretation should not lead us to eclecticism
+- We should have a clear set of preferences for ideas
+- In this case, the principle of parsimony tells us that we should assign more explanatory weight to Carl Bildt acting as a representative of the the Swedish State rather than acting out of his own personal impulses
+  - /Is this approach valid, however?/
+  - /I guess the response is that, in the absence of evidence to the contrary, we should prefer the more parsimonious explanation/
+  - /An explanation that relies on only the interests of the Swedish state, and which can treat the state as a unitary executive is more parsimonious than one that relies on the personal character and diplomatic experiences of Carl Bildt/
+  - /Therefore, we should prefer the explanation that treats Sweden as a unitary executive unless we have evidence that renders that explanation insufficient/
+
+** What is a "satisfactory" explanation?
+
+- By what basis do we say an explanation "works" or "fails"
+- A working explanation should be able to predict the outcome that actually occurred 
+- We should be able to show how the theory "pushed" participants in the situation to take the actions that they in fact took
+- Any "satisfactory" explanation is necessarily provisional, as a more parsimonious explanation may be constructed in the future
+- So what are some of the theories that can help explain the diplomacy of the Russo-Georgian war
+
+** The Systemic Explanatory Level
+
+*** Balancing the Unipole
+
+- At the international system level, foreign policy can be explained as a response to anarchy and the various amounts of power that different nations have in the international system
+- This theory is known as "structural realism" and seeks to define the constraints that bind all states rather than to explain particular state decisions
+  - /Seems like structural realism is more a theory of why states did not take the paths they didn't take than a theory of why states did take the paths that they did/
+- Our fundamental assumption is that the structure of the international system is /anarchic/: defined by no monopoly on the use of force
+- The anarchic structure of the international system has three implications
+  1. Self-help: each nation is responsible, first and foremost, for its own security
+     - No effective police force to catch those who violate international rules
+     - No judicial system to prosecute them
+  2. Relative power matters more than absolute power
+     - When states are dependent on themselves for their own security, they worry about their power vis-a-vis other states
+     - States cannot base their foreign policy entirely on value-based or ideological grounds, because to do so would put their own survival at risk
+     - Therefore the international realm is dominated by power politics
+  3. States in an anarchic system have a strong incentive to pursue a balance of power
+     - All else equal, states will tend to flock to the weaker side in a conflict
+     - A state that gains too much power will be perceived as a threat by other states (even if those other states are ideologically aligned with the stronger power)
+     - Each individual state in the weaker coalition is more appreciated, provided the coalition achieves enough power in total to deter others from attacking it
+- /This is all very interesting, but how does it explain the continued existence of NATO?/
+- /It could be argued that, during the Cold War, countries joined NATO because the United States was perceived as the "weaker superpower" compared to the Soviet Union/
+- /But after 1990, and especially after the Gulf War, I'm not sure how that logic continued to hold/
+- /If states are motivated by power politics, and states seek a balance of power over ideological alignment, then why does NATO continue to exist?/
+  - /Even more to the point, why did Eastern European nations seek to join NATO after the breakup of the Warsaw Pact?/
+
+*** Explanatory Logic
+
+- According to structural realism, all states have a single primary objective: "take care of yourself"
+- States do this by balancing against stronger states
+  - Enter into alliances
+  - Improve their own military strength via investments in armament
+- As Waltz states: "Overwhelming power repels and leads others to balance against it"
+  - /See above re: NATO for my objections to this theory/
+- Another consequence of anarchy is cost sensitivity
+  - States have finite resources
+  - States recognize that overt military power is not always the most cost effective alternative
+  - As a result, states pursue a combination of overt military and latent power that will allow them to achieve a balance of power at the least cost
+- Another important influence on state behavior is the distribution of power across the international system
+  - Relative power is often defined by a number of "poles" or "great powers"
+  - In order to be a pole, a state has to have a high degree of
+    - Population
+    - Territorial size
+    - Resource endowment
+    - Economic capability
+    - Military strength
+    - Comptence (/What does this mean? Is this referring to the leadership of the state?/)
+  - After the collapse of the Soviet Union, the world became unipolar
+- Thus, following balance of power logic, the incentive for all other states was to balance the unipole
+- The overwhelming power of a unipole causes other states to perceive it as a potential threat and provides them with an incentive to balance it
+  - This balancing may be carried out via
+    - External means (forming alliances)
+    - Internal means (strengthening one's own military)
+  - Because external balancing is more cost effective than internal balancing, states will first seek to set up alliance structures to balance the unipole
+  - Only if this fails will they invest in their own military strength
+- Whereas other states have an incentive to balance the unipole, the unipole itself has an incentive to maintain the unbalanced state of international affairs that favors it
+- To do so it
+  - Provides security to supporters of the unipolar order and "insecurity" to those who challenge it
+  - Provides economic incentives to encourage supporters to bandwagon (or at least refrain from balancing)
+    - Can do this indirectly by underpinning the economic infrastructure of the international system
+    - Can do this directly via bilateral trade agreements
+  - Designs international institutions in accordance with its own interests
+    - International institutions can reflect a "snapshot" of a given balance of power at a point in time, making it easier for that balance to persist for even decades at a time
+    - International institutions can be used to export particular values, thus remaking the world in the image of the unipole
+- /Okay, now we have an answer to the question I raised about NATO above/
+  - /The continued existence of NATO is the result of the unipole (United States) exerting considerable effort to ensure that it remains the unipole/
+  - /To do this, it has enmeshed NATO nations in military-economic-political alliance system/
+    - /Military/ 
+      - /Security guarantees (i.e. Article 5 of the North Atlantic Treaty)/
+      - /Arms control treaties, such as CTBT, NPT, etc/
+    - /Economic/
+      - /Economic infrastructure (World Bank, IMF, WTO, NAFTA/USMCA)/
+      - /Bilateral trade agreements with EU, UK, Japan, Korea, etc/
+    - /Political/
+      - /Promotion of liberal democracy and human rights/
+      - /Promotion of a vision that sees states as individual sovereigns, as opposed to a world carved up into spheres of influence/
+  - /In the absence of the US doing this work, NATO would have broken up after the Cold War (or possibly even during the Cold War)/
+
+** The Interstate Explanatory Level: Proximate Power and Incentives
+
+*** Basic Assumptions
+
+- Unlike molecules in a gas or consumers in a market, states are not free to move around
+- We cannot take the average environment of the international system and assume that it's a good approximation for the environment any particular state finds itself in
+- Mutual non-mobility means that each state faces a stable local environment that is distinct from the international system
+- Environments remain relatively constant for whole "eras" (like the Cold War era)
+  - /Another example: Concert of Europe system was stable from the Napoleonic War until World War 1/
+- Environments change when there are massive shifts, such as the dissolution of neighboring units
+- Because nations are non-mobile, each nation faces its local environment, whether it wants to or not --- nations can't just move to find a more favorable environment 
+- International power fades with distance
+- Therefore, the security challenges that each nation faces are more likely to emerge from that nation's local environment rather than the international system as a whole
+  - /The big exception to this is the United States, which so thoroughly dominates its local environment that the only security challenges it faces are from the international system --- it's not as if Mexico or Canada are ever going to represent a real security challenge to us any time soon/
+- When there are non-mobile units, there is a cleavage between unit and system, namely each unit's salient environment
+- This salient environment is an explanatory level in its own right
+  - /This is a rejoinder to Waltz, who argues that there are two fundamental levels of analysis: the international system, and intra-state dynamics/
+  - /Mouritzen and Wivel argue that there is a third level in between the two because states are nonmobile/
+  - /Therefore one can't posit a single interstate system that all states are part of/
+  - /The interstate system is better categorized as a system of systems, in which each state's immediate neighbors have greater salience than distant powers/
+- However, there are still situations where the international system as a whole still exerts meaningful influence
+  - Bipolarity --- each of the poles constitutes the other's salient environment, almost as mirror images
+  - Modern weapons and transportation system extend the reach of state power, reducing the influence of distance
+
+*** Explanatory Logic
+
+- Interstate explanations are situational in a Popperian or Weberian sense
+- The reasons for a state's actions must be placed in a given situation
+
+*** Proximate Power and Incentives
+
+- All too often post-Cold War international relations seek to impose a unipolar view of the world
+- All state actions are viewed as either bandwagoning with the unipole or balancing the unipole
+- IR scholars often don't consider that a state's local geopolitical environment may be more relevant than the dynamics of the international system as a whole
+- In this situation, the unipole maybe valuable as an instrumental factor insofar as it may be appealed to for help in balancing other local powers
+- However, it's not a given that balancing the unipole is an end in itself
+- Proximate power explains why countries don't go as far as Waltzian theory would expect them to go to balance the unipole
+- For example, the alliance of the UK and the US in invading Iraq in 2003 can be explained as the UK attempting to balance "old Europe" by strengthening its alliance with the United States
+- The focus on state responses to a unipolar power is a regrettable aspect of post-Cold War international relations theory
+  - Scholars are blinded by the immense military, economic and political capabilities of the United States
+  - Disproportionately preoccupied with the actions of the world's sole superpower
+- Thus, the literature focusing on the international system often has a blind-spot when it comes to regional power, because these powers often do not have the ability to affect entire international system, just their one corner of it
+- Theories that are more applicable to regional powers are
+  - Small power geopolitics
+  - Barry Buzan's "security complex" theory
+  - John Vasquez's theory of territorial contiguity and war
+  - Stephen Walt's theory of threat balancing
+  - Hans Mouritzen's constellation theory
+  - Glenn Snyder's theory of alliance politics
+- At the inter-state level states engage in balancing when
+  1. It is relevant --- the state borders the power asserter or its sphere of influence
+  2. It is possible --- the government of the state is free to engage in balancing
+  3. It is realistic
+     - The state has the means to engage in balancing
+     - Engaging in balancing doesn't incur unacceptable risk
+- All three conditions must be met for balancing to occur
+- Otherwise the state will seek to bandwagon with the power asserter, bind it with international commitments, or be indifferent, depending on circumstances
+- For most states "proximate" means the areas adjoining their territories
+- For great powers, "proximate" means the areas adjoining their sphere of influence
+- For superpowers, the sphere of influence is global, so the proximate environment is the whole world and proximate balancing against a superpower is indistinguishable from systemic balancing
+
+*** Systemic vs. Interstate Explanations: Competition and Combination
+
+- How do we combine interstate and systemic explanations
+- One approach to combining the two is to view the "international system" as the largest possible salient environment
+  - As a nation's power grows, its salient environment grows correspondingly
+  - A superpower's salient environment is, for all practical purposes, the whole world
+- However this book avoids that approach
+- Retains the systemic level, with its "pole powers" along with an interstate level that encompasses relations other than those predicted by Waltz's theory
+- In the case of China, for example, systemic competition with the United States ran in parallel to and, to a certain extent, canceled out the interstate neighbor-balancing dynamics that China was pursuing against Russia
+
+** The Intra-State Explanatory Level: Decisionmaking Peculiarities
+
+- The intra-state explanatory level has always been central to foreign-policy analysis
+  - /Decision-Making As An Approach To The Study Of International Politics/
+  - /Pre-Theories And Theories Of Foreign Policy/
+  - /Man-Milieu Relationship Hypothesis In The Context Of International Politics/
+- Open up the "black box" of the state
+  - Focus on the importance of individual decision-makers
+  - Examing the process by which foreign policy is made
+
+*** The Need For Combination In Detailed Explanations
+
+- The intrastate level was de-emphasized in international relations theory after the publication of Kenneth Waltz's book, /Theory Of International Politics/ in 1979
+  - /This seems like the distinction between international relations and foreign policy/
+  - /International relations is the study of constraints on states in their interactions with other states/
+  - /Foreign policy is the study of the specific actions that states take within those constraints/
+  - /It is possible to construct theories international relations without regard for a state's internal dynamics, but it is impossible to construct theories of foreign policy without doing so/
+  - /Waltz's book caused a shift in academic interest towards international relations and away from foreign policy/
+- The distinction between external and domestic variables has been conceptualized as an either-or distinction
+  - External variables explain the sameness of international behavior --- why different states react the same way to a given set of circumstances
+  - Domestic variables explain why different states, or the same state at different periods of time, pursue different ends
+- This distinction is unfortunate
+  - Foreign policy and international relations are not two separate domains
+  - International relations is determined by the foreign policies of the constituent nations
+  - Those foreign policies are determined by both the constraining factors of the international system and domestic politics
+- However, the specific interactions between the international system and domestic politics have been under-researched
+  - /How much do you want to bet that this lack of research is because most IR scholars are in the United States, which has been responsible for defining the international order over the past 70 years/
+
+*** Adding Intrastate To Systemic Explanation: The Neoclassical Realist Program
+
+- Neoclassical realism starts with the same assumption of international anarchy as structural realism
+- Agrees with Waltz that the structure of the international system constrains the behavior of states, and that the condition of international politics cannot be determined from the internal compositions of states
+- Disagree with Waltz in thinking that this then leaves no room for domestic politics in international relations
+- Focus on the "transmission belt" that translates international pressures into policy outcomes
+  - /This seems analogous to the "macro-micro connection" in sociology, where macro-scale pressures have to result in micro-level changes in individual decision-making in order to be significant/
+- Neoclassical realism holds that international pressures are filtered through the lens of domestic politics before they become policy outcomes
+
+*** When To Add Intrastate To Interstate Explanation: The Luxury Theory
+
+- Luxury theory holds that intrastate peculiarities play a role that varies proportionally to a state's external action space
+- External action space is defined as a state's ability to remain unaffected by other states' power and influence
+- If a state has a small external action space, domestic politics will play a small role in its foreign policy
+- Conversely, if a state has a large external action space, domestic politics will play a larger role
+- The reason for this is two-fold
+  - Fewer foreign policy options
+  - Greater internal consensus as to what foreign policy should be pursued
+- In order to add inter- and intra-state explanations, we need to "assume normality" for the behaviors of intra-state actors
+  - Politicians are reasonably patriotic
+  - Diplomats follow a standard diplomatic "playbook"
+  - Divergence from the above assumptions of normality are known as "peculiarities"
+    - Unpatriotic motivations on the part of politicians
+    - Historical lessons
+    - Misperceptions
+- Peculiarities can affect foreign policy in four ways
+  - Strong external pressure, no peculiarities --- State's external environment dominates and determines its foreign policy
+  - Weak external pressure, peculiarities --- peculiarities, such as historical lessons and factional politics are determine a state's foreign policy in the absence of external constraints
+  - In cases of strong external pressure, peculiarities may either restrain or reinforce the external pressure
+    - Sweden's choice to join the EU and remain outside of NATO (/the age of this book shows/) is a reflection of its tradition of neutrality (peculiarity) acting as a brake on its foreign policy
+    - On the flip side, the Baltic nations' choice to join NATO was a reflection of both their desire to balance Russia and their historical memory of Russian invasion --- here the peculiarity reinforced external pressure
+
+*** Lessons From The Past
+
+- One major peculiarity common across many states is "learning lessons" from past experiences
+- Avoid "mistakes"
+- Repeat "successes"
+- This doesn't necessarily improve foreign policy because states often make mistaken analogies between past situations and the present
+- Leaders may use lessons from the past in two ways
+  - Internalized --- leader actually believes the lesson
+  - Instrumental --- leader is drawing on the lesson because they see that many in their state believe in it
+  - In the case of leaders using lessons instrumentally, the lesson is not a peculiarity; the leader is following geopolitical incentives described at the inter-state level, and is using the lesson to facilitate and persuade
+- Historical lessons can be an important source of groupthink
+- If leaders have all gone through a similar experience (such as a war) and drawn similar lessons regarding their nations' success or failure in that war, then that can suppress healthy dissent when considering courses of actions in any geopolitical situation that resembles the previous war
+- According to luxury theory, reacting to lessons from the past is only an option for states that have a wide external action space
+- In a crisis, these states are most likely to be great powers
+- For example, one of the reasons that Germany kept such a low profile in reacting to Russia's actions in Georgia is because of historical lessons it drew from World War 2
+- However, this doesn't mean that the German leadership was not concerned by Russian actions
+
+*** Misperception Based on Lack of Information
+
+- A second peculiarity is misperceiving an adversary's hostility or capability
+- The anarchic nature of international relations creates insecurity
+  - States don't know other states' intentions
+  - Only imperfectly know other states' power
+- The ability of a state to gather information is assumed to be proportional to its capability --- great powers are presumed to be better informed than other states
+  - /Is this actually a valid assumption?/
+- Young regimes, especially those born of revolution, are presumed to be more likely to misjudge
+  - Lacking the experience to deal with counterparts in the international system a state is more likely to fall back on ideology
+  - Revolutionary ideology tends to portray foreign powers as implacably hostile
+  - Even minor disputes are more likely to escalate, because the new state's ideology may view compromise as naïve and conflict as inescapable
+- Lack of information may encourage "wishful thinking" --- a mistaken assumption that the adversary's allies will remain neutral while one's own allies will assist with any armed conflict
+- According to luxury theory, in a crisis situation, decision-makers should be extra careful to ensure that they receive as much information as possible
+- However history is replete with instances of decision-makers acting upon incomplete information in a crisis
+- At the interstate explanatory level, misperception can just by modeled as good or bad luck --- a somewhat random factor that causes decision-makers to act against their own state's best interest
+- Misperception is exempt from the luxury theory because even though states may need information, they may not have the capacity to acquire it
+
+*** The Interference of Domestic Politics
+
+- Another peculiarity is domestic politics
+- Classical realists, such as Machiavelli and Morgenthau focus on the institution of the "statesman"
+  - Has interests which "transcend any class or sector, namely the national interest"
+  - Receives "privileged information" from state agencies, allowing it to have a better perception of the national interest than other domestic political actors
+  - Frequently more aware of the dictates of the international system and the national interest than other domestic political actors
+  - /Maybe it's just my inherent cynicism showing here, but I don't think any such institution exists, or has existed/
+  - /I think all institutions act in their own interest, and while there may be a national interest in the abstract, I don't think that any institutions necessarily pay any attention to the national interest in their day-to-day operation/
+  - /Moreover, I dispute that "statesmen" have a better perception of the national interest than other domestic political actors/
+  - /Frequently, statesmen become overly fixated on foreign policy and international relations, and lose sight of the fact that national prestige might actually be detrimental to the long-term political and economic interests of the nation/
+- The "statesman" institution isn't of equal importance in all state types
+  - Matters the most in autocracies
+  - Matters the least in liberal democracies
+- The more pluralist the state, the more actors will be included in the foreign policy decision-making process
+- However, in accordance with luxury theory, we see liberal democracies take on aspects of autocracy when threatened by war
+- In most states the foreign policy elite is engaged in a dual power struggle
+  - Power struggle internationally to defend the state from other states
+  - Power struggle domestically to ensure that foreign policy remains a priority compared to other areas
+  - This dual struggle is especially strong in autocratic regimes
+    - /Why? Intuitively, I'd expect it to be stronger in democratic regimes, where policymakers are accountable to voters/
+    - In order to maintain domestic support for foreign policy, foreign policy elites may make compromises or participate in coalitions with those whom they might be normally ideologically opposed, on the basis of narrow interests
+      - /A good example is foreign-policy oriented Republicans forming coalitions with Democrats on the basis of opposing isolationism/
+    - Foreign policy elites may also attempt to magnify foreign threats in order to secure domestic support
+    - However both of these strategies tend to distort the response to external threats by focusing it through the lens of domestic politics
+- Adding domestic politics to interstate explanations is a manageable task
+  - Domestic politics is yet another motive that may animate a decision-maker
+  - According to luxury theory, when a state's external action space is narrow, politics should stop at the border
+  - When a state's external action space is broad, policymakers may seek domestic advantages via foreign policy actions
+
+** Conclusion
+
+- There is no neat division between theories of international politics and foreign policy
+- As a result, systemic and intra-state explanations are not mutually exclusive
+- In contrast, Mouritzen and Wivel present a three-layer model, with each later (systemic, inter-state and intra-state) adding increasing explanatory power and complexity
+- This allows a standard template to be applied to the states under scrutiny
+  1. Map the action profile of the state: how did this state behave during the war and which of the foreign policy profiles did its actions map to
+  2. Attempt to explain that foreign policy
+     - Start by attempting to explain the policy from the systemic level
+     - If the explanation is unsuccessful, attempt to explain the foreign policy from the inter-state level
+     - If the inter-state explanation is still unsuccessful, attempt to explain the policy from the intra-state level
+
+* Chapter 3: Georgia's Puzzling Attack on Tskhinvali
+
+- In August 2008, both the Russian and Georgian political leadership were away from their respective capitals
+- The South Ossetians had the lead role in initiating the conflict
+
+** Why Did the South Ossetians Rock the Boat
+
+- Unlike in Abkhazia, in South Ossetia there was little geographic separation between Georgian and Ossetian villages
+- South Ossetian leadership had more capacity for autonomous military escalation than their counterparts in Abkhazia
+- Both Russian and Georgian proxies, Eduard Koikoty and Dimitrij Sanakoyev, respectively, were in weak positions
+- Weak leaders fear detente between their sponsors and their sponsor's opponents as they know that support for their cause can be traded away for benefits that will accrue only to their sponsor
+- As a result, both Koikoty and Sanakoyev had incentive to increase tensions
+- In mid-March 2008, Sanakoyev states that Russian recognition of South Ossetia would result in war
+- On July 4, 2008, there was an assasination attempt on Sanakoyev
+- On August 1, 5 Georgian police officers were killed, shortly thereafter 6 South Ossetian police officers were killed
+- On August 2, South Ossetian leaders began evacuating women and children to North Ossetia
+
+** The Georgian Action Profile
+
+- It was in the context of this ongoing unrest that Georgia decided to bomb Tskhinvali on August 7, 2008
+- According to the Georgian government, this uptick in violence was being orchestrated by the Russians
+- On the other side, the Russian government stated that it considered the Georgian military buildup on the border of South Ossetia to be a clear preparatory step for war
+- Escalation continued, with Georgia accusing Russia of facilitating the return of South Ossetian separatists who had received military and police training in North Ossetia
+- During the afternoon of August 7, the Georgian government declared a unilateral cease-fire, despite warnings from the commander of the Russian peacekeeping contingent that he was no longer able to control the actions of the South Ossetian militias
+- At 11:35pm on August 7, 2008 the President of Georgia, Mikhail Saakashvili, orders the Georgian military to begin the bombardment of Tskhinvali
+- Georgia deployed its most advanced artillery and armor to the South Ossetian border and approximately half of its military, 12,000 - 13,000 troops were committed
+- On the other side, there were approximately 500 lightly armed Russian peacekeepers and an unknown number of South Ossetian militiamen
+- Initially the Georgian attack was characterized as a re-establishment of the [Georgian] constitutional order in South Ossetia
+- However, after the fact, the attack was re-characterized as a defensive operation designed to protect Georgian territorial integrity, Georgian citizens, and civilians in the Tskhinvali region
+- One remarkable aspect of the early hours of the conflict is the lack of acknowledgement of Russian troops reinforcing South Ossetia via the Roki Tunnel --- no mention of Russian troops is made by the Georgian government until August 8
+- The Russian response is only linked to Georgian actions by the Georgian foreign ministry after three days
+- The Georgians then revise their estimate of the earliest Russian troop movements from August 8 to the morning of August 7, in an attempt to justify their attack as a pre-emptive strike against an imminent Russian invasion
+  - This narrative is undermined by cables released by Wikileaks, which show the US Ambassador to Georgia discussing the potential for Russian intervention on August 7, indicating that the intervention has not occurred yet
+  - The Ambassador was saying that the South Ossetians were accusing the Russians of betraying them by not immediately intervening on their behalf
+- The bombing of Tskhinvali was immediately followed by a land attack
+  - Georgian forces reached the outskirts of Tskhinvali but were not able to capture the city due to resistance from South Ossetian militias armed with infantry weapons
+  - Were not able to cut off the road leading to North Ossetia, leaving open a vital corridor for Russian troops
+- In response, Russia launched large-scale airstrikes into South Ossetia and Georgia proper on August 8
+- The Russian 58th Army moved into South Ossetia
+- The Russian counterattack on Georgia involved ground forces moving to take control of strategic targets, airstrikes on civilian and military infrastructure, and a sea blockade
+- Prime Minister Vladimir Putin arrived in [[https://www.google.com/maps/@43.0292575,44.661713,9z][Vladikavkaz]], on the Russia-South Ossetia border, on August 9, signalling that Russia had chosen a full-scale military intervention on behalf of South Ossetia
+- Over the next few days, the Georgian government undertook a number of ineffectual political and military measures, such as calling for a general mobilization, recalling its troops from Iraq, and declaring a unilateral cease-fire on August 10
+- However, none of these measures forestalled the Russian advance, and on August 11, the Georgian military admitted that it would be unable to effectively defend Central Georgia and retreated to the capital
+- This allowed Russia to gain control of strategically important Georgian cities, such as Gori, a city close to South Ossetia on the Georgian side and host to a large military base and Poti, a Black Sea port
+- In addition, Abkhaz separatists managed to make gains against Georgian troops in Abkhazia as well
+- On August 12, the Georgians and Russians accepted a cease-fire brokered by French President Nicholas Sarkozy
+  - Russia and Georgia both agreed to withdraw to pre-conflict lines
+  - Russia was allowed to occupy some additional buffer zones
+  - Russia violated the provisions of the peace agreement by maintaining a military presence in Abkhazia and South Ossetia
+- Russia eventually recognized the independence of both South Ossetia and Abkhazia
+- There are three key points to keep in mind when looking at Georgian actions
+  1. It was the Georgian leadership's decision to escalate the conflict into a full-fledged war
+  2. The deployment of Georgian troops was geared towards conquering Tskhinvali, not preventing Russian troops from crossing into South Ossetia via the Roki Tunnel
+  3. Russia played an important pre-war role and issued several warnings to Georgia against attempting to reintegrate the breakaway republics
+- The key question is: why did Georgia launch a large-scale attack aimed towards capturing Tskhinvali without taking any measures to block a Russian counterattack via the Roki Tunnel?
+
+** The Systemic Explanatory Level
+
+- According to Waltzian systemic theory, in a unipolar system, states ought to attempt to balance the unipole
+- In 2008 the unipole was still the United States
+- However, there is no indication that Georgia's attack on South Ossetia had anything to do with attempts to balance the United States
+- Although the Russo-Georgian war reduced US influence in the region, we have no indication that this was the intent of the war (/few states start wars with an intent to lose/)
+- Could we explain Georgian actions as a form of bandwagoning with the United States?
+  - From Chapter 2, we recall that states can also join with the unipole
+  - This occurs when either the costs of balancing are too high to bear or the state is offered incentives to align itself with the unipole's foreign policy
+- Georgia and the United States have a history of close cooperation since the end of the Cold War
+  - US offered significant economic assistance to Georgia after the initial conflict that led to South Ossetia and Abkhazia breaking away in 1992
+  - US supported the Baku-Tblisi-Ceyhan pipeline, which would allow natural gas from the region to be exported without transiting Russia
+  - Georgia was the first of the former Soviet republics to join NATO's Partnership For Peace
+    - Joined in 1994
+    - However, did not announce its intent to leave the collective security treaty with Russia until 1999
+- US-Georgian cooperation intensified after the Rose Revolution of 2003
+  - Georgia deployed troops to both Iraq and Afghanistan
+  - US support was key to legitimizing the Saakashvili government that came into power with the Rose Revolution
+- Starting in 2004, Georgia ramped up its military spending, peaking at 9.2% of GDP in 2007
+  - Goal was to make Georgian military compatible with NATO
+  - Georgia worked closely with the United States to acquire new systems and training
+- Given this increasingly close relationship between the Georgian and US on matters of security, Russia was quick to accuse Georgia of being a US pawn when it chose to attack South Ossetia
+- However, the 2008 war was definitely not bandwagoning with US foreign policy
+  - At no point during or after the war did US officials consider military intervention on behalf of Georgia
+  - At no point during or after the war did US officials consider imposing sanctions on Russia
+  - After the conflict, US officials went out of their way to stress that the Russo-Georgian war would not affect cooperation between the US and Russia on their many shared interests
+- Georgia was well aware of the US position
+- Although Saakashvili made public pronouncements warning of imminent US support, his administration had been repeatedly and emphatically told that no US support would be forthcoming if Georgia chose to go to war
+- The systemic explanatory level cannot provide a satisfactory explanation for the Georgian attack on South Ossetia
+- Attacking South Ossetia was neither balancing nor bandwagoning with the unipole
+
+** The Interstate Explanatory Level
+
+- At the interstate explanatory level, expressions of power in a state's salient environment are the key consideration
+- In this case, Georgian territorial integrity was challenged by Russian support for the two breakaway republics of Abkhazia and South Ossetia
+- Georgia received a number of warnings prior to the conflict
+  - Russia voiced opposition to Georgian intentions to join NATO
+  - Established direct links between the separatist republics and Moscow
+  - Deployed 3000 additional peacekeepers to the breakaway republics
+  - Shot down a Georgian drone over South Ossetian airspace
+  - Conducted military exercises across the South Ossetian border in July
+- During the presidencies of Zviad Gamasakhurdia and Mikhail Saakashvili, Georgia sought to balance Russia in its immediate environment
+  - Increased military spending
+  - Sought to join NATO in an effort to borrow balancing power from abroad
+- (/From chapter 2/) At the interstate level, states seek to balance proximate power when
+  1. It is relevant --- the state is in the power-asserter's sphere of influence
+  2. It is possible --- the government of the state is free to engage in balancing
+  3. It is realistic --- state has the means to engage in balancing without incurring unacceptable risk
+- Do these conditions apply
+  - Relevant: *yes* --- Russia is directly proximate to Georgia and Russian support for the separatist regions of Abkhzia and South Ossetia represents a direct challenge to Georgian sovereignty
+  - Possible: *yes* --- Government of Georgia was independent of Moscow and was not subject to influence
+  - Realistic: *no*
+    - Georgian military balancing was realistic compared to South Ossetian militias
+    - However, with Russian military at full strength near the Roki Tunnel, there was no way that the Georgian military could balance the combined forces of Russia and the South Ossetian militias
+- Therefore, proximate power balancing does not explain the Georgian decision to attack Tskhinvali
+  - Proximate power balancing theory would suggest that Georgia would engage in low-level military activities
+  - Wait for Russian actions instead of taking provocative actions on its own
+- An indirect explanation is that the Georgian attack was designed to demonstrate how much Georgia needed, and was deserving of, security guarantees from the West
+  - Display /sisu/ and show that the Georgian military is capable of standing up to a much larger force
+  - Attract attention from Europe and the United States in order to make the case for further economic and military assistance
+- However, the fact that Georgia attacked first undermines this argument
+  - A forceful Georgian attack makes the Georgian government under Saakashvili seem "trigger happy"
+  - NATO explicitly requires states to settle territorial disputes via peaceful means
+  - A pre-emptive attack by Georgia undermines the moral high ground that Georgia would have occupied as a small state being bullied by a great power
+- /The indirect explanation makes a lot more sense for Ukraine than it does for Georgia/
+- Therefore the indirect explanation is also not satisfactory to explain Georgian actions
+
+** The Intrastate Explanatory Level
+
+- Given our inability to explain Georgian actions at either the systemic or interstate explanatory levels, we must climb down to the intrastate level
+- However, given the fact that Georgia had a small external action space, we should be wary of ascribing too much influence to domestic politics or lessons from the past
+
+*** Saakashvili's Domestic Political Survival
+
+- One of Saakashvili's promises when he was elected was to restore Georgian constitutional control to the provinces Ajaria, South Ossetia and Abkhazia
+- Had already succeeded with restoring Georgian control to Ajaria, whose Russian-supported ruler was ousted with Russian cooperation
+- According to Iraki Okruashvili, one of Saakashvili's defense ministers, Georgia had made plans to retake control of South Ossetia and Abkhazia
+  - Did not include military options
+  - Goal was to convince South Ossetians to rejoin Georgia voluntarily by showing that they would have a better life in Georgia
+- There had been large protests in Tblisi in 2007 against the Saakashvili government
+  - These protests, however were about corruption and governance issues
+  - Moreover, Saakashvili had just won re-election and his political party commanded a strong majority in parliament
+  - No imminent political threat to Saakashvili
+
+*** Georgian Lack of Information and Misperception
+
+- US intelligence services did not have a clear picture of what was going on in the South Caucasus immediately prior to the war because satellites had been retasked for other areas
+- US was caught off guard by the breakout of hostilities
+- Furthermore, Georgia had also disbanded the military intelligence unit in the Ministry of Defense in 2005
+- This allowed Russia to build up forces on the other side of the Georgian border without either the US or Georgia being aware of the build-up
+- Perception of the balance of forces
+  - Saakashvili seems to have underrated the Russian forces that were arrayed against him
+  - Didn't think that the Russians were strong enough to fight a war on foreign soil
+  - In addition, it's possible that Saakashvili overestimated the strength of the Georgian army
+    - Georgian defense spending had risen from 1% to 8% of GDP
+    - Gerorgian forces had received training from US advisers
+    - Georgia had purchased brand new kit, more advanced that what the Russians had
+- Perception of Russian intentions
+  - According to Georgia, Russia was planning to annex the disputed territories of Abkhazia and South Ossetia as retaliation for the Western recognition of Kosovo's independence
+  - There was some speculation that Russia was attempting to lay a "trap" for Georgia
+    - Incite provocations with South Ossetian proxy militias
+    - Get Georgia to attack
+    - Launch a retaliatory strike that Russia would be sure to win
+  - However, the repeated and explicit warnings from Russia give the lie to the trap theory
+  - Instead it seemed that the Georgians misperceived the importance of South Ossetia to Russia
+    - Did not think that Russia would go to war over this territory
+    - Underestimated the number of troops committed to the military exercises occurring just across the border
+  - In addition, there is an element of pre-emption to the Georgian decision to attack --- there was an expectation that Russia would seek to increase tensions in South Ossetia towards the end of 2008
+  - In this Georgian beliefs may have been colored by NATO perceptions that the era of conventional great power war was over, and that the future combat would be increasingly focused on counterinsurgency
+  - Georgian leadership appears to have succumbed to groupthink, which led them to believe that any intervention in South Ossetia would be localized and would not lead to a larger conflict with Russia
+- Perception of US intentions
+  - The US gave no shortage of blunt warnings to Georgia
+  - While it seems clear that the Georgians appreciated that they would stand alone militarily they were expecting the US to exert significant diplomatic pressure to restrain Russian actions
+- Taking the above points together, we have an explanation for the Georgian decision to initiate hostilities
+  - Georgian decision-makers underestimated Russian willingness to intervene, interpreting Russian warnings as bluffs
+  - Calculated that the US would exert diplomatic pressure to restrain Russia
+  - As a result, they calculated their opposition to be just the South Ossetian militias, which the Georgian military should have been more than a match for
+- When it became clear that the above assumptions were incorrect, and that Russia was conducting a large scale intervention in support of the South Ossetian militias, the Georgian leadership was quick to wave the white flag
+
+*** Explanatory Overkill: Lessons of the Past
+
+- Georgian decision to attack can be explained by lack of information and misperception
+- No need to invoke lessons or historical analogies to explain Georgian decisions
+
+** Conclusions
+
+- Georgian forces underestimated the forces arrayed against them
+  - Lack of satellite imagery from the United States
+  - Restructuring of their intelligence services underemphasized military intelligence
+  - Did not appreciate how many Russian soldiers were deployed across the border
+- Underestimated Russian willingness to use those forces
+  - Did not understand that Moscow attached strategic importance to Abkkazia and South Ossetia
+  - Dismissed warnings from Moscow as bluffs
+  - Felt that their only opponents would be South Ossetian militias
+- Overestimated US support
+  - Knew that US would not provide military support
+  - However, they assumed that the US would work to balance Russia diplomatically
+- This led Georgia to embark on a "suicidal" plan, starting a war against Russia
+

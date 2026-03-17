@@ -1,0 +1,10 @@
+#+TITLE: Sail Nav Sim
+
+[[https://8bitbyte.ca/sailnavsim/][SailNavSim Website]]
+
+* Race Starting 2023-12-04
+
+- Starting location: =6.82701, -58.18038=
+- End bounding box: =[[25.73019, -80.22120], [25.76110, -80.15284]]= 
+- Race ID: =e52aab75ccc066a4c49604a89ad7a3da=
+- Boat key: =669301b616c1d3feb5e072f15d0e7cad=

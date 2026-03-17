@@ -1,0 +1,32 @@
+* Dev Database Connection Info
+
+** OMNI
+
+*** Connection Info
+- host: =baker-dev-aurora-serverless.cluster-civfuk5yrlbp.us-east-1.rds.amazonaws.com=
+- database name: =baker=
+- username: =baker=
+- password: =:a[wu_6K_0[A6FYL=
+
+** EMPP
+
+*** Connection Info
+- SSH Tunnel
+  - Host: =ec2-54-82-182-211.compute-1.amazonaws.com=
+  - Username: =ec2-user=
+  - Authentication method: =Public Key=
+  - Private key: =empp-dev.pem=
+- host: =empp-data-dev.cyeqpokowniv.us-east-1.rds.amazonaws.com=
+- database name: =empp=
+- username: =emppro=
+- password: =jsPOfjJvQdBlbHsLBRuQoEgF=
+
+** Postgres command-line client setup
+- To get the =psql= command line client: =brew install postgresql=
+- Connect to the server with: =psql -h <db host> -U <db User>=
+
+** Helpful PSQL DB commands
+- To list tables: =\dt=
+  - Can use wildcards to search for particular tables
+- To describe a specific table: =\d <table name>=
+- To quit: =\q=

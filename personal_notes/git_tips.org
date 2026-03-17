@@ -1,0 +1,124 @@
+#+TITLE: Git tips
+
+* Configure tracking branch
+- =git branch -u <upstream branch>=
+
+* Stop tracking a file without deleting it
+- Add the file to =.gitignore=
+- =git rm --cached <file>=
+
+* Global Gitignore
+- To set up a global gitignore, run the following command: =git config --global core.excludesfile ~/.gitignore_global=
+- Then add .gitignore entries to =~/.gitignore_global= if you want them excluded from all repos
+- My =~/.gitignore_global=:
+  #+BEGIN_EXAMPLE
+    .vscode/
+  #+END_EXAMPLE
+
+* Stash a specific file
+- =git stash push <filename>=
+
+* Prevent VSCode from autofetching
+- Set =git.autofetch= to =false=
+
+* Undelete a file
+- Get the commit that deleted the file: =git log -- <deleted file path>=
+- Restore the file with =git checkout <commit>^ -- file=
+
+* Run hooks manually
+- Git hooks are shell scripts in =.git/hooks=
+
+* Alias commands
+- To add aliases for commonly used commands: =git config --global alias.<alias> <command>=
+  - For example, to alias =git checkout= to =git co=: =git config --global alias.co checkout=
+- My git aliases
+  - =co= --- =checkout=
+  - =f= --- =fetch --prune=
+  - =br= --- =branch=
+  - =rb= --- =rebase=
+  - =rbi= --- =rebase --interactive=
+  - =m= --- =merge=
+  - =c= --- =commit=
+  - =pfwl= --- =push --force-with-lease=
+  - =add= --- =a=
+
+* Prune when pulling
+- Add the =-p= flag to =git pull= to prune when pulling
+
+* Set the default git diff algorithm
+- In =.gitconfig=:
+  #+BEGIN_EXAMPLE
+    [diff]
+        algorithm = histogram
+  #+END_EXAMPLE
+
+* Pretty git commit graphs
+- Add the following to your =.gitconfig=:
+  #+BEGIN_EXAMPLE
+    [alias]
+        lg = lg1
+        lg1 = lg1-specific --all
+        lg2 = lg2-specific --all
+        lg3 = lg3-specific --all
+        lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+        lg2-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+        lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  #+END_EXAMPLE
+- Then run =git lg= to see a pretty graph
+
+* Squash changes
+- To squash a number of changes into a single commit: =git rebase -i HEAD~<N>= where =<N>= is the number of commits you want to squash
+- The minimum for =<N>= is two --- makes no sense to squash a single commit
+
+* Squash non-interactively
+- =git reset --soft HEAD~<number of commits to squash>=
+- =git commit -F <commit message file>=
+
+* Format a patch for e-mail
+- To format a patch for e-mail: =git format-patch <start commit>..<end commit>=
+- To format a single patch for e-mail: =git format-patch <commit>^..<commit>=
+
+* Set up a bare repo
+- On the remote server: =git init --bare <repo_name>.git=
+- Locally, create the git repo as normal, with =git init=
+- Then add the remote: =git remote add origin ssh://<user>@<host>/path/to/repo=
+- Then push to the remote: =git push -u origin master=
+
+* Configure a remote repository
+- =git remote add "<upstream name>" "<upstream address>"=
+- Example: =git remote add "origin" "git@github.com/quanticle/notebook.git"=
+- Then to push a branch and set it to track the corresponding branch on the remote: =git push --set-upstream <upstream name> <branch>=
+- Example: =git push --set-upstream origin master=
+
+** Configure a pushRemote
+- To configure a branch to push to a different place than it pulls from, set =upstream= and =pushRemote= to be different
+- Set the upstream for a branch with =git branch -u <remote>/<branch>= (e.g. =git branch -u origin/master=)
+- Then set the =pushRemote= for the branch with =git config branch.<branch_name>.pushRemote <remote>= (e.g. =git config branch.personal_config.pushRemote origin=)
+- This configures the branch to pull from the =master= but push to the =personal_config= branch
+- This way, =git pull= merges in changes from =master= and =git push= pushes changes to the topic branch
+- To check the =pushRemote= setting: =git config --get branch.<branchName>.pushRemote=
+
+* Set up a git repo for others to access
+- Create a separate user for =git=:
+  #+begin_src bash
+    sudo adduser git
+  #+end_src
+- Add your SSH public key to the =git= user account
+- Configure the =git= user to only accept access via =git=
+  #+begin_src bash
+    sudo usermod -s "$(which git-shell)" "git"
+  #+end_src
+
+* Add specific hunks
+- =git add -p= to interactively choose hunks to stage
+
+* View staged changes
+- =git diff --staged=
+
+* Revert changes to one file
+- To revert changes from one commit for one file, do: =git show <commit> -- <file> | git apply -R=
+- This takes the diff for the file from the given commit and applies it in reverse
+
+* View parents of a commit
+- =git log --pretty​=%p -n 1 <commit>=
+- To view the full hash, use =%P= instead of =%p=

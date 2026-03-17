@@ -1,0 +1,96 @@
+#+TITLE: Giving Up The Gun: Japan's Reversion to the Sword, 1543 - 1879
+#+OPTIONS: h:6
+
+* Chapter 1
+
+- In 1855, the USS /Vincennes/, an 18-gun sloop commanded by Commander John Rodgers, visited Tanegashima Island, Japan
+- In 1854, the year before, Commodore Matthew Perry had forced Japan to sign the Treaty of Kanagawa, forcing Japan to open its markets to foreign trade
+- Rodgers led party ashore to buy supplies for his ship, and marveled at the complete ignorance the Japanese had of 19th century firearms
+- Rodgers presumed that the Japanese were a primitive people who had never developed firearms, but in this assumption he was incorrect
+- The ancestors of the people he visited had been the first Japanese to use firearms, and the first Japanese word for gun, /tanegashima/ was synonymous with the island
+- Later the name for guns evolved to /teppo/
+- The Japanese of the 16th century had fought battles with more guns and cannon than any equivalent European army, but had deliberately unlearned their knowledge of firearms
+- Few scholars agree on why
+- Guns were introduced to Japan by Chinese traders in 1543
+- Ship carrying the traders also had some Portuguese adventurers, who had been appearing all over East Asia since Portugal established its colony in India in 1510
+- Two of these adventurers had arquebuses and ammunition, and used them to shoot ducks for for Lord Tokitaka, the feudal master of Tanegashima
+- Tokitaka, impressed, arranged to take shooting lessons from the Portuguese, and also purchased their guns
+- After purchasing the guns, Tokitaka arranged for his master swordsmith, Yatsuita Kinbei, to manufacture copies
+- Allegedly, Yatsuita, in order to learn how to make the spring mechanism to fire the gun, gave up his daughter in marriage to the captain of a Portuguese ship in order to take metalworking lessons from its armorer
+- Within a year, Yatsuita had made ten guns, and within ten years, gunsmiths were operating all across Japan
+- Lord Oba Nobunaga put in an order for 500 of the new /tanegashima/ in 1549
+- By 1560, Japanese armies were using firearms in large-scale use
+- Japan appeared to be on the cusp of a technological breakthrough with firearms manufacturing
+- Japan had a strong martial culture, and its large population of soldiers could immediately appreciate the advantages of firearms
+- When firearms arrived, Japan was in the midst of a political struggle, as several feudal lords vied to make a puppet of the shogun and rule the country thereby
+- Japanese metallurgy was world class, with high quality copper and steel available for lower prices than almost anywhere else in the world
+- Indeed, Japanese copper was of such high quality that the Dutch found it profitable to export it half a world away to the Netherlands in the sixteenth century, despite Swedish copper being available much closer
+- Japanese iron was both cheaper and higher quality than the iron produced by England, the European leader in iron production
+- Japan was also developing advanced manufacturing, especially in the field of paper
+- English traders in Macao noted Japanese merchants blowing their noses on something that appears to be an early form of Kleenex
+- More than anything else, however, the Japanese exported weapons and armor
+- Europeans noted that Japanese swords could slice through European swords and armor with ease
+- Japanese swordsmiths mastered the art of pattern welding hard steel onto softer steel in order to make sword blades that were fantastically sharp, but not brittle
+- In the 16th century, Japan's economy and population were both booming; at approximately 25 million people, Japan had a larger population than France, England and the future United States combined
+- The Japanese population was more educated than those of Europe; Japanese observers felt that their initial European visitors, from Portugal were simpleminded because they ate with their hands and didn't know how to read
+- Japanese warriors were expected to be gentlemen as well as officers; career military officers were expected to be knowledgeable about literature and poetry
+- In the late-1500s, Father Organtino Gnecchi, a missionary stationed in Japan, thought that the level of culture in Japan was higher than it was in his native Italy, despite Italy being at the height of the Renaissance at the time
+- This is contrast to the view that Europeans had of North American natives, whom they generally regarded as backwards and primitive
+
+* Chapter 2
+
+- Although Japanese noble houses regarded firearms with interest, there was also a great deal of skepticism regarding these new weapons
+- This skepticism was justified by the primitive nature of firearms at the time
+- The state of the art of firearms then was the Japanese teppo, which was similar to the English matchlock
+- This required a series of complex motions to reload, as the shooter had to maintain carrying a lit "match" (a slow-buring piece of rope soaked in saltpeter, or potassium nitrate) while reloading the gun
+- A skilled archer could fire fifteen arrows while a matchlockman reloaded once
+- The light bullets fired by early matchlocks could not penetrate armor plate
+- Furthermore in rain, fog or other damp conditions, the matches would go out, and soldiers then did not have modern lighters or matches with which to relight their slow matches
+- These problems with matchlocks were also noted in Europe
+- /The difference is that in Europe, they spurred further innovations in firearms, eventually resulting in wheel-lock, and later flintlock muskets/
+- Firearms also conflicted with the Japanese way of war
+- Japanese combat was heavily ritualized, with champions often striding forward and issuing challenges and declarations before fighting begins in earnest
+- However, the Japanese soon came to some of the same solutions that Europeans arrived at to deal with the limitations of firearms
+- Developed volley fire techniques to mitigate the slow process of reloading matchlock muskets
+- Increased gun caliber to improve bullet effectiveness
+- Developed special lacqured waterproof gunpowder boxes
+- Put special hoods over matches in order to make matchlocks usable in the rain
+- By 1575, Japanese militaries were well on their way to integrating firearms
+- A battle between Lord Oda and Takeda Katsuyori featured matchlock musketeers defeating charging heavy cavalry, demonstrating sophisticated tactics a hundred years or more ahead of their time
+- By this time the Japanese had also begun developing their own cannon, with the aid of Portuguese advisers
+
+* Chapter 3
+
+- The 50 years after Lord Oda's victory over Takeda represented the height of firearms development in Japan
+- However, during this time, opposition to firearms was developing
+- Prior to firearms, Japanese battles would often devolve into a series of single combats and melees
+- These sorts of battles could produce heroic narratives in a way that massed volley fire could not
+- Emphasized the skill and martial virtue of the individual
+- With the advent of matchlocks, the role of skill had been moved from the individual soldier to the commander who employed him and the manufacturer who made his firearm
+- As a result, an increasing proportion of matchlock soldiers were not from the warrior class, but instead were yeoman farmers
+- Because of this, the Japanese warrior class had two conflicting impulses regarding firearms
+  - Recognized that firearms were efficient killing machines, especially at long ranges
+  - Personal distaste towards using guns; wanted to make their name with the sword or spear
+- As a result, they tried to separate fighting into upper-class and lower-class, where the lower classes fought with guns and the upper classes fought with the traditional sword and spear
+- This didn't work, as soldiers with firearms didn't discriminate based on class when they chose their targets, as evidenced by the death of Lord Mori Nagayoshi in 1584, who was killed as he rode out in front of his troops to rally them
+- Battles fought with firearms were also increasingly settling into stalemates, with neither side able to move beyond its own trenches and breastworks
+- Several years after the death of Lord Mori, Lord Hideyoshi sought to disarm the peasantry
+- Announced that he was constructing a gigantic temple, with a large statue of Buddha as its centerpiece
+- Required the peasantry to give up their guns to supply iron for the construction effort
+- However, at this time, the production of firearms continued to increase, as Japanese nobles required them for their foreign wars
+- Lord Hideyoshi, from above, also had designs to conquer Korea, China and the Philippines
+- The invasion of Korea, initially was an ideal form of the two-class warfare envisioned by Japanese nobility
+  - Samurai fought Korean knights with sword and spear
+  - Lower-class infantry fought Korean archers and infantry with guns
+- However in the second year of the conflict, the Chinese empire sought to reinforce Korea and Korean units began showing up with matchlocks of their own, copied from captured Japanese examples
+- Heavily outnumbered, the Japanese increasingly began to consider switching to guns for their entire army
+- Letters from Korea in 1592 emphasized the need for guns, and told supply officials at home that there was absolutely no need for additional spears or swords
+- At this time, the samurai were also beginning to change their attitudes towards guns, as Francesco Caletti, a Florentine merchant found when he was invited to go hunting with some samurai
+- He found that most samurai owned guns, and were perfectly capable of using them to shoot game, even if they would prefer using a sword or spear on the battlefield
+
+* Chapter 4
+
+- Thus, in the 1590s, Japan, like many European nations, found itself on the cusp of a large-scale transition to firearms
+- But, unlike Europe, Japan chose to turn away from the gun and returned to the sword
+
+# page 46

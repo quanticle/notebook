@@ -1,0 +1,9 @@
+#+TITLE: Webcomics
+
+* Daily
+- [[https://www.questionablecontent.net/][Questionable Content]]
+
+* Monday Wednesday Friday
+- [[https://www.xkcd.com/][XKCD]]
+- [[https://www.gunnerkrigg.com/][Gunnerkrigg Court]]
+- [[https://www.penny-arcade.com/][Penny Arcade]]

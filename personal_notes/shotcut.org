@@ -1,0 +1,4 @@
+* Shotcut Video Editor
+
+** Playback controls
+- 

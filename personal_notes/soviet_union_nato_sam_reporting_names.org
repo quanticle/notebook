@@ -1,0 +1,17 @@
+#+TITLE: Common Soviet Air Defense Systems and their Corresponding NATO Reporting Names
+
+| Soviet Designation | NATO Reporting Name | Miscellaneous notes                                                                                                                     |
+|--------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
+| [[https://en.wikipedia.org/wiki/S-75_Dvina][S-75 Dvina]]         | SA-2 Guideline      | Shot down Francis Gary Powers' U-2                                                                                                      |
+| [[https://en.wikipedia.org/wiki/S-125_Neva/Pechora][S-125 Neva]]         | SA-3 Goa            | Short-range air defense system complementary to the S-75, North Vietnam used the S-75 and the S-125 both to great effect                |
+| [[https://en.wikipedia.org/wiki/2K12_Kub][2K12 Kub]]           | SA-6 Gainful        | Was widely used in the 1973 Yom Kippur War --- proved to be a nasty suprise for the Israelis                                            |
+| [[https://en.wikipedia.org/wiki/9K32_Strela-2][9K32 Strela-2]]      | SA-7 Grail          | First Soviet MANPAD, somewhat comparable to the Stinger's predecessor, the FIM-43 Redeye                                                |
+| [[https://en.wikipedia.org/wiki/9K33_Osa][9K33 Osa]]           | SA-8 Gecko          | The first mobile all-in-one system incorporating radars and missiles on the same vehicle                                                |
+| [[https://en.wikipedia.org/wiki/S-300_missile_system][S-300]]              | SA-10 Grumble       | Widely deployed theater air defense system, capable of fielding a [[https://en.wikipedia.org/wiki/S-300_missile_system#Missiles][large variety of missiles]]                                             |
+| [[https://en.wikipedia.org/wiki/Buk_missile_system][9K37 Buk]]           | SA-11 Gadfly        | Successor to the SA-6, notorious for the MH-17 shootdown                                                                                |
+| [[https://en.wikipedia.org/wiki/9K35_Strela-10][9K35 Strela-10]]     | SA-13 Gopher        | Widely deployed short-range air defense system                                                                                          |
+| [[https://en.wikipedia.org/wiki/Tor_missile_system][9K330 Tor]]          | SA-15 Gauntlet      | Designed to shoot down cruise missiles as well as manned aircraft                                                                       |
+| [[https://en.wikipedia.org/wiki/2K22_Tunguska][2k22 Tunguska]]      | SA-19 Grison        | Short-range air defense system combining anti-aircraft cannon as well as missiles --- predecessor to the Pantsir                        |
+| [[https://en.wikipedia.org/wiki/S-400_missile_system][S-400]]              | SA-21 Growler       | Successor to the S-300, currently Russia's most advanced air defense system                                                             |
+| [[https://en.wikipedia.org/wiki/Pantsir_missile_system][Pantsir-S1]]         | SA-22 Greyhound     | Another common short-range air defense system; many videos of Armenian Pantsirs getting blown up by strikes from Azeri Bayraktar drones |
+

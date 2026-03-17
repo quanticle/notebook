@@ -1,0 +1,79 @@
+#+TITLE: Outdoor fireplace pad
+#+OPTIONS: num:nil 
+#+OPTIONS: html-postamble:nil
+
+* Fireplace measurements
+- Fireplace is a 34" circle
+
+* Outdoor Fireplace pad
+- One option is to create a concrete pad
+- Can also use pavers
+- Need to measure the size of the fireplace
+
+* General concrete instructions
+- Mark out the area for the pad with string line and wooden stakes
+- Excavate the area to a depth of 6 inches and level the ground with sand
+- Using 2x4s, build a form just inside the area you've excavated
+- Mix the concrete and fill the form, making sure the edges are filled
+- Using a screed (long 2x4) scrape the top of the concrete in order to level it
+- Wait until the concrete has just started to set --- should be still malleable but not liquid
+- Use a concrete float to smooth the surface of the concrete
+- Before the concrete has set fully use a groover to create control joints in the concrete
+- Wait for the concrete to cure for several days
+- Apply a concrete sealer to seal the concrete and protect it from the elements
+
+* Pavers
+- Concrete seems like a lot of hassle
+- 12in x 12in x 1.5in
+- Will want to dig out the sod
+- Then raise and level the soil with sand
+- Tamp sand down to form firm and level foundation
+- Place paving stones on sand to form base for outdoor fireplace
+
+* Digging up sod
+- Water the area to be dug up
+- Mark out the area with line or spray paint
+- Using a sharp flat shovel, cut a strip 2-3 shovel blade widths wide and 1 shovel width long
+- Go to the far side of the strip and pry up the sod
+- Get down on your knees and push the shovel into the cut, parallel to the soil to cut the roots
+- Pry up the pad and put it aside
+- Repeat until the entire area is clear
+
+* Paver Fireplace Pad
+
+** Tools and materials
+- Paving stones - 12" × 12" × 2" → 16 paving stones @ $1.29 each → *$20.64* (Model Number: 1791310 Menards ® SKU: 1791310)
+- Gravel mix or paver base - 48" × 48" × 4" → 5.3 cubic feet → 12 bags @ $2.84 each → *$34.08* (Model Number: 1891137 Menards ® SKU: 1891137)
+- Leveling sand - 48" × 48" × 1" → 1.33 cubic feet → 4 bags @ $3.72 each → *$14.88* (Model Number: 1891138 Menards ® SKU: 1891138)
+- Joint locking sand - 1 bag @ *$15.82* (Model Number: 1891155 Menards ® SKU: 1891155)
+- Paver edging - 8' strips → 3 @ $8.00 each → *$24.00* (Model Number: 1261-MN Menards ® SKU: 1793295)
+- Stakes for paver edging → 3 @ $5.51 each → *$16.53* (Model Number: 1986-MN Menards ® SKU: 1793305)
+- Weed barrier - 1 roll @ *$9.99* (Model Number: 00004 Menards ® SKU: 2682579)
+- 1" outer diameter PVC pipe → 2 × 5' @ $4.00 each → *$8.00* (Model Number: PVC040071000HC Menards ® SKU: 6898517)
+- Tamper → 1 @ *$22.24* (Model Number: 34396 Menards ® SKU: 2655538)
+- Total cost: *$166.18* (plus tax)
+
+** Instructions
+- Use string and spray paint to mark out pad location
+- 4" of gravel mix
+- 1" of sand
+- Need to dig approx 7"
+- Use pointed shovel to cut sod and dig down
+- Use a rake to smooth the dirt
+- Check that the base is level
+- Tamp dirt with hand tamper
+- Lay weed barrier
+- Lay gravel base - 4" of compacted gravel
+  - Lay 1" of gravel
+  - Tamp
+  - Verify that the gravel is level, adding gravel as necessary to adjust
+  - Repeat
+- Place PVC pipe on gravel
+- Pour sand and use a long 2x4 to scree the sand flat, so it just covers the pipes (do not compact)
+- Remove the pipe, fill in the gap with more sand, and scree it flat again
+- Place pavers on top of sand, being careful not to step on the sand while placing the pavers;
+- Spread joint locking sand on top of pavers
+- Use a push broom to fill the gaps between the pavers with joint locking sand
+- Spray water to activate the joint locking sand
+- Let dry before using
+

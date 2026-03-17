@@ -1,0 +1,48 @@
+#+TITLE: Android Notes
+
+* Useful tips
+
+** Prevent Google Fi VPN from disconnecting
+- Disable battery optimization for the "Google Communication Services" app
+
+** Save battery by preferring LTE to 5G
+- Settings → Network & Internet → Internet → Google Fi → Preferred Network Type
+
+** Save battery by disabling background scanning for wi-fi and Bluetooth
+- Location → Location Services
+  - Google Location Accuracy → Off
+  - Wi-Fi scanning → Off
+  - Bluetooth scanning → Off
+
+* Apps
+
+** Authenticators
+- Microsoft Authenticator
+- Blizzard Authenticator
+- XFinity Authenticator
+- Duo Mobile
+
+** Communications
+- WhatsApp
+
+** Shopping
+- Amazon
+- Target
+- Walmart
+- Home Depot
+- Lowes
+- Menards
+
+** Food
+- Potbelly
+- Subway
+- Chipotle
+- Jimmy John's
+- Jersey Mike's
+- Panda Express
+- Pizza Hut
+- Dominos
+- Smash Burger
+
+** Utility
+- Sony Headphones

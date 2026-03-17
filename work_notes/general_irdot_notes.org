@@ -1,0 +1,3 @@
+* General IRDOT Notes
+- [[https://s3.console.aws.amazon.com/s3/buckets/wl-empp-api-job-dev?region=us-east-1&tab=objects][S3 Bucket]]
+  - Look for the scenario ID that you're interested in (the GUID in the URL)

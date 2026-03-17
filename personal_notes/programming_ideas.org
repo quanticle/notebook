@@ -1,0 +1,21 @@
+#+TITLE: Programming Ideas
+
+- Blog engine
+  - Python/Flask
+  - Python/Django
+  - Clojure
+- IRC Client
+  - Go
+  - Rust
+  - Common Lisp
+- Forum that tracks predictions
+- Text editor
+  - Common Lisp
+  - Rust
+  - Scheme
+- Org-mode parser
+- URL shortener
+- RSVP app
+- OSA MN website
+- Twitter-like app for remote teams to share stand-up notes
+

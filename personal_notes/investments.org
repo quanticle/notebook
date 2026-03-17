@@ -1,0 +1,9 @@
+#+TITLE: Investments
+
+* Thesis
+- AI is huge, and only getting bigger so let's invest in it
+
+* Companies
+- =NVDA= --- duh
+- =MU= --- Any AI chip is going to require memory
+- =NEE= --- One of the largest providers of green energy --- new AI data centers are going to require a lot of electricity, and AI companies are all super woke, so they're going to insist on that energy being clean energy

@@ -1,0 +1,135 @@
+* EMPP-5010: Transition Job State Storage To Dynamo DB
+- Switch JobState storage to DynamoDB
+- Look at =src/lib/job-state= in the =empp-api-service= repository to see the current code to store job state
+- =job-state.ts=
+  #+BEGIN_EXAMPLE
+    import {getJsonObject, objectExists, putJsonObject} from '../clients/s3';
+    import {s3Bucket, s3JobsRoot} from '../settings';
+    import type {ServiceTypes} from '../api/spec-types';
+    export type JobStatus = ServiceTypes['IrdotJobStatus'];
+    export const setJobState ~ async (scenarioId: string, jobState: JobStatus) ~> {
+      return await putJsonObject(S3Bucket, stateFileKey(scenarioId), jobState);
+    }
+  #+END_EXAMPLE
+- Look at [[https://github.com/awslabs/dynamodb-data-mapper-js][DynamoDB data mapper]]
+- Import =@aws/dynamodb-data-mapper-annotations=
+- Annotate your model class as follows
+  #+BEGIN_EXAMPLE
+    @table('<table name>')
+    class MyDomainObject {
+      @hashKey()
+      id: string;
+      @rangeKey({defaultProvider: () => new Date()})
+      createdAt: Date;
+      @attribute()
+      completed?: boolean;
+    }
+  #+END_EXAMPLE
+- Then create a =DataMapper= object
+  #+BEGIN_EXAMPLE
+    const mapper = new DataMapper({
+      client = new DynamoDB({region: "us-east-1"})
+    });
+  #+END_EXAMPLE
+- I need to create a data mapper object that can be transformed into a =JobState=
+  - Do this in =job-state.ts=
+- The =dynamodb-client= module should just use the data mapper to load and store objects
+- In =job-state.ts=
+  #+BEGIN_EXAMPLE
+    import dynamoDbJobStatusTableName from '../settings';
+    import {
+      attribute,
+      hashKey,
+      table} from '@aws/dynamodb_data_mapper_annotations';
+    ...
+    @table(dynamoDbJobStatusTableName)
+    class JobStatusDynamoDbMapping {
+      @hashKey()
+      scenarioId: string;
+      @attribute()
+      status: string;
+      @attribute()
+      action: string;
+      @attribute()
+      error?: string;
+    }
+  #+END_EXAMPLE
+- =job-state.ts= API
+  #+BEGIN_EXAMPLE
+    setJobState(scenarioId: string, jobState: JobState)
+    getJobState(scenarioId: string)
+    jobStateExists(scenarioId: string)
+  #+END_EXAMPLE
+- VSCode error: ="Experimental support for decorators is a feature that is subject to change in a future release. Set the 'experimentalDecorators' feature in your 'tsconfig' or 'jsconfig' to remove this warning"=
+- The =@table()= decorator expects an argument constructor, but if I omit the constructor, I get "=Property<property>= has no initializer and is not definitely assigned in the constructor"
+- However the example code doesn't provide a constructor or initializer for any of its fields?
+- One solution is to set =strictPropertyInitialization= to =false= in tsconfig
+- How would we handle changes to the job status schema?
+- Serialize to string
+- Make a ticket to handle the mapping later
+
+** Terraform
+- I need to define a new terraform module for dynamdodb
+- Terraform module layout:
+  #+BEGIN_EXAMPLE
+    dynamodb/
+      main.tf
+      outputs.tf
+      variables.tf
+  #+END_EXAMPLE
+- =variables.tf= just has the environment
+- AWS Terraform provider docs: ([[https://registry.terraform.io/providers/hashicorp/aws/latest/docs][https://registry.terraform.io/providers/hashicorp/aws/latest/docs]])
+
+** Build Errors
+- =yarn build= fails with:
+  #+BEGIN_EXAMPLE
+    Could not resolve "axios-concurrency" (mark it as external to exclude it from the bundle)
+  #+END_EXAMPLE
+  - Fixed by running =yarn install= to fetch latest dependencies
+- Build error: =Type 'unknown' is not assignable to type 'SolarNcf | Failed | SolarNcfSuccess | SolarOmniCapexRunning | {panelCostPerWdc: number; rackingCostPersMwdc: number; inverterOrOtherCostPerMwac: number}=
+  - Response is from =axiosInstance.post()=
+    - Can Axios be configured to do type checking for us?
+    - Do I need to create an intercepter to destructure the data from the response?
+    - According to the TODO comment, we should be using =io-ts= to validate types
+    - =io-ts= defines code types
+      - =codec<A, O, I>= defined 3 methods
+        - =validate=: takes in input =I= and outputs =A= or an error
+        - =encode=: takes in input =A= and outputs =O=
+        - =is=: takes in input =I= and returns true of the =I= is assignable to =A=
+    - The type of =is= is a type predicate: a function that returns true if the given unknown is of a given type
+    - The way Tanner fixed this was to covert =SolarNcfRunning=, =SolarNcfSuccess=, and =Failed= to runtime types
+    - Didn't need to convert =SolarOmniCapexSuccess= and =SolarDgCapexSuccess= because they're defined by the OpenAPI spec
+- xmldom errors
+  - Getting an audit error
+  - Audit command: =yarn npm audit --recursive --environment production --severity moderate=
+  - The problem is that if I pull the latest of =xmldom= from Github, I get backwards incompatible changes
+  - I can specify a specific commit hash or semantic version as a dependency: =git+https://github.com/xmldom/xmldom#^0.7.0=
+  - However, when I specify a version from Github, I get the following error:
+    #+BEGIN_EXAMPLE
+      7234 verbose stack Error: 500 javax.servlet.ServletException: org.sonatype.nexus.repository.storage.MissingBlobException: Blob default@826FB9E9-1A42AA93-68797EEE-9915871A-F23273D7:7fe4846b-d738-4126-9a0d-55d285db0c4f exists in metadata, but is missing from the blobstore - GET https://nexus-cloud.windlogics.com/repository/npm-public/@istanbuljs%2fschema
+    #+END_EXAMPLE
+  - Is this a new dependency?
+  - Why is it using the old =https://nexus-cloud.windlogics.com= URL instead of the newer =https://nexus.nexteraanalytics.com=?
+  - Delete =.yarn=, =node_modules= and =build= directories
+  - Run =npm install= followed by =yarn install=
+  - Might be using the old URL because of my =~/.npmrc=:
+    #+BEGIN_EXAMPLE
+      registry=https://nexus-cloud.windlogics.com/repository/npm-public
+      //nexus-cloud.windlogics.com/repository/:_authToken=NpmToken.05447159-21d4-3d80-bddb-dba859944c41
+    #+END_EXAMPLE
+  - Log in to the new NPM repo with =npm login --registry=https://nexus.nexteraanalytics.com/repository/npm-public=
+    - Username: =windlogics-ro=
+    - Password: =4ip1K2xmMIAAT12_AD2mB-HdMPPnjCAh=
+    - E-mail: =noreply@windlogics.com=
+  - Then switch to the new repo with =npm config set registry https://nexus.nexteraanalytics.com/repository/npm-public=
+  - That fixed the download issue, but now I'm getting a different issue: =File '/Users/rpatnaik/workspace/empp-api-service/node_modules/xmldom/index.d.ts' is not a module.=
+    - Tried switching the =xmldom= url to just =[~https://github.com/xmldom/xmldom~]=, but that didn't fix the issue
+    - Is anyone else getting this error?
+    - After following up with Tanner, try switching the package to =@xmldom/xmldom=
+    - That fixed the issue, but I also had to update the reference in =gis.ts=
+
+** MR feedback
+- =settings.ts=
+  - Rename =dynamoDbJobStatusTableName= to =DYNAMODB_JOB_STATUS_TABLE=
+  - Make sure that the name of the dynamo DB table in =dynamodb/main.tf= and =settings.ts= are the same
+  - Dynamodb table: =wl-${appname}-jobstate-${env}=

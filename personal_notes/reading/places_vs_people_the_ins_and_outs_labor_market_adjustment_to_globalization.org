@@ -1,0 +1,160 @@
+#+TITLE: Places vs. People: The Ins and Outs of Labor Market Adjustment to Globalization
+#+OPTIONS: h:6
+#+OPTIONS: toc:2
+
+* Introduction
+
+- A major economic challenge is regionally-concentrated job losses
+- Caused by
+  - Globalization
+  - Automation
+  - Energy transition
+- Locales that specialized in manufacturing for specific industries have lost their industrial core
+- Leads to
+  - Elevated mortality
+  - Increased single-parenthood and poverty
+  - Political extremism
+- This paper examines the intertwined adjustments of labor markets and individual workers due to the shock of import competition from China
+- China's disruption to labor markets came as a shock to policymakers and economists in the US
+  - Initial impressions were that increased trade with low-wage countries would have only modest effects
+  - Shock would be diffused across the entire economy due to labor market mobility
+- However now we know that regions specialized in manufacturing felt intense pain from labor market shocks when faced with a large increase in import competition from China
+- Decline in manufacturing employment was not offset by an increase in non-manufacturing employment
+- Regional effects were observed in other high-income countries as well
+  - Germany
+  - Norway
+  - Spain
+  - France
+  - United Kingdom
+  - Italy
+  - Australia
+- Adverse labor market outcomes fell disproportionately on workers in industries that were exposed to competition from Chinese imports
+- These workers had lower earnings growth
+- However, net out-migration from areas exposed to trade was muted
+- Data about local labor markets and individual workers is often misaligned
+- Don't know how places adjusted to the China shock
+  - Who are the new arrivals
+  - How does the composition of industries and the quality of jobs change
+  - How long do changes take
+- Characterizing labor inflows and outflows can help us understand why places struggle in the aftermath of import shocks
+- We also want to understand whether people adjust along with places
+  - Do workers leave while regions languish
+  - Do regions rebound while workers struggle
+- Disentangling people and places can guide decisions about how aid should be delivered
+  - Location based investment subsidies
+  - Subsidies for worker training
+- This study merges data from the Census Bureau's Longitudinal Employer Household Dynamics program with data from the American Community Survey and 2000 and 2010 decennial censuses
+- Tracks changes in individuals' earnings and employment grouped by initial communting zone (CZ)
+- Data tracks changes across two decades --- from 2000, 1 year before China joined the WTO to 2019, the year prior to the pandemic
+- Trade-exposed commuting zones had persistent excess job losses in manufacturing
+- However these losses were more than offset by gains in non-manufacturing by the end of the 20 year period
+- These CZs had smaller net population outflows (or greater population inflows) --- lower employment to population ratio
+- Non-manufacturing job gains were concentrated among
+  - Women
+  - College-educated
+  - Minority racial and ethnic groups
+  - Foreign-born
+- Non-manufacturing jobs were concentrated in service industries with relatively low wage premia
+  - Leisure and hospitality
+  - Retail trade
+  - Non-traded medical services
+  - K-12 education
+- Although trade-exposed locations recover their employment by the end of the data period, trade-exposed workers do not
+  - Workers were more likely to take up lower-paid work outside of manufacturing
+  - Less likely to leave and find work in another CZ
+  - Maladjustment to import competition is particularly acute among workers who are
+    - Non-college educated
+    - Initially low-earning
+    - Initially employed in low-wage premium industries
+- Trade exposed places experience both a job recovery and increased joblessness
+  - Employment growth is greater relative to the initial population
+  - Employment prospects for incumbent workers are worse
+- This is caused by the lack of out-migration in response to import competition
+  - Trade-exposed places have smaller outflows of older workers
+  - Larger inflows of new workers
+  - New workers are disproportionately minorities and foreign-born
+  - New generation of workers hold jobs that are
+    - Relatively low-paid
+    - Provide services to local families and non-working older residents
+
+* Related Literature
+
+- Prior episodes of trade shocks provided clues to the disruption caused by trade with China
+- Workers that have been displaced by mass layoffs, regardless of their cause, tend to earn permanently less than otherwise similar workers
+- Less-well educated workers were known to be less-likely to leave places following downturns
+- The China shock combined these two patterns
+  - Mass layoffs due to factory closures
+  - Factories largely employed less-educated workers
+- Manufacturing unemployment due to import competition was particularly severe in the US and UK because these countries experienced no corresponding increase in exports
+- Losses were more limited in Germany and Switzerland, as they were able to increase exports to China
+- Japan and South Korea actually experienced growth in manufacturing as they were able to leverage Chinese production intermediate goods to increase their production of final goods
+- /So the US and UK just had uniquely bad policy responses to the China shock?/
+- Recent literature embeds results from reduced-form empirical analysis into quantitative general equilibrium models in order to project changes in real income
+  - Projections require the specification of adjustment mechanisms
+  - The form of the adjustment is materially important for quantifying the distributional consequences of globalization
+- Empirical results in this paper offer more support for models that allow for less labor mobility and more persistent unemployment
+- The economic literature provides little evidence to support the use of import tariffs to combat regionalized joblessness
+- However, place-based economic support policies may be effective if the right conditions are present
+  - Spillover effects that cause workers to concentrate in larger, higher-wage regions
+  - Market frictions that cause some workers to be stuck in smaller, lower-wage regions
+- If the above conditions are present, localized adverse shocks may lead to a self-reinforcing process of deagglomeration and occupational downgrading among the newly unemployed
+- This may dissuade new firms from entering locales affected by adverse shocks, widening spatial disparities in earnings and well-being
+- A large literature has assessed the impact of the China shock over the medium term (i.e. 2000 to 2007)
+- Much less attention has been paid to impacts beyond that point
+- The evidence from medium-term assessments of the China shock indicates that
+  - Local tax revenues are reduced, leading to reduced public services diminishing the attractiveness of places to businesses
+  - Greater criminality, adverse health outcomes and mortality tied to risky behaviors, reducing labor productivity
+  - Increases the fraction of children living in single-parent households, impeding the accumulation of human capital among the young
+
+* Data Sources and Empirical Methods
+
+** Data Sources
+
+- Data is sourced from a set of administrative and demographic data sets from the Census Bureau
+- Logitudinal Employer Household Dynamics (LEHD)
+- Derived from state unemployment insurance (UI) records
+- Employment History File (EHF) --- job-level database
+- A job is a unique employer-employee combination
+- Contains quarterly observations of earnings for almost all private wage and salaried workers in participating states
+- This paper aggregates the EHF's quarterly data into annual data
+- When workers change jobs during a year, the employer taken to be the employer that pays the most on an annualized basis
+- Location data is based on locations of employers rather than worker residences
+- The fact that data is aggregated by commuting zone (CZ) means that usually worker and employer locales are the same
+- Sample period is 2000 to 2019
+  - Starts just before China's accession to the WTO
+  - Ends just before the COVID 19 pandemic
+- Contains 43 states that consistently participated in the LEHD
+- Restricted to workers with positive annual earnings between the ages of 18 and 64
+- Earnings data is taken from the Opportunity Databank (OD), which aggregates tax data for earnings
+- OD provides data on date of birth, sex, and foreign-born status
+- Race and ethnic identity is derived from the American Community Survey
+- Several analyses focus on the subset of workers for which ACS data has information on educational attainment levels
+- Data makes use of import penetration by Chinese manufacturing by industry from 2000 to 2007 to track the impact of Chinese imports
+- Uses Personal Consumption Expenditure Index from Bureau of Labor Statistics
+
+** Changing Employment and Demographic Composition in Manufacturing and Non-Manufacturing
+
+- The share of employment in the manufacturing sector in the US as a whole fell by more than \(\frac{1}{3}\) from 14.2% to 9.2% of employment
+- Conversely the share of employment in health and education, leisure and hospitality, and business and professional services increased
+- Other industries were largely unchanged
+- A central contributor to the decline of manufacturing employment was competition from China
+- This longitudinal analysis investigates
+  - Whether individuals who lost jobs in manufacturing found jobs in other sectors
+  - Whether CZs that lost manufacturing employment gained employment in other sectors
+  - How did this structural transformation affect different demographics
+  - Were non-manufacturing jobs comparable to lost manufacturing jobs in terms of earnings
+- Manufacturing and non-manufacturing employment have very different demographics
+- Manufacturing workers tend to be
+  - Older
+  - Male
+  - Slightly more likely to be white
+  - Slightly less likely to be black
+  - Slightly more likely to be hispanic
+- Historically manufacturing employment has paid relatively high wages to non-college educated workers
+- Manufacturing remained a high-wage sector, even in 2019
+  - In 2000 46% of manufacturing workers were in the top tercile of earnings, as compared with 31% of non-manufacturing workers
+  - By 2019 54% of manufacturing workers were in the top tercile of earnings, as compared with 38% of non-manufacturing workers
+  - /So even as the total amount of manufacturing employment declined, the relative pay of manufacturing workers increased/
+  - /In fact the pay divergence between manufacturing and non-manufacturing increased from 2000 to 2019, even as manufacturing employment declined/
+
+# page 14

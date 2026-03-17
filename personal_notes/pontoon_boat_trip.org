@@ -1,0 +1,140 @@
+#+TITLE: Pontoon Boat Trip
+#+OPTIONS: H:6; num:nil; html-postamble:nil
+
+* Your Boat Club
+
+All prices from: https://yourboatclub.com/boatclubreservation/
+
+** White Bear Lake
+
+*** Peak Season (between Memorial Day and Labor Day)
+- Friday 
+  - Morning (8:00am - 1:00pm): $228
+  - Afternoon (2:30pm - 7:30pm): $438
+- Saturday June 17
+  - Morning (8:00am - 1:00pm): $288
+  - Afternoon (2:30pm - 7:30pm): $488
+- Sunday June 18 - $458 afternoon (2:30pm - 7:30pm)
+  - Morning (8:00am - 1:00pm): $268
+  - Afternoon (2:30pm - 7:30pm): $458
+
+
+*** After Labor Day
+- Friday
+  - Morning (8:00am - 1:00pm): $248
+  - Afternoon (2:30pm - 7:30pm): $398
+- Saturday
+  - Morning (8:00am - 1:00pm): $258
+  - Afternoon (2:30pm - 7:30pm): $488
+- Sunday
+  - Morning (8:00am - 1:00pm): $248
+  - Afternoon (2:30pm - 7:30pm): $458
+
+** Champlin
+
+*** Peak Season (between Memorial Day and Labor Day)
+- Friday
+  - Morning (8:00am - 1:00pm): $238
+  - Afternoon (2:30pm - 7:30pm): $398
+- Saturday
+  - Morning (8:00am - 1:00pm): $268
+  - Afternoon (2:30pm - 7:30pm): $488
+- Sunday
+  - Morning (8:00am - 1:00pm): $238
+  - Afternoon (2:30pm - 7:30pm): $418
+
+*** After Labor Day
+- Friday
+  - Morning (8:00am - 1:00pm): $228
+  - Afternoon (2:30pm - 7:30pm): $358
+- Saturday
+  - Morning (8:00am - 1:00pm): $248
+  - Afternoon (2:30pm - 7:30pm): $408
+- Sunday
+  - Morning (8:00am - 1:00pm): $248
+  - Afternoon (2:30pm - 7:30pm): $378
+
+** Lake Minnetonka (Browns Bay)
+
+*** Peak Season (between Memorial Day and Labor Day)
+- Friday
+  - Morning (8:00am - 1:00pm): $288
+  - Afternoon (2:30pm - 7:30pm): $548
+- Saturday (reservations mostly unavailable until August)
+  - Morning (8:00am - 1:00pm): $328
+  - Afternoon (2:30pm - 7:30pm): $618
+- Sunday
+  - Morning (8:00am - 1:00pm): $318
+  - Afternoon (2:30pm - 7:30pm): $568
+
+*** After Labor Day
+- Friday
+  - Morning (8:00am - 1:00pm): $268
+  - Afternoon (2:30pm - 7:30pm): $538
+- Saturday
+  - Morning (8:00am - 1:00pm): $338
+  - Afternoon (2:30pm - 7:30pm): $608
+- Sunday
+  - Morning (8:00am - 1:00pm): $328
+  - Afternoon (2:30pm - 7:30pm): $568
+
+** Prior Lake
+
+*** Peak Season (between Memorial Day and Labor Day)
+- Friday
+  - Morning (8:00am - 1:00pm): $268
+  - Afternoon (2:30pm - 7:30pm): $438
+- Saturday
+  - Morning (8:00am - 1:00pm): $288
+  - Afternoon (2:30pm - 7:30pm): $488
+- Sunday
+  - Morning (8:00am - 1:00pm): $268
+  - Afternoon (2:30pm - 7:30pm): $458
+
+*** After Labor Day
+- Friday
+  - Morning (8:00am - 1:00pm): $188
+  - Afternoon (2:30pm - 7:30pm): $258
+- Saturday
+  - Morning (8:00am - 1:00pm): $188
+  - Afternoon (2:30pm - 7:30pm): $298
+- Sunday
+  - Morning (8:00am - 1:00pm): $158
+  - Afternoon (2:30pm - 7:30pm): $278
+
+* Terry's Boat Harbor
+
+https://terrysboatharbor.com/pontoon-and-boat-rentals/
+
+** Lake Mille Lacs
+- $300/day
+
+* Tally's Dockside
+
+https://cghooks.com/boat-watersport-rentals/22-deluxe-pontoon-boat/
+
+** White Bear Lake
+- 4 hour minimum rental on Friday/Saturday/Sunday --- $280
+- 2 hour rentals during weekdays --- $140
+
+* How to Drive A Pontoon Boat
+- Trim motor so that the propeller is in the water
+- Put motor into neutral
+- Start ignition
+- Think of throttle as more like a shift lever than an accelerator/brake
+  - Forward, neutral and reverse positions
+  - Can use reverse to slow down
+- To pull away from the dock in reverse
+  - Turn wheel all the way towards the dock
+  - Give the motor a few bursts of forward to separate the rear of the boat from the dock
+  - The put the boat in reverse and reverse away from the dock at an angle
+- When docking
+  - Try to dock with the wind, so that the wind is pushing you into the dock
+  - Approach dock at a 45° angle
+  - Approach at a very slow idle
+  - When you reach the dock put the boat into neutral
+  - Tie the front of the boat to a post or cleat
+  - Turn wheel toward dock and reverse to pull the back of the boat into the dock
+  - Always stop the boat with the throttle before grabbing anything outside the boat
+- Feather the throttle, using forward and reverse to pivot in place
+- Always stop the boat first, then figure out what to do, then start doing it

@@ -1,0 +1,3900 @@
+#+OPTIONS: H:6 toc:6
+#+TITLE: 2022 Formula 1 Season
+
+** 2022-11-20 Abu Dhabi Grand Prix
+
+*** Track Info
+- Yas Marina Circuit
+- 3.28 miles
+
+*** Tires
+- C5, C4, C3
+- Softest tires
+
+*** Qualifying
+
+**** Q1
+- Night qualifying and night race
+- Red Bull were fastest in free practice
+- Turn 9 of the circuit has been reprofiled
+- /The pit lane exit goes through a tunnel, which is very cool/
+- Last F1 qualifying for Daniel Ricciardo, Sebastian Vettel, Nicholas Latifi and Mick Schumacher, all of whom are not on the grid next year
+- Red Bull waited a bit before going out
+- Mercedes and Alpine are waiting until the end of the session to go out
+- Perez goes faster than LeClerc in the opening stages of Q1
+- Mercedes aren't fast --- 0.8s behind Red Bull in Q1
+- Verstappen is saying his headrest is broken
+- Albon has a lap time deleted for exceeding track limits
+- Track is evolving and lap times are dropping
+- Eliminated in Q1
+  - Kevin Magnussen --- Haas
+  - Pierre Gasly --- Alpha Tauri
+  - Valteri Bottas --- Alfa Romeo
+  - Alex Albon --- Williams
+  - Nicholas Latifi --- Williams
+
+**** Q2
+- Lots of traffic
+- Mercedes going out on used tires
+- Lewis Hamilton complaining about brake problems
+  - Looks like a problem with getting the brakes up to temperature
+- Perez goes faster than Verstappen and puts in the fastes lap
+- Vettel complaining about being obstructed by a Red Bull at the end of his first lap of the session
+- Eliminated in Q2
+  - Fernando Alonso --- Alpine
+  - Yuki Tsunoda --- Alpha Tauri
+  - Mick Schumacher --- Haas
+  - Lance Stroll --- Aston Martin
+  - Guayu Zhou --- Alfa Romeo
+- /Vettel makes it into Q3/
+
+**** Q3
+- Max Verstappen has an issue with his car and can't go out to provide a slipstream for Perez on his first lap of the session
+- Mercedes are out early
+- LeClerc and Sainz are both quick, trading provisional pole back and forth
+- Perez's car gets a bit squirrely at the end of his lap and he takes 2nd
+- Verstappen gets pole position with a fantastic lap
+- Sebastian Vettel holds a provisional P7
+- Verstappen provides a slipstream for Perez on his second lap
+- Final top 10 qualifying order
+  1. Max Verstappen --- Red Bull
+  2. Sergio Perez --- Red Bull
+  3. Charles LeClerc --- Ferrari
+  4. Carlos Sainz --- Ferrari
+  5. Lewis Hamilton --- Mercedes
+  6. George Russell --- Mercedes
+  7. Lando Norris --- McLaren
+  8. Esteban Ocon --- Alpine
+  9. Sebastian Vettel --- Aston Martin
+  10. Daniel Ricciardo --- McLaren
+
+*** Race
+- 58 laps
+- Starting grid
+  1. Max Verstappen --- Red Bull
+  2. Sergio Perez --- Red Bull
+  3. Charles LeClerc --- Ferrari
+  4. Carlos Sainz --- Ferrari
+  5. Lewis Hamilton --- Mercedes
+  6. George Russell --- Mercedes
+  7. Lando Norris --- McLaren
+  8. Esteban Ocon --- Alpine
+  9. Sebastian Vettel --- Aston Martin
+  10. Fernando Alonso --- Alpine
+  11. Yuki Tsunoda --- Alpha Tauri
+  12. Mick Schumacher --- Haas
+  13. Daniel Ricciardo --- McLaren (penalty)
+  14. Lance Stroll --- Aston Martin
+  15. Guanyu Zhou --- Alfa Romeo
+  16. Kevin Magnussen --- Haas
+  17. Pierre Gasly --- Alpha Tauri
+  18. Valteri Bottas --- Alfa Romeo
+  19. Alex Albon --- Williams
+  20. Nicholas Latifi --- Williams
+- Good mix of medium and hard tires on the grid
+  - /Note that the "hard" tires in this race are the same as the "soft" tires from e.g. Suzuka/
+- Pierre Gasly starts on the soft tires; is probably going for a 2-stop strategy
+- Might be a concern for Sergio that he has the inside line going into Turn 1, when the outside line is quite a bit more advantageous
+- /Lots of fan support for Sergio/
+- Lap 1
+  - Both Max Verstappen and Sergio Perez get away from the line well
+  - Charles LeClerc holds onto 3rd
+  - Carlos Sainz being challenged by Lewis Hamilton for 4th
+  - Hamilton passes Sainz, but Sainz takes the position back at the end of the lap; Hamilton goes off track in the process
+- Incident between Hamilton and Sainz is classified as a racing incident --- no further action
+- Hamilton is forced to give the place back to Sainz
+- Lap 5
+  - Hamilton re-passes Sainz, and this time makes the pass stick
+  - Red Bulls are checking out in front
+- Lap 8
+  - Sainz catches up to and passes Lewis Hamilton for 4th
+  - Good battle between Sebastian Vettel and Esteban Ocon for 8th
+- Lap 9
+  - George Russell passes Lewis Hamilton for 5th
+  - Lewis asking about his engine --- complaining about being down on power
+  - Mercedes pit wall trying to debug the issue
+  - Pit wall tells Lewis that the engine is fine; it's just that the hybrid battery pack was drained during the battle with Sainz
+- Lap 12
+  - Sainz complaining about tire degradation, but his pit crew tells him that the degradation is fine
+  - The battle between Ocon and Vettel continues
+- Lap 13 --- Hamilton insists that something is wrong with his car
+- Lap 15 --- Ocon pits and goes out on hard tires
+- Lap 16
+  - Sergio Perez pits and goes out hard tires
+  - George Russell pits --- slow pit stop --- 5.2s stationary
+  - Potential unsafe release by George Russell as he pulls out in front of Lando Norris who has to brake abruptly
+- Lap 18
+  - Carlos Sainz pits and comes out ahead of George Russell
+  - Good battle between Fernando Alonso and Sebastian Vettel
+- Lap 19 --- Lewis Hamilton pits and goes out on hard tires
+- Lap 20 --- Max Verstappen pits and comes out 2nd, behind LeClerc
+- Lap 21 --- LeClerc pits
+- Russell gets a 5s time penalty for the unsafe release
+- Lap 26
+  - Vettel pits
+  - /Very late pit stop; might be on a 1-stop strategy/
+- Lap 27 --- Great battle between Kevin Magnussen and Pierre Gasly
+- Lap 28
+  - LeClerc starting to gain on Perez
+  - Fernando Alonso has to retire with a water leak
+  - /Another reliability retirement for Fernando/
+- Lap 34 --- Perez pits for a 2nd time for hard tires
+- Perez comes out 18 seconds behind LeClerc, who might be on a 1-stop strategy
+- Lap 39
+  - Collision between Mick Schmumacher and Nicholas Latifi
+  - Neither car is too damaged, and both are able to continue
+  - Nicholas Latifi, however, comes in to the pits and retires
+- Lap 40
+  - Carlos Sainz and George Russell pit
+  - George Russell serves his 5 sec time penalty
+- Lap 45
+  - Great battle between Perez and Hamilton for 3rd
+  - /This battle may very well have cost Perez 2nd place in the race and 2nd place in the driver's championship/
+- Lap 55
+  - Carlos Sainz passes Hamilton, who is having an issue with his hydraulics
+  - Hamilton has to pull into the pits and retire --- first and only mechanical retirement for Lewis this season
+- Lap 58
+  - Verstappen wins
+  - LeClerc 2nd
+  - Perez 3rd
+  - Ferrari gets 2nd place in the constructor's championship and LeClerc secures 2nd place in the driver's championship
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Charles LeClerc --- Ferrari
+3. Sergio Perez --- Red Bull
+4. Carlos Sainz --- Ferrari
+5. George Russell --- Mercedes
+6. Lando Norris --- McLaren
+7. Esteban Ocon --- Alpine
+8. Lance Stroll --- Aston Martin
+9. Daniel Ricciardo --- McLaren
+10. Sebastian Vettel --- Aston Martin
+11. Yuki Tsunoda --- Alpha Tauri
+12. Guanyu Zhou --- Alfa Romeo
+13. Alex Albon --- Williams
+14. Pierre Gasly --- Alpha Tauri
+15. Valteri Bottas --- Alfa Romeo
+16. Mick Schumacher --- Haas
+17. Kevin Magnussen --- Haas
+18. Lewis Hamilton --- Mercedes (DNF)
+19. Nicholas Latifi --- Williams (DNF)
+20. Fernando Alonso --- Alpine (DNF)
+
+** 2022-11-13 Brazil Grand Prix
+
+*** Track Info
+- Autodromo Jose Carlos Pace (Interlagos)
+- 2.67 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range, same as Mexico
+
+*** Qualifying
+
+**** Q1
+- Damp track
+- Most cars are on intermediate tires
+- Hamilton reports that the track is quite slippery
+- Ferraris are quite quick
+- Carlos Sainz will have a 5-place grid penalty for the race
+- Lando Norris is also quick
+- Alpha Tauri switch to soft tires for Pierre Gasly, as the track is starting to dry out
+- Hamilton goes fastest
+- /Track is speeding up rapidly as it dries/
+- Gasly goes much faster on slick tires
+- More chaos on the Ferrari pit wall as LeClerc comes in but they can't seem to decide which tires to put on his car
+- Eliminated in Q1
+  - Nicholas Latifi --- Williams
+  - Guanyu Zhou --- Alfa Romeo
+  - Valteri Bottas --- Alfa Romeo
+  - Yuki Tsunoda --- Alpha Tauri
+  - Mick Schumacher --- Haas
+
+**** Q2
+- All cars out on slick tires
+- DRS enabled
+- Pierre Gasly doing quite well
+- Haas is also doing well, with Kevin Magnussen going 4th
+- George Russell is worried about rain
+- Carlos Sainz is also reporting rain
+- Drivers starting to struggle (/possible rain on some parts of the track, but not others/)
+- Eliminated in Q2
+  - Alex Albon --- Williams
+  - Pierre Gasly --- Alpha Tauri
+  - Sebastian Vettel --- Aston Martin
+  - Daniel Ricciardo --- McLaren
+  - Lance Stroll --- Aston Martin
+
+**** Q3
+- There were some drizzles between Q2 and Q3, but it seems like the rain has stopped for now
+- Charles LeClerc going out on intermediate tires, while everyone else is out on slick tires
+- Lots of teams warning their drivers about more incoming rain
+- LeClerc is very slow on intermediate tires, and has to come back in
+- George Russell goes into the gravel, and causes a red flag delay as they need have vehicles on track to retrieve his car
+- Kevin Magnussen might have pole position, because he was one of the few drivers who managed to complete a flying lap before George had his spin
+- While George's car is being retrieved, it starts raining, leading to DRS being disabled
+- LeClerc is not happy with Ferrari's indecisiveness and tire chaos --- probably cost him the ability to set a fast lap time
+- Magnussen may well retain his pole position
+- Most teams have given up on qualifying as the rain intensifies and soaks the track
+- Perez and Hamilton go out for scouting laps on intermediate tires, before coming back
+- Final top-10 qualifying order
+  1. Kevin Magnussen --- Haas
+  2. Max Verstappen --- Red Bull
+  3. George Russell --- Mercedes
+  4. Lando Norris --- McLaren
+  5. Carlos Sainz --- Ferrari
+  6. Esteban Ocon --- Alpine
+  7. Fernando Alonso --- Alpine
+  8. Lewis Hamilton --- Mercedes
+  9. Sergio Perez --- Red Bull
+  10. Charles LeClerc --- Ferrari
+
+*** Sprint Race
+- 24 laps
+- Starting grid
+  1. Kevin Magnussen --- Haas
+  2. Max Verstappen --- Red Bull
+  3. George Russell --- Mercedes
+  4. Lando Norris --- McLaren
+  5. Carlos Sainz --- Ferrari
+  6. Esteban Ocon --- Alpine
+  7. Fernando Alonso --- Alpine
+  8. Lewis Hamilton --- Mercedes
+  9. Sergio Perez --- Red Bull
+  10. Charles LeClerc --- Ferrari
+  11. Alex Albon --- Williams
+  12. Pierre Gasly --- Alpha Tauri
+  13. Sebastian Vettel --- Aston Martin
+  14. Daniel Ricciardo --- McLaren
+  15. Lance Stroll --- Aston Martin
+  16. Nicholas Latifi --- Williams
+  17. Guanyu Zhou --- Alfa Romeo
+  18. Valteri Bottas --- Alfa Romeo
+  19. Yuki Tsunoda --- Alpha Tauri
+  20. Mick Schumacher --- Haas
+- Most cars are starting on soft tires
+- However, Max Verstappen is on medium tires --- hopefully will be able to go faster at the end of the sprint
+- Lap 1
+  - Kevin Magnussen gets away cleanly and retains the lead
+  - Max Verstappen is a bit slow off the line (because he has medium tires on) and is challenged by George Russell
+  - However Verstappen manages to retain second place
+  - Contact between Esteban Ocon and Fernando Alonso --- Alonso is forced wide
+  - /Fernando will not be happy about this/
+- Lap 2
+  - Verstappen and Russell are both closing in on Magnussen
+  - Carlos Sainz passes Lando Norris for 4th
+- Lap 3
+  - Lewis Hamilton passes Esteban Ocon for 6th
+  - Max Verstappen passes Kevin Magnussen ofr the lead
+  - /Kevin Magnussen did lead two laps, though, which is still something I wouldn't have predicted at the start of this weekend/
+  - George Russell is closing on Magnussen as well
+  - Fernando Alonso has to come in to the pits in order to change his front wing
+- Lap 5
+  - Lewis Hamilton passes Lando Norris for 5th
+  - /Hamilton is on a charge --- shades of last year's Brazilian Grand Prix/
+- Lap 6 --- Hamilton passes Magnussen for 4th
+- Lap 8
+  - Lance Stroll forces Sebastian Vettel wide
+  - /Vettel's radio message is classic Vettel: "Oooookay"/
+- Lap 12
+  - Neat pass by Ricciardo on Stroll
+  - Great battle between Max Verstappen and George Russell
+- Lap 13
+  - Alex Albon spins and goes off into the run-off area
+  - Retires from the race --- spin was apparently caused by a mechanical issue
+  - A full course yellow is not declared, as Albon's car is sufficiently far away from the main racetrack and the marshals are able to clear it away quickly
+- Lap 15 --- Russell passes Verstappen for the lead
+- Lance Stroll gets a 10s time penalty for forcing Vettel off track
+- Lap 19
+  - Carlos Sainz tries to pass Max Verstappen for 2nd
+  - The two make contact
+  - /Not sure who was at fault there; it seems like Sainz moved over before fully completing the pass/
+- Lap 20 --- Lewis Hamilton passes Max Verstappen for 3rd
+- Lap 21 --- Carlos Sainz complaining about tire degradation (/the perennial Ferrari issue this year/)
+- Lap 24 --- Sprint Race ends
+  - George Russell wins
+  - Carlos Sainz 2nd
+  - Lewis Hamilton 3rd
+- /Kevin Magnussen finishes in the top 10/
+
+*** Race
+- 71 laps
+- Starting grid
+  1. George Russell --- Mercedes
+  2. Lewis Hamilton --- Mercedes
+  3. Max Verstappen --- Red Bull
+  4. Sergio Perez --- Red Bull
+  5. Charles LeClerc --- Ferrari
+  6. Lando Norris --- McLaren
+  7. Carlos Sainz --- Ferrari (5-place grid penalty for new engine)
+  8. Kevin Magnussen --- Haas
+  9. Sebastian Vettel --- Aston Martin
+  10. Pierre Gasly --- Alpha Tauri
+  11. Daniel Ricciardo --- McLaren
+  12. Mick Schumacher --- Haas
+  13. Guanyu Zhou --- Alfa Romeo
+  14. Valteri Bottas --- Alfa Romeo
+  15. Lance Stroll --- Aston Martin
+  16. Esteban Ocon --- Alpine
+  17. Fernando Alonso --- Alpine
+  18. Nicholas Latifi --- Williams
+  19. Alex Albon --- Williams
+  20. Yuki Tsunoda --- Alpha Tauri (pit lane start)
+- Red Bull and Mercedes both starting on soft tires
+- Ferrari starting on medium tires
+- Lap 1
+  - George Russell gets away clean and Lewis Hamilton holds on to 2nd
+  - Daniel Ricciardo runs into the back of Kevin Magnussen, who spins and skids backwards into Ricciardo
+  - Both cars are out of the race
+  - Safety car declared
+  - /I feel really bad for Kevin Magnussen, but this is just typical Haas luck/
+- Lap 5 --- Alex Albon comes in under the safety car and goes onto medium tires
+- Lap 7
+  - Racing resumes
+  - Verstappen attempts to pass Hamilton for 2nd and the two make contact
+  - Verstappen picks up significant damage in the process
+  - LeClerc attempts to pass Norris, makes contact as well, and skids off into the wall
+  - However, LeClerc is able to restart his car and continue
+- Lap 8
+  - Verstappen and LeClerc both stop for new front wings to repair damage from their respective collisions
+  - Lando Norris says his car feels weird --- strange feeling in right-hand corners
+- Lap 13 --- Max Verstappen and Lando Norris get 5 sec penalties for causing their respective collisions
+- Lap 15 --- Hamilton passes Norris for 4th
+- Lap 18
+  - Carlos Sainz pits --- early, unscheduled pit stop
+  - Had a visor tear-off stuck in his brake duct, was causing his brakes to overheat
+  - Goes back out on soft tires
+- Lap 22 --- LeClerc pits again
+- Lap 24
+  - Ferrari pit crew inform Sainz that he is still on a 2-stop strategy b/c the degradation on the soft tire is milder than predicted
+  - Perez pits and goes out on medium tires
+  - Verstappen pits and has a slow stop in addition to his 5 sec penalty
+  - Perez comes out behind Valteri Bottas and loses time trying to pass the Alfa Romeo
+- Lap 28 --- Great pass by Valteri Bottas on Pierre Gasly for 7th
+- Lap 29 --- Hamilton pits from the lead
+- /Could Hamilton be doing a 1-stop strategy/
+- /Maybe this is a way of covering off the possibility of rain later/
+- Lap 37 --- Carlos Sainz pits again
+- Lap 44 --- Hamilton has caught up to Perez and they're battling for 2nd
+- Lap 45 --- Hamilton passes Perez for 2nd
+- Lap 48 --- Sergio Perez pits again, goes out on medium tires
+- Lap 49
+  - Hamilton pits, even though he doesn't want to
+  - Says his tires are fine
+  - Goes back out on soft tires
+- Lap 50 --- George Russell pits
+- /Will the soft tire last 21 laps?/
+- /Initial stints on the soft tire were 25 laps for Russell and 29 laps for Hamilton/
+- Lap 52
+  - Lando Norris has stopped
+  - Looks like mechanical failure
+  - Yellow flags in sectors 2 and 3
+- Lap 53
+  - Virtual safety car declared
+  - Carlos Sainz comes in for a third pit stop
+  - /This VSC may have saved Sainz's race by giving him the opportunity for a 3rd pit stop/
+  - /Another double DNF for McLaren --- one that they can ill afford in their competition with Alpine for 4th in the championship/
+- Lap 55 --- Norris' car appears to be stuck in gear, and a full safety car has to be declared in order to allow a recovery vehicle onto the track
+- George asks if there are team orders --- no team orders, but told to "be respectful"
+- Team orders from Alpine who order Ocon to let Alonso through --- Ocon is not happy about this
+- Lap 60
+  - Racing resumes
+  - Ressell gets a good restart
+- Lap 61 --- Sainz, LeClerc and Perez are all battling for 3rd
+- Lap 63 --- Sainz passes Perez for 3rd
+- Lap 64 --- LeClerc passes Perez for 4th
+- Lap 65 --- Fernando Alonso passes Perez for 5th
+- /At this rate, even Max Verstappen will catch back up to and will pass Perez/
+- /Those medium tires were a mistake --- Red Bull should have kept Perez out for longer and gone on to soft tires at the end/
+- Lap 71
+  - Russell wins
+  - Hamilton 2nd
+  - Sainz 3rd
+- /LeClerc is such a whiner/
+- /Drama in the Red Bull camp as Verstappen refuses to let Perez retake 6th on the last lap/
+
+*** Results
+1. George Russell --- Mercedes
+2. Lewis Hamilton --- Mercedes
+3. Carlos Sainz --- Ferrari
+4. Charles LeClerc --- Ferrari
+5. Fernando Alonso --- Alpine
+6. Max Verstappen --- Red Bull
+7. Sergio Perez --- Red Bull
+8. Esteban Ocon --- Alpine
+9. Valteri Bottas --- Alfa Romeo
+10. Lance Stroll --- Aston Martin
+11. Sebastian Vettel --- Aston Martin
+12. Guanyu Zhou --- Alfa Romeo
+13. Mick Schumacher --- Haas
+14. Pierre Gasly --- Alpha Tauri
+15. Alex Albon --- Williams
+16. Nicholas Latifi --- Williams
+17. Yuki Tsunoda --- Alpha Tauri
+18. Lando Norris --- McLaren (DNF)
+19. Kevin Magnussen --- Haas (DNF)
+20. Daniel Ricciardo --- McLaren (DNF)
+
+** 2022-10-30 Mexico Grand Prix
+
+*** Track Info
+- Autodromo Hermanos Rodriguez
+- 2.67 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range, same as last week
+
+*** Qualifying
+
+**** Q1
+- The track is at altitude so getting, and keeping tires and brakes within the correct temperature range may be more difficult
+- Verstappen and Perez are both quick
+- Perez reporting issues with DRS
+- Eliminated in Q1
+  - Mick Schmumacher --- Haas
+  - Sebastian Vettel --- Aston Martin
+  - Lance Stroll --- Aston Martin
+  - Alex Albon --- Williams
+  - Nicholas Latifi --- Williams
+
+**** Q2
+- George Russell complaining that he can't build front brake temperature on his out lap
+- Sergio Perez is quick --- goes 3rd fastest, but the Mercs are quicker, with Hamilton and Russell first and second
+- Top 5 are separated by less than a tenth of second
+- Eliminated in Q2
+  - Daniel Ricciardo --- McLaren
+  - Guanyu Zhou --- Alfa Romeo
+  - Yuki Tsunoda --- Alpha Tauri
+  - Pierre Gasly --- Alpha Tauri
+  - Kevin Magnussen --- Haas
+
+**** Q3
+- Valteri Bottas is also looking quite quick around here
+- Mercs are both quick once again
+- However Verstappen does an excellent lap and gets pole position
+- Ferraris are both having issues maintaining rear grip coming out of corners
+- Hamilton had a lap time deleted for exceeding track limits
+- Final top 10 qualifying order
+  1. Max Verstappen --- Red Bull
+  2. George Russell --- Mercedes
+  3. Lewis Hamilton --- Mercedes
+  4. Sergio Perez --- Red Bull
+  5. Carlos Sainz --- Ferrari
+  6. Valteri Bottas --- Alfa Romeo
+  7. Charles LeClerc --- Ferrari
+  8. Lando Norris --- McLaren
+  9. Fernando Alonso --- Alpine
+  10. Esteban Ocon --- Alpine
+
+*** Race
+- 71 laps
+- Starting grid
+  1. Max Verstappen --- Red Bull
+  2. George Russell --- Mercedes
+  3. Lewis Hamilton --- Mercedes
+  4. Sergio Perez --- Red Bull
+  5. Carlos Sainz --- Ferrari
+  6. Valteri Bottas --- Alfa Romeo
+  7. Charles LeClerc --- Ferrari
+  8. Lando Norris --- McLaren
+  9. Fernando Alonso --- Alpine
+  10. Esteban Ocon --- Alpine
+  11. Daniel Ricciardo --- McLaren
+  12. Guanyu Zhou --- Alfa Romeo
+  13. Yuki Tsunoda --- Alpha Tauri
+  14. Pierre Gasly --- Alpha Tauri
+  15. Mick Schumacher --- Haas
+  16. Sebastian Vettel --- Aston Martin
+  17. Alex Albon --- Williams
+  18. Nicholas Latifi --- Williams
+  19. Kevin Magnussen --- Haas (penalty)
+  20. Lance Stroll --- Aston Martin (penalty)
+- Max is starting on soft tires, but the Mercedes behind him are starting on mediums
+- Lap 1
+  - Verstappen gets a good start
+  - Hamilton closes in on Russell
+  - Hamilton passes Russell and Perez is challenging Russell for 3rd
+  - Bottas has dropped into 8th
+  - Alonso moves up into 7th
+- Race could be a 1-stop if you manage the tires correctly
+- Undercuts don't really work that well here as on other racetracks
+- Lap 11
+  - Race has settled down somewhat
+  - Bottas battling Alonso for 7th
+  - Ricciardo, Zhou, Vettel, and Stroll are all in a bit of a DRS train
+- Lap 12 --- Stroll complaining about no grip
+- Lap 13
+  - Battle between Pierre Gasly and Lance Stroll
+  - Gasly locks up and forces Stroll wide
+- Lap 15 --- Albon battling Stroll
+- Lap 16 --- Verstappen complaining about bouncing over curbs
+- Lap 18 --- Pierre Gasly given a 5 second penalty for gaining an advantage by going off track
+- /Ferrari look really slow --- Sainz is in 5th, 9 seconds behind Russell in 4th and not gaining/
+- Lap 21 --- Verstappen beginning to struggle with tires
+- Lap 24
+  - Red Bull pit Sergio Perez
+  - Slow pit stop --- 5 sec. stationary
+  - Had an issue with the left rear tire
+- Lap 25
+  - Verstappen pits and goes out on medium tires
+  - Comes out in 6th place ahead of the Ferraris
+- Lap 26 --- Greate pass by Perez on LeClerc for 5th
+- Lap 27 --- Hamilton and Russell are in 1 & 2
+- Lap 28
+  - Verstappen complaining about lag when shifting
+  - Hamilton complaining about engine cutting out
+- Lap 29
+  - LeClerc pits and comes out in 12th behind Daniel Ricciardo
+  - Hamilton pits in order to retain track position over Sergio Perez
+  - Carlos Sainz pits, allowing Sergio Perez to push
+- Russell wants to go long and switch to soft tires at the end
+- Lap 32 --- Lando Norris pits and goes onto hard tires
+- Lap 34 --- George Russell pits, goes onto hard tires and comes out in 4th
+- Lap 38 --- Russell told to lift and coast for the remainder of the race
+- Lap 41 --- Fernando Alonso pits, goes onto hard tires
+- Lap 42 --- Good fight between Valteri Bottas and Esteban Ocon
+- Lap 43 --- Both Russell and Hamilton complaining about the hard tires
+- Lap 45
+  - Max Verstappen has a 10s lead over Hamilton
+  - /If Verstappen can make his tires last 'til the end, he has the win easily/
+- Lap 47 --- The battle between Bottas and Ocon continues
+- Lap 50 --- /There is a huge gap between Russell and Sainz --- 24s/
+- Lap 51
+  - Big battle between Daniel Ricciardo and Yuki Tsunoda ends in contact between the McLaren and Alpha Tauri
+  - Tsunoda comes into the pits and retires
+  - /Mexico is cursed for Tsunoda --- he's crashed at both his races here/
+- Lap 54
+  - Good fight between Guanyu Zhou, Sebastian Vettel, and and Pierre Gasly
+  - Daniel Ricciardo given a 10 sec. penalty for causing the collision with Yuki Tsunoda
+- /It increasingly looks like the hard tires were a mistake/
+- Lap 58 --- Daniel Ricciardo pushing hard to gain as much of an advantage as he can
+- Lap 59 --- Good battle between Sebastian Vettel and Guanyu Zhou
+- Lap 62 --- Ricciardo is on an absolute charge --- pushing hard to make up for the penalty
+- Lap 64 --- Alonso is having engine issues; losing pace
+- Lap 65
+  - Alonso's car shuts down and he pulls into the runoff area
+  - VSC declared
+- George Russell is not happy at all --- wanted to pit under the VSC
+- Lap 69 --- Good fight between Alex Albon and Pierre Gasly
+- Lap 70 --- Russell pits to go for the fastest lap
+- Lap 71 --- Verstappen wins, Lewis 2nd, Perez 3rd
+- /Not really any issues for Verstappen --- easy win/
+- Verstappen now holds the record for most wins in a single season
+- /Wonder if Mercedes could have made the mediums - soft strategy work/
+- /Mercedes have a real shot at 2nd place in the constructor's championship if they keep this up/
+- /Ferrari are nowhere because they had to detune their turbos in order to avoid engine failure/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Lewis Hamilton --- Mercedes
+3. Sergio Perez --- Red Bull
+4. George Russell --- Mercedes
+5. Carlos Sainz --- Ferrari
+6. Charles LeClerc --- Ferrari
+7. Daniel Ricciardo --- McLaren
+8. Esteban Ocon --- Alpine
+9. Lando Norris --- McLaren
+10. Valteri Bottas --- Alfa Romeo
+11. Pierre Gasly --- Alpha Tauri
+12. Alex Albon --- Williams
+13. Guanyu Zhou --- Alfa Romeo
+14. Sebastian Vettel --- Aston Martin
+15. Lance Stroll --- Aston Martin
+16. Mick Schumacher --- Haas
+17. Kevin Magnussen --- Haas
+18. Nicholas Latifi --- Williams
+19. Fernando Alonso --- Alpine (DNF)
+20. Yuki Tsunoda --- Alpha Tauri (DNF)
+
+** 2022-10-23 United States Grand Prix
+
+*** Track Info
+- Circuit of the Americas
+- 3.42 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range
+
+*** Qualifying
+
+**** Q1
+- Hot track
+- Red Bull showing some front-end instability
+- Eliminated in Q1
+  - Kevin Magnussen --- Haas
+  - Daniel Ricciardo --- McLaren
+  - Esteban Ocon --- Alpine
+  - Mick Schumacher --- Haas
+  - Nicholas Latifi --- Williams
+- /Lewis Hamilton is unexpectedly fast/
+- /Sergio Perez is unexpectedly slow/
+
+**** Q2
+- /Perez is letting Red Bull down in qualifying/
+- LeClerc is quite close to Verstappen
+- Mercedes are definitely in this as are Alfa Romeo
+- Eliminated in Q2
+  - Sebastian Vettel --- Aston Martin
+  - Alex Albon --- Williams
+  - Guanyu Zhou --- Alfa Romeo
+  - Pierre Gasly --- Alpha Tauri
+  - Yuki Tsunoda --- Alpha Tauri
+- /Alfa Romeo are quick --- both cars are in Q3/
+
+**** Q3
+- Verstappen and LeClerc are both quick, with Verstappen taking provisional pole at the beginning of the session
+- LeClerc, however, goes 4/10 sec faster
+- Hamilton manages to get provisional 3rd --- beats Verstappen
+- Charles LeClerc has a 10-place grid penalty
+- Fernando Alonso and Sergio Perez both have 5-place grid penalties
+- Final top-10 qualifying order
+  1. Carlos Sainz --- Ferrari
+  2. Charles LeClerc --- Ferrari
+  3. Max Verstappen --- Red Bull
+  4. Sergio Perez --- Red Bull
+  5. Lewis Hamilton --- Mercedes
+  6. George Russell --- Mercedes
+  7. Lance Stroll --- Aston Martin
+  8. Lando Norris --- McLaren
+  9. Fernando Alonso --- Alpine
+  10. Valteri Bottas --- Alfa Romeo
+
+*** Race
+- 53 laps
+- Starting Grid
+  1. Carlos Sainz --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Lewis Hamilton --- Mercedes
+  4. George Russell --- Mercedes
+  5. Lance Stroll --- Aston Martin
+  6. Lando Norris --- McLaren
+  7. Valteri Bottas --- Alfa Romeo
+  8. Alex Albon --- Williams
+  9. Sergio Perez --- Red Bull (penalty)
+  10. Sebastian Vettel --- Aston Martin
+  11. Pierre Gasly --- Alpha Tauri
+  12. Charles LeClerc --- Ferrari (penalty)
+  13. Kevin Magnussen --- Haas
+  14. Fernando Alonso --- Alpine (penalty)
+  15. Daniel Ricciardo --- McLaren
+  16. Mick Schumacher --- Haas
+  17. Nicholas Latifi --- Williams
+  18. Guanyu Zhou --- Alfa Romeo (penalty)
+  19. Yuki Tsunoda --- Alpha Tauri (penalty)
+  20. Esteban Ocon --- Alpine (penalty, pit lane start)
+- /Lots of cars out of position with grid penalties/
+- Cars at the front are all starting on medium tires
+- Lap 1
+  - George Russell collides with Carlos Sainz, who has a slow start and drops into 2nd place
+  - Sainz cut across George Russell, who locked up and skidded into Sainz
+  - Carlos Sainz withdraws from the race with radiator damage
+  - Sergio Perez and Sebastian Vettel both make ground up at the start, moving into 6th and 5th respectively
+- Lance Stroll up into 3rd
+- George Russell gets a 5sec. time penalty
+- Lap 3 --- Alex Albon having trouble with grip
+- Lap 5 --- Sergio Perez passes Sebastian Vettel for 5th
+- Sergio Perez has front wing damage after contact with Kevin Magnussen
+- Lap 7 --- The front wing endplate on Perez's car flies off as Perez passes Lance Stroll for 4th
+- Lap 9 --- Sergio Perez gaining on George Russell
+- /These cars are definitely better at racing close to each other than they were in the past/
+- Lap 13 --- Hamilton pits, goes back out on hard tires, in 7th place
+- Lap 14
+  - George Russell battling with Sergio Perez
+  - Max Verstappen pits
+  - George Russell pits
+  - Sergio Perez in the lead
+  - LeClerc passes Stroll for 3rd
+- Lap 15 --- Sergio Perez does pit, does not change the front wing
+- Lap 16 --- Lance Stroll pits, slightly slow pit stop
+- Lap 18 --- Valteri Bottas has spun and is stuck in the gravel
+  - Safety car deployed
+  - LeClerc pits under the safety car, as does Sebastian Vettel
+  - Fernando Alonso comes in as well
+- Lap 20 --- Lewis Hamilton complaining about brake issues
+- Lap 21 --- Safety car ends
+- Lap 22 --- Racing resumes
+  - Verstappen has a good start, but Hamilton keeps pace
+  - Big crash between Fernando Alonso and Lance Stroll
+  - Alonso's car almost takes off
+  - Lance Stroll crashes out
+  - Somehow Alonso is able to get back to the pits and keep going
+- Lap 25 --- Safety car ending
+- Lap 26 --- Racing resumes
+  - Hamilton hot on the heels of Verstappen
+- Lap 28 --- LeClerc battling with Perez for 3rd
+- Lap 29
+  - LeClerc tries to pass Perez, who locks up
+  - LeClerc goes wide and has to come back on track behind Perez
+- Lap 30 --- LeClerc attacks Perez once again and this time succeeds and moves up into 3rd
+- Lap 31 --- Hamilton keeping in touch with Verstappen
+- Lap 32 --- George Russell gaining on Sergio Perez
+- Lap 33 --- Haas has both their cars in the points
+- Lap 34
+  - Verstappen having to make adjustments to compensate for an unknown issue
+  - Hamilton pits a 2nd time
+  - /Undercut on Verstappen?/
+- Lap 35
+  - Verstappen pits --- absolutely *horrible* pit stop --- 11s stationary, possibly due to a wheel gun malfunction
+  - Verstappen comes out behind both LeClerc and Hamilton
+  - LeClerc came into the pits got his pit stop done and got out in the time Verstappen was stuck
+- Lap 36 --- Fight between Perez and Russell for the lead
+- Lap 37 --- George Russell pits
+- Lap 38
+  - Verstappen battling LeClerc for 4th
+  - Sergio Perez pits --- slow-ish pit stop for him as well --- 3.8s stationary
+- Lap 39
+  - Verstappen attempts to pass LeClerc into Turn 1, but LeClerc re-passes Verstappen on the exit
+  - Verstappen gets the pass done and makes it stick later in the lap
+- Lap 41
+  - Hamilton passes Vettel for the lead
+  - Sebastian Vettel pits
+  - /That's kind of unfortunate for Lewis because Lewis lost time passing Vettel on track, whereas Verstappen and LeClerc will pass him in the pits for free/
+- Lap 43 --- /LeClerc is keeping up with Verstappen/
+- Lap 44 --- Alonso is back up into the points, in 7th place
+- Lap 46 --- Lando Norris is doing well --- up into 8th place after a poor start to the race
+- Lap 49 --- Verstappen has closed up to within 1s of Hamilton
+- Lap 50 --- Great pass by Max Verstappen on Lewis Hamilton for the lead
+- Lap 51 --- Lewis Hamilton claiming that Max is exceeding track limits
+- Lap 52 --- Verstappen gets a black and white flag for exceeding track limits
+- Lap 54 --- Hamilton also shown a black and white flag for exceeding track limits
+- Lap 53 --- George Russell pits to go for fastest lap
+- Lap 56 --- Race ends
+  - Max Verstappen wins
+  - Lewis Hamilton 2nd
+  - Amazing drive at the end from Sebastian Vettel, who passes Kevin Magnussen on the last lap
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Lewis Hamilton --- Mercedes
+3. Charles LeClerc --- Ferrari
+4. Sergio Perez --- Red Bull
+5. George Russell --- Mercedes
+6. Lando Norris --- McLaren
+7. Sebastian Vettel --- Aston Martin
+8. Kevin Magnussen --- Haas
+9. Yuki Tsunoda --- Alpha Tauri
+10. Esteban Ocon --- Alpine
+11. Guanyu Zhou --- Alfa Romeo
+12. Alex Albon --- Williams
+13. Pierre Gasly --- Alpha Tauri
+14. Mick Schumacher --- Haas
+15. Fernando Alonso --- Alpine
+16. Daniel Ricciardo --- McLaren
+17. Nicholas Latifi --- Williams
+18. Lance Stroll --- Aston Martin (DNF)
+19. Valteri Bottas --- Alfa Romeo (DNF)
+20. Carlos Sainz --- Ferrari (DNF)
+
+
+- Fernando Alonso was given a stop-and-go penalty, which was converted into a 30-sec time penalty for having his wing mirror falling off as a result of the crash with Lance Stroll
+
+** 2022-10-09 Japan Grand Prix
+
+*** Track Info
+- Suzuka Circuit
+- 3.6 miles
+
+*** Tires
+- C3, C2, C1
+- Hardest in the range
+
+*** Qualifying
+
+**** Q1
+- Wind makes a big difference here
+- Lot of work going with LeClerc's car
+- Suzuka is a narrow, unforgiving circuit --- risk of yellow and red flags if people crash
+- Mercedes are out on medium tires
+- Daniel Ricciardo is having a good Q1
+- Ferrari and Red Bull are closely matched
+- Pierre Gasly is reporting brake problems
+- Yuki Tsunoda has a big lock-up; also possible braking issues
+- /Tsunoda is angry/
+- Mercedes tried going out on medium tires early in order to try to safe soft tires for later, but it hasn't worked
+- Fernando Alonso also looks quick
+- Eliminated in Q1
+  - Alex Albon --- Williams
+  - Pierre Gasly --- Alpha Tauri
+  - Kevin Magnussen --- Haas
+  - Lance Stroll --- Aston Martin
+  - Nicholas Latifi --- Williams
+
+**** Q2
+- Ferraris out early on used soft tires
+- Verstappen looks very fast
+- Alonso is fast again, as is Ocon
+- Yuki Tsunoda is reporting brake problems, just as Pierre Gasly did in Q1
+  - Alpha Tauri telling him that the brakes should become okay once they warm up
+- Ricciardo looks like he /might/ make it into Q2
+- Eliminated in Q2
+  - Daniel Ricciardo --- McLaren
+  - Valteri Bottas --- Alfa Romeo
+  - Yuki Tsunoda --- Alpha Tauri
+  - Guanyu Zhou --- Alfa Romeo
+  - Mick Schumacher --- Haas
+- Ricciardo is out in Q2 just by a tenth
+
+**** Q3
+- /Sebastian Vettel is in the top 10 for the first time since the Azerbaijan Grand Prix/
+- Potential unsafe release by Red Bull into the path of a Ferrari --- not penalized
+- Verstappen gets provisional pole
+- Alonso go faster than the Mercedes
+- Verstappen was investigated after the session for potential obstruction on his out lap --- got in the way of Lando Norris as he was setting up for his flying lap
+- /Vettel loves Suzuka/
+- Final top-10 qualifying order
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Esteban Ocon --- Alpine
+  6. Lewis Hamilton --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. George Russell --- Mercedes
+  9. Sebastian Vettel --- Aston Martin
+  10. Lando Norris --- McLaren
+- LeClerc missed out on pole by 1/100 of a sec
+
+*** Race
+- 53 laps
+- Starting grid
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Esteban Ocon --- Alpine
+  6. Lewis Hamilton --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. George Russell --- Mercedes
+  9. Sebastian Vettel --- Aston Martin
+  10. Lando Norris --- McLaren
+  11. Daniel Ricciardo --- McLaren
+  12. Valteri Bottas --- Alfa Romeo
+  13. Yuki Tsunoda --- Alpha Tauri
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Mick Schumacher --- Haas
+  16. Alex Albon --- Williams
+  17. Kevin Magnussen --- Haas
+  18. Lance Stroll --- Aston Martin
+  19. Nicholas Latifi --- Williams (penalty)
+  20. Pierre Gasly --- Alpha Tauri (pit lane start)
+- Nicholas Latifi would have been last even if he hadn't qualified at the back, because of a 5-place grid penalty because of the collision with Guanyu Zhou in Singapore
+- Pierre Gasly starts from the pit lane after making a rear wing change after qualifying
+- Rainy track --- 100% rain forecast for the duration of the race
+- Intermediate tires on all the cars
+- Mercedes could be quick in these conditions
+- /The spray is incredible/
+- /Beautiful roostertails, but I don't envy the drivers having to drive through that spray/
+- Lap 1
+  - LeClerc fights Verstappen into the first corner, but Verstappen manages to hold the lead
+  - Vettel makes contact with Fernando Alonso and spins out
+  - Carlos Sainz hydroplanes and skids off into the barrier, breaking his rear wing
+  - Safety car declared
+  - Alex Albon is also out of the race after suffering mechanical failure
+- Lap 2 --- Race is red-flagged as the rain intensifies
+- Controversy as Pierre Gasly reports a recovery vehicle on track
+- Race will resume on lap 3 behind the safety car with mandatory full-wet tires
+- Race resumes, with a timer, given that there is insufficient time remaining in the 3-hour window for the race
+- Track looks drier, but there's still a lot of water flowing across the track
+- Drivers are complaining about visibility
+- Safety car comes in with 39:46 remaining
+- The two back markers, Sebastian Vettel and Nicholas Latifi immediately pit for intermediate tires
+- /F1 teams really do not like the full wet tires/
+- Vettel noted for a potential unsafe release into the path of Nicholas Latifi
+- 37:30 --- Lando Norris and Valteri Bottas come in to switch to intermediate tires
+- 36:05 --- Max Verstappen and Charles LeClerc both pit for intermediate tires
+  - Lots of pit stops in addition --- Sergio Perez, George Russell, Lewis Hamilton, and many others pit
+- Mick Schumacher did not pit, and is in P3 behind Daniel Ricciardo and Fernando Alonso
+- Alonso and Ricciardo both pit, and Schumacher gets passed by Verstappen for the lead
+- /Verstappen looks incredibly fast on the intermediate tires/
+- 32:41 --- LeClerc passes Schumacher for 2nd but he's already 5 seconds behind Verstappen
+- 29:44 --- The decision to stay out on full-wet tires is really hurting Mick Schumacher as he gets passed by Lewis Hamilton, Esteban Ocon, Sebastian Vettel, and Fernando Alonso
+- 28:06 --- Mick Schumacher finally pits
+- Track is drying quickly
+- 20:54 --- Cars are starting to look for wet patches to cool their tires
+- Charles LeClerc is worried about tire wear
+  - /The usual Ferrari problem this year/
+- 18:43 --- Race has progressed enough for 1/2 points to be awarded
+- Great battle between Hamilton and Ocon
+  - Lewis is right on Ocon's tail, but he just doesn't have the straight-line speed to overtake Ocon
+- Another great battle between Alonso and Vettel
+- 10:46 --- Perez is gaining hard on LeClerc
+- 8:36 --- Perez is within a second of LeClerc
+- 6:05 --- Perez is right on LeClerc's tail
+- Verstappen has a _huge_ lead --- 24 seconds
+- Final lap
+  - Alonso passes Russell after gaining on him for the last two laps or so
+  - Perez and LeClerc almost make contact in the last few corners
+  - LeClerc manages to hold on but is penalized for leaving the track and gaining an advantage
+- Max Verstappen wins the race and the world championship
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Sergio Perez --- Red Bull
+3. Charles LeClerc --- Ferrari (+5 sec for leaving the track and gaining an advantage)
+4. Esteban Ocon --- Alpine
+5. Lewis Hamilton --- Mercedes
+6. Sebastian Vettel --- Aston Martin
+7. Fernando Alonso --- Alpine
+8. George Russell --- Mercedes
+9. Nicholas Latifi --- Williams
+10. Lando Norris --- McLaren
+11. Daniel Ricciardo --- McLaren
+12. Lance Stroll --- Aston Martin
+13. Yuki Tsunoda --- Alpha Tauri
+14. Kevin Magnussen --- Haas
+15. Valteri Bottas --- Alfa Romeo
+16. Guanyu Zhou --- Alfa Romeo
+17. Mick Shumacher --- Haas
+18. Pierre Gasly --- Alpha Tauri
+19. Carlos Sainz --- Ferrari
+20. Alex Albon --- Williams
+
+** 2022-10-02 Singapore Grand Prix
+
+*** Track Info
+- Marina Bay Circuit
+- 3.14 miles
+
+*** Tires
+- C5, C4, C3
+- Softest in the range
+- Intermediate and wet weather tires are in play because of rain prior to qualifying and the race
+
+*** Qualifying
+
+**** Q1
+- No grid penalties this race, unlike the previous two races
+- Mercedes going out early on intermediate tires
+- /Track looks really uneven --- some parts are completely dry, but there's standing water in other parts/
+- Lots of brief yellow flags as various cars go into the runoff areas as they skid wide
+- No red flags, however
+- Yellow flag at very end of the session, which might have hampered some drivers
+- Eliminated in Q1
+  - Valteri Bottas --- Alfa Romeo
+  - Daniel Ricciardo --- McLaren
+  - Esteban Ocon --- Alpine
+  - Alex Albon --- Williams
+  - Nicholas Latifi --- Williams
+
+**** Q2
+- Cars still going out on intermediate tires --- track has not dried sufficiently for slicks
+- LeClerc asks for slicks, but is given intermediates when he pits
+- Aston Martins switch to slick tires, as does Guanyu Zhou
+- However, the slick tire runners look slow
+- Eliminated in Q2
+  - George Russell --- Mercedes
+  - Lance Stroll --- Aston Martin
+  - Mick Schumacher --- Haas
+  - Sebastian Vettel --- Aston Martin
+  - Guanyu Zhou --- Alfa Romeo
+- /Surprising to see George Russell out in Q2/
+- /Kevin Magnussen guarantees Haas a top-10 start/
+- /Lewis Hamilton likes Singapore --- is in the top 3/
+
+**** Q3
+- Lots of cars going out on slick tires
+- Perez and LeClerc both look fast, as does Hamilton
+- Verstappen is having trouble putting a good lap together, and, at the very end, is told to come in
+- Suspect that his car was short on fuel, and Red Bull needed to preserve at least 1 liter of fuel in the car in order to provide a fuel sample after qualifying
+- /Verstappen is _mad_/
+- Final top 10 qualifying results
+  1. Charles LeClerc --- Ferrari
+  2. Sergio Perez --- Red Bull
+  3. Lewis Hamilton --- Mercedes
+  4. Carlos Sainz --- Ferrari
+  5. Fernando Alonso --- Alpine
+  6. Lando Norris --- McLaren
+  7. Pierre Gasly --- Alpha Tauri
+  8. Max Verstappen --- Red Bull
+  9. Kevin Magnussen --- Haas
+  10. Yuki Tsunoda --- Alpha Tauri
+
+*** Race
+- 61 laps (or 2 hours, whichever is shorter)
+- Start of race delayed by a rain shower --- wet track
+- 20% chance of rain during the race
+- Starting grid
+  1. Charles LeClerc --- Ferrari
+  2. Sergio Perez --- Red Bull
+  3. Lewis Hamilton --- Mercedes
+  4. Carlos Sainz --- Ferrari
+  5. Fernando Alonso --- Alpine
+  6. Lando Norris --- McLaren
+  7. Pierre Gasly --- Alpha Tauri
+  8. Max Verstappen --- Red Bull
+  9. Kevin Magnussen --- Haas
+  10. Yuki Tsunoda --- Alpha Tauri
+  11. Lance Stroll --- Aston Martin
+  12. Mick Schumacher --- Haas
+  13. Sebastian Vettel --- Aston Martin
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Valteri Bottas --- Alfa Romeo
+  16. Daniel Ricciardo --- McLaren
+  17. Esteban Ocon --- Alpine
+  18. Alex Albon --- Williams
+  19. Nicholas Latifi --- Williams
+  20. George Russell --- Mercedes (pit lane start for power unit replacement)
+- Long shot for Max Verstappen
+- Everyone starting on intermediate tires
+- /Track is uneven just like yesterday, some parts are barely damp, other parts are soaking wet/
+- 350th race start for Fernando Alonso
+- Lap 1
+  - Perez jumps ahead of LeClerc into turn 1
+  - Hamilton goes wide, allowing Sainz into 3rd
+  - Verstappen has lost places --- dropped back into 12th as he ran into anti-stall on the start
+- Lap 2
+  - Verstappen passes Kevin Magnussen and Lance Stroll and moves back up into 10th
+  - Magnussen has front wing damage
+- Lap 3 --- Hamilton claims that he has "no grip" on his intermediate tires
+- Wet track so no DRS for now
+- Lap 6 --- LeClerc starts to catch Perez
+- Lap 7 --- Kevin Magnussen gets a black and orange flag and is asked to come in to replace his front wing
+- Lap 8
+  - Guanyu Zhou has stopped
+  - Was squeezed by Nicholas Latifi, and hit the wall
+  - Nicholas Latifi picks up a puncture as a result, and limps back to the pits
+  - Safety car declared
+  - There was also contact between George Russell and Valteri Bottas, but both get away with it
+- Lap 9 --- Nicholas Latifi comes into the pits and retires
+- Lap 10 --- Safety car ends
+- Lap 11
+  - Racing resumes
+  - Verstappen passes Vettel and Gasly and moves up into 7th
+- Lap 13
+  - Perez is holding a roughly 1s lead on LeClerc
+  - Hamilton slowly gaining on Sainz
+- Alonso is doing a really good job of holding Hamilton back, just as he did in the Hungarian Grand Prix last year
+- Lap 18
+  - Sainz thinks the track might be ready for slick tires soon
+  - Verstappen and many other drivers disagree
+- Lap 20 --- Perez is 2.5s in the lead
+- Lap 21 --- Alonso stops with an engine failure
+- /This frees up Verstappen to go charging ahead/
+- Lap 22
+  - Virtual Safety Car declared to allow track workers to remove Alonso's car
+  - George Russell pits and goes out on medium tires
+  - /Might have been a bit early to make that call, because Russell is skidding all over the place/
+- Lap 23 --- VSC ends
+- Lap 24
+  - Hamilton has closed up to within 1s of Sainz
+  - Russell is slowly starting to do better as his tires heat up
+- Lap 26
+  - Alex Albon goes wide and hits the barrier
+  - Manages to back out, but he's lost his front wing
+  - VSC declared
+  - Albon returns to the pits and retires
+- Lap 27 --- VSC ends
+- Lap 28
+  - Esteban Ocon suffers a pretty spectacular smoky engine failure goes into the barrier
+  - Another VSC declared
+- Lap 30
+  - VSC ends
+  - Verstappen loses some time attempting to game the ending of the VSC and get ahead of Lando Norris
+- Lap 33
+  - Lewis Hamilton crashes
+  - Is able to back out of the barrier and drive off, but his front wing is wobbling precariously
+- Lap 35
+  - LeClerc pits and goes out on medium slick tires
+  - Hamilton comes in for a wing replacement, goes out on medium tires
+- Lap 35
+  - Perez pits
+  - Sainz pits
+  - Verstappen pits
+  - Tsunoda crashes and a full safety car is deployed so they can remove his car from the track
+  - This works out well for McLaren who had waited an extra lap to pit
+  - Mercedes pit George Russell for a new set of medium tires
+- Lap 37 --- Daniel Ricciardo pits and goes out on soft tires
+- Race becomes time-limited --- 37 minutes remain
+- 34:35
+  - Safety car ends
+  - Verstappen lunges on Ricciardo during the safety car restart, but locks up bad and goes off into the escape road
+  - Verstappen has to pit as he's badly flat-spotted his tires
+  - George Russell has picked up a puncture as well
+- 30:25 --- LeClerc is swiftly gaining on Perez
+- 30:00 --- Mick Schumacher going slowly
+- 28:00 --- Perez complaining about the "drivability" of his engine
+- 27:20 --- DRS enabled
+- 24:05 --- Perez has stabilized the gap to LeClerc, but LeClerc is still within DRS range
+- 22:35 --- LeClerc attacks Perez, but is unable to pass
+- 21:57 --- Perez locks up, but still manages to hang on to the lead
+- The track is too wet off-line to allow LeClerc an easy pass if Perez makes a mistake
+- 15:55 --- Perez has moved out of DRS range
+- 13:46 --- Verstappen passes Bottas for 10th
+- 12:44 --- Verstappen passes Gasly for 9th
+- 09:09 --- Russell pits again for soft tires
+- 07:45 --- Verstappen attacking Hamilton for 8th, but is unsuccessful
+- 05:00 --- Sebastian Vettel, Lewis Hamilton and Max Verstappen are fighting for 7th, 8th and 9th
+- 01:33 --- Hamilton locks up trying to pass Vettel and allows Verstappen to move up into 8th
+- Perez has opened up a 5 sec gap on LeClerc, which is important because he might be assessed a 5 second penalty for dropping too far back behind the safety car
+- Final lap
+  - Verstappen passes Vettel for 7th
+  - Perez finishes in the lead
+  - LeClerc 2nd
+  - Sainz 3rd
+- /McLaren have a really good race, with Norris and Ricciardo taking 4th and 5th, respectively --- make the most of Alpine's double DNF/
+- Perez is assessed a 5 sec penalty for dropping too far behind the safety car, but he retains the win because he finished 7+ sec. in the lead
+
+*** Results
+1. Sergio Perez --- Red Bull
+2. Charles LeClerc --- Ferrari
+3. Carlos Sainz --- Ferrari
+4. Lando Norris --- McLaren
+5. Daniel Ricciardo --- McLaren
+6. Lance Stroll --- Aston Martin
+7. Max Verstappen --- Red Bull
+8. Sebastian Vettel --- Aston Martin
+9. Lewis Hamilton --- Mercedes
+10. Pierre Gasly --- Alpha Tauri
+11. Valteri Bottas --- Alfa Romeo
+12. Kevin Magnussen --- Haas
+13. Mick Schumacher --- Haas
+14. George Russell --- Mercedes
+15. Yuki Tsunoda --- Alpha Tauri (DNF)
+16. Esteban Ocon --- Alpine (DNF)
+17. Alex Albon --- Williams (DNF)
+18. Fernando Alonso --- Alpine (DNF)
+19. Nicholas Latifi --- Williams (DNF)
+20. Guanyu Zhou --- Alfa Romeo (DNF)
+
+** 2022-09-11 Italian Grand Prix
+
+*** Track Info
+- Autodromo Nazionale di Monza
+- 3.6 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range
+
+*** Qualifying
+- Nyck DeVries will be participating this weekend as a substitute for Alex Albon at Williams, who is out with appendicitis
+- Max Verstappen has a 5-place grid penalty; Verstappen is taking an engine penalty here so he won't need to take one later on at Singapore or Japan
+- Lewis Hamilton will be starting from the back of the grid, as will Carlos Sainz
+
+**** Q1
+- Lots of team play, with team members who have penalties providing slipstreams for teammates who do not
+- DeVries is qualifying faster than Latifi
+- Aston Martin look slow
+- Red Bull and Ferrari look fast
+- Eliminated in Q1
+  - Nicholas Latifi --- Williams
+  - Sebastian Vettel --- Aston Martin
+  - Lance Stroll --- Aston Martin
+  - Kevin Magnussen --- Haas
+  - Mick Schumacher --- Haas
+
+**** Q2
+- Potential unsafe release as an Alpha Tauri was released into the path of a McLaren
+- /Wow, the Red Bull looks like it's on rails/
+- /The Ferrari is faster than the Red Bull, but also looks like it's much more of a handful to drive/
+- Yuki Tsunoda withdraws from Q2, will start the race from the back of the grid
+- Big moment from Nyck DeVries --- locks up the rear axle, manages to keep the car on the track, but ruins his lap
+- Eliminated in Q2
+  - Esteban Ocon --- Alpine
+  - Valteri Bottas --- Alfa Romeo
+  - Nyck DeVries --- Williams
+  - Guanyu Zhou --- Alfa Romeo
+  - Yuki Tsunoda --- Alpha Tauri
+
+**** Q3
+- Charles LeClerc and Max Verstappen don't appear to be taking slipstreams from their teammates
+- Sainz looks a bit faster than LeClerc in the opening stages of Q3
+- Verstappen running 3rd
+- Russell is complaining about tire warmup
+- LeClerc and Verstappen both improve in their final laps
+- Final top 10 qualifying results
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Carlos Sainz --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Lewis Hamilton --- Mercedes
+  6. George Russell --- Mercedes
+  7. Lando Norris --- McLaren
+  8. Daniel Ricciardo --- McLaren
+  9. Pierre Gasly --- Alpha Tauri
+  10. Fernando Alonso --- Alpine
+- This order will definitely change because of engine penalties
+
+*** Race
+- 53 laps
+- Starting grid
+  1. Charles LeClerc
+  2. George Russell
+  3. Lando Norris
+  4. Daniel Ricciardo
+  5. Pierre Gasly
+  6. Fernando Alonso
+  7. Max Verstappen (grid penalty)
+  8. Nyck DeVries
+  9. Guanyu Zhou
+  10. Nicholas Latifi
+  11. Sebastian Vettel
+  12. Lance Stroll
+  13. Sergio Perez (grid penalty)
+  14. Esteban Ocon (grid penalty)
+  15. Valteri Bottas (grid penalty)
+  16. Kevin Magnussen (grid penalty)
+  17. Mick Schumacher (grid penalty)
+  18. Carlos Sainz (grid penalty)
+  19. Lewis Hamilton (grid penalty)
+  20. Yuki Tsunoda (grid penalty)
+- /Very good start for McLaren, thanks to the grid penalties/
+- Nobody using hard tires
+- Front row on soft tires
+- Cars behind them are on medium tires
+- Verstappen is on soft tires
+- Lap 1
+  - LeClerc holds his lead off the line
+  - Russell attempts to make an early pass but goes off track and has to give the position back
+  - Lando Norris bogs down on the start and drops to 6th
+  - This allows Daniel Ricciardo to move up into 3rd
+  - Verstappen is already up to 4th by the end of the first lap
+  - Sergio Perez has a poor start and drops to 15th
+- Lap 2 --- Max Verstappen passes Daniel Ricciardo for 3rd
+- Lap 5 --- Verstappen passes Russell for 2nd
+- Lap 6
+  - Carlos Sainz is up into 10th
+  - Sergio Perez is up into 13th
+- Lap 8
+  - Sergio Perez comes into the pits and goes out on hard tires after having a lock-up and flat-spotting his tires
+  - Perez's brakes have badly overheated and are on fire
+- Lap 10 --- Carlos Sainz passes Fernando Alonso for 7th
+- Lap 11
+  - Sainz passess Norris for 6th
+  - Vettel is going slowly and eventually pulls over with a power unit issue
+- Lap 12
+  - Virtual Safety Car declared to allow track workers to clear Vettel's car
+  - Ferrari pit LeClerc and put him on medium tires
+  - Max Verstappen and George Russell do not pit under the VSC
+  - LeClerc's strategy might be to try to make these medium tires last until the end of the race and regain track position when Verstappen and Russell pit
+  - However LeClerc was brought in 6 laps early compared to Ferrari's pre-race strategy, and so this might be a stretch
+- Lap 13
+  - Verstappen is in the lead, Russell 2nd, LeClerc 3rd
+  - However both Verstappen and Russell still need to pit
+- Lap 14 --- Carlos Sainz passes Daniel Ricciardo for 4th
+- Lap 16
+  - Radio messages between LeClerc and his engineer about possible gearbox issues
+  - LeClerc told not to short shift
+  - Replies that the only way he can maintain pace is by short-shifting
+- Lap 17 --- Hamilton passes Stroll for 11th
+- Lap 18 --- Norris passes Alonso for 8th
+- Lap 19 --- Pierre Gasly pits and goes out on hard tires
+- Lap 20
+  - Daniel Ricciardo, Nyck DeVries, Esteban Ocon, and Yuki Tsunoda all pit
+  - Go out on a mix of medium and hard tires
+  - /Pierre Gasly's pit stop set off a chain reaction as all the other midfield runners wanted to avoid an undercut/
+- Lap 22
+  - Hamilton has worked his way up to 7th
+  - Perez is up to 9th
+  - /Hard tires seem to be working better than I would have expected/
+  - /Max Verstappen is 22 laps into the race on the same soft tires he started on --- how do he and Red Bull manage to make tires last like this?/
+- Lap 24 --- George Russell pits, goes out in 4th on hard tires
+- Lap 25 --- Max Verstappen pits, goes out in 2nd on medium tires
+- Lap 27 --- Hamilton passes Alonso for 6th
+- Lap 28
+  - Russell is complaining about the hard tires; says that they're not warming up well
+  - /Yet, somehow Sergio Perez is doing okay on the hard tires/
+- Lap 30 --- Russell asked to lift and coast, either to conserve fuel or to cool his engine
+- Lap 31 --- Carlos Sainz pits, comes out in 8th on soft tires
+- Lap 32 --- Fernando Alonso comes into the pits and retires the car because of a radiator leak
+- Lap 33
+  - Carlos Sainz passes Sergio Perez for 5th
+  - Charles LeClerc pits again and goes out on soft tires
+- Lap 34 --- Lewis Hamilton pits and comes back out in 12th on soft tires
+- Lap 35 --- Verstappen has built up a 19 sec advantage
+- Lap 36
+  - Lando Norris pits and goes onto soft tires
+  - Slow pit stop --- 5 seconds
+  - Comes back out in 9th, behind Ricciardo and Gasly
+- Lap 37 --- Norris passes both Ricciardo and Gasly and is up into 7th
+- Lap 41 --- Lance Stroll comes into the pits and retires
+- Lap 42 --- Good battle between Mick Schumacher and Nicholas Latifi
+- Lap 43 --- Sergio Perez pits for soft tires and comes out in 7th, behind Hamilton and Norris
+- Lap 47
+  - Daniel Ricciardo pulls over with an engine failure
+  - Full safety car declared
+- Lap 48 --- George Russell, Carlos Sainz, Lando Norris, Max Verstappen and Charles LeClerc all pit
+- Lap 53
+  - Race ends under the safety car
+  - Daniel Ricciardo's car was stuck in gear and the trackside workers couldn't move it
+  - By the time they could get a forklift out to lift the car and haul it away, there weren't enough laps left in the race to go through the safety car restart procedure
+  - Therefore, in order to avoid a situation like what happened at Abu Dhabi last year, the race finished under a safety car
+- /Yet another drive where Verstappen made winning look easy/
+- /Points finish on his rookie drive for Nyck DeVries/
+- /Double DNF for Aston Martin/
+- /Mercedes continue their quiet improvement/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Charles LeClerc --- Ferrari
+3. George Russell --- Mercedes
+4. Carlos Sainz --- Ferrari
+5. Lewis Hamilton --- Mercedes
+6. Sergio Perez --- Red Bull
+7. Lando Norris --- McLaren
+8. Pierre Gasly --- Alpha Tauri
+9. Nyck DeVries --- Williams
+10. Guanyu Zhou --- Alfa Romeo
+11. Esteban Ocon --- Alpine
+12. Mick Schumacher --- Haas
+13. Valteri Bottas --- Alfa Romeo
+14. Yuki Tsunoda --- Alpha Tauri
+15. Nicholas Latifi --- Williams
+16. Kevin Magnussen --- Haas
+17. Daniel Ricciardo --- McLaren (DNF)
+18. Lance Stroll --- Aston Martin (DNF)
+19. Fernando Alonso --- Alpine (DNF)
+20. Sebastian Vettel --- Aston Martin (DNF)
+
+** 2022-09-04 Dutch Grand Prix
+
+*** Track Info
+- Zandvoort Circuit
+- 2.65 miles 
+- /Quite short, with a lot of corners/
+- /I love the banked corners/
+
+*** Tires
+- C3, C2, C1
+- Hardest in the range
+
+*** Qualifying
+- Good weather conditions
+- Wind can be a problem, given that the track is located on the sea
+- Traffic could also be a problem, given that this is a short track, so there isn't room for cars to spread out as they do warm up and cool down laps
+
+**** Q1
+- McLaren is slow at first, but Lando Norris puts in a decent time at the end of the session
+- Red Bull and Ferrari are both fast, as expected
+- Yuki Tsunoda and Lance Stroll both put in good times
+- Eliminated in Q1
+  - Valteri Bottas --- Alfa Romeo
+  - Kevin Magnussen --- Haas
+  - Daniel Ricciardo --- McLaren
+  - Sebastian Vettel --- Aston Martin
+  - Nicholas Latifi --- Williams
+- /Another disappointing qualifying for Daniel Ricciardo/
+- /Good to see Mick Schumacher get out of Q1/
+
+**** Q2
+- Track improvement is a factor --- the track has picked up dust from the nearby beach, and as the dust gets cleared off by cars, the track becomes grippier
+- Red flag because of a flare on the track --- leads to further use of flares being banned
+- Verstappen does a very fast lap on used tires
+- Lewis Hamilton is quick, as is Lance Stroll
+- Other than Max Verstappen, there hasn't been as much improvement in lap times as expected
+- Eliminated in Q2
+  - Pierre Gasly --- Alpha Tauri
+  - Esteban Ocon --- Alpine
+  - Fernando Alonso --- Alpine
+  - Guanyu Zhou --- Alfa Romeo
+  - Alex Albon --- Williams
+- /Alex Albon taking over George Russell's role as "Mister Saturday", getting the Williams out of Q1/
+- /Both Alpines out in Q2, which is a surprise/
+- /Mick Schumacher gets into Q3!/
+
+**** Q3
+- Lance Stroll has a technical issue that prevents him from participating
+- Lance Stroll gets provisional pole, but in the second set of qualifying laps, Verstappen pips him by less than a tenth of a second
+- Sergio Perez spins out at the end of qualifying, leading to a yellow flag on the last corner, which ruins the final flying laps of Lewis Hamilton and George Russell
+- Top 10 qualifying results
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. Lewis Hamilton --- Mercedes
+  5. Sergio Perez --- Red Bull
+  6. George Russell --- Mercedes
+  7. Lando Norris --- McLaren
+  8. Mick Schumacher --- Haas
+  9. Yuki Tsunoda --- Alpha Tauri
+  10. Lance Stroll --- Aston Martin
+- /Mick Schumacher got a good starting position, which is important because his future in Formula 1 is in question/
+- /Verstappen gets pole for the second year in a row here/
+- /Sergio spinning out potentially saved Carlos Sainz from 
+
+*** Race
+- 72 laps
+- Starting grid
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. Lewis Hamilton --- Mercedes
+  5. Sergio Perez --- Red Bull
+  6. George Russell --- Mercedes
+  7. Lando Norris --- McLaren
+  8. Mick Schumacher --- Haas
+  9. Yuki Tsunoda --- Alpha Tauri
+  10. Lance Stroll --- Aston Martin
+  11. Pierre Gasly --- Alpha Tauri
+  12. Esteban Ocon --- Alpine
+  13. Fernando Alonso --- Alpine
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Alex Albon --- Williams
+  16. Valteri Bottas --- Alfa Romeo
+  17. Daniel Ricciardo --- McLaren
+  18. Kevin Magnussen --- Haas
+  19. Sebastian Vettel --- Aston Martin
+  20. Nicholas Latifi --- Williams
+- Top 3 starting on soft tires, but Hamilton opting to start on mediums
+  - /This could be interesting --- the Mercedes is slow to warm up its tires, which means that Hamilton could be vulnerable at the beginning of the race, but as the race goes on, he'll be able to maintain his pace as the others drop off/
+- Lap 1
+  - Turn 1 contact between Hamilton and Sainz, but no damage to either car and both continue on
+  - Good start for Lando Norris, gets ahead of George Russell
+  - Verstappen has a near perfect start, already has a 0.8s lead at the end of the first lap
+- Lap 2
+  - Kevin Magnussen goes wide under pressure from Alex Albon, hits the barrier, and comes back onto the track in last place
+  - Somehow, his car is undamaged and he's able to continue
+  - Esteban Ocon has gained 3 places --- up to 9th
+- Possible rain reported
+- Lap 7
+  - Carlos Sainz seems to be struggling for pace
+  - /Has the Ferrari already chewed up those soft tires?/
+- Lap 8 --- Lewis Hamilton has closed up on Sainz and appears to be setting up for a pass
+- Lap 10 --- Fernando Alonso passes Pierre Gasly for 12th
+- Lap 12
+  - Sebastian Vettel pits, Pierre Gasly responds by pitting as well
+  - Fernando Alonso passes Yuki Tsunoda for 11th
+- Lap 13
+  - Fernando Alonso pits and comes out on hard tires
+  - /Lots of people stopping early/
+  - /Hard tires are a surprise because they were thought to be too difficult to warm up to be a good race tire/
+- Lap 14
+  - Yuki Tsunoda pits
+  - Mick Schumacher has a slow pit stop --- 10s
+- Lap 15
+  - Carlos Sainz has a terrible pit stop --- 12.7s, because the tires weren't ready when he came in
+  - /Ferrari's race-day execution is once again in question/
+  - /Lewis can now push to build up a lead so that when he pits, he'll come out ahead of Sainz/
+- Lap 17 --- Great battle between Mick Schumacher and Sebastian Vettel
+- Lap 18
+  - Charles LeClerc pits and goes out on medium tires
+  - Max Verstappen pits and goes out on medium tires
+- At this point, Lewis Hamilton is in the lead, because he's running a longer stint, having started on medium tires
+- Hard tires seem to be working well for Fernando Alonso and Lando Norris
+- Lap 28 --- Max Verstappen passes George Russell for 2nd
+- Lap 30
+  - Lewis Hamilton pits and goes onto hard tires
+  - Mercedes possibly going for a 1-stop strategy whereas both Red Bull and Ferrari are doing 2 stops
+- Lap 32 --- George Russell pits and goes onto hard tires
+- Lap 36 --- 37
+  - Great battle between Lewis Hamilton and Sergio Perez, with a cameo from Sebastian Vettel exited the pits right as the the Mercedes and Red Bull arrived
+  - Hamilton passes Perez for 3rd, but the fight cost him 3 seconds on Verstappen
+- Gap between Hamilton and Verstappen is now exactly 20 sec, almost enough for a pit stop
+- Lap 39
+  - George Russell passes Sergio Perez
+  - Mercedes are now 2 and 3 behind Verstappen
+- Lap 40 --- Both Lewis Hamilton and George Russell are now within 20 sec. of Verstappen, meaning that Verstappen will have to pass both Mercedes in order to retake the lead
+- Lap 41
+  - Perez makes his second pit stop and goes onto hard tires
+  - Comes out just ahead of Alonso in 7th
+- Lap 43 --- Another battle between Sergio Perez and Lewis Hamilton, this time with Perez attacking and Hamilton defending
+- Lap 44
+  - Sergio Perez passes Lando Norris for 5th
+  - Carlos Sainz takes his 2nd pit stop
+  - Yuki Tsunoda stops by the side of the track, saying, "Tires not fitted"
+  - Leads to a yellow flag on that sector of the track
+- Lap 45 --- Tsunoda is assured that his car is okay, and continues
+- Lap 46 --- Charles LeClerc makes his second pit stop and goes out on hard tires
+- Lap 47 --- Tsunoda comes in to the pits again, has his seat belts adjusted, and goes out on soft tires
+- Lap 48
+  - Tsunoda still says that his car feels weird and is told to stop, as it seems that his differential is broken
+  - Virtual Safety Car declared
+  - Lando Norris and Max Verstappen both pit, coming out on soft tires and hard tires respectively
+- Lap 49 --- Lewis Hamilton pits and goes out on medium tires
+- Lap 50 --- Racing resumes
+- Lap 55 --- Valteri Bottas stops with a mechanical issue
+- Lap 56
+  - Safety car declared
+  - Max Verstappen pits and comes back out in 3rd, but running on soft tires
+- At this point, Lewis is leading the race, George Russell is in 2nd place, Max Verstappen is in third
+- However, Max is on fresh soft tires and has a car that can warm up its tires much more quickly than either Mercedes
+- Lap 57 --- Charles LeClerc makes a third pit stop
+- Lap 58
+  - Carlos Sainz takes a third pit stop and has a very unsafe release as he comes out directly into the path of Fernando Alonso who has to slam on the brakes
+  - Seems like the cars make contact in the pit lane
+  - George Russell pits and goes onto soft tires
+  - /This is interesting, because George has removed himself as a buffer against Verstappen in exchange for possibly having a shot at winning the race at the end/
+  - /Lewis is not happy about this strategy call/
+- Lap 61
+  - Safety car ends and racing resumes
+  - Verstappen passes Hamilton for the lead
+- Lap 62 --- Verstappen is already 1.7s ahead of Hamilton, out of DRS range
+- Lap 64
+  - Russell passes Hamilton for 2nd
+  - Mercedes let their drivers race, no team orders here
+- Lap 65 --- 66 --- Hamilton under pressure from LeClerc, who passes him for 3rd
+- Lap 69 --- Carlos Sainz gets a 5s time penalty for the unsafe release
+- Lap 70 --- Perez goes onto the gravel while trying to pass Carlos Sainz
+- Lap 72
+  - Verstappen wins
+  - Russell 2nd
+  - Leclerc 3rd
+  - Hamilton 4th
+- /Russell made the right call for himself, but not the team/
+- /3 different teams on the podium/
+- /LeClerc moves back up to 2nd place in the driver's championship, but it doesn't matter, because Max Verstappen appears to be running away with the lead/
+- /Russell is holding his own against Hamilton, unlike Bottas/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. George Russell --- Mercedes
+3. Charles LeClerc --- Ferrari
+4. Lewis Hamilton --- Mercedes
+5. Sergio Perez --- Red Bull
+6. Fernando Alonso --- Alpine
+7. Lando Norris --- McLaren
+8. Carlos Sainz --- Ferrari
+9. Esteban Ocon --- Alpine
+10. Lance Stroll --- Aston Martin
+11. Pierre Gasly --- Alpha Tauri
+12. Alex Albon --- Williams
+13. Mick Schumacher --- Haas
+14. Sebastian Vettel --- Aston Martin
+15. Kevin Magnussen --- Haas
+16. Guanyu Zhou --- Alfa Romeo
+17. Daniel Ricciardo --- McLaren
+18. Nicholas Latifi --- Williams
+19. Valteri Bottas --- Alfa Romeo (DNF)
+20. Yuki Tsunoda --- Alpha Tauri (DNF)
+
+** 2022-08-28 Belgian Grand Prix
+
+*** Track Info
+- Spa Francorchamps
+- 4.35 miles (longest track on the calendar)
+
+*** Tires
+- C4, C3, C2 --- middle of the range
+- Hard tire might be difficult to warm up in cold conditions
+
+*** Qualifying
+- The start of qualifying was delayed due to barrier repairs caused by a crash in the preceding Porsche Super Cup race
+- Grid penalties for
+  - Valteri Bottas
+  - Max Verstappen
+  - Charles LeClerc
+  - Lando Norris
+  - Esteban Ocon
+  - Guanyu Zhou
+  - Mick Schumacher
+- Valteri Bottas will start in front of the remainder, because he has a 15-place penalty, whereas the rest were sent to the back of the grid
+- /That will make for an interesting race tomorrow, with both LeClerc and Verstappen fighting their way up through the pack/
+- Spa is a long lap, so most cars will only have two or three attempts at a high speed lap per qualifying session
+
+**** Q1
+- Mercedes seem to be struggling with straight line speed and understeer
+- Ferrari and Red Bull look fast
+- Verstappen looks much faster than Perez
+- /The old-school black numbers on a white circle look good on the Mercedes/
+- Alfa Romeo are really slow
+- George Russell reports drizzle through Eau Rouge, but it passes
+- Alex Albon has a really good lap --- goes faster than Lewis Hamilton and both McLarens
+- Eliminated in Q1
+  - Sebastian Vettel --- Aston Martin
+  - Nicholas Latifi --- Williams
+  - Kevin Magnussen --- Haas
+  - Yuki Tsunoda --- Alpha Tauri
+  - Valteri Bottas --- Alfa Romeo
+- First time Valteri Bottas has been eliminated in Q1 since 2015
+- /Not the ideal outcome for Haas, since Mick Schumacher is getting an engine penalty --- would have preferred to see Kevin Magnussen in Q2/
+- /Sebastian Vettel continues to struggle in qualifying/
+
+**** Q2
+- LeClerc goes out on used tires
+- Perez' time is much closer to Verstappen's in Q2
+- LeClerc has a pretty spectacular 4-wheel drift
+- Alpine's choreography in having Ocon give Alonso a slipstream doesn't work out that well because the cars get separated on track
+- Alex Albon gets Williams into Q3 for the first time this season
+- Eliminated in Q2
+  - Daniel Ricciardo
+  - Pierre Gasly
+  - Guanyu Zhou
+  - Lance Stroll
+  - Mick Schumacher
+- /Daniel Ricciardo continues to struggle/
+
+**** Q3
+- Ferrari send LeClerc out on new tires
+  - LeClerc questions this decision
+  - Is told that it was a mistake, but is told to complete the lap
+  - /Yet another unforced error from Ferrari/
+- Both LeClerc and Verstappen forgo their opportunity to do a second lap in Q3
+- Final qualifying result
+  1. Max Verstappen --- Red Bull
+  2. Carlos Sainz --- Ferrari
+  3. Sergio Perez --- Red Bull
+  4. Charles LeClerc --- Ferrari
+  5. Esteban Ocon --- Alpine
+  6. Fernando Alonso --- Alpine
+  7. Lewis Hamilton --- Mercedes
+  8. George Russell --- Mercedes
+  9. Alex Albon --- Williams
+  10. Lando Norris --- McLaren
+- This will bear little resemblance to the actual top-10 in the starting grid once the penalties are all taken into account
+- Carlos Sainz and Sergio Perez will both be on the front row, with Carlos Sainz in pole position
+- Lewis Hamilton and Fernando Alonso will be on the second row
+- /Although Lewis has said that this is Mercedes' best opportunity for a win this year, I don't see Mercedes being able to compete for a win if their race pace is like their qualifying pace/
+
+*** Race
+- 44 laps
+- Starting grid
+  1. Carlos Sainz --- Ferrari
+  2. Sergio Perez --- Red Bull
+  3. Fernando Alonso --- Alpine
+  4. Lewis Hamilton --- Mercedes
+  5. George Russell --- Mercedes
+  6. Alex Albon --- Williams
+  7. Daniel Ricciardo --- McLaren
+  8. Lance Stroll --- Aston Martin
+  9. Sebastian Vettel --- Aston Martin
+  10. Nicholas Latifi --- Williams
+  11. Kevin Magnussen --- Haas
+  12. Valteri Bottas --- Alfa Romeo (grid penalty)
+  13. Max Verstappen --- Red Bull (grid penalty)
+  14. Charles LeClerc --- Ferrari (grid penalty)
+  15. Esteban Ocon --- Alpine (grid penalty)
+  16. Lando Norris --- McLaren (grid penalty)
+  17. Guanyu Zhou --- Alfa Romeo (grid penalty)
+  18. Mick Schumacher --- Haas (grid penalty)
+  19. Pierre Gasly --- Alpha Tauri (pit lane start)
+  20. Yuki Tsunoda --- Alpha Tauri (pit lane start)
+- Most cars will be starting on medium tires
+- Carlos Sainz, however is staring on soft tires, as are Max Verstappen and Charles LeClerc
+- Both Alpha Tauris starting from the pit lane
+  - Yuki Tsunoda was known to be starting from the pit lane as of this morning, due to power unit issues
+  - Pierre Gasly had unknown electrical problems that prevented his car from joining the grid
+    - /Conspiracy theorists are going to say that it was a plot to get the AlphaTauris out of Max Verstappen's way/
+- Hot track, could cause higher than expected tire degradation
+- Lap 1
+  - Perez has a poor start, gets jumped by Alonso, Hamilton and Russell at the first corner
+  - Carlos Sainz has a good getaway and builds a healthy lead
+  - Hamilton and Alonso make contact in Turn 5 (Le Combes)
+  - Hamilton's car gets punted into the air by the tire-to-tire contact and he has to retire from the race
+- Lap 2
+  - Verstappen already up into 8th
+  - Collision between Hamilton and Alonso under investigation
+  - The drama between Hamilton and Alonso allowed Perez to retake 2nd, with George Russell 3rd
+  - Yellow flag in sector 3, possibly for Lewis Hamilton's car
+  - Nicholas Latifi goes a little wide onto the gravel and slides into Valteri Bottas who ends up beached on the gravel
+  - Latifi, however, ends up on the grass and is able to continue
+  - /Valteri Bottas sympathy corner?/
+  - Safety car deployed for these two incidents
+- Collision looks to have been Lewis' fault --- replay shows that he didn't leave Alonso enough room
+- /Alonso is saltier than a bag of chips, even though his car is in the race and Lewis has retired/
+- Lap 4
+  - LeClerc comes in for a very early pit stop after complaining about smoke coming from his front-right wheel well
+  - Goes out on medium tires
+  - Engineers found a visor tearaway in the brake duct which was interfering with cooling
+  - Nicholas Latifi comes in for a new front wing
+- Lap 5 --- racing resumes
+  - Carlos Sainz retains his lead despite an early lock-up
+  - Sergio Perez under immediate pressure from George Russell, who is himself being attacked by Fernando Alonso
+- No further investigation for the tangle between Nicholas Latifi and Valteri Bottas
+- Somehow Sebastian Vettel is up into 5th
+- Lap 6
+  - Max Verstappen passes Daniel Ricciardo for 6th
+  - Daniel Ricciardo also gets passed by Alex Albon --- drops into 8th
+- Lap 7 --- Neat DRS-enabled pass by Max Verstappen on Sebastian Vettel for 4th
+- No further investigation on the collision between Hamilton and Alonso
+  - /I feel like Hamilton was lucky to get away without a grid penalty for the next race/
+- While Verstappen is carving his way up through the field, LeClerc is stuck in 16th after his switch to medium tires
+- Lap 8
+  - Verstappen passes George Russell for 3rd
+  - LeClerc passes the two Alpha Tauris and moves up into 14th
+- /Charles might be driving a different strategy, though, emphasizing tire conservation/
+- According to Paul di Resta, Ferrari has a 30kph advantage over Ferrari with DRS
+- Lap 10 --- LeClerc passes Magnussen for 12th
+- Both Verstappen and Sainz are complaining about high tire degredation
+- Lap 11
+  - Verstappen calls for team orders to be let by Perez
+  - Carlos Sainz pits and goes onto medium tires
+- Lap 12 --- Verstappen passes Perez for the lead
+  - /Verstappen is so fast today, it's unclear whether that was team orders or whether Verstappen was just that fast/
+- Carlos Sainz comes back out in 6th, behind Daniel Ricciardo
+- Lap 13
+  - Daniel Ricciardo pits, getting out of Carlos Sainz's way
+  - Carlos Sainz passes Sebastian Vettel for 4th
+- Lap 14 --- George Russell pits, allowing Sainz to move up into 3rd
+- Lap 15 --- Sergio Perez pits, and comes out ahead of Russell and LeClerc
+- Lap 16
+  - Verstappen pits and comes out ahead of Perez
+  - Spectacular pass by George Russell on Charles LeClerc
+  - /What is wrong with the Ferraris today?/
+  - /Being slower than Red Bull is expected, but how are they slower than Mercedes?/
+- Lap 18
+  - Esteban Ocon has a great pass, where he moves ahead of both Nicholas Latifi and Daniel Ricciardo in one corner
+  - Max Verstappen passes Carlos Sainz for the lead
+  - /Verstappen is *so fast*/
+- Lap 20 --- Perez is attacking Sainz for 2nd
+- Lap 21 --- Perez passes Sainz for 2nd
+- Lap 23 --- George Russell catching Carlos Sainz
+- Lap 24 --- Good fight between Daniel Ricciardo and Lance Stroll
+- Lap 26 --- Carlos Sainz and Charles LeClerc pit
+  - Sainz goes out on hard tires, comes out in 4th
+  - LeClerc goes out on medium tires and comes out in 7th
+- Lap 27 --- Sergio Perez pits and goes onto hard tires
+- Lap 29 --- LeClerc passess Ocon for 6th
+- Lap 30 --- George Russell pits and goes onto fresh medium tires
+  - LeClerc passes Vettel for 5th
+- Lap 31
+  - Verstappen pits and goes onto fresh medium tires
+  - LeClerc passes Vettel for 5th
+- In a press interview, Hamilton admits that the collision is his fault
+- Lap 34 --- George Russell catching up to Carlos Sainz once again
+- Lap 35 --- Esteban Ocon is embroiled in another fierce battle, this time between him, Ocon, Gasly and Vettel
+- /Mercedes are slow in qualifying, but they seem to handle themselves well in a race/
+- Lap 39
+  - Carlos Sainz told to avoid bumps
+- Lap 40 --- George Russell has stopped catching up to Carlos Sainz because he ran wide in Turn 14
+- Lap 43
+  - Charles LeClerc comes in for soft tires so he can go for the fastest lap
+  - However, Ferrari fails to calculate how long a pit stop will take, so when LeClerc comes out Alonso is immediately behind him
+  - Alonso gets a DRS enabled pass on LeClerc, who drops to 6th
+  - /Another consequential unforced error from Ferrari/
+- Lap 44
+  - LeClerc passes Alonso and retakes 5th
+  - Max Verstappen wins, Sergio Perez gets 2nd, Carlos Sainz 3rd
+- Charles LeClerc given a 5 second penalty for speeding in the pit lane which drops him down to 6th, behind Alonso
+  - /Wouldn't have had that penalty if he hadn't been asked to come in/
+  - /By trying to gain 1 point, Ferrari lost 2/
+- /Good to Alex Albon get points for Williams/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Sergio Perez --- Red Bull
+3. Carlos Sainz --- Ferrari
+4. George Russell --- Mercedes
+5. Fernando Alonso --- Alpine
+6. Charles LeClerc --- Ferrari
+7. Esteban Ocon --- Alpine
+8. Sebastian Vettel --- Aston Martin
+9. Pierre Gasly --- Alpha Tauri
+10. Alex Albon --- Williams
+11. Lance Stroll --- Aston Martin
+12. Lando Norris --- McLaren
+13. Yuki Tsunoda --- Alpha Tauri
+14. Guanyu Zhou --- Alfa Romeo
+15. Daniel Ricciardo --- McLaren
+16. Kevin Magnussen --- Haas
+17. Mick Schumacher --- Haas
+18. Nicholas Latifi --- Williams
+19. Valteri Bottas --- Alpha Romeo (DNF)
+20. Lewis Hamilton --- Mercedes (DNF)
+
+** 2022-07-31 Hungarian Grand Prix
+
+*** Track Info
+- Hungaroring
+- 2.72 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range, same as for French Grand Prix
+
+*** Qualifying
+
+**** Q1
+- Eliminated in Q1
+  - Yuki Tsunoda --- Alpha Tauri
+  - Alex Albon --- Williams
+  - Sebastian Vettel --- Aston Martin
+  - Pierre Gasly --- Alpha Tauri
+  - Nicholas Latifi --- Williams
+- /Surprising to see both Alpha Tauris out in Q1/
+- /Sadly _unsurprising_ to see both Williams out in Q1/
+
+**** Q2
+- Sergio Perez reports light rain on parts of the track
+- Eliminated in Q2
+  - Sergio Perez --- Red Bull
+  - Guanyu Zhou --- Alpha Romeo
+  - Kevin Magnussen --- Haas
+  - Lance Stroll --- Aston Martin
+  - Mick Schumacher --- Haas
+- /Wild to see a Red Bull out in Q2/
+
+**** Q3
+- Max Verstappen is having engine issues
+- Lewis Hamilton has a DRS issue, so wasn't able to do a second fast lap in Q3
+- George Russell has an amazing final lap to take pole position
+- Top 10 qualifying
+  1. George Russell --- Mercedes
+  2. Carlos Sainz --- Ferrari
+  3. Charles LeClerc --- Ferrari
+  4. Lando Norris --- McLaren
+  5. Esteban Ocon --- Alpine
+  6. Fernando Alonso --- Alpine
+  7. Lewis Hamilton --- Mercedes
+  8. Valteri Bottas --- Alfa Romeo
+  9. Daniel Ricciardo --- McLaren
+  10. Max Verstappen --- Red Bull
+- /George Russell is Mister Saturday once again/
+- /When Ferrari aren't having trouble, Red Bull is/
+
+*** Race
+- 70 laps
+- Starting Grid
+  1. George Russell --- Mercedes
+  2. Carlos Sainz --- Ferrari
+  3. Charles LeClerc --- Ferrari
+  4. Lando Norris --- McLaren
+  5. Esteban Ocon --- Alpine
+  6. Fernando Alonso --- Alpine
+  7. Lewis Hamilton --- Mercedes
+  8. Valteri Bottas --- Alfa Romeo
+  9. Daniel Ricciardo --- McLaren
+  10. Max Verstappen --- Red Bull
+  11. Sergio Perez --- Red Bull
+  12. Guanyu Zhou --- Alfa Romeo
+  13. Kevin Magnussen --- Haas
+  14. Lance Stroll --- Aston Martin
+  15. Mick Schumacher --- Haas
+  16. Yuki Tsunoda --- Alpha Tauri
+  17. Alex Albon --- Williams
+  18. Sebastian Vettel --- Aston Martin
+  19. Nicholas Latifi --- Williams
+  20. Pierre Gasly --- Alpha Tauri (pit lane start)
+- Light rain at the start, but cars are still starting on slicks
+- Lap 1
+  - George Russell gets away cleanly
+  - Carlos Sainz retains 2nd
+  - Lewis Hamilton gets a good start, moves up to 5th, immediately behind Lando Norris
+  - Alex Albon makes contact with Pierre Gasly 
+- Lap 2 --- Virtual Safety Car declared so that debris can be cleared from the Alex Albon/Pierre Gasly incident
+- Lap 3 --- VSC ends
+- Lap 5 --- Great pass by Max Verstappen on Fernando Alonso for 7th
+- Lap 7 --- Verstappen passes Esteban Ocon for 6th
+- Lap 9 --- Perez passes Ocon for 7th
+- /Red Bulls are pushing their way forward through the pack/
+- Lap 12 --- Hamilton and Verstappen both pass Lando Norris, who drops into 6th
+- Lap 13 --- Sergio Perez passes Lando Norris, who falls back into 8th
+  - Max Verstappen complains about a slipping clutch
+- Lap 15 --- Lando Norris pits
+- Lap 16 --- George Russell pits
+  - Max Verstappen also pits
+- /Dummy call from Ferrari/
+- Lap 17 --- Carlos Sainz pits, but isn't able to come out ahead of George Russell
+- Lap 19 --- Sergio Perez pits
+- /It seems like the soft tires and the medium tires are lasting about the same amount of laps?/
+- Lap 20 --- Hamilton pits
+- Lap 21 --- Verstappen passes Ocon (again) for 4th
+- Lap 22 --- Charles LeClerc pits
+  - Comes out ahead of Carlos Sainz, takes 2nd through pit stop strategy
+  - Fernando Alonso pits, goes onto hard tires --- /could he be trying for a one-stop strategy?/
+- Lap 24 --- Esteban Ocon pits, comes out ahead of Fernando Alonso, as they fight, Daniel Ricciardo passes them both
+- Lap 27 - 31 --- Great fight between Charles LeClerc and George Russell for the lead
+- Lap 31 --- Charles LeClerc passes George Russell for the lead
+- Lap 32 --- Max Verstappen reports light drizzle
+- Lap 35 --- Yuki Tsunoda spins out, but is able to recover
+- Lap 39 --- Max Verstappen pits again
+- Lap 40 --- Charles LeClerc pits again and goes onto hard tires
+  - /Hard tires haven't worked very well for Alpine; will they work better for Ferrari?/
+  - George Russell also pits again
+- George Russell comes out behind Max Verstappen --- Verstappen passed Russell with the undercut
+- Lap 41 --- Max Verstappen passes Charles LeClerc for 3rd
+- Lap 42 --- Max Verstappen has a spin, allows Charles LeClerc to retake 3rd
+  - Possibly due to the light drizzle
+  - /Neat 360° spin for Max/
+- Lap 43 --- Sergio Perez pits again
+- Lap 45 --- Max Verstappen passes Charles
+- Lap 48 --- Carlos Sainz pits and goes onto soft tires
+- Lap 52 --- Lewis Hamilton pits again
+- Lap 54 --- George Russell passes Charles LeClerc for 2nd
+- Lap 55 --- Charles LeClerc pits, comes out in 6th, behind Hamilton and Perez
+  - /Ferrari really screwed up the strategy this time/
+- Lap 63 --- Lewis Hamilton passes Carlos Sainz for 3rd
+- Lap 65 --- Hamilton passes Russell for 2nd
+- Lap 67 --- Valteri Bottas pulls over with mechanical issues
+- Lap 68 --- Virtual Safety Car declared
+- Lap 69 --- George Russell reports that rain has increased
+- Lap 70 --- Max Verstappen wins, Lewis Hamilton 2nd, George Russell 3rd
+  - /Red Bull, Mercedes, Mercedes, where have I seen that podium before?/
+  - /Ferrari is going to have a very tense debrief, I think/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Lewis Hamilton --- Mercedes
+3. George Russell --- Mercedes
+4. Carlos Sainz --- Ferrari
+5. Sergio Perez --- Red Bull
+6. Charles LeClerc --- Ferrari
+7. Lando Norris --- McLaren
+8. Esteban Ocon --- Alpine
+9. Fernando Alonso --- Alpine
+10. Sebastian Vettel --- Aston Martin
+11. Lance Stroll --- Aston Martin
+12. Pierre Gasly --- Alpha Tauri
+13. Guanyu Zhou --- Alfa Romeo
+14. Mick Schumacher --- Haas
+15. Daniel Ricciardo --- McLaren
+16. Kevin Magnussen --- Haas
+17. Alex Albon --- Williams
+18. Nicholas Latifi --- Williams
+19. Yuki Tsunoda --- Alpha Tauri
+20. Valteri Bottas --- Alfa Romeo (DNF)
+
+** 2022-07-24 French Grand Prix
+
+*** Track Info
+- Circuit de Paul Ricard
+- 3.63 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range
+
+*** Qualifying
+
+**** Q1
+- Carlos Sainz and Kevin Magnussen will be starting from the back of the grid due to power unit penalties
+- Eliminated in Q1
+  - Pierre Gasly --- Alpha Tauri
+  - Lance Stroll --- Aston Martin
+  - Guanyu Zhou --- Alfa Romeo
+  - Mick Schumacher --- Haas
+  - Nicholas Latifi --- Williams
+
+**** Q2
+- Eliminated in Q2
+  - Daniel Ricciardo --- McLaren
+  - Esteban Ocon --- Alpine
+  - Valteri Bottas --- Alfa Romeo
+  - Sebastian Vettel --- Aston Martin
+  - Alex Albon --- Williams
+
+**** Q3
+- Top 10 qualifying
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Sergio Perez --- Red Bull
+  4. Lewis Hamilton --- Mercedes
+  5. Lando Norris --- McLaren
+  6. George Russell --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. Yuki Tsunoda --- Alpha Tauri
+  9. Carlos Sainz --- Ferrari
+  10. Kevin Magnussen --- Haas
+
+*** Race
+- 53 laps
+- Starting grid
+  1. Charles LeClerc
+  2. Max Verstappen
+  3. Sergio Perez
+  4. Lewis Hamilton
+  5. Lando Norris
+  6. George Russell
+  7. Fernando Alonso
+  8. Yuki Tsunoda
+  9. Daniel Ricciardo
+  10. Esteban Ocon
+  11. Valteri Bottas
+  12. Sebastian Vettel
+  13. Alex Albon
+  14. Pierre Gasly
+  15. Lance Stroll
+  16. Guanyu Zhou
+  17. Mick Schumacher
+  18. Nicholas Latifi
+  19. Carlos Sainz
+  20. Kevin Magnussen
+- Lap 1
+  - Lewis Hamilton jumps Sergio Perez for 3rd right at the beginning
+  - LeClerc holds the lead in the initial stages of the lap
+  - Alonso jumps from 7th to 4th, passing George Russell and Lando Norris
+  - Yuki Tsunoda spins after potential contact with Esteban Ocon
+- Lap 4
+  - Although LeClerc gained an early advantage, Verstappen is already within DRS range
+  - Esteban Ocon gets a 5 second penalty for his collision with Yuki Tsunoda
+- Lap 5 --- Sergio Perez has caught up to Lewis Hamilton and is battling for 3rd
+- Lap 8 --- Race settles down a bit
+  - Perez backs off from Hamilton
+  - Verstappen backs off from LeClerc
+  - Drivers are settling in and trying not to burn out their tires too early
+- Lap 16 --- Max Verstappen pits
+- Lap 17 --- Neat pass by Carlos Sainz on Daniel Ricciardo
+- Lap 18
+  - LeClerc skids out and crashes!
+  - Safety car declared
+  - Basically everyone pits --- Lewis Hamilton, George Russell, Sergio Perez, etc
+  - /This is because Paul Ricard has a very long pit lane, which means that the time lost for a pit stop is much higher --- 33 seconds, vs. an average of 25 sec. elsewhere/
+  - Carlos Sainz comes out of his pit box right in front of a Williams, possible penalty for an unsafe release
+- LeClerc is *angry*
+- Lap 20 --- Green flag
+  - Verstappen is in the lead
+  - Lewis Hamilton in 2nd
+  - Sergio Perez 3rd
+  - George Russell 4th
+  - /Red Bull --- Mercedes --- Red Bull --- Mercedes, just like last year/
+- Lap 21 --- Carlos Sainz passes Lando Norris for 6th
+- Lap 23 --- Mick Schumacher's Haas spins, but he manages to recover and rejoin the race; had contact with Guanyu Zhou
+- Lap 24 --- Carlos Sainz gets a 5 second time penalty for unsafe release
+- Lap 26 --- Guanyu Zhou picks up a 5 second time penalty for causing a collision with Kevin Magnussen
+- Lap 30 --- Carlos Sainz passes George Russell for 4th after a 3-lap battle
+- Lap 38 --- Nicholas Latifi spins out after contact with Kevin Magnussen, but manages to recover
+- Lap 39 --- Kevin Magnussen retires from the race
+- Lap 41 --- Carlos Sainz passes Sergio Perez for 3rd
+  - /How is Carlos managing to make these ancient medium tires work so well?/
+  - /Carlos Sainz is once again dictating race strategy from the cockpit, something that he shouldn't have to be doing/
+- Lap 42 --- George Russell attempts to pass Sergio Perez for 4th, contact between Russell and Perez, Perez goes off
+  - /This looks like it was entirely Russell's fault/
+  - /Russell made a very late dive into the corner, and Perez had the right to the racing line/
+- Lap 43 --- Carlos Sainz pits?!
+  - /Did Ferrari just throw away a 3rd place finish?/
+- Lap 48 --- Carlos Sainz is driving heroically, up from 9th after the pit stop to 5th
+- Lap 49 --- Guanyu Zhou has stopped at the side of the track, seems like a mechanical problem?
+- Lap 50 --- Virtual Safety Car declared to allow the marshals to wheel Guanyu Zhou's car behind the barrier
+- Lap 51 --- George Russell takes advantage of the VSC to jump Sergio Perez for 3rd
+- Lap 53
+  - Max Verstappen wins
+  - Lewis Hamilton gets 2nd
+  - George Russell holds off Sergio Perez and takes 3rd
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Lewis Hamilton --- Mercedes
+3. George Russell --- Mercedes
+4. Sergio Perez --- Red Bull
+5. Carlos Sainz --- Ferrari
+6. Fernando Alonso --- Alpine
+7. Lando Norris --- McLaren
+8. Esteban Ocon --- Alpine
+9. Daniel Ricciardo --- McLaren
+10. Lance Stroll --- Aston Martin
+11. Sebastian Vettel --- Aston Martin
+12. Pierre Gasly --- Alpha Tauri
+13. Alex Albon --- Williams
+14. Valteri Bottas --- Alfa Romeo
+15. Mick Schumacher --- Haas
+16. Guanyu Zhou --- Alfa Romeo (DNF)
+17. Nicholas Latifi --- Williams (DNF)
+18. Kevin Magnussen --- Haas (DNF)
+19. Charles LeClerc --- Ferrari (DNF)
+20. Yuki Tsunoda --- Alpha Tauri (DNF)
+
+** 2022-07-10 Austrian Grand Prix
+
+*** Track Info
+- Red Bull Ring
+- 2.68 miles
+
+*** Tires
+- C5, C4, C3
+- Softest compounds
+
+*** Sprint Qualifying
+- 23 laps
+- Starting grid
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. George Russell --- Mercedes
+  5. Esteban Ocon --- Alpine
+  6. Kevin Magnussen --- Haas
+  7. Mick Schumacher --- Haas
+  8. Fernando Alonso --- Alpine
+  9. Lewis Hamilton --- Mercedes
+  10. Pierre Gasly --- Alpha Tauri
+  11. Alex Albon --- Williams
+  12. Valteri Bottas --- Alfa Romeo
+  13. Sergio Perez --- Red Bull
+  14. Yuki Tsunoda --- Alpha Tauri
+  15. Lando Norris --- McLaren
+  16. Daniel Ricciardo --- McLaren
+  17. Lance Stroll --- Aston Martin
+  18. Guanyu Zhou --- Alfa Romeo
+  19. Nicholas Latifi --- Williams
+  20. Sebastian Vettel --- Aston Martin
+- Sergio Perez starts in the back because his Q2 qualifying time was deleted for exceeding track limits
+- Lewis Hamilton crashed in Q3
+- Most cars are starting on the medium tires --- softs are faster, but may fade towards the end
+- Fernando Alonso has to start from the pit lane when his car didn't start for the formation lap
+- Guanyu Zhou's engine shuts off on the way to the grid and he also has to start from the pit lane
+- Fernando Alonso retires from the race before it even starts
+- Lap 1
+  - Carlos Sainz pressures Verstappen hard
+  - Pierre Gasly spins out
+  - After challenging for the lead, Carlos Sainz falls back to third
+  - Max Verstappen survives the challenge from the Ferraris and builds a small lead
+  - Sergio Perez makes up 5 places and is in 8th at the end of the first lap
+- Lap 6 --- Carlos Sainz attempts to make a move on Charles LeClerc
+- Lap 7 --- Another tussle between Charles LeClerc and Carlos Sainz
+  - /Really wonder why Ferrari isn't using team orders to put a stop to this/
+  - /This is fun to watch, but I have to wonder why Ferrari are allowing it/
+- Lap 8 --- Alex Albon gets a 5sec penalty for forcing Lando Norris off the track earlier
+- Lap 9 --- Beautiful pass by Sergio Perez on Mick Schumacher
+- Lap 11 --- Yellow flag as Sebastian Vettel goes into a gravel trap
+  - Made contact with Alex Albon
+- Lap 12 --- Perez passes Esteban Ocon for 5th
+- Mick Schumacher has done a really good job defending against Lewis Hamilton
+- Lap 21 --- Sebastian Vettel retires with car damage
+- Lap 22 --- Hamilton finally passes Mick Schumacher after a 8 lap battle
+- Results
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. George Russell --- Mercedes
+  5. Sergio Perez --- Red Bull
+  6. Esteban Ocon --- Alpine
+  7. Kevin Magnussen --- Haas
+  8. Lewis Hamilton --- Mercedes
+  9. Mick Schumacher --- Haas
+  10. Valteri Bottas --- Alfa Romeo
+  11. Lando Norris --- McLaren
+  12. Daniel Ricciardo --- McLaren
+  13. Lance Stroll --- Aston Martin
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Pierre Gasly --- Alpha Tauri
+  16. Alex Albon --- Williams (5 sec. penalty)
+  17. Yuki Tsunoda --- Alpha Tauri
+  18. Nicholas Latifi --- Williams
+  19. Sebastian Vettel --- Aston Martin (DNF)
+  20. Fernando Alonso --- Alpine (DNS)
+
+*** Race
+- 71 laps
+- Starting Grid
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. George Russell --- Mercedes
+  5. Sergio Perez --- Red Bull
+  6. Esteban Ocon --- Alpine
+  7. Kevin Magnussen --- Haas
+  8. Lewis Hamilton --- Mercedes
+  9. Mick Schumacher --- Haas
+  10. Lando Norris --- McLaren
+  11. Daniel Ricciardo --- McLaren
+  12. Lance Stroll --- Aston Martin
+  13. Guanyu Zhou --- Alfa Romeo
+  14. Pierre Gasly --- Alpha Tauri
+  15. Alex Albon --- Williams 
+  16. Yuki Tsunoda --- Alpha Tauri
+  17. Nicholas Latifi --- Williams
+  18. Sebastian Vettel --- Aston Martin
+  19. Fernando Alonso --- Alpine (engine penalty)
+  20. Valteri Bottas --- Alfa Romeo (pit lane start)
+- /So much orange smoke/
+- Lap 1
+  - Max Verstappen gets away well
+  - George Russell attacking Carlos Sainz early
+  - George Russell and Sergio Perez make contact, and Perez spins off into the gravel
+- Significant car damage on Perez after that contact
+- Lap 10 --- Charles LeClerc has been following Max Verstappen closely for a few laps, attempts a pass
+- George Russell gets a 5 second penalty for causing the contact with Sergio Perez
+- Lap 12 --- Charles LeClerc passes Max Verstappen for the lead
+- Lap 13 --- Verstappen pits
+  - /Seems like a really early pit stop/
+  - /Are Red Bull doing a 2-stop strategy?/
+- Lap 15 --- Lewis Hamilton has been carving his way up the order --- is in 4th place
+- Lap 19 --- Verstappen passes Lewis Hamilton for 3rd
+- Lots of cars picking up violations for track limits
+- Lap 24 --- Excellent fight between Kevin Magnussen, Guanyu Zhou, Mick Schumacher, Lando Norris and Fernando Alsonso for positions 8-12
+- Lap 26 --- Sergio Perez retires --- car was too damaged after turn 1 collision
+- Lap 27 --- Charles LeClerc pits from the lead; comes out in 3rd
+- /Ferrari are going for a 1-stop strategy while Red Bull appear to be going for a 2-stop/
+- Lap 28 --- Carlos Sainz pits, comes out in 4th, behind Lewis Hamilton
+- Lap 29 --- Lewis Hamilton pits
+- Lap 33 --- Charles LeClerc passes Max Verstappen for the lead
+- Lots of cars are picking up 5 sec. penalties for track limits
+- Lap 37 --- Max Verstappen stops again
+- Lap 40 --- Sebastian Vettel goes into the gravel after contact with Pierre Gasly
+- Lap 49 --- Charles LeClerc pits again
+  - /LeClerc will be coming out behind Max Verstappen/
+- Lap 52 --- Lewis Hamilton pits
+  - /Lewis had a free pit stop, with a 37s gap to Esteban Ocon/
+  - Puts on medium tires
+  - /Will be a sprint to the finish/
+- Lap 53 --- LeClerc passes Verstappen again for the lead
+- Lap 57 --- Carlos Sainz's engine goes; car is on fire?!
+  - /Marshals have a hard time putting out fire because the car keeps rolling/
+  - Virtual safety car declared
+- Lap 58 --- LeClerc and Verstappen both pit and go onto medium tires
+- LeClerc complains of issues with his throttle pedal
+
+*** Results
+1. Charles LeClerc --- Ferrari
+2. Max Verstappen --- Red Bull
+3. Lewis Hamilton --- Mercedes
+4. George Russell --- Mercedes
+5. Esteban Ocon --- Alpine
+6. Mick Schumacher --- Haas
+7. Lando Norris --- McLaren
+8. Kevin Magnussen --- Haas
+9. Daniel Ricciardo --- McLaren
+10. Fernando Alonso --- Alpine
+11. Valteri Bottas --- Alfa Romeo
+12. Alex Albon --- Williams
+13. Lance Stroll --- Aston Martin
+14. Guanyu Zhou --- Alfa Romeo
+15. Pierre Gasly --- Alpha Tauri
+16. Yuki Tsunoda --- Alpha Tauri
+17. Sebastian Vettel --- Aston Martin
+18. Carlos Sainz --- Ferrari (DNF)
+19. Nicholas Latifi --- Williams (DNF)
+20. Sergio Perez --- Red Bull (DNF)
+
+** 2022-07-03 British Grand Prix
+
+*** Track Info
+- Silverstone
+- 3.66 miles
+
+*** Tires
+- C3, C2, C1
+- Hardest in the range
+- /Note that the hard tire from Canada is the soft tire here/
+
+*** Qualifying
+
+**** Q1
+- Wet qualifying
+- Cars are out on intermediate tires
+- Cars are going out early to get laps in before potential yellow or red flags
+- Pretty quiet Q1
+- Eliminated in Q1
+  - Alex Albon --- Williams
+  - Kevin Magnussen --- Haas
+  - Sebastian Vettel --- Aston Martin
+  - Mick Schumacher --- Haas
+  - Lance Stroll --- Aston Martin
+- /Aston Martin have not been doing well in wet qualifying/
+- /Nicholas Latifi outqualifies Alex Albon for the first time/
+
+**** Q2
+- Rain intensity has increased
+- Cars are going between .6 and 1 second slower than they were in Q1
+- Eliminated in Q2
+  - Pierre Gasly --- Alpha Tauri
+  - Valteri Bottas --- Alfa Romeo
+  - Yuki Tsunoda --- Alpha Tauri
+  - Daniel Ricciardo --- McLaren
+  - Esteban Ocon --- Alpine
+- /Somewhat surprised to see both Alpha Tauri cars out in Q2/
+
+**** Q3
+- Rain has stopped
+- Max Verstappen has a fairly spectacular spin
+- Final top 10
+  1. Carlos Sainz --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Charles LeClerc --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Lewis Hamilton --- Mercedes
+  6. Lando Norris --- McLaren
+  7. Fernando Alonso --- Alpine
+  8. George Russell --- Mercedes
+  9. Guanyu Zhou --- Alfa Romeo
+  10. Nicholas Latifi --- Williams
+- /Good to see Williams in the top 10 once again/
+- /McLaren also seem to have improved, though Daniel Ricciardo is still underperforming/
+
+*** Race
+- 52 laps
+- Starting Grid
+  1. Carlos Sainz --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Charles LeClerc --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Lewis Hamilton --- Mercedes
+  6. Lando Norris --- McLaren
+  7. Fernando Alonso --- Alpine
+  8. George Russell --- Mercedes
+  9. Guanyu Zhou --- Alfa Romeo
+  10. Nicholas Latifi --- Williams
+  11. Pierre Gasly --- Alpha Tauri
+  12. Valteri Bottas --- Alfa Romeo
+  13. Yuki Tsunoda --- Alpha Tauri
+  14. Daniel Ricciardo --- McLaren
+  15. Esteban Ocon --- Alpine
+  16. Alex Albon --- Williams
+  17. Kevin Magnussen --- Haas
+  18. Sebastian Vettel --- Aston Martin
+  19. Mick Schumacher --- Haas
+  20. Lance Stroll --- Aston Martin
+- Interesting mix of compounds
+  - Max starting on soft tires
+  - Most other cars on medium tires
+  - George Russell starting on hard tires
+- Charles LeClerc had an ECU issue, but it was resolved
+- Lap 1
+  - Max Verstappen gets a great start and takes the lead
+  - Lewis Hamilton jumps up into 3rd at the beginning
+  - *Huge crash* as Guanyu Zhou's car flips, and tumbles into the catch fencing at the side of the track
+  - /That is the scariest crash this side of Roman Grosjean's crash in 2020/
+  - George Russell is out
+  - Yuki Tsunoda's Alpha Tauri also has significant damage
+  - Esteban Ocon's car also has damage
+  - Race will restart in grid order, because they didn't complete a lap before the race was red-flagged
+  - George Russel, Alex Albon and Guanyu Zhou are all out
+- Lap 2
+  - Race restarts
+  - Contact between Sergio Perez and Charles Leclerc --- front wing damage to Perez's car
+- Lap 5 --- Perez pits to repair his front wing
+- Lap 6 --- Lewis Hamilton passes Lando Norris for 4th
+- Lap 10 --- Max Verstappen passes Carlos Sainz for the lead after Carlos goes wide at the start of the Hangar Straight
+- Lap 11 --- Alpha Tauri cars come together and both spin
+- Lap 12
+  - Max Verstappen slows down for some reason
+  - Carlos Sainz passes him for the lead
+  - Verstappen pits with a puncture
+- Verstappen wondering if his car is broken --- informed that he has some bodywork damage, but the car is structurally fine
+- Lap 13 - 21 --- Charles LeClerc and Carlos Sainz are battling for the lead
+- Lap 21 --- Carlos Sainz pits
+- Lap 22 --- Valteri Bottas retires with mechanical problems
+- Lap 24 --- Verstappen pits once again, and goes onto hard tires
+- Lap 25 --- LeClerc pits, Hamilton takes the lead
+- Ferrari refuse to use team orders
+- Lap 34 --- Lewis Hamilton pits
+- Lap 39 --- Esteban Ocon stop with a mechanical problem --- safety car comes out
+  - Carlos Sainz and Lewis Hamilton both pit
+- Lap 42 --- Safety car ends
+- Lap 43 --- Racing resumes
+  - Perez jumps Hamilton for third
+  - Sainz jumps LeClerc for the lead
+  - /Very exciting racing/
+- Lap 45 --- Exciting 3-way fight between Sergio Perez, Lewis Hamilton and Charles LeClerc, for 2nd, 3rd, 4th
+  - Perez battling with LeClerc for 2nd
+  - Hamilton jumps them
+- Lap 46 --- Sergio Perez fights back, and he and LeClerc pass Hamilton
+- Lap 48 --- Hamilton passes LeClerc for 3rd
+- /First win for Carlos Sainz/
+- /Amazing recovery for Sergio, coming back from basically last place/
+- /Mick Schumacher got points!/
+
+*** Results
+1. Carlos Sainz --- Ferrari
+2. Sergio Perez --- Red Bull
+3. Lewis Hamilton --- Mercedes
+4. Charles LeClerc --- Ferrari
+5. Fernando Alonso --- Alpine
+6. Lando Norris --- McLaren
+7. Max Verstappen --- Red Bull
+8. Mick Schumacher --- Haas
+9. Sebastian Vettel --- Aston Martin
+10. Kevin Magnussen --- Haas
+11. Lance Stroll --- Aston Martin
+12. Nicholas Latifi --- Williams
+13. Daniel Ricciardo --- McLaren
+14. Yuki Tsunoda --- Alpha Tauri
+15. Esteban Ocon --- Alpine (DNF)
+16. Pierre Gasly --- Alpha Tauri (DNF)
+17. Valteri Bottas --- Alfa Romeo (DNF)
+18. George Russell --- Mercedes (DNF)
+19. Guanyu Zhou --- Alfa Romeo (DNF)
+20. Alex Albon --- Williams (DNF)
+
+** 2022-06-19 Canadian Grand Prix
+
+*** Track Info
+- Circuit Gilles Villeneuve
+- 2.71 miles
+
+*** Tires
+- C5, C4, C3
+- Softest in the range
+
+*** Qualifying
+
+**** Q1
+- Wet qualifying!
+- Cold track --- 18°C
+- Standing water on the track
+- Charles LeClerc will be starting from the back of the grid due to power unit penalties
+- Yuki Tsunoda will start at the back for the same reason
+- All cars out on full wet tires
+- Eliminated in Q1
+  - Pierre Gasly --- Alpha Tauri
+  - Sebastian Vettel --- Aston Martin
+  - Lance Stroll --- Aston Martin
+  - Nicholas Latifi --- Williams
+  - Yuki Tsunoda --- Alpha Tauri
+- Both Aston Martins and Alpha Tauris eliminated in Q1
+- Nicholas Latifi is outqualified by Alex Albon yet again
+
+**** Q2
+- Some cars out on intermediate tires
+- Alex Albon and Sergio Perez both crash on intermediate tires
+  - Albon's crash wasn't severe --- managed to back up and rejoin the track, car appears undamaged
+  - Perez's crash was a bit harder --- car gets stuck in the barrier
+  - Perez is out of qualifying, will start in 15th
+- Both Perez and Albon were on intermediate tires; intermediate is faster, but if you make a mistake, you go off very quickly
+- Lando Norris out with engine trouble, comes back for one lap, then goes back into the pits again
+- Eliminated in Q2
+  - Valteri Bottas --- Alfa Romeo
+  - Alex Albon --- Williams
+  - Sergio Perez --- Red Bull
+  - Lando Norris --- McLaren
+  - Charles LeClerc --- Ferrari
+- Lando Norris had power unit issues
+- Charles LeClerc will be starting from the back of the grid anyway, so he didn't participate in Q2
+- /Both Haas cars in the top 10/
+- /Fernando Alonso is putting in some great lap times, but Verstappen is still fastest overall/
+
+**** Q3
+- Track has dried out quite a bit, but cars are still coming out on intermediate tires
+- Might see someone with slicks towards the end of the session
+- Max Verstappen and Carlos Sainz are both very fast
+- Alonso is behind them
+- George Russell goes out on slick soft tires
+- George Russell spins out, hits the barrier and damages his rear wing
+- /Looks like the track wasn't ready for slick tires after all/
+- Final top 10 qualifying results
+  1. Max Verstappen --- Red Bull
+  2. Fernando Alonso --- Alpine
+  3. Carlos Sainz --- Ferrari
+  4. Lewis Hamilton --- Mercedes
+  5. Kevin Magnussen --- Haas
+  6. Mick Schumacher --- Haas
+  7. Esteban Ocon --- Alpine
+  8. George Russell --- Mercedes
+  9. Daniel Ricciardo --- McLaren
+  10. Guanyu Zhou --- Alfa Romeo
+- /Fernando Alonso put in a brilliant final lap in qualifying/
+- /Really nice to see the two Haas cars in the top 10, with Kevin Magnussen in the top 5/
+- /The decision to put on slick tires for George Russell was pretty dumb --- there were huge puddles on the track, even if he hadn't skidded, he'd have had to slow down so much for those areas it wouldn't have been worth it/
+
+*** Race
+- 70 laps
+- Starting Grid
+  1. Max Verstappen --- Red Bull
+  2. Fernando Alonso --- Alpine
+  3. Carlos Sainz --- Ferrari
+  4. Lewis Hamilton --- Mercedes
+  5. Kevin Magnussen --- Haas
+  6. Mick Schumacher --- Haas
+  7. Esteban Ocon --- Alpine
+  8. George Russell --- Mercedes
+  9. Daniel Ricciardo --- McLaren
+  10. Guanyu Zhou --- Alfa Romeo
+  11. Valteri Bottas --- Alfa Romeo
+  12. Alex Albon --- Williams
+  13. Sergio Perez --- Red Bull
+  14. Lando Norris --- McLaren
+  15. Pierre Gasly --- Alpha Tauri
+  16. Sebastian Vettel --- Aston Martin
+  17. Lance Stroll --- Aston Martin
+  18. Nicholas Latifi --- Williams
+  19. Charles LeClerc --- Ferrari
+  20. Yuki Tsunoda --- Alpha Tauri
+- Weather is sunny and dry
+- Hard tires are favored
+- Mixed up grid, with fast cars, such as Sergio Perez and Charles LeClerc out of position
+- Overtaking is possible on this track
+- All teams have lots of tires given that qualifying was in the wet, so there'll be lots of flexibility in strategy
+- 20°C air temperature, so overheating won't be an issue
+- Lap 1
+  - Verstappen gets a good launch, pulls ahead of Alonso
+  - Cars are going two-wide into turn 3
+  - Hamilton challenges Sainz for 3rd
+  - Clean start
+  - Sergio Perez passes Alex Albon for 11th
+  - George Russell passes Mick Schumacher for 6th
+  - Valteri Bottas drops two places
+  - Charles LeClerc up two place
+- Lap 2 --- Kevin Magnussen has front-wing damage --- picked up with contact with Lewis Hamilton on the first lap
+- Lap 3 --- Carlos Sainz passes Fernando Alonso for 2nd
+- Lap 4 --- Pierre Gasly might have a technical issue --- asked to lift and coast when possible to manage his car
+- Lap 5 --- Charles LeClerc has advanced to 16th
+- Lap 6 --- Kevin Magnussen shown a black-and-orange flag and asked to come in to replace his front wing
+  - /That's really unfortunate; he qualified so well!/
+  - Gasly and Vettel both pit and switch to hard tires
+- Lap 8 --- Sergio Perez's engine quits and he coasts to a stop in the run-off area around Turn 8
+  - Looks like it was actually a gearbox issue
+  - /More Red Bull reliability issues?/
+- Lap 9 --- VSC declared
+  - Verstappen pits
+  - Hamilton pits
+  - Neither Alonso nor Sainz stopped
+  - Verstappen comes out into 3rd
+- Lap 10 --- VSC ends
+- Lap 16 --- Verstappen passes Alonso for 2nd
+- Lap 18 --- Bottas and LeClerc pass Albon
+  - Bottas moves up into 10th
+  - LeClerc moves up into 11th
+  - Albon drops into 12th
+- LeClerc is having issues with his differential; causing
+- Lap 20 --- Mick Schumacher has stopped after being passed by Guanyu Zhou
+  - Mechanical failure (/More Ferrari reliability issues?/)
+  - VSC declared
+  - George Russell pits, goes out on hard tires
+  - Esteban Ocon pits
+  - Lando Norris pits, has a very slow pit stop
+  - Sebastian Vettel pits again
+  - Alonso still hasn't stopped
+  - /Mick Schumacher is cursed/
+  - Carlos Sainz pits, comes out in third, Verstappen retakes the lead
+- Ferrari might be thinking that Verstappen went in too early, and that he'll have to pit again
+- Surprised that Alonso didn't use either of the VSCs to pit
+- Lap 22 --- LeClerc is up into 8th, but he hasn't come into the pits
+  - Passes Bottas for 7th
+- Lap 23 --- Sainz passes Alonso for 2nd once again
+- Lap 24 --- Hamilton passes Alonso for 3rd
+- Lap 29 --- Fernando Alonso pits
+  - /Really weird strategy by Alpine/
+  - /They gave up two VSCs and are pitting Alonso under green flag racing/
+  - /Might be thinking that they can do a one-stop, whereas others are now locked into a two-stop strategy by pitting early/
+- Alonso comes out behind Charles LeClerc in 7th
+- LeClerc complaining about rear traction
+- Ocon's Alpine is getting much better exits out of the corners
+- Lap 40 --- Charles LeClerc is still behind Esteban Ocon
+- Lap 42 --- LeClerc pits again
+  - Slow pit stop --- 5.3s
+- Lap 43 --- Verstappen pits again
+  - Comes out in 3rd, behind Hamilton
+- Lap 44 --- Hamilton pits again
+  - Comes out 4th behind George Russell
+- Lap 46 --- George Russell pits
+  - Comes out behind Lewis Hamilton in 4th
+- Sainz is out in the lead, but his will be very worn by the end of the race
+- Lap 47 --- LeClerc passes Guanyu Zhou for 9th
+- Lap 49 --- Yuki Tsunoda is out
+  - Full safety car declared
+  - Carlos Sainz pits
+  - Comes out 2nd, behind Verstappen
+  - /The timing of this safety car has worked out excellently for Sainz/
+  - /He's in 2nd, but he has fresh tires/
+- Lap 50 --- Esteban Ocon stops again, as does Alonso
+- Lap 54 --- Safety car ends
+- Lap 55 --- Racing resumes
+  - Verstappen holds the lead during the restart
+  - Sainz stays within DRS range
+  - Hamilton is also within DRS range of Sainz
+- Lap 57 --- DRS enabled
+- Exciting battle between Sainz and Verstappen for the lead
+- Lap 60 --- Charles LeClerc passes Esteban Ocon for 5th
+- Last 15 laps were a great battle for the lead
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Carlos Sainz --- Ferrari
+3. Lewis Hamilton --- Mercedes
+4. George Russell --- Mercedes
+5. Charles LeClerc --- Ferrari
+6. Esteban Ocon --- Alpine
+7. Valteri Bottas --- Alfa Romeo
+8. Guanyu Zhou --- Alfa Romeo
+9. Fernando Alonso --- Alpine
+10. Lance Stroll --- Aston Martin
+11. Daniel Ricciardo --- McLaren
+12. Sebastian Vettel --- Aston Martin
+13. Alex Albon --- Williams
+14. Pierre Gasly --- Alpha Tauri
+15. Lando Norris --- McLaren
+16. Nicholas Latifi --- Williams
+17. Kevin Magnussen --- Haas
+18. Yuki Tsunoda --- Alpha Tauri (DNF)
+19. Mick Schumacher --- Haas (DNF)
+20. Sergio Perez --- Red Bull (DNF)
+
+** 2022-06-12 Azerbaijan Grand Prix
+
+*** Track Info
+- Baku City Circuit
+- 3.73 miles
+
+*** Tires
+- C5, C4, C3
+- Softest compounds in the range
+- /Tire wear might be an issue, given how fast the back straight is/
+
+*** Qualifying
+
+**** Q1
+- Start of qualifying was delayed by 15 minutes because of an incident in the support race
+- Mercedes are taking longer to warm up their tires
+- Lance Stroll goes into the barriers, but the car doesn't appear to be damaged
+- Lance Stroll crashes again, significant debris on the track
+- /Was his car damaged by the first crash or something?/
+- Eliminated in Q1
+  - Kevin Magnussen --- Haas
+  - Alex Albon --- Williams
+  - Nicholas Latifi --- Williams
+  - Lance Stroll --- Aston Martin
+  - Mick Schumacher --- Haas
+
+**** Q2
+- Sebastian Vettel hits the wall, but doesn't damage his car
+- Some other minor incidents with Lando Norris and Yuki Tsunoda having to take to the escape road when they miss corners
+- Eliminated in Q2
+  - Lando Norris --- McLaren
+  - Daniel Ricciardo --- McLaren
+  - Esteban Ocon --- Alpine
+  - Guanyu Zhou --- Alfa Romeo
+  - Valteri Bottas --- Alfa Romeo
+- /Bit surprising to see McLarens out in Q2/
+
+**** Q3
+- Ferrari and Red Bull trading fastest laps
+- Final Top 10 qualifying results
+  1. Charles LeClerc --- Ferrari
+  2. Sergio Perez --- Red Bull
+  3. Max Verstappen --- Red Bull
+  4. Carlos Sainz --- Ferrari
+  5. George Russell --- Mercedes
+  6. Pierre Gasly --- Alpha Tauri
+  7. Lewis Hamilton --- Mercedes
+  8. Yuki Tsunoda --- Alpha Tauri
+  9. Sebastian Vettel --- Aston Martin
+  10. Fernando Alonso --- Alpine
+- Sergio Perez outqualifies Max Verstappen once again
+- LeClerc continues his qualifying performance
+
+*** Race
+- 51 laps
+- Starting grid
+  1. Charles LeClerc --- Ferrari
+  2. Sergio Perez --- Red Bull
+  3. Max Verstappen --- Red Bull
+  4. Carlos Sainz --- Ferrari
+  5. George Russell --- Mercedes
+  6. Pierre Gasly --- Alpha Tauri
+  7. Lewis Hamilton --- Mercedes
+  8. Yuki Tsunoda --- Alpha Tauri
+  9. Sebastian Vettel --- Aston Martin
+  10. Fernando Alonso --- Alpine
+  11. Lando Norris --- McLaren
+  12. Daniel Ricciardo --- McLaren
+  13. Esteban Ocon --- Alpine
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Valteri Bottas --- Alfa Romeo
+  16. Kevin Magnussen --- Haas
+  17. Alex Albon --- Williams
+  18. Nicholas Latifi --- Williams
+  19. Lance Stroll --- Aston Martin
+  20. Mick Schumacher --- Haas
+- Most cars are starting on medium tires, but some at the back are starting on hard tires in order to go longer into the race
+- Lap 1
+  - Perez passes LeClerc as LeClerc locks up going into turn 1
+- Lap 3: Nicholas Latifi gets a 10-second stop-go penalty for a starting grid infringement
+- Lap 9
+  - Carlos Sainz stopped in turn 4
+  - Looks like mechanical failure
+- Lap 10
+  - Virtual Safety Car deployed
+  - Charles LeClerc pits, slow pit stop --- 5.4 sec
+  - Lots of others pit as well
+  - Notably Red Bull does not pit
+- Lap 13 --- Sebastian Vettel tries to pass Esteban Ocon into turn 3, locks up, goes wide and loses 3 places
+- Lap 15 --- Verstappen passes Perez for the lead
+  - Verstappen was gaining hard on Perez, and Perez was told not to fight him for the lead
+- LeClerc is in full attack mode, gaining on Perez and Verstappen fast
+- Lap 17 --- Sergio Perez pits --- another slow pit stop
+- Lap 18
+  - Great pass by Lewis Hamilton on Esteban Ocon for 9th
+  - Max Verstappen pits
+- Lap 20
+  - Charles LeClerc's engine is blowing smoke
+  - Manages to limp back to the pits and retires
+- Lap 22 --- Pierre Gasly passes Daniel Ricciardo for 4th
+- Lap 24 --- Guanyu Zhou has to retire
+  - /Significant because the Alfa Romeos are also Ferrari powered, and Valteri Bottas had issues with his engine earlier as well/
+- Lap 26 --- Lewis Hamilton passes Daniel Ricciardo for 5th
+- Lap 33 --- Kevin Magnussen has to stop with engine failure
+  - /Another Ferrari bites the dust/
+  - Virtual Safety Car deployed
+- Lap 34
+  - Max Verstappen pits
+  - Sergio Perez pits
+- Lap 35 --- VSC ends
+- Lap 38 --- Yuki Tsunoda's rear wing is broken
+- Lap 39 --- Yuki Tsunoda comes in to the pits and they speed-tape his wing back together and tell him not to use DRS
+- Lap 41 --- Verstappen trolling on the radio
+  - Verstappen also told not to use DRS
+  - Could he have the same issue as Tsunoda?
+- Lap 48 --- Lance Stroll retires with issues with "oscillations"
+- Max Verstappen wins
+- Sergio Perez gets the fastest lap
+- /So wait, what happened with Yuki Tsunoda's car?/
+
+*** Results
+1. Max Verstappen
+2. Sergio Perez
+3. George Russell
+4. Lewis Hamilton
+5. Pierre Gasly
+6. Sebastian Vettel
+7. Fernando Alonso
+8. Daniel Ricciardo
+9. Lando Norris
+10. Esteban Ocon
+11. Valteri Bottas
+12. Alex Albon
+13. Yuki Tsunoda
+14. Mick Schumacher
+15. Nicholas Latifi
+16. Charles LeClerc (DNF)
+17. Carlos Sainz (DNF)
+18. Guanyu Zhou (DNF)
+19. Kevin Magnussen (DNF)
+20. Lance Stroll (DNF)
+
+** 2022-05-29 Monaco Grand Prix
+
+*** Track Info
+- Circuit de Monaco
+- 2.07 miles
+
+*** Tires
+- C5, C4, C3
+- Softest compounds in the range
+- /Makes sense, this is a slow, short track/
+
+*** Qualifying
+
+**** Q1
+- Traffic is going to be an issue in Q1
+- Might see penalties for impeding
+- Session red-flagged after Tsunoda hits the wall and the marshals need to check the barrier and remove debris
+- Eliminated in Q1
+  - Alex Albon --- Williams
+  - Pierre Gasly --- Alpha Tauri
+  - Lance Stroll --- Aston Martin
+  - Nicholas Latifi --- Williams
+  - Guanyu Zhou --- Alfa Romeo
+- /Both Williams out in Q1, though, for a while it seemed like Albon might make it into Q2/
+- /Guanyu Zhou might have been the victim of bad luck, given that he was disadvantaged by the red flag/
+- /Lando Norris look quite fast/
+
+**** Q2
+- Eliminated in Q2
+  - Yuki Tsunoda --- Alpha Tauri
+  - Valteri Bottas --- Alfa Romeo
+  - Kevin Magnussen --- Haas
+  - Daniel Ricciardo -- McLaren
+  - Mick Schumacher --- Haas
+- /No Haas in Q3 this time, unfortunately/
+- /Surprised to see Valteri out in Q2/
+- /Daniel Ricciardo's qualifying woes continue/
+- /Alpine doing well as well/
+
+**** Q3
+- /It's been a quiet qualifying thus far/
+  - /No crashes/
+  - /No blatant instances of obstruction/
+- /Lol LeClerc is such an angry little man/
+- Session ends with a red flag
+  - Sergio Perez crashes right at the very end at Portier
+  - Carlos Sainz skids and gently slides into the Red Bull as well
+- /Hopefully Perez's gearbox isn't damaged/
+- Final Top 10 Qualifying Results
+  1. Charles LeClerc --- Ferrari
+  2. Carlos Sainz --- Ferrari
+  3. Sergio Perez --- Red Bull
+  4. Max Verstappen --- Red Bull
+  5. Lando Norris --- McLaren
+  6. George Russell --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. Lewis Hamilton --- Mercedes
+  9. Sebastian Vettel --- Aston Martin
+  10. Esteban Ocon --- Alpine
+- /Sergio Perez outqualifies Max Verstappen --- that's surprising/
+
+*** Race
+- 77 laps
+- Starting Grid
+  1. Charles LeClerc --- Ferrari
+  2. Carlos Sainz --- Ferrari
+  3. Sergio Perez --- Red Bull
+  4. Max Verstappen --- Red Bull
+  5. Lando Norris --- McLaren
+  6. George Russell --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. Lewis Hamilton --- Mercedes
+  9. Sebastian Vettel --- Aston Martin
+  10. Esteban Ocon --- Alpine
+  11. Yuki Tsunoda --- Alpha Tauri
+  12. Valteri Bottas --- Alfa Romeo
+  13. Kevin Magnussen --- Haas
+  14. Daniel Ricciardo --- McLaren
+  15. Mick Schumacher --- Haas
+  16. Alex Albon --- Williams
+  17. Pierre Gasly --- Alpha Tauri
+  18. Lance Stroll --- Aston Martin
+  19. Nicholas Latifi --- Williams
+  20. Guanyu Zhou --- Alfa Romeo
+- Will be starting on a wet track, but is not currently raining
+- Start procedure altered
+- Cars starting on intermediate tires, with some starting on full wet tires
+- Formation lap will occur behind the safety car
+- Race is red-flagged after the formation lap as the rain intensifies
+- Race starts behind safety car --- starts on lap 2
+- All cars start the race on full wet tires
+- Lap 3 --- Lance Stroll and Nicholas Latifi pit and go onto intermediate tires
+- Lap 7 --- Sebastian Vettel and Yuki Tsunoda pit for intermediates
+- Lap 12-14 --- Great passes from Pierre Gasly who switched to intermediat tires early
+- Lap 16 --- Lewish Hamilton pits and goes onto intermediate tires
+- Lap 17 --- Sergio Perez pits and goes onto intermediate tires
+- Lap 18 --- Lando Norris pits and goes onto intermediate tires
+  - /I think this is a questionable choice/
+  - /The sun is out and the track is drying rapidly; I think staying out for a couple of laps and then going onto full slicks would have been the right choice/
+- Lap 19 --- Charles LeClerc and Max Verstappen also pit and go onto intermediate tires
+- Carlos Sainz is staying out and waiting until he can go to slicks
+- Lap 20 --- Alex Albon pits and goes to hard slicks
+- Lap 21 --- Carlos Sainz pits and goes onto hard slicks
+  - Charles LeClerc also pits and goes out on hard tires
+  - /Was that too soon?/
+- Lap 22 --- Sergio Perez and Max Verstappen pit and go onto hard tires
+  - Importantly, Sergio Perez comes out ahead of Carlos Sainz and Max Verstappen comes out ahead of Charles LeClerc
+  - Red Bull did an overcut strategy over Ferrari
+- Lap 27 --- *Big crash* with Mick Schumacher's Haas
+- Lap 28 --- Safety car comes out
+- Lap 30 --- Race is red-flagged so they can repair the barrier
+- /Ferrari's strategy calls have been kind of a fiasco/
+- Rain delay and red flag might mean that race ends on time, rather than laps
+- Cars coming out with medium and hard tires
+- Race resumes behind a safety car
+- Lap 32 --- Safety car comes in
+- Lap 33 --- Sergio Perez locks up after the restart, going into Mirabeau
+- Fernando Alonso is going very slowly for some reason --- 3 seconds a lap slower than the leaders
+- Race switches to time control: T-30 minutes
+- T-9m --- Sergio Perez's tires are looking very degraded
+- Race ends after 64 laps, which means that full points are awarded
+
+*** Results
+1. Sergio Perez --- Red Bull
+2. Carlos Sainz --- Ferrari
+3. Max Verstappen --- Red Bull
+4. Charles LeClerc --- Ferrari
+5. George Russell --- Mercedes
+6. Lando Norris --- McLaren
+7. Fernando Alonso --- Alpine
+8. Lewis Hamilton --- Mercedes
+9. Valteri Bottas --- Alfa Romeo
+10. Sebastian Vettel --- Aston Martin
+11. Pierre Gasly --- Alpha Tauri
+12. Esteban Ocon --- Alpine
+13. Daniel Ricciardo --- McLaren
+14. Lance Stroll --- Aston Martin
+15. Nicholas Latifi --- Williams
+16. Guanyu Zhou --- Alfa Romeo
+17. Yuki Tsunoda --- Alpha Tauri
+18. Alex Albon --- Williams
+19. Mick Schumacher --- Haas (DNF)
+20. Kevin Magnussen --- Haas (DNF)
+
+** 2022-05-22 Spanish Grand Prix
+
+*** Track Info
+- Circuit de Barcelona Catalunya
+- 2.90 mile track
+
+*** Tires
+- C3, C2, C1
+- Hardest compounds in the range
+- High track temperatures
+
+*** Qualifying
+
+**** Q1
+- Red Bull are fast, as are Ferrari
+- Mercedes are supposed to be fast, have some car upgrades
+- Eliminated in Q1
+  - Sebastian Vettel --- Aston Martin
+  - Fernando Alonso --- Alpine
+  - Lance Stroll --- Aston Martin
+  - Alex Albon --- Williams
+  - Nicholas Latifi --- Williams
+- Both Haas cars make it into Q2
+- /Surprised to see both Aston Martins out in Q1/
+
+**** Q2
+- Mercedes have improved a lot between Q1 and Q2
+- Eliminated in Q2
+  - Lando Norris --- McLaren
+  - Esteban Ocon --- Alpine
+  - Yuki Tsunoda --- Alpha Tauri
+  - Pierre Gasly --- Alpha Tauri
+  - Guanyu Zhou --- Alfa Romeo
+- /Kevin Magnussen puts Haas into Q3 once again!/
+- /Mick Schumacher in Q3 for the first time in his career!/
+- /Surprised to see both Alpha Tauris eliminated in Q2/
+- /Lando Norris is out of the top 10 because his flying lap was deleted for track limits/
+
+**** Q3
+- Charles LeClerc spins on his first flying lap
+- Verstappen loses power on his second flying lap, told to pit
+- /Red Bull reliability issues once again?/
+- Final top 10 qualifying results
+  1. Charles LeClerc
+  2. Max Verstappen
+  3. Carlos Sainz
+  4. George Russell
+  5. Sergio Perez
+  6. Lewis Hamilton
+  7. Valteri Bottas
+  8. Kevin Magnussen
+  9. Daniel Ricciardo
+  10. Mick Schumacher
+- /Nice to see Mercedes up in 4th/
+- /Valteri is consistently qualifying in the top 10 --- impressive to see, given that he's no longer in a Mercedes/
+
+*** Race
+- 66 laps
+- Starting grid
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Carlos Sainz --- Ferrari
+  4. George Russell --- Mercedes
+  5. Sergio Perez --- Red Bull
+  6. Lewis Hamilton --- Mercedes
+  7. Valteri Bottas --- Alfa Romeo
+  8. Kevin Magnussen --- Haas
+  9. Daniel Ricciardo --- McLaren
+  10. Mick Schumacher --- Haas
+  11. Lando Norris --- McLaren
+  12. Esteban Ocon --- Alpine
+  13. Yuki Tsunoda --- Alpha Tauri
+  14. Pierre Gasly --- Alpha Tauri
+  15. Guanyu Zhou --- Alfa Romeo
+  16. Sebastian Vettel --- Aston Martin
+  17. Lance Stroll --- Aston Martin
+  18. Alex Albon --- Williams
+  19. Nicholas Latifi --- Williams
+  20. Fernando Alonso --- Alpine (Penalty for changing power unit)
+- Lap 1
+  - Carlos Sainz loses a lot of places
+  - George Russell moves up into 3rd
+  - Sergio Perez moves up into 4th
+  - Kevin Magnussen makes contact with Lewis Hamilton and goes into the gravel
+  - Lewis Hamilton picks up a puncture, has to pit, comes back out on soft tires
+- Lap 6 --- Alpine doing well, Fernando Alonso up into 14th, Esteban Ocon up into 7th
+- Lap 7
+  - Great pass by Fernando Alonso on Sebastian Vettel
+  - Carlos Sainz spins and goes into the gravel!
+  - Drops into 11th
+  - /Spin was very similar to Charles LeClerc's spin in qualifying/
+- Lap 9 --- Max Verstappen skids wide goes into the gravel!
+  - Same spot that Sainz spun
+  - Commentators are talking about a tail wind into Turn 4 that might be unbalancing the cars
+- Lap 11 --- Carlos Sainz pits
+  - /He has to go for the undercut after that spin/
+- Lap 12 --- George Russell seeing engine overheating warnings
+- Lap 13 --- Max Verstappen's DRS isn't opening
+  - /More Red Bull reliability issues/
+- Lap 14 --- George Russell and Max Verstappen pit
+- Lap 18 --- Sergio Perez pits
+- Sergio Perez possibly on a one stop
+- Lap 21 --- Charles LeClerc pits
+- Lap 24 --- Great fight between Max Verstappen and George Russell for 2nd
+- Lap 27 --- Charles LeClerc's engine loses power, has to retire!
+- Lap 29 --- Max Verstappen pits
+- Lap 31 --- Sergio Perez passes George Russell for the lead
+- Lap 32 --- Carlos Sainz pits
+- Lap 36 --- George Russell pits
+  - /Awww, no second fight with Max/
+- Lap 37 --- Sergio Perez pits again
+- Lap 44 --- Max pits again
+- Lap 51 --- George Russell pits again
+- Lap 54 --- Sergio Perez pits again to cover off George Russell
+- Lap 59 --- Lewis Hamilton passes Carlos Sainz for 4th
+  - /Very impressive, given that he dropped to 19th after his contact with Kevin Magnussen/
+- Lap 65 --- Carlos Sainz passes Lewis Hamilton for 4th
+  - /Both Lewis and George were struggling with overheating for the entire race/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Sergio Perez --- Red Bull
+3. George Russell --- Mercedes
+4. Carlos Sainz --- Ferrari
+5. Lewis Hamilton --- Mercedes
+6. Valteri Bottas --- Alfa Romeo
+7. Esteban Ocon --- Alpine
+8. Lando Norris --- McLaren
+9. Fernando Alonso --- Alpine
+10. Yuki Tsunoda --- Alpha Tauri
+11. Sebastian Vettel --- Aston Martin
+12. Daniel Ricciardo --- McLaren
+13. Pierre Gasly --- Alpha Tauri
+14. Mick Schumacher --- Haas
+15. Lance Stroll --- Aston Martin
+16. Nicholas Latifi --- Williams
+17. Kevin Magnussen --- Haas
+18. Alex Albon --- Williams
+19. Guanyu Zhou --- Alfa Romeo (DNF)
+20. Charles LeClerc --- Ferrari (DNF)
+
+** 2022-05-08 Miami Grand Prix
+
+*** Track Info
+- Miami International Autodrome
+- 3.36 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range
+
+*** Qualifying
+
+**** Q1
+- Esteban Ocon cracked his chassis in FP3 and won't take part in qualifying
+- /McLaren, so far, is qualifying very well/
+- Eliminated in Q1
+  - Kevin Magnussen --- Haas
+  - Guanyu Zhou --- Alfa Romeo
+  - Alex Albon --- Williams
+  - Nicholas Latifi --- Williams
+  - Esteban Ocon --- Alpine
+
+**** Q2
+- Eliminated in Q2
+  - Fernando Alonso --- Alpine
+  - George Russell --- Mercedes
+  - Sebastian Vettel --- Aston Martin
+  - Daniel Ricciardo --- McLaren
+  - Mick Schumacher --- Haas
+- /Daniel Ricciardo is still underperforming/
+- /I was pretty sure that if any of the Aston Martins were going to make it into Q3, it'd be Vettel, but no, Stroll has qualified faster/
+- /Fernando Alonso misses Q3 by less than a tenth of a second/
+
+**** Q3
+- Final top 10 qualifying results
+  1. Charles LeClerc --- Ferrari
+  2. Carlos Sainz --- Ferrari
+  3. Max Verstappen --- Red Bull
+  4. Sergio Perez --- Red Bull
+  5. Valteri Bottas --- Alfa Romeo
+  6. Lewis Hamilton --- Mercedes
+  7. Pierre Gasly --- Alpha Tauri
+  8. Lando Norris --- McLaren
+  9. Yuki Tsunoda --- Alpha Tauri
+  10. Lance Stroll --- Aston Martin
+- /Standard Ferrari and Red Bull front two rows/
+- /Hamilton does better than George Russell/
+- /McLaren were looking really good early in qualifying, but faded later on/
+
+*** Race
+- 57 laps
+- Starting grid
+  1. Charles LeClerc --- Ferrari
+  2. Carlos Sainz --- Ferrari
+  3. Max Verstappen --- Red Bull
+  4. Sergio Perez --- Red Bull
+  5. Valteri Bottas --- Alfa Romeo
+  6. Lewis Hamilton --- Mercedes
+  7. Pierre Gasly --- Alpha Tauri
+  8. Lando Norris --- McLaren
+  9. Yuki Tsunoda --- Alpha Tauri
+  10. Lance Stroll --- Aston Martin (pit lane start)
+  11. Fernando Alonso --- Alpine
+  12. George Russell --- Mercedes
+  13. Sebastian Vettel --- Aston Martin (pit lane start)
+  14. Daniel Ricciardo --- McLaren
+  15. Mick Schumacher --- Haas
+  16. Kevin Magnussen --- Haas
+  17. Guanyou Zhou --- Alfa Romeo
+  18. Alexander Albon --- Williams
+  19. Nicholas Latifi --- Williams
+  20. Esteban Ocon --- Alpine
+- Aston Martin cars have to start from the pit lane because their fuel was outside the temperature range
+- Lap 1
+  - Max Verstappen jumps Carlos Sainz for second place
+  - Mercedes struggling --- George Russell has dropped to 15th
+- Lap 7 --- Guanyou Zhou has to retire with mechanical problems
+- Lap 9 --- Verstappen passes LeClerc for the lead
+- Ferrari has a lower top speed, which means that on tracks that have long straights like this one, the Red Bull has an advantage
+- Lap 12 --- Yuki Tsunoda pits
+- /Looks like the Red Bulls are easier on their tires than the Ferraris/
+- Lap 14 --- George Russell has moved up to 11th
+  - Struggled at first with tire temperature, but is fast once the tires have warmed up
+- Lap 16 --- Fernando Alonso has a really slow pit stop
+- Lap 19 --- Lando Norris pits and goes onto hards
+- Lap 20 --- Sergio Perez lost power for a bit, had to adjust a sensor, falls back from Carlos Sainz
+  - Sensor adjustment has cost Sergio Perez some power, however
+- Lap 23 --- George Russell up into 7th
+  - Lewis Hamilton pits
+- Lap 25 --- LeClerc pits
+- Lap 26 --- Max Verstappen pits
+- Lap 28 --- Carlos Sainz and Sergio Perez pit
+  - Carlos Sainz has a slow pit stop with a sticky wheel nut
+- Lap 41 --- Lando Norris and Pierre Gasly make contact
+  - Lando Norris is out of the race
+  - Safety car comes out
+  - George Russell and Sergio Perez pit and go out on medium tires
+  - Esteban Ocon pits and goes out on soft tires
+  - Pierre Gasly also has to retire from the race
+- Lap 46 --- Safety car ends
+- Lap 49 --- 55: Great fights for both 1st and 3rd
+  - Safety car restart gave Charles LeClerc an opportunity to attack Max Verstappen
+  - Sergio Perez used the safety car to put on medium tires and put himself in a position to attack Carlos Sainz
+- Lap 55 --- Mick Schumacher and Sebastian Vettel collide
+  - Vettel has to retire
+- Lap 57 --- Race ends
+  - Max Verstappen wins
+  - Ferrari 2-3 with Charles LeClerc and Carlos Sainz, respectively
+  - Sergio Perez in 4th
+  - Mercedes 5-6 with George Russell leading Lewis Hamilton
+  - Kevin Magnussen retired on the last lap
+- /I don't understand why Mercedes didn't bring Lewis Hamilton in for a pit stop as well as George Russell/
+- /This was a really unfortunate race for McLaren --- Daniel Ricciardo was mostly nowhere and Lando Norris got taken out in that collision with Pierre Gasly/
+- /Other than that, it was boring for most of the race/
+- /Only excitement was at the very beginning, when Max went up from P3 to P1, and then a bit of excitement near the very end when Charles LeClerc was coming back at him/
+- /Given how fast the Miami track is, I was surprised that there weren't more cars going off and causing yellow, or even red flags/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Charles LeClerc --- Ferrari
+3. Carlos Sainz --- Ferrari
+4. Sergio Perez --- Red Bull
+5. George Russell --- Mercedes
+6. Lewis Hamilton --- Mercedes
+7. Valteri Bottas --- Alfa Romeo
+8. Esteban Ocon --- Alpine
+9. Alex Albon --- Williams
+10. Lance Stroll --- Aston Martin
+11. Fernando Alonso --- Alpine
+12. Yuki Tsunoda --- Alpha Tauri
+13. Daniel Ricciardo --- McLaren
+14. Nicholas Latifi --- Williams
+15. Mick Schumacher --- Haas
+16. Kevin Magnussen --- Haas (DNF)
+17. Sebastian Vettel --- Aston Martin (DNF)
+18. Pierre Gasly --- Alpha Tauri (DNF)
+19. Lando Norris --- McLaren (DNF)
+20. Guanyou Zhou --- Alfa Romeo (DNF)
+
+** 2022-04-23 Emilia Romagna Grand Prix
+
+*** Track Info
+- Autodromo Internazionale Enzo e Dino Ferrari (Imola)
+- 3.05 miles
+
+*** Tires
+- C4, C3, C2
+- Middle of the range
+
+*** Sprint Qualifying
+- 21 laps
+- Starting Grid
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Lando Norris --- McLaren
+  4. Kevin Magnussen --- Haas
+  5. Fernando Alonso --- Alpine
+  6. Daniel Ricciardo --- McLaren
+  7. Sergio Perez --- Red Bull
+  8. Valteri Bottas --- Alfa Romeo
+  9. Sebastian Vettel --- Aston Martin
+  10. Carlos Sainz --- Ferrari
+  11. George Russel --- Mercedes
+  12. Mick Schumacher --- Haas
+  13. Lewis Hamilton --- Mercedes
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Lance Stroll --- Aston Martin
+  16. Yuki Tsunoda --- Alpha Tauri
+  17. Pierre Gasly --- Alpha Tauri
+  18. Nicholas Latifi --- Williams
+  19. Esteban Ocon --- Alpine
+  20. Alex Albon --- Williams
+- /This starting grid is wild because qualifying was on a wet track/
+  - /A Haas in the top 4/
+  - /The huge gaps between Max Verstappen and Sergio Perez and Charles LeClerc and Carlos Sainz/
+  - /Aston Martin ahead of the works Mercedes?/
+- Lap 1
+  - Charles LeClerc gets a great start, passes Max right at the beginning
+  - Perez makes up a lot of ground early
+  - Guanyou Zhou goes off --- safety car comes out
+  - Guanyou Zhou had contact with Pierre Gasly --- Gasly suffers a puncture on his front-right tire
+  - Lewis Hamilton drops into P15
+  - Perez moves up to P5
+- Lap 4 --- Safety car ends
+- Lap 8 --- Sergio Perez passes Kevin Magnussen easily with DRS for 4th
+- /Another race with a lot more on-track passing/
+- Lap 11 --- Sergio Perez passes Lando Norris for 3rd
+- /Sergio Perez' superior racecraft is making a difference/
+- Lap 14 --- Carlos Sainz passes Daniel Ricciardo for 5th
+- Lap 17 --- --- Huge battle between Max Verstappen and Charles LeClerc for the lead
+- Lap 19 --- Carlos Sainz passes Lando Norris for 4th
+- Lap 20 --- Max passes Charles for the lead
+- Results
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Sergio Perez --- Red Bull
+  4. Carlos Sainz --- Ferrari
+  5. Lando Norris --- McLaren
+  6. Daniel Ricciardo --- McLaren
+  7. Valteri Bottas --- Alfa Romeo
+  8. Kevin Magnussen --- Haas
+  9. Fernando Alonso --- Alpine
+  10. Mick Schumacher --- Haas
+  11. George Russell --- Mercedes
+  12. Yuki Tsunoda --- Alpha Tauri
+  13. Sebastian Vettel --- Aston Martin
+  14. Lewis Hamilton --- Mercedes
+  15. Lance Stroll --- Aston Martin
+  16. Esteban Ocon --- Alpine
+  17. Pierre Gasly --- Alpha Tauri
+  18. Alex Albon --- Williams
+  19. Nicholas Latifi --- Williams
+  20. Guanyu Zhou --- Alfa Romeo
+- /Uncharacteristically poor performance from Lewis Hamilton/
+- /Daniel Ricciardo seems to be doing a lot better, compared to his relatively disastrous start to the season/
+
+*** Race
+- 63 laps
+- Starting grid
+  1. Max Verstappen --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Sergio Perez --- Red Bull
+  4. Carlos Sainz --- Ferrari
+  5. Lando Norris --- McLaren
+  6. Daniel Ricciardo --- McLaren
+  7. Valteri Bottas --- Alfa Romeo
+  8. Kevin Magnussen --- Haas
+  9. Fernando Alonso --- Alpine
+  10. Mick Schumacher --- Haas
+  11. George Russell --- Mercedes
+  12. Yuki Tsunoda --- Alpha Tauri
+  13. Sebastian Vettel --- Aston Martin
+  14. Lewis Hamilton --- Mercedes
+  15. Lance Stroll --- Aston Martin
+  16. Esteban Ocon --- Alpine
+  17. Pierre Gasly --- Alpha Tauri
+  18. Alex Albon --- Williams
+  19. Nicholas Latifi --- Williams
+  20. Guanyu Zhou --- Alfa Romeo --- will be starting from the pit lane
+- Race starts with a damp track, cars are starting on intermediate tires
+- Lap 1
+  - Charles LeClerc has a poor start and is passed by Sergio Perez and Lando Norris
+  - Carlos Sainz hit by Daniel Ricciardo; gets stuck in the gravel trap
+  - Carlos Sainz has to retire
+  - Daniel Ricciardo drops into last place
+  - George Russell moves up to P6
+  - Safety car comes out
+- Lap 4 safety car ending
+- Lap 5 racing resumes
+- Lap 7 --- Fernando Alonso retires with car damage
+  - Not sure where he picked up the damage
+  - Huge piece of his sidepod missing
+- Lap 12 --- Great pass by George Russell on Kevin Magnussen for 5th
+- Lap 18
+  - Daniel Ricciardo pits, goes back out on medium slick tires
+  - Sebastian Vettel, Pierre Gasly and Alex Albon pit as well
+- Lap 19 --
+  - Sergio Perez pits for slick tires
+  - Lots of others pit as well, after seeing Daniel Ricciardo's sector times
+- Lap 20
+  - Max Verstappen and Charles LeClerc pit
+- Lap 34 --- DRS enabled
+- Lap 41 --- Max Verstappen laps Lewis Hamilton
+  - /oof/
+- Lap 50 --- Charles LeClerc pits, comes out on soft tires
+- Lap 52 --- Sergio Perez pits, comes out on soft tires
+  - /Red Bull are positioning Sergio as their insurance policy to ensure LeClerc can't take the point for fastest lap?/
+- Lap 53
+  - Max Verstappen pits
+  - LeClerc spins, but manages to recover
+  - Potential front wing damage
+  - LeClerc comes in for a front-wing replacement
+  - This allows Lando Norris to move up into 3rd
+  - LeClerc comes back out in 8th place, with 10 laps to go
+- Lap 63 --- LeClerc passes Yuki Tsunoda for 6th
+- Easy win for Max Verstappen
+- Race just went all wrong for Ferrari
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Sergio Perez --- Red Bull
+3. Lando Norris --- McLaren
+4. George Russell --- Mercedes
+5. Valteri Bottas --- Alfa Romeo
+6. Charles LeClerc --- Ferrari
+7. Yuki Tsunoda --- Alpha Tauri
+8. Sebastian Vettel --- Aston Martin
+9. Kevin Magnussen --- Haas
+10. Lance Stroll --- Aston Martin
+11. Alex Albon --- Williams
+12. Pierre Gasly --- Alpha Tauri
+13. Lewis Hamilton --- Mercedes
+14. Esteban Ocon --- Alpine
+15. Guanyu Zhou --- Alfa Romeo
+16. Nicholas Latifi --- Williams
+17. Mick Schumacher --- Haas
+18. Daniel Ricciardo --- McLaren
+19. Fernando Alonso --- Alpine (DNF)
+20. Carlos Sainz --- Ferrari (DNF)
+
+** 2022-04-10 Australian Grand Prix
+
+*** Track Info
+- Albert Park
+- 3.28 miles
+- /Albert Park is such a pretty track, I'm glad that F1 is back here/
+
+*** Tires
+- C5, C3, C2
+- /Interesting choice of tires -- the soft is very soft, and the hard is the second hardest of Pirelli's compounds/
+- /Is this because the top 10 cars no longer have to go out on the tires that they qualified with?/
+
+*** Qualifying
+
+**** Q1
+- Sebastian Vettel is back for Aston Martin, having recovered from COVID
+  - However he hasn't had much experience with the car in qualifying conditions
+- McLaren and Alpine are both doing much better so far than they have done in the past two races
+- Mercedes not doing all that well
+  - Problems with snap oversteer
+- Sebastian Vettel will not be qualifying, because Aston Martin were not able to repair his car in time after an earlier crash during free practice
+- Big crash involving Nicholas Latifi
+  - Looks like he just had snap oversteer that sent him into the wall
+  - Looks like there was contact with Lance Stroll's Aston Martin --- his front-right suspension is broken
+  - Lance Stroll was moving to let an Alfa Romeo through and Nicholas Latifi hit him while accelerating
+  - Incident will be investigated after the session
+- This gives Sebastian Vettel a chance to get out onto the track
+- Qualifying is red-flagged
+- Sebastian Vettel does manage to make it out of the garage and into the queue forming in pit lane as drivers wait for the race to restart
+- /It looks like a miniature race out there/
+- Eliminated in Q1
+  - Alex Albon --- Williams
+  - Kevin Magnussen --- Haas
+  - Sebastian Vettel --- Aston Martin
+  - Nicholas Latifi --- Williams
+  - Lance Stroll --- Aston Martin
+- /Both Williams and both Aston Martin eliminated in Q1/
+
+**** Q2
+- At the end of Q1, Alex Albon was asked to pull over during his cooldown lap
+- Results initially reconfirm the first impressions from Q1
+  - Red Bull and Ferrari are very fast
+  - McLaren is much improved from its pace in Saudia Arabia
+  - Alpine are doing quite well
+- Sergio Perez is doing well --- trading off with Max for fastest overall in qualifying
+  - /This is a refreshing change from last year when Perez really struggled during qualifying/
+- Ferrari are fast, but they're having a lot of porpoising along the back straight
+- Eliminated in Q2
+  - Pierre Gasly --- Alpha Tauri
+  - Valteri Bottas --- Alfa Romeo
+  - Yuki Tsunoda --- Alpha Tauri
+  - Guanyu Zhou --- Alfa Romeo
+  - Mick Schumacher --- Haas
+- /Seems like Haas have dropped off a bit in performance/
+- /Or maybe that's because McLaren and Alpine are doing better and Haas just looks worse by comparison/
+- /Mercedes are still struggling/
+- /Alpha Tauri aren't doing all that well either/
+
+**** Q3
+- Sun is going down and drivers are asking for darker visors
+- Red flag as Fernando Alonso crashes
+  - 6 minutes left in qualifying
+  - Alonso said that he lost hydraulics and couldn't downshift, which caused him to crash
+  - /Normally this would mean that there's plenty of time for drivers to get back out after Alonso's has been cleared, but will there be enough sunlight?/
+- Final qualifying order
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Sergio Perez --- Red Bull
+  4. Lando Norris --- McLaren
+  5. Lewis Hamilton --- Mercedes
+  6. George Russell --- Mercedes
+  7. Daniel Ricciardo --- McLaren
+  8. Esteban Ocon --- Alpine
+  9. Carlos Sainz --- Ferrari
+  10. Fernando Alonso --- Alpine
+- /Carlos Sainz had his first fast lap deleted because Alonso crashed and red-flagged the session/
+- /Made a mistake on his second fast lap, which is why he's in 9th/
+
+*** Race
+- 58 Laps
+- Starting grid
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Sergio Perez --- Red Bull
+  4. Lando Norris --- McLaren
+  5. Lewis Hamilton --- Mercedes
+  6. George Russell --- Mercedes
+  7. Daniel Ricciardo --- McLaren
+  8. Esteban Ocon --- Alpine
+  9. Carlos Sainz --- Ferrari
+  10. Fernando Alonso --- Alpine
+  11. Pierre Gasly --- Alpha Tauri
+  12. Valteri Bottas --- Alfa Romeo
+  13. Yuki Tsunoda --- Alpha Tauri
+  14. Guanyu Zhou --- Alfa Romeo
+  15. Mick Schumacher --- Haas
+  16. Kevin Magnussen --- Haas
+  17. Sebastian Vettel --- Aston Martin
+  18. Nicholas Latifi --- Williams
+  19. Lance Stroll --- Aston Martin
+  20. Alex Albon --- Williams
+- Alex Albon had a 3-place penalty for causing a collision with Lance Stroll on lap 49 of the previous race
+- Lance Stroll was given a 3-place penalty for his crash with Nicholas Latifi in qualifying
+- Most cars on mediums and hard tires
+- Lap 1
+  - Charles LeClerc retains his lead
+  - Lewis Hamilton has a great start, moves ahead of Sergio Perez in 3rd
+  - Lando Norris also has a poor start, and drops down to 6th
+  - Carlos Sainz has a really poor start, drops to 14th
+- Lap 2
+  - Carlos Sainz spins out and goes into the gravel
+    - Looks stuck
+    - Virtual safety car declared
+    - Carlos Sainz has to retire
+    - Full safety car declared
+- Lap 6 --- Safety car ending
+- /The Ferrari is bouncing a lot/
+- Lap 10 --- Sergio Perez passes Lewis Hamilton under DRS and retakes 3rd
+- Lap 11 --- Sebastian Vettel goes into the gravel, but manages to get out again
+- Lap 13
+  - Max Verstappen is complaining about graining on his tires
+  - He's almost 4 seconds behind Charles LeClerc
+- Lap 14-15 --- Back markers such as Nicholas Latifi and Mick Schumacher pit
+- Lap 18 --- Esteban Ocon is the first of the top 10 to pit
+- Lap 19 --- Max Verstappen pits
+- Lap 20
+  - Lewis Hamilton has caught back up to Sergio Perez and is within DRS range
+  - Sergio Perez comes in at the end of the lap for his pit stop
+- Lap 22
+  - Ferrari pit Charles LeClerc
+  - Lewis Hamilton pits as well
+  - Hamilton comes out ahead of Perez
+- Lap 23
+  - Sergio Perez passes Lewis Hamilton, because Hamilton's tires haven't warmed up
+  - Safety called out because Sebastian Vettel crashed
+    - Crashed going into turn 4 and tore the front wing off
+  - George Russell pits under the safety car
+  - Safety car works out very well for Russell, who's now in 3rd
+- Lap 26 --- Safety car comes in
+- Lap 27 --- Racing resumes
+  - Verstappen almost passes LeClerc on the restart
+  - George Russell gets into the mix as well
+  - However LeClerc manages to keep the lead
+- Lap 30 --- Perez passes Alonso for 4th
+- Lap 31 --- Hamilton passes Alonso for 5th
+- Lap 34 --- Fun battle between Lando Norris and Kevin Magnussen for 7th
+- Lap 35-37 --- Sergio Perez catches up to and passes George Russell for 3rd
+- Lap 39
+  - Max Verstappen pulls over!
+  - Has been told to stop the car by his crew
+  - Virtual safety car declared
+  - Car catches fire as it overheats
+  - Max reported earlier a weird smell --- guessed fluid leak
+  - /Red Bull continuing to have reliability issues/
+- Lap 40
+  - Fernando Alonso comes in to the pits under a virtual safety car
+- Lap 40-50 --- Lance Stroll manages to hold up Pierre Gasly, Valteri Bottas and Fernando Alonso
+- Lap 50 --- Gasly finally passes Stroll
+- Lap 56
+  - Williams still hasn't stopped
+  - LeClerc might lose the fastest lap
+- Lap 58
+  - Albon pits on the very last lap
+  - Charles LeClerc wins, with an almost 20 second lead
+  - George Russell gets 3rd
+- Mercedes are now leading the constructor's championship, despite having never won a race
+- /Fernando Alonso was doing really well, but was caught out by pit-stop timing and had issues with graining on the medium tires that cost him a lot of pace at the end/
+- /What is going on with Red Bull's engines? This is the second race where they've had a car go out with reliability issues/
+- /Good to see Williams in the points once again, and to see Alex Albon in the points once again/
+  - /That strategy was questionable, but I guess it worked out/
+- /McLaren looked much better this race than they did in the past two/
+- /The new regulations look like they've had a good effect --- when cars are close they're able to stay close and keep racing lap after lap/
+- /The cars also look a lot more balanced between teams --- lots more variety in the teams that are in the points/
+
+*** Results
+1. Charles LeClerc --- Ferrari
+2. Sergio Perez --- Red Bull
+3. George Russell --- Mercedes
+4. Lewis Hamilton --- Mercedes
+5. Lando Norris --- McLaren
+6. Daniel Ricciardo --- McLaren
+7. Esteban Ocon --- Alpine
+8. Valteri Bottas --- Alfa Romeo
+9. Pierre Gasly --- Alpha Tauri
+10. Alex Albon --- Williams
+11. Guanyu Zhou --- Alfa Romeo
+12. Lance Stroll --- Aston Martin
+13. Mick Schumacher --- Haas
+14. Kevin Magnussen --- Haas
+15. Yuki Tsunoda --- Alpha Tauri
+16. Nicholas Latifi --- Williams
+17. Fernando Alonso --- Alpine
+18. Max Verstappen --- Red Bull (DNF)
+19. Sebastian Vettel --- Aston Martin (DNF)
+20. Carlos Sainz --- Ferrari (DNF)
+
+** 2022-03-27 Saudi Arabia Grand Prix
+
+*** Track Info
+- Jeddah Corniche
+- 3.83 miles
+
+*** Tires
+- C2, C3, C4 --- middle of the range
+
+*** Qualifying
+
+**** Q1
+- Sebastian Vettel is still out with COVID; Niko Hulkenberg substituting again
+- Tires temperatures look to be a problem
+- The new cars don't heat up their tires as quickly
+- /Will McLaren have the same problem that they did last week with overheating brakes?/
+- Nicholas Latifi crashes and causes a red flag
+  - Causes the two Ferraris to lose their lap times
+- Ferrari are really fast
+- Lewis Hamilton is struggling
+- George Russell is 4th
+- Yuki Tsunoda's car is in the garage as his mechanics work on a problem
+- Lewis Hamilton is in the elimination zone?!
+- Hamilton eliminated in Q1!
+- Lewis Hamiltion is 0.6s slower than George Russell
+- Yuki Tsunoda doesn't set a time because of mechanical issues
+- All the cars eliminated in Q1 were powered by Mercedes
+- Eliminated in Q1
+  - Lewis Hamilton --- Mercedes
+  - Alex Albon --- Williams
+  - Niko Hulkenberg --- Aston Martin
+  - Nicholas Latifi --- Williams
+  - Yuki Tsunoda --- Alpha Tauri
+
+**** Q2
+- Mick Schumacher has a *big* crash
+- Red flag
+- Lot of porpoising with Kevin Magnussen's Haas
+- Kevin Magnussen makes it into Q3 --- incredible to see Haas in Q3
+- George Russell *barely* makes it into Q3, only 0.03 sec ahead of Lando Norris --- /George Russell is still Mister Saturday/
+- Eliminated in Q2
+  - Lando Norris --- McLaren
+  - Daniel Ricciardo --- McLaren
+  - Guanyu Zhou --- Alfa Romeo
+  - Mick Schumacher --- Haas
+  - Lance Stroll --- Aston Martin
+
+**** Q3
+- Carlos Sainz is much faster than he was in Bahrain --- improves his
+- Verstappen is unexpectedly slow, complaining about grip
+- George Russell makes it into 5th, about the fastest we can expect from Mercedes so far
+- Sergio Perez takes an unexpected pole position from the two Ferraris
+  - /Go Checo!/
+- Max Verstappen only makes it into 4th
+- /Still unreal to see a Haas in the top 10/
+- Top 10 ranking
+  1. Sergio Perez --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. Max Verstappen --- Red Bull
+  5. Esteban Ocon --- Alpine
+  6. George Russell --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. Valteri Bottas --- Alfa Romeo
+  9. Pierre Gasly --- Alpha Tauri
+  10. Kevin Magnussen --- Haas
+
+*** Race
+- 50 laps
+- Mick Schumacher is sitting out the race after his crash in qualifying
+  - /Not surprising given how wrecked his car was/
+- Starting grid
+  1. Sergio Perez --- Red Bull
+  2. Charles LeClerc --- Ferrari
+  3. Carlos Sainz --- Ferrari
+  4. Max Verstappen --- Red Bull
+  5. Esteban Ocon --- Alpine
+  6. George Russell --- Mercedes
+  7. Fernando Alonso --- Alpine
+  8. Valteri Bottas --- Alfa Romeo
+  9. Pierre Gasly --- Alpha Tauri
+  10. Kevin Magnussen --- Haas
+  11. Lando Norris --- McLaren
+  12. Guanyu Zhou --- Alfa Romeo
+  13. Lance Stroll --- Aston Martin
+  14. Daniel Ricciardo --- McLaren (3-place grid penalty for impeding Esteban Ocon during qualifying)
+  15. Lewis Hamilton --- Mercedes
+  16. Alex Albon --- Williams
+  17. Nico Hulkenberg --- Aston Martin
+  18. Nicholas Latifi --- Williams
+  19. Yuki Tsunoda --- Alpha Tauri
+- Yuki Tsunoda won't be starting the race either because his engine cut out on the formation lap --- reported to be a drivetrain issue
+- Most cars starting on medium tires, but some are starting on hard tires to have a longer first stint
+- Predicted to be a one-stop strategy
+- Lap 1
+  - Sergio Perez gets a good start and maintains his lead through the first couple corners
+  - Max Verstappen gets the jump on Carlos Sainz and passes him for 3rd
+  - Kevin Magnussen makes a brave pass on Pierre Gasly, moving up into 9th
+  - Guanyu Zhou has an awful start, engine goes into anti-stall and he drops into 17th
+- Lap 3 --- George Russell has a great pass on Esteban Ocon, moves up into 5th
+- Lap 4 --- Lewis Hamilton saying that the hard tire is lacking in grip; however, Kevin Magunessen is also on the hard tire, and has had success in passing Pierre Gasly
+- Lap 5 - 7 --- Great battle between Fernando Alonso and Esteban Ocon; Alonso eventually passes Ocon for 6th
+  - /Kind of surprised that Alpine is allowing its drivers to battle rather than using team orders to let Fernando through/
+- Lap 8 --- Ocon tries to retake 6th from Alonso, but goes off the track during the pass and has to give the position back
+- Lap 14 --- Alpine issues team orders, tells Ocon to hold position behind Alonso
+  - /It was a really good fight between the two/
+  - /Also showed that the new regulations are having their intended effect --- cars are able to follow each other much more closely and for much longer than in the past/
+- Lap 15 --- Bottas passes Ocon for 7th
+  - Hamilton is up into 10th place --- hard tires seem to be working out for him
+  - Sergio Perez pits
+  - /Ferrari tricked Red Bull into going into the pits first/
+  - /Ferrari said, "Box to overtake," as if they were coming in, Perez came in to cover off the pit stop, and Charles LeClerc stayed out/
+- Lap 16 --- Nicholas Latifi crashes
+  - Yellow flag
+  - /Will it turn into a red flag? They're going to have to bring marshals out into the track to clear the debris, plus it looks like there's barrier damage/
+  - Virtual Safety Car announced --- this is great for Charles LeClerc, who gets a 40% discount on his pit stop
+  - LeClerc, Verstappen, Sainz all pit
+  - Hamilton doesn't pit and gains track position as a result
+- Lap 17 --- Safety car comes out
+  - Sergio Perez drops to P3 --- /Sergio Perez has the *worst* luck/
+  - Incident between Sergio Perez and Carlos Sainz --- Carlos comes out of the pit lane just as Sergio goes by the pit lane exit; seems like Carlos was actually ahead
+- Lap 20 --- Safety car in
+  - Sainz and Perez were not swapped around before the restart
+- Lap 21 --- Race resumes
+  - LeClerc holds off Verstappen and keeps the lead
+  - Perez concedes the place on the restart and drops to 4th
+- Lap 25 --- /Lots more porpoising from the Haas/
+- Lap 35 --- Another fun battle between Fernando Alonso and Kevin Magnussen for 7th
+  - Alonso passes Magnussen at the end of the lap and takes 7th
+- Lap 36 --- Fernando Alonso's car displays a temperature warning and loses power, Alonso limps back to the pits
+- Lap 37 --- Daniel Ricciardo is rolling to a stop right outside the pits
+  - Yellow flag
+  - Valteri Bottas retires as well
+  - /Lots of mechanical problems towards the end of the race/
+  - Kevin Magnussen pits --- /really fortunate yellow flag for him, reduces the cost of his pit stop/
+- Lap 38 --- Virtual Safety Car declared as Alonso's car also dies right in front of the pits
+  - Pit lane entry closed as they try to clear Alonso's car
+  - Lewis Hamilton doesn't have an opportunity to pit, because the pit lane entrance was closed when he arrived under VSC
+  - Magnussen was able to pit because he managed to jump into the pits in between when Ricciardo stopped and Alonso stopped
+- Lap 41 --- Virtual Safety Car ends
+  - Hamilton pits
+- Lap 42 --- Verstappen attacking LeClerc, Verstappen takes the lead, but LeClerc takes the lead back with DRS down the main straight
+- Lap 43 --- Verstappen and LeClerc both lock up
+- Lap 46 --- Verstappen attacks LeClerc again, and passes him down the main straight with DRS
+- Lap 49
+  - Fight between Verstappen and LeClerc continues
+  - Albon crashes into Stroll, yellow flag on sector 1
+- Lap 50
+  - Max Verstappen wins
+  - Charles LeClerc 2nd
+  - Carlos Sainz 3rd
+  - Sergio Perez 4th
+  - George Russell 5th
+  - Lewis Hamilton 10th
+- /Really unfortunate for Perez/
+- /Ferrari have a pretty commanding lead now, because both Red Bulls were DNF in Bahrain/
+- /Both of these races have been really fun --- I love these new cars/
+
+*** Results
+1. Max Verstappen --- Red Bull
+2. Charles LeClerc --- Ferrari
+3. Carlos Sainz --- Ferrari
+4. Sergio Perez --- Red Bull
+5. George Russell --- Mercedes
+6. Esteban Ocon --- Alpine
+7. Lando Norris --- McLaren
+8. Pierre Gasly --- Alpha Tauri
+9. Kevin Magnussen --- Haas
+10. Lewis Hamilton --- Mercedes
+11. Guanyu Zhou --- Alfa Romeo
+12. Niko Hulkenberg --- Aston Martin
+13. Lance Stroll --- Aston Martin
+14. Alex Albon --- Williams (DNF)
+15. Valteri Bottas --- Alfa Romeo (DNF)
+16. Fernando Alonso --- Alpine (DNF)
+17. Daniel Ricciardo --- McLaren (DNF)
+18. Nicholas Latifi --- Williams (DNF)
+19. Yuki Tsunoda --- Alpha Tauri (DNF)
+
+** 2022-03-20 Bahrain Grand Prix
+
+*** Track Info
+- Sakhir Circuit
+- 3.36 miles
+
+*** Tires
+- C1, C2, C3
+- Hardest compounds in the range
+
+*** Other notes
+- Sebastian Vettel won't be participating after a positive COVID test
+- Niko Hulkenberg will be substituting
+- /Why are they still masked up?/
+
+*** Qualifying
+
+**** Q1
+- Haas are remarkably fast
+- As are Alfa Romeo
+- Ferrari engines look very good
+- Mercedes look uncharacteristically slow
+- McLaren are also having trouble
+- Six of the bottom 7 cars are all Mercedes powered
+- George Russell is managing to keep up with Lewis
+- Alex Albon carries a Williams into Q2
+- Both Haas cars make into Q2!
+- Eliminated in Q1
+  - Yuki Tsunoda --- Alpha Tauri
+  - Nico Hulkenberg --- Aston Martin
+  - Daniel Ricciardo --- McLaren
+  - Lance Stroll --- Aston Martin
+  - Nicholas Latifi --- Williams
+
+**** Q2
+- Ferrari-powered cars seem to have better traction
+- Track limits are only loosely enforced
+- Regulation change: you're no longer required to run the same tires that you used in Q2 in the race if you make it to Q3
+  - Simplifies things
+  - But might lead to worse racing
+- Kevin Magnussen makes into Q3 for Haas
+- Both McLarens out by Q2
+- Mercedes are definitely at a pace deficit
+- McLaren might have been compromised by the problems they had in testing earlier
+- Kevin Magnussen asked to come back to the garage slowly at the end of Q2 because of hydraulics issues
+- Fernando Alonso makes it into Q3 for Alpine
+- Valteri Bottas makes it into Q3 for Alfa Romeo
+- Eliminated in Q2
+  - Esteban Ocon --- Alpine
+  - Mick Schumacher --- Haas
+  - Lando Norris --- McLaren
+  - Alex Albon --- Williams
+  - Guanyu Zhou --- Alfa Romeo
+
+**** Q3
+- Tires might be a factor
+- Mercedes took additional laps; might be running short of tires for qualifying
+- In the opening runs, Ferraris are fastest, with Red Bulls following
+- /Could Carlos Sainz get a pole position?/
+- Strange to see Lewis Hamilton so far back in a "normal" qualifying
+- Ferrari and Red Bull will each behind their teammate; slipstream will be a factor
+- Haven't seen Ferrari up front for a long time
+- Mercedes are definitely down on pace
+- Final top 10 ordering
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Carlos Sainz --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Lewis Hamilton --- Mercedes
+  6. Valteri Bottas --- Alfa Romeo
+  7. Kevin Magnussen --- Haas
+  8. Fernando Alonso --- Alpine
+  9. George Russell --- Mercedes
+  10. Pierre Gasly --- Alpha Tauri
+
+*** Race
+- 57 laps
+- Starting Grid
+  1. Charles LeClerc --- Ferrari
+  2. Max Verstappen --- Red Bull
+  3. Carlos Sainz --- Ferrari
+  4. Sergio Perez --- Red Bull
+  5. Lewis Hamilton --- Mercedes
+  6. Valteri Bottas --- Alfa Romeo
+  7. Kevin Magnussen --- Haas
+  8. Fernando Alonso --- Alpine
+  9. George Russell --- Mercedes
+  10. Pierre Gasly --- Alpha Tauri
+  11. Esteban Ocon --- Alpine
+  12. Mick Schumacher --- Haas
+  13. Lando Norris --- McLaren
+  14. Alex Albon --- Williams
+  15. Guanyu Zhou --- Alfa Romeo
+  16. Yuki Tsunoda --- Alpha Tauri
+  17. Nico Hulkenberg --- Aston Martin
+  18. Daniel Ricciardo --- McLaren
+  19. Lance Stroll --- Aston Martin
+  20. Nicholas Latifi --- Williams
+- Let's see if the new regulations actually enable more passing
+- Lap 1
+  - Relatively clean start, not too much contact
+  - Esteban Ocon does hit Mick Schumacher and spins him around, but Schumacher is able to resume racing
+  - Charles LeClerc has a good start
+  - Lewis Hamilton has a good start as well --- gets past Sergio Perez early
+  - Daniel Ricciardo has had a poor start --- drops back to last place
+  - Kevin Magnussen is up into 5th! Very good start for Haas
+- Lap 2
+  - Valteri Bottas has had a terrible start --- already down to /14th/
+  - LeClerc pulls more than a second clear of Max Verstappen --- out of DRS range
+- Lap 3 --- Kevin Magnussen locks up going into turn 1, allows Sergio Perez to pass him by turn 4
+- Lap 5 --- Kevin Magunessen goes too deep into turn 1 again, allows George Russell past
+  - Magnussen has now dropped to 7th
+  - Russell is now up to 6th
+- Lap 6 --- Esteban Ocon given a 5 second penalty for causing a collision with Mick Schumacher on the first lap
+- Lap 10 --- Sergio Perez regains 4th place from Lewis Hamilton
+- /It does look like passing is easier in this new specification/
+- /Cars do seem to be following each other more closely/
+- Lap 12 --- Lewis Hamilton comes in to the pits, goes back out on hard tires
+  - Comes back out in 11th, but is passed by Guanyu Zhou immediately after exiting the pit lane
+  - Tire degradation has been higher than expected
+  - Pit stops are slower than last year because of the bigger, heavier wheels
+- Lap 15
+  - Max Verstappen comes into the pits, goes back out on soft tires
+  - Carlos Sainz stops as well
+- Lap 16 
+  - Charles LeClerc comes in to the pits
+  - Sergio Perez pits and goes back out on medium tires
+- Max and Charles are very close to each other after the first pit stop
+- Lots of diversity in tire strategy
+- Lap 17 --- Lap 19
+  - Huge back and forth battle between Max Verstappen and Charles LeClerc
+  - Max locks up in lap 19 and lets LeClerc ahead
+- Lap 23 --- Perez seems to be doing well with the medium tires; gradually pulling closer to Carlos Sainz
+- McLaren is doing pretty poorly --- 18th and 20th
+- Lap 28 --- Lewis Hamilton pits again, swaps hard tires for medium
+- Lap 31 --- Max Verstappen pits again, swaps softs for mediums
+- Lap 32 --- Charles LeClerc also pits again, swaps softs for mediums
+  - Comes back out and remains ahead of Max Verstappen
+  - /Verstappen is frustrated that he's been told to take it easy on the out lap, and feels like it's cost him the lead/
+- /Ferrari look really strong in this race/
+- Lap 34 --- Lots of pit stops
+  - Sergio Perez --- swaps medium for soft
+  - Carlos Sainz
+  - Nicholas Latifi
+  - George Russell --- swaps hard for medium
+- /Mercedes left George Russell out on those hard tires for a long time/
+- Lap 35 --- Kevin Magnussen stops, swaps soft tires for medium
+- /I'm seeing a Haas on the tail of a Mercedes --- this is something I thought I'd never see/
+- /What on earth happened to McLaren?/
+- /Red Bull might be struggling with overheating brakes/
+- Lap 44 
+  - Max Verstappen pits for a third time for new soft tires --- comes out behind Carlos Sainz
+  - Sergio Perez pits as well
+  - /Were Red Bull struggling with tire degredation/
+  - As he leaves the pits, Verstappen complains about "heavy" steering
+- Lap 45
+  - Carlos Sainz comes in, Charles LeClerc stays out
+  - Lewis Hamilton pits as well
+- Lap 46
+  - Pierre Gasly's Alpha Tauri is on fire!
+  - Safety car comes out
+  - Charles LeClerc pits under the safety car
+- Pack will now close up behind the safety car
+- Max Verstappen might have the advantage, but he's fighting power steering issues
+- Red Bull engineers reply that the steering problem "isn't a reliability issue"
+- All lapped cars will be allowed to unlap themselves
+- Mercedes are also in the mix
+- Lap 49 --- Max Verstappen is still complaining about steering issues, especially at high speed
+- Lap 50 --- Safety car comes in
+- Lap 51 --- Race resumes
+  - Max Verstappen is almost passed by Carlos Sainz on the restart
+- Lap 54 --- Carlos Sainz passes Max Verstappen for 2nd place
+- Lap 55 --- Something is seriously wrong with Verstappen's car, as he's passed by Perez, Hamilton and Russell
+  - Max Verstappen retires
+- Lap 56 --- Sergio Perez also complains about losing power
+- Lap 57
+  - Sergio Perez spins!
+  - /Looks like a lock up from engine braking?/
+  - Charles LeClerc wins
+  - Carlos Sainz 2nd
+  - Lewis Hamilton 3rd
+  - Kevin Magnusson finishes 5th! /Great result for Haas/
+- /Mercedes is so lucky/
+- /Real concern about Red Bull powertrains --- Max, Sergio and Pierre Gasly all had failures/
+
+*** Results
+1. Charles LeClerc --- Ferrari
+2. Carlos Sainz --- Ferrari
+3. Lewis Hamilton --- Mercedes
+4. George Russell --- Mercedes
+5. Kevin Magnussen --- Haas
+6. Valteri Bottas --- Alfa Romeo
+7. Esteban Ocon --- Alpine
+8. Yuki Tsunoda --- Alpha Tauri
+9. Fernando Alonso --- Alpine
+10. Guanyu Zhou --- Alfa Romeo
+11. Mick Schumacher --- Haas
+12. Lance Stroll --- Aston Martin
+13. Alex Albon --- Williams
+14. Daniel Ricciardo --- McLaren
+15. Lando Norris --- McLaren
+16. Nicholas Latifi --- Williams
+17. Nico Hulkenberg --- Aston Martin
+18. Sergio Perez --- Red Bull (DNF)
+19. Max Verstappen --- Red Bull (DNF)
+20. Pierre Gasly --- Alpha Tauri (DNF)

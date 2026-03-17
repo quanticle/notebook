@@ -1,0 +1,7 @@
+* IRDOT Hotfix Process
+- [[https://nexteraanalytics.slack.com/archives/G01BKBTHNHM/p1634914464012300][Process description from Slack]]
+- Merge MR to develop
+- Get the latest release number from Scott
+- Cherry pick the MR into =releases/<release number>=
+- Create an MR to the release branch to =master=
+- After merge to master, retag master with the new release number -> this will trigger a deployment to prod

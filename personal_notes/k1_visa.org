@@ -1,0 +1,96 @@
+#+TITLE: K1 Visa
+
+- K1 Visa --- Fiancé visa
+- Non-immigrant visa
+- Permits the foreign-born fiancé of a US citizen to enter the United States to marry their partner
+- US citizen needs to file form I-129F
+  - Proof of citizenship of US petitioner
+  - Passport details
+  - Address history
+  - Employment histories
+  - Information about parents
+    - Names
+    - Places of birth
+    - Dates of birth
+    - Current addresses
+  - Include photos with dates and locations
+  - Photos of boarding passes
+  - Photos with friends and family
+  - Letters of intent to marry within 90 days
+  - US citizen must submit proof of income --- form I-134 (Proof of financial support)
+  - G-1145 --- need to fill this out to receive e-mail updates on petition
+  - Can be helpful to include photocopies of both partners' passports, as that can provide further evidence of visiting each other
+  - Form must be sent physically --- cannot be submitted online
+  - Send via FedEx recorded delivery
+  - Never send original documents
+  - Make duplicates of everything you're submitting
+- US citizen partner is the petitioner
+- Other partner is the beneficiary
+- Eligibility requirements
+  - Be engaged to a US citizen
+  - Have the intention of marrying within 90 days of entering the US
+  - Have proof of your relationship prior to the engagement
+  - Get married according to US laws while in the US on the K1 visa
+  - Must have met in person at least once in the last two years
+  - Previous marriages must be legally terminated
+- Document requirements
+  - Passport that's valid for more than six months after the intended visit to the US
+  - Two recent US visa photos
+  - Form DS-160 confirmation page and confirmation code
+  - Interview schedule letter
+  - Approved form I-129F
+  - Criminal background documents --- Police Clearance Report
+  - Divorce or death certificates in the case of previous marriages
+  - Evidence of the relationship with the US citizen
+  - Medical examination documents
+  - Proof of payment of fees
+- Application steps
+  - US citizen must obtain permission from USCIS to sponsor their foreign citizen partner
+    - File form I-129F
+    - Official will go through evidence of relationship
+      - Will assess intent to get married
+      - Assess other eligibility criteria
+    - Petition will then go to National Visa Center (NVC)
+    - NVC will inform the embassy or consulate that's closest to the foreign partner
+  - Once this permission has been granted, then the foreign partner must apply for the K1 visa at an embassy or consulate abroad
+    - Fill out form DS-160 --- nonimmigrant visa application
+      - Personal information
+      - Why you plan to go to the US
+      - After submitting, keep the confirmation page and confirmation code
+    - Schedule the visa interview
+    - Complete medical examinations
+      - Must be completed by a licensed physician
+      - Report must contain
+        - Current health conditions
+        - US-required vaccinations
+    - Compile documents
+      - Ask immigration lawyer about required K-1 visa documents
+      - Similar to documents that were submitted by the US-citizen fiancé to get the visa application permission
+    - Attend visa interview
+      - Have documents ready
+      - Be prepared to answer questions about the relationship
+        - Fiancé's full name
+        - Date of birth
+        - Where fiancé was born
+        - Current residence
+        - Fiancé's profession
+        - Fiancé's previous marriages and relationships
+        - Has fiancé ever visited you or have you ever visited them, along with details of the visits
+        - Where did engagement happen
+        - Was there an engagement party
+      - Personal information, such as name, DOB, location of birth, etc.
+      - Have you ever been in the US before
+      - What are your plans once in the US
+      - Criminal background questions
+      - Profession
+      - The interview is very important, and will make the difference as to whether the K-1 is approved or not
+- Cannot obtain K-1 visa without an approved I-129F
+- K1 visa application rejections
+  - Criminal activity
+  - Overstaying in the US on a previous visa
+- Processing time will vary depending on multiple factors
+  - USCIS processing time
+  - How busy the foreign consulate or embassy is
+  - Will take multiple months, and delays are likely
+  - Delays are the result of partial or full closures of immigration offices, high caseloads, further investigation, and other administrative reasons
+  - Processing time is at least 6 months, and can take up to 9-12 months routinely

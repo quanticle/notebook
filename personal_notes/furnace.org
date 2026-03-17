@@ -1,0 +1,26 @@
+#+TITLE: Furnace Tips
+
+* Flame Sensor
+
+** Symptoms
+- Flames shut off immediately after ignition
+- Heat shuts off before a cycle fully completes
+
+** Possible Solutions
+- Clean the flame sensor
+  - Turn off power to the furnace
+  - Turn off gas
+  - Open the side of the furnace
+  - The flame sensor is usually to the right, on the opposite side of the igniter assembly, and is held in place with a metal bracket
+  - Has one wire going into it, while the igniter has two wires
+  - Disconnect the wire from the flame sensor
+  - Use a nut-driver or screwdriver to remove the screw or bolt holding the flame sensor in place
+  - Clean off the soot with steel wool, or emery cloth, being careful not to touch the metal portion of the flame sensor with your hands
+  - Reinstall the flame sensor
+  - Reattach the wire
+  - Put the side back on
+  - Restart gas
+  - Restart power
+- Replace the flame sensor
+  - Find a flame sensor of the same shape as the one already installed
+  - Then go through through the same steps as cleaning the flame sensor, only replace the flame sensor entirely rather than just cleaning it

@@ -1,0 +1,6 @@
+#+TITLE: Harvard Finances
+
+Source: [[https://finance.harvard.edu/files/fad/files/fy24_harvard_financial_report.pdf][2023 Annual Report]]
+
+- 9.6% return
+- Endowment size: $53.2 billion

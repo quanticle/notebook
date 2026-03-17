@@ -1,0 +1,11 @@
+#+TITLE: Weather
+
+- [[https://weather.com/weather/today/l/95ce424c6c0fd7427781e30538f2d8b8604f571d3657eda9ef769cd317bf4b5a][Plymouth, MN]]
+- [[https://weather.com/weather/today/l/4643b948d09b812ac43079cf13a047dfafcc532d7860a63cc5cdc3118749c7e1][Milwaukee, WI]]
+- [[https://weather.com/weather/today/l/4c9ff75840c6ce23fa10812d0f14b605af47896e9ca3fd59abdb9edd1b9d486a][Chicago, IL]]
+- [[https://weather.com/weather/today/l/f691750f5f981b5d40b9de6e6a4141d052a55604e155bc738af0b63f4895b18c][Bellevue, WA]]
+- [[https://weather.com/weather/today/l/96302f68f9fd85627164d98339457174c347377bb5e597388546b8fd9996e039][Richmond, VA]]
+- [[https://weather.com/weather/today/l/d87db06dd67535c1e0d89b7fdb34c856702c7f059c8fea0db7f46f35a255352c][Cuttack, Odisha, India]]
+- [[https://weather.com/weather/today/l/05a7e7f73567bcc0ce8fac95250c4a0b26580d12fa0797e832d875d46ed01a30][Austin, TX]]
+- [[https://weather.com/weather/today/l/ca02b719be146accb87228b3fe12ee0339fe9773d341f4b080c0e094d9fa0edf][Kansas City, MO]]
+

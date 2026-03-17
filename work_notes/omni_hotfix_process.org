@@ -1,0 +1,8 @@
+* OMNI Hotfix Process
+- [[https://wlweb.windlogics.com/confluence/display/BAK/OMNI+Hotfix+Process][Source]]
+
+** Process
+- Get your code checked into dev
+- Go to the [[https://wlweb.windlogics.com/confluence/display/BAK/OMNI+Releases][releases]] page and select the most recent prod release
+- Open the release page and scroll to the Hotfix section
+- Add a checkbox with a link to the MR that you want added

@@ -1,0 +1,356 @@
+#+TITLE: Party on the Bridge: Political Commissars in the Chinese Navy
+#+OPTIONS: toc:2
+
+Source: [[https://www.csis.org/analysis/party-bridge-political-commissars-chinese-navy][Center for Strategic and International Studies (CSIS)]]
+
+* Introduction
+- The Chinese People's Liberation Army Navy (PLAN) is the world's largest navy in terms of numbers of ships
+- Increasingly sophisticated platforms
+- Operating further from China's shores
+- Because of this, encounters between US warships and their Chinese counterparts are becoming more frequent
+- During the Cold War, the US frequently encountered Soviet warships at sea
+- Resulted in maritime skirmishes that raised tensions and could have led to unforeseen consequences
+- To avoid similar miscalculations with Chinese warships, US forces must have an understanding of how Chinese ships and submarines operate
+- Most analysis of Chinese maritime capabilities focuses on "hardware" --- the specific capabilities of the weapons and platforms that China fields
+- Less analyzed is "software" --- the decision-making process by which Chinese naval officers choose to use or not use the capabilities at their disposal
+- Chinese political commissars have shared decision-making authority with naval commanders
+- By understanding the command structure of Chinese warships, US forces can understand Chinese operations and avoid making miscalculations that could raise tensions or even lead to war
+
+* Key Insights
+- The Chinese Navy operates on a dual-command system
+- The Chinese Communist Party maintains firm control over the Chinese military through Party organizations embedded in the military
+- Political commissars serve as facilitators between the Party and the military hierarchy
+- Political commissars are considered to be the same rank as the military officers they serve alongside
+- Commissars have parallel authority to military commanders and influence naval operations
+  - All Chinese naval vessels at the "regimental" level or above (frigates, destroyers, submarines, aircraft carriers, and support vessels) have a commissar
+  - Chinese military units have a Party Standing Committee (PSC), which acts as the supreme decison-making body within the unit
+  - The PSC is actually led by the commissar, with the military commander serving as his or her deputy
+  - Commissars provide evaluations of the military commander's performance to superior PSCs
+  - In addition, commissars are responsible for maintaining discipline and morale, a role often reserved for executive officers in the US Navy
+  - In naval operations, political commissars assume the role of "mission commander", the person with overall responsibility for successfully completing the mission
+- The driving force behind decision-making aboard every Chinese naval vessel is the PSC
+  - Promotes a collective leadership model for both administrative and operational decisions
+  - Composed of 5-6 officers --- commanding officer, two executive officers (operations and administrative/logistics), political commissar, and one or two deputy commissars
+  - May result in delayed response times and inflexibility
+  - In contrast, the US Navy has a triangular command structure, consisting of the ship's captain, executive officer and a senior enlisted or non-commissioned officer
+- The Chinese system is different from the Soviet commissar system
+  - In the Soviet system the political commissar was subordinate to the ship's captain
+  - In the Chinese systems, the captain and the commissar are co-equal
+  - Both are subordinate to the PSC
+- More research is required to fully understand the roles of the PSC and political commissars in the Chinese navy
+  - The US needs to ensure that inter-military contacts include political commissars as well as commanding officers
+  - Need more research into the strengths and weaknesses of dual-command structures
+
+* The Role of the Political Commissar
+
+** A Tradition of Party Control
+- The Chinese Communist Party established party committees at the battalion and regimental level after the Sanwan Reorganization of 1927
+  - Occurred after Mao Zedong's failed Autumn Harvest uprising
+  - Political committees were established to enhance unit cohesion and prevent demoralized units from disintegrating while retreating
+  - During this reform, party commissars were pushed down to the company level, further enhancing the Party's control over the Army
+- In 1929, at the Gutian Conference, Mao Zedong intensified political indoctrination of the People's Liberation Army, and called upon the party committees in the People's Liberation Army to take a central role in political indoctrination of the rank and file
+- In 2014, on the 85th anniversary of the original Gutian Conference, Xi Jinping led another conference at Gutian, at which he put forth the following five demands
+  1. The Party's control over the PLA must be enhanced by maintaining Party committees at the forefront of leadership
+  2. Strict management of cadres and officers must be maintained --- a good officer must be competent, loyal and have a clean record
+  3. The fight against corruption must continue
+  4. The PLA must build up its fighting spirit
+  5. There must be "innovation in political work" to keep up with a rapidly changing world
+     - /I'm guessing this means that ideology and indoctrination must be kept up to date with changing external circumstances/
+
+** Organizational Overview
+- In 2016, the Chinese Communist Party reorganized three existing bureaucracies to reduce corruption and reinforce Party control
+  - Discipline Inspection Commission
+    - Enforces Party discipline within the PLA
+    - Conducts investigations of corrupt personnel
+    - The secretary of the Discipline Inspection Commission is a member of the Chinese Central Military Commission (CMC), the highest military organization in China
+  - Political and Legal Affairs Commission
+    - Establishes regulations and legal norms to improve the administration of the military
+    - Handles criminal activities
+    - /So I'm guessing that the Discipline Inspection Commission is the investigative arm and the Political and Legal Affairs Commission is the policymaking and also judicial arm?/
+  - Audit Bureau
+    - Inspects PLA finances
+    - Supervises the military's audit system
+- A detailed analysis of these three organizations is beyond the scope of the report, but it's important to mention them because they're independent of the CMC Political Work Department
+- The Political Work Department maintains the political commissar and PSC system
+- The CMC is a type of PSC, and its chairman is the highest ranking Party representative in the People's Liberation Army
+- /In practice, this is Xi Jinping/
+- Following this structure, there are Party committees that are subordinate to the CMC at the regimental level and above
+- Below the regimental Party committees, there are "grassroots" Party committees at the battalion level
+- Below those are Party branches at the company level
+- Underneath Party branches are Party small groups at platoon or even squad levels depending on how many Party members are in each unit
+- Party committees and branches focus on organizational and ideological tasks
+  - Implementing Party policies
+  - Indoctrinating troops with the Party's official ideology
+  - Party and Communist Youth League support
+  - Party member management
+  - Issues related to annual work objectives
+  - Security related issues and relations with the local population
+- In addition, Party bodies are responsible for making decisions on "major issues" that the unit faces
+- The definition of what constitutes a major issue is not clearly defined
+- In advance of naval missions, a temporary Party committee would be formed for battle groups and individual vessels
+- Temporary committees are formed by permanent PSCs, who decide their structure, membership, and position in the chain of command
+- These temporary committees emphasize operational management
+- Although the specific regulations describing temporary party committees in the PLAN are confidential, we know that they're usually chaired by the political commissar
+- The PLAN has also been experimenting with joint Party committees, which preside over joint exercises requiring the participation of multiple branches of the Chinese military
+- Perennial tension exists between military commanders and PSCs
+- While the military commander assumes responsibility for implementation, the goals for the unit are usually set by the PSC
+- This extends to tactical decisions such as
+  - Choosing whether to confront suspected pirate boats
+  - Choosing whether a submarine should surface after a malfunction
+- Although a military commander can make decisions independently in an emergency situation, they must report back to the committee later and submit to an inspection
+- This accountability is expected to shape the way commanders exercise their leadership
+- When disagreements emerge, the PSC is expected to mediate between military leaders and political commissars
+- In theory questions are decided by a simple majority vote
+- In practice, ahead of any vote, significant coordination and consensus building takes place to ensure that the committee presents an image of unity to the troops
+- In addition to Party committees and branches, the Party also embeds "political work departments" from the CMC level down to individual regiments
+- These departments work with party committees to help with Party organization, ideological indoctrination, external liaison, and public relations
+- Although political commissars in different units share duties, they have different designations
+  - Company level: "political instructors"
+  - Battalion level: "political director"
+  - Regimental grade and above: "political commissar"
+  - At lower levels, platoon and below: "party small group leader"
+- Although party small group leaders are not officially considered political officers, they perform political tasks
+- Political commissars exist in all parts of the PLAN
+  - Each theater command navy, naval base, and naval support base has a political commissar and a military commander
+  - All multi-ship organizations (submarine flotilla, surface flotilla, surface squadron) have political commissars
+  - All submarines have individual political commissars
+  - Large surface vessels (destroyers and frigates) have either political commissars or political directors depending on their roles
+  - Smaller ships, (4-digit hull numbers, often assigned to the Chinese coast guard) have political instructors
+  - In addition to the ship-wide political commissar, there may also be political directors or political instructors for individual departments aboard larger ships
+  - Naval aviation has its own hierarchy of political officers
+    - Political commissars are present at the air division, brigade and regiment level
+    - Flying and reconnaissance battalions have political directors
+    - Individual squadrons have political instructors
+  - Marine corps and coastal defense units generally mirror the Army's hierarchy, with commissars at the regiment level, directors at the battalion level, and instructors at the company level
+
+** Duties
+- The goal of the political commissar corps is to build discipline and esprit de corps
+- There are five major clusters to this work
+  - Party-building and officer/enlisted management
+    - Build up the standing of the Party among service members
+    - Ensure that the Party remains involved in service members' lives
+    - Monitor instances of malfeasance
+  - Propaganda and indoctrination
+    - Propagate the Party's latest policies
+    - Organize policy study sessions
+    - Promote officially endorsed values
+    - Ensure that the Party's values are respected and endorsed by service members
+  - Shaping military lifestyle
+    - Organize cultural and sporting events
+    - Administer science and culture education
+    - Ensure that benefits are promptly delivered
+    - See to service members' mental health
+  - Peacetime security
+    - Maintain good relations with civilians living near military bases
+    - Conduct research on adversaries
+    - Conduct counterintelligence and tasks focused on operational security
+  - Wartime political work
+    - Join the military commander in executing operations
+    - Mobilize the militia and the local population
+    - Maintain wartime order
+    - Care for the family members of the wounded and the dead
+    - Cosign orders with the military commander
+- Since the 2014 Gutian conference, there has been a renewed emphasis on improving political commissars' ability to lead troops in battle
+- In past naval battles, PLAN political commissars have personally led attacks
+- In 1988, for example, during the skirmish over the Johnson South Reef the political commissar of the PLAN frigate /Yingtan/ (hull number 531) took over after the captain fell ill with heptatitis
+- Currently, in PLAN surface units, political commissars have been designated as joint mission commanders along with the captain
+- This change was made in 2018
+- Prior to this, the ship captain was the exclusive mission commander
+- The Party has hailed this change as an implementation of the "Party commands gun" motto
+- Since the 2018 reforms, PLAN political commissars must study naval operations and pass tests similar to those of a captain's examination in order to retain their position
+  - Operational command
+  - How to handle emergency situations
+  - Technical details
+  - Wartime psychology
+- Political commissars who worked in desk roles in the PLAN are being rotated through combat units in order to gain firsthand experience
+- Reconnaissance, intelligence, early warning, and anti-submarine aircraft now reserve seats for political officers to ride along and gain firsthand knowledge of missions
+- These measures to give political officers first-hand experience of combat missions are designed to achieve the following objectives
+  - PLAN political commissars should be capable co-commanders, ready to take over from the mission commander if need be
+  - Political commissars must have knowledge of servicemembers day-to-day activities in order to maximize the effectiveness of their political work
+
+** Case In Point: Political Commissars Undersea
+- Political commissars play an important role in enforcing discipline and raising morale aboard Chinese submarines
+- Stop crewmembers from engaging in unnecessary exertion that could raise carbon dioxide levels
+- Enforce noise discipline
+- Raise morale in the aftermath of emergencies or near-misses
+  - After a Chinese submarine descended faster than anticipated because of a change in water conditions, the political officer noticed the engine room chief looking dejected
+  - Political commissar noticed that the engine room chief was blaming himself for the near miss
+  - Worked with the engine room department to devise new procedures that would prevent such incidents in the future in order to raise morale
+- Submarine political commissars are expected to have detailed knowledge of all operations, and tour departments personally in order to understand the thought processes of the crew
+
+* Influencing Naval Operations
+- A movie scene from a PLAN coproduced film, "Operation Red Sea", depicts an idealized version of the dual-command structure of the PLAN in action
+  - Chinese ship, /Linyi/, was in the port of Aden, evacuating Chinese nationals
+  - Was waiting by the pier for some deployed marines to return
+  - Had been attacked once and threat level was rising
+  - Military commander had lost contact with the marines and was trying to reestablish communications
+  - Political commissar steps in and reminds the military commander that their primary objective is the safety of the ship and the civilians aboard
+  - Military commander makes the decision to leave the port and send a UAV to aid the marines
+- In this scene the political commissar stood side-by-side with the military commander and gave the military commander advice and direction in a crisis situation
+- Did not make command decisions, but set priorities and ensured that the military commander was putting the Party's objectives first
+
+** Command and Control Characteristics
+- Three distinct command and control characteristics on Chinese ships
+  - Military commander and political officer operate as one to promote a collective leadership model
+    - Although they have dissimilar responsibilities, both share the burden of command equally
+    - Military commander is responsible for organizing tactical military actions
+    - Political officer is responsible for crew readiness
+    - The Chinese military goes to great lengths to intertwine the responsibilities of the military commander and the political officer
+    - The relationship between a military commander and the political officer is described as that between a "father and mother"
+      - Commander is the military professional
+      - Commissar is the caretaker, "nurturing" the crew
+  - Seniority of the political commissar matters
+    - Chinese military system places more importance on grade rather than rank
+    - 15 grades, spread across 10 ranks
+    - A political commissar may have a higher or lower rank than the military commander, but they will likely be the same grade, and that makes their status co-equal
+  - Political commissars manage the PLA's personnel system
+    - The PLA does not have a central promotion board
+    - Party committees determine promotion
+    - Political commissars provide input to the party committee, which incetivizes the military commander to work closely with the political commissar
+
+** Command and Control Differences
+- Unlike the PLAN, and like most other navies in the world, the US uses a single command system
+- Commanding officer leads all aspects of warship operations
+
+*** Decisionmaking Process
+- Decisions aboard a naval vessel can be classified into two types
+  - Administrative
+  - Operational
+- Administrative decisions are those involving personnel, watch routines, maintenance and other areas that support the vessel's ability to carry out its operational duties
+- Operational decisions are those involving navigation, weapons employment, launching of aircraft, and any others that use the vessel's offensive of defensive capacities
+- The senior leadership aboard a US ship is composed of three individuals
+  - Commanding officer
+  - Executive officer
+  - Command master chief or chief of the boat
+- These senior leaders are known as the triad
+- No specific regulations governing how these three leaders should interact, however, typically, there is a daily meeting between the three to decide administrative and operational issues
+- While these three individuals work together to manage the activities of the ship, ultimate decisionmaking authority rests with one and only one person: the commanding officer, who is accountable only to the Constitution, the laws of war, and his or her superiors
+- Chinese vessels, by contrast, split this decisionmaking authority across two individuals, the commanding officer and the political officer
+- Furthermore, both the commanding officer and political officer are accountable to the Party Standing Committee
+- Aboard Chinese vessels, the ultimate decisionmaking authority rests with the PSC, and both the commanding officer and the political officer execute actions on behalf of the committee
+- The PSC aboard a PLAN vessel is composed of 5-6 indviduals
+  - Commanding officer
+  - Executive officer for operations
+  - Executive officer for adminstrative/logistics
+  - Political commissar
+  - One or two deputy political officers
+- The PSC oversees both administrative and operational matters, such as crew assignments and navigation plans
+- During the conduct of naval operations, the commanding officer must convene the PSC report on the battlefield situation
+- The PSC in turn should give the commanding officer feedback on mission plans and deployments
+- In emergency situations, where convening the PSC is not feasible, both the mission commander and the political commissar have the authority to carry out decisions
+- However, after the emergency is over, they must present a full report to the PSC for review
+- The PSC also adjudicates disputes between the commanding officer and the political officer
+- Both the US and Chinese navies utilize watch teams to manage the bridge, combat information center, and engineering spaces
+- In the US Navy, the operational reports from these watch teams are delivered directly to the commanding officer
+- It's unclear whether it's the same in the Chinese navy, or whether watch reports are delivered jointly to the commanding officer and political officer
+- The report speculates that the commanding officer would receive reports during routine operations, but when executing maneuvers that may have political ramifications, both officers would receive watch reports
+- PSC meetings can likely occur at short notice, because all PSC members are senior officers, and would either be located in the same physical location or connected via communications circuits
+- In the US Navy's single-command system, commanding officers can unilaterally execute changes to plans based on changing circumstances
+- In the PLAN, commanding officers don't have this authority
+- This could lead to problems
+  - The dual-command system is more formal and hierarchical than having a single person in charge
+  - Crew may have to seek approval from multiple people before taking an action
+  - Making administrative changes will take longer, as they will have to be approved by both the military commander and political commissar at least
+  - The political commissar has a vote in making military decisions and it's unclear how disagreement between the political commissar and the military commander are handled
+  - A dual command system hinders flexibility and initiative
+    - The purpose of the system is to enforce the Party's control over the military
+    - Fosters an environment where crewmembers wait for approval before taking action
+    - In a single command system, by contrast, the commander can signal his intent and authorize the crew to take actions to carry out that intent, even if the actions may not have been anticipated in advance by the commander
+  - Miscommunication between the military commander and political officer will occur
+    - There will be mistakes where a political commissar and the military commander give conflicting orders
+    - It's not clear how these mistakes are resolved
+    - In a single command system, any miscommunication can be resolved by raising the matter to the ultimate authority: the captain
+- A dual command system also has some potential advantages
+  - Political commissars are dedicated to personnel management
+  - Reduces "loneliness of command" --- the military commander has a peer equal in rank and authority whom he can ask for feedback or ideas
+  - Reduces potential for error caused by personal bias, as any major actions need at least two people to approve
+
+*** Crew Management
+- The Chinese Navy is developing a noncommissioned officer corps similar to the US Navy
+- Today noncommissioned officers represent 70% of the crew aboard naval vessels
+- The Chinese military emphasizes that its noncommissioned officers should have a college education
+- However, despite these changes, Chinese non-commissioned officers will have trouble reaching the same level of status and influence that they have in the US Navy, because many of the roles handled by noncommissioned officers in the US Navy are handled by Party officers in the PLAN
+
+*** Mission Command
+- The US military embraces "[[https://www.army.mil/article/106872/understanding_mission_command][mission command]]"
+  - Allows junior officers to exercise independent initiative
+  - If carrying out an order is impossible, a subordinate officer must do his best to carry out the intent behind the order
+  - Allows for the possibility that subordinates may err
+  - However mistakes are preferable to hesitation
+- The single-command system of the US Navy allows a ship's commander enormous leeway to act as he or she sees fit to accomplish the objectives that he or she has been given
+- Mission command allows individual officers the autonomy to lead and delegate without constant supervision from senior leaders
+- The PSC model differs from the US Navy's mission-command model
+  - Relies on collective decision-making
+  - For significant decisions, the political officer and the military commander must be in concurrence
+  - Collective leadership does foster teamwork and encourages a range of perspectives which can lead to better solutions
+    - /I'm not sure about that/
+    - /The literature on groupthink indicates that often, a collective decisionmaking process devolves into a purity spiral as individuals seek to prove themselves and increase their standing in front of their peers/
+- It is unclear how much the PSC and political commissar may influence operational decisions aboard a PLAN vessel
+- However, we can glean some insights from an incident that occurred between the USS /Decatur/ and the Chinese destroyer /Lanzhou/
+  - The /Decatur/ was conducting a freedom of navigation operation near Gaven Reef in the South China Sea
+  - /Lanzhou/ approached from astern, on the port side, at a higher speed than the /Decatur/
+  - In this situation, maritime custom held that the /Decatur/ had the right to hold its course and speed, and it was up to the /Lanzhou/ to overtake while maintaining a safe distance
+  - However, the /Lanzhou/ maneuvered to within 45 yards of the /Decatur/, at which point the /Decatur/'s captain ordered a course deviation to avoid a collision
+- The dual-command structure of the PLAN means that this maneuver was likely not accidental
+- Maneuver was calculated in order to send a political message
+- Likely involved extensive planning and discussion between multiple senior officers
+- /What the report is saying here is that we shouldn't think that dangerous naval maneuvers are the result of individual hotheaded sea captains/
+- /Any maneuver that has the potential to put the safety of a PLAN vessel at risk would have the explicit approval of at least two people, the military commander and the party commissar/
+- The US DoD must work to understand how PLAN political commissars influence naval operations
+
+** Shortfalls and Way Forward
+- For most Western militaries, political commissars are an unfamiliar institution
+- However, the Chinese military has had political officers for 70 years
+- Many articles have been written about political commissars in the PLA, but few about the role of political commissars in the PLAN
+  - 2007 and 2015 Office of Naval Intelligence (ONI) reports on the PLAN
+  - 2013 CNA report, /Beyond The Periscope/
+  - Kenneth Allen has a book --- /Civil Military Relations In Today's China: Swimming In A New Sea/, which has a chapter on political commissars, "Unraveling The Myths about Political Commissars"
+- These references serve as an excellent basis for future research
+- However, over the past 20 years, the PLAN has made many changes
+  - Dramatic increase in the number of vessels
+  - Enhanced weapons capability
+  - Increased operational deployments
+  - Deployments farther away from the mainland
+- The Chinese navy is evolving into a capable maritime force in the Indo-Pacific
+- There are six areas of interest that could improve understanding regarding political officers' role in the PLAN
+  - What are the responsibilities of the political officer and party standing committee when a vessel moves from a peacetime to a wartime environment
+  - What kinds of training and education do political commissars receive, and how does this training and education of military commanders?
+  - What role does the Party Standing Committee serve in the dual command system?
+  - What do political officers below regiment leader grade do? How do political commissars function in aviation, marine corps and coast guard units?
+  - How do the other members of the Party Standing Committee (two executive officers, deputy political commissar) affect decision-making?
+  - Why did the Soviet Union transition from a dual-command system to a single-command system?
+- To carry out research into these areas of interest, the US Navy should
+  - Ensure that military-to-military contacts include both political commissars and military commanders
+  - Create a working group with the China Maritime Studies Institute at the U.S. Naval War College dedicated to researching the political commissar system
+
+* Appendix: The Soviet Navy Commissar System
+- The Soviet Navy established a political commissar system which influenced the PLAN
+- At different times the Soviet Navy operated under a dual command system similar to the PLAN or a single command system where the political commissar was strictly in an observational/advisory role
+- However it is a misunderstanding to assume that one can gain insights into the PLAN's commissar system by looking at the Soviet example
+- In 1917, the Soviets created a dual command system to ensure Party control over the military
+- However by 1925, the Soviet military was ordered by the Communist Party to transition to a single-command system, with the military commander solely in control
+- Aspects of the dual command system survived until 1942
+- The exact nature of this transition is a subject of ongoing research
+- From 1942 to 1991 military commanders held sole responsibility for issuing commands
+- Political officers were explicitly subordinate, carrying a lower rank than the commander, and were only present to offer advice, observe, and ensure unconditional execution of the commander's orders
+- Typically, political officers in the Soviet Navy fell into one of two categories
+  - Political officers assigned to naval vessels as a prestige position
+  - Military officer candidates who failed to qualify for command for a naval vessel
+- Unlike in the PLA, military commanders and political officers in the Soviet Union reported to separate chains of command
+- Soviet military councils, while superficially similar to Chinese Party Standing Committees, were more of a collegial institution, and were chaired by the military commander, not the political officer
+- In the Soviet Navy, while political officers were formally subordinate to military commanders, they retained a level of influence over the crew
+- This was demonstrated by a mutiny in 1975, aboard the frigate /Storozhevoy/
+  - Captained by Anatoly Potulniy
+  - Valery Sablin was the political officer
+  - Sablin had become disillusioned with the Soviet political system and became convinced that a revolution was necessary to reform the Soviet Union
+  - Recruited fellow crew members and led a mutiny against Captain Potulniy
+  - Convinced the crew to depart Riga, where the frigate was docked, and make for Leningrad, where he hoped to spark a wider revolution
+  - By maintaining radio silence and not energizing any radars, the frigate managed to slip away without being detected at night
+  - It took approximately four hours for Moscow to become aware of the takeover
+  - Initial orders were to stop the ship, but by 0600 the next day the Soviet military were given orders to sink the /Storozhevoy/
+  - Although the frigate managed to reach international waters, it was bombed and its rudder was disabled
+  - Captain Potulniy was freed by the crew and regained control of the ship, shooting Sablin in the leg in the process
+  - After a KGB investigation, Sablin and one other crew member faced criminal charges, while 12 others were held for "group insubordination"
+  - Sablin was convicted of treason and sentenced to death
+- This mutiny demonstrates the danger of a single-command system
+- By making both the military commander and political officer subordinate to a committee, the Chinese Communist Party hopes to avoid situations where a single person can take control of military assets

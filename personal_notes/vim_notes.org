@@ -1,0 +1,61 @@
+* Vim Notes
+
+** Installation
+- MacOS: =brew install neovim-qt=
+- Windows: =scoop install neovim=
+  - Scoop's neovim package includes the GUI version
+
+** Set the font
+- Run =:set guifont=*= to bring up the font picker
+-
+
+** Install the vim-plug package manager
+- MacOS: =sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'=
+- Windows =iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim | ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force=
+- Add the following to =~/.vimrc=:
+  #+BEGIN_EXAMPLE
+    call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+    call plug#end()
+  #+END_EXAMPLE
+
+** Install support for Github Flavored Markdown
+- Add =Plug 'rhysd/vim-gfm-syntax'= to the list of plugins in =~/.vimrc=
+
+** Install support for the zenburn color scheme
+- Add the zenburn plugin: =Plug 'jnurmine/Zenburn'=
+- =colors zenburn=
+
+** Copy to system clipboard from terminal vim
+- Highlight the text you want to copy in either visual or visual line mode
+- MacOS: =:w !pbcopy=
+- Windows/WSL: =:w !clip.exe=
+
+** Paste from the system into vim
+- =:set paste=
+- Go into insert mode
+- Paste into the terminal
+- =:set nopaste=
+
+** My vimrc
+#+BEGIN_EXAMPLE
+  call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+  Plug 'jnurmine/Zenburn'
+  Plug 'godlygeek/tabular'
+  Plug 'plasticboy/vim-markdown'
+  call plug#end()
+  colors zenburn
+  set ruler
+  set guifont=CascadiaCodePL-Regular:h14
+  set autowriteall
+  set autoread
+  set autochdir
+  set tabstop=4
+  set shiftwidth=4
+  set expandtab
+  set nofoldenable
+  set backspace=2
+  set number
+  set statusline=%f%=%l:%v
+  let g:vim_markdown_strikethrough = 1
+  let g:vim_markdown_new_list_item_indent = 0
+#+END_EXAMPLE

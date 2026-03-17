@@ -1,0 +1,12 @@
+#+TITLE: Car Notes
+
+* Identifying Details
+- License Plate: =CPW 054=
+- VIN: =4S3BNAR63K3036354=
+
+* Tire Pressure
+- Front: 35 psi
+- Rear: 34 psi
+
+* Tire Specifications
+- =225/50 R18 95H=

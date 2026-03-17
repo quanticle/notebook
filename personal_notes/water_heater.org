@@ -1,0 +1,13 @@
+* Water Heater
+
+** Pilot Light Reignition
+- Turn switch clockwise to the off position (make sure to press firmly to get around the detent)
+- Turn switch counterclockwise to "PILOT"
+- Press down the pilot light button and hit the the igniter switch
+- Look through the watch glass to see if the pilot light has ignited
+
+** Thermocouple Failure
+- If the pilot light keeps going out, the problem could be a thermocouple failure
+- The thermocouple is a device that coverts heat to voltage; it's used to detect if the pilot light is on
+- If the gas valve does not detect that the pilot light is on, it will shut down the water heater to ensure that unburnt gas does not accumulate in the building
+

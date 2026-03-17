@@ -1,0 +1,67 @@
+#+TITLE: 2023-02-01 The Race: Ford's F1 Return With Red Bull Explained
+
+** Red Bull Car Launch
+- Very little technical content
+- Didn't show the actual 2023 Red Bull car
+- Just had a bunch of livery and sponsor fluff
+- Disrespectful of the fans, who were promised an actual car launch
+- Other teams, when they're doing a livery reveal rather than actual car launch are honest enough to label their events as such (e.g. Williams, Haas)
+
+** Ford Announcement
+- Not jumping in with both feet, but rather is relying on Red Bull to do most of the heavy lifting, at least at first
+- Highlights the pull that Formula 1 now has for auto manufacturers
+- Puts Red Bull on a solid financial footing from 2026 onwards
+- Resolves uncertainty with Honda
+- Justifies the creation of Red Bull Powertrains, because it was the existence of the independent powertrains division that allowed for the partnership with Ford
+- Entangled history between Red Bull and Ford, given that the team that is now Red Bull used to be called Jaguar, when it was owned by Ford
+- The reason Red Bull did the deal with Ford is because Ford was willing to join on Red Bull's terms, unlike Porsche, which wanted a 50% stake in the team right from the beginning
+- Allows Red Bull to have a major corporate sponsor while preserving its autonomy
+- There's no issue with Ford putting its branding on a Red Bull Powertrains engine because RBPT is not a rival
+- Estimates of Ford's contribution are roughly $30 million a year
+  - One the one hand, compared to Audi's investment, that's cheap
+  - On the other hand, it would have been even cheaper for Ford if they hadn't sold the Jaguar and Cosworth divisions and had just continued participating in F1
+- The fact that we're calling Ford's involvement an engine deal implies that the GM/Cadillac entry should be allowed to go ahead
+  - The relationship between Red Bull Powertrains and Ford is analogous to the relationship between General Motors and Andretti Autosport
+  - No massive financial involvement, just need to show substantial support from an established and well known automotive brand
+  - Clear plan to promote Formula 1 in the US
+  - Meaningful input into the race team
+- At this stage, Formula 1 is specialized enough that no manufacturer (except perhaps Ferrari) has their Formula 1 team deeply embedded into their corporate hierarchy
+  - Alpine/Renault run the team as a semi-separate entity which builds the car in the UK and the engine in France
+  - Mercedes run the team as an entirely UK-based operation, separate from the corporate hierarchy in Stuttgart
+  - Mercedes' Formula 1 powertrains unit was the result of an acquisition
+- Overall, the Ford announcement is a positive sign for Formula 1, because it indicates continued increasing interest from auto manufacturers in F1
+- Ford is claiming that they will be designing the hybrid system for the 2026 Red Bull engine, but that's unlikely
+- This involvement looks to be more sustainable and reasonable on the part of Ford
+- The last time that Ford got involved in Formula 1, when they bought Stewart, they went in too fast, and were too controlling and didn't have success
+- Deal will run 8 years, until 2030
+- AlphaTauri is covered by this deal as well --- AlphaTauri will receive Ford/Red Bull engines unless they get sold
+- This announcement has similarities to the Ford/Cosworth DFV setup that brought Ford great success
+  - Cosworth made the engine
+  - Ford branded it as Ford as part of a sponsorship deal with Lotus
+  - Little actual Ford technology was used
+  - Engine was very successful and was eventually adopted by a wide range of Formula 1 teams
+  - In this analogy, Red Bull Powertrains is akin to Cosworth
+- Ford's greatest successes in Formula 1 have come when it has acted in partnership with others rather than trying to go it alone
+- Honda
+  - Honda will no longer be involved with Red Bull beyond 2025
+  - Honda has registered interest as an engine supplier for 2026, but that's not a binding commitment
+  - If Honda does build an engine now, who will run it?
+  - Honda is short on time as well --- many of the engineers that had been assigned to the F1 engine development program have been reassigned, so Honda will have to rebuild its institutional capacity to build F1 engines
+  - Will have to do this while being limited by cost cap rules
+  - That said, if Honda does make an engine, there are teams that would want to run it
+  - Red Bull moved on from Honda because Honda was taking too long to make up its mind about whether it would rejoin Formula 1
+- What happened to Porsche?
+  - Was hypothesized to be a Red Bull Powertrains partner as of last year
+  - However, it was reported that Porsche asked for 50% ownership of Red Bull Powertrains, which Red Bull Racing was not willing to concede and the deal fell through
+  - Has not filed a formal letter of intent to be included in discussions regarding the 2026 regulations
+  - This doesn't mean that they'll be excluded --- a LOI is not a necessary prerequisite for joining
+  - However, there's no easy option for them to buy in now
+  - If they did join, their development efforts would be far behind Audi's
+  - Could possibly buy Williams, but
+    - Dorilton Capital haven't indicated that they're willing to sell Williams
+    - Williams is a far less successful team than Red Bull, and Porsche would be starting at the back
+- Will Red Bull screw this up
+  - Red Bull will get no more support from Honda after 2025
+  - Even with Ford's investment, will Red Bull manage to keep pace with Mercedes, Renault and Audi once the regulations change and teams become free to pursue performance upgrades once again?
+  - Red Bull have recruited extensively, and have stocked RBPT with experienced people
+  - Ford has an interest in RBPT not being bad, and may intervene if it seems like that investment is going off the rails

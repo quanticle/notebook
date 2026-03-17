@@ -1,0 +1,21 @@
+* Weechat
+
+** Disable highlight notifications for a buffer
+- =/buffer notify none=
+
+** Enable/Disable highlight monitoring (highmon)
+- =/script load highmon.pl= enables highlight monitoring
+- =/script unload highmon.pl= disables highlight monitoring
+
+** Exempt channel from Highmon
+- =/highmon monitor [channel] [server]=
+
+** Better ignore
+- Instead of using =/ignore= use =/filter=
+- Filter causes Weechat to read and log the line, but not display it
+- To add a filter: =/filter add <name> <buffer> <tags> <regex>=
+- Example: Ignore user "stupid" with a filter: =/filter add ignore_stupid irc.libera.* nick_stupid *=
+  - The important part there is the =nick_stupid= in the =tag= field, which tells weechat to ignore all messages from user "stupid"
+  - Also note the use of wildcards in the =buffer= and =regex= fields
+  - Can also filter by host with =host_<hostname>= as the tag
+- To toggle filtering and display hidden lines: =Alt--=

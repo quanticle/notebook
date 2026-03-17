@@ -1,0 +1,7 @@
+#+TITLE: Shower Door Magnetic Strip Replacement
+
+- Remove top and bottom screws from shower door handle
+- Remove handle from door
+- Remove old magnet from handle, noting which side the ID groove is on
+- Insert new magnet into handle, keeping care to put the ID groove on the same side
+- Reattach handle to door

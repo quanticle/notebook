@@ -1,0 +1,607 @@
+#+TITLE: A Strong Ally Stretched Thin: An Overview of France's Defense Capabilities From a Burdensharing Perspective
+#+OPTIONS: num:nil; h:6; html-postamble:nil
+#  LocalWords:  burdensharing Barkhane Rafale multirole SEAD Gaulle
+#  LocalWords:  Serval LPM MQ Paveway Villers Parly VBCI AMX AuF FCAS
+#  LocalWords:  CAESARs Sangaris Sentinelle Bataclan Bosser Bosser's
+#  LocalWords:  Ecole Guerre Terre CEASAR brushfire Rafales EUROMALE
+#  LocalWords:  NGAD MRTT Moyenne Porteé ASMPA Nucléaire ASN FC ASW
+#  LocalWords:  VMaX Universelle Électronique CUGE Caracal Atlantique
+#  LocalWords:  Pilatus FREMM Alouette Hélicoptères Interarmées
+#  LocalWords:  Légers
+
+[[https://www.rand.org/pubs/research_reports/RRA231-1.html][Article Link]]
+
+/Note: This report was published in 2021, prior to the Ukraine conflict/
+
+* Summary
+- France currently possesses one of Western Europe's most capable militaries
+- Has a commitment to handle any kind of conflict without needing allies
+- Significantly reduced force structure compared to the end of the Cold War
+- Ended conscription in 1996
+- Reductions in size have resulted in reductions in capacity, but France still maintains a wider range of capabilities than most of its neighbors
+- Lacks depth --- large scale operations are difficult to sustain without running out of manpower and materiel
+- French defense strategy is built around several commitments
+  - Maintaining a nuclear arsenal
+  - Retaining the ability to intervene anywhere in the world to protect French interests
+  - Protecting key defense industries
+- France has boosted its defense spending and has recommitted to NATO's goal of spending 2% of GDP on defense
+- French views on burdensharing differ from the US
+  - France views its operations in the Sahel as a form of burdensharing
+  - Views the Russian conventional threat as limited
+  - Thinks that nuclear deterrence is sufficient to deal with the Russian threat
+
+** The French Army
+- Numbered 300,000 at the end of the Cold War
+  - 15 divisions and 3 separate corps
+  - Had a significant degree of specialization, with certain units geared for high-intensity conventional warfare and others geared for more lightweight expeditionary operations
+- Today the Army only has 2 divisions and is designed to be a multi-purpose force, focusing on the "middle segment" of the conflict spectrum
+  - Heavy enough to survive on a conventional battlefield
+  - Light enough to mount expeditionary operations
+  - Able to deploy without needing a large amount of logistical backing
+- Has been investing in modernization, but faces challenges due to past budget cuts and austerity
+- Small number of weapon systems
+- Has to sustain ongoing overseas operations, most notably Operation Barkhane in the Sahel
+- Struggles to conduct training appropriate for high-intensity warfare and maintain readiness for additional contingencies
+- Would have trouble dealing with a conflict that results in a high rate of attrition
+
+** The French Air Force
+- Retains a broad range of capabilities, but also suffers from limited resources
+- One of the reasons for the French Air Force's continued strength is France's commitment to retaining an independent nuclear capability
+- France has to have the means to deliver its nuclear warheads, which requires a strong Air Force, given that France gave up its ground-based nuclear tipped missiles in the 1990s
+- The Dassault Rafale is fully interoperable with NATO
+- Fighter modernization continues, with the French planning to replace the Rafale with a new sixth-generation fighter by around 2035
+- The French Air Force has a severe deficiency of strategic airlift
+- This will be addressed with the introduction of the A330 multirole tanker transport
+- Also lacks munition and suppression of enemy air defense (SEAD) capability
+- Struggles with operational readiness, especially in its rotary-wing fleet
+- Caused by a combination of fiscal austerity and repeated deployments to the Sahel
+
+** The French Navy
+- Like the Air Force, the French Navy also shrank after the Cold War
+  - 75,000 personnel to 35,000 personnel
+  - 147 combat and support vessels to 90 vessels
+- Retains a number of capabilities, primarily to do with the nuclear mission
+- Has been modernizing its ballistic missile submarines
+- Has been investing in new frigates and attack submarines to protect the ballistic missile submarines
+- The sole nuclear powered aircraft carrier in the French Navy, the /Charles de Gaulle/ just underwent a major refit
+- France is conducting design studies for the /Charles de Gaulle/'s replacement --- will be one or possibly two new carriers
+- The French Navy's main challenge is its readiness and low levels of munitions stocks
+
+** Space, Cyber, and Intelligence Capabilities
+- Regards space as a key enabler for a host of high-end capabilities
+- Sees cyber capabilities as increasingly necessary for its own defense
+- Working on modernizing its satellites, while working with European partners
+- Describes the United States as an "essential ally" for space capabilities
+- Stood up a cyber-command in 2017 tasked with protecting French military systems against intrusions, especially from Russia
+- French intelligence agencies have also seen substantial increases in funding and personnel
+
+** Political and Societal Constraints on the Use of Force
+- Few legal and political constraints on the use of force
+- The French constitution places defense policy and control of the military in the hands of the directly-elected President
+- Ability to deploy forces remains constrained by
+  - Large number of ongoing commitments encompassed by Operation Barkhane
+  - Homeland counterterrorism
+  - Nuclear deterrence
+  - Maritime safety missions for the French Navy
+- Deploying additional forces to Eastern Europe would require removing assets from these ongoing missions, which would spark political resistance
+
+** Conclusions and Implications for Foreign Policy
+- France has the ability to support the US in a high-intensity conventional war in Eastern Europe
+- US-French collaboration would be useful in areas such as electronic warfare, countering massed precision fires, and air defense
+- While this collaboration would have to be structured to account for US and French concerns regarding the preservation of domestic defense industries, it could help France address its challenges in fighting high-intensity conventional wars more quickly
+
+* Introduction
+- While France has more recently sought a more autonomous, European, defense capability, France remains strongly committed to NATO
+- French forces work closely with NATO in the Levant and the Sahel
+- France has reversed two decades of defense budget cuts, and has committed to reaching the NATO target of spending 2% of GDP on defense by 2024
+- In this context, this report seeks to examine what capabilities France can bring to a large-scale conventional war with Russia as the aggressor
+- Does France have adequate capabilities for such a fight?
+- If not, is it likely to acquire those capabilities in the near future?
+- This study is structured around answering the following questions
+  - To want extent is preparing for a large-scale conventional conflict a French priority? How does it compare with other contingencies?
+  - What is France's readiness level for such a conflict and what comparative advantages would it bring?
+  - Which future defense acquisition programs would most help France prepare for such a conflict?
+  - What internal or external factors would constrain the development of France's defense capabilities and its ability to use them in a conflict with Russia?
+- To address these questions, the authors examined primary sources in French
+  - Official strategies and doctrinal documents
+  - Transcripts of hearings before the French parliament
+  - Legislative documents
+- Also examined secondary sources in French and English on France's strategic priorities, military capabilities, and defense issues
+- Had direct conversations with French government officials, researchers, active-duty and retired military officers
+- Summary of findings
+  - France is not particularly concerned with the possibility of a conventional war against Russia in Europe
+  - Is focused on Russian influence in the Middle-East and at sea
+  - Also concerned about hybrid warfare
+  - The French priority on maintaining strategic autonomy has meant that France has maintained the ability to conduct high-intensity conventional operations
+  - However, in recent years, most of France's actual military operations have been low-intensity counterinsurgencies in the Sahel
+  - The 2019-2025 Military Programming Law puts a strong emphasis on modernizing the equipment that would be necessary in a high-intensity conflict
+  - However, some gaps will remain beyond 2025 because France trades depth for breadth --- prioritizes having a versatile military able to fight in any kind of conflict environment over sustaining a protracted conflict against a highly capable adversary
+  - From the US's perspective, this means that France would be able to participate in a high-intensity conventional war, albeit for a limited time
+
+** Organization
+- Examine France's strategic priorities and its views on burdensharing
+- Deep dive into each branch of the French military, focusing on personnel readiness and the broad priorities for each service in the near future
+- Look at forthcoming space, cyber, and intelligence capabilities
+- Discuss political and legal obstacles to French participation in a military operation to defeat Russian aggression
+- Conclude by assessing whether France could support a US-led war in Eastern Europe and highlight areas of potential cooperation between the US and France
+
+* Overview of France's Defense Approach
+
+** Key Principles of France's Strategy
+- 3 key principles define French defense strategy
+  1. France is a nuclear power and will continue to remain so
+  2. France should be ready to intervene anywhere in the world to protect its national interests
+  3. The French defense industry is a national interest that should be protected
+- These principles will remain constant for the foreseeable future
+- While the third principle is important, it could be bypassed for the sake of the first two
+
+*** France is a Nuclear Power and Will Remain So
+- Nuclear dissuasion has a been a key element of French defense policy since France began its nuclear weapons program in 1954
+- By the late '50s President Charles de Gaulle made it clear that France should have the ability to wage war independently
+- This decision was reaffirmed when France withdrew from the NATO integrated command structure in 1966
+- France's 2017 strategic review reconfirms this view
+- In 2020, President Emmanuel Macron said that France would not hesitate to use nuclear threats to deter adversaries threatening French interests
+- Macron has emphasized the modernization of French nuclear deterrents
+- The French goal with its nuclear deterrent is "strict sufficiency" --- France seeks to keep just enough nuclear weapons to inflict irreparable damage on any potential adversary
+- One consequence of this focus on modernizing the nuclear deterrent is that the funds allocated for doing so will be unavailable for modernizing conventional capabilities
+- However, there are some conventional forces, most notably the Air Force that will benefit from the nuclear deterrent upgrades
+
+*** France Should Be Able To Intervene Anytime, Anywhere to Protect Its National Interests
+- Like the independent nuclear deterrent, this principle also originates with de Gaulle's policy of French strategic autonomy pursued in the 1950s
+- France sees itself as a middle power with global reach
+- France still retains a number of overseas departments, as well as military bases in Africa and the Middle East
+- In addition, as a member of the group of P5 veto-holding members of the UN Security Council, France has a prominent position in dealing with global security issues
+- France's policy since the end of the Cold War has been to maintain the capability to engage in all forms of warfare, rather than specializing towards low-intensity expeditionary warfare
+- French defense policy seeks to address four categories of contingency
+  1. Homeland security
+  2. Crisis "in the neighborhood"
+  3. Nonstate adversaries
+  4. Military confrontation with state actors
+- In order to address these contingencies, France seeks to maintain a balanced force capable of operating independently of other nations
+- The ambition to be able to intervene anywhere, at any time, compels France to invest in certain domains where it has insufficient capabilities to operate independently
+- Requires France to intervene in capabilities other than its nuclear deterrent
+  - Command and control
+  - Logistics
+  - Intelligence
+  - Cyberwarfare
+- Requires France to have a military that is capable of handling the full range of possible missions
+  - Results in a preference for multi-role equipment
+  - French soldiers train for a wider variety of missions than those from European nations
+- Results in a lack of depth that would cause French forces to exhaust soldiers and materiel quickly in demanding operations
+- This lack of depth is most acute in combat support personnel, most notably aircraft maintenance
+- Small numbers of weapons systems, ammunition and spare parts
+- Increasing expense and sophistication of weapons systems means that when systems are replaced, they are often not replaced in the same numbers
+- This lack of equipment has been partially compensated for by the French military's excellence in conducting "lean" operations
+  - Operation Serval --- intervention in Mali
+  - France only had the logistical ability to bring a portion of its available forces to bear
+  - Had to conduct operations sequentially rather than simultaneously because of a lack of artillery and air power
+  - Raised questions about the French ability to conduct high-intensity warfare
+- Cuts to French defense spending meant that spending was often prioritized towards supporting ongoing operations, mostly counterinsurgencies
+- As a result, less attention was given to acquiring and maintaining conventional weapons
+- /Seems like a more severe form of the lack of focus on high-end conventional warfare that the US Army and Marine Corps endured through the Iraq and Afghanistan War years/
+- The French Military Programming Law (LPM) attempts to rebuild some of these lost capabilities
+- However, the LPM assumes that French involvement in any high-intensity conflict would be as part of a coalition
+- Furthermore, the LPM does not use Russia as a pacing threat
+- /I wonder if they regret not using Russia as a pacing threat today/
+
+*** The French Defense Industry Is A National Interest And Should Be Protected
+- Maintenance of France's defense industrial base is considered critical to ensuring France's long-term security
+- In order to maintain production capabilities, France needs export customers for many of its systems, including the Rafale and the A400M
+- This focus on maintaining domestic production capabilities means that there's a reluctance to use off-the-shelf components for critical defense needs, most notably the nuclear deterrence mission
+- However, for other, less strategic equipment, France has engaged in cooperation with other countries, usually European partners
+  - Airborne early-warning and control systems
+  - Drones
+  - Missiles
+  - Other expendable munitions
+- France has purchased US-made Javelin anti-tank missiles (though these have been since replaced with a native-built replacement) and MQ-9 Reaper drones in the absence of an European drone
+- France has also purchased C-130 transport aircraft and Paveway guided bombs
+- /I wonder if the C-130s are going to be replaced by the A400M, which is a very similar (though slightly larger) aircraft/
+- France also cooperates with allies to procure shared assets --- participates in the NATO Alliance Ground Surveillance program to purchase and operate 5 US-made Global Hawk high-altitude drones
+- One important limit on how quickly France can acquire new assets is the limited pace at which the French defense industry can produce new equipment
+  - Limited number of manufacturing facilities
+  - Longer production cycles for newer and more sophisticated assets
+- Commitments to export customers are also a constraint on the French defense industry
+  - Some production capacity has to be allocated to fulfilling export orders --- this capacity is unavailable to replenish France's own stocks
+  - Export customers' needs aren't the same as France's own needs and equipment that has the greatest number of export customers is unlikely to be equipment that France will use for itself
+- /This isn't explicitly stated, but one of the implications of this is that France is in a double-bind with regards to defense exports/
+  - /On the one hand, it needs defense exports in order to justify the continued existence of its defense-industrial base/
+  - /On the other hand, the need to serve export customers limits France's ability to create and deploy new weapons systems for its own needs/
+
+** France's Approach To Burdensharing
+- France shares the US view that the international security landscape is increasingly challenging
+- Committed to spending more on defense
+- Increased defense spending is likely to translate into warfighting capabilities and military deployments
+- Can be counted on to play a significant role in NATO or UN-sanctioned military operations
+  - Balkans
+  - Afghanistan
+  - Libya
+- Can be counted on to participate in any invocation of Article 5
+- Has cooperated usefully with the US in counterterrorism operations in the Horn of Africa and the Sahel
+
+*** Commitment To Increased Defense Spending
+- The French military experienced two decades of chronic underfunding, culminating in the 2017 resignation of Chief of Joint Staffs General Pierre De Villers over the decision by the Macron government to enact further cuts in the defense budget
+- In 2018, French defense spending increased from €32.6 billion to €34.4 billion
+- In 2019, defense spending increased again, reaching €35.9 billion
+- These increases are likely to continue, culminating in a budget of approximately €44 billion by 2023
+- /I wonder how much of that has been accelerated by the conflict in Ukraine/
+- Recruitment is also set to rise, with the French military setting a goal of recruiting 21,600 military personnel and 3,700 civilian personnel in 2019
+- /I wonder if they hit these recruitment goals/
+- These increases in budget and personnel reflect a realization that
+  - The defense environment is growing more complex
+  - Increasingly technologically complex equipment requires more maintenance
+  - Cyber, space, and intelligence capabilities need dedicated investment
+  - Capability gaps need to be filled
+- The increased spending is likely to be allocated towards the following areas
+  - Intelligence, surveillance and reconnaissance
+  - Transport aircraft
+  - Refueling aircraft
+  - Maritime patrol aircraft
+  - Helicopters
+  - Ground vehicles
+  - Infrastructure for military families
+- /So, in other words, everything/
+- /I guess the Navy isn't figuring very highly in these priorities/
+- France has also sought to reduce bureaucracy and increase innovation in defense, creating a Defense Innovation Agency, which has been placed under the auspices of the Defense Procurement Agency
+- /That seems like a sure way to stifle innovation while claiming on paper that reforms are taking place/
+- /The key problem with both European and American defense is procurement --- lots of companies get innovation grants, and then face a "[[https://warontherocks.com/2023/02/back-from-the-future-stop-saying-the-military-has-an-innovation-problem/][valley of death]]", as those innovation grants fail to turn into the large procurement contracts that are necessary to turn prototypes into mass produced capabilities/
+- /Perhaps the logic is that placing the innovation agency in the procurement agency can mitigate this dynamic, by ensuring that the agency giving grants for the creation of prototype technology is embedded in the agency that can hand out long-term contracts, and thus there is a greater alignment of priorities between the two/
+- /However, I remain skeptical --- procurement authorities are notoriously penny-pinching and conservative, and this seems like a great way to ensure that the only innovation contracts that get handed out go to "sure-bet" technologies that promise only incremental gains rather than revolutionary new technology/
+- /Of course, the US can't cast stones in this regard --- the Department of Defense is just as moribund when it comes to procurement/
+
+*** A Renewed Effort Towards The 2-Percent Commitment
+- France's defense spending exceeded 2% of GDP until 2010, after which point budget cuts reduced it to around 1.8%
+- The budget increases noted above represent an effort to return to the 2% benchmark, which the Macron administration support
+- However, in order to reach the 2% threshold, France will need to spend an additional €3 billion in 2024 and 2025; this spending is not currently budgeted in the LPM
+- Furthermore, the LPM makes military spending contingent on economic indicators, raising the possibility that French defense spending will not be anywhere close to 2% of GDP in 2025
+- The Macron government sees the 2% target as an opportunity for Europe to take greater responsibility for its own security
+- France sees European burdensharing as a means by which Europe can address collective capability shortfalls
+  - Strategic transport
+  - ISR
+  - Aerial refueling
+  - Cruise missiles
+  - Strategic bombers
+  - Ballistic missile early warning systems
+- In each of these categories, the US currently provides 70% or more of NATO's total capabilities
+- EU burdensharing thus represents push to enable European countries to have the ability to intervene globally independently of the United States
+- To this end, France is also sponsoring a European Intervention Initiative to foster a common strategic culture
+- /In other words, increased French defense spending doesn't necessarily translate into increased capabilities for NATO, insofar as much of this spending will go towards substituting capabilities currently being provided by the United States/
+- /Still, in my opinion, we should welcome this, because it frees the US to shift assets, especially important strategic assets like aerial refueling, to the Pacific/
+
+*** French Participation In Operations
+- The French Defense Minister, Florence Parly, describes France's contribution to burdensharing as a "warfighting 2%", highlighting French participation in security operations in the Sahel and Levant, plus French naval cooperation with the United States in the North Atlantic
+- The French vision of burdensharing views French missions in the Sahel as contributing to NATO's security
+- France sustains a high tempo of operations, which some officials have stated has contributed to high levels of equipment wear and personnel exhaustion
+- Many for France's deployments take place in or near areas where the US has deployed troops, most notably Iraq, Syria, the Sahel and the Baltic States
+
+** Is Russia A French Strategic Priority
+- France's 2017 Strategic Review highlights various threats emanating from Russia
+  - Risk of escalation in Ukraine
+  - Aggressive actions in the Baltics
+  - Increased operations in the North Atlantic
+- In Eastern Europe, the Strategic Review calls for a set of measures to reaffirm NATO unity and enhance deterrence against Russia
+- Holds that a large-scale conventional conflict between Russia and NATO is unlikely because that would imply the failure of both conventional and nuclear deterrence
+- French officials are confident that a confrontation in Eastern Europe between Russia and NATO would quickly escalate to nuclear threats, and Russia is not interested in risking a nuclear war
+- /Famous last words/
+- France's "nuclear umbrella" extends beyond French borders
+  - France holds that it's nuclear deterrent is "authentically European"
+  - Invites European partners to participate in nuclear exercises
+  - However, the lack of depth in the French military would mean that France would have to make trade-offs between supporting NATO's conventional forces and reserving strike capabilities for its own nuclear deterrent
+- French officials think that the more likely scenario is hybrid warfare, where Russia seeks to weaken states bordering it through misinformation and support for paramilitary forces
+- Another French concern is Russian involvement in Africa
+  - Involvement in Syria
+  - Increased role in Libya
+  - Russian naval presence in the Mediterranean
+- In particular, the Russian presence in Syria presents a high risk of escalatory incidents
+  - Russian and Syrian aircraft operating in close proximity to French aircraft
+  - Russian GPS jamming
+- Russian electronic warfare is perceived as a significant risk, given France's reliance on communication-heavy combat systems
+
+* Army Capabilities
+- The French Army is one of the most proficient ground forces in Europe
+  - 119,000 officers and soldiers (98,000 active duty; 19,000 reserves)
+  - Wide range of capabilities
+  - Significant combat experience
+- However, it is not suited for prolonged high intensity ground combat, nor is it designed to be
+- The French goal is to build an army that is suited for the "middle segment" of combat operations, with the goal of fielding an army that is adequate for a broad range of combat scenarios
+- This assessment of adequacy is dependent on some assumptions re: war with Russia
+  - War is unlikely
+  - France will go to war against Russia as part of a coalition (/in other words, the US will be backing France up/)
+  - War will be over quickly
+- While the French Army does train for conventional warfare, most of its actual warfighting has occurred at lower ends of the conflict spectrum
+- The French Army of today is significantly reduced from its Cold War strength
+  - In the 1970s and 1980s, the French army numbered roughly 300,000 active duty and reserves, with a significant portion of those being conscripts
+  - Organized into 15 divisions, grouped into 3 army corps
+  - Today the Army is 2 divisions, grouped into a single corps
+  - Has had corresponding reductions in equipment
+    - Had over 1300 main battle tanks in 1990
+    - Down to roughly 220 today
+    - While the tank force has been modernized, the large reduction in mass results in an inevitable loss of capabilities
+- The transition from a conscription oriented force to an all-volunteer military has raised the number of French troops that can be deployed, as French law stated that conscripts could not be deployed abroad
+
+** A Turn Towards Networked Warfare
+- The French Army has a balanced force structure designed to be capable in a wide variety of conflict scenarios
+- Organized into two divisions and seven subordinate brigades as well as supporting forces, rotary aviation, a NATO rapid-reaction corps headquarters, and special operations units
+- Two heavy tank brigades
+  - LeClerc main battle tank
+  - VBCI infantry fighting vehicle
+- Two light brigades, one of which is an airborne brigade
+- Remaining brigades are considered medium or multirole
+  - Set up to have a battalion immediately deployable
+  - Remainder of brigade can be deployed within one month
+- Nearly all French forces are mechanized
+- French Troupes de Marine provide amphibious capabilities
+- The French Army will retain its current force structure for the foreseeable future
+- The most important capability enhancement will come from the SCORPION program
+  - Investments in modernization and networked warfare
+  - Upgrades to light vehicles to enable greater mobility and communications
+  - Enable "collaborative warfare" --- currently only possible with the LeClerc and the VBCI
+  - The SCORPION program is dependent on a new radio system being built by Thales --- CONTACT
+  - These systems will be used on new Griffon armored personnel carrier and the Jaguar light tank, expected in 2019 and 2020 respectively
+  - In addition to CONTACT, French armored vehicles will be enhanced with the "Antares" system
+    - Roof mounted system that can provide 360 degree panoramic images of the exterior of the vehicle
+    - Can detect range-finding and targeting lasers
+    - Integrated with CONTACT --- if a vehicle is targeted by a laser, all other vehicles in its vicinity will be notified automatically and the group commander will be presented with response options
+
+** France's Focus On The Middle Segment
+- France insists on a one-size-fits-all military
+- Add a limited amount of heavy assets to redress post-Cold War cuts, while maintaining expeditionary warfare capabilities
+- The French government feels that maintaining a wide variety of specialized units is unaffordable, and thus investing into general purpose capabilities suitable for a wide variety of conflict scenarios is the most cost effective option
+- France is notable in that it deploys significant forces in a peacekeeping and counterinsurgency capacity (i.e. to Africa or the Balkans), but still chooses to maintain the ability to fight in a high-intensity conflict
+- Many other countries in a similar situation (e.g. Canada, and the Netherlands) have abandoned the ability to fight in high-intensity scenarios entirely in favor of a larger number of lightweight expeditionary forces
+- One consequence of the French emphasis on the "middle segment" has been a near wholesale abandonment of tracked vehicles
+  - Wheeled vehicles are easier to maintain and can travel long distances under their own power
+  - This capability proved valuable during Operation Serval, for example, when French armored vehicles could drive long distances to reach Mali and then operate in-theater with little infrastructure or support
+  - The only tracked vehicles in the French military currently are the LeClerc main battle tank, the US-made MLRS long-range rocket artillery system, and the AMX-30 AuF1 self-propelled howitzer
+  - Of these, the AMX-30 AuF1 is slated to be replaced by the CAESAR, which is a wheeled vehicle
+  - Similarly, France is in the process of retiring its tracked AMX-10p infantry fighting vehicle and replacing it with the wheeled VBCI
+  - These wheeled vehicles are, in many cases, actually heavier than their tracked predecessors, speaking to improvements in survivability
+- The advanced communications capabilities and survivability levels of these new vehicles is greater than is necessary for conflicts in Africa
+  - Existing vehicles were proving adequate in African conflicts, with reliability being the primary limitation
+  - This shows that France is not optimizing its army solely for low-intensity counterinsurgency
+  - But neither is it optimizing for high-intensity ground warfare in Europe, given that such a force would be impossible to sustain when deployed to an austere environment
+  - The French government accepts the risk of coming up short against Russia in order to have a force that can be easily and reliably deployed to Africa
+- The total number of French weapons systems remains small
+- France has a total of 358 artillery systems
+  - 121 155mm guns, of which 77 are CAESARs and 32 are the 1980s-era AMX-30 AuF1
+  - Only 13 MLRS
+  - While the LPM advocates for buying additional CAESARs, the intent appears to be to replace the remaining AMX-30 AuF1 systems rather than increasing the total number of artillery systems
+- /I wonder how many of these decisions are being revised in the aftermath of the Ukraine conflict/
+- /As two years of fighting in Ukraine have shown, wheeled vehicles struggle to go off-road in Eastern European mud/
+- /It seems like a lot France's acquisition decisions have assumed that future combat will primarily take place in subtropical deserts, where there isn't much of a difference in capability between tracks and wheels/
+- /That said, it's easy to critique France's decision to compromise between counterinsurgency and high-intensity warfare, but I'm not sure that this criticism holds/
+- /While it does seem like France drastically underestimated the probability of escalation in Ukraine, the French assumption that any conflict against Russia would have US participation seems to be holding up/
+- /The biggest concern is the small number of weapons systems, especially artillery/
+
+** The Challenge of Maintaining Readiness For High Intensity Conventional Warfare
+- Finding data on French readiness is difficult
+- Available data indicates that readiness suffered from 2000 onward, reaching a nadir around 2017
+- At that time, France was
+  - Sustaining Operation Barkhane Barkhane in the Sahel
+  - Sustaining Sangaris in the Central African Republic
+  - Deploying troops for Operation Sentinelle, a homeland security mission that was taken on after the terrorist attack at the Bataclan theater in 2015
+- After 2017, budget increases allowed the Army to regain some of the readiness that it lost, with Army Chief General Jean-Pierre Bosser stating that readiness had recovered to pre-2015 levels
+- Of note is that, by Bosser's own admission, combined-arms training and readiness for high-intensity conflict was the area that had suffered the most
+- It is unclear how prepared the French army was for high-intensity combined arms operations prior to 2015
+  - On paper, soldiers do receive training for high-intensity combined arms warfare
+  - Cadets in France's Command and General Staff College, the Ecole de Guerre-Terre, are encouraged to study French battles in World War 2
+  - However, most French officers' practical experience is in low-intensity counterinsurgencies, such as Operation Barkhane
+- French heavy units have received some practical experience from joint deployments conducted under NATO auspices to the Balkans
+- Although the Army has more soldiers now, it remains short on equipment
+- Spare parts, in particular, are an area of concern
+- Vehicles have been organized into a centralized pool, with units only receiving vehicles when and where they need them
+- This centralized scheme came under severe strain when France had to mobilize additional resources to conduct Operation Serval in addition to Operation Barkhane
+- The availability of helicopters is particularly worrisome
+  - According to a 2018 report, only 1/3 of French helicopters were in operable conditions
+  - The other 2/3 were either awaiting maintenance or being worked on by manufacturers
+  - The reason the French military was waiting on manufacturer support was because of a cost-cutting decision to outsource maintenance to manufacturers whenever possible
+- This lack of availability impacted French combat operations
+  - When France started Operation Serval, none of its Tiger attack helicopters were available
+  - Instead the Army had to rely on less powerful and more vulnerable Gazelle helicopters to conduct ground attack missions
+  - One Gazelle pilot was killed by ground fire on the first day of Operation Serval
+- The French Army is also experiencing ammunition shortages
+  - MLRS rocket stocks are in sufficiently short supply to limit the theaters to which MLRS resources can be deployed
+  - The CEASAR artillery systems deployed to Iraq, as part of the anti-Islamic State task force have been wearing out barrels and using worrisome amounts of ammunition
+- /What I'm reading here is that the French military was barely up to the task of waging two or three brushfire wars simultaneously, and would be completely overmatched without external (read: American) support in a high-end conventional conflict/
+
+** Enabling Mobility
+- France's ongoing military engagements have required the Army to maintain its logistical capabilities
+- However, it is unclear whether a logistical system that is sized and oriented towards getting troops into and out of counterinsurgencies would be able to handle the much greater demands of a high-intensity conventional conflict
+- Senior French military officials state that the French logistical system is resilient, and would be capable of moving troops and supplies in a high-intensity conflict, with the caveat that France would rapidly run out of supplies and troops to move
+- The French military has maintained its Cold War-era ties with the rail service
+- The French government has maintained sufficient rolling stock and institutional knowledge of rail-based mobilization to move units rapidly from French and Spanish bases into and through Germany
+- As part of this, the French government has retained the legal authority to shut down civilian rail and air traffic to make way for military convoys
+
+* Air Force Capabilities
+- Although the French Air Force has significantly more powerful aircraft than it did at the end of the Cold War, its numbers have shrunk dramatically
+- Reduced from 92,000 personnel and 350 combat aircraft in 1990 to 40,000 personnel and 217 combat aircraft in 2021
+- In 2002, France began a major modernization program for its air force, by retiring Jaguar and various Mirage models in favor of the newer Rafale
+- As of 2019, the French air force had two major priorities
+  - Continuing to modernize equipment, including preparing for the next generation of fighter aircraft
+  - Addressing readiness issues in light of major shortcomings exposed during the 2016-2017 period
+
+** Modernizing Air Assets
+- The French air force's priority remains nuclear weapon delivery
+- To this end, it focuses on three areas
+  - Fighter aircraft
+  - Missiles
+  - Refueling assets
+- As of 2018, France retired its last Mirage 2000N, replacing it with the Rafale
+- The Rafale fleet itself is undergoing a set of modernizations, bringing it up to the F3R standard, which will allow the Rafale to carry the METEOR long-range air-to-air missile
+- One major limitation restraining the pace of modernization and acquisition is the fact that French military orders are not prioritized by manufacturers over export orders
+- Between 2019 and 2021, Dassault will not be producing any Rafales for the French military --- all produced aircraft will go to export customers
+- Between 2022 and 2024, Dassault will reduce production for the French military, allocating 28 aircraft
+- In 2023, France is planning to order another 30 aircraft, which will be produced between 2027 and 2030
+- /I wonder if any of these orders have been moved forward or expanded due to the war in Ukraine/
+- Defense Minister Parly also announced in 2019 a €1.9 billion plan to bring the Rafale fleet up to a new F4 standard
+  - Better communication with other aircraft and ground assets
+  - Further increases in payload capacity
+  - Improved radar and electronic warfare capabilities
+- While the Rafale is interoperable with the Link 16 NATO datalink standard, it is not currently interoperable with the F-35
+- Discussions with US on interoperability are only just starting
+- In 2032, France is expected to announce a new F5 standard for the Rafale, enabling high-speed satellite-based communication and compatibility with "connected munitions"
+- /So, in other words, by the time France gets Rafales that are interoperable with the F-35, the F-35 itself will be on the cusp of retirement/
+- In 2035, France plans to begin the replacement of its Rafale fleet with jointly developed sixth-generation fighter
+  - In June 2019, the defense ministers of France, Germany and Spain signed an agreement to jointly develop the Future Combat Air System (FCAS)
+  - FCAS envisions the development of not just new fighter aircraft, but also new cruise missiles, drones, and communication systems which will allow these aerial assets to communicate with ground-based and naval systems
+  - France is taking the lead of developing the new fighter, while Germany will be producing the new European Medium Altitude Long Endurance (EUROMALE) drone
+  - /So, in other words, FCAS is _guaranteed_ to be a disaster/
+  - /You're telling me that the French and German defense industries, which can barely talk to one another after the Eurofighter debacle, are going to _jointly_ produce a new fighter jet, new medium-altitude drone, new cruise missile, and an entirely new system of communication hardware and protocols that will serve as the NATO standard going forward? Please./
+  - /Hopefully they'll at least get a decent cruise missile or fighter jet out of it/
+  - /But more likely is that by 2030 the program will be hopelessly behind schedule and over budget and they'll end up buying whatever the US is producing at that time, probably NGAD/
+- France will also be adding six new REAPER drones to its fleet
+- The major weakness of the French air force is tankers and strategic airlift
+  - France lacks any large cargo aircraft comparable to the US C-17
+  - Often relies on US-provided tankers to help its aircraft in operations over the Sahel
+  - Had to rely on Antonov and Ilyushin aircraft to move cargo during Operation Serval
+    - Antonov and Ilyushin moved 76% of the air cargo during Operation Serval
+    - Some of the Ilyushin aircraft that France relied on were operated by the Russian Ministry of Defense
+    - /Of course, now, Ilyushin is off the table because it's Russian and Antonov lost a large number of its heavy cargo planes during the attack on Hostomel airfield during the early part of the Ukraine War/
+- France is addressing this capability shortfall by acquiring the Airbus A330 MRTT
+  - Is both a cargo plane and a tanker
+  - Expected to replace France's C-135 cargo aircraft and KC-135 tankers
+  - Will also replace France's A310 and A340 troop transports
+  - France has increased the pace at which it is acquiring the A330 MRTT, moving deliveries of the aircraft forward to 2023 from 2025
+- However, major shortfalls in airlift capacity remain
+  - The A330 MRTT can carry up to 45 tons of cargo
+  - This is only approximately half the cargo capacity of the C-17
+  - /And only approximately 1​/3 the cargo capacity of a C-5/
+  - As a result, France will be dependent on coalition partners for heavy airlift for the foreseeable future
+- In addition to modernizing its airframes, France is also modernizing air-launched munitions
+  - Medium-range air-to-ground nuclear missile --- Air-Sol Moyenne Porteé (ASMPA) --- modernization was completed in 2020
+  - The ASMPA will be replaced by a new system, the Air-Sol Nucléaire Fourth Generation (ASN4G), by 2035
+  - The LPM also plans for upgrades to the METEOR
+  - Also plans for a new air-to-air missile, MICA
+  - France and the UK are also jointly developing a new cruise missile --- Future Cruise and Anti-Ship Weapon (FC/ASW) --- will replace Exocet and Storm Shadow
+  - In addition to modernizing and replacing existing air-launched weapons, France also plans to develop new air-launched weapons, notably hypersonics
+    - VMaX hypersonic glide vehicle
+    - Will be expected to be paired with the ASN4G nuclear missile
+- Another new system of note is the Charge Universelle de Guerre Électronique (CUGE) --- new signals intelligence and electronic warfare aircraft
+
+** Improving Equipment Readiness
+- Since 2017, the French defense ministry has devoted significant attention to improving the readiness of French military aircraft
+- From 2012 to 2017, French aircraft had a readiness rate of only 44%
+- For certain aircraft types, readiness was much worse --- ex: Caracal helicopters had only a 25% readiness rate
+- This did not overly affect combat operations --- assets that were deployed had an over 80% readiness rate
+- Did affect training --- undeployed assets averaged 30% readiness, which meant that they were often unavailable for training missions
+- In 2017, the French defense ministry assessed the French air force as being unable to handle even low-end contingencies
+- This lack of readiness is explained by several factors
+  - Increased wear and tear from operations in the Middle East and Sub-Saharan Africa
+  - Increasing maintenance costs for aging platforms, notably the Caracal
+  - Maintenance contracts that dilute responsibility among a large number of contractors, leading to delays and cost overruns
+- In December 2017, Defense Minister Parly announced the creation of a new Aeronautical Maintenance Directorate
+  - Reduce the number of contractors involved with maintaining a given system
+  - Increase the duration of maintenance contracts
+  - Introduce performance clauses into maintenance contracts
+- The new maintenance directorate was instructed to prioritize readiness improvements for the aircraft with the lowest readiness rates
+  - Atlantique 2 maritime patrol aircraft
+  - A400M transports
+  - Helicopters
+- /I'm surprised that the A400M has readiness issues/
+  - /Relatively new aircraft/
+  - /Design was supposed to be robust --- like a modernized C130/
+
+** Some Challenges Remain
+- Other challenges for the air force include
+  - Increasing training
+  - Improving suppression of enemy air defense (SEAD) capabilities
+  - Increasing low stockpiles of munitions
+- Training was hampered by a combination of retention issues and increased operational tempos
+  - Many experienced pilots left when the Air Force was downsized as part of the previous LPM
+  - Missions in Africa prevented the older pilots that remained from being available to train new pilots
+  - Pilots that were involved in counterinsurgency operations need to retrain for full-spectrum warfare
+- To address this training shortfall, France is
+  - Increasing the number of training flight hours per year, from 164 to 180
+  - Investing in a new generation of trainer aircraft, the Pilatus PC21, which can better simulate the avionics of a Rafale
+- The French air force's ability to undertake missions in non-permissive or semi-permissive environments is primarily hampered by the lack SEAD training among its pilots
+- The air force is also hampered by a lack of munitions
+  - Insufficient numbers of cruise missiles to allow for air attacks into contested environments
+  - Insufficient general purpose bombs
+
+* Navy Capabilities
+- Just as with the Air Force, the French Navy's responsibilities with regards to nuclear deterrence have helped prevent erosion of capabilities since the end of the Cold War
+- Nuclear responsibilities are also helping drive the French Navy's modernization
+- French naval priorities include
+  - Maintaining open sea lines of communication
+  - Fleet modernization
+  - Maintaining power projection capabilities
+  - Improving munitions stocks
+- Like the other branches of the French military, the Navy is roughly half the size it was at the end of the Cold War
+  - Reduction in personnel from 75,000 to 35,000
+  - Reduction in fleet size from 147 to 88
+
+** Maintaining Lines Of Communication And Freedom Of Navigation
+- France has made anti-submarine warfare a priority for its navy, as part of its priority on maintaining and protecting its at-sea nuclear deterrent
+- Currently, that mission is carried out by long-range Atlantique 2 maritime patrol aircraft
+- However, France only has 22 of these, and they are often necessary for other overland missions
+- The current set of aircraft has been in operation since the 1990s, and thus represents a worsening maintenance challenge
+- The LPM plans a renovation and modernization program for these aircraft, and France plans to receive the first two of these modernized aircraft in 2019
+- France is co-developing with the UK a drone-based mine detection system called the Maritime Mine Countermeasures Program
+  - This is the first step of a program known as Future Mine Countermeasures Capability
+  - The schedule calls for these drones to be operational in 2022, but the program is experiencing delays
+- The Navy is also developing a tactical drone capability, which is expected to come online in 2025
+
+** Renewing The Fleet And Improving Its Readiness
+- The French Navy is pursuing the modernization of its fleet, with a priority placed on modernizing its naval nuclear deterrent
+- Will receive /Barracuda/-class attack submarines from 2019-2025
+- A third generation of nuclear ballistic missile submarines is expected in the 2030s, along with a new version of the M51 submarine-launched ballistic missile
+- The French Navy will be taking delivery of its third FREMM multimission frigate in 2019, with the production run expected to conclude by 2025
+- The Navy will be replacing its E-2C Hawkeye airborne early-warning and control aircraft with upgraded E-2D models by 2026
+- With Italy, the French Navy is co-developing new logistical support ships
+  - Expected to take delivery of three ships between 2022 and 2025
+  - An option for a fourth ship is available; if that option is exercised, the ship will be available in 2029
+- Rather than maintaining existing Alouette and Lynx helicopters, France is renting H160s until the entire set of helicopters can be replaced by the NH 90 and the Hélicoptères Interarmées Légers in 2030
+- This is a stop-gap solution that is equivalent in cost to maintaining the existing fleet of helicopters, but which allows French crews to gain experience with more advanced equipment
+
+** Maintaining France's Power Projection Capabilities
+- The French Navy is one of Europe's most capable navies with regards to power projection
+  - /Charles De Gaulle/ - Nuclear powered aircraft carrier
+  - /Mistral/-class amphibious assault ships
+- The /Charles De Gaulle/ is coming off a major mid-life maintenance overhaul that was completed in 2018, which modernized its combat systems, communication systems and radars
+  - Took part in anti-Islamic State operations along with the US
+  - Important to defense diplomacy by giving France a strong role in joint exercises with other navies, such as India or Egypt
+- The design studies for the replacement for the Charles De Gaulle have already begun, with several questions yet to be answered
+  - Nuclear or conventional propulsion
+  - Electromagnetic catapults, steam catapults, or ski-jump for takeoff assistance
+  - One or two carriers --- the French Navy prefers having two carriers as that allows the maintenance of some kind of carrier capability when one carrier is in drydock for maintenance
+
+** A Need For Increased Training, Including On Munitions
+- Over the past decade, training time for Navy personnel was reduced by 20%
+- The LPM allocates additional funding to reverse this loss
+- France has worked with allies, including the United States, to host its sailors aboard their vessels for additional training, which allows French sailors to gain experience while their ships are in drydock and enhances interoperability
+- However, lack of munitions stocks have hampered the French Navy's ability to train
+- Example: During Operation Hamilton, the cruise missile strike against Bashar Assad's stocks of chemical weapons, French FREMM frigates were unable to launch new naval cruise missiles, due to a computer issue, and had to rely on a reserve ship that was escorting them
+- France is working to ensure that there are sufficient stocks of complex munitions that every ship and aircraft can conduct a live fire exercise every other year
+- /That still feels really low/
+
+
+* Space, Cyber and Intelligence Capabilities
+- The LPM plans for major investments in space and cyber capabilities
+- Space is viewed as a key enabler for high-end capabilities
+- Systems like SCORPION are reliant on reliable satellite communications
+- Cyber capabilites are being invested in to defeat adversaries who would use cyberattacks to reduce France's ability to carry out conventional or nuclear strike missions or cripple France's critical infrastructure
+
+** Space
+- The LPM commits 3.6 billion Euros to modernizing French space capabilities
+- In July 2019, an additional 700 million Euros were allocated to this fund
+- In 2018, Florence Parly revealed that a Russian satellite had been observed to be spying on the Athena-Fidus Franco-Italian military communications satellite
+- France has also expressed concerns over other state actors' ability and willingness to use anti-satellite weapons, which have the potential to create harmful debris fields
+- The French government has also expressed concerns over traffic management in space, which also has the potential to create debris fields through accidental collisions
+- Cooperation between the United States and France is strong in this domain
+- In December 2018, France launched the first of its Composante Spatial Optique (CSO) military reconnaissance satellites
+- The CSO constellation, scheduled to be operational in 2020, is the replacement for France's existing Helios satellites
+- CSO was developed as a collaboration between France, Germany, Sweden and Belgium and the data from the satellites will be sent to a multinational program that allows France, Belgium, Germany, Greece, Italy and Spain to share intelligence data
+- /Is Sweden not part of the intelligence sharing arrangement, even though they helped build the satellite?/
+- The successor to CSO, IRIS, was announced at the 2019 Paris Air Show
+- French policy calls for continued partnership with the United States, but states that Europe should be a "credible partner" that maintains independent capabilities
+- Highlights that nations keep sovereign control over their space capabilities, so any pooling of space capabilities will be limited
+
+** Cyber and Intelligence
+- Cyber and intelligence capabilities have been one of the major beneficiaries of the LPM, with 330 of the 450 new roles created within the Ministry of Defense falling into these two categories
+- The LPM commits 1.6 billion Euros for improving France's cyber capabilities
+- Increases the budgets of the 3 intelligence agencies under Ministry of Defense command by 15%
+- In addition to increased budgets, France has undertaken organizational changes to better defend its computer networks
+  - 2017 --- created a unified cyber operational command tasked with defending military and critical infrastructure systems
+  - 2018 --- The Secretariat General for Defense and National Security released a strategic review of France's cyber defense capabilities
+  - 2019 --- France released its first cyber offense doctrine, addressing how France plans to cooperate with partners in cyber activities
+
+* 

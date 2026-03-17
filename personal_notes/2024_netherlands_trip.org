@@ -1,0 +1,338 @@
+#+TITLE: 2024 Europe/India Trip
+
+
+* Amsterdam
+- Canal tour
+- Overrated city
+- Might be nice in the summer, but it's so far north that summer would be at most a couple of months
+- Protestant architecture is genuinely boring
+- It's literally just boring brick buildings
+- I'm pretty sure that I've seen more interesting maps in Counterstrike
+  - Not even CS: Source, I'm pretty sure that even 1.6 had better textures than Amsterdam
+- Anyone who says that people in the Netherlands don't use cars is straight up lying --- even on a weekend afternoon, there's plenty of traffic
+- McDonalds calls a quarter-pounder with cheese, "La Royale with cheese" in the Netherlands --- Pulp Fiction was right
+
+* Leuven
+- Driving between cities in Europe is surprisingly pleasant
+  - Big roads
+  - Speed limits are decently high
+  - If you have luggage, like we did, it's probably better to rent a car than it is to take a train
+    - Can drop off your stuff directly in front of the hotel
+    - Don't need to worry about sticking to a particular schedule
+- Even in Europe, even in the specific part of Europe that people cite as showing that you can live without a car, cars rule
+- Leuven is the "fifteen-minute city" that liberals want to turn US cities into
+- Bicycle-oriented architecture is pure degrowth cope
+- Visiting Leuven turned me into a Republican --- having to haul groceries by foot or by e-scooter in 30 degree freezing rain is only something that people put up with if they're either
+  1. Completely brainrotted by ideology
+  2. Forced to by the aforementioned
+- Most stores are closed entirely on Sunday, and even the convenience stores close at 2 pm
+
+* Brussels
+- Didn't manage to go to the city center, but I did get to see the Atomium
+- Giant sculpture of an iron atom, erected for the 1958 World's Fair to showcase the European steel industry
+- Ironically the sculpture is made of aluminum
+- Is a reminder of a time when Europe could actually build cool stuff
+- The attached design museum is cool --- I would have liked to have Obormot with me for it
+  - They had a Braun T3 transistor radio
+  - It's immediately apparent that the iPod was inspired by this
+  - Everything about it, the size, the shape, and the big wheel control in the center, was translated directly to the iPod
+- Mini-Europe is kitschy but fun
+  - Consists of a large number of miniatures of various European landmarks
+  - Very detailed
+  - Includes landmarks from every European country, including the ones no one knows about, like Estonia
+  - At the end there's a hall that has a hilarious amount of pro-EU propaganda, trying to explain to people what the EU does for them
+  - It's unsuccessful --- at the end of it, I had no more understanding of what the EU does than I did before I went into the hall
+- Brussels is more car-friendly than Amsterdam or Leuven, but I might only have that impression because I didn't go into the city center
+
+* Delhi
+- Things we saw
+  - Qutb Minar
+  - Bahai Temple
+  - Rajghat
+  - India Gate
+  - Dad's old house
+  - Humayun's tomb
+  - Red Fort
+- India is cyberpunk
+  - Many small corner stores
+  - Few large corporations
+  - Lots of work done through personal connections rather than formal mechanisms
+    - Example: to get a haircut, ask your driver for the best place to get a haircut
+- The best part and the worst part about India is that you're not allowed to do anything yourself --- you have to find someone to do it for you
+  - If you find someone good, you get expert work done for remarkably low prices
+  - If you don't, you're in management hell
+- In Delhi, all cars that go into the city center have to be powered by compressed natural gas (CNG)
+- This rule is respected --- even the autorickshaws are CNG
+- However, it hasn't helped the air quality any --- there's still an omnipresent haze
+- Our hotel ran out of water on the second day, welcome to India
+  - This is exactly what I mean when I say, "I would rather be poor in a rich country than rich in a poor country"
+  - We were paying $100 a day for this hotel
+  - But it still didn't make up for shitty infrastructure
+- India is like the America you order off Temu
+  - Everything is advertised to be the same, but some stuff just straight up doesn't work
+  - The stuff that does work is flimsy
+- Bryan Caplan is dumber than my mom
+  - Dude had trouble crossing the street in India, and just gave up
+  - Meanwhile, my mom, who had the same trouble, just walked until she found an autorickshaw who drove her across the street for a small fee (less than $0.50)
+- Humanyun's tomb is genuinely good
+  - Nice museum showcasing Mughal art and architecture
+  - The tomb complex is clean and well preserved
+  - Lots of people taking selfies, but that's a constant at every tourist spot in India
+  - The gardens are clean and peaceful
+- Red Fort
+  - The fort was nice, but crowded
+  - The sound and light show was funny because it was very Indian-nationalist
+    - Showcased military resistance to British rule
+    - Said that the Indian Mutiny of 1857 only failed because its leaders were sold out by British collaborators
+    - Didn't mention Gandhi once
+      - That period of Indian history was represented by Subhash Chandra Bose, who fought with the Japanese and the Nazis against the British in Burma
+      - The collaboration with the Axis powers is conveniently not mentioned
+      - According to the presentation, after Bose's Indian National Army was suppressed in 1945, some stuff happened ¯\_(ツ)_/¯, and then India gained independence in 1947
+
+* Bhubaneswar
+- Taking a flight across India at night is a stark reminder of just how poor India is
+- If you fly across the US at night, the ground sparkles, every small town appearing like a little glittering jewel
+- Flying across India is a lot darker
+- Pocky is everywhere - even random corner stores have Pocky
+- The corruption allegations against Gautam Adani are front page news here
+- My grandfather's house was built in the '70s and it shows
+  - No power outlets, anywhere!
+  - It's a good thing I brought my long cables
+  - It would have been better if I'd brought my battery
+- This house is literally crumbling - concrete cancer
+  - It's kind of depressing - everything is crumbling and decaying
+    - That's just the nature of things in a tropical environment - everything decays without constant upkeep
+- India is less dusty than I remember
+- The old quiet neigborhood is gone too, replaced by mid-rise apartment buildings
+- There are new apartments everywhere
+- The GST appears to have been a success - businesses mostly respect it
+- Banks here are still mostly paper-oriented, with entries being recorded in huge paper ledgers, straight out of /A Christmas Carol/
+- There are large folios of paper forms generated for even the most routine transactions
+- While the main roads in Bhubaneswar are somewhat better, the back roads still suck
+- At least the road in front of the house is paved --- it was dirt not that long ago
+- Here there are cafes with VR headsets - Not Vive or Oculus, but "Procus"
+  - Headset consists of just some padding and lenses
+  - Insert phone and run a VR app
+  - It's kind of wild that you can basically clip on some lenses onto an unmodified smartphone and get a VR headset out of it
+- Activating a SIM without an Aadhar card is a real pain
+  - Need to show your passport
+  - Need to provide a local number and contact information
+  - When we asked the lady at the Airtel store how someone who didn't have local friends/relatives would activate a local SIM, she said it wasn't possible
+- India has formalized landmark navigation
+- Their address fields require a "landmark", and the lady at the phone office was confused when our address in the US didn't have one
+  - The "landmark" for our US address ended up being "near main road", which describes approximately every address in the US
+- The way they write phone numbers in India is 5-5 versus 3-3-4 in the US
+  - India had 10 digit phone numbers from the beginning, unlike the US
+- The GST is broadly successful
+  - Makes shopping in India more like shopping in the US - tax is not included in the label price
+- Buying clothes in India is challenging because everyone asssumes you can go to a tailor for fine tuning. So clothes are sold in a much coarser range of sizes, with the assumption that you'll buy something too big and have it taken in as necessary to make it fit properly.
+- Bhubaneswar has more sidewalks than it did last I visited
+- Skinny jeans are still in style in India
+  - This is weird because Indians are increasingly fat and skinny jeans look really gross on fat people
+- Western brands aren't any cheaper here than in the US - an Izod polo shirt costs ₹3999, which is roughly $50
+- Nevertheless they still sell
+- Reliance Mart is like Indian Costco
+  - Low prices
+  - Generic brands
+  - Food court
+  - You can buy a full size can of Pringles at Reliance Mart for ₹10 ($0.12) - no wonder India is getting fat
+- Even in Bhubaneswar, lots of cars are CNG, even though there's no CNG mandate like in Delhi
+  - CNG is just cheaper
+- There are many fewer cows on the road than there were when I last visited
+- India is way more smartphone dependent than even the US
+  - *Everything* has an app
+  - Websites for things, even when they exist, are often nonfunctional and unmaintained
+  - The one institution in India that actually does have useful and functional web sites is the government
+- Indian secondary highways will have speedbumps in the middle of nowhere for no apparent reason whatsoever
+- There is *no graffiti* in India
+  - Lots of random murals, painted by the government, or by schools on their walls
+  - Otherwise lots of bare concrete
+  - In the US, or even in Europe, there'd be graffiti everywhere, but in India the walls are clean
+- Indian stores demonstrate the general lack of competence
+  - My aunt knew the store's inventory better than the person working at the store
+- Even Indian chipmunks are loud
+- Gas here is less expensive than I thought it would be - it's only 50% more expensive here than it is in the US
+- In India all cats are unlucky, not just black cats
+  - My uncle literally stopped the car in the middle of the road, backed up, and then proceeded because a cat crossed the road in front of us
+  - In general, people in India, even educated people like my aunt and uncle, are way more superstitious than they are in the US
+
+* Puri
+- Google Maps directions in India are useless
+  - Roads are basically alleyways
+  - GPS precision is not sufficient
+  - Google gives landmarks, but the landmarks don't always make sense
+  - Things change so much that the landmark given on Google Maps may not even still exist when you navigate
+  - Visiting Puri emphasized just how ridiculous it was for the US Army, a high-tech GPS-dependent mechanized force with zero local knowledge, to conduct military operations in Iraq and Afghanistan
+    - No street names
+    - GPS works poorly in the heavily built up concrete maze
+    - Even when GPS works, it doesn't have the precision to tell the unit which specific alleyway they're in
+    - Even if they know where they are, the roads are barely wide enough for a Maruti-Suzuki Swift --- watching a big truck go down those roads is terrifying
+    - The idea of dropping an 18-year-old from Nebraska into the middle of a city like Puri and expecting them to do *anything* is laughable
+- India demonstrates once again that it's the America you order off Temu
+  - Hotel has a checkout time of 8am
+  - Seems like a scam to ensure that people end up paying for additional days
+  - When we arrived at 1pm, however, our room still wasn't ready
+- Hotel TVs here are all no-name Android smart TVs
+  - The label on the TV in our room spelled Android as "Andorid"
+- On our way out from Puri we stopped by a resort to look at a scenic spot where a river enters the ocean
+  - Resort was setting up for a destination wedding
+  - It's even more ridiculous in real life than it is in movies
+  - They had the *entire* resort decorated, including the pool
+  - It was pretty, but also totally over the top
+  - Indian weddings are even more insane in real life than they are in movies
+
+** Navy Day Rehearsal
+- Probably the absolute highlight of the trip for me
+- 24 ships of the Indian Navy showed up --- like 20% of the Navy's combat power
+  - Only approximately 12 were visible during the show, however
+- Helicopter demonstrations
+  - Fast rope into boat
+  - Extraction from boat
+  - Rescue demonstration
+  - Helicopter formation flying
+- Jet overflights with Hawk trainers
+- I got to see a lot of ships and helicopters that I wouldn't normally get to see
+  - Aérospatiale Alouette III
+  - Kamov KA-27
+- The ships offshore did an ASW rocket demonstration, but it was kind of underwhelming because I couldn't see the action on the big screen
+
+* Konark
+- Konark temple is very nice, but it was crowded because of the dance festival
+- Lots of people had the same idea we did, and were wandering around the grounds to kill time before the dance festival
+- India has its own version of Intourist, and its guesthouses are still quite nice to eat at
+- People here aren't really interested in history --- the Konark Museum had a very nice set of exhibits, but it was practically empty
+- People here think that Konark is some ancient relic, but objectively speaking, Konark isn't that old
+- It dates from the 1200s --- the Roman ruins in Italy are more than a thousand years older
+- Odissi dance is the best of all traditional Indian dances --- nothing else compares
+
+* Cuttack
+- The road from Cuttack to Bhubaneswar is much improved
+- Riding around Cuttack on the back of my cousin's scooter is the scariest and most exciting thing I've done thus far
+- My cousins are proof that ambition has to be learned
+  - Ambition results from knowledge of what's possible --- you'll never try for something if you don't even know that it exists
+  - My cousins' mother is from a much poorer family than ours, so she's perfectly happy for her sons to become shopkeepers like their father
+  - This frustrates my mom who sees how intelligent they are and know that they could be so much more if only they were pushed
+  - It is possible for a person to transcend their upbringing --- I know someone who is the son of a bus driver, but managed to earn a PhD in mechanical engineering in the US
+  - But it is very hard
+  - I guess this is why innovation is so rare --- in order to be a successful innovator, you need to have ambition to achieve something that doesn't yet exist and may not even be possible
+  - And you need to do this not only without any support, but often in the face of active opposition from those around you
+- Indian pressure cookers run at higher pressure than Western pressure cookers and therefore cook faster and better
+- Electric scooters are cool, but you have to honk twice as much because no one can hear you coming up behind them
+- My uncle owns a paint shop and the pharmacy next door
+- Pharmacy has a small medical clinic (really just an exam room) in the back
+- There are antibiotics just sitting on the shelf --- don't need a prescription, can just come up and ask for them
+- The computer in the shop is running Windows 7, which might be scarier than the antibiotics thing
+- The paint shop is really small, but has a decent selection of paints
+- In India, drug company reps have way more influence than they do in the United States
+  - I literally heard a doctor say, "Why don't you take this pill for your congestion, I had a rep for it stop by the other day and he assured me that it was good"
+- My older cousin rides a 1977 Royal Enfield Black Bullet 350
+  - Very well maintained --- looks barely a few years old
+  - Great sound, too
+  - Not fast, but what can you expect from a 21 hp engine?
+- In Bhubaneswar, our house had wired Internet, but here the internet is provided by a cellular hotspot
+- The hotspot gets slow from time to time, but it's stil very workable
+- Electricity has become much more reliable since the last time I visited
+- I remember power cuts being a regular occurrence, but this time we haven't lost power once
+- Being in Cuttack makes me understand why my mom is the way she is
+  - She has no sense of privacy because no one has a sense of privacy here
+  - She's strict because her own mother was too lax, and her brothers suffered as a result
+- All doors in India are bolt action --- none of this decadent westoid spring operated latch nonsense
+- The house in Bhubaneswar is worse than the house in Cuttack in almost every respect, but the bolts on the doors in Bhubaneswar still operate well, whereas in Cuttack the house is newer and the bolts are more cheaply made, so on some doors you have to jiggle the bolt to get it to align properly
+- Indian food has gotten way greasier
+- Single-use plastic bottles have replaced glass for many beverages, which sucks because glass bottles are a superior drinking experience
+- In India hot water heaters have to be turned on manually and are called "geyzers" (pronounced "geezer")
+- Cooking oil here is sold in bags
+- The shopkeeper at the kurta store has a relative living in Finland --- he flatly refused to believe me when I told him Minnesota could be as cold as Finland
+  - Apparently people in India think that the US is just Texas
+  - Genuinely understandable mistake, though --- anime does the same thing
+- My family is a living illustration of the TFR decline in India
+  - My grandfather was one of 16 siblings
+  - My father is one of two siblings
+- In Odiya, the idiom for calling someone illiterate is saying, "He signs with his thumbprint"
+- My mom's cousin's experience of traveling to India is a counterpoint to [[https://www.greaterwrong.com/posts/z6Jm2wLt9ok4q6qaZ/jobs-inside-the-api][Jobs Inside The API]]
+  - Lives in Florida and was visiting India at the same time as we were
+  - Original itinerary
+    - Florida to New York (via JetBlue)
+    - New York to Dubai (via Emirates)
+    - Dubai to Bangalore, where she'd stay for a few days
+    - Bangalore to Bhubaneswar
+  - Trip from Florida to New York was fine
+  - However, in New York, she was bumped from her flight to Dubai
+  - Spent hours on the phone trying to get a response from customer service --- no reply
+  - Eventually her husband spent like a thousand dollars more to get her another flight on Etihad, to Abu Dhabi, outbound the next morning, and rebooked her connecting flight to Bangalore
+  - Split the cost of a hotel room with a fellow traveler who was in the same predicament
+  - Next morning, the Emirates flight was delayed by two hours, causing her to miss the flight to Bangalore, and resulted in her having to spend another three or four hours in Abu Dhabi as she had to get rebooked again
+  - Finally ended up in Bangalore, 40+ hours into a trip that was supposed to take around 20 hours
+  - Her baggage didn't arrive until five days later, when she had already moved on to Cuttack
+  - Baggage is still in Bangalore, with a friend --- she just ended up buying new clothes after arriving in Cuttack
+  - Lessons
+    - Jacob underrates the experience he has acquired from traveling a lot
+      - Doesn't understand that, for most people, the legible option (contact customer service) is the first option
+      - Doesn't understand that most people find the process of traveling stressful and tolerate it only as a means to get to their destination
+    - Traveling with a heavy (40+ pound) suitcase is different than traveling with just a backpack
+    - Traveling internationally is where most problems occur, because of the intersection of different airlines and the distances involved --- dealing with travel problems inside the US is easy mode
+    - My mom's cousin definitely could have used someone "inside the API" like a travel agent --- it would have been significantly simpler and less stressful for her than trying to juggle all this herself in an unfamiliar airport in the middle of the night
+    - Jacob has a far higher tolerance for stress than the normal person --- he finds unexpected crises to be exciting
+    - Is also far more competent with computers --- most people actually don't know how to quickly look things up on a smartphone/laptop, especially late at night in a stressful situation
+    - Meanwhile, by his own admission, Jacob is comfortable making last-minute reservations after drinking 3+ beers
+- I don't like the tea in India, but I tolerate it because it's one of the few things I can safely accept as hospitality
+- The butcher shops here start with a live goat which they slaughter and butcher in front of you
+  - It's way more raw in every sense of the word
+  - This butcher is Muslim, which means that the goat was slaughtered in the halal tradition
+  - Seeing a live animal slaughtered in front of my eyes didn't turn me vegan
+- India destroys socks --- no matter how careful you are, your socks will be absolutely filthy within five minutes of you putting them on
+- A better strategy is to just invest like $10 into buying some flip-flops when you arrive
+- Google Photos should have an option to upload photos only when the phone is plugged in and charging
+  - The current upload options only control whether it uploads using mobile data
+  - Will upload when connected to wifi no matter what
+  - This is annoying because sometimes I come home with a low charge level, but I don't want my phone to immediately burn its remaining battery uploading several gigabytes of video
+- Indian wedding processions are just as insane as the weddings they lead to
+  - They tow their own generators to power the lights and sound systems
+- There are two questions that are asked of me at every house I've visited in India
+  - Will you eat something?
+  - When are you getting married?
+- There are two correct answers to the aforementioned questions
+  - Yes, a little bit
+  - Soon
+- They are building a truly gigantic hospital complex in Cuttack
+- Electric vehicles have green license plates
+- Here, 100 and 150 cc motorcycles are entirely viable modes of transportation
+- Indian high school math textbooks teach everything in the wrong order
+  - Chapter 2 is set theory
+  - Chapter 3 is "relations and functions"
+  - But chapter 4 is trigonometry
+  - And then chapter 6 is basic algebra, like solving basic linear equations and inequalities?????????
+  - And then chapter 10 is combinatorics???????
+  - But the logical follow-on from combinatorics, probability, isn't introduced until chapter 16 or something
+  - No wonder my cousin was super confused about math, if I had to learn math this way, I'd be super confused too
+- The alley in front of my mom's house in Cuttack is a perfect urban warfare killbox
+  - Approximately 400 meters long, with only one way in and out
+  - Approximately 2 meters wide
+  - Enclosed by concrete walls
+  - Overlooked by tall concrete buildings with lots of windows
+- Modi is a good Prime Minister for India because he understands that India is not and will never be a Western country
+  - Is willing to meet India on its own terms
+  - Doesn't try to mindlessly impose Western norms onto a state that doesn't have the capacity to enforce them or a people who don't have a culture which will abide by them
+  - Is working to make India a nation
+  - While it is unfortunate that his choice for national identity is religious nationalism, there are worse ideologies to base a nation around, like Communism or narrow views of ethnic identity
+- Street hawkers here don't bother shouting --- record themselves on their phones and then use battery-powered bluetooth to broadcast themselves --- more cyberpunk
+- Doors here lock from both the inside and the outside
+- One thing I don't understand is that, despite being colonized by the British, India ended up using European-style round-pin electrical sockets
+- Bossiness is a heritable trait --- both of my mom's brothers are just as bossy as she is, if not more
+
+* Trip home
+- Indian kids are even more phone addicted than American kids --- I just saw a kid have a total meltdown because his parents had to put his phone in airplane mode, and therefore his internet no longer worked
+- The military does OODA: Observe, Orient, Decide, Act --- my mom does ADOO: Act, Decide, Orient, Observe
+- In Delhi, the departure boards consist of pairs of monitors --- instead of one monitor displaying departures in English and the other in Hindi, they both display the same page of departures in English, then switch to Hindi, meaning I have to stare at the monitor for at least 30 seconds before I see the listing for my flight in a language that I understand
+- On the flight home from Amsterdam to Minneapolis, an extremely fat Somali lady sat in an aisle seat that wasn't hers
+  - When the person who was supposed to be in that seat came to claim it, she refused to move
+  - The flight attendant had to find another seat for the person who was supposed to be in that seat
+  - They come to our country, take advantage of our prosperity, but refuse to even acknowledge the rules and norms that created the prosperity that they profit from
+  - Trump was the first politician to dare to say the aforementioned out loud, which is why he won
+- Global Entry is *so good*
+  - I walked up to a kiosk, got my face scanned, and got waved through immigration
+  - I didn't even have to pull out my passport
+
+* Conclusions
+- America is the best country in the world
+- Pack the spare battery, even if it adds weight and you think you might not need it

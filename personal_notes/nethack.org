@@ -1,0 +1,414 @@
+#+TITLE: Nethack
+
+* Controls
+- To enable HJKL controls: =OPTION:number_pad​=0=
+- To disable colors: =OPTION:color​=false=
+
+* Game Started 2022-11-29
+
+** Character info
+- Race/Class: Dwarven Valkyrie
+- Starting inventory:
+  - Weapons
+    - +0 dagger
+    - +1 long sword
+  - Armor
+    - +3 small shield
+  - Comestibles
+    - Uncursed food ration
+
+** Level 1
+- Fountain
+- Picked up black potion --- unidentified
+- Sink
+- Picked up tin
+- Statue of jackal
+- Picked up 2 fortune cookies
+
+** Level 2
+- Picked up fruit
+- Rolling boulder trap
+- Picked up magenta potion --- unidentified
+- Fountain
+- Cursed dwarvish mattock
+- Trap door
+
+** Level 3
+- Entrance to mines
+- Fountain
+- Picked up elven dagger
+- Picked up orcish helm
+- Scroll labeled ZLORFIK
+- Prayed to cure hunger on turn 1895
+  - Prayer timeout 95% probability = 1229 turns
+  - Will be safe to pray again on turn 3124
+- Picked up yellow potion
+- Picked up forked wand --- identified as wand of digging
+- Killed and ate floating eye --- gained intrinsic telepathy
+- Picked up dwarvish cloak
+- Ate 2 fortune cookies to ward off hunger
+
+** Level 4
+- Picked up 2 food rations
+- Picked up orcish dagger
+- Oracle --- means next level has entrance to Sokoban
+- Ate food ration on turn 2836
+- Killed and ate monkey
+- Picked up dark potion (not the same as black potion from lvl 1) --- unidentified
+
+** Level 6
+- Entrance to Sokoban
+- Picked up black potion
+- Picked up sky blue potion
+- Picked up +0 ring mail
+- Fountain x2
+- Threw tripe ration at cat and tamed it
+- Picked up 2 bananas
+- Picked up cyan spellbook (unidentified)
+- Ate food ration on turn 3672
+
+** Sokoban Level 1A
+- 2 scrolls of earth PRATYAVAYAH
+- Picked up a pair of iron shoes
+- Picked up a dwarven mithril coat
+- Probably cursed dwarvish iron helm
+- Ate food ration on turn 4435
+
+** Sokoban Level 2A
+- Picked up fruit
+- Picked up short wand --- unidentified
+- Ate apple and fruit on turn 5193
+- Ate two bananas --- turn 5471
+- Prayed to cure hunger on turn 5619
+  - Prayer timeout with 95% probability --- 1229 turns
+  - Will be safe to pray again on turn 6848
+- Picked up unidentified tin
+- Picked up fruit
+- Picked up elven bow and 5 elven arrows
+- Shift-Q to quiver the arrows
+- Set elven bow as alternate weapon --- switch to alternate weapon with =x=
+- Picked up black onyx ring --- uncursed
+- Picked up 4 daggers
+- This was a hard fight at the end --- two giant betteles and a wood-elf with multi-attack
+
+** Sokoban Level 3A
+- Picked up iron wand --- unidentified
+- Picked up 2 fruit
+- Picked up steel ring (uncursed)
+- Ate a fruit on turn 6395
+- Picked up uncursed food ration
+- Picked up uncursed cram ration
+
+** Sokoban Level 4B
+- Picked up food ration
+- Picked up 2 tripe rations
+- Ate food ration on turn 6626
+- Lost initial pet dog to cluster of fire ants
+- Lost a black potion to fire ant attack
+- Lost a magenta potion to fire ant attack
+- Picked up uncursed yellow potion
+- Attacked by a gelatinous cube
+  - Paralysis attack fails, which means that either the black onyx ring or the iron ring is a ring of free action
+- Picked up sleep resistance from gelatinous cube corpse
+- Ate food ration on turn 7464
+- Got to XP level 7, gained speed
+- Picked up wand of make-invisible
+- Picked up elven cloak and swapped it for the dwarven cloak --- gained extrinsic stealth
+- Picked up 9 elven arrows, probably blessed
+- Tame cat killed by Grey-elf --- no more pets
+- Picked up wand of cold
+- Picked up silver saber --- unknown status
+- Killed grey unicorn and picked up unicorn horn
+- Using a unicorn horn to fix potions
+  - Sickness → fruit juice
+  - Blindness, confusion, hallucination → water
+  - Be careful about dipping the unicorn horn into potions of polymorph
+  - Dip a worthless item, such as a dart, arrow, or dagger into the potion first to test if it's a potion of polymorph
+  - Then dip the unicorn horn into the potion, to neutralize it if it's dangerous
+- Picked up amulet of reflection
+- Picked up trident --- unknown status
+
+** Sokoban Level 3A
+- Fought brown pudding --- lost small shield to pudding's rot attack
+- Picked up poison resistance from brown pudding corpse
+- Picked up lichen corpse --- lichen corpses never rot, which makes them good rations
+- Picked up brown potion
+- To split a stack, use the =#adjust= extended command
+  - =#adjust <count><letter> <new letter>=
+- When dip testing, a result of =Interesting...= indicates that the potion had no effect on the item
+- Using orcish dagger as polymorph canary
+- Potion findings
+  - Yellow potion --- probably safe
+  - Pink potion --- cleared when unicorn horn was dipped --- not safe
+  - Dark potion --- probably safe
+  - Brown potion --- probably safe
+
+** Sokoban Level 2A
+
+** Sokoban Level 1A
+
+** Level 6
+- Identified iron wand as wand of striking
+- Ate yeti corpse, became satiated --- /be careful of eating high-nutrition corpses when not hungry/
+- Dipped for Excalibur and got it
+- Picked up Elven shield --- unknown status
+- Picked up Elven spear --- unknown status
+
+** Level 7
+- Falling rock trap
+- Caught in black light explosion --- was hallucinating for several hundred turns
+
+** Level 8
+- Blue jelly
+- Acid blob
+- Tiger
+- Dwarf zombie
+- Killed tiger
+- Aklys --- unknown BUC --- left on the ground in the bottom room
+- Killed pony
+- Hungry on T:10041
+- Found leprechaun hall on the right
+- Panther --- killed
+- Became weak on T:10126
+- Ate fruit on T:10126
+- Hungry on T:10256
+- Attacked leprechaun hall
+- Became hungry around T:10340
+- Tamed a dog by throwing a tripe ration
+- Ate lizard corpse on T:10487
+- Ate cram ration
+- Picked concave amulet --- either blessed or uncursed
+- Leveled up to XP Level 10
+- Got hit with pink potion --- potion of confusion
+
+** Level 9
+- Ate fruit on T:10277
+- Dropped trident
+- 2x Fountain
+- Picked up unidentified cloak --- ornamental cope
+- Dropped all gold and went back to level 8 to take out leprechaun hall
+- Trident is either blessed or uncursed
+- Silver saber is also either blessed or uncursed
+- Elven shield is either blessed or uncursed --- swapped small shield for elven shield
+- Elven spear is either blessed or uncursed
+- Dropped 5000 gold pieces in the bottom-middle room with the up staircase
+- Killed cockatrice
+- Killed bugbear
+- Picked up shuriken (blessed or uncursed)
+- Became hungry on turn 11013
+- Ate a melon on turn 11014
+- Became hungry on turn 11098
+- Became weak on turn 11184
+- Finished eating food ration on turn 11189
+- Picked up mummy wrapping (blessed or uncursed)
+- Moved gold stash to lower-right room and closed the door
+- Killed soldier and picked up leather gloves
+- Ornamental cope is either blessed or uncursed
+
+** Level 10
+- Started two-weaponing with Excalibur and the silver saber
+- Tamed a housecat with a tripe ration
+- Housecat has polymorph → not sure if the original monster is a housecat after all?
+- Picked up wand of make-invisible (blessed or uncursed)
+- Became hungry on turn 11759
+- Became weak on turn 11842
+- Finished eating food ration on turn 11848
+- Kicked open the door to a shop, paid 400 gold in restitution
+- Dropped dark potion
+- Picked up cursed elven dagger --- useful for use as ward to keep pets off loot piles
+- Swapped iron shoes for "buckled boots" --- left iron shoes under cursed elven dagger in bottom left room
+- Became hungry on turn 12428
+- Picked up cursed dagger
+
+** Level 11
+- Picked up platinum wand --- blessed or uncursed --- unidentified
+- Large dog attacked blacklight --- became confused
+- Picked up spear --- blessed or uncursed
+- Became weak on turn 12513
+- Finished eating a K-ration turn 12514
+- Killed cockatrice
+- Picked up skeleton key (blessed or uncursed)
+- Picked up two tripe rations
+- Hit level teleport trap and got teleported back to Level 7
+
+** Level 7
+- Dropped elven bow and 3 elven arrows and cursed dagger in lower left room to save weight
+
+** Level 8
+- Killed a cockatrice
+- Picked up elven spear (blessed or uncursed)
+- Hungry on turn 12767
+- Ate lichen corpse --- finished on turn 12769
+
+** Level 9
+
+** Level 10
+- Lost buckled boots, tin and two cram rations to mountain nymph
+- Picked up 8 shuriken (blessed or uncursed)
+- Became hungry on turn 12962
+- Became weak on turn 13018
+- Ate food ration --- was rotten
+- Killed nymph, recovered rations, boots and tin
+- Killed quantum mechanic, picked up wand of striking (blessed or uncursed)
+
+** Level 11
+- Became hungry on turn 13249
+- Ate food ration (finished on turn 13254)
+- Picked up lamp
+- Found altar to lawful god
+
+** Level 12
+- Quest portal --- can't go on quest because I'm not yet XP level 14
+- Picked up two food rations
+- Found quest portal in bottom center room
+- Became hungry on turn 13928
+- Ate food ration --- finished on turn 13931
+- Found beehive
+- Picked up 13 lumps of royal jelly
+- Picked up grey stone --- identified as touchstone
+- Blinded by yellow light
+- Became hungry on turn 14562
+- Became weak on turn 14646
+- Finished eating food ration on turn 14652
+- Killed and ate gelatinous cube corpse --- acquired shock resistance
+- Picked up leash
+
+** Level 13
+- Fell down trap door
+- Became weak on turn 16112
+- Ate lembas wafer --- finished on turn 16115
+
+** Level 14
+- Became weak on turn 15452
+- Ate cram ration
+- Identified ornamental cope as cloak of invisibility
+- Mud boots might be fumbling boots
+- Picked up steel wand --- unidentified, uncursed or blessed
+- Finished eating rothe corpse on turn 15485
+
+** Level 15
+- Fought with quantum mechanic, got teleported a bunch
+- Threw dagger and left it when the QM teleported me
+- Picked up food ration
+- Became hungry on turn 16685
+- Became weak on turn 16772
+- Finished eating food ration on turn 16779
+- Found cross-aligned altar
+- Pretty sure crystal wand is wand of teleportation
+- Picked up cursed elven dagger - 'b'
+
+** Level 16
+- Rogue level
+- Picked up balsa wand --- unidentified --- blessed or uncursed
+- Became hungry on turn 17359
+- Became weak on turn 17442
+- Finished eating food ration on turn 17448
+
+** Level 17
+- Picked up bag --- blessed or uncursed, unidentified
+- Found tin, left on the floor in lower right
+
+** Level 18
+- Became hungry around turn 18030
+- Triggered a land mine
+- Became weak on turn 18108
+- Ate food ration --- was rotten
+- Graveyard level
+- Became hungry on turn 18332
+- Triggered box trap, started hallucinating
+- Became week, ate cram ration
+- Became hungry on turn 18904
+- Became weak on turn 18899
+- Ate food ration
+
+** Level 17
+
+** Level 16
+
+** Level 15
+- Picked up flute --- identified as magic flute
+- Magic flute caused pet dog to fall asleep
+- Became hungry on turn 19594
+- Ate lump of royal jelly on turn 19682
+- Became hungry on turn 19761
+
+** Level 14
+- Became weak on turn 19848
+- Ate K-ration on turn 19849 --- was rotten
+- Became hungry on turn 19934
+
+** Level 13
+- Became weak on turn 20019
+- Ate pear, finished on turn 20023--- was rotten --- only restored nutrition to hungry
+- Became weak on turn 20044
+- Ate lump of royal jelly --- finished on turn 20045
+- Got hit by leprechaun
+- Became hungry on turn 20129
+- Ate gecko corpse on turn 20185 --- still hungry
+- Became weak on turn 20228
+- Ate lump of royal jelly on turn 20229
+- Became weak on turn 20394
+- Ate lump of royal jelly on turn 20395
+- Became hungry on turn 20474
+- Ate iguana corpse on turn 20479
+- Became hungry on turn 20501
+- Became weak on turn 20586
+
+** Level 12
+- Ate fortune cookie on turn 20587 --- still hungry
+- Became weak on turn 20621
+- Ate lump of royal jelly on turn 20622
+
+** Level 11
+- Became weak on turn 20791
+- Ate lump of royal jelly on turn 20805
+- Sacrificed hobgoblin
+- Sacrificed pyrolisk
+- Became weak on turn 21293
+- Ate lump of royal jelly on turn 21294
+- Became weak on turn 21468
+- Ate lump of royal jelly on turn 21469
+
+** Level 12
+
+** Level 13
+- Became weak on turn 21643
+- Ate lump of royal jelly on turn 21660
+
+** Level 14
+
+** Level 15
+- Ate a bunch of rothe corpses --- should have decently high nutrition
+
+** Level 16
+
+** Level 17
+
+** Level 18
+
+** Level 19
+- Caught in black light explosion
+- Military barracks
+- Became weak on turn 22300
+
+** Level 20
+- Picked up candle
+- Fell through hole created by Mordor orc
+
+** Level 21
+- Became weak on turn 22534
+- Ate lump of royal jelly --- was rotten, so only got nutrition up to hungry
+- Cockatrice nest in the bottom left
+- Swirly potion = full healing
+
+** Level 22
+- Vault
+- Barracks level
+- Stunned on turn 23163 by exploding door
+- Recovered from stunning on 23175
+- Picked up potion of full healing from soldier captain
+- Picked up wand of sleep from soldier in barracks
+- Became hungry on turn 23271
+- Became weak on turn 23324
+- Ate K-ration on turn 23327
+- Killed after shocking sphere aggro'd a bunch of soldiers onto me

@@ -1,0 +1,25 @@
+#+TITLE: Employment History
+
+- NextEra Analytics
+  - Address: 10 River Park Plaza #500 St. Paul, MN 55107
+  - Office phone number: (651) 556-4200
+  - Supervisor: Chris LaFayette
+- Randstad Technologies (Consulting Firm)
+  - Address: 7900 Xerxes Ave S Suite 2030 Bloomington, MN 55431
+  - Office phone number: (952) 543-3361 
+- Gravie
+  - Address: 10 S 5th St, Unit 650 Minneapolis, MN 55402
+  - Office phone number: (612) 355-1590
+  - Supervisor: Michael Cameron 
+- Terbium Labs
+  - Address: 180 W. Ostend St. Baltimore, MD 21230
+  - Office phone number: (844) 837-2486
+  - Supervisor: Collin Meadows 
+- Microsoft
+  - Address: 1 Microsoft Way, Redmond, WA 98052
+  - Office phone number: (425) 882-8080
+  - Supervisor: Mark Reay 
+- Amazon
+  - Address: 410 Terry Ave N, Seattle, WA 98109
+  - Office phone number: (206) 266-1000
+  - Supervisor: Zachary Wiggins 

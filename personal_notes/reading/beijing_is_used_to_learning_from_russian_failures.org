@@ -1,0 +1,44 @@
+#+OPTIONS: H:6
+* Beijing Is Used to Learning From Russian Failures
+
+Source: [[https://archive.ph/s7HwY][Foreign Policy]]
+
+- Russia's invasion of Ukraine has been a disaster for Putin
+- China has faced many of the same limitations with its military that Russia is facing right now
+- However, China has done more to address these limitations, and thus we should not expect the Chinese military to perform as poorly in a Taiwan invasion scenario as the Russian military has performed in Ukraine
+- China's economy is also more resilient to sanctions
+- Russia badly overestimated its military capabilities
+  - Poor air-to-ground coordination
+  - Struggles with logistics
+  - Poor intelligence assessments of Ukrainian will to fight
+  - Outdated platforms
+- China has moved to address these deficiencies in its own military
+  - Massive increase in military spending --- China spends 4x as much on its military as Russia
+  - Large increases in the number of modern 4th and 5th generation fighter jets
+  - More modern submarines and ships
+  - Large stockpile of precision long-range cruise and ballistic missiles
+- In addition to buying hardware, China has moved to improve the training and professionalism of its military
+  - Specifically training small units to be more effective and autonomous
+  - Building integrated theater commands to provide unified command and control for major operations (/much like the US/)
+  - Consciously training with multi-domain operations
+- This improved training and professionalism is demonstrated by the vast military exercises that China is able to conduct and the capability it is able to demonstrate in those exercises
+  - Demonstrated multi-domain capabilities in
+    - ISR
+    - Strike
+    - Logistics
+  - /Well, Russia could do large military exercises as well/
+  - /There's a huge difference between the pre-determined choreography of a military exercise and the chaos of a real war/
+- The Chinese military appears to be taking a more balanced approach than Russia's artillery and armor heavy army
+- Despite improvements, the Chinese military still isn't at the readiness level that Xi wants for a potential Taiwan invasion scenario
+  - Still building up its non-commissioned officer corps
+- In addition to having a higher quality military, the Chinese economy is more resilient to Western sanctions
+  - China has demonstrated a higher level of political tolerance for economic disruption
+    - Great Leap Forward
+    - Economic depression in 1989-1990
+    - COVID lockdowns
+  - Beijing can use its greater integration with the West as a source of strength
+    - Chinese exports are more vital to the world economy than Russian exports
+    - China is a far larger market than Russia, so even blocking exports from the West to China would be far more hurtful to Western economies
+  - China has far more domestic capital than Russia does and a higher rate of domestic capital formation
+  - More currency swap agreements, which would make it difficult to freeze central bank reserves as the US and EU did with Russia
+- Attacking Taiwan won't be easy for China, but China is far better prepared for a fight over Taiwan than Russia was for its fight over Ukraine

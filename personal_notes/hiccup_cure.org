@@ -1,0 +1,11 @@
+#+TITLE: Hiccup Cure
+
+Source: https://www.theatlantic.com/ideas/archive/2023/02/scientific-hiccup-cures-hiccaway-straw-ssmi-breathing/673151/
+
+- Exhale completely
+- Inhale a deep breath
+- Wait 10 seconds
+- Without exhaling, inhale a little bit more
+- Wait 5 seconds
+- Without exhaling, inhale a bit more again
+- Exhale

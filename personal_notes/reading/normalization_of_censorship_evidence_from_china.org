@@ -1,0 +1,236 @@
+* Normalization of Censorship: Evidence From China
+
+[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3835217][Paper link]]
+
+** Introduction
+- Recent scholarship claims that public awareness of censorship leads to backlash
+- However, in China, censorship is widespread and overt
+- Surveys show that Chinese citizens are apathetic towards or even supportive of censorship
+- This applies even to people who've directly encountered censorship
+- The literature focusing on backlash primarily focuses on censorship of government criticism and collective action
+- However, authoritarian regimes censor far more than that
+  - Hip hop music
+  - Pop culture movies
+  - Celebrity gossip
+  - Pornography
+- When censored content includes both politically threatening and seemingly harmless non-political content, citizens are less likely to view censorship as suppression of opposition
+- Censorship becomes normal government policy
+- This theory operates off the psychological effect of desensitization
+- When both political and non-political content is censored, the act of censorship loses its ability to act as a signal that the government has something to hide
+- Furthermore, this increases citizens' exposure to censorship, normalizing the act of witnessing censorship
+- Data
+  - Observational data from WeChat
+    - 15872 censored articles
+    - Only 40% are about collective action or government criticism
+    - Majority are apolitical
+  - Original survey experiment
+    - Randomly expose respondents to varying degrees of non-political censorship
+    - Respondents exposed to censorship of both political and non-political content are less outraged by censorship
+- Challenges the existing theoretical frameworks that state that censorship in China is primarily targeted at political content and content that seeks to inspire collective action
+- China censors *everything*
+- This makes people numb to censorship
+- Also challenges the conventional wisdom that overt censorship is more likely to lead to backlash than covert censorship
+- Normalization of censorship implies that other coercive or authoritarian policies might become normalized
+- Normalization can become another channel by which authoritarian governments maintain control
+
+** Normalization of Censorship: A Theory
+
+*** Diluting The Proportion of Politically Threatening Content
+- Backlash to censorship happens when citizens are aware of censorship and care about censored content
+- Conventional wisdom holds that governments mostly censor politically threatening information
+- Censorship is seen as an indication of government wrongdoing
+- Streisand effect --- trying to censor information draws more attention to it
+- For this backlash to occur, citizens must believe that censorship is abnormal
+- According to desensitization theory, when people's categorization of a stimulus shifts from negative to neutral, they no longer react as strongly to the stimulus
+  - /His citation on desensitization is a study on how exposure to violent movies and video games causes desensitization to violence in real life/
+  - /Has that literature replicated?/
+- How do authoritarian regimes expose citizens to censorship in a normalized or even positive context?
+  - Direct interaction with censorship (i.e. having one's own posts censored) is a negative experience
+  - Indirect interaction, such as observing that a web page has been blocked, is more likely to be neutral
+  - Incomplete censorship, such as allowing viewers to view the title of a censored story and its comment replies, allows users to infer the content of the censored topic and update their views accordingly
+  - Allowing users to talk about censorship in a non-political context also dilutes the negative perception of censorship
+    - Fans of Xiao Zhan, a pop star, often engage in online arguments that devolve into calls for the other side to be censored
+    - Seeing censorship applied to non-political posts makes censorship seem less associated with repression
+  - Only 9% of survey respondents said they'd been censored personally
+  - 69.5% were aware of government censorship
+  - Most citizens form beliefs about censorship via indirect exposure
+  - By including non-political content in the range of censored topics, the government makes censorship seem neutral to those indirectly affected
+  - If the topic being censored is sufficiently unpopular (such as pop culture among conservatives) censorship may even be viewed as a positive good
+
+*** Increasing Citizens' Exposure to Censorship
+- Censoring non-political content increases citizens' exposure to censorship
+- Although initial exposure to censorship may provoke backlash, this reaction fades as people become more exposed to censorship
+- This normalization is evident in how people call for censorship even in less serious, non-political contexts
+
+*** Empirical Expectations
+- Citizens exposed to normalized censorship will display less backlash against the act of censorship and the regime doing the censoring
+- \(P(\textrm{non-political} | \textrm{censored})\) will be high
+
+** The Development of Censorship in China
+- The range and scale of censorship in China is by far the largest in the world
+- Earlier studies found that censorship in China largely targeted content likely to incite collective action while allowing most other forms of expression
+- However, in recent years, overt censorship has become more aggressive
+  - Ban seemingly harmless posts that include sensationalism, speculation or gossip
+  - Censor content relating to the economy and business, which had previously been relatively uncensored
+  - Extend censorship to apolitical fora, such as dating apps
+  - More explicit intent to regulate online expression
+    - Establishment of the Central Cyberspace Affairs Commission (CCAC) and the Cyberspace Administration of China (CAC) to centralize internet administration, including censorship
+    - CAC regularly publishes reports on censorship activities
+    - Justification for censorship is apolitical --- government highlights negatives of an unregulated internet
+    - Censorship is referred to with management terms rather than as a showcase of government power
+- Censorship has also become more centralized, with increasing concentration of power in the CCAC
+
+** The Nature of Censored Content: Text Analysis
+- Collect censored articles on WeChat from March 2018 to May 2020
+- Classify censored articles into categories
+- Determine the proportion of censored articles in each topic category
+- 2 human classifiers, multiple text analysis models and cross-validation
+
+*** Data Source
+- WeChatScope --- website created by a research team at the University of Hong Kong
+  - Monitors 4000 WeChat public accounts
+  - Accounts have a large number of subscribers and are therefore prime targets for censorship
+  - Dataset has 15,872 censored articles from March 2018 to May 2020
+  - /I hope both the dataset and the researchers made it out/
+- WeChat is the single most popular social network in China
+- Thus, when WeChat censors an article on a popular account, a large number of Chinese internet users will be exposed to the act of censorship
+- WeChatScope is designed to record government censorship as traditionally defined (i.e. on political topics)
+- This means that the expected bias in the dataset runs against the conclusion
+- Dataset constitutes a "hard case" for the hypothesis
+- However, one limitation of the WeChatScope data is that it only includes articles that have been subject to post-hoc censorship
+- There are multiple layers of censorship, such as keyword filters and ensuring that the article is accessible through the Great Firewall
+- Non-political content may have to pass a lower bar before being published
+- However, Chinese internet users are adept at evading keyword filters
+- Post-hoc censorship is the most extensive form of censorship on WeChat
+- /In addition, post-hoc censorship is the only form of censorship that will generate the normalization response, according to the hypothesis/
+  - /What normalizes censorship is not seeing your own posts get censored, but seeing other people's posts get censored/
+  - /This only occurs with post-hoc censorship/
+
+*** Categorization of Censored Articles
+- Nine mutually exclusive categories
+  - Political
+    - Collective action
+    - Government criticism
+    - Government non-criticism
+  - Non-political
+    - Business and economy
+    - Entertainment and sexuality
+    - Advertisement
+    - Local events, traditions and cultures
+    - Foreign events
+    - Other
+- Categorization rubrics for non-political content explicitly excluded any content related to the government to avoid under-counting political content
+- Furthermore, categories were applied in sequential order, with political categories applied first
+- Ensures that ambiguously political articles are treated as political
+- Methodology
+  - Hand label 2500 articles
+  - Use supervised text analysis to predict categories for remaining articles
+  - Training set independently classified by two humans
+  - Cohen's \(\kappa\) between human coders is 0.80, higher than the commonly used standard of 0.70
+  - To predict the classification of the remaining unlabeled data, a multinomial logistic regression model with ridge estimator was trained on the 2500 labeled articles and run over the remainder of the dataset
+
+*** Results
+- Collective action and government related articles only accounted for 39.34% of all censored articles
+- 60.67% of censored articles are apolitical
+- The proportion of apolitical articles that were censored remained relatively constant over time
+- Even during the COVID pandemic, when the government was going out of its way to censor criticism, the proportion of apolitical articles did not drop below 48%
+- No clear pattern in censorship of non-political articles
+- Majority of censored non-political content was from business & economy and entertainment & sexuality categories
+- Expanding the definition of "political" to include vaguely related topics like the economy or foreign events only increased the proportion of censored political content to 57.15% --- still a large proportion of non-political content that is censored
+- The fact that collective action and government criticism form only a minority of censored content strengthens the government's case that censorship is benign
+- No clear pattern for censorship of non-political content implies that censorship is broad and comprehensive
+- This gives the government leeway to censor politically threatening content without drawing undue attention to it
+- Also implies that Chinese citizens routinely encounter censorship of non-political content online, which produces favorable conditions for desensitization
+
+** Normalizing Effect of Censorship: Survey Experiment
+- Experimentally manipulate censored topics and frequency of censorship
+- Use ex-post evaluations of censorship policy and opinions regarding government to measure backlash
+
+*** Participants
+- N = 612
+- Recruited using an online survey platform in China in December of 2020
+- Political opinion surveys are relatively rare in China, and thus participants are not likely to be professional political survey takers
+  - /Sure, but are they professional survey takers?/
+  - /I feel like many of the limitations of e.g. MTurk surveys also apply here/
+- Survey respondents were demographically similar to the broader population of Chinese internet users in terms of gender, urban/rural and region, but were richer and better educated
+- However, interaction analysis finds no significant effect due to income or education
+
+*** Experimental Design
+- Compare reactions to "traditional" censorship, which blocks only government criticism and calls for collective action with "normalized" censorship that targets both political content and seemingly harmless apolitical content
+- Three components
+  - Pre-treatment questions collecting
+    - Demographic data
+    - Political interests
+    - Economic ideology
+    - Exposure to social media
+  - Random assignment to control group or treatment group
+    - Control group sees a sampling of stories with only political stories censored
+    - Treatment group sees both political and non-political stories censored
+  - Exposure to censorship
+    - Both groups were asked to read 10 snippets of censored stories from the WeChatScope article database
+    - Snippets were screenshots of real articles formatted in the same style as WeChat article previews
+    - Six of the snippets were about non-political topics and four were about political topics
+    - For the control group, three of the four political snippets had warning labels indicating that they were censored
+    - The treatment group saw three censored political snippets and also three censored non-political snippets, testing both dilution and normalization effects
+    - Snippets were validated by cross-checking them with a panel of China scholars, who agreed that none of them were absurd, fraudulent or otherwise unreasonable
+- /One *big* problem with this experiment design is that it relies on priming/
+- /The way this experiment works is that study participants' opinions of censorship is primed by seeing only political stories censored, or both political and non-political stories censored/
+- /This priming is then supposed to affect their opinion of censorship and of the government more broadly/
+- /The problem is that many similar studies have failed to replicate/
+
+*** Measurement
+- To measure backlash against the censorship policy, the survey participants were asked about
+  - Their support for government control over the internet
+  - Whether government control over the internet was normal
+  - Whether they thought that the government was censoring too many articles
+- To measure backlash against the regime participants were asked
+  - About their assessment of the government
+  - Overall satisfaction with China
+  - Willingness in participate in protests
+- Participants were asked about their satisfaction with the central government and local government separately, in an effort to defeat social desirability effects
+- A Bonferroni correction was applied to p-values in order to compensate for the fact that multiple questions were being asked for the same hypothesis
+- 9 covariates were used to check the balance between the treatment and control groups
+  - Demographic covariates
+    - Age
+    - Income
+    - Gender
+    - Education
+  - Political predispositions and internet usage covariates
+    - Pro-market attitudes
+    - Party membership
+    - Political interest
+    - Social media usage
+    - VPN usage
+- All covariates were balanced between treatment and control groups
+
+*** Results
+- Treatment increases respondents support for government and their belief that internet censorship is normal
+- Exposure to censorship of non-political content reduces backlash against censorship of political content
+- Exposing participants to non-political censorship increased support for both local and central government
+- Large effect sizes given high baseline levels of support
+- The fact that respondents are both more supportive of government and less willing to participate in protests indicates that the decline in willingness to participate in protests is a result of greater support for the government rather than intimidation from censorship
+- Implications
+  - Expanding the range of censorship reduces backlash
+  - Repressive policies can increase regime support
+  - Increasing awareness of censorship is not enough; people must be both aware of censorship and be educated about its repressive effect in order to oppose censorship
+
+** Limitations
+- Limits to normalization theory
+  - Does censoring *any* non-political content lead to normalization?
+  - Is there a level of censorship that will cause a backlash even if applied to non-political topics?
+  - Are there strategic considerations in choosing which non-political topics to censor?
+- Limits to this study
+  - Censorship exposure in the study was more intense than censorship as experienced by day-to-day WeChat users
+    - Greater proportion of censored articles
+    - Censorship was highlighted with a red warning label, whereas on WeChat users have to click on a headline in order to see that it has been censored
+- /How applicable are these results outside of China?/
+  - /China has been under a censorious regime for a long time/
+  - /Does this affect attitudes towards greater censorship?/
+
+** Conclusion
+- Existing literature claims that censorship awareness leads to backlash
+- This fails to square with the reality of Chinese awareness of and apathy towards censorship
+- This is because existing literature assumes that governments censor narrowly --- only censor posts criticizing the government and advocating for collective action
+- When the range of censorship is expanded to cover non-political topics, desensitization occurs
+- This serves to explain why many examples of censorship generate more of an outcry in the West than they do in the authoritarian regimes in which the censorship takes place
+

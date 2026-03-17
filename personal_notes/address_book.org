@@ -1,0 +1,23 @@
+#+TITLE: Address Book
+
+** My address
+4265 Merrimac Lane N., Apt 55 Plymouth, MN 55446-1428
+
+** Rohan
+- 1455 S 70th St, Apt 203 West Allis, WI 53214-4803
+- 7439 Harwood Ave, Apt 206 Milwaukee, WI 55213-2665
+- 330 S 11th St Apt 4307, Richmond, VA 23219
+
+** Parents
+- 17460 49th Ave N. Plymouth, MN 55446-1713
+- India Phone: 99381 14956
+
+** Nikita
+H. Hooverplein 6, 3000 Leuven
+Via City Housing Group
+Flat 4 (0202)
+
+** Cuttack
+341 Upper Telenga Bazaar
+Near Telenga Bazaar Post Office
+Cuttack, Odisha, India 753009

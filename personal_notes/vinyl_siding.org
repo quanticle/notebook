@@ -1,0 +1,56 @@
+#+TITLE: Vinyl Siding
+
+* Filling small holes
+
+- Remove the burrs with a box cutter or putty knife
+- Degloss the area around the hole with 220 grit sandpaper
+- Wipe the surface clean of dust
+- Apply patching material
+- Smooth the filler level with the siding using a wet putty knife
+- Allow the filler to cure
+- Smooth the repair with 220 grit sandpaper
+- Clean the surface
+- Apply primer and paint
+
+* Siding panel repair
+
+- Measure dimensions of existing panels
+- If you need to paint the siding, buy a dark color --- painting a light colored siding dark may cause it to warp in direct sunlight
+- How siding is installed
+  - Sheathing is attached to studs
+  - A weather barrier (Tyvek) is attached to the outside of the sheathing
+  - Vinyl siding components are installed over the barrier
+    - Starter strip (at the bottom)
+    - J-channels and sill channels along windows and doors
+    - Corner pieces on building corners
+    - Siding panels fit within channels of trim
+    - Each row of siding panels locks into the row below it
+    - Secured to the house with nails
+- So to replace a panel
+  - Expose the nailing fin that's at the top of the panel
+    - Find a seam on the panel that's above the panel you wish to replace
+    - Pull up on the seam, exposing the bottom of the channel
+    - Swipe your hand across the bottom of the upper panel gently, separating the two panels
+    - Can also use a vinyl unlocking tool to separate panels
+  - Remove nails on nailing fin at the top of the panel you wish to replace
+  - Lightly tap on the damaged panel to remove it
+  - Repair damage to the weather barrier
+    - Patch holes with Tyvek tape
+    - Replace larger damaged sections
+  - Use the old piece to measure out how much new vinyl you need to cut
+    - Use a speed square to make sure that your cutting lines are straight
+  - Cut the end that will be hidden in the channel or behind the seam with vinyl or tin snips
+  - If necessary, cut tabs on the top and bottom to allow for expansion and contraction to replicate the factory hem and bottom lock
+  - To install the new panel
+    - Pull up the adjacent a bit to create some slack
+    - Push the panel up into place and hear it lock in
+    - Reattach the adjacent panel
+    - Panels must overlap at least 1" but must have room to slide side to side to accomodate expansion and contraction
+    - Add siding nails every 16" on the top
+    - Leave the nail heads about 1/16th inch above the nail hem, in order to allow the siding to slide a bit --- this prevents buckling and warping
+    - Pull down the upper piece a bit with the siding removal tool and lock it into the lower piece
+
+* Installing siding around windows
+
+- Ensure the window itself is in good condition
+- Put flashing around the window

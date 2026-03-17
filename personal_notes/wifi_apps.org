@@ -1,0 +1,11 @@
+#+TITLE: WiFi Apps
+
+- Wifi
+- WiFi automatic connections
+- Notify for public networks
+- W+ Connections
+- Wifi Calling
+- Google Photos
+- WhatsApp backup
+- Google Backup
+- Google Play app downloads and updates

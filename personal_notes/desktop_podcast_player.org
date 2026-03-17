@@ -1,0 +1,43 @@
+* Desktop Podcast Player
+
+** Requirements
+- Atom and RSS support
+- Add RSS by URL
+- Import from OPML file
+- Initially just get the URLs so that the user can download files with cURL
+- Then add the ability to download and play the file with a program of the user's choosing
+
+** Plan
+- Parse podcast feed
+- Store podcast feed entries in database
+  - /Do I actually need to do this?/
+  - /Necessary in order to keep track of played/unplayed status/
+- Build GUI to display feed entries and download podcast episodes
+
+** Podcast Feed Format
+- Source: [[https://podcasters.apple.com/support/823-podcast-requirements][Apple technical specification]]
+- Podcast must conform to the RSS 2.0 specification
+- Feed Must be publicly accessible
+- Each episode must have an =<enclosure>= tag which specifies the link to the audio file
+- Each episode must have a GUID which never changes
+
+** RSS feed format
+- Channel-level data
+  - Title: Name of the channel
+  - Link: URL to the HTML website of the channel
+  - Description: Plain text description of the channel
+  - Image
+    - URL: link to image
+    - Link: link to channel (/why does RSS specify a separate link element underneath image?/)
+- Item level data
+  - Title: The title for the item
+  - Link: URL for the item
+  - Description: Item description
+    - /In practice this is usually HTML enclosed inside a =<![CDATA[]]>= section/
+  - Enclosure
+    - URL: link to the attached media
+    - Length: Size (in bytes) of the attached media
+    - Type: MIME type of the attached media
+
+** 
+

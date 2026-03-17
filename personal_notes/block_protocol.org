@@ -1,0 +1,42 @@
+* Block Protocol
+
+** Protocol Specification
+
+*** Introduction
+- A "web block" is a discrete component displayed on a web page or other application
+  - Can send and receive structured data
+  - Any protocol-compliant application can send and receive blocks
+- /Not clear whether blocks represent snippets of executable code, data or both/
+- Inspired by Wordpress and Notion, both of which have the concept of making pages out of reusable types of content
+  - /In Wordpress and Notion, blocks are data/
+  - /But above the specification talks about blocks being able to send and receive data, which implies that they can execute code/
+- Every content management and content creation system seems to have its own set of blocks, which represent reusable and templatable bits of content
+- However, these systems each define their own idiosyncratic standards for how to pass data in and get data back out
+- Aims of this protocol
+  - Define a contract for data transfer between blocks
+  - Define a way for blocks to describe to a hosting application what kinds of data they accept
+- /Is this just a subset of webcomponents?/
+- To do this, the protocol specifies
+  - Functions which block types should call to request or update data from the parent application
+  - The data format by which blocks can expose data to the parent application
+- Given a catalog of blocks built in compliance with the protocol, users can more easily find and use blocks to display and edit data that they're interested in
+- /Blocks provide a generic, self-describing data abstraction/
+- /As long as the application can understand "blocks", generically defined, it can delegate functionality to the blocks, and thus allow the user to extend the functionality of the application/
+- /Right now, in order to embed data on a Notion page, Notion needs to have added support for the data that you're trying to embed/
+- /However, if Notion (or a successor to Notion) supported the Block Protocol, you could take data provided as a block and embed it into a Notion page, without Notion having to add explicit support, as long as you could provide that data as a block/
+- /There is an incentive problem, however -- every application has an incentive to take in blocks, but few applications will have an incentive to give out their data as blocks/
+- /Of course, Notion does have an API, and it might be possible to write a translation layer that reads data from the Notion API and provides it as blocks/
+- Blocks are customizable, but also provide a default theme
+  - /How does that work?/
+
+*** Terminology
+- *Entity*: Instance of data conforming to a particular schema
+- *Schema*: A data definition that defines the shape of an entity
+- /Okay, but what is the actual format of entities and schemas? Are they JSON, XML, YAML, or something else entirely?/
+- *Properties*
+  - Fields on a schema
+  - Validation rules are attached to properties
+- *Block Type*:
+  - Definition /and/ implementation
+  - Discrete component on a web page
+  - Provides functionality for interacting with structured data

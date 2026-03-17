@@ -1,0 +1,72 @@
+#+TITLE: Meta Questionnaire
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+* Current location
+
+I am currently located in Plymouth, MN.
+
+** Are you open to relocation?
+
+Yes, I would open to relocation.
+
+* Current company/job title
+
+I am currently working as an independent software contractor working for several local small businesses.
+
+* Describe your current team structure
+
+In my current role, I am often the sole developer, working with business owners to add functionality to their businesses' online presence. I work closely with non-technical business owners to elucidate business requirements, then transform those requirements into software requirements which, when implemented, will deliver the intended value for customers.
+
+* Describe the scope of a large project that you have led
+
+When I was at Amazon, I led a project to automatically gather statistics from canary deployments in order to help streamline the rollout of new versions of the rendering framework at the heart of the Amazon.com homepage. The goal of this project was to gather latency metrics, memory usage, CPU usage, error rates, etc. from a canary deployment of the new code, determine whether they statistically the same as the prior version of the code, and help System Engineers determine what the possible causes of any variance were. In order to do this, I had to gather requirements for what constituted statistical similarity and design a system that would automatically gather those statistics in an unbiased manner.
+
+* Did the above project involve designing? If so, explain your direct involvement
+
+The above project involved design in two ways. First, I had to design a system that would efficiently gather statistics from the myriad measurement frameworks and APIs at Amazon. Then, I had to ensure that the UI for this system would enable a System Engineer to accurately and efficiently determine whether there were any problems with the canary deployment.
+
+** What is your involvement in the design process?
+
+I did have input from Technical Project Managers with UI expertise with designing the UI for the system. However, the design of the data gathering and aggregation system that fed data into the UI was up to me.
+
+* Responsibilities (% time coding vs. design vs. leadership vs. mentoring)
+
+Right now, I would say that a minority of my time, roughly 40% is spent on actually coding. The rest is spent on various business matters, such as gathering requirements, estimating effort, and getting feedback from business owners.
+
+* What's your strongest coding language?
+
+My strongest coding languages would be Python, JavaScript and Java, in that order.
+
+* How many total years of software engineering experience do you have (excluding research/internships)
+
+I have over 10 years of software engineering experience.
+
+* Design experience
+
+** Is your main experience with back-end distributed systems development? If so, please explain
+
+While I have some experience designing back-end distributed systems, as I did for a search application at Intradyn, I would say that the majority of my development experience has more of a product focus.
+
+** Is your main experience building APIs/REST services and features for products? If so, please explain
+
+My primary experience is definitely with building REST APIs and features for products. Throughout my experience in the software industry, I have sought a product focus, working on specific features and applications in order to deliver business value by enhancing the user-visible functionality of software.
+
+** If you have vast experience in both, which is your strongest, and why?
+
+I would say that my strongest skills are with feature development for products. 
+
+* Years of ML experience
+
+I don't have a lot of experience designing machine learning models directly. However, at both Terbium Labs and NextEra Analytics, I worked closely with data scientists to integrate machine learning models with existing software to ensure that the models were ingesting high-quality data and that model outputs were displayed in an easily comprehensible manner for non-technical users.
+
+* Do you lead small projects or small teams of people (including activities like running team meetings, writing project status reports, etc)?
+
+In my current role as an independent software contractor, I do run my own projects, including writing status reports, splitting projects into tasks, and communicating the status of projects with clients.
+
+* What's your experience with developing machine learning models at scale from inception to business impact?
+
+I don't have a large amount of experience developing machine learning models end-to-end from inception to final business value. However, I do have experience with integrating machine learning models into existing systems in order to enhance the business value those systems are delivering.

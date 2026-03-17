@@ -1,0 +1,172 @@
+* OMNI-2616: Zoom not working properly on LMP map
+
+** Steps to repro
+- Go to =/sales/storage=
+- Search for =High River Solar=
+- Try to zoom out the map
+
+** Ticket notes
+- Why is the map zooming back in?
+- What zooms the map to the project boundary?
+- The overall view is the =SalesToolProject= control, which invokes the =Map= as follows:
+  #+BEGIN_EXAMPLE
+    <Map
+        v-if="projectInfo"
+        class="mt-3"
+        aspect="2:1"
+        show-settlement-locations
+        @mapPointSelected="mapPointSelected($event)"
+    />
+  #+END_EXAMPLE
+- What does =mapPointSelected= do?
+  #+BEGIN_EXAMPLE
+    mapPointSelected(point) {
+        this.lmpNode = point.data.id;
+    }
+  #+END_EXAMPLE
+- I think the issue is caused by =useSettlementLocationsLayer=
+  - Activated by the =show-settlement-locations= input
+  - Triggers =useSettlementLocationsLayer=
+    #+BEGIN_EXAMPLE
+      export default function useSettlementLocationsLayer(
+          boundsToDebounce,
+          layerActive
+      ) {
+          const settlementLocationsLayer = ref(undefined);
+          const debouncedBounds = ref(undefined);
+          let debounceTimer = undefined;
+          watch(boundsToDebounce, bounds => {
+              if (debounceTimer != null) {
+                  clearTimeout(debounceTimer);
+              }
+              debounceTimer = setTimeout(() => {
+                  debouncedBounds.value = bounds;
+              }, 1000);
+          });
+          watch(debouncedBounds, queryForSettlementLocations);
+          watch(layerActive, queryForSettlementLocations);
+          onMounted(queryForSettlementLocations);
+          async function queryForSettlementLocations() {
+              if (!layerActive.value) return;
+              if (!debouncedBounds.value) return;
+              try {
+                  const bounds = unref(debouncedBounds);
+                  const resp = await apolloClient.query({
+                      query: getSettlementLocations,
+                      variables: {
+                          bounds: [
+                              bounds.getSouthWest().lng,
+                              bounds.getSouthWest().lat,
+                              bounds.getNorthEast().lng,
+                              bounds.getNorthEast().lat
+                          ]
+                      }
+                  });
+                  const settlementLocationsData = resp.data.settlementLocationGis.map(
+                      s => ({
+                          ...s.location,
+                          altText: `Settlement Node: ${s.node}`,
+                          tooltipText: `Settlement Node: ${s.node}`,
+                          selectable: true,
+                          id: `${s.node}`,
+                          icon: settlementNodeIcon,
+                      })
+                  );
+                  settlementLocationsLayer.value = {
+                      layerName: 'Settlement Locations',
+                      id: 'settlementLocations',
+                      visible: true,
+                      show: true,
+                      ...mergeGeoJson(settlementLocationsData),
+                  };
+              } catch(e) {
+                  Vue.$log.error(`error fetching settlement locations `, e);
+              }
+          }
+          return { settlementLocationsLayer };
+      }
+    #+END_EXAMPLE
+  - So one thing jumps out at me right away: the initial value of =debounceTimer= is undefined but we're checking against =null= in the =watch=
+    - It turns out that this is fine because the code is using =!== instead of =!===
+  - Does =clearTimeout= set the timeout to =null=?
+  - =debounceTimer= is actually a timer ID
+  - Passing that ID to =clearTimeout= clears the timeout function assigned to that ID
+  - The =setTimeout= example on MDN checks to see if =typeof timeoutId === 'number'=
+  - Changing the debounce check to =typeof timeoutId === 'number'= did not work
+- How is =useSettlementLocationsLayer= invoked?
+  - =useSettlementLocationsLayer= only called from =FlexibleMap=:
+    #+BEGIN_EXAMPLE
+      const { settlementLocationsLayer } = useSettlementLocationsLayer(
+          boundsToDebounce,
+          showSettlementLocations
+      )
+    #+END_EXAMPLE
+- The problem is that =debounceTimer= is a timer ID
+- That timer ID might point to a null timer, but the ID itself won't be null
+- The debounce timer is firing every second, and attempting to set the bounds of the map
+- There's a loop of updates
+  - =boundsToDebounce= is getting updated somehow when we set =debouncedBounds=
+  - This causes an infinite loop
+- What happens when we do `debouncedBounds.value ~ bounds=
+  - We update ~settlementLocationsLayer`
+- How does this update =boundsToDebounce=?
+- =FlexibleMap= has a watcher on =siteGeoJsonArray=:
+  #+BEGIN_EXAMPLE
+    async siteGeoJsonArray(geoJsonLayer) {
+        if (geoJsonLayer) {
+            await this.$nextTick();
+            this.fitBounds();
+        }
+    }
+  #+END_EXAMPLE
+- =siteGeoJsonArray= is defined as:
+  #+BEGIN_EXAMPLE
+    siteGeoJsonArray() {
+        let combined = [];
+        if (this.geoJsonLayers) {
+            combined = [...this.geoJsonLayers];
+        }
+        if (this.transmissionPoiLayer) {
+            combined.push(this.transmissionPoiLayer);
+        }
+        if (this.metTowersLayer) {
+            combined.push(this.metTowersLayer);
+        }
+        if (this.settlementLocationsLayer) {
+            combined.push(this.settlementLocationsLayer);
+        }
+        return combined;
+    }
+  #+END_EXAMPLE
+- What is =FlexibleMap.fitBounds()= doing?
+  #+BEGIN_EXAMPLE
+    fitBounds(e) {
+        const usBounds = [
+            [25.82, -124.39],
+            [49.38, -66.94],
+        ];
+        if (this.esriLayerUrl) {
+            this.map.fitBounds(usBounds, {
+                padding: [40, 40],
+                maxZoom: 8,
+                zoom: 12,
+            });
+        } else if (this.clusterMarkers) {
+            this.map.fitBounds(e.getBounds(), { padding: [40, 40] });
+        } else if (this.geoJson) {
+            const bounds = getGeoJsonLeafletBounds(this.mergedGeoJson);
+            this.map.fitBounds(bounds || usBounds, { padding: [40, 40] });
+        } else {
+            // default to showing the US instead of the entire world multiple times
+            this.map.fitBounds(usBounds, { padding: [40, 40] });
+        }
+    }
+  #+END_EXAMPLE
+- What's happening is
+  - We load the map
+  - Map has =show-settlement-locations= set
+  - This triggers =useSettlementLocationsLayer=
+  - =useSettlementLocationsLayer= queries the settlement locations and updates the layer
+  - This updates the =siteGeoJsonArray= computed value in =FlexibleMap=, which has a watcher on it that triggers =fitBounds=
+  - =fitBounds= updates the maps bounds prop, which triggers an update on =useSettlementLocationsLayer=
+- In order to break the cycle, try putting the settlement locations layer into its own group

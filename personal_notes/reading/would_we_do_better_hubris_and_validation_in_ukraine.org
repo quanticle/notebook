@@ -1,0 +1,123 @@
+* Would We Do Better? Hubris and Validation in Ukraine
+
+Author: David Johnson
+Source: [[https://warontherocks.com/2022/05/would-we-do-better-hubris-and-validation-in-ukraine/][War on the Rocks]]
+
+- The Russians are flailing in Ukraine
+  - Incapable of modern combined arms
+  - Poor battle plan
+  - Notable failure of a river crossing on the Siverski Donetsk river that results in hundreds killed and the loss of numerous armored vehicles
+- Western commentators have largely accepted the Ukrainian narrative that portrays Russian troops as poorly led, struggling in the face of staunch resistance by the Ukrainian military
+- But is this truly the case?
+- /You're going to have to do a lot of lifting to convince me otherwise/
+- What if the key failing isn't the professionalism of the Russian military, but the nature of this war?
+- Russian doctrine for forcing a similar river crossing is similar to US doctrine; would US forces have done any better in that situation?
+
+** Learning to "Whelm"
+- Prior to the war, many commentators expected a swift and overwhelming Russian victory
+- Assessments based on NATO wargames that purported to show that the Russians could have advanced to Riga or Tallinn in 60 hours
+  - This assessment was plausible, given that the Baltic states are small --- only 130 miles separates Riga from the Russian border
+  - In addition, the Russian enclave of Kaliningrad sits astride the Suwalki Corridor, a key supply route from Poland to the Baltic countries
+  - NATO forces in these countries would be significantly outgunned and outnumbered by the oncoming Russian army
+- Ukraine is not the Baltics
+  - Much more strategic depth
+    - /Yes, in theory Ukraine has much more strategic depth, but Kyiv and Kharkiv are very close to Ukraine's borders and they did not fall/
+    - /This argument would have much more weight if Kyiv had fallen and the Ukrainian government had been forced to retreat to Lviv/
+  - Much larger military force than the Baltics
+  - Have been training under NATO supervision since 2014
+  - Receiving massive and largely unimpeded material support from the West
+  - /And these arguments don't apply to the Baltic countries?/
+  - /Might be smaller, but as members of NATO they would be entitled to far more protection from Russia than Ukraine/
+  - /Moreover, Johnson is underestimating the role of state capacity --- unlike Russia and even unlike Ukraine, the Baltic countries have functional, relatively non-corrupt governments/
+- Western military analysts have gone from being overwhelmed by Russian power to being underwhelmed by it
+
+** Why Has Russia Been Stymied
+- Broad consensus view that the Russian military failure is the result of logistical deficiences combined with the inability to conduct combined arms offensives
+  - Partly due to lack of training and combat experience
+  - Lack of non-commissioned officers
+  - Disempowered subordinate leaders
+- Meanwhile Ukraine has been fighting much more effectively with the same kit because it has been attempting to model its military on NATO standards
+- /As the [[https://warontherocks.com/2022/06/not-built-for-purpose-the-russian-militarys-ill-fated-force-design/][other article]] by Rob Lee and Michael Kofman points out, this is probably an incorrect conclusion/
+- /At the start of this conflict, Ukraine's non-commissioned officer corps was largely aspirational/
+
+** What If The Diagnosis Is Wrong?
+- The Russians were able to cross the Siverski Donetsk at other points in order to position forces for their assault on Izyum
+- These successful crossings received scant media attention
+- We should be wary of drawing conclusions about the entire Russian military based upon only the points that the Ukrainians are emphasizing
+
+** A Comforting Diagnosis For The Wrong Ailment
+- The reason it's so comforting to believe that the Russian failure results from incompetence rather than poor doctrine is because it relieves us from having to examine our own doctrine
+- Current river crossing doctrines are largely based off experience earned in World War 2, when all militaries had to cross the numerous rivers in Europe
+- River crossings in Afghanistan were largely carried out unopposed and were often discretionary
+
+** What is the Ailment
+- Both Russian and Western militaries are inexperienced in actual combat operations against competent, well-armed adversaries
+- Neither Russia nor the West has deployed large-scale multi-echelon formations against an adversary that is capable of contesting all domains in a protracted war that generates high numbers of casualties since World War 2
+- The Ukrainian challenge is simpler than that facing the Russians
+  - Ukraine is fighting on the defense
+  - Has had experience doing this in the initial phase of this war in 2014
+- The current conflict is short by the standards of modern war --- only 3 months
+- Russia appears to be learning from its mistakes and doing better at sticking to its doctrine of slow advances under massed fires
+- Both Russia and Ukraine are suffering from significant levels of attrition
+  - At the start of the war, the Russian forces allocated to the invasion outnumbered the defending Ukrainians by a factor of 2:1
+  - Indicates that Russia can suffer far more attrition than Ukraine can
+  - /I think this conclusion is misleading/
+  - /Ukraine has conducted a national mobilization/
+  - /This means that Ukraine has the ability to organize new military units to relieve those which are already in the field/
+  - /Russia has not significantly increased the amount of manpower available to its military, and thus has to continue with what it started out with at the beginning of the conflict/
+- While Western militaries are significantly bigger than the Ukrainian military, they've been conditioned to avoid casualties
+  - NATO doctrine in Kosovo emphasized force protection, even at the cost of achieving military objectives
+  - In the Afghanistan war, not a single platoon position was lost in combat
+  - CASEVAC was prompt, due to the fact that the airspace was uncontested
+- The war in Ukraine demonstrates the terrifying intensity of modern combat
+  - Entire companies can be annihilated if they're caught in a bad position
+  - CASEVAC is slowed by enemy aircraft and air defenses contesting the skies
+  - Large numbers of casualties in a short period of time, potentially overwhelming front-line care facilities
+- Ukraine is showing that in high-end conflict, force preservation should take priority over force protection
+  - /He doesn't actually define what "force preservation" means, though/
+- Have western governments prepared themselves for a level of combat that can result in thouands killed and tens of thousands wounded in a matter of months?
+- Most western countries have abandoned the infrastructure for mass conscription that existed from the Napoleonic wars to World War 2
+  - Notably, both Russia and Ukraine preserved the ability to mass-mobilize
+  - Perhaps this was prudent preparation rather than desperation
+  - /But Russia *hasn't* mobilized its citzenry/
+  - /He seems to be operating under the assumption that Russian mass mobilization is around the corner/
+  - /I'm not sure that it is/
+
+** This War Is The Same, But Different
+- While many of the attributes of this conflict are the same as World War 2, or the Korean War, there are significant differences
+- Ubiquitous surveillance of the battlefield
+  - UAVs make aerial reconnaissance much cheaper
+  - Means that it's much more difficult to conduct operations undetected
+  - /Yes, but the actual surveying of the river to discover potential crossing locations was done by soldiers on the ground, just as it would have been in World War 2/
+- This makes it much more difficult to achieve operational surprise via deceptive maneuvering
+- Moreover, given the prevalence of multi-spectrum sensors, smoke screens may be of limited utility as well
+- These differences mean that doctrine has change
+
+** Why Is This Dangerous
+- An explanation that puts the majority of the blame on Russian execution, rather than doctrine allows us to pretend that we would do better in the same fight because we have more competent people
+- But it's not clear that that is the case
+- Our perceptions of Russian military competence are still colored by the Cold War, where we looked to ex-Nazi officers for guidance on how to defeat the Russians
+  - These officers peddled a narrative that the Soviets had won through sheer mass of numbers, overwhelming German units that had superior doctrine and tactics
+  - Although this theory was disproven in the '90s, you can still see its influence on the news coverage of the Russian military today
+  - /On the other hand, it's possible that the Russian military is fighting more poorly today than it did during past conflicts/
+  - /The Russian military is repeating mistakes that it made during the Chechen conflicts and during the Russo-Georgian war/
+- Moreover the idea that the Ukrainian military is defeating the Russians by having more competent soldiers and better doctrine may also be wishful thinking
+  - Efforts to reform the Ukrainian military and make it more NATO-like only began in 2014
+  - These reforms had not progressed very far at all when the Russo-Ukrainian war started
+  - Most senior Ukrainian officers are ex-Soviet
+  - Ukrainian military doctrine above the small-unit level still largely reflects Soviet practice
+- This raises the question: what if the quality of people is overrated? What if, as Stalin said, quantity has a quality all its own
+  - /Okay, but didn't we just invalidate that theory above, by agreeing that this view was, in part, due to ex-Nazis trying to justify why their vaunted Werhmacht had failed against the Red Army/
+  - /I think that Ukraine is far better positioned to survive battlefield attrition than Russia is/
+  - /Ukrainians are fighting for their homeland, Russia is conducting a war of choice/
+  - /Putin has gone out of his way to pretend that everything is going fine/
+  - /I don't think Russia is on the cusp of a large scale mobilization that will turn the numbers against Ukraine/
+- /In general, I'm not quite sure what the argument is in this article/
+- /Seems to be meandering between a few points/
+  - /Modern warfare is far more intense than the sorts of counterinsurgency fights we've had in the past/
+  - /Russia may not be failing due to inferior doctrine/
+  - /Ukraine may not be prevailing due to superior doctrine/
+  - /We need to question our doctrines for operational maneuvers, such as river crossings/
+- /The problem is that many of these points are either unrelated, or, in some cases, actually opposed/
+- /If Ukraine is succeeding because of its superior numbers and willpower, then that indicates that a war of attrition is actually favorable to the Ukrainians, is it not?/
+- /This article doesn't make it clear whether the author thinks that the Russian military is a good army fighting with poor doctrine, a poor army fighting with good doctrine, or a poor army fighting with poor doctrine/

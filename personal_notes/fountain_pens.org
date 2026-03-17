@@ -1,0 +1,30 @@
+#+TITLE: Fountain Pens
+
+* Tips
+- Use distilled water
+- If the pen is very dirty, try a 10:1 dilution ammonia
+- Do not use ammonia on aluminum, brass or copper, as it can lead to corrosion
+- Do not use hot water --- could lead to warping
+
+* Basic Cleaning
+
+When refilling with the same ink:
+
+1. Uncap the fountain pen and unscrew the nib section
+2. Remove cartridge or converter
+3. Hold the grip section under cool running water for a few seconds
+4. Soak the grip section in a cup of water
+5. Replace the water if it gets saturated with ink
+6. Remove the nib section from the cup and let it dry for 24 hours
+7. Once the nib is dry, load a new cartridge and screw the grip section back into the barrel
+
+* Full Flush
+
+When changing inks or if you suspect the nib is dirty
+1. If possible disassemble and rinse the grip section, following step 3 from above (if not possible, skip to step 5)
+2. Place the open end of the converter or barrel in a cup of clean water
+3. Flush the barrel/converter by filling and emptying the ink chamber until it's clean, i.e. until it's visibly clean or until the water coming out runs clear
+4. Reattach the barrel or converter to the grip section
+5. Use the converter or built-in filling system to flush the feed
+6. Keep flushing until the water runs clear
+7. Follow steps 6 and 7 of the basic cleaning procedure to 

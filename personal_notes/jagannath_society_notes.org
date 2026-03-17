@@ -1,0 +1,20 @@
+* Jagganath Society
+
+** Annual Presidency Transfer
+- Google account
+- File an amendment with the Minnesota Secretary of State Office to update the current officeholders
+  - Log in to the [[https://mblsportal.sos.state.mn.us/Business/Search][Business Filings Online]] site
+  - Search for your business
+  - Click on "Details"
+  - Click on "File Amendment/Renewal"
+  - Choose your amendment or renewal from the list of amendments and renewals available
+    - Some filings may require you to fill out and upload a PDF form
+  - Complete the required information and/or upload the PDF form
+  - Review the filing, then click submit
+  - Click "Pay without Registering" on the payment form
+  - After you've completed the payment, you will be sent to a page with a payment confirmation number -- keep the confirmation number in case it's needed for further questions
+  - After the filing has been processed, you will receive an e-mail with a link to a copy of the filing
+
+** Business Renewal/Tax Exempt Status
+- Business annual renewal
+- IRS Form 990-N

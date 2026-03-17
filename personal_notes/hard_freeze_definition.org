@@ -1,0 +1,7 @@
+#+TITLE: Hard Freeze Definition
+
+According to the [[https://www.weather.gov/dlh/FrostFreezeClimatology][National Weather Service]]:
+
+#+begin_quote
+Hard freeze typically occurs when the temperature reaches 28°-or-lower for at least an hour (or more). This usually means that most seasonal vegetation will be destroyed. In addition, there is a possibility of damage to unprotected outdoor plumbing/un-drained sprinkler systems etc. 
+#+end_quote

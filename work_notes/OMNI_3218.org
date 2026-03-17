@@ -1,0 +1,350 @@
+* OMNI-3218: Synchronize Layers With Discover
+[[https://wlweb.windlogics.com/radar/browse/OMNI-3218][Ticket Link]]
+
+** Example Project
+- Hebron Solar
+
+** Layers to add
+- Transmission network
+  - Transmission lines
+  - Substations
+- NEER projects
+- Competitor projects
+- FAA Turbines
+- FAA-MTR segments
+
+** Discover Links
+- [[https://gitlab.windlogics.com/internal/discover/discover-ui][Discover UI Repo]]
+  - [[https://gitlab.windlogics.com/internal/discover/discover-ui/-/blob/master/src/util/arcGisServicesUtil.js][Request URL crafting]]
+  - [[https://gitlab.windlogics.com/internal/discover/discover-ui/-/tree/master/src/components/map/layers][Map Layers]]
+  - [[https://gitlab.windlogics.com/internal/discover/discover-ui/-/blob/master/src/service/LeafletService.js][Pop-up]]
+- [[http://discover-dev.nexteraanalytics.com/][Discover UI]] (Open in Chrome)
+
+** NEER Projects
+- Request URL:
+  #+BEGIN_EXAMPLE
+    https://landservicesgisarcgis.nexteraenergy.com/server/rest/services/Individual_Lyrs/PROJECT_NEER_BOUNDARY_VW/MapServer/0/query
+  #+END_EXAMPLE
+
+** Competitor projects
+- Request URL
+  #+BEGIN_EXAMPLE
+    https://landservicesgisarcgis.nexteraenergy.com/server/rest/services/Ventus/ventusProjects/MapServer/0/
+  #+END_EXAMPLE
+
+** Transmission lines and substations
+- Transmission lines
+  #+BEGIN_EXAMPLE
+    https://landservicesgisarcgis.nexteraenergy.com/server/rest/services/Ventus/ventusQueryLayers/MapServer/8/
+  #+END_EXAMPLE
+- Substations
+  #+BEGIN_EXAMPLE
+    https://landservicesgisarcgis.nexteraenergy.com/server/rest/services/Ventus/ventusQueryLayers/MapServer/5/
+  #+END_EXAMPLE
+- Problem: Combined layers aren't displaying
+  - This is a problem for both critical habitat and transmission lines
+  - When we click on the checkbox for a layer, what happens?
+  - Layer checkboxes are implemented by =MapControlLayerItem.vue=
+  - =MapControlLayerItem.toggle()=:
+    #+BEGIN_EXAMPLE
+      toggle() {
+        this.dispatch('MapControl', 'toggleId', {
+          sectionName: this.source.sectionName,
+          layerId: this.source.id
+        })
+      }
+    #+END_EXAMPLE
+  - =dispatch(componentName, eventName, ...rest)= --- goes up through the parent components, finds the component with the specified name, and calls
+    #+BEGIN_EXAMPLE
+      parent.$emit.apply(parent, [eventName].concat(rest))
+    #+END_EXAMPLE
+    - This sets the =this= property of the method to =parent= and calls =$emit(eventName, rest)=
+  - The event is =toggleId=
+  - The event is handled by =onToggleId= in =FlexibleMap.vue=
+    #+BEGIN_EXAMPLE
+      onToggleId(e) {
+        const section = this.controlGroups.find(g => g.name === e.sectionName);
+        const layer = section.layers.find(l => l.id === e.layerId);
+        const newVisible = !layer.visible;
+        layer.visible = newVisible;
+        if (section.flatLayers) {
+          const matchingLayers = section.flatLayers.filter(x => x.toggleId === layer.id || x.id === layer.id);
+          for (const match of matchingLayers) {
+            match.visible = newVisible;
+          }
+        }
+      }
+    #+END_EXAMPLE
+    - The buildable land section does have a =flatLayers= property
+    - When we toggle the critical habitat layer
+      - Section name: =Buildable Land=
+      - Layer ID: =criticalHabitat=
+    - =onToggleId= goes through the =flatLayers= looking for layers whose =toggleId= or =id= matches =criticalHabitat=
+    - However, no such layers match
+      - Critical habitat layers have IDs =criticalHabitat0= and =criticalHabitat1=
+      - ~toggleId~s not set
+    - If I set the =toggleId= property on the critical habitat layers, they should start working
+  - Setting =toggleId= on the critical habitat layer did not fix the issue
+    - Don't see the =toggleId= property in the debugger when I debug =onToggleId=
+    - I need to update =useEsriLayer= to set the =toggleId= if it's present
+
+** FAA MTR
+- Request URL:
+  #+BEGIN_EXAMPLE
+    https://services6.arcgis.com/ssFJjBXIUyZDrSYZ/ArcGIS/rest/services/MTRSegment/FeatureServer/0/
+  #+END_EXAMPLE
+
+** FAA Turbines
+- Request URL:
+  #+BEGIN_EXAMPLE
+    https://landservicesgisarcgis.nexteraenergy.com/server/rest/services/QGIS/NEGIS/MapServer/9
+  #+END_EXAMPLE
+
+** Adding pop-ups to the map
+- Discover has pop-ups when you click on details in the map
+- How are these pop-ups implemented?
+- Popups implemented by =LeafletService.js= in Discover UI
+- We use the =leaflet-responsive-popup= library
+- To create a popup, call =L.responsivePopup()=:
+  #+BEGIN_EXAMPLE
+    leafletResponsivePopup(contents) {
+      return L.responsivePopup({
+        hasTip: false,
+        autoPanPadding: [-5, -5],
+      }).setContent(contents);
+    }
+  #+END_EXAMPLE
+- How is =leafletResponsivePopup()= used?
+  #+BEGIN_EXAMPLE
+    bindPopup(feature, layer) {
+      const popup = this.leafletResponsivePopup(feature.properties.popup);
+      popup.on('remove', () => {
+        closeSubstationPopout();
+      });
+      layer.bindPopup(popup);
+    }
+  #+END_EXAMPLE
+- Where is =bindPopup= referenced?
+- How do we get the data to show in the pop-up?
+  - Look at =@/util/substationsUtil.js -> openSubstationPopout=
+  - All =openSubstationPopout= does is set some values in the store
+    #+BEGIN_EXAMPLE
+      export function openSubstationPopout(entityId, popoutName) {
+        store.set('layers/selectedSubstationEntityId', entityId);
+        store.set('display/popout', popoutName);
+      }
+    #+END_EXAMPLE
+  - =store= is =import store from '@/store/index';=
+  - That part of the store is handled by =store/modules/layers.js=
+    #+BEGIN_EXAMPLE
+      const state = {
+        redrawLayersSet: new Set(),
+        substations: [],
+        editableLayer: null,
+        transmissionUpgradeCosts: {},
+        selectedSubstationEntityId: null,
+        competitorProjectsScore: null,
+      };
+    #+END_EXAMPLE
+  - So when we set =selectedSubstationEntityId=, what listens to that update?
+  - How is =openSubstationPopout= called?
+  - Set as part of the =popupopen= callback handler on the map:
+    #+BEGIN_EXAMPLE
+      map.on('popupopen', (e) => {
+        const featureProperties = e.popup._source.feature.properties;
+        _.get(featureProperties, 'popupLinkClasses', []).forEach((link) => {
+          const popupLink = featureProperties.popup.getElementsByClassName(link);
+          if (popupLink instanceof HTMLCollection) {
+            const innerText = _.get(popupLink[0], 'innerText', '');
+            if (innerText === MAP_POPUP_LINKS.competitorQueue.text) {
+              closeSubstationPopout();
+              popupLink[0].onclick = () => {
+                openSubstationPopout(featureProperties.ENTITY_ID, QueueStatus.name);
+              };
+            }
+            if (innerText === MAP_POPUP_LINKS.transmissionCost.text) {
+              closeSubstationPopout();
+              popupLink[0].onclick = () => {
+                openSubstationPopout(featureProperties.ENTITY_ID, TransmissionCostBusGraph.name);
+              };
+            }
+            if (innerText === MAP_POPUP_LINKS.competitorProjectScore.text) {
+              popupLink[0].onclick = () => updateCompetitorProjectPopup(featureProperties);
+            }
+          }
+        });
+        if (featureProperties.popupChartId && featureProperties.transUpgradeCosts.length > 0) {
+          createTransmissionCostLineChart(featureProperties.ENTITY_ID, featureProperties.transUpgradeCosts[0].costs);
+        }
+      });
+    #+END_EXAMPLE
+  - =featureProperties= comes from =e.popup._source.feature.properties=
+  - What defines the ="popupopen"= event?
+    - ="popupopen"= is defined by Leaflet
+    - Triggered when something calls the =openPopup= method
+    - Can open popups when a marker is clicked by calling =bindPopup= on that layer
+- +So what I need to do is+
+  - +Create a popup control that uses =leaflet-responsive-popup=+
+  - +Pass that popup to =useEsriLayer=+
+  - +Modify =useEsriLayer= to call =onEachFeature= of the layer and do the following:+
+    #+BEGIN_EXAMPLE
+      onEachFeature(feature, layer) {
+        if (_.has(feature, "properties.popup")) {
+          that.bindPopup(feature, layer)
+        }
+      }
+    #+END_EXAMPLE
+  - =that.bindPopup= is the =bindPopup= function we saw above
+- How does Discover determine whether a feature should have a popup? How is the =properties.popup= field set?
+  - The way discover works is that discover doesn't use =esri-leaflet=
+  - Instead, Discover queries the ESRI server itself, creates the layer structure in memory, and the determination on whether to create the popup is hardcoded into each Discover layer
+- So what I need to do is
+  - Create a new =PopupLayer= class
+  - =PopupLayer= will take in a function that tells it how to turn the feature properties of that layer into popup
+  - =PopuPlayer= will then call =bindPopup= =onEachFeature=
+- Do I actually need to create a new =PopupLayer= class? Can I just modify =useEsriLayer= as above to call =bindPopup= by calling =onEachFeature=
+  - No I can't because =useEsriLayer= can be used to create layers that are not =featureLayers=
+  - Popups presume a =featureLayer=
+  - Need to create a new class
+- Settlement layer uses popups!
+  - How does the settlement layer add the popup to the nodes?
+  - Is a =GenericGeoJsonLayer= instead of an =EsriLayer=
+  - Sets =selectable= to true
+  - Sets =tooltipText= to the node ID
+- +I need to create a =PopupLayer= class+
+- I think I can modify =useEsriLayer= to add popups to the map without having to create a new layer class
+- The =FeatureLayer= class from =esri-leaflet= creates a =GeoJSON= layer
+- The way discover binds popups is by setting the =onEachFeature= property of the layer to a function that calls =bindPopup=
+- =bindPopup= (see above)
+- =bindPopup= calls =leafletResponsivePopup=:
+  #+BEGIN_EXAMPLE
+    leafletResponsivePopup(contents) {
+      return L.responsivePopup({
+        hasTip: false,
+        autoPanPadding: [-5, -5],
+      }).setContents(contents)
+    }
+  #+END_EXAMPLE
+- So, in my code, I need to
+  - Generate the popup contents
+  - Call =L.responsivePopup= to generate a popup
+  - Set the popup contents
+  - Call =layer.bindPopup= with the popup
+- To customize how Leaflet converts GeoJSON points to markers, customize the =pointToLayer= property
+- How does Discover set the markers
+  - =LeafletService= sets =pointToLayer=
+  - Calls =getMarker= to actually retrieve the marker that should be used
+    #+BEGIN_EXAMPLE
+      getMarker(feature, latlng) {
+        if (feature.properties.classname !== undefined) {
+          return L.marker(latlng, {
+            pmIgnore: true,
+            icon: L.divIcon({
+              className: feature.properties.className,
+              iconSize: feature.properties.iconSize !== undefined ? feature.properties.iconSize : 14
+            })
+          });
+        }
+        if (feature.properties.customMarker !== undefined) {
+          return L.marker(latlng, {
+            pmIgnore: true,
+            icon: L.icon(feature.properties.customMarker)
+          });
+        }
+        if (feature.properties.radius !== undefined) {
+          return L.circle([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
+            color: 'white',
+            fill: false,
+            radius: feature.properties.radius,
+            weight: 1
+          });
+        }
+        return markers.getMarker(feature.properties, latlng);
+      }
+    #+END_EXAMPLE
+  - Then in =Substations.vue='s =buildGeoJsonForMap=
+    #+BEGIN_EXAMPLE
+      geogJson.properties.classname = this.getSubstationMarkerClass(ventusSubstation.properties.MX_VOLT_KV);
+    #+END_EXAMPLE
+- I need to create a templated component instead of outputting raw HTML
+  - According to Nick Moekel, OMNI does have a popup class
+  - Look at =ApprovalMapTooltip.vue=
+  - Where is =ApprovalMapTooltip= used?
+  - Look at =ApprovalMap.vue=
+    - The way =ApprovalMap= sets things up is that it has:
+      - =FlexibleMap=
+        - =template #geoJson=
+          - =LLayerGroup=
+            - =LGeoJson=
+              - =LMarker=
+                - =LPopup=
+  - Can I do something similar with =EsriLayer= class?
+  - I need to add popups to all the layers I've imported over from Discover
+  - I think I need to update =FlexibleMap=
+  - I need to move the layers I've added out of =useBuildableLandLayers= and into their own group
+  - That way, I can create a new popup component
+  - Where should the popup component live?
+    - We have a =TooltipGeneric.vue= in =src/components/map/tooltips=
+    - Unfortunately =TooltipGeneric= doesn't do what we need it to do --- just displays the layer name
+- Layers to move to =useDiscoverLandLayers=
+  - =NeerProjects=
+  - =CompetitorProjects=
+  - =transmissionLines= & =substations=
+  - =faaMtr=
+  - =faaTurbines=
+- Look at =vue2-leaflet= and see how =LMarker= and =LPopup= work
+- If I want to add a popup, I need to add the popup data to the discover layer data objects that =useDiscoverLandLayers= returns
+- Do I need to set markers in order to use popups?
+- According to the code that Nick Moekel and I found, we need to set the markers in almost the same way as what Discover is doing
+  #+BEGIN_EXAMPLE
+    function onEachFeature(feature, layer) {
+      let popupContent = Vue.extend(PopupContent);
+      let popup = new popupContent({ propsData: { data: { type: feature.type, color: 'blue'}}});
+      layer.bindPopup(popup.$mount().$el);
+    }
+  #+END_EXAMPLE
+- So all I need to do, really is create a templated popup class and I use the normal =bindPopup= method
+- How do I set the markers? See above re: =pointToLayer= and =getMarker=
+- Where are the substation colors defined?
+  - Possible colors:
+    - =voltageKV < 100=: =orange-marker=
+    - =voltageKV <= 161=: =blue-marker=
+    - =voltageKV <= 230=: =green-marker=
+    - =voltageKV <= 345=: =red-marker=
+    - Otherwise =purple-marker=
+  - Where are these color classes defined?
+    - Color classes defined in =Substations.vue=, in the =<style>= block
+- Per MR feedback, I should use a definition list for the contents of the popup
+  - Also need to normalize the popups for transmission lines and substations
+  - Standard popup features
+    - Optional heading
+    - Definition list with key/value pairs
+    - Optional unlabeled data rows
+  - Props
+    - =heading=: =String=
+    - =labeled rows=: =Array= of key/value pairs
+    - =unlabeled rows=: =Array= of strings
+  - I need to make the definition list side-by-side
+    - To do that, set =display: flex= on the =<dl>= and enclose each label/value pair in a =<div>=
+- Color coding for NEER and competitor projects
+  - NEER projects are all red and have a popup with the following information
+    - Labeled rows
+      - Project ID
+      - Project Name
+      - County
+      - State
+      - Generation Type
+      - Capacity (MW)
+      - Status
+      - ISO/RTO
+      - Queue Number
+      - Source
+      - WKID
+      - Company
+      - Acres
+      - Created By
+      - Creation date
+      - Edited By
+      - Edited Date
+    - Where is the NEER Projects layer defined?
+      - Look at =src/components/map/layers/NEERProjects.vue=

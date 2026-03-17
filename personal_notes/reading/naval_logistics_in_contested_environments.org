@@ -1,0 +1,404 @@
+#+TITLE: Naval Logistics In Contested Environments: Examinations of Stockpiles and Industrial Base Issues
+#+OPTIONS: toc:1
+#+OPTIONS: ^:{}
+
+Authors:
+Joslyn Fleming\\
+Bradley Martin\\
+Fabian Villalobos\\
+Emily Yoder
+
+[[https://www.rand.org/pubs/research_reports/RRA1921-1.html][Published by the RAND Corporation]]
+
+* Summary
+- The Navy has developed an operational concept called Distributed Maritime Operations to meet the challenges posed by the current strategic environment
+- DMO requires changes to how the Navy goes about resupplying and sustaining its ships
+- However, the Navy has not yet identified all the supply chain changes that must take place in order for these changes to take place
+
+* Introduction
+- What is Distributed Maritime Operations (DMO)
+  - "Distribution, Integration and Maneuver"
+  - Uses maneuver and communications to adapt to an inability to mass forces due to adversary A2/AD
+- DMO will require changes to sustainment and logistics
+- Here, "sustainment and logistics" refers specifically to the Navy's ability to keep forces deployed in contested areas and ensure their resupply in the event of a conflict with a near-peer adversary
+- The US has long assumed that it can resupply forces engaged in high-tempo operations without fear of disruption
+- However, the proliferation of long-range weapons which can attack resupply hubs puts this assumption in doubt
+- The military's supply chain does not reflect this new, more dangerous reality
+- The military's supply chain can be broken into four primary stages
+  - Acquisition
+  - Storage
+  - Transportation
+  - Distribution
+- If any of these stages fail, the whole supply chain fails --- ex: having adequate supplies of fuel means nothing if the means are not available to distribute that fuel to the vehicles which need it
+- Although problems in transportation and distribution may be mitigated by prepositioning, any near-peer conflict will still require vast amounts of materiel to be transported to combat units
+- Furthermore, for some items, such as munitions and spare parts, the defense-industrial base may not be capable of manufacturing them in sufficient quantities to sustain a fighting force in a protracted conflict
+
+** Research Objective And Approach
+- Objective: assess supply chain processes and identify improvements to support DMO
+- Focus on early stages of the acquisition process
+- Significant gap between the needs of a high-tempo operational scenario and the ability of the Defense Logistics Agency, Navy, the US industrial base and other stakeholders to meet those needs
+- Use munitions and naval aviation spare parts as illustrative examples
+- Differences between demand for munitions and spare parts
+  - Munitions demand
+    - Is only significant during wartime
+    - Can be predicted
+    - Purchased directly with appropriated funds
+  - Spare parts
+    - Varies significantly depending on the operational environment
+    - Procured via the Defense Logistics Agency's (DLA) working capital fund (WCF) mechanism
+
+* Current State of Munitions Supply Chains
+- Munitions are unique to military supply chains
+- Other organizations use fuel and spare parts, but only the military uses long-range weapons firing high explosive projectiles
+- Munitions are not normally used in peacetime (outside of relatively negligible training requirements)
+
+** Deriving Demand for Munitions from War Plans and Scenarios
+- This report will examine the projected demand for two specific munitions
+  - Long Range Anti-Ship Missile (LRASM), a.k.a. AGM-158C
+  - Marine Strike Tomahawk (MST) missile, a.k.a. Tomahawk Block Va
+- Both of these munitions are stand-off weapons intended for use against surface ships
+- Can estimate demand simply by looking at the number of ships the Navy will need to sink, plus a factor to account for enemy air defenses
+- These munitions are not easily substitutable with closer range options and are not likely to be required to attack other targets
+- Over the course of a 65-day conflict, the report assumes that 800 MSTs and 1200 LRASMs will be required to engage a PLA naval fleet
+  - Half of these munitions would be expended on days 1-15
+  - The remainder will be expended on days 45-60
+  - /What happens on days 16-44?/
+  - /Do we just assume, for the sake of modeling, that the US Navy stops firing missiles for 30 days?/
+- /Page 5 of this report is so confusing/
+  - /In addition to the aforementioned timeline issues, there are also three sets of numbers/
+  - /Says that US Navy forces will be 20 ships with 30 missiles each, corresponding to two carrier strike groups --- 600 missiles/
+  - /Then it says that they will be tasked with sinking 80 PLAN surface ships/
+    - /Each PLAN surface ship is assumed to require four hits to sink/
+    - /Then the add a multiplication factor of four to account for air defenses/
+    - /This means that each ship will require 16 missiles to sink, for a total of 1280 missiles/
+  - /But then they assert that a 65-day conflict will require 800 MSTs and 1200 LRASMs, for a total of 2000 missiles/
+  - /Why the discrepancy?/
+
+** Munition Procurement and Inventory
+- By FY 2025, the US will only have 309 LRASMs in its inventory
+- Tomahawk supplies are better, with the US acquiring 245 block V models and 445 Block IV models as of FY 21, with almost 4000 already in storage
+- However, the Tomahawk Block Va capability will not be available until FY 2024, and only 116 Block Va upgrade kits have been funded
+- The ability to build LRASMs is further limited by the fact that it shares many components with and is built in the same factory as the Joint Air-Surface Standoff Missile (JASSM)
+- In the case of a conflict, lower tier suppliers would be faced with prioritizing supplies for either the JASSM or the LRASM
+- The US Navy should account for the fact that the Air Force might be prioritized for resupply
+- The USAF is planning to procure 7200 JASSM-ER/AGM-158D missiles by 2025
+- So far, it has received 4,444 missiles, with 2,576 missiles yet to be procured
+- 2,057 missiles are budgeted for, leaving a discrepancy of 699 missiles
+- The USAF also plans to procure 410 LRASMs for itself by 2025
+  - However none have been delivered
+  - Only 124 have been budgeted
+  - 286 missiles are unaccounted for
+- In total the Air Force plans to acquire 3,166 munitions that will be built from the same production lines as the LRASM
+- Whether these numbers increase or decrease (e.g. by canceling the unbudgeted missiles) will impact the defense-industrial base's ability to deliver missiles to the Navy
+
+** Can the Defense Industrial Base Support a Western Pacific Scenario
+- All current Tomahawk efforts are focused on upgrading Block IV Tomahawks to the Block V specification
+- None of the "new" Tomahawks in US inventory will have anti-ship capability
+- The Marine Strike Tomahawk will not reach initial operational capability until 2024
+- As a result, by 2025, the USN will only have 116 MSTs in its inventory
+- This production rate can be increased by upgrading Block IV Tomahawks to Block Va instead of Block V --- this will add another 600 MSTs to the inventory by 2025
+- Combined with a production rate of 155 new munitions per year, this could lead to an inventory of 1181 Block Va Tomahawks by 2025
+- However, this relies on two major assumptions
+  - Prioritizing the conversion of Block IV Tomahawks to Block Va
+  - Maintaining production of new Block Va Tomahawks instead of Block V
+- For LRASMs, the story is more dire
+  - Total demand for munitions from the joint LRASM/JASSM-ER production line is 4,219 munitions
+  - Given current production rates, it could take anywhere 7.2 years to 16.4 years to produce the full inventory of munitions demanded by the Navy and the Air Force
+- Furthermore, this is assuming that there are no further bottlenecks in the manufacturing supply chain
+
+** Supply Chain and Manufacturing Constraints
+- Many of the same manufacturing constraints that apply to the rocket motor supply chain apply equally to missiles
+  - Composite manufacturing
+  - Actuator supplies
+  - Foreign dependencies for critical components, such as semiconductors or lithium-ion batteries
+- In addition, the LRASM and JASSM-ER share suppliers for
+  - Turbofan engines
+  - GPS receivers
+  - Aerodynamic control surfaces
+
+** Case Studies
+- There a number of case studies where usage of weapons in wartime differed significantly from expectations
+- Operation Desert Storm (1991)
+  - By the final weeks of the conflict, supplies of several "dumb" munitions had been depleted below a 10-day supply
+  - The US had to ask NATO to deplete reserves in order to manage its supply
+  - If Desert Storm had continued for weeks or months longer than it actually did, would the US have had sufficient munitions supplies to continue the fight?
+  - If Saudi Arabia had not had a well-developed infrastructure, how would the US Air Force have adapted in order to ensure that munitions were present where they were needed?
+- Operation Allied Force (1999)
+  - By the end of the first week, USAF supplies of air-launched cruise missiles were below 100
+  - Naval inventories of the Tomahawk Land Attack Missile (TLAM) were similarly depleted, with the Navy stating that it would have to manage inventories very carefully
+  - The US brought the Joint Direct Attack Munition (JDAM) into the conflict, despite the fact that the system was still undergoing testing at the time
+  - Although the bombing campaign lasted only two months, by the end of it, the DoD was already considering different applications of munitions, emergency funding measures and mitigation strategies for a long-term conflict
+  - A task force was created, with the assistance of the Commerce Department, to prioritize weapons production and direct resources across the defense-industrial base to fulfill priority demands
+  - The Kosovo campaign demonstrates the conflict between bringing an end to a conflict quickly by using large numbers of preferred munitions and maintaining supplies of these munitions for a longer campaign
+  - In this case the DoD
+    - Mobilized new capabilities (JDAM)
+    - Explored converting non-preferred munitions to preferred munitions (converting nuclear-armed cruise missiles to conventional armament)
+    - Established a process to address supply shortfalls based on conflict demands and priorities
+  - Although the campaign ended before many of these processes had a chance to demonstrate their effects, the Kosovo campaign did continue for long enough to demonstrate that preparations for a brief, high-intensity campaign and a protracted conflict have conflicting priorities
+- Operation Enduring Freedom (2001)
+  - Although this campaign was against an adversary without sophisticated conventional forces, the USAF and USN still expended vast amounts of precision munitions
+  - In 2002, the Navy reported that it had nearly run out of JDAMs, and had to turn to USAF supplies
+  - In order to have sufficient munitions to meet the needs of the campaign, DoD moved over 16,000 tons of munitions from other theaters
+  - This not only left other theaters depleted of munitions, but also tied up dedicated air and sealift assets, limiting the US's ability to respond flexibly to other crises
+- Operation Inherent Resolve (2014)
+  - An unusually large number of cruise missiles were used, resulting in shortages that persisted until 2020
+  - Lockheed Martin and Boeing took differing approaches to increasing production capacity
+    - Lockheed Martin opened additional production lines
+    - Boeing added extra shifts to existing production lines
+  - The US Army granted Lockheed $18 million to increase the production rate of Hellfire missiles from 500 to 650 per month
+  - OIR demonstrates that munitions demands can be very specific --- in this case demand for Hellfires and JDAMs vastly outstripped demand for all other munitions
+  - OIR also required long-term mitigation strategies in order to meet the demands of the conflict
+  - /However, this paper doesn't state what those long-term mitigation strategies were/
+- Military conflicts, are, by their nature, unpredictable
+- One effect of this unpredictability is that it's not always apparent which munitions will be demanded by any given conflict
+- Shortages can, in some cases, be mitigated by "borrowing" munitions from other theaters
+- However, this just moves the shortage around, rather than eliminating it
+- In addition, it ties up logistical assets that may be necessary for other missions
+
+** Summary
+- Analyses of munitions supplies indicate that stocks of munitions for a conflict against a near-peer adversary are critically low
+- Production and supply chain constraints prevent the defense-industrial base from increasing supply
+
+* Munitions Supply Chain Mitigation Strategies
+- In order to address the shortfalls in munitions, the Navy needs to pursue a variety of mitigation strategies with different time horizons
+- Demand suppression is not a viable strategy because munitions are combat-essential
+
+** Force Employment Short-Term Strategies (0-3 Years)
+- In the short term, there are limits on the ability of the munitions supply chain to surge to meet short-term demands
+- Inventory can be reallocated, either within a theater or between combatant commands
+  - Fast, simple and cheap
+  - Requires transportation and logistics infrastructure
+    - May not be available in a conflict against a near-peer adversary
+    - May be subject to host-country regulations on amounts of materiel or the routes by which it may be transported
+  - Depletes supply at the donating location
+  - Only works if the total amount of munitions is sufficient to meet combat needs
+- Manufacturing capacity may be temporarily increased
+  - Allows supply to expand in one combatant command without depleting supply in others
+  - Requires the acquisition of new tooling and facilities to expand production
+  - These additional facilities would likely be idled after the conflict ends, so a plan must be established to pay for the retention of surge capacity for future conflicts
+  - Expansions in end-product assembly may be bottlenecked by availability of upstream components
+- Additional shifts may be added to existing production lines
+  - Requires a sufficient number of trained personnel
+  - If personnel require security clearances, this may reduce the ability to surge the labor force
+  - Labor will need to surge across a number of suppliers, not just at end-assembly
+- /Adding manufacturing capacity and increasing the labor supply are presented as separate mitigation strategies, but IMO they should be combined/
+- /Having additional factory space or machine tools doesn't make sense of you don't have people to operate them/
+- /And vice-versa, adding more people to a production line that's running at capacity just results in people standing around/
+- Munitions that are close to initial-operating capability may be fast-tracked into service
+  - Depends on having a pipeline of "almost-ready" munitions
+  - In the case of Kosovo, we were lucky because the JDAM was a relatively simple add-on kit that could be applied to existing unguided munitions
+  - Nevertheless it makes sense to think about what testing steps could be skipped or sped up in order to speed new munitions into production
+
+** Mid-Term Strategies (2-7 Years)
+- Mid-term strategies promote modification of the supply chain in a permanent fashion to reduce the risk of shortfalls
+- The report assumes that no new weapons systems will be introduced in the mid-term, but that investments can be made in production facilities for existing systems
+- The most obvious mid-term strategy is to increase inventory
+  - Acquire additional munitions prior to surge demand
+  - However increasing inventories over the medium term can conflict with short-term surge demands, should they arise during the inventory build-up process
+  - Increasing inventory is a guaranteed cost without a guaranteed benefit
+  - "Lock in" investment into a specific munition, which reduces flexibility should that munition not be fit for purpose in a future conflict
+- In order to increase inventory, building new production facilities may be required
+  - Requires expanding available building space, acquiring equipment and tooling and maintaining staff at a lower utilization rate
+  - The large up-front capital expenditure needed to build additional production capacity is a major obstacle
+  - If the capacity is never used, equipment and facilities may need to be placed into "mothball" storage, which would add to the cost further
+  - Expanding investment into specific production facilities may reduce the defense-industrial supply-chain's ability to pivot to other munitions if there is a surge in demand elsewhere
+  - This can be ameliorated by prioritizing investments in additional production facilities for common parts, and ensuring that munitions use common parts when possible
+  - An example of this is the commonalities between the JASSM-ER and the LRASM, which allow both to be manufactured on the same production line --- additional capacity for one is additional capacity for the other
+  - /This is ironic, because, above, one of the vulnerabilities identified was the fact that the JASSM-ER and the LRASM are both manufactured on the same line, which means that the Navy and Air Force have competing claims on the output of that line/
+
+** Long-Term Strategies (5-15 Years)
+- Long-term mitigation strategies change how munitions are designed in order to minimize supply chain vulnerabilities
+- Modular designs
+  - Munitions can be redesigned such that they're composed of smaller independent systems that can be combined in various ways to achieve different effects
+  - Interchangeable parts mean that production can be reallocated more efficiently towards different systems
+  - Modular parts can potentially be upgraded independently of the rest of the system
+  - Increasing modularity also allows the reallocation of personnel involved in sustainment to production
+  - Modularity broadens the defense-industrial base by allowing smaller firms to bid on specific subsystems for a common platform
+  - However, the fact that current systems are not modular means that the production of a new modular missile system will require changes to existing facilities, which may impact production rates of existing systems
+  - Transitioning to a modular system is likely to require significant funding
+  - The defense acquisition process is also an obstacle to modular systems
+    - A truly modular system will be able to carry out a wide variety of missions
+    - The current certification process requires the entire system to undergo re-certification, in all of its configurations, whenever a new module is proposed
+    - A modular design is therefore unlikely to speed up the testing and certification process
+    - /Yet another reason to reform defense acquisition --- why do existing configurations need to be re-certified when a new module is added?/
+- The US Air Force is exploring modularity with its Modular Advanced Missile Program
+- Additive manufacturing
+  - Additive manufacturing can reduce the total number of components required for a system
+  - Reduces the need for skilled labor for e.g. welding and assembly
+  - 3D printers are easier to reconfigure for different tasks than machine tools
+  - However, additive manufacturing requires extensive redesign of production processes to meet the differing needs of 3D printers as compared to traditional machine tools
+  - This represents a fundamental shift in manufacturing approaches, which may result in resistance from existing suppliers
+- The Air Force is exploring using additive manufacturing to build solid rocket motors with its Eternal Quiver program
+
+** Summary
+- Munitions are wartime critical and have limited use in peacetime
+- Stockpiling and investing in supplies that will only have utility in case of war is costly
+- In the short term, mitigation strategies should focus on enabling rapid reallocation of existing munitions stocks between theaters
+- In the mid-term production capacity of existing munitions should be increased
+- In the long term the Navy should invest in emerging technologies, such as modular systems and additive manufacturing, to design weapons that require a less extensive supply chain
+
+* Current State of the Supply Chain for Naval Aviation Repair Parts
+- A review of the Navy's supply chain for Class IX (repair parts required for the maintenance of systems) indicates that it is not well suited for the requirements of Distributed Maritime Operations
+- Existing efforts to upgrade the supply chain for these parts have focused on near-term readiness and do not account for long-term issues that will become more acute under the demands of DMO
+- This study focuses on the demand for aviation spares, because that category is likely to have a significant increase in demand in wartime
+- However, one limitation of this study is that data the demand for aviation spares in wartime is scant
+
+** Navy Approach To Class IX
+- The Department of Defense defines Class IX as "repair parts and consumables to include kits, assemblies, and subassemblies (repairable and nonrepairable) required for the maintenance and support of equipment"
+- Class IX management includes
+  - Requirements determination
+  - Procurement
+  - Repair
+  - Storage
+  - Transportation
+- The Navy determines how many spares it needs using the Readiness-Based Sparing (RBS) model outlined in OPNAV instruction 4442.5A
+- When there is not enough data to use RBS, the Navy uses a demand-based model instead
+- The RBS model determines the most cost-effective means to achieve A_{O}, a measure that assesses the probability that a given piece of equipment will be available for a mission starting at a random time
+- The naval aviation community has experienced challenges recently with a decrease in mission-capable rates for aircraft, because of maintenance and repair challenges
+- The Navy has launched some initiatives which have improved parts supply and aircraft availability in the short term
+  - Integrated Supply Chain Management (ISCM) Control Tower has increased the number of F/A-18s that are ready to fly by 21%
+  - Under the Naval Sustainment System - Supply (NSS-S), Naval Supply Systems Command (NAVSUP) reorganized orders to OEMs resulting in zero unfilled customer orders from the Navy
+- While these short-term initiatives, using best practices from private industry, have improved the supply of spares for peacetime usage, they are not likely to be adequate for wartime needs
+
+** Conflicting Incentives Among Stakeholders Challenge Supply Chain Support
+- The existing structure of the naval aviation spare parts supply chain does not incentivize maintenance of surge capacity
+- DLA is strongly incentivized to prioritize efficiency and cost reductions
+- DLA grades itself with a metric called Materiel Availability
+  - For items such as food and medical supplies, Materiel Availability is a good metric because these items have predictable demand, can be ordered in high volume, and are not unique to the military
+  - However, for repair parts, the demands of MA incentivize the DLA to stock less expensive parts which have more predictable demand --- allows it to meet MA with a minimum of excess inventory
+  - This means that if there is an unexpected spike in demand for more expensive parts, supplies may be insufficient
+- In 2018, in an attempt to address this shortcoming, the DLA created service demand readiness summit
+  - Allows the services to submit priority and demand forecasts to the DLA
+  - However, the feedback gathered from this demand is not integrated into the DLA's formal forecasting models
+  - Still focused on near-term demands
+  - Does not examine whether spare parts supplies are adequate to support conflict operation plans (OPLANs)
+- Defense contractors are further incentivized to minimize spare parts production
+  - Contractors are paid for systems availability, which incentivizes them to make reliable systems which don't need as many spare parts in peacetime
+  - While this is ostensibly laudable, it means that if there is an unexpected demand for spare parts because of a wartime scenario, the spares may not be available
+
+** Distributed Maritime Operations Will Create Different Demand Profiles For Repair Parts
+- A historical approach to determining adequate spare parts stocks is inadequate for planning for a wartime scenario that will have greatly increased operational tempos
+- Distributed Maritime Operations implies that naval aviation assets will fly longer sorties (up to 10 hours, in some cases), increasing wear and tear on aircraft
+- This increased demand will also make it impossible to fulfill maintenance needs by cannibalizing front-line aircraft
+- Increased deployments will make it impossible for the Navy to fulfill maintenance needs by cannibalizing aircraft stationed at home
+- Unexpected failures will occur as systems that are rarely used during peacetime (such as electronic warfare modules) are used for extended periods of time under adverse conditions
+- A good precedent is Desert Storm
+  - Air Force experienced a doubled failure rate due to longer sorties and a higher-than planned sortie rate
+  - Increases in failure rates were not constant across time or platform
+    - F-15Cs experienced higher failure rates immediately because they were tasked with flying combat air patrols at the start of the deployment
+    - These combat air patrols exercised almost every system of the aircraft, often for an extended period of time
+    - By contrast, the failure rate for F-16s spiked later, since their ground-attack missions took place later during the operation
+
+** Limitations of Current Industrial Base Capacity and Stockpiling Prevent the Ability to Surge
+- Currently there are limitations in the industrial base that prevent the Navy's ability to surge production to meet the demands of DMO
+- The F/A-18 E/F is facing 18 known cases of diminishing manufacturing sources and materiel shortages in the next two years
+- The actual situation is probably worse than that because the Navy's data collection on suppliers below the prime contractor level is fragmentary
+- The DLA's warstopper program can be used to mitigate some of these shortfalls, but it is not always obvious which items should be prioritized for warstopper investments
+- For aviation, the DLA prefers to invest in stocks of raw materials, such as steel or titanium, which can be used flexibly for a variety of different needs
+- The Navy discontinued its War Reserve Materiel (WRM) program in 2011, as a cost savings
+- Although stockpiles are expensive to maintain, they can provide an insurance against planning failure that may be critical in wartime
+
+** Working Capital Fund Arrangements Do Not Effectively Provision Low-Demand but Possibly Critical Supplies
+- The DLA is funded by a Working Capital Fund
+- The WCF's intent is to balance out costs and revenues over a budget cycle
+- Set up so that services only pay for things that are known to be needed
+- Adequately meets day-to-day needs for continuing operations
+- However, the WCF mechanism's aim for a net-zero balance constrains the Navy's ability to plan for scenarios where demand is significantly higher than it is today
+- The Navy's WCF has a current balance of $-1.1 billion
+- To rebalance this fund, the Navy has been reviewing parts purchases with an intent towards delaying, deferring or reducing purchases --- this is the opposite of what the Navy should be doing
+
+** Summary
+- The bias in Class IX supply chains is towards recovering near-term readiness at the expense of investment in war-time surge capacity
+- This is reflected in RBS model that the Navy uses to forecast future demand and the WCF mechanism that the Navy uses to pay for spare parts
+
+* Mitigation Strategies for the Naval Aviation Repair Parts Supply Chain
+- The existing forecasting and funding model for spare parts only works in a steady state
+- There are good reasons to suspect that demand for parts will increase with operational intensity
+- There are further reasons to suspect that the existing store of parts will prove insufficient to meet this added demand
+
+** The Navy Recognizes Weaknesses in the As-Is Model and Has Taken Action to Correct Them
+- The Navy is taking steps to improve parts availability across all warfare areas
+  - P2P --- find root causes of current performance with a goal of finding leverage points that can be addressed to improve performance
+  - NSS --- "follow-on effort" where experts from outside the Navy help devise solutions for specific issues identified with P2P
+- With regards to naval aviation specifically, the Navy improved the availability of fixed-wing tactical aviation aircraft from 250-255 to 341 with the Maintenance Operations Center: Aircraft on Ground (MOC AOG) concept
+- MOC AOG brought together Navy and industry specialists to identify parts that were critical to aircraft readiness and ensure that those parts were available
+- These initiatives improve current readiness but may not be adequate for dealing with the unknown environment of a major-theater war
+
+** Accurately Capturing Wartime Demand Is Critical
+- Equipment is designed with the recognition that parts will wear out over time
+- Most parts are not replaced on a specific schedule, but when they wear out (/this is contrast to other militaries, such as Russia, who overdesign equipment to be resistant to individual parts failures, and replace parts on a schedule/)
+- The surface fleet has adopted a "troubled systems" program which attempts to identify and diagnose systems that are showing higher than expected failure rates
+- However, this approach has limitations
+  - Reliant on peacetime data
+  - Is reflective of commanders' interests in particular systems
+  - Greater differences in peacetime vs. wartime demands on systems for aircraft as compared with ships
+- One approach to assessing wartime demand is improved engineering models
+  - We have an unprecedented ability to simulate and process data today
+  - Can collect more data about systems performance and use big-data analytics to predict failure rates in battle
+  - However, this approach is still subject to data gaps and limitations
+  - The problem isn't that failures are rare, but that the environment is unknown
+- Systems should be assessed in the context of kill chains
+  - The systems that serve as key nodes in a kill chain should be prioritized for spare parts acquisition
+  - Example: air-to-air engagements rely on search radars, targeting radars, and successful missile firing
+    - May have direct data on certain elements, such as the search radar
+    - Other, more rarely used systems may have components (such as particular microchips or circuit boards) in common with systems that are used routinely, and therefore it may be possible to use reliability data from the routinely used systems to inform reliability estimates for the rarely used systems (like targeting radars)
+    - If a component is unique to a kill chain and rarely used, it may be worthwhile to unconditionally procure additional spares, simply to have them on hand if they are necessary in a conflict scenario
+  - A kill chain analysis uses components' importance to kill chain to compute demand, rather than an observed demand signal caused by peacetime replacement needs
+- Continued live testing may be required to establish wartime demands
+  - Live testing is currently done as part of operational test and evalution prior to systems being accepted as operationally suitable
+  - However, once a system has been accepted, little additional systematic live testing is conducted
+  - A live testing program for established systems, although expensive, might be worthwhile in order to generate data that would inform models for wartime demands
+
+** Funding Mechanisms Must Account For Investment, Not Just Servicing Current Demand
+- The existing WCF funding mechanism for spare-parts acquisition is well suited to peacetime steady-state demands
+- However, wartime demands are likely to be higher than peacetime steady-state, so WCF inventory levels are likely to be insufficient
+- Legislation related to WCFs places responsibility for their use at the Secretary of Defense level, which means that the Navy cannot unilaterally abandon the WCF mechanism
+- However, it might be possible for the Navy to establish other funding mechanisms, in addition to the WCF, to supplement its ability to acquire spare parts for critical combat systems
+- In this scenario, the Navy would continue using the WCF where it makes sense (bulk purchases by the DLA which can be accurately forecast), and use different funding mechanisms for acquiring critical spare parts for a high-intensity combat scenario
+- Some spares will have to be acquired wholly in support of a significant but unlikely event, such as a war, and those purchases will more closely resemble weapons acquisitions than current spare parts purchases
+- A possible approach would be to list some spares as "kill-chain essential" and include their provision as part of program cost, enabling them to be purchased directly by program offices from the appropriate manufacturers without having to go through DLA
+- However, this would forego some of the advantages of scale and supply chain expertise that DLA brings by delegating the acquisition of these critical spares to individual services
+- This is a worthwhile trade-off, because as shown above the DLA WCF process prioritizes parts that are the most demanded, not necessarily the parts that are the most critical
+
+** Sparing for Aviation Systems Should Rebalance Away from Legacy Aircraft to Invest In Future Systems
+- Legacy aircraft, while useful, become more expensive to maintain as they age
+- Furthermore, in high intensity combat, legacy aircraft are less useful than modern systems
+- Therefore, the Navy should prioritize spare parts acquisition for its F-35 fleet
+- The F-35's sustainment model should be shifted away from the current contracted sustainment model and towards a wartime model without contract incentives
+- The incentives process for contractor support has all the disadvantages of the DLA model by incentivizing contractors to have reduced inventory of parts that are unlikely to be used except in wartime
+
+** Summary
+- Better engineering data to allow the creation of models to determine spare parts requirements in wartime are necessary
+- A kill chain analysis can help with demand forecasting in wartime
+- The Navy needs to pursue additional funding mechanisms to ensure that it is able to procure spares for rarely used but critical systems
+- The Navy should prioritize spare parts acquisition for its most modern systems
+
+* Summary And Conclusions
+- The Navy faces numerous challenges and constraints across its supply chain
+- Naval supply chains are focused on meeting steady-state demand
+- Historical analyses do not match the expected demands of DMO
+- Conflict against a near-peer competitor will require a different mixture and higher amounts of munitions and spares than has been historically required
+- Naval acquisition and supply systems do not reflect recent initiatives to forecast these demands
+- A shift in focus to just-in-time logistics and resource conservation makes it difficult to stockpile parts for future readiness
+- Even if the Navy updates its demand forecasts, the ability of the industrial base to respond to those demands is limited
+  - Diminishing manufacturing sources
+  - Materials shortages
+  - Complicated relationships among suppliers and shared production lines make it more difficult to identify bottlenecks
+  - This is especially true below the prime-contractor level
+- The WCF funding mechanism makes it difficult to buy according to anticipated, rather than present, demand
+
+** Recommendations
+- Recommendations are given across three time horizons, short (0 - 3 years), mid (2 - 7 years) and long-term (5 - 15 years)
+- In the short term, the Navy should prepare to reallocate munitions from different theaters, and use the Defense Production Act to incentivize the production of critical spare parts
+- In the mid-term, the Navy should invest in new munitions production facilities and work on building up inventories of spare parts
+- In the long term, the Navy should invest in making munitions more modular and easier to manufacture (perhaps through investments in additive manufacturing), and should prioritize spares for its most modern systems over legacy aircraft
+- These mitigation strategies accept a certain level of near term risk in order to have increased inventory in the mid- and long-term
+- If a conflict with a near-peer adversary arises in the near term, the Navy will be reliant on moving munitions from other theaters into the conflict theater, using existing surge capacity to ramp up munitions production and emergency funding mechanisms to acquire spare parts
+
+** Further Research
+- This analysis was limited by a lack of data
+- To effectively implement the mitigation strategies outlined in this report, further information needs to be collected to prioritize areas for investment
+- To do this, the authors recommend
+  - Conducting a "troubled systems" analysis of aviation systems, similar to what the Naval Surface Warfare Center Corona has conducted for the surface fleet
+  - Conducting a "kill chain analysis" for critical systems
+  - Pursuing a data-driven review of sparing --- the Air Force has demonstrated data-driven approaches for spare parts acquisition that have enabled it to reach higher readiness levels while still being cost-effective

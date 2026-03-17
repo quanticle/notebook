@@ -1,0 +1,30 @@
+#+TITLE: Birthday Dinner
+
+* 2024
+
+** Candidates
+- Chilis
+  - Hours: Open 'til 22:00
+  - Possible orders
+    - Cajun Pasta
+    - Chipotle Fresh Mex Bowl
+    - Chicken Fajitas
+- OAK Eatery
+  - Hours: Open 'til 20:00
+  - Possible orders
+    - Impossible Veggie Burger
+    - Dirty Birdie
+    - Mushroom & Swiss w/chicken
+    - Chicken Salad
+    - Chicken caesar flatbread
+- Lat 14
+  - Hours: Open 'til 21:00
+  - Make a reservation or be prepared to wait
+- Nong's Thai Cuisine
+  - Hours: Open 'til 21:00
+- Nonna Rosa's Ristorante Italiano
+  - Hours: Open 'til 21:00
+  - Possible orders
+    - Chicken fettucine alfredo
+- Best of India
+  - Open 'til 21:00

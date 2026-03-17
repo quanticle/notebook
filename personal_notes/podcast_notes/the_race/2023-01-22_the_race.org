@@ -1,0 +1,69 @@
+#+OPTIONS: toc:6
+#+TITLE: 2023-01-22 The Race: How Each Team Needs To Improve In 2023
+
+** Williams
+- James Vowles, the new Williams team principal, has a lot to do
+- Need to get everyone pulling in the same direction
+- Heal cultural and factional differences
+- Needs to fix the team's culture before making new investments
+
+** Alpha Tauri
+- Get the most out of the car
+- Make race performance match car performance
+- Question marks around driver line-up
+- Improve the operating window of the car, especially downforce in high-speed corners
+
+** Haas
+- Improve the car throughout the year
+- Maximize their performance at the beginning of the season when their performance deficit is less than other teams
+- Fewer crashes --- Nico Hulkenberg should help with this
+
+** Aston Martin
+- Need to ensure that the whole is as good as the sum of its parts
+- Justify the huge investment that Lawrence Stroll has put into the team
+- High profile recruitments have to prove their worth
+  - Talent from Mercedes and Red Bull
+  - Fernando Alonso
+- Ensure that the output of simulations translates better into real world performance
+- Needs to show a trend of improvement
+- A 6th place finish would be a good way of displaying this improvement
+- Improve Lance Stroll's on-track etiquette
+- Big test for Dan Fallows, their prime engineering recruit from Red Bull
+
+** Alfa Romeo
+- Needs to improve production capability to build more parts more quickly
+- Ramp-up in advance of Audi's incoming investment
+- Has a decent car, needs to access its potential more often
+- Improve simulation tools
+
+** McLaren
+- Produce a car that's worthy of Lando Norris
+- Norris can definitely deliver points if he has a good car underneath him
+- McLaren feels "stuck" --- this season was a step backwards compared to 2021
+- In danger of being overtaken by Aston and Alfa Romeo
+- Car has aerodynamic limitations that only Lando Norris can currently (barely) handle
+- Really ought to be a 4th place team, but might be destined for another 5th place finish
+
+** Alpine
+- Improve power-unit reliability
+- Continue pattern of improvement over the past two years
+- Mitigate friction between drivers --- Pierre Gasly and Esteban Ocon have a history with each other
+- Alpine could potentially be a front running team this year or next year, which is good, but they really should have been a front-running team two years ago
+
+** Mercedes
+- Build a "usable" race car
+  - Useful downforce at realistic ride-heights
+  - No porpoising
+- Fix the design and simulation tools so they're not leading Mercedes down blind alleys
+- This will be a big test for Mercedes to prove that it has successfully compensated for senior people leaving for Aston Martin, Williams, etc.
+
+** Ferrari
+- Power unit reliability
+- Better decision-making re: tires and race strategy
+- Convert qualifying performance into race performance
+- Improve efficiency --- bring down the cost of development so they can match Red Bull in in-season development
+- Ferrari has done the "hard part", i.e. building a competitive car, now they need to fix all the other stuff
+
+** Red Bull
+- Red Bull is basically perfect, they just need to keep doing what they're doing, and not make stupid accounting mistakes
+

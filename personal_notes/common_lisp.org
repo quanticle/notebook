@@ -1,0 +1,1849 @@
+#+title: Common Lisp
+#+OPTIONS: num:nil 
+#+OPTIONS: html-postamble:nil 
+#+OPTIONS: html-style:nil 
+#+OPTIONS: toc:2 
+#+OPTIONS: h:6
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../html_export_style.css" />
+#  LocalWords:  Cond cond
+
+* Environment Setup
+- Common Lisp implementation: =SBCL=
+- Editor: =emacs=
+- Editor Lisp Integration: =sly=
+- Package Manager: =quicklisp=
+
+** SBCL
+- Available in the Fedora repositories as =sbcl=
+- Can be installed with =sudo dnf install sbcl=
+
+** Emacs
+- Come on, quanticle, you already have emacs
+
+** SLY Lisp IDE
+- To install
+  #+begin_src elisp
+    (use-package sly
+      :ensure t)
+  #+end_src
+- =sly-mode= will automatically launch for every =.lisp= file
+- To bring up the REPL: =M-x sly=
+- To compile and load a file: =C-c C-k=
+
+** QuickLisp package manager
+- To install
+  - Download the =quicklisp.lisp= installer: https://beta.quicklisp.org/quicklisp.lisp
+  - Launch SBCL (either from the command line or in emacs with =M-x sly=)
+  - Run =(load "/home/quanticle/quicklisp.lisp")=
+  - Then run =(quicklisp-quickstart:install)= to configure SBCL to always load QuickLisp on startup
+
+* Using Common Lisp with Emacs
+- [[http://joaotavora.github.io/sly/#Top][Sly Manual]]
+- Run =M-x sly= to launch SLY
+- To quit SLY, hit =,= to bring up the command list and choose =quit lisp=
+
+** Loading and evaluating Lisp code
+- =C-c C-k= - compile and load the current file
+- =C-c C-c= - compile and load the top-level form at point
+- =C-c C-l= - load a lisp file
+- =C-x `= - go to next error
+- =C-x C-e= - evaluate the previous expression before the point
+- =C-M-x= - evaluate the current top-level form
+
+** Jump to definition
+- =M-.= - jump to definition
+- =M-,= - jump "back" to the point the where =M-.= was invoked
+
+** Cross-reference
+- =C-c C-w c= - show known function callers
+- =C-c C-w w= - show known function callees
+- =C-c C-w m= - show expansions of the macro at point
+
+** Abort/recovery
+- =C-c C-b= - send SIGINT to inferior Lisp
+- =M-x sly-restart-inferior-lisp= - restart the inferior Lisp
+
+** Jump to REPL
+- =C-c C-z=
+
+* Reference
+- [[http://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm][Common Lisp HyperSpec]]
+
+* Debugging
+- [[https://malisper.me/debugging-lisp-part-1-recompilation/][Debugging Common Lisp Part 1: Recompilation]]
+- [[https://malisper.me/debugging-lisp-part-2-inspecting/][Debugging Common Lisp Part 2: Inspecting]]
+- [[https://malisper.me/debugging-lisp-part-3-redefining-classes/][Debugging Common Lisp Part 3: Redefining Classes]]
+- [[https://malisper.me/debugging-lisp-part-4-restarts/][Debugging Common Lisp Part 4: Restarts]]
+- [[https://malisper.me/debugging-lisp-part-5-miscellaneous/][Debugging Common Lisp Part 5: Miscellaneous]]
+
+* Useful Libraries
+- HTML parsing and web crawling
+  - [[https://github.com/Shinmera/plump][Plump]]
+  - [[https://github.com/Shinmera/CLSS][CLSS]]
+- Sending HTTP requests: [[https://github.com/fukamachi/dexador][Dexador]]
+- Parsing JSON: [[https://cl-json.common-lisp.dev/cl-json.html][cl-json]]
+- Unit testing: [[https://common-lisp-libraries.readthedocs.io/fiveam/][fiveam]]
+
+* Practical Common Lisp
+
+** Chapter 1: Introduction: Why Lisp?
+- /This is just introduction and motivation, so I'm skipping this chapter/
+
+** Chapter 2: Lather, Rinse, Repeat: A Tour of the REPL
+- /Note: Much of this chapter is redundant with the Lisp setup notes from above/
+- Hello world example:
+- Save the following as =hello-world.lisp=
+  #+begin_src common-lisp
+    (defun greeting ()
+      (format t "Hello world"))
+  #+end_src
+- Start SLY (if it's not already running)
+- Hit =C-c C-k= to compile and load the file into the REPL
+- Run =(greeting)= at the REPL to print ="Hello world"=
+
+** Chapter 3: Practical: A Simple Database
+
+*** CDs and Records
+- Let's make a database to keep track of CDs
+- Each record in the DB will hold the title of the CD, the artist name, a rating, and a flag saying whether it has been ripped
+- How should we represent a DB record?
+- For now, we can use a property-list
+- A property list is a list where every other element is a symbol that describes what the next element is
+- /So, in other words, like a really ghetto hash table/
+- Most property lists use keywords as symbols
+- A keyword is any name that starts with a =:=
+- /Okay, so just like keywords in Clojure/
+- In order to create a plist (or any other kind of list), use =list=
+- In order to access values from a plist, use =getf=
+- Given these functions, we can easily make a function that takes in values and returns a record
+  #+begin_src common-lisp
+    (defun make-cd (title artist rating ripped)
+      (list :title title :artist artist :rating rating :ripped ripped))
+  #+end_src
+- =defun= indicates that we're creating a new function
+
+*** Filing CDs
+- To hold our CD records, we need a database
+- For simplicity's sake, we can use a global variable for this
+  #+begin_src common-lisp
+    (defvar *db* nil)
+  #+end_src
+  - By convention global variables are surrounded with asterisks
+- Then we can define a function to add CDs to our database
+  #+begin_src common-lisp
+    (defun add-cd (cd)
+      (push cd db))
+  #+end_src
+- Then we can add CDs to our database as follows
+  #+begin_src common-lisp
+    (add-cd (make-cd "The Marshall Mathers LP" "Eminem" 4 t))
+  #+end_src
+
+*** Looking at the database contents
+- Typing =*db*= at the REPL will display the contents of the database
+- However, this isn't a very satisfying way of viewing the database
+- We can use =format= to produce a more human readable view
+  #+begin_src common-lisp
+    (defun dump-db ()
+      (dolist (cd *db*)
+        (format t "~{~a:~10t~a~%~}~%" cd)))
+  #+end_src
+  - =dump-db= uses the =dolist= macro to bind each element of =*db*= to a local variable called =cd=
+  - Then use =format= to print the record
+  - =format= is much like =printf= in C-derived languages
+  - Takes an output stream, a string containing formatting instructions, and a variable to print
+    - =t= is shorthand for =stdout=
+    - ="~​{~​a:~10t~a~}~%"= is the formatting instructions
+      - All formatting instructions begin with a =~=, just like how in C all =printf= directives begin with =%=
+      - =~​{ ~​}= indicate that the variable is a list and the enclosed formatting directives should consume elements from the list
+      - =~​a= indicates that the value should be pretty printed
+      - =~​10t= indicates that a tab-stop should be set at the 10th column → add spaces until you get to 10th column
+      - =~​%= indicates that a newline should be printed
+      - To sum up, this format instruction consumes two values at a time (a key/value pair) from the record, pretty prints the key, then pretty prints the values aligned on the 10th column
+      - Key/value pairs are newline separated, with an additional newline separating records
+    - =cd= is the variable representing the individual database row that we're printing
+
+*** Improving the user interaction
+- While we can now add CDs to the database from the Lisp REPL, it would be nice to have a way to do so without having to write Lisp code
+- To do that, we can write a function that prompts the user for data fields and adds the completed record to the DB
+  - First write a function that reads a string from the command line
+    #+begin_src common-lisp
+      (defun prompt-read (prompt)
+        (format *query-io* "~a: " prompt)
+        (force-output *query-io*)
+        (read-line *query-io*))
+    #+end_src
+  - Then write a function that uses =prompt-read= to prompt the user for details for their CDs
+    #+begin_src common-lisp
+      (defun prompt-for-cd ()
+        (make-cd
+         (prompt-read "Title")
+         (prompt-read "Artist")
+         (or (parse-integer (prompt-read "Rating")) 0)
+         (y-or-n-p "Ripped [y/n]")))
+    #+end_src
+    - For some reason, this does the prompt read "correctly" for the title, but then puts the cursor on a newline for the remaining fields
+    - Should =prompt-read= have a newline?
+    - Adding =~%= to the prompt output caused the Lisp interpreter to add two newlines on subsequent calls
+    - [[https://stackoverflow.com/questions/25656148/common-lisp-calling-read-line-after-format-produces-an-additional-newline-in-clo][Looks like this is an artifact of the REPL]], or, more specifically, the way SLY implements a Lisp REPL
+  - Then, to allow the user to input many CDs, we can put =prompt-for-cd= in a =loop=
+    #+begin_src common-lisp
+      (defun add-cds ()
+        (loop (add-cd (prompt-for-cd))
+              (if (not (y-or-n-p "Add another?"))
+                  (return))))
+    #+end_src
+
+*** Saving and Loading the Database
+- A database that can't write data to persistent storage isn't much of a database
+- Fortunately it's pretty easy to write Lisp data structures to disk
+  #+begin_src common-lisp
+    (defun save-db (filename)
+      (with-open-file (out filename
+                       :direction :output
+                       :if-exists :supersede)
+        (with-standard-io-syntax (print *db* out))))
+  #+end_src
+- The function to load the database is similar to the one used to save
+  #+begin_src common-lisp
+    (defun load-db (filename)
+      (with-open-file (in filename)
+        (with-standard-io-syntax (setf *db* (read in)))))
+  #+end_src
+- Note that when we load the DB, we don't have to set the =:direction= option, because the default direction is read
+- Also, note that both =save-db= and =load-db= require full paths
+
+*** Querying the database
+- To filter the database, we can use the =remove-if-not= function
+- =remove-if-not= takes a predicate and a list and returns a copy of the list filtered to only those elements for which the predicate returns =true=
+- The predicate function can return =NIL= for =false= and anything else for =true=
+- We chose the =plist= representation for CDs specifically so that we could use =getf= to pull values from the plist
+- Thus, we can write a function that selects by artist as follows
+  #+begin_src common-lisp
+    (defun select-by-artist (artist)
+      (remove-if-not #'(lambda (cd) (equal (getf cd :artist) artist)) *db*))
+  #+end_src
+  - /Note that this book quotes the lambda with =#'=/
+  - /See Chapter 5 for further explanation/
+- However, this can only query by artist
+- It would be nice if we had a function that could query by any field
+  #+begin_src common-lisp
+    (defun select (selector-fn)
+      (remove-if-not selector-fn *db*))
+  #+end_src
+  - Note that here we /don't/ need to use =#'=, as we're expecting to take in a closure, rather than make one ourselves
+  - Instead, the =#'= is in the call to =select=
+    #+begin_src common-lisp
+      (select #'(lambda (cd) (equal (getf cd :artist) artist)))
+    #+end_src
+- Having a generic =select= is nice, but having to manually create a lambda when we call it is not
+- Putting the lambda creation into a function of its own is much nicer
+  #+begin_src common-lisp
+    (defun artist-selector (artist)
+      #'(lambda (cd) (equal (getf cd :artist) artist)))
+  #+end_src
+- Thus we can query the database as follows
+  #+begin_src common-lisp
+    (select (artist-selector "Kanye West"))
+  #+end_src
+- We can further generalize the selector code by using keyword parameters to allow the caller to specify which field(s) they want to select on
+  #+begin_src common-lisp
+    (defun where (&key title artist rating (ripped nil ripped-p))
+      #'(lambda (cd) 
+          (and
+           (if title (equal (getf cd :title) title) t)
+           (if artist (equal (getf cd :artist) artist) t)
+           (if rating (equal (getf cd :rating) rating) t)
+           (if ripped-p (equal  (getf cd :ripped) ripped) t))))
+  #+end_src
+  - =where= takes in /keyword parameters/
+  - Keyword parameters expect the caller to pass in arguments as a list of keyword/value pairs
+  - So for example, to get a selector for title and artist: =(where :artist "Kanye West" :title "The Life of Pablo")=
+  - Each keyword parameter may be a single element, representing the keyword, or it may be a 3-element list
+  - If it is a list, the first element is the keyword, the second element is the default value, and the third element is the name of a variable that indicates whether the keyword was actually provided by the caller
+    - This allows you to distinguish whether the keyword value is what it is because it's the default, or whether the user provided the value
+    - This is especially handy when the default element is =nil=, because a non-provided keyword, by default, is also nil
+    - Allows us to distinguish between a user explicitly setting =ripped= to nil (i.e. indicating that they want CDs that haven't been ripped) and a user not passing a value for =ripped= (i.e. indicating that they don't care what the value is)
+- Creating a generalized =where= function like this allows us to write
+  #+begin_src common-lisp
+    (select (where :artist "Kanye West"))
+  #+end_src
+
+*** Updating Existing Records --- Another Use For =WHERE=
+- In SQL, =update= updates records that match a =where= clause
+- We already have a where clause generator
+- This makes writing =update= simpler
+  #+begin_src common-lisp
+    (defun update (selector-fn &key title artist rating (ripped nil ripped-p))
+      (setf *db*
+            (mapcar #'(lambda (row)
+                        (when (funcall selector-fn row)
+                          (if title (setf (getf row :title) title))
+                          (if artist (setf (getf row :artist) artist))
+                          (if rating (setf (getf row :rating)) rating)
+                          (if ripped-p (setf (getf row :ripped) ripped)))
+                        row)
+                    ,*db*)))
+  #+end_src
+  - =mapcar= is a function that maps over a list and returns a new list that contains the result of that mapping
+  - Note the =(setf (getf row <keyword>) <new value>)= form
+  - The effect of this is to set the value of the given keyword in the plist to the new value
+  - =setf= is a generalized assignment that can be used to assign many things other than just variables
+- Our generalized =where= also makes it easy to write a function to delete rows
+  #+begin_src common-lisp
+    (defun delete-rows (selector-fn)
+      (setf *db* (remove-if selector-fn db)))
+  #+end_src
+  - =remove-if= applies the =selector-fn= to each row of the DB and returns a copy of the DB containing only the rows that don't match the selector
+
+*** Removing Duplication and Winning Big
+- There's still some duplication, inside =where=
+- The body of =where= has a bunch of clauses of the following format =(if <field> (equal (getf cd :<field>) <field>) t)=
+- Needs to support all the fields in the DB
+- This is annoying because if we want to add fields to our database we'll need to update =where=
+- In our example, this is pretty trivial, but it could be annoying to do on a large codebase
+- To make a more general solution, we can use Lisp's macro system
+  - Lisp's macro system is a compile-time code-generation system that allows you to define your own language constructs
+  - Trivial example
+    #+begin_src common-lisp
+      (defmacro backwards (expr) (reverse expr))
+    #+end_src
+  - This allows us to write code such as =(backwards ("hello, world" t format))=, which outputs ="hello, world"=
+  - =backwards= is run at compile time
+  - Takes its contents, flips them around (with =reverse=) and outputs them, /as code/
+  - This reversed code is then evaluated as normal
+- How can we use macros to write a better =where=?
+  - First we define a function that returns comparison expressions
+    #+begin_src common-lisp
+      (defun make-comparison-expr (field value)
+        `(equal (getf cd ,field) ,value))
+    #+end_src
+    - This uses =`= ([[http://clhs.lisp.se/Body/02_df.htm][=backquote=]]) to create a template
+    - Things within the template that are prepended with =,= are evaluated
+    - So for example, =(make-comparison-expr :artist "Kanye West")= will return =(equal (getf cd :artist) "Kanye West")=
+  - Then define a function that takes a list of clauses and calls =make-comparison-function= on each one to create a list of comparison expressions
+    #+begin_src common-lisp
+      (defun make-comparisons-list (fields)
+        (loop while fields
+              collecting (make-comparison-expr (pop fields) (pop fields))))
+    #+end_src
+    - This uses the powerful =loop= macro to iterate over fields, gathering values pairwise, and calling =make-comparison-expr= on them
+  - Then, we can rewrite =where= as a macro
+    #+begin_src common-lisp
+      (defmacro where (&rest clauses)
+        `#'(lambda (cd) (and ,@(make-comparisons-list clauses))))
+    #+end_src
+    - =,@= is /quote-splicing/, where we take the output of the next expression and splice the result into list directly rather than adding the result as a list
+- This revised version of =where= is both shorter and more efficient (because it doesn't make as many comparison) than the original version
+
+** Chapter 4: Syntax and Semantics
+
+*** What's with All the Parentheses?
+- The one major difference that Lisp syntax has from ALGOL-derived languages is its prefix notation and liberal use of parentheses
+- While strange-looking, this syntax has several advantages over the more conventional syntax of ALGOL derivatives
+
+*** Breaking Open the Black Box
+- In most programming languages, the thing that takes your source code and turns it into executable machine code (whether that's an interpreter or a compiler), is a black box
+- You shove your code into it and it either runs or produces an error
+- Inside this black box are usually several components
+  - Lexical analyzer --- takes the text of the source code and turns it into a series of tokens
+  - Parser --- takes tokens and builds up an /abstract syntax tree/, representing the structure of the program
+  - Evaluator --- takes abstract syntax tree and either runs it directly (interpreter) or outputs machine code that can be run later (compiler)
+- Lisp, on the other hand, splits that black box into two components
+  - Reader
+    - Translates text into Lisp objects
+    - Defines how strings of characters can be turned into /s-expressions/
+    - An s-expression is the object that results from reading a string such as =(greeting "Hello world")=
+    - Because s-expressions can be nested, Lisp syntax itself is akin to an abstract syntax tree
+  - Evaluator
+    - Takes s-expressions produced by reader and turns them into Lisp /forms/, which are then evaluated to produce program behavior
+    - Not all valid s-expressions are valid Lisp forms
+    - For example: =("foo" a b)= is a valid s-expression, but is meaningless as a Lisp form because a string cannot be invoked as a function
+- This split has some nice consequences
+  - Can use s-expressions as an externalizable data format
+  - Makes generating code using existing code /much/ easier
+  - S-expressions make Lisp's powerful macro system possible
+
+*** S-expressions
+- S-expressions are composed of lists and atoms
+- A list is a whitespace-delimited list of atoms, surrounded by parentheses
+- Everything else is an atom
+- The elements of lists are themselves s-expressions (i.e. lists or atoms)
+- The most commonly used atoms are numbers, strings and names
+- Numbers
+  - Any sequence of digits
+  - May be prefixed with =+= or =-=
+  - May contain =/=, in order to indicate ratios
+  - May contain =.= in order to indicate decimals
+- Strings
+  - Enclosed in ="=
+  - May contain backslash escape sequences
+  - The only two characters that must be escaped are ="= and =\=
+  - Everything else may be contained in a string without escaping
+  - /Notably, this means that Lisp strings may span lines, as the newline character does not need to be represented as an escape sequence/
+- If it's not a number, and it's not a double-quoted string, it's a /name/
+  - Names in Lisp are represented as symbols
+  - Not allowed to contain whitespace (as whitespace separates list elements)
+  - Can contain numbers, as long as the entire name cannot be interpreted as a number
+  - Other disallowed characters: =(=​, =)=, ="=​, ='=​, =`=, =,=​, =;=
+  - These disallowed characters can be included in names (by escaping them with =\=, or by surrounding the part of the name that includes those characters with =| |=) (/but you shouldn't/)
+- Lisp naming conventions
+  - Words are separated with =-=
+  - Global variables are surrounded with =*=
+  - Constants are prefixed with =+=
+
+*** S-expressions as Lisp Forms
+- Syntactically valid Lisp forms are
+  - Atoms
+  - Any list that has a symbol as its first element
+- The Lisp evaluator can be thought of as a function that takes in a syntactically valid Lisp form, evaluates it, and returns its value
+- Symbols are treated as names of variables by the evaluator --- evaluator looks for a variable with the given name, and returns its value
+- All other atoms are /self-evaluating/ --- the evaluated value of the atom is the atom itself
+  - Numbers evaluate to their numerical values
+  - Strings evaluate to their string values
+  - Keyword symbols (i.e. names starting with =:=) are treated as variables whose name is the symbol without the ~:~, and whose value is the symbol itself
+- All legal list forms are evaluated based on the what the first element of the list is
+  - Function
+  - Macro
+  - Special form
+
+*** Function calls
+- If the first element of the list is a function, the evaluator evaluates the remainder of the elements as Lisp forms, and uses the resulting values as function arguments when evaluating the function
+- This means that arguments to a Lisp function call must themselves be valid Lisp forms
+- This allows Lisp to use functions to accomplish tasks that would require operators in other languages
+- /Example: =(+ (* 3 4) (* 2 3))= → =(+ 12 6)= → =18=/
+  - /Here =+= is just a function that returns the sum of its operands and =*= is a function that returns the product of its operands/
+  - /The inside-out evaluation of Lisp forms automatically resolves order-of-operations issues/
+
+*** Special Operators
+- Not everything can be accomplished using a function
+- Because all the arguments to a function are evaluated prior to the function itself, there is no way to do something like =if= with a normal function
+  - If it were a normal function, it would evaluate both branches, and then choose a value to return
+  - However, the behavior we want is for =if= to evaluate the test first, and then /choose/ a branch to evaluate
+- Common Lisp defines 25 special operators, but only a handful are used in day-to-day programming
+- When the first element in a list is a special operator, the remaining arguments are evaluated according to the rules for that operator
+- Example: =if=
+  - =(if test-form then-form [else-form])=
+  - Evaluates =test-form= first
+  - If =test-form= returns a value that evaluates to =true=, =then-form= will be evaluated
+  - Otherwise =else-form= will be evaluated, if it is present (if not, =if= will return =nil=)
+- Another special form is =quote=, which simply takes in a form and returns it unevaluated, as a list
+- In general anything that requires "special processing" by the evaluator will be a special operator
+
+*** Macros
+- Macros give users a way to extend Lisp's syntax
+- A macro is a function that takes in s-expressions and returns a Lisp form that can be run by the evaluator
+- Macro evaluation proceeds in two phases
+  - Elements of the macro form are passed, unevaluated, to the macro function
+  - The Lisp form returned by the macro (referred to as the macro's /expansion/) is evaluated according to the normal Lisp evaluation rules
+- It's important to keep this two-phase process in mind
+  - At the REPL, macro-expansion and evaluation happen one after another, making it seem like a macro is just a different kind of function
+  - However, when Lisp files are compiled for later execution, the evaluator recursively expands all macros until the compiled file consists of nothing but function calls and special forms
+  - Because macros run at compile-time, they can do work that speeds up the execution of the running program, at the cost of slowing down the compilation
+- Because the s-expressions passed to a macro aren't evaluated, they don't need to be valid Lisp forms
+- For example, the =backwards= macro from Chapter 3 took in s-expressions that were the reverse of valid Lisp forms
+- If these s-expressions had been passed directly to the evaluator, it would have returned an error
+- However, they were passed unevaluated to the macro, which read them and returned valid Lisp forms
+
+*** Truth, Falsehood and Equality
+- =nil= is the only false value
+- Everything else is true
+- =nil= is the same as the empty list ='()=
+- Lisp has several equality operators which range from strict to loose definitions of equality
+  - =eq= → object equality
+    - Returns true if the two operands are literally the same object in memory
+    - Never use =eq= to compare numbers or strings, as the result of =eq= for those is implementation dependent
+  - =eql=
+    - =(eql 1 1)= is guaranteed to return true
+    - =(eql 1 1.0)= is guaranteed to return =nil=, as =1= and =1.0= are not the same type, even though they represent the same number
+    - Otherwise it uses object identity
+  - =equal=
+    - Considers lists to be equal if they contain the same number of members and their members are all recursively =equal=
+    - Considers strings to be the same if they're the same length and contain the same characters in the same order
+    - Uses =eql= to compare other values
+  - =equalp= - Like =equal= but uses case insensitive comparison when comparing strings
+
+*** Formatting Lisp Code
+- /Just use SLY and paredit automatically format the code/
+
+** Chapter 5: Functions
+- Functions are the true fundamental unit of Lisp code
+  - Types are defined entirely by which functions operate on them
+  - Macros run at compile time to generate function calls
+- Any symbol can be used in a function name
+  - Usually function names are alphabetic characters, with words separated by hyphens =like-so=
+  - However, other characters can be used in certain naming conventions
+  - Ex: Conversion functions are often named in a =x->y= form
+- A function's parameter list defines the values that will be passed to the function
+- If a function takes no values, its parameter list is the empty list =()=
+- If a string literal follows the parameter list, it's considered to be a documentation string
+- Documentation strings can be accessed with the =documentation= function
+
+*** Function Parameter Lists
+- If a parameter list consists of a simple list of names, all parameters are mandatory, and will be bound to the names in the order they are provided
+
+*** Optional Parameters
+- To designate optional parameters place the symbol =&optional= after the required parameters and put the optional parameters after that
+  #+begin_src common-lisp
+    (defun foo (a b &optional c d)
+      (list a b c d))
+  #+end_src
+- If optional parameters are not specified by the caller, they're bound to =nil=
+- The number of parameters is still checked --- Lisp will signal an error if the function is called with fewer than two parameters or more than four parameters
+- If you want a different default value than nil, you can specify that by replacing the parameter name with a list that contains the parameter name and the default value: =(defun foo (a &optional (b 10)))=
+- Here, if the caller doesn't specify a value for =b=, it's set to 10
+- Default values for optional parameters can also refer to the values of required parameters: =(defun make-rectangle (width &optional (height width)))=
+- Here, if the caller doesn't specify a value for height, it's set to the same as width (i.e. making a square)
+- If you want to check whether the value was supplied by the caller or is the default value, you can add another variable to the list, which indicates whether the value was supplied: =(defun make-rectangle (width &optional (height width height-supplied-p)))=
+- By convention, these variables are the name of the optional parameter, suffixed with =supplied-p=
+
+*** Rest Parameters
+- What if we don't know how many parameters our function will require?
+- Example: =format=
+- The number of parameters required is determined by the number of template values in the control string, which the function can't know ahead of time
+- Can specify a "catchall" parameter after required and optional parameters that grabs the remaining parameters provided by the caller
+- Lisp puts those remaining parameters into a list bound to the name of the rest parameter
+- Ex: =(defun format (control-string &rest format-args))=
+- =format-args= is a list that contains the values of the arguments to the control string
+
+*** Keyword Parameters
+- Required parameters, optional parameters and rest parameters are all /positional/
+- Bind names to parameter values based on the order those parameter values are passed in
+- But what if we want to allow a caller to pass in parameter values in any order, potentially leaving some or all out?
+- Keyword parameters allow this use case
+- To give a function keyword parameters, use the symbol =&key= after any optional and rest parameters
+- Then supply a set of names
+- The caller can bind values to those names by using the keyword forms of those names
+- Keywords, from chapter 3, are any names that start with =:=
+- Ex: =(defun foo (&key a b c))=
+  - Can be called as =(foo :a 1 :b 2 :c 3)=
+  - Any unspecified keywords are assigned to =nil=, just like with optional parameters
+  - Can also specify your own default value and =supplied-p= variable, just like with optional parameters
+
+*** Mixing Different Parameter Types
+- It's possible to use all four types of parameter (required, optional, rest and keyword) in a single function declaration
+- Parameter types have to be declared in that order
+  - Required parameters come first
+  - Then =&optional=
+  - Then =&rest=
+  - Then =&keyword=
+- However, the results can be surprising and a bit counterintuitive
+- Optional parameters can "swallow" keyword parameters
+  - Ex: =(defun foo (a &optional b c &keyword d))=
+  - Calling this function as =(foo 1 :d 10)= will result in a nil value for =d=
+  - This is because the keyword =:d= and =10= were assigned to =b= and =c= respectively, as optional parameter values
+  - In general, if you find yourself using both optional and keyword parameters, switch the function's declaration to use keyword parameters only
+  - However, there are some standard library functions that use both optional and keyword parameters, most notably =read-from-string=, so watch out for those
+- Rest parameters will also contain keyword parameters, but won't interfere with keyword parameter bindings
+  - Ex: =(defun foo (a &rest l &keyword b c d))=
+  - Calling =(foo 10 :b 15 :c 20 :d 30)= will result =l= being bound to =(:b 15 :c 20 :d 30)=
+  - =b=, =c=, and =d= will all be bound as well
+  - When parsing the rest parameter list, keep in mind that it will contain both the keywords and values for keyword parameters
+
+*** Function Return Values
+- The default behavior of a function is to return the last evaluated value
+- However, this can be overridden with the =return-from= special operator
+- Ex:
+  #+begin_src common-lisp
+    (defun foo (n)
+      (dotimes (i 10)
+        (dotimes (j 10)
+          (when (> (* i j) n)
+            (return-from foo (list i j))))))
+  #+end_src
+- Here, we're using =return-from= to break out of the loop early and return the =i= and =j= value whose product exceeded =n=
+- =return-from= requires you to specify the function that you're returning from
+- Should be used sparingly
+
+*** Functions As Data (Higher Order Functions)
+- In Lisp, a function is a piece of data that can be passed to other functions
+- The special operator =function= can get the function value for a given name
+- A short-form for =function= is =#'=
+- Once you have the function value pointed to by a function name, you can invoke the function
+- Two ways to invoke
+  - =funcall=
+    - =(funcall #'function-name arg1 arg2 arg3 ...)=
+    - =(funcall #'foo 1 2 3)= → =(foo 1 2 3)=
+  - =apply=
+    - =(apply #'function-name '(arg1 arg2 arg3))=
+    - =(apply #'foo '(1 2 3))= → =(foo 1 2 3)=
+- Note that when you pass a quoted function to a function, you don't want to quote it again inside that function
+- Ex:
+  #+begin_src common-lisp
+    (defun invoker (input-fn &rest args)
+      (apply input-fn args))
+  #+end_src
+  - Note that we didn't quote =input-fn= inside =invoker=
+  - This is because we want =input-fn= to be evaluated to yield the function value
+  - Instead, we quote the function when we pass it to =invoker=: =(invoker #'foo 1 2 3)=
+
+*** Anonymous functions
+- Sometimes it's annoying to have to name a function, especially if it'll be only be used as input to a higher order function and nowhere else
+- Lisp allows you to define anonymous functions --- functions that have an implementation, but no name
+- Define anonymous functions with =lambda=
+- A =lambda= is like a function whose name is also the function body
+- This is why you can quote =lambda= functions with =#'=
+- This book always quotes =lambda= functions when they're being used as value parameters, even though it isn't strictly necessary
+
+** Chapter 6: Variables
+
+*** Variable Basics
+- Lisp's variables work in much the same way that variables do in other languages
+- Are a named location that holds a value
+- Are strongly, dynamically typed
+  - Strongly typed, in that if you attempt to use a function with a variable type that is unsupported, an error will be raised
+  - Dynamically typed in that you don't need to specify the type of a variable beforehand and type errors are raised at runtime rather than compile-time
+- All variables in Lisp can be modeled as references to objects
+- Changing the value of a variable updates which object that variable refers to, but doesn't change the underlying object itself
+- Calling a function that mutates an object will update the value of that object in all the code that has access to that object
+- One way to introduce new variables is to define function parameters
+  - Each time a function is called, Lisp creates new /bindings/ between the variables and the values that the function is called with
+  - A binding is the runtime manifestation of a variable
+  - A single variable may have many different bindings over the life of a program
+  - As with all variables, function parameters are references to objects
+  - Changing the value of a parameter will only change the value of that variable within the function
+  - However, calling a function that mutates a value will update the value for both the caller and the function itself
+- Another way of introducing new variables is with =let=
+  #+begin_example
+    (let (variable*)
+      body-form*)
+  #+end_example
+  - Each of the =variable*= is a variable initialization form
+  - Can be just a name, if the variable to be initialized to nil
+  - Can be a list containing the variable name and the expression whose value will be the initial value of the variable
+  - Example:
+    #+begin_src common-lisp
+      (let ((x 10) ; initialize x to 10
+            (y 20) ; initialize y to 20
+            z) ; initialize z to nil
+        ) ; Body - do something with x, y, z
+    #+end_src
+  - When =let= is executed, all the initial value forms are executed, then variables are bound, then the body forms are evaluated
+  - The bindings defined by a =let= are valid only within the body of the =let=, just like the scope of a function parameter is the body of the function
+- Functions and =let= are both known as /binding forms/, because they can introduce new variable bindings
+- If you have nested binding forms that create variables with the same name, the variables in the inner binding form will /shadow/ the variables in the outer binding form
+  - Ex:
+    #+begin_src common-lisp
+      (defun foo (x)
+        (format t "x: ~a~%" x) ;x is bound to the function parameter
+        (let ((x 2))
+          (format t "x: ~a~%" x) ;x is bound to 2
+          (let ((x 3))
+            (format t "x: ~a~%" x)) ;x is bound to 3
+          (format t "x: ~a~%" x)) ;x is bound to 2 again, because we're outside the scope of the inner let
+        (format t "x: ~a~%" x)) ;x is bound to the function parameter, because we're outside the scope of the outer let
+    #+end_src
+- A variant of =let= is =let*=
+- In =let=, variables defined by the let can only be referred to in the body of the form
+- In =let*=, variables defined by earlier initialization forms can be referred to by later initialization forms
+  #+begin_src common-lisp
+    (let* ((x 10)
+           (y (+ x 2)))
+      (format t "Sum: ~a~%" (+ x y)))
+  #+end_src
+  - Note how =y= refers to the value of =x=
+  - This would be illegal as a =let= form
+
+*** Lexical Variables and Closures
+- By default, variables in Lisp are lexically scoped
+- Lexically scoped variables are akin to variables in ALGOL type languages
+- However, Lisp has a slight twist, relating to how variables are referred to in anonymous functions
+  #+begin_src common-lisp
+    (let ((count 0))
+      #'(lambda ()
+          (setf count (1+ count))))
+  #+end_src
+  - In the above example, the =let= form returns an anonymous function
+  - The anonymous function refers to a variable that's not within the function itself, but rather is in the enclosing =let=
+  - This works as it should because the anonymous function "closes over" the lexically scoped variables in enclosing forms, making sure that they remain accessible as long as this function remains in scope
+  - Closures capture variable bindings, not variable values
+  - Thus, if multiple closures capture the same variable, updating the variable in any of the closures updates the variable for all closures
+
+*** Dynamic a.k.a Special, Variables
+- Lexically scoped variables help keep code understandable by limiting where they're accessible
+- However, sometimes you want a /global/ variable --- a variable that can be accessed from anywhere
+- Common Lisp provides two ways of creating global variables: =defvar= and =defparameter=
+- Both forms take a variable name, initial value, and optional documentation string
+- By convention, global variables are named with asterisks, like so: =*foo*=
+- The difference between =defvar= and =defparameter= is that =defparameter= will always bind the variable to the initial value provided, whereas =defvar= will only bind it if the value is unbound
+- Use =defvar= to define variables whose value you don't want erased if you change the code that accesses the variable
+- The advantage of global variables is because they're accessible from anywhere, you don't need to pass them into functions explicitly
+- For this reason, lots of languages and frameworks, including Lisp, define input and output streams as global variables
+- This makes it tempting to redefine global variables in order to change program behavior on the fly --- ex: redefine =*standard-input*= to point to a file
+- However, if you forget to set the global variable back to what it was before when you're done using the altered behavior, you can introduce hard-to-diagnose bugs
+- What would be ideal is code that sets the global variable to a temporary value, and then resets it back to the original value when we're done with it
+- =let= does exactly this
+- Can use =let= to rebind global variables temporarily
+- When a dynamic variable has been rebound by =let=, all code that runs sees the new value of the dynamic variable, not just the code that was defined inside the =let=
+- Conceptually, dynamic variables have a stack of bindings
+- =let= pushes a new binding onto the stack and pops it off when it goes out of scope
+- When Lisp creates a global variable with =defvar= or =defparameter=, it marks that name as "special", which is how =let= knows that it should rebind the variable rather than merely create a shadow
+- This is why it's so important to follow the naming convention for dynamic variables --- know instantly whether you're creating a binding that's local to the =let= or altering a global binding
+- While =let= bindings make global variables somewhat more manageable in Lisp than they are in other languages, it's still important to realize that these variables allow for action at a distance
+
+*** Constants
+- You can define constants with =defconstant=
+- Creates a name which can't be used as a parameter name or be rebound with any other binding form
+- By convention, constants are surrounded by =+=: =+speed-of-light+=
+
+*** Assignment
+- Once you have a variable, you can really only do two things with it
+  - Get the current value
+  - Bind the variable to a new value
+- To get the current value, evaluate the binding
+- To set a new value, use the =setf= macro
+- Because =setf= is a macro, it can examine the thing that is being assigned to and take the appropriate action
+- Assigning a new value to a binding has no effect on other bindings that point to the same value
+- Example
+  #+begin_src common-lisp
+    (let ((x 10)
+          (modifier (lambda (foo)
+                      (setf foo 20)
+                      (format t "~a~%" foo))))
+      (funcall modifier x)
+      (format t "~a~%" x))
+  #+end_src
+  - If we run this code, we see that it will print =20=, then =10=
+  - What happens is that we rebind =foo= to a different value inside the function, without affecting the binding of =x= outside the function
+
+*** Generalized Assignment
+- In general =setf= behaves much like the assignment operator (~=~) in C or C++
+- Can use =setf= on variables, array indices, hash table entries, etc
+
+*** Other ways to modify places
+- In addition to =setf=, Common Lisp defines a number of convenience macros for common modification operations
+- =incf= and =decf= increment and decrement values
+- =rotatef= "rotates" values among variables
+  - When applied two variables, it merely swaps:
+    #+begin_src common-lisp
+      (let ((x 10)
+            (y 15))
+        (rotatef x y)
+        (format t "x: ~a~%" x)
+        (format t "y: ~a~%" y))
+    #+end_src
+    yields
+    #+begin_example
+      x: 15
+      y: 10
+    #+end_example
+  - When applied to more variables, however, it "rotates"
+    - Takes the value from the rightmost variable and binds it to the variable that's one to the left
+    - Repeats until it reaches the leftmost variable
+    - Takes the value from the leftmost variable and binds it to the rightmost variable
+  - Example:
+    #+begin_src common-lisp
+      (let ((x 10)
+            (y 15)
+            (z 20))
+        (rotatef x y z)
+        (format t "x: ~a~%" x)
+        (format t "y: ~a~%" y)
+        (format t "z: ~a~%" z))
+    #+end_src
+    yields
+    #+begin_example
+      x: 15
+      y: 20
+      z: 10
+    #+end_example
+- =shiftf= is similar to =rotatef=, except it returns the value of the left-most variable instead of binding it to the right-most variable
+- When possible use convenience macros instead of =setf= directly, because the convienience macros have code to handle side-effects and detect edge cases
+
+** Chapter 7: Macros: Standard Control Constructs
+- While other languages allow you to extend the language by writing new functions or classes, Lisp allows you to extend the syntax of the language
+- Lisp's reader + evaluator structure allows you to write functions that control how s-expressions are turned into executable code
+- These functions are known as /macros/
+
+*** When and Unless
+- The core conditional construct in Lisp is =if=
+  #+begin_src common-lisp
+    (if (check)
+        (then-form)
+      (else-form))
+  #+end_src
+- However, the limitation with =if= is that you're restricted to a single form each for =then= and =else=
+- There is a form in Lisp called =progn=, which groups a number of forms as if they were a single form
+  #+begin_src common-lisp
+    (progn
+      (form1)
+      (form2)
+      (form3)
+      ...)
+  #+end_src
+- The return value of =progn= is the return value of the last form
+- Thus, we can execute multiple forms when the check form of =if= is true:
+  #+begin_src common-lisp
+    (if (check)
+        (progn (form1)
+               (form2)
+               ...))
+  #+end_src
+- However, given that this pattern recurs all the time, it would be nice to have some cleaner syntax for it
+- Lisp's macro system allows us to define that syntax
+  #+begin_src common-lisp
+    (defmacro when (condition &rest body)
+      `(if ,condition
+           (progn ,@body)))
+  #+end_src
+- This uses the backquote special form and the comma and splice operators to take a condition and a number of forms, and evaluate those forms inside a =progn= if the condition is true
+- Another nice-to-have macro is =unless=:
+  #+begin_src common-lisp
+    (defmacro unless (condition &rest body)
+      `(if (not ,condition)
+           (progn ,@body)))
+  #+end_src
+- =unless= is the counterpart to when, evaluating any number of forms when a condition is false
+- =when= and =unless= seem like pretty trivial macros and that's the point
+- When macros are this easy to define, you can define them for even trivial operations and make your code just that much cleaner
+
+*** Cond
+- Another way that =if= can get ugly is if you have multiple conditions, with multiple forms to be evaluated if a given condition is true
+- This can, of course, be done with just =if=:
+  #+begin_src common-lisp
+    (if (condition-1)
+        (progn (condition-1-forms))
+      (if (condition-2)
+          (progn (condition-2-forms))
+        (if (condition-3)
+            (progn condition-3-forms)
+          (...))))
+  #+end_src
+- However, even with just 3 conditions, we can see that this gets deeply nested and hard to read
+- Fortunately, Lisp has a macro in its standard library, =cond=, which makes this much cleaner:
+  #+begin_src common-lisp
+    (cond
+     (condition-1 forms*)
+     (condition-2 forms*)
+     (condition-3 forms*))
+  #+end_src
+- The return value of =cond= is the return value of the branch that was taken or =nil= if no branches were taken
+- By convention, the "default" branch is marked with =t=, though technically any non-nil value can be used
+
+*** And, Or, Not
+- =not= is a function - evaluates its argument and returns =t= if the argument is =nil= or =nil= otherwise
+- =and= and =or= are both macros because they need to short-circuit
+- As described in chapter 4, Lisp's evaluation system evaluates all of the argument-forms to a function call, and then calls the function on the evaluated results of those argument-forms
+- But for these Boolean operators, we want to only evaluate forms up until one returns =nil= (in the case of =and=) or one returns non-nil (in the case of =or=)
+- Thus =and= and =or= have to be macros, because macros receive unevaluated forms, and can choose which forms to evaluate
+
+*** Looping
+- As it turns out, none of Lisp's special forms provide a looping construct
+- Instead, Lisp has two special forms =tagbody= and =go=, which can be combined to create a sort of =goto=
+- On top of these two very primitive special forms are a layered set of macros, which give Lisp a set of looping structures that are more powerful than many other languages
+- The first of these macros is =do=, which is a general purpose and powerful looping macro
+- Specialized versions of =do= for common situations are =dolist= and =dotimes=
+- Finally, there's =loop=, a macro that exposes an entire mini-language that allows you to write loops in a more ALGOL-like manner
+
+*** =dolist= and =dotimes=
+- =dolist=:
+  #+begin_src common-lisp
+    (dolist (var list)
+      body-forms*)
+  #+end_src
+  - =dolist= takes a var and binds it to each element of a given list, in turn, then executes the body form for that element
+  - Like Python's =for= loop or the "enhanced =for=" loop in Java
+  - If you want to break out of a =dolist= early, you can use =return=:
+    #+begin_src common-lisp
+      (dolist (x '(1 2 3))
+              (print x)
+              (if (evenp x)
+                  (return)))
+    #+end_src
+  - This yields
+    #+begin_example
+      1
+      2
+      nil
+    #+end_example
+    because the =if= combined with the =return= causes the loop to end after it encounters the first even number
+- =dotimes=:
+  #+begin_src common-lisp
+    (dotimes (var count-form)
+      body-forms*)
+  #+end_src
+  - =dotimes= is more akin to a "counting" loop, like Java's =for= or Python's =for i in range()=
+  - =count-form= is a form that must evaluate to an integer
+  - =var= is a variable that will be bound to 0, 1, ... count-form - 1
+- =dolist= and =dotimes= can be nested to loop multiple variables in succession
+
+*** =do=
+- While =dolist= and =dotimes= are both convenient, there are times when they're not flexible enough
+- If we need to step multiple variables or use an arbitrary condition to end the loop, we need to use =do=
+- =do= also gives you complete control over how variables change on each step
+- =do= template:
+  #+begin_src common-lisp
+    (do (variable-definition*)
+        (end-test-form result-form*)
+        statements*)
+  #+end_src
+  - Each of the variable definition forms is
+    #+begin_src common-lisp
+      (var init-form step-form)
+    #+end_src
+    - The variable is bound to the =init-form= at the start of the iteration
+    - After each step of the loop, =step-form= is evaluated, and the result is assigned to =var=
+    - If there is no =step-form=, the variable is treated as a constant for the duration of the loop
+  - At the start of each loop, after the =step-form= of every variable has been evaluated, the =end-test-form= is evaluated
+  - The loop continues as long as =end-test-form= is =nil=
+  - In each iteration of the loop, the statement forms are evaluated in order
+  - When =end-test-form= evaluates to non-=nil=, the =result-form=​s are evaluated
+  - The result of =do= is the value of the last =result-form=
+- At each step of the iteration, the step forms for all the variables are evaluated before any values are assigned
+- This allows you to refer to other variables in a step-form like this:
+  #+begin_src common-lisp
+    (do ((n 0 (1+ n))
+         (cur 0 next)
+         (next 1 (+ cur next)))
+        (= n 10) cur)
+  #+end_src
+  - Note that in each step-form, the values being used are the previous values of the variables being referred to
+
+*** The Mighty =loop=
+- =do= seems like a pretty general looping macro
+- Do we really need anything more powerful?
+- Sometimes we need to loop over various data structures in an idiomatic way
+- The =loop= macro allows you to express complex loops (i.e. loops that are looping over various data structures and aggregating data) in a more idiomatic fashion
+- =loop= comes in two flavors: simple and extended
+  - The simple version of =loop= is an infinite loop that doesn't bind any variables
+    #+begin_src common-lisp
+      (loop
+       body-form*)
+    #+end_src
+    - Simple =loop= loops forever until you break out of it with =return=
+  - The complex =loop= uses keywords to define a domain-specific language for loops
+    - For example, let's write a loop to accumulate numbers in a list
+    - With =do= it looks like
+      #+begin_src common-lisp
+        (do ((nums nil)
+             (i 1 (1+ i)))
+            (> i 10) (nreverse nums)
+            (push i nums))
+      #+end_src
+    - This is fine, but it's a bit complex
+  - With complex =loop= the code becomes
+    #+begin_src common-lisp
+      (loop for i from 1 to 10 collecting i)
+    #+end_src
+  - Note how the code with the complex loop reads almost like English
+  - The important thing to note about =loop= is that while it's considerably more complex than =do=, it is still just another macro
+  - If the standard library didn't include =loop=, nothing would preclude you from implementing it yourself
+
+** Chapter 8: Macros: Defining Your Own
+- One of the things that makes macros paradoxically difficult to understand is the fact that they're so well-integrated into Common Lisp
+- Not always clear when you should use a macro versus when you should use a function
+
+*** The Story of Mac, A Just So Story
+- The Lisp compiler can execute Lisp code
+- When you write a macro, you're giving the compiler a program to run which will output Lisp code, which will then become part of the final program
+
+*** Macro Expansion Time vs. Runtime
+- The key to understanding macros is to remember that macros are evaluated at macro-expansion-time
+- Macro-expansion-time is a part of the compilation process
+- This means that macros can only access the remainder of the source code as data, not any of the program data that would be available at runtime
+
+*** DEFMACRO
+- Macros are defined using =defmacro=:
+  #+begin_src common-lisp
+    (defmacro name (parameter*)
+      "Optional documentation string."
+      body-form*)
+  #+end_src
+- This is very similar to the =defun= form for functions
+- However, unlike a function, a macro is indirect
+- Rather than doing the thing, a macro will generate code to do the thing at runtime
+- Process for writing macros
+  - Write one example of the call to the macro
+  - Write one example of the code that the macro should expand to
+  - Write a backquoted template that translates the macro call into the expansion code
+  - Double check the template to ensure that it doesn't leak details of its abstraction
+
+*** A Sample Macro: DOPRIMES
+- Let's build a simple macro, like =dotimes=, which, instead of iterating over integers, it iterates over primes
+- First we need to build two utility functions
+  - Determine if a number is prime
+    #+begin_src common-lisp
+      (defun primep (number)
+        (when (> number 1)
+          (loop for fac from 2 to (isqrt number) never (zerop (mod number fac)))))
+    #+end_src
+  - Get the next prime number, given a number
+    #+begin_src common-lisp
+      (defun next-prime (number)
+        (loop for n from number when (primep n) return n))
+    #+end_src
+- These functions are inefficient, but it doesn't matter --- this is just for demonstration
+- Now, we can follow the three-step procedure to write the macro
+  - Example of call to macro
+    #+begin_src common-lisp
+      (doprimes (p 0 19)
+        (format t "~d " p))
+    #+end_src
+    - In this example, we wish to print out every prime number from 0 to 19
+  - Example of the expansion of the macro
+    #+begin_src common-lisp
+      (do ((p (next-prime 0) (next-prime (1+ p))))
+          ((> p 19))
+          (format t "~d " p))
+    #+end_src
+
+*** Macro Parameters
+- The parameters to a macro are pieces of Lisp code that represent the macro call
+- The first step of any macro is to extract the parts that are necessary for the expansion
+- If the macro is a simple one that interpolates its arguments into a template, this is straightforward to do
+- For =doprimes=, however, the macro call is list of 3 elements, representing the loop variable, start, and end, followed by a sequence of Lisp forms representing the body
+- We can use destructuring to extract values from the argument list and put them into variables for us
+  #+begin_src common-lisp
+    (defmacro doprimes ((var start end) &body body)
+      `(do ((,var (next-prime ,start) (next-prime (1+ ,var))))
+           ((> ,var ,end))
+           ,@body))
+  #+end_src
+  - Note that, in the context of macros, =&body= is a synonym for =&rest=
+  - It's advisable to use =&body= for the body parameter of a macro, because that makes the intent more clear in the code and also helps tooling indent the macro correctly
+  - It's also advisable to use destructuring lists for macro arguments, because that lets the tooling remind the user if they've supplied too few or too many arguments to a macro
+
+*** Generating The Expansion
+- For a simple macro like =doprimes=, the backquote syntax is perfect
+- Within a =`= backquoted list
+  - Values preceded by =,= are included as is
+  - Values preceded by =,@= are treated as lists whose contents are spliced in to the current list
+- To verify that the expansion works correctly, we can of course just use =do-primes=
+- However, we can also inspect the expansion with =macroexpand-1=
+- =macroexpand-1= expands the macro by one level
+- To use =macroexpand-1=, pass it a quoted macro form
+  #+begin_src common-lisp
+    (macroexpand-1 '(doprimes (p 0 19) (format t "~d" p)))
+  #+end_src
+- In Sly, you can check the expansion of a macro by placing the cursor on the opening parenthesis of a macro form and hitting =C-c RET=, which will pretty-print the expansion in a temporary buffer
+
+*** Plugging The Leaks
+- There are a number of ways that a macro can "leak" details of its implementation into the generated code
+- It's important these are addressed, so that the macro presents a clean interface that works in the way that the user expects
+- There are three primary ways a macro can leak details of its implementation
+  - Evaluating a form too many times
+    - A naive implementation of =do-primes= will evaluate the end form on each loop iteration
+    - However, =do= only evaluates the end form once
+    - In order to fix this, we need to store the result of the end form in a variable
+      #+begin_src common-lisp
+        (defmacro doprimes (var start end) &body body
+          `(do ((ending-value ,end)
+               (,var (next-prime ,start) (next-prime (+1 ,var))))
+              ((> ,var ending-value))
+            ,@body))
+      #+end_src
+      - Remember that if we initialize a variable but don't pass a step-form, the variable is treated as a constant
+  - Evaluating forms in the wrong order
+    - Note that in the above implementation of =do-primes=, even though =start= comes before =end=, =end= is evaluated before =start=
+    - We can fix this by moving the evaluation of =end= so that it takes place after the evaluation of =start= in the variable initialization forms
+      #+begin_src common-lisp
+        (defmacro doprimes (var start end) &body body
+          `(do ((,var (next-prime ,start) (next-prime (+1 ,var)))
+               (ending-value ,end))
+              ((> ,var ending-value))
+            ,@body))
+      #+end_src
+  - Variable names that conflict with calling code
+    - Remember that a macro is just code generation
+    - So if we have hardcoded variable names, there's a possiblity that they may conflict with the code that is calling the macro
+    - In this case, we're using =ending-value= as a hardcoded variable to store the value of =end=, so that we don't evaluate =end= multiple times
+    - But if the calling code also uses =ending-value= for something, we might have overwritten it
+    - In order to get a unique variable name, Lisp provides a function called =gensym= (generate symbol)
+    - =gensym= yields a guaranteed unique symbol
+    - Thus we can updated the macro as follows
+      #+begin_src common-lisp
+        (defmacro doprimes ((var start end) &body body)
+          (let ((ending-value-name (gensym)))
+            `(do ((,var (next-prime ,start) (next-prime (+1 ,var)))
+                 (,ending-value ,end))
+                ((> ,var ending-value))
+              ,@body)))
+      #+end_src
+      - Note that the code output by the macro is the result of evaluating the =let=, not the =let= form itself
+      - Thus the code that calls =gensym= isn't part of the generated code
+      - Only the symbol that's returned by =gensym= is used by the macro
+    - While we don't always need to use =gensym= to create variable names in the result of a macro expansion, there's no harm in using =gensym= when it's not necessary
+
+*** Macro-Writing Macros
+- The purpose of macros is to abstract away common syntactic patterns
+- This can come up when writing macros as well as when writing functions
+- We can use macros to write macros
+- One example is the pattern we see in =do-primes=, where a macro uses =let= to introduce some variable names created with =gensym=, which are then used in the macro's expansion
+- With that in mind, we can write a macro, =with-gensyms= that allows us to create macros in a standard pattern
+- We follow the same 3-part process for writing macros
+  - Write the call to the macro
+    #+begin_src common-lisp
+      (defmacro do-primes ((var start end) &body body)
+        (with-gensyms (ending-value-name)
+          `(do ((,var (next-prime ,start) (next-prime (1+ ,var)))
+                (,ending-value-name ,end))
+               ((> ,var ,ending-value-name))
+               ,@body)))
+    #+end_src
+  - The expansion to the macro should be the same as the result of the final version of =doprimes= above:
+    #+begin_src common-lisp
+      (defmacro doprimes ((var start end) &body body)
+        (let ((ending-value-name (gensym)))
+          `(do ((,var (next-prime ,start) (next-prime (+1 ,var)))
+               (,ending-value ,end))
+              ((> ,var ending-value))
+            ,@body)))
+    #+end_src
+  - Then, with the macro call and the expansion, we can write the macro itself
+    #+begin_src common-lisp
+      (defmacro with-gensyms ((&rest names) &body body)
+        (let ,(loop for n in names collect `(,n (gensym)))
+          ,@body))
+    #+end_src
+
+** Chapter 9: Practical: Building A Unit Test Framework
+- The goal of an automated unit test framework is to run a bunch of tests, determine which ones failed, and then present information on the failures in an easy to understand manner
+- Each test case must be an expression that yields a boolean value
+
+*** Two First Tries
+- The simplest thing to do is to take all the test cases, and put them in an =and= expression
+- For example, if we were writing tests for the =+= function:
+  #+begin_src common-lisp
+    (defun test-+ ()
+      (and
+       (= (+ 1 2) 3)
+       (= (+ 1 2 3) 6)
+       (= (+ -1 -3) -4)))
+  #+end_src
+- This would tell you if any of the tests failed, but is perhaps too coarse-grained
+- Would like to know which specific test failed
+- This leads to the second very simple attempt
+  #+begin_src common-lisp
+    (defun test-+ ()
+      (format t "~:[FAIL~;pass~] ... ~a~%" (= (+ 1 2) 3) '(= (+ 1 2) 3))
+      (format t "~:[FAIL~;pass~] ... ~a~%" (= (+ 1 2 3) 6) '(= (+ 1 2 3) 6))
+      (format t "~:[FAIL~;pass~] ... ~a~%" (= (+ -1 -3) -4) '(= (+ -1 -3) -4)))
+  #+end_src
+- This series of =format= statements prints =pass= or =FAIL=, along with the specific test that passed or failed
+- However, there are a number of flaws
+  - Doesn't report whether whole set passed or failed at the end
+  - No way to print only failures
+  - Lots of duplication
+    - Repeated calls to =format=
+    - Requires the programmer to type the test expression twice --- can lead to errors, especially when copying, pasting and modifying test cases
+
+*** Refactoring
+- Ideally we'd like to write test cases like in the second version, and have their results be reported to us automatically
+- Let's start with the second version and see if we can refactor out some of the redundant code
+- Define a function, =report-results=, which encapsulates the calls to =format=
+  #+begin_src common-lisp
+    (defun report-result (result form)
+      (format t "~:[FAIL~;pass~] ... ~a~%" result form))
+  #+end_src
+- This allows us to refactor =test-+=:
+  #+begin_src common-lisp
+    (defun test-+ ()
+      (report-result (= (+ 1 2) 3) '(= (+ 1 2) 3))
+      (report-result (= (+ 1 2 3) 6) '(= (+ 1 2 3) 6))
+      (report-result (= (+ -1 -3) -4) '(= (+ -1 -3) -4)))
+  #+end_src
+- This is a little bit better, but we're still relying on the programmer to correctly type the test expression twice, once normally and once quoted
+- Ideally, we'd be able to treat the test expression both as code to be evaluated and data to be printed
+- Whenever you need to use code as data, that's a sure sign you need a macro
+  #+begin_src common-lisp
+    (defmacro check (form)
+      (report-result ,form ',form))
+  #+end_src
+- =check= is a very simple macro that takes in a form, and passes both the form and the quoted version of the form to =report-result=
+- Thus, we can write the tests to use =check=, as follows
+  #+begin_src common-lisp
+    (defun test-+ ()
+      (check (= (+ 1 2) 3))
+      (check (= (+ 1 2 3) 6))
+      (check (= (+ -1 -3) -4)))
+  #+end_src
+- We can also remove the repeated calls to =check= by allowing =check= to take multiple forms
+  #+begin_src common-lisp
+    (defmacro check (&body forms)
+      `(progn
+         ,@(loop for f in forms collect `(report-result ,f ',f))))
+  #+end_src
+- This uses the =loop= macro to iterate over the forms, running =report-result= on each
+- Note the usage of =@,= to splice in the result of a statement that itself returns a list of backquoted expressions
+- With this version of =check=, we can write =test-+= as follows
+  #+begin_src common-lisp
+    (defun test-+ ()
+      (check 
+       (= (+ 1 2) 3)
+       (= (+ 1 2 3) 6)
+       (= (+ -1 -3) -4)))
+  #+end_src
+
+*** Fixing The Return Value
+- Now, although =check= is concise, it still doesn't tell us if all the test cases passed, forcing us to look through the test results individually to see if any failed
+- To do this, first we need to modify =report-result= to return the result of the test
+  #+begin_src common-lisp
+    (defun report-result (result form)
+      (format t "~:[FAIL~:pass~] ... ~a~%" result form)
+      result)
+  #+end_src
+- Then, we can write a macro that will combine these results
+  #+begin_src common-lisp
+    (defmacro combine-results (&body forms)
+      (with-gensyms (result)
+        `(let ((,result t))
+           ,@(loop for f in forms collect `(unless ,f (setf ,result nil)))
+           ,result)))
+  #+end_src
+- Now, we can update =check= to use =combine-results= rather than =progn=
+  #+begin_src common-lisp
+    (defmacro check (&body forms)
+      `(combine-results
+        ,@(loop for f in forms collect `(report-result ,f f))))
+  #+end_src
+- Now, when we write our test case, =test-+=, the return value reflects whether all the tests passed or not
+
+*** Better Result Reporting
+- What we have thus far works well if there's only one test function
+- But what if we have a bunch of test functions?
+- For example, let's write another function that tests multiplication
+  #+begin_src common-lisp
+    (defun test-* ()
+      (check 
+       (= (* 2 2) 4)
+       (= (* 3 5) 15)))
+  #+end_src
+- And then we can combine =test-+= and =test-*= as follows
+  #+begin_src common-lisp
+    (defun test-arithmetic ()
+      (combine-results
+       (test-+)
+       (test-*)))
+  #+end_src
+  - /Note the way that we're able to use =combine-results= to combine not just indvidual results, but also groups of results/
+- However, now we don't know which function failed
+- It would be nice if =report-result= knew which function it was being called from, so it could use that information to report failures
+- We can create a dynamic variable that holds the function name
+  #+begin_src common-lisp
+    (defvar *test-name* nil)
+  #+end_src
+- Then we can update =report-result= to display the test name
+  #+begin_src common-lisp
+    (defun report-result (result form)
+      (format t "~:[FAIL~:pass~] ... ~a: ~a~%" result *test-name* form)
+      result)
+  #+end_src
+- Then, in each test, we can bind =*test-name*= to ensure the correct test name gets printed
+  #+begin_src common-lisp
+    (defun test-+ ()
+      (let (*test-name* 'test-+)
+        (check 
+         (= (+ 1 2) 3)
+         (= (+ 1 2 3) 6)
+         (= (+ -1 -3) -4))))
+  #+end_src
+  and
+  #+begin_src common-lisp
+    (defun test-* ()
+      (let ((*test-name* 'test-*))
+        (check 
+         (= (* 2 2) 4)
+         (= (* 3 5) 15))))
+  #+end_src
+- Now, report-result will let us know which test function failed
+
+*** An Abstraction Emerges
+- Note that we've introduced a lot of duplication here
+- Each test function is going to have to re-bind the value of =*test-name*=
+- What we have here is a "design pattern", a particular way of structuring a function that ensure that it functions as a test function
+- However, this abstraction only exists by convention
+- It would be nice if we could express our intent more explicitly
+- We can use a macro to do this
+  #+begin_src common-lisp
+    (defmacro deftest (name parameters &body body)
+      `(defun ,name ,parameters
+         (let ((*test-name* ',name))
+           ,@body)))
+  #+end_src
+- This macro allows us to enforce the pattern of updating the =*test-name*= variable automatically
+- In general, whenever you see code that requires a particular pattern to be followed, that code is a great candidate to be replaced with a macro that automatically enforces the pattern
+- Thus, we can rewrite the addition tests as follows
+  #+begin_src common-lisp
+    (deftest test-+ () 
+      (check 
+       (= (+ 1 2) 3)
+       (= (+ 1 2 3) 6)
+       (= (+ -1 -3) -4)))
+  #+end_src
+
+*** A Hierarchy of Tests
+- Should =test-arithmetic= be a test function?
+- For small numbers of tests, it doesn't matter --- the =*test-name*= binding is overridden by the individual test functions
+- But for large numbers of tests, it might be useful to have a higher level of organization to organize tests into suites
+- We can make a small change to the way test functions are defined to create a "fully qualified" test name that indicates which test suite invoked a given test function
+  #+begin_src common-lisp
+    (defmacro deftest (name parameters &body body)
+      `(defun ,name ,parameters
+         (let ((*test-name* (append *test-name* (list',name))))
+           ,@body)))
+  #+end_src
+- What this does is treat the =*test-name*= dynamic variable as a list, appending the current test name to it
+- Thus, when we have a hierarchy of test functions, the =*test-name*= variable will reflect it
+
+*** Wrapping Up
+- The final test framework is:
+  #+begin_src common-lisp
+    (defvar *test-name* nil)
+
+    (defmacro deftest (name parameters &body body)
+      `(defun ,name ,parameters
+         (let ((*test-name* (append *test-name* (list ,name))))
+           ,@body)))
+
+    (defmacro check (&body forms)
+      `(combine-results
+        ,@(loop for f in forms collect `(report-results ,f ',f))))
+
+    (defmacro combine-results (&body forms)
+      (with-gensyms (result)
+        `(let ((,result t))
+           ,@(loop for f in forms collect `(unless ,f (setf ,result nil)))
+           result)))
+
+    (defun report-result (result form)
+      (format t "~:[FAIL~;pass~] ... ~a: ~a:~%" result *test-name* form)
+      result)
+  #+end_src
+- Thus in 20 lines of code, we have a reasonably full-featured unit-testing framework
+- Furthermore, we were able to build up this framework by doing the simplest possible thing at each step, then adding functionality
+- Writing this unit test framework highlighted the power of Lisp macros to simply code and ensure that "design patterns" can be expressed as code rather than as convention
+
+** Chapter 10: Numbers, Characters And Strings
+- Common Lisp has built-in support for all of the major data types that modern languages are expected to support
+  - Numbers
+  - Characters
+  - Strings
+  - Arrays
+  - Hash tables
+  - Input/Output streams
+  - Portable filename representation
+- As a Lisp programmer, you needn't concern yourself with how these data types are implemented
+
+*** Numbers
+- Common Lisp has built-in support for large integers
+- Has built-in support for ratios
+- Has built-in support for imaginary numbers
+- This often means that Common Lisp's numerical code is slower than C or Fortran
+- However, comparable performance can be achieved by adding type declarations to tell the Common Lisp compiler that you're not interested in exact ratios and it's okay to use floating point representations
+
+*** Numeric Literals
+- Common Lisp allows you to write a literal number in many ways
+- Important to keep in mind the split between the Lisp reader and the Lisp evaluator (see: Chapter 4: Breaking Open The Black Box)
+- The Lisp reader will take a variety of different representations =10= =20/2= =#xA= and turn them into the same underlying numerical representation
+- Integer literals can be written as a optional sign (=+= or =-=), followed by any number of digits
+- Ratios are written as an optional sign followed by a number of digits representing the numerator, followed by a =/=, followed by a number of digits representing the denominator
+- Numbers and ratios can be written in non-decimal bases
+  - Prefixing the number with =#b= indicates binary
+  - Prefixing the number with =#o= indicates octal
+  - Prefixing the number with =#x= indicates hexadecimal
+  - Up to base 36 is supported by prefixing the number with =#nR=, where =n= represents the base; letters from A-Z are used to represent place values, in addition to 0-9
+- Floating point numbers are represented as a sequence of digits with an embedded decimal point, possibly with an exponent marker to indicate "computerized scientific notation"
+  - =100.=
+  - =100.2134=
+  - =1.002134e2=
+  - Internally, Common Lisp implementations are allowed to represent floating point numbers in one of four ways (short, single, double and long), and notating the number differently may affect which representation is used by the implementation
+  - Implementations are allowed to map multiple implementations onto a single underlying hardware data type
+- Complex numbers are written as =#c= followed by a list representing the real part and imaginary part
+  - =#c(3 2)= represents \(3+2i\)
+
+*** Basic Math
+- The basic math operators (=+ - * /=) can be applied to numbers regardless of their types
+- Calling these functions on more than two arguments is equivalent to calling them on the first two arguments, and then calling them repeatedly with the result and the next argument
+- With a single value =+= and =*= return the value itself
+- =-= returns the negation
+- =/= returns the reciprocal
+- With zero arguments =+= and =*= return the additive and multiplicative identity values, 0 and 1 respectively
+- If all the operands to a mathematical function are the same type, the output will the type of the operands
+- The exception to this is if an operation on multiple complex numbers results in a number with a zero imaginary component --- that will be converted to a rational
+- Floating point and complex types are "contagious" --- if one of the operands is a floating point or complex, then the output will be floating point or complex
+- Because division doesn't truncate in Lisp, we have to have additional functions to round the results of division operations
+  - =floor= truncates towards negative infinity, returning the largest integer that is less than or equal to the operand
+  - =ceiling= truncates towards positive infinity, returning the smallest integer that is greater than or equal to the operand
+  - =truncate= truncates towards zero, making it the equivalent of =floor= for positive arguments and =ceiling= for negative arguments
+  - =round= rounds to the nearest integer, rounding towards the nearest even integer in the case that a number is exactly in between two integers
+    - /This leads to some counterintuitive behavior/
+    - =(round 3/2)= /and/ =(round 5/2)= /are exactly the same value: 2/
+- Similarly, Lisp defines =mod= and =remainder= for dealing with the modulus and remainder for a truncating division
+- Finally, Lisp includes the shorthand functions =1+= and =1-= to express incrementing and decrementing respectively
+  - =1+= and =1-= are different from =incf= and =decf= because =incf= and =decf= modify the value in place while =1+= and =1-= return a new value
+  - Roughly speaking =(incf val)= is the same as =(setf (1+ val))=
+
+*** Numeric Comparisons
+- ~=~ is the numeric equality predicate
+- Compares number by value, regardless of type
+- =eql= compares by type in addition to comparing by value
+- ~=~ can be called with multiple values, and will return true only if all of its arguments have the same value
+- ~/=~ tests if numbers have different values, when called with multiple values, it returns true if all of its arguments have different values
+- The inequality comparison operators (~< > <= >=~) also work mostly as you'd expect
+- When called with multiple operands the compare each operand to the one on its right
+  - =(> 3 4 5)= → =t=
+  - =(> 3 4 2)= → =nil=
+- =min= and =max= allow you to find the smallest and largest of several integers
+- Other handy numerical predicates
+  - =zerop= - is a number equivalent to 0
+  - =minusp= - is a number less than 0
+  - =plusp= - is a number greater than 0
+  - =evenp= - is the number even
+  - =oddp= - is the number odd
+
+*** Higher Math
+- Common Lisp includes the full range of functions for higher math, like logarithms, exponentiation, trigonometric functions, etc.
+- Check the [[http://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm][Common Lisp Hyperspec]] for the full range of math operators
+
+*** Characters
+- Common Lisp treats characters as a distinct type from numbers --- this is different from C and C-like languages (like Java)
+- This ensures that Lisp handles changes in underlying character encoding gracefully
+- The Common Lisp specification doesn't define what the underlying representation for a character has to be, allowing implementations to evolve as new methods of encoding characters are developed
+- Today, many Common Lisp implementations use Unicode as the underlying implementation for the character data type, even though Unicode didn't exist when Common Lisp was being standardized
+- To input a character literal, use =#\= followed by the character
+  - =#\x= represents =x=
+  - This also works with whitespace: following =#\= with a space gives you a literal space character
+  - However, that is not very readable, so Common Lisp allows you write =#\Space= and =#\Newline= to indicate those characters
+
+*** Character Comparisons
+- Characters have a set of comparison functions analogous to those for numbers
+  | Description               | Case Sensitive | Case Insensitive    |
+  |---------------------------+----------------+---------------------|
+  | Equality (~=~)            | ~char=~        | ~char-equal~        |
+  | Not-equal (~/=~)          | ~char/=~       | ~char-not-equal~    |
+  | Greater-than (~>~)        | ~char>~        | ~char-greaterp~     |
+  | Less-than (~<~)           | ~char<~        | ~char-lessp~        |
+  | Greater-than-equal (~>=~) | ~char>=~       | ~char-not-lessp~    |
+  | Less-than-equal (~<=~)    | ~char<=~       | ~char-not-greaterp~ |
+
+*** Strings
+- In Common Lisp, strings are a one-dimensional array of characters
+- As a result many of the functions that would be string-specific in other languages are generic sequence functions in Common Lisp
+- However, there are some string-specific functions that can be covered in this chapter
+  - Literal syntax --- strings are demarcated with double-quotes
+  - Any character supported by the implementation's character set can be included in a string, except for ="= and =\=
+  - These can be included by escaping them with =\=
+- The REPL will usually print strings in a form suitable for the Lisp reader, with quotes and backslashes escaped, so if you want to see a human-readable string, use a string output function like =format=
+
+*** String Comparisons
+- Strings also have a set of comparison functions that are analogous to the comparison functions for characters
+  | Description               | Case Sensitive | Case Insensitive      |
+  |---------------------------+----------------+-----------------------|
+  | Equality (~=~)            | ~string=~      | ~string-equal~        |
+  | Not-equal (~/=~)          | ~string/=~     | ~string-not-equal~    |
+  | Greater-than (~>~)        | ~string>~      | ~string-greaterp~     |
+  | Less-than (~<~)           | ~string<~      | ~string-lessp~        |
+  | Greater-than-equal (~>=~) | ~string>=~     | ~string-not-lessp~    |
+  | Less-than-equal (~<=~)    | ~string<=~     | ~string-not-greaterp~ |
+- Unlike the numerical or character comparison functions, however, the string comparison functions can only take two arguments
+
+** Chapter 11: Collections
+- Like most programming languages, Lisp has a robust collections library
+- The centrality of lists in Lisp often means that other data structures get overlooked
+
+*** Vectors
+- Vectors are a basic integer-indexed collection
+- Vectors come in two forms
+  - Fixed Size --- akin to arrays in Java or C, a thin wrapper around a block of continguous memory
+  - Variable Size --- akin to Java's ArrayList or Python lists --- can grow or shrink as necessary
+- To create a fixed-size vector, use the =vector= function
+  #+begin_src common-lisp
+    (vector)
+    (vector 1 2 3 4)
+  #+end_src
+- Vectors can also be created with the =#()= literal syntax
+- Vectors are mutable though, and the effect of modifying an object specified with literal syntax isn't defined, so any vectors that should be modified should be created with the =vector= function
+- =make-array= is a more general function that allows you to create vectors as well as multidimensional arrays
+- =make-array= takes in a list containing the dimensions of the array to be created (=(make-array '(3 2))=)
+- Because vectors are common, however, =make-array= also accepts a single number which creates a vector of that length: (=(make-array 5)=)
+- It is undefined behavior to access an element of a vector before it has been initialized
+- Thus =make-array= accepts an =initial-element= keyword argument and will automatically initialize each element of the vector for you: =(make-array 5 :initial-element nil)= --- creates a 5 element vector with all positions initialized to =nil=
+- =make-array= can also create resizable vectors
+  #+begin_src common-lisp
+    (make-array 5 :fill-pointer 0)
+  #+end_src
+  - This creates an array with a =fill-pointer=, a position where the next element can automatically be added
+  - This allows us to use the vector like a stack, using =vector-push= to push elements onto the vector and =vector-pop= to take elements off
+- Although a vector with a fill-pointer can hold a variable number of elements, its maximum size is still fixed to the limit set by the first argument to =make-array=
+- To make a truly resizable vector, you need to set the =:adjustable= parameter as well
+  #+begin_src common-lisp
+    (make-array 5 :fill-pointer 0 :adjustable t)
+  #+end_src
+- Then you can use =vector-push-extend= to push elements onto the vector, resizing it as necessary to accomodate more elements
+- Although =:fill-pointer= and =:adjustable= are technically independent variables and you can have a vector that is adjustable but doesn't have a fill pointer, in practice they're used together
+
+*** Subtypes of Vectors
+- A standard vector can hold any kind of value
+- It is also possible to create specialized vectors that can only hold certain types of objects
+- One such specialized vector is a string, which is a vector of characters
+- Standard strings, created with double quotes, are like vectors created with the =#()= literal syntax --- cannot be modified or mutated
+- However, because a string is a vector of characters, we can use =make-array= to create a resizable string
+- To do this, we need to pass an =:element-type= to =make-array=:
+  #+begin_src common-lisp
+    (make-array :fill-pointer 0 :adjustable t :element-type 'character)
+  #+end_src
+  - The =:element-type= value is a type-descriptor
+  - Note that we needed to quote the type descriptor to prevent it from being treated as a variable
+
+*** Vectors As Sequences
+- Lists and vectors are two concrete instantiations of an abstract sequence
+- There are many functions that work on both lists and vectors
+- =length= --- returns the length of the sequence
+- =elt= --- accesses a particular element by numerical index
+- =elt= can be used in combination with =setf= to update a position of a vector
+  #+begin_src common-lisp
+    (defparameter *x* (make-array 5 :initial-element nil))
+    (setf (elt x 3) 10)
+  #+end_src
+  - This results in the following vector: =[nil nil nil 10 nil]=
+
+*** Sequence Iterating Functions
+- In theory everything you need to do on a sequence you can do with =length=, =elt= and =setf=
+- However, Common Lisp also provides a number of sequence functions that enable you to filter and iterate over sequences
+  | Name         | Required Arguments           | Returns                                                    |
+  |--------------+------------------------------+------------------------------------------------------------|
+  | ~count~      | Item and sequence            | Number of times item appears in sequence                   |
+  | ~find~       | Item and sequence            | Item or ~nil~                                              |
+  | ~position~   | Item and sequence            | Index into sequence or ~nil~                               |
+  | ~remove~     | Item and sequence            | Sequence with instances of ~item~ removed                  |
+  | ~substitute~ | New item, item, and sequence | Sequence with instances of ~item~ replaced with ~new-item~ |
+- These functions can be modified in various ways using keyword arguments
+  - =:test= --- By default, these functions use =eql=; the =:test= keyword allows you to specify your own test function
+    - Function should take two arguments and return a boolean
+    - Use the =complement= function to negate comparisons --- =complement= takes a predicate and yields a function that returns the opposite
+      #+begin_src common-lisp
+        (defparameter *x* (make-array 1 :fill-pointer 0 :adjustable t))
+        (dotimes (i 50) (vector-push-extend i *x*))
+        (substitute "fizz" nil *x* :test #'(complement (lambda (i j) (= 0 (mod j 3)))))
+      #+end_src
+      - This replaces every number, except for those which are divisible by 3
+      - Note that this results in an unused variable warning --- a better way is to use the =:key= approach below
+  - =:key= --- allows the caller to specify a one-argument function that will transform the value from the vector to yield a key which will be used for equality comparison
+    #+begin_src common-lisp
+      (defparameter *x* (make-array 1 :fill-pointer 0 :adjustable t))
+      (dotimes (i 50) (vector-push-extend i *x*))
+      (substitute "fizz" t *x* :key #'(complement (lambda (i) (= 0 (mod i 3)))))
+    #+end_src
+  - These functions can be limited to particular subsequences by passing =:start= and =:end= keywords
+  - If =:end= is omitted, the end is considered to be the length of the sequence
+  - Specifying a non-nil value for =:from-end= tells the function to iterate over the sequence in reverse order
+  - Specifying a =:count= tells the functions a maximum number of elements to match
+  - =:count= and =:from-end= are often combined in calls  =remove= and =substitute= to update only a part of a sequence
+
+*** Higher Order Function Variants
+- For each of the sequence iterating functions above, there are two higher-order variants that take in a function in place of the item argument
+  - =<function>-if=
+  - =<function>-if-not=
+- The test function is called on each element of the sequence and the function counts, finds, removes, substitutes, elements for which the function returns true
+- One thing to note is that =remove-if-not= is actually the *positive* version of the function --- returns all elements that match the predicate
+  - /It's a bit of a double negative --- we are removing the elements that don't match, which leaves only the elements that do match/
+- The higher-order variants accept all the same keyword arguments as their original counterparts, except for =:test=, which is unnecessary because the functions take in a test function by default
+- With the higher order function variant, we can write the above substitution much more elegantly
+  #+begin_src common-lisp
+    (defparameter *x* (make-array 1 :fill-pointer 0 :adjustable t))
+    (dotimes (i 50) (vector-push-extend i *x*))
+    (substitute-if-not "fizz" #'(lambda (i) (= 0 (mod i 3))) *x*)
+  #+end_src
+- Finally there is a =remove-duplicates= function which takes in the same keyword arguments as the rest and which removes duplicates from the sequence
+
+*** Whole Sequence Manipulations
+- =copy-seq= and =reverse= each take a sequence and return a sequence of the same type
+- =copy-seq= returns a copy of the original sequence
+- =reverse= returns a copy of the original sequence in reverse order
+- =concatenate= takes a number of sequences and returns a sequence containing all of the elements of those sequences
+  - However, unlike =copy-seq= and =reverse=, =concatenate= must be informed of what kind of sequence it is creating
+  - Examples:
+    - =(concatenate 'vector #(1 2 3) '(4 5))= --- concatenating a list onto a vector and returning a vector
+    - =(concatenate 'list #(1 2 3) '(4 5))= --- concatenating a list onto a vector and returning a list
+    - =(concatenate 'string "abc" '(#\d #\e #\f))= --- concatenating a list onto a string and returning a string
+    - /An interesting usage of concatenate is to turn a list of characters into a string: =(concatenate 'string '(#\a #\b #\c))= returns ="abc"=
+
+*** Sorting and Merging
+- Common Lisp has two functions for sorting a sequence =sort= and =stable-sort=
+- Both take a sequence and a two-argument predicate function
+- Return the sequence in sorted order
+- =sort= and =stable-sort= are _destructive_
+- Are allowed to modify their input in arbitrary ways, including deleting elements
+- If you care about the state of the original object that you're passing into one of these functions, you should make a copy beforehand
+- Should always do something with the return value of these functions (either pass it to another function, or assign it to a variable)
+- In other words, if you want to sort a sequence "in place" you need to write =(setf my-sequence (sort my-sequence #'string<))=
+
+*** Subsequence Manipulations
+- Lisp also has functions that allow you to create and manipulate subsequences of larger sequences
+- =subseq=
+  - Takes one or two numeric arguments and creates a subsequence starting at the given index and either continuing to the end of the original sequence or until the specified index
+  - Like most slicing functions, =subseq= does not include the end index in the output subsequence
+- Subsequences can be changed with =setf=
+  #+begin_src common-lisp
+    (defparameter *test-seq* '(1 2 3 4 5))
+    (setf (subseq *test-seq* 1 3) '(7 9))
+    ,*test-seq* ; => (1 7 9 4 5)
+  #+end_src
+  - If the new sequence being passed to =setf= is shorter than the subsequence, the first n elements of the subsequence are replaced with the new sequence
+  - If the new sequence being passed to =setf= is longer than the subsequence, the first n elements of the new sequence are used to populate the subsequence and the rest are discarded
+- =fill= takes a sequence and sets every element in the sequence to the same value
+  - Can pass =:start= and =:end= keywords to limit the effect to a subsequence
+- =search= works like =position=, except that the first element is a subsequence --- finds the starting element of the subsequence inside the given sequence, or returns nil if the given subsequence could not be found
+- =mismatch= takes two sequences with a common prefix and returns the index where the two sequences diverge
+  - Takes =:start1=, =:end1=, =:start2= and =:end2= keyword arguments which allow you to limit the comparison to subsequences
+  - Takes a =:from-end= argument which specifies that the (sub)sequences should be searched in reverse order, which allows to find common suffixes
+
+*** Sequence Predicates
+- All of the following functions take a predicate and n sequences
+- The predicate should take n arguments
+- Predicates are called for every corresponding element until either the termination condition has been met or one of the sequences runs out of values
+- =every= --- Terminates and returns false as soon as the predicate returns false
+- =some= --- Terminates and returns the first non-nil from the predicate or false otherwise
+- =notany= --- Terminates and returns false as soon as the predicate returns true
+- =notevery= --- Terminates and returns true as soon as the predicate fails
+
+*** Sequence Mapping Functions
+- =map= takes an n-argument function and n sequences
+- Returns the sequence consisting of applying the function to each subsequent element of each of the sequences
+- The first argument of =map= is a symbol telling =map= what kind of sequence it should return
+- =map-into= is like =map=, except instead of creating a new sequence with the output, it puts the output into a sequence passed in as the first argument
+- /This is one of the things I like about Common Lisp over Clojure --- in Clojure this kind of mutation would be heavily discouraged, but Common Lisp acknowledges that sometimes you need to mutate data and provides a clean abstraction for doing so/
+- =reduce= takes a two-argument function and a sequence
+- Applies the function to the first two arguments of the sequence, and thence to the value returned by the function and each subsequent element of the sequence
+- =reduce= is great for "distilling" a sequence down to a single value
+
+*** Hash Tables
+- Whereas an array requires keys to be integers, hash tables allow you to use arbitrary objects as the key
+- With no arguments =make-hash-table= uses =eql= as the function to test whether two keys are equal
+- This is fine unless you want to use strings as keys
+- In that case pass =#'equal= as the =:test= keyword argument
+- /See the [[* Truth, Falsehood and Equality][Truth, Falsehood, and Equality section]] from Chapter 4 for the distinction between =eql= and =equal=/
+- Unlike sequence functions, the =:test= parameter to =make-hash-table= can't be used to specify an arbitrary function
+- Only =eq=, =eql=, =equal= and =equalp= can be used
+- To access an element of a hash table, use =gethash=
+  - Takes two arguments
+    - Key
+    - Hash table
+  - Returns two values
+    - Value stored under that key or =nil=
+    - Boolean indicating whether the key exists in the hash table
+    - If it didn't return the second value, there would be no way to distinguish a missing key from a key whose value has been set to =nil=
+- To set a value in the hash table, use =setf=, just as with anything else that can be set
+  #+begin_src common-lisp
+    (defparameter *ht* (make-hash-table :test #'equal))
+    (setf (gethash "foo" *ht*) "bar")
+  #+end_src
+- To remove an element from a hash table use =remhash=, which takes the same arguments as =gethash=
+  #+begin_src common-lisp
+    (remhash "foo" *ht*)
+  #+end_src
+- To clear the entire table, use =clrhash=
+
+*** Hash Table Iteration
+- To iterate over all keys in a hash table, use =maphash=
+- Takes two parameters
+  - Hash table
+  - Function that will be executed for every key/value pair in the table
+- =maphash= allows only two safe mutations
+  - =setf= to update the value stored at the given key
+  - =remhash= to remove the current key
+- Adding values to a hash table inside =maphash= is undefined and is likely to result in an error or data corruption
+
+** Chapter 12: They Called it LISP for a reason: List Processing
+- Lists play an important role in Lisp programming
+- Most notably, all Lisp code is written as a set of (nested) lists
+
+*** "There Is No List"
+- However, in Common Lisp, lists are an abstraction
+- Built out of a more primitive data type, the =cons= cell
+- Each =cons= cell is a pair of values, created by the function =cons=
+- The first element of a =cons= cell is accessed with =car=
+- The second element is accessed with =cdr=
+- The names of these accessor functions derive from the original assembly language instructions used to access them
+- Both the =car= and =cdr= of a =cons= cell can be updated with =setf=
+- This means that both the =car= and =cdr= of a =cons= cell can be references to other data structures, allowing you to build larger data structures out of =cons= cells chained together
+- Lists, for example, can be created by setting the =car= of a =cons= cell to a value and the =cdr= to the next =cons= cell in the list
+- The last cell in the list will have a =cdr= whose value is =nil=
+- The majority of the time you won't have to worry about the =cons= structure of a list --- the list functions take care of those details for you
+- Similarly, when dealing with =cons= cells chained as lists, you should use =first= and =rest=, which are better mnemonic aliases for =car= and =cdr=, respectively
+- Because the =car= and =cdr= of a =cons= cell can hold any value, lists can be nested --- just make the =car= of a =cons= cell a =cons= cell itself
+- This allows Common Lisp to represent trees of arbitrary depth and complexity
+- =cons= cells flexibility allows them to represent structured data in an intuitive manner
+
+*** Functional Programming and Lists
+- Functional programming is writing programs as a series of functions that are solely dependent on their arguments
+- Eliminates having to think about state when reasoning about the program
+- Common Lisp lists can be considered a functional data type if one treats a list as being equivalent to the sequence of elements it contains
+- Even though the structure of a list can be mutated, if we treat =cons= cells with identical contents as identical, we can pretend that Common Lisp lists are immutable
+- Thus any function that whose return value is dependent only on the contents of =cons= cells can be considered a pure function
+- This abstraction allows us to write efficient functions
+- Example: =append=
+  - =append= takes a number of lists and appends them together
+    #+begin_src common-lisp
+      (append (list 1 2) (list 3 4))
+    #+end_src
+  - Returns =(1 2 3 4)=
+  - Doesn't create a new list with the return values
+  - Instead, it creates only two new =cons= cells, for =1= and =2= and attaches them to the front of the pre-existing =(3 4)= list
+  - This can still be considered a pure function because none of the content of the =cons= cells has been manipulated, and the original =cons= cells for =1= and =2= are still in memory
+
+*** "Destructive" Operations
+- Because Common Lisp is not a pure functional language, it allows you to manipulate the contents of =cons= cells with =setf=
+- Operations that modify existing objects in-place are called "destructive" operations
+- So-called because, from a functional perspective, the pre-existing object has been destroyed and replaced with a new object
+- There are two kinds of destructive operations
+  - For-side-effect
+    - All functions whose intent is to change an existing object are for-side-effect functions
+    - The best example is =setf= --- the entire point of =setf= is to set a value
+    - Other for-side-effect functions are =vector-push= and =vector-pop=, which use =setf= internally to modify state
+    - Describing for-side-effect functions as destructive is arguably unfair, as they're not intended to be used in a functional context
+    - Important that you don't use them inadvertently when mixing functional structure-sharing code with nonfunctional structure-modifying code
+    - Example:
+      #+begin_src common-lisp
+        (defparameter *list-1* (list 1 2))
+        (defparameter *list-2* (list 3 4))
+        (defparameter *list-3* (append *list-1* *list-2*))
+
+
+        (setf (first *list-2*) 0)
+      #+end_src
+    - This makes the value of =*list-3*= =(1 2 0 4)=, because of the structure-sharing way that =append= is implemented
+  - Recycling
+    - Recycling operations are intended to be used in functional code
+    - Alter the structure of their arguments as a performance optimization
+    - Recycling functions can only be used safely if their arguments will no longer be used after the recycling function has been called
+    - Many functions have non-destructive and recycling variants
+      - =reverse= --- non-destructive - has to allocate new =cons= cells for its results
+      - =nreverse= --- destructive --- reverses the list "in place" by modifying =car= and =cdr= of each =cons= cell
+    - The "n" in these variants stands for "non-consing" --- function carries out its operation in place
+    - Recycling functions should only be used for the value they return --- side effects aren't usually specified
+
+*** Combining Recycling and Shared Structure
+- Recycling functions and shared structure tend to work at cross-purposes
+  - Shared structure assumes that =cons= cells won't be modified after creation
+  - Recycling functions modify cells
+- However, in practice, they can be used together
+  - Build up a list by =push=-ing onto it, then =nreverse= the list at the end before returning it
+  - Immediately assign the result of the recycling function to the input variable
+    #+begin_src common-lisp
+      (setf foo (delete nil foo))
+    #+end_src
+  - Care must be taken here to ensure that you're not accidentally modifying a value that's shared outside the function
+- In general, write code that manipulates lists in a functional style first, using non-destructive operations
+- Then, if profiling shows that optimization is necessary, you can rewrite the code to use destructive operations
+- Another caveat is that the sorting functions, =sort=, =stable-sort= and =merge= are destructive
+
+*** List Manipulation Functions
+- Common Lisp provides a large library of list manipulation functions
+- The most basic are =first= and =rest=
+  - =first= gets the first element of a list
+  - =rest= gets the list excluding the first element
+- In addition, there are functions =second= through =tenth= that get the corresponding element of the given list
+- There is also =nth=, which takes an index and a list, and returns the list item at the corresponding index
+  - Confusingly, =nth= takes its arguments in the opposite order to =elt=
+  - Also while =elt= will signal an error if you try to access a position beyond the end of the list, =nth= will simply return =nil=
+- There are also composite functions that combine various sequences of =car= and =cdr=
+  - =caar= --- =(car (car x))=
+  - =cddr= --- =(cdr (cdr x))=
+  - =cadr= --- =(car (cdr x))=
+  - =caaar= --- =(car (car (car x)))=
+  - =caadr= --- =(car (car (cdr x)))=
+  - And so on
+- The composite functions are rarely used, but when they do appear, they're often used to access tree-like data structures, or to quickly extract sublists from a list of lists
+- The runtime complexity of these functions, unfortunately, is exactly the same as calling =car= and =cdr= manually --- there's no way around the linked-list data structure of chained cons cells
+- /Write using lists first, then benchmark, then replace lists with more specialized data structures as necessary/
+- Other convenient list functions
+  | Name        | Description                                                                                                                                   |
+  | <l>         | <l>                                                                                                                                           |
+  |-------------+-----------------------------------------------------------------------------------------------------------------------------------------------|
+  | =last=      | Returns the last =cons= cell in the list; can take an argument to return the last =n= cons cells                                              |
+  | =butlast=   | Returns the list excluding the last =cons= cell; can take an argument to return the list excepting the last =n= cons cells                    |
+  | =nbutlast=  | Recycling version of =butlast=                                                                                                                |
+  | =ldiff=     | Returns a copy of a list up to a given =cons= cell                                                                                            |
+  | =tailp=     | Returns true if the given object is part of a list                                                                                            |
+  | =list*=     | Takes all but the last element, and turns them into a list, then appends the last element to that list --- hybrid between =list= and =append= |
+  | =make-list= | Creates an =n= item list; initial values of elements are =nil= unless otherwise specified with the =:initial-element= keyword                 |
+  | =revappend= | Combination of =reverse= and =append= - reverses the first argument and appends the second                                                    |
+  | =nreconc=   | Recycling version of =revappend=                                                                                                              |
+  | =consp=     | Returns true if the given object is a =cons= cell                                                                                             |
+  | =listp=     | Returns true if the given object is a =cons= cell or =nil=                                                                                    |
+  | =atom=      | Tests whether an object is not a =cons= cell                                                                                                  |
+  | =null=      | Tests whether an object is =nil= - identical behavior to =not= but more idiomatic in a list context                                           |
+
+*** Mapping
+- Although the generic =map= function can be used on any sequence, list or vector, Common Lisp provides several mapping functions specifically for lists
+- The one that behaves the most like =map= is =mapcar=
+  - Takes one element from each of the lists passed to it, and applies the given function to each of those elements
+    #+begin_src common-lisp
+      (mapcar #'+ (list 1 2 3 4) (list 4 3 2 1))
+    #+end_src
+    - Result: =(5 5 5 5)=
+- =maplist= is like =mapcar= except that instead of passing the list elements to the given function, =maplist= passes the actual constituent =cons= cells
+- This means that the function being applies has access to the rest of the list, via the =cdr= of the =cons= cell
+- =mapc= and =mapl= apply the function to the list and then return the list --- useful for applying side effects
+
+** Chapter 13: Beyond Lists --- Other Uses For Cons Cells
+
+- Because =cons= cells can be nested, they can be used to create data structures other than lists
+
+*** Trees
+- A tree can be thought of as a list of lists
+- If the =car= of a =cons= cell refers to another =cons= cell, that can be interpreted as the list containing another list
+- Common Lisp provides the functions =copy-tree= to create copies of trees while preserving the structure of their =cons= cells
+- Also provides =tree-equal= which compares both the shape and values of a tree to determine equality
+- Another tree-specific function is =subst=
+- Like its list counterpart, =substitute=, =subst= returns a tree with the same shape as the original tree, but with all instances of the old item replaced with the new one
+- Has =subst-if= and =subst-if-not= variants, just like with =substitute=
+- Has =nsubst= (etc.) recycling variants to perform in place updates
+- Just as with =substitute= you must save the return value of destructive variants
+
+*** Sets
+- Common Lisp also provides functions to treat lists as sets
+- Due to the way lists are structured, set operations on lists become slower as the list grows longer
+- However, it's often convenient to begin with sets implemented on top of lists and replace them with hash tables or bit vectors only when the program becomes slow
+- The core function to build up a set is =adjoin=
+- =adjoin= is a nondestructive function, which means that its result needs to be assigned to the original location with =setf= in order to update a set "in place"
+- The =pushnew= macro does this automatically for you
+  #+begin_src common-lisp
+    (defparameter *set* ())
+    (adjoin 1 *set*)
+    ;; returns (1)
+    ,*set*
+    ;; returns NIL, as we haven't assigned the result of adjoin to *set*
+    (setf *set* (adjoin 1 *set*))
+    ,*set*
+    ;; returns (1)
+    (pushnew 2 *set*)
+    ,*set*
+    ;; returns (2 1)
+    (pushnew 2 *set*)
+    ,*set*
+    ;; returns (2 1), as 2 is already in the set
+  #+end_src
+- Can test whether a member belongs to a set with =member=
+- =member=, =member-if= and =member-if-not= are similar to the sequence functions =find=, =find-if= and =find-if-not=, except they only work with lists
+- Unlike the =find= variants, instead of returning the value, the =member= functions return the =cons= cell of the matching object (i.e. the sublist starting with the matching object)
+- Common Lisp also provides a number of set-theoretic operators that operate on lists
+  - =intersection= --- returns a list containing all the elements contained in both of its arguments
+  - =union= --- returns a list containing one instance of each unique element from the two arguments
+  - =set-difference= --- returns a list containing all elements from the first list that don't appear in the second
+  - =set-exclusive-or= --- returns a list containing all elements that appear in one list but not the other
+- All of these functions have recycling counterparts, with an =n= prefix
+- =subsetp= returns =t= if every element in the first list is also present in the second
+
+*** Lookup Tables: Alists and Plists
+- In addition to trees and sets, we can build maps out of cons cells
+- There are two varieties of list-based maps in Common Lists
+  - Association lists (alists)
+  - Property lists (plists)
+- An alist is a list whose members are themselves =cons= cells
+- Represented as follows: =((A . 1) (B . 2) (C . 3))=, where each cell of the alist is represented as a dotted pair
+- Takes a key and an alist and returns the first =cons= cell for which the =car= matches the key
+  - The main lookup function for alists is =assoc=
+  - Returns =nil= if no match is found
+  - To get the value for a corresponding key, simply pass the result of =assoc= to =cdr=
+  - By default =assoc= uses =eql= to test the given value against the =car= of the =cons= cells
+  - However, this can be overridden using the =:key= and =:test= [[* Sequence Iterating Functions][keyword arguments]], as with many other functions that find items inside data structures
+  - =assoc= returns the first =cons= cell for a given key
+  - This means that if there are multiple =cons= cells with a given key, the first one will shadow the rest
+- To add elements to an alist, use the =acons= function: =(acons key value alist)=
+  - However, because =acons= is a function, it can't modify the list in place
+  - To do that we can either
+    - =(setf alist (acons 'new-key 'new-value alist))=
+    - =(push (cons 'new-key 'new-value) alist)=
+- In addition to =assoc=, there are =assoc-if= and =assoc-if-not=, as with all the other sequence functions

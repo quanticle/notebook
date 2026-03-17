@@ -1,0 +1,15 @@
+#+TITLE: Tenerife Air Disaster
+
+* Disaster Details
+- March 27, 1977
+- Los Rodeos Airport (now called Tenerife North)
+- 583 fatalities (deadliest aircraft disaster in history)
+
+* Cause
+- KLM Fight 4805 attempted to take off while Pan Am 1736 was still on the runway
+- Dense fog meant that KLM 4805 couldn't see the other plane
+- Took off with the mistaken understanding that clearance to take off had been granted, when, in fact, it had not
+- Both planes had Gran Canaria airport as their original destination
+- However Gran Canaria was closed due to a bomb attack by the Canary Islands Independence Movement
+- Radio interference meant that ATC couldn't communicate to KLM 4805 that it didn't actually have takeoff clearance
+- A contributing factor to the accident was the use of nonstandard phrases by the ATC which gave the KLM pilots the mistaken impression that they were cleared for takeoff

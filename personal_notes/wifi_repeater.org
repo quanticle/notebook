@@ -1,0 +1,27 @@
+#+TITLE: Wifi Repeaters
+
+* XFinity Pro
+- Costs $15 per month on top of existing subscription
+- Includes two wifi extenders and a backup cell connection
+
+* WiFi mesh routers
+
+** TPLink Deco X55
+- 3-pack
+- WiFi 6
+- Currently on sale for $150
+
+** Eero 6
+- $199
+- 1 router + 2 extenders
+
+** Netgear Orbi
+- Too expensive
+
+** Asus Zen Wifi XD6
+- 2-pack
+- On sale for $79.99 each
+- Seems like this can this be used to extend an existing wireless network, with some caveats
+
+** Google Nest Wifi
+- Too expensive

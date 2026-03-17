@@ -1,0 +1,3 @@
+#+TITLE: Essay Reference
+
+- Every good idea looks like a bad idea at first: https://www.paulgraham.com/swan.html

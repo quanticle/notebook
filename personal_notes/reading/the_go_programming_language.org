@@ -1,0 +1,100 @@
+#+TITLE: The Go Programming Language
+
+* Setup
+
+** Set up Go tools
+- To install the Go toolkit on Fedora: =sudo dnf install golang=
+- Go code lives in a "workspace" defined by the =GOPATH= environment variable
+- Set up =GOPATH= by adding the following to =~/.bashrc=
+  #+begin_src bash
+    export GOPATH="${HOME}/go"
+  #+end_src
+- Create the directory, if necessary
+
+** Set up emacs for Go programming
+- Install dependencies
+  - =go install golang.org/x/tools/gopls@latest=
+  - =go install github.com/rogpeppe/godef@latest=
+- Add the =gopls= language server to the =PATH=
+  #+begin_src bash
+    export PATH="${PATH}:${HOME}/go/bin"
+  #+end_src
+- Add =go-mode= to =init.el=
+  #+begin_src elisp
+    (use-package go-mode
+      :ensure t
+      :config
+      (add-hook 'go-mode-hook 'lsp-deferred))
+  #+end_src
+
+* Chapter 1: Tutorial
+
+** Hello World
+- Traditional "hello world" example → =hello_world.go=
+  #+begin_src go
+    package main
+
+    import "fmt"
+
+    func main() {
+            fmt.Println("Hello world")
+    }
+  #+end_src
+- To build this example: =go build hello_world.go=
+- This should create a binary called =hello_world=
+- Run with =./hello_world=
+- Go code is organized into packages
+- Each package is one or more source files in the same directory
+- Each source file begins with a =package= declaration that defines which package the file belongs to
+- The =package= declaration is followed by a list of =import= declarations that define which other packages the file refers to
+- Package =main= is special --- this package is used by the compiler to create an executable file
+- Within package =main=, the =main= function is special --- program entry point
+- Unused imports result in compilation failure --- prevents packages from accumulating unused imports
+- Function declarations consist of the keyword =func=, the function name, a list of arguments, a result list, and the function body
+- Go does not require semicolons at the end of statements except when more than one statement appears on a single line → newlines are treated as semicolons
+- Go ships with a formatting tool called =gofmt=, which rewrites all Go code into a standard format
+- Highly encouraged to run =gofmt= on your own code
+- An optional tool, =goimports= manages the addition and removal of =import= statements: =go get golang.org/x/tools/cmd/goimports=
+
+** Command Line Arguments
+- The =os= package includes platform independent ways of interacting with the host OS
+- Command line arguments are present in =os.Args=
+- =os.Args= is a /slice/ of strings
+  - A slice is a dynamically sized sequence of array elements =s=
+  - Individual elements can be accessed with =s[i]=
+  - Ranges of elements can be accessed with =s[m:n]=
+  - Ranges use half-open intervals
+    - Start with element at index =m=
+    - End with element at index =n-1=
+  - The first element of =os.Args=, =os.Args[0]=, refers to the command itself
+  - Can get the remainder of the arguments with =os.Args[0:len(os.Args)]=
+- Thus we can write a program that echoes its command line arguments out to the terminal
+  #+begin_src go
+    package main
+
+    import (
+            "fmt"
+            "os"
+    )
+
+    func main() {
+            var s, sep string
+            for i := 1; i < len(os.Args); i++ {
+                    s += sep + os.Args[i]
+                    sep = " "
+            }
+            fmt.Println(s)
+    }
+  #+end_src
+- /Why is =sep= being reassigned every time inside the loop?/
+- When applied to strings =+= is the concatenation operator
+- Thus =+​== is concatenate and assign
+- The =var= declaration declares two variables =s= and =sep=, of type string
+- The default value of both is =""=
+- The =i :​= 1= uses the declare-and-assign operator to declare a variable and give it an initial value in one step
+  - /Note that we don't have to give a type for =i= → the compiler infers it from the initial value/
+- Go has increment and decrement
+  - These operators differ from their C and Java equivalents
+  - Are statements, rather than expressions → =j = i++= is illegal
+  - Postfix only → =++i= is illegal
+- 

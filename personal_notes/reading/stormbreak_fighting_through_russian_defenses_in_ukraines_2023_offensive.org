@@ -1,0 +1,218 @@
+#+TITLE: Stormbreak: Fighting Through Russian Defences In Ukraine's 2023 Offensive
+#+OPTIONS: toc:6
+#+OPTIONS: h:6
+
+Authors: Jack Watling & Nick Reynolds \\
+[[https://www.rusi.org/explore-our-research/publications/special-resources/stormbreak-fighting-through-russian-defences-ukraines-2023-offensive][Royal United Services Institute]] \\
+September 2023
+
+* Executive Summary
+- The 2023 offensive will be insufficient for Ukraine to liberate all of the territory captured by Russia in 2022
+- Need to review this offensive in order to make future offensives more effective
+- Offensives require fires dominance
+- Ukraine has achieved this dominance via
+  - Blinding Russian counter-battery systems
+  - Using precise and long-range artillery systems to hit Russian forces from ranges that preclude retaliatory fires
+- Ukraine needs substantial ongoing supplies of ammunition in order to maintain this dominance
+- Ukraine has suffered large numbers of vehicle losses, but the superior designs of Western armored vehicles have protected the crews of these vehicles
+- Initial attempts at forcing a rapid breakthrough resulted in unsustainable equipment losses
+- This forced the Ukrainian military into a slower, more methodical approach, with deliberately planned tactical actions capturing individual Russian positions
+- One key factor forcing this approach has been limitations on detecting and clearing mines
+- Ukraine will benefit greatly from more advanced mine detection and mine clearing tools
+- Another key limitation for the Ukrainian military is staff capacity
+  - Battalion and brigade level officers would benefit from more training
+  - However, any training must reflect the realities of the Ukrainian battlefield and Ukrainian force structures, rather than rote repitition of NATO methods designed for different forces fighting in different scenarios
+- Russian forces have continued to adapt their methods
+  - Increased minefield depth and density
+  - Dispersal of electronic warfare systems
+  - Increased dependence on precision fires, due to limited logistical capacity making it impossible for Russian guns to deliver a sufficient volume of imprecise fires
+
+* Introduction
+- Russian forces suffered two major setbacks in the autumn of 2022
+  - Collapse of the Western Group in Kharkiv
+  - Forced withdrawal of Russian forces from the city of Kherson
+- These setbacks caused Russian general Sergei Surovikin to adopt a different strategy
+  - Long-range precision fires to strike at Ukrainian electricity and heating infrastructure
+  - Construction of a series of defensive lines to blunt further Ukrainian advances
+- These preparations came into conflict with the aggressive war aims of the Kremlin, and contributed to Surovikin's removal and replacement with Valery Gerasimov
+- Gerasimov launched a series of ill-prepared offensive attacks in January of 2023
+- Concurrently, however, Surovikin's planned defensive lines were completed, and have served Russia well after the failure of its offensive actions in early 2023
+- These defenses pose a formidable obstacle to Ukrainian forces attempting to liberate captured territory
+- Much of the training and advice given to Ukrainian forces was based on 20th century operational analyses that did not take into account the full range of technologies employed on Ukrainian battlefields
+- We need to understand how effective this training and advice has been in order to refine Ukraine's approach to future offensives
+- This report presents a series of case studies of individual tactical actions, fought over two weeks, in the villages of Novodarivka and Rivnopil, straddling the border between Donetsk and Zaporizhzhia Oblasts
+- These actions were chosen because they're emblematic of wider trends in the war
+- The data for this report comes from
+  - Direct firsthand accounts from Ukrainian soldiers
+  - Captured Russian documents
+  - Open-source satellite imagery
+  - Reviews of non-public videos of the tactical actions
+
+* Taking Novodarivka and Rivnopil
+- Prior to Ukraine's offensive, the line of contact separating Russian and Ukrainian forces along the boundary between Zaporizhzhia and Donetsk Oblasts had been relatively static
+- Ukrainian troops were dug into tree lines approximately 1km to the north of Novodarivka, near the village of Novopil
+- Initially these forces consisted of a brigade of Territorial Defense forces, tasked with holding the line
+- They were reinforced in May by an armored brigade and a brigade of Ukrainian regulars
+- The mechanized brigade was tasked with spearheading the breakthrough
+- Russian forces consisted of a company in Novodarivka, another in Rivnopil, and a third holding a series of fighting positions connnecting the two villages
+- These three companies were backed by reserves, including armor
+- In order to attack the primary defensive line, Ukrainian forces had to cross this initial set of defensive emplacements, capture Novodarivka, Rivnopil and the village of Priyutne, approximately 6km to the south
+- The offensive in this area started in late May with a long period of preparatory artillery fire
+- In the Rivnopil area this was provided by M777 155mm howitzers
+- Unlike in previous barrages, Ukrainian artillerists had accurate information regarding Russian firing positions, causing Russian forces to pull back their artillery
+- In addition, artillery ammunition was much more available in the past --- guns were not strictly limited in the number of shells they had each day, and requests for resupply were promptly fulfilled
+- Ukrainian forces also used UAVs to spot and attack Russian positions
+- UAV attacks were seriously affected by the presence of Russian electronic warfare --- if Russian EW was active in the area, UAV attacks were nearly useless
+- The decision to start the ground assault was made on June 3, with some debate regarding whether to wait for the ground to dry after recent rainfall
+- The priority target was the village of Novodarivka
+  - Long, thin cluster of buildings, running east to west
+  - Provided Russians with overwatch positions
+- Early on June 4, the Ukrainians used two UR-77 Meteorit mine clearing charges to blow two 6m wide paths from the treeline to the edge of Novodarivka
+- In coordination with artillery fire, a column of two tanks (/type not mentioned/), followed by MaxxPro MRAPs holding infantry
+- The MRAPs struggled in the boggy ground, and the cleared lane was insufficiently wide to allow following vehicles to go around those that got stuck
+- After the MRAPs got stuck, a pair of Russian tanks revealed themselves and engaged the column
+- Although the Ukrainian tanks returned fire, the vehicles in the column were knocked out in quick succession
+- Infantry disembarked from the MRAPs, and either retreated to the tree line or pressed ahead on foot, hoping to find shelter in the village, with approximately a platoon-sized force making it to the edge of Novodarivka
+- Eventually the two Russian tanks were immobilized by SPG-9 recoilless guns
+- However the sections that made it to the village rapidly found themselves isolated, as Russian fire made it too risky for follow-on forces to reinforce them
+- Seeing the first set of units in trouble, command staff made the decision to send a second company through the second breach to attempt to reinforce
+- However, this second column was engaged by a second pair of Russian tanks
+- The forces in the second breach attempted to accelerate towards the Russian tanks in order to engage them, but in the process of doing so, they deviated from the cleared lane, and their vehicles were rapidly immobilized by mine strikes
+- Dismounted infantry once again split up, with some forces pushing forward into Novodarivka and others retreating towards the treeline
+- Further dismounted infantry moved along the two breaches, using the immobilized vehicles as cover, as Russian defenders fell back to limit their exposure to positions that had been cleared and occupied by Ukrainian forces
+- After establishing this foothold in Novodarivka, Ukrainian forces spent the next week engaging and clearing Russian strongpoints one by one, eventually pushing Russian forces out of Novodarivka
+- After taking Novodarivka, the next task was to clear Russians out of the village of Rivnopil, to the east
+  - Rivnopil overlooked a series of wooded regions that could be used by Russian infiltration forces to strike at the Ukrainian flank
+  - However, Ukrainian commanders understood that a different approach had to be taken
+  - Two companies worth of equipment were lost in the attempt to take Novodarivka --- this loss rate was not sustainable
+- The attack on Rivnopil started with a feint --- Ukrainian tanks and artillery used a combination of direct fire, indirect fire, and smoke to misdirect Russian forces into believing that an assault was about to be launched against them from the east
+- This allowed a platoon of Ukrainian infantry that had infiltrated positions to the west to push forwards and drive the Russians out of Rivnopil by making it seem as if they were encircled
+- Russian forces retreated behind a water obstacle (/probably an agricultural canal, though this isn't explicitly stated/) and blew several small dams to make it more difficult for Ukrainian forces to advance further
+- They augmented these natural barriers with a screen of ATGW positions, which had to be methodically cleared by Ukrainian infantry before vehicles could push through the two villages
+- Although the assault on Rivnopil took longer than the assault on Novodarivka, it was far more sustainable, resulting in only light casualties for the Ukrainians and no equipment losses
+- The overall pace of the advance was roughly one push every three days, with each advance moving the line of control roughly 700 - 1200m forward
+- After the battles to take Novodarivka and Rivnopil, both the Russian and Ukrainians made changes to their approach
+
+* Russian Lessons and Adaptation
+- Russian leadership saw the tactical actions around Novodarivka and Rivnopil as being largely successful
+- Although Russian forces had eventually been forced to retreat, they had inflicted unsustainable losses on the advancing Ukrainians
+- However, the Russians also recognized that they had taken significant losses, and that, in the context of a protracted attack, these losses might lead to a Ukrainian breakthrough
+- Furthermore, the Russians were concerned by the suppression of their artillery systems
+- As a result of these concerns, the Russians made several adaptations to their defensive approach
+  - Increasing depth of minefields
+    - Initial Russian doctrine called for minefields to be 120m deep
+    - However, it was noted that western MICLIC and UR-77 mine clearing charges could breach these minefields to a sufficient extent to allow infantry to cross
+    - Therefore, the Russians made the decision to increase the depth of their minefields to 500m
+    - Russian units were not equipped with enough mines as part of their standard load-out to establish minefields of this depth along every part of the front line that they were responsible for protecting
+    - As a result, Russian units have resorted to a series of improvisational measures to try to cover more area with the same number of mines
+      - Improvised explosive devices
+      - "Doubling up" mines to ensure that armored vehicles would be disabled by single mine strikes, as a way to compensate for a lower density of mines
+      - These doubled-mines are often enough to disable vehicles even when they're equipped with bulldozer blades designed to clear mines
+  - Using alternate methods to pin down Ukrainian troops that manage to take a Russian defensive position
+    - In the past, Russians would pre-register their own positions with their artillery
+    - This would allow Russian artillery to rapidly fire upon a Russian position that had been just captured by Ukrainian troops
+    - However, localized Ukrainian advantages in artillery have made this tactic untenable
+    - As a result, the Russians are now booby-trapping their positions with explosive charges, and setting the charges to go off as the Russians retreat through prepared exit routes
+    - This is seen as being more reliable and effective than artillery fire, with a reduced risk to Russian guns
+  - As a further means of protecting their artillery, Russian forces have been relying more heavily on ATGW teams pre-positioned in flanking positions to prevent Ukrainian infantry from calling forward supporting armor
+- Another Russian adaptation is increased reliance on tactical aviation
+  - Unlike during the initial invasion, Russian tactical aviation is now firing from behind Russian forces, making it much less vulnerable to Ukrainian portable anti-aircraft missiles
+  - Ukraine lacks long-range ground-based air defenses
+  - What air defense it does have is tasked with protecting Ukrainian cities, and often cannot be risked in front-line combat
+- Russia has shown a willingness to lose vehicles, especially tanks, in flanking counterattacks against Ukrainian forces, as long as those vehicles inflict equal or greater losses on the Ukrainians
+  - The willingness and ability of Russian commanders to risk tanks and tank crews this way shows that Russia is able to train new tank crews to an adequate level of proficiency
+  - This stands in stark contrast with Russian infantry, whose training has been disrupted by combat operations, hampering Russian forces' ability to train new infantry formations
+- Russian forces have greatly adapted their electronic warfare systems
+  - Removed EW systems from their original (heavy) vehicles and re-mounted them on lighter trucks
+  - Use of smaller systems that can be used in a more targeted fashion, rather than the older Soviet model of completely denying communications across a large part of the battlefield
+- Russia has also reformed how it uses artillery
+  - Since World War 2, Russian artillery has used quotas to determine how much artillery fire to employ in order to achieve certain goals
+  - Example: 720 shells to suppress an enemy platoon in a dug-in position
+  - This approach has become non-viable in the war
+    - Russian units cannot carry enough ammunition to sustain this volume of fire over a long period of time
+    - Providing reliable resupply requires positioning supply depots forward, making them vulnerable to Ukrainian long-range precision strike (/e.g. HIMARS/)
+  - As a result, Russian forces are prioritizing precision-strike in order to achieve effects with reduced volume
+  - The Russian military-industrial complex is prioritizing production of Krasnopol 152mm laser-guided shells
+  - UAV production is being geared around building craft with laser designators for these shells
+  - Although [[https://twitter.com/jackryan212/status/1706842776376123708][corner-cutting]] is evident in munitions production, the overall trend in Russian artillery is one towards increasing precision and efficiency
+- Another Russian improvement is in its use of UAVs
+  - Russian UAVs have improved in complexity, diversity and density
+  - Example: the Lancet 3M possesses a significantly improved warhead and more economical design than the Lancet 3
+  - Russia has made modifications to the Shahed 136 to reduce its noise signature and improve its resistance to electronic warfare
+- Russia is also making improvements in its battlefield communications
+  - At the start of the invasion, Russian forces depended heavily on custom military radios
+  - Then, during the scramble for equipment late last year, Russian forces were found using a wide variety of civilian systems
+  - Now, the Russians have settled on a hybrid approach
+    - Military networks
+    - Civilian equipment
+    - In effect, the Russian military sets up a special military cellular network that both military and civilian communications equipment can connect to
+    - Allows Russian forces to use lightly adapted civilian electronics (/e.g. smartphones/)
+    - Reduces training burden by allowing troops to use equipment that they are already familiar with
+    - Improves fire direction by allowing Russian forces to use bespoke "apps" to submit requests for fire support directly to the units responsible for providing fire support
+    - However the security and robustness of this hybrid network has yet to be seriously tested
+
+* Ukrainian Challenges And Requirements
+- This report cannot cover Ukrainian responses to Russian adaptations, because those are classified
+- Instead, this report will focus on continuing challenges that Ukraine faces, and try to suggest ways that Ukraine's international partners can help it meet those challenges
+- Given the current trends, the war will continue into 2024, so it's important to help Ukraine sustain its military over the long term
+- Ukraine is heavily dependent on having fire superiority to make forward progress
+  - /This is true of every military --- it's practically impossible to move forward when the volume of incoming fire is greater than the volume of outgoing fire/
+  - An essential advantage that Ukraine currently has is that its Western-provided artillery systems are longer range and more accurate than the Russian systems they face off against
+  - This advantage is limited by the availability of spare parts and ammunition
+  - Barrel wear is an especially salient concern
+  - Ukraine has 17 different 155mm artillery systems (/Seventeen!/)
+  - It cannot obtain sufficient spare parts for all of them
+  - Ukraine's international partners should focus on consolidation --- larger numbers of fewer types of guns
+  - International assistance in electronic warfare to protect Ukrainian artillery systems from Russian loitering munitions would also be valuable
+- Another important sustainment challenge is the vehicles that Ukrainian forces use for protected mobility
+  - Ukrainian troops note that Western-provided vehicles are vastly superior to their Soviet-era counterparts, especially when it comes to crew survivability
+  - Soviet military planners treated the vehicle as the primary weapons platform of the mechanized infantry section, and thus did not proritize the survival of the section without its vehicle
+  - In contrast, Western militaries treat vehicles as an adjunct to the firepower of the infantry, and design vehicles to prioritize crew and passenger survival, even at the expense of the vehicle
+  - As a result, although Ukraine has lost many Western vehicles (notably in its assault against Novodarivka), often, these vehicles aren't permanently destroyed, and can be rebuilt
+  - In order to rebuild these vehicles, Ukraine needs significant supplies of recovery equipment and spare parts
+  - Spare parts provision is a problem, especially because Ukraine has been given large numbers of vehicles that are no longer in production
+- Ukraine needs assistance in detecting and clearing minefields
+  - As Russian minefields become larger and sparser, the need for effective mine detection and reconnaissance becomes vital
+  - Currently, this reconnaissance is conducted by dismounted engineers
+  - This makes advances very slow and makes it difficult for Ukraine to breach more than one layer of Russian defenses at a time
+  - Western allies can help Ukraine by developing and providing UAVs and computer algorithms that can detect minefields from the air
+- Ukrainian forces need better training
+  - Ukraine's brigades and battalions need more staff officers
+    - There are few trained staff officers in the Ukrainian military
+    - This is due to the rapid mobilization of the Ukrainian population, which has led to the creation of units without experienced officers to lead them
+    - While brigades often have experienced commanders and skilled technical specialists, the lack of staff officers to do planning means that combined arms operations remain a challenge for the Ukrainian military
+    - /How did the United States military solve this challenge in World War 2?/
+    - Ukraine's international partners should develop a staff officer training curriculum that examines how Ukrainian units currently operate and works to make those units more efficient, rather than trying to turn them into carbon-copies of NATO units
+  - Ukrainian junior officers need additional experience in conducting tactical battle drills
+    - At the start of the war, Ukraine had a shortage of experienced junior officers
+    - This shortage was exacerbated by attrition in the opening phases of the war
+    - Ukrainian junior officers are often inexperienced and unable to plan offensive operations for their units
+    - This compromises mission command, as higher echelons have to provide detailed plans for smaller units to execute and exercise closer supervision when units are in combat
+    - This means that Ukrainian units are often reluctant to use smoke, even though it has demonstrated great utility in reducing the effectiveness of Russian UAVs
+  - Ukrainian units need more collective training
+    - NATO training standards often require individual soldiers to demonstrate proficiency with certain combat skills before units can be allowed to train collectively
+    - This is done to ensure that all soldiers in the unit have reached a basic standard of competence to ensure safety
+    - While this safety standard may be wise in peacetime, in wartime, it compromises the amount of time available for collective training
+    - This means that while Western-trained Ukrainian soldiers are reasonably proficient in individual skills, they have little training in how to work together as a team
+    - Ukrainian units have to train these soldiers further
+    - However, if the Ukrainian unit to which these soldiers have been assigned is under attack, they may not have the time or capacity to conduct this training before pushing these soldiers into a fight for which they may not be adequately prepared
+  - Western training doesn't adequately emphasize the role of artillery and UAVs
+    - Complex training involving artillery is often introduced late in Western units' training regimens
+    - A Ukrainian unit that isn't ready to deal with artillery is a Ukrainian unit that isn't ready, period
+    - Western training ranges are often severely restricted in the number and types of UAVs they may fly, due to fears of malfunction leading to UAVs entering restricted airspace
+    - However, over a Ukrainian battlefield, there may be as many as 25 Russian UAVs monitoring the movements of Ukrainian forces
+
+* Conclusion
+- Analysis of tactical actions during Ukraine's 2023 counteroffensive reveals a number of areas where Ukraine's international supporters can improve their assistance
+- Addressing these areas will not improve Ukraine's performance during the current counteroffensive, but it will enable Ukrainian soldiers to be more effective in future offensives
+- The Russian military is fighting reasonably competently and relatively tenaciously
+  - Losing ground but doing so in an orderly manner
+  - Russian forces are adapting to scarcities and changing tactics in response
+- Ukrainian forces have also learned from their initial missteps, and are starting to inflict increased losses on Russian troops
+- Over time, this attrition may lead to a non-linear collapse, once Russian forces fall below a critical mass
+- Both Ukraine and Russia face questions around their ability to regenerate combat power
+  - Russia can mobilize more people, but its training facilities are limited
+  - Russian mobilization is also constrained by political considerations that often lead Vladimir Putin to wait until the last possible moment before ordering additional mobilization
+  - Ukraine faces questions about force preservation and expansion
+- The chief priority for Ukraine's international partners should be doing whatever it takes to enable Ukraine to keep up pressure on Russian forces during the winter
+- The Russian hope is that winter will force Ukraine to pause operations, allowing them rebuild defenses and resume attacks on Ukrainian electricity and heating infrastructure

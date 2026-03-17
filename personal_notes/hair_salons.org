@@ -1,0 +1,25 @@
+#+TITLE: Hair Salons
+
+- Great Clips
+  - Medina: (763) 478-2988
+  - No coloring
+- The Hair District
+  - Plymouth: (763) 746-9229
+  - Hair cut - $35
+  - Color - $65
+- Roosters
+  - Plymouth: (763) 273-4839
+  - No coloring
+- Fantastic Sams
+  - Plymouth: (763) 551-0800
+  - $29 - Haircut
+  - $59 - Color
+- Sport Clips
+  - Plymouth: (763) 551-7996
+- Oakwood Barbers
+  - Medina: (763) 473-5887
+  - No coloring
+- The Scissor Lounge
+  - Maple Grove: (763) 334-3989
+- Spark Salon
+  - Maple Grove: (763) 478-9800

@@ -1,0 +1,11 @@
+#+TITLE: Jagannath Ratha
+
+* 2026
+
+** To Do
+- Rework lifters
+- Fix dome lifter bracket position on starboard side
+- Shorten primary lifter bars
+
+** Lifter brackets
+- MiTek 4" x 4" triple zinc post anchors - Menards Aisle 41 Section N

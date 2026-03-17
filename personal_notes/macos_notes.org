@@ -1,0 +1,172 @@
+* MacOS Notes
+
+** Install fonts
+- To install fonts on MacOS, move the fonts to =~/Library/Fonts=
+
+** Show hidden files in File → Open dialog
+- Hit =Cmd + Shift + .=
+
+** Open Finder
+- =Option + Cmd + Space=
+
+** Unmount flash drives
+- Flash drives are mounted under =/Volumes=
+- To unmount them, use =diskutil unmount=
+
+** Show Desktop
+- =F11= (might have to enable in Mission Control settings)
+
+** Clear terminal scrollback
+- To clear terminal scrollback in MacOS: =Edit -> Clear Scrollback=
+
+** Set Terminal Title
+- To set the terminal title: =echo -n -e "\033]0;YOUR TITLE HERE\007"=
+- Turn this into a zsh function:
+  #+BEGIN_EXAMPLE
+    function title {
+      echo -n -e "\033]0;$@\007"
+    }
+  #+END_EXAMPLE
+
+** JDK Setup Notes
+- To install a JDK from homebrew:
+  - Enable the AdoptOpenJDK brew tap: =brew tap AdoptOpenJDK/openjdk=
+  - Install OpenJDK 8 with =brew cask install adoptopenjdk8=
+- To easily switch JDK versions, add the following to your =.bashrc=
+  #+BEGIN_EXAMPLE
+    jdk() {
+        version=$1
+        export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+        java -version
+    }
+  #+END_EXAMPLE
+- AdoptOpenJDK installs its JDKs to =/Library/Java/JavaVirtualMachines/adoptopenjdk-<version>.<jdk|jre>=
+  - On my work machine: * =/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk= * =/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk=
+- To configure VS Code for Java development
+  - Install the [[https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack][Java Development Extension Pack]]
+  - Configure the JDK 8 runtime
+    - Open the settings for =Language Support For Java(TM) by Red Hat=
+    - Edit the =runtimes= variable
+    - Add the following to the =java.configuration.runtimes= array:
+      #+BEGIN_EXAMPLE
+        [
+            {
+                "name": "JavaSE-1.8",
+                "path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk"
+            },
+            {
+                "name": "JavaSE-11",
+                "path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk"
+            }
+        ]
+      #+END_EXAMPLE
+
+** Set up OpenSSL server so that you can SSH to localhost
+- =System Preferences -> Sharing -> Remote Access= - add your user to the list of authorized users
+
+** Python Setup
+- =brew install pyenv= to install the PyEnv Python environment manager
+- =pyenv install <latest Python version>=
+- Set the global version of Python: =pyenv global <latest Python version>=
+- Add the following to your =.zshrc=:
+  #+BEGIN_EXAMPLE
+    if command -v pyenv 1>/dev/null 2>&1; then
+        eval "$(pyenv init -)"
+    fi
+  #+END_EXAMPLE
+- Restart any open shells
+
+** PyEnv build failure
+- When installing Python 3.6 with PyEnv, I got the following error:
+  #+BEGIN_EXAMPLE
+    BUILD FAILED (OS X 11.6 using python-build 20180424)
+    Inspect or clean up the working tree at /var/folders/kl/kdmhzxcj3t39cx9jz91z4rrm0000gp/T/python-build.20211202104531.1551
+    Results logged to /var/folders/kl/kdmhzxcj3t39cx9jz91z4rrm0000gp/T/python-build.20211202104531.1551.log
+    Last 10 log lines:
+            ret = sendfile(in, out, offset, &sbytes, &sf, flags);
+                  ^
+    ./Modules/posixmodule.c:10432:5: warning: code will never be executed [-Wunreachable-code]
+        Py_FatalError("abort() called from Python code didn't abort!");
+        ^~~~~~~~~~~~~
+    clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include   -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include   -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers -Wstrict-prototypes   -I. -I./Include -I/usr/local/opt/readline/include -I/usr/local/opt/readline/include -I/Users/rpatnaik/.pyenv/versions/3.6.15/include  -I/usr/local/opt/readline/include -I/usr/local/opt/readline/include -I/Users/rpatnaik/.pyenv/versions/3.6.15/include   -DPy_BUILD_CORE  -c ./Modules/_codecsmodule.c -o Modules/_codecsmodule.o
+    1 warning and 1 error generated.
+    make: *** [Modules/posixmodule.o] Error 1
+    make: *** Waiting for unfinished jobs....
+    1 warning generated.
+  #+END_EXAMPLE
+- Looking in the log file, I see
+  #+BEGIN_EXAMPLE
+    ./Modules/posixmodule.c:8210:15: error: implicit declaration of function 'sendfile' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+        ret = sendfile(in, out, offset, &sbytes, &sf, flags);
+  #+END_EXAMPLE
+- [[https://github.com/pyenv/pyenv/issues/1740#issuecomment-738749988][This bug]] seems to recommend the following
+  1. =brew reinstall zlib bzip2=
+  2. Add the following environment variables
+     #+BEGIN_EXAMPLE
+       export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
+       export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
+     #+END_EXAMPLE
+  3. Run =pyenv install 3.6.15=
+- Still got same error
+- Try running the following
+  #+BEGIN_EXAMPLE
+    sudo rm -rf "/Library/Developer/CommandLineTools"
+    xcode-select --install
+  #+END_EXAMPLE
+- Reinstalling the XCode command line tools didn't help either
+- One telltale is that I'm seeing the build process use =zlib= from XCode command line tools
+- I tried installing Python 3.6 with the following command and it worked:
+  #+BEGIN_EXAMPLE
+    CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix bzip2)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib" pyenv install --patch 3.6.15 < <(curl -sSL https://github.com/python/cpython/commit/8ea6353.patch\?full_index\=1)
+  #+END_EXAMPLE
+  - Had to =brew install openssl=
+- But now =pyenv= won't switch the version of Python I have installed
+- Uninstall =pyenv= with =brew uninstall pyenv= and =rm -rf "/Users/rpatnaik/.pyenv"=
+- Reinstall pyenv with =curl https://pyenv.run | bash=
+- Add the following to =/Users/rpatnaik/.zshrc=:
+  #+BEGIN_EXAMPLE
+    export PATH="$HOME/.pyenv/bin:$PATH"
+    eval "$(pyenv init --path)"
+    eval "$(pyenv virtualenv-init -)"
+  #+END_EXAMPLE
+- Restart the shell
+- Reinstall python versions
+  - Install 3.6.15 with the command from above:
+    #+BEGIN_EXAMPLE
+      CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix bzip2)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib" pyenv install --patch 3.6.15 < <(curl -sSL https://github.com/python/cpython/commit/8ea6353.patch\?full_index\=1)
+    #+END_EXAMPLE
+- No solution, but I did manage to work around the issue by having PyCharm create a new virtualenv with the interpreter at =$HOME/.pyenv/versions/3.6.15/bin/python=
+
+** Set up Visual Studio Code on the command line
+- Launch VSCode
+- Hit Cmd-Shift-P to bring up the command palette
+- Run =shell-command: install 'code' command in path=
+
+** Apple Silicon
+- [[https://isapplesiliconready.com/][Apple Silicon App Compatibility List]]
+
+** BBEdit Serial Number
+- =BEE130-385CD-LKC3Y-767U4=
+
+** Open Force Quit dialog
+- =Cmd-Option-Esc=
+- To force quit the current app: =Cmd-Option-Shift-Esc=
+
+** Hide and show dock
+- =Cmd-Option-D=
+
+** Add italics support to terminal
+- Check if your terminal supports italics by running =echo "$(tput sitm)italics$(tput ritm)"=
+- If the above text does not show up in italics, add the italics definition to =terminfo=:
+  - Create a plain text file called =xterm-256color-italic.terminfo.txt= with the following contents:
+    #+BEGIN_EXAMPLE
+      xterm-256color-italic|xterm with 256 colors and italic suppport
+        sitm~\E[3m, ritm~\E[23m,
+        use=xterm-256color,
+    #+END_EXAMPLE
+  - Run =tic -o ~/.terminfo xterm-256color-italic.terminfo.txt=
+  - Set the =TERM= environment variable to =xterm-256color-italic=
+
+** Eject external drive
+- Use =diskutil list= to list all drives on the system
+- Use =diskutil unmountDisk= to unmount a drive

@@ -1,0 +1,10 @@
+* GIMP Notes
+
+** View image size
+- Image → Image Properties
+
+** Draw a straight line
+- Select the pencil tool
+- Click on the image where you want to start the line
+- Hold =Shift= and =Ctrl=
+- Click on the image where you want to end the line

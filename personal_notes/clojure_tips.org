@@ -1,0 +1,1524 @@
+#+OPTIONS: H:6 toc:6
+#+TITLE: Clojure Tips
+
+* /Programming Clojure/ Notes
+
+** Chapter 1: Getting Started
+- Clojure comes with a REPL which allows you to run statements interactively
+- Hello world
+  #+begin_example
+    (println "Hello world")
+  #+end_example
+- We can encapsulate our "Hello world" in a function
+  #+begin_example
+    (defn greet [name] (str "Hello, " name))
+  #+end_example
+  - =defn= defines a function
+  - =greet= is the function name
+  - =name= is the argument to the function
+  - =str= is a function that takes arbitrary number of strings and concatenates them into a single string
+- To run our greeter function:
+  #+begin_example
+    (greet "Steve")
+    -> "Hello, Steve"
+  #+end_example
+- The REPL defines several special variables
+  - =*1=, =*2=, and =*3= are the three most recent expressions
+  - =*e= holds the most recent exception
+  - =(pst)= prints the most recent stack trace
+- To load code from a file at the REPL: =(load-file <filename>.clj)=
+- Adding state
+  - Most Clojure functions are pure
+    - Output depends only on input arguments
+    - No side effects
+  - However, most programs will need to keep track of some kind of state
+  - Clojure manages state with /atoms/
+    - To create an atom: =(atom <initial state>)=
+    - =(atom #{})= creates an atom with an initial state of an empty set
+  - Assign a name to the atom with =def=
+    - =(def <symbol> <value>)=
+    - In this case, we can do =(def visitors (atom #{}))= to create an atom named =visitors= which we can use to keep track of visitors
+  - To update an atom, use =swap!=
+    - =(swap! <symbol> <update-fn> <args>)=
+    - For example, to add a visitor, we can do: =(swap! visitors conj "Steve")=
+    - This runs =conj= with the argument ="Steve"= on the atom pointed to by =visitors=
+    - Clojure data structures are generally immutable
+    - What =swap!= does is run the update function on the data structure pointed to by the atom, and then swaps the atom to point at the new data structure returned by the update function, hence the name
+  - To read the value of an atom, we can use =(deref)= or =@=
+    - =(deref visitors)= → ="Steve"=
+    - =@visitors= → ="Steve"=
+  - Thus, we can create a modified version of the greeter function that can keep track of who it's greeted
+    #+begin_example
+      (def greeted (atom #{}))
+      (defn greet [name]
+	(swap! greeted conj name)
+	(str "Hello ," name))
+    #+end_example
+  - We can run =@greeted= to see who the function has greeted
+- Navigating Clojure libraries
+  - Clojure code is often packaged in libraries
+  - Each library belongs to a namespace
+  - To load a library, use =require=: =(require '<quoted-namespace-symbol>)=
+    - =(require 'clojure.java.io)=
+    - The symbol needs to be quoted
+
+** Chapter 2: Exploring Clojure
+
+*** Reading Clojure
+
+**** Numbers
+- Start with a simple example: =(+ 2 3)=
+- This is an expression
+- All Clojure code is made up of expressions
+- Every expression, when evaluated, returns a value
+- Clojure treats lists, enclosed by =( )= as function calls
+  - First element is the function
+  - Remaining elements are arguments
+  - Prefix notation
+- One advantage of prefix notation is that common mathematical operators can be extended to operate on arbitrary amounts of numbers
+  - =(+ 2 3 5) → 10=
+  - =(+) → 0= --- Clojure functions "do the right thing" when called with degenerate arguments; this avoids having to write special cases in your code
+- Addition, subtraction, multiplication and comparison operators work much as you'd expect
+  - =(+ 2 3)= → =5=
+  - =(- 10 5)= → =5=
+  - =(* 3 10 10)= → =300=
+  - =(> 5 2)= → =true=
+  - =(< 5 2)= → =false=
+  - =(​= 5 2)= → =false=
+- Division is a bit different
+  - =(/ 22 7)= → =22/7=
+  - Clojure has a built in fraction type which is the result of integer division
+  - To do floating point division, make one of the arguments a floating point value: =(/ 22.0 7)= → =3.1428...=
+  - We can get the integer quotient and remainder with =quot= and =rem=
+    - =(quot 22 7)= → =3=
+    - =(rem 22 7)= → =1=
+- To do arbitrary precision floating point math, append =M= to the number to convert it to a Java =BigDecimal=
+- To do arbitrary length integer math, append =N= to the number to convert it to a Java =BigInt=
+
+**** Symbols
+- Forms such as =+=, =concat= and =java.lang.String= are called /symbols/
+- Symbols name things
+  - Functions, like =+=, =str= and =concat=
+  - Java classes like =java.lang.String= and =java.util.Random=
+  - Clojure namespaces like =clojure.core=
+  - Java packages like =java.util=
+- Symbols cannot start with a number, but may contain alphanumeric characters, as well as =+=, =-=, =*=, =/=, =?=, =!=, =.=, =_= and ='=
+  - Although you may use =/= and =.= in your symbols, you shouldn't because Clojure assigns special meanings to those characters in the context of namespace names
+- Symbols are namespaced; different namespaces may define the same symbol
+
+**** Collections
+- Clojure provides 4 primary collection types
+  - Lists
+  - Vectors
+  - Sets
+  - Maps
+- All collections are heterogenous, and are compared explicitly based on their contents
+- Vectors are indexed collections
+  - To create a vector: =[1 2 3]=
+- Lists are linked lists
+  - Printed as =(1 2 3)=, but cannot be input that way because Clojure would interpret the list as a function invocation
+  - Instead we need to quote them to prevent evaluation: ='(1 2 3)=
+- Sets are /unordered/ collections that do not have duplicates: =#{1 2 3}=
+  - Printing a set may show the the elements of the set in a different order than they were input
+  - This is expected; after all the collection is unordered
+- Maps are key/value pairs: ={"Lisp" "McCarthy", "Clojure" "Hickey"}=
+  - Like sets, maps are unordered
+  - Although the example above used commas to separate pairs, commas are not necessary; indeed Clojure treats commas as whitespace
+  - Any Clojure data structure may be a map key; this is possible because of the immutable nature of Clojure data structures
+
+**** Keywords
+- A keyword is a symbol that begins with =:=
+- All keywords evaluate to themselves
+- Often used as map keys for that reason
+
+**** Records
+- If you're creating many maps with common keys, you can define a template for those maps as a =record=: =(defrecord record-name [record-keys])=
+  - Ex: =(defrecord book [title author isbn])=
+  - Then you can use the constructor function created for you by =defrecord= to create new maps with the given keys: =(->Book "War and Peace" "Toltstoy" "111-1111-11111111")=
+  - Can create an instance of the =Book= record from a map with =map->Book=: =(map->Book {:title "War and Peace" :author "Tolstoy" :isbn "111-1111-11111111"})=
+- Records behave like maps in most cases, /but not all/
+  - Notably, in equality comparisons, maps do not equal records
+  - Example
+    #+begin_src clojure
+      (defrecord book [title author isbn])
+      (= (map->book {:title "1984"
+                     :author "Orwell, George"
+                     :isbn "test_isbn"})
+         {:isbn "test_isbn"
+          :title "1984"
+          :author "Orwell, George"})
+    #+end_src
+  - This is =false=, even though the map and the record have the same keys and the same values
+  - In unit tests, use the record constructor to create the expected values
+
+**** Strings and Characters
+- Strings are delineated by double quotes
+- Can span multiple lines
+- The most common string function is Clojure is =str=, which takes several strings and combines them
+- Converts non-strings to their string representations
+- Clojure also allows you to create individual characters with =\<character>=
+  - =\e= → ='e'=
+
+**** Booleans and =nil=
+- Rules for booleans
+  - =true= is true
+  - =false= is false
+  - =nil= is null and is treated as false in a boolean context
+  - Everything else is treated as true in a boolean context
+- Notably, in Clojure, the empty list =()=, =0=, and the empty string =""= are all treated as /true/ in a boolean context
+- To specifically check for boolean values, use the predicates =true?=, =false?= and =nil?=
+  - Note that these predicates specifically check for the symbols =true=, =false= and =nil= respectively
+  - Don't evaluate their arguments in a boolean context
+- =zero?= checks if any numeric type is =0=
+
+**** Functions
+- A Clojure function call is a list where the first element is a function
+- Multi-word function names are usually hyphenated: =multi-word-function=
+- To define functions, use =defn=
+  - =(defn name doc-string? attr-map? [params] prepost-map? body)=
+  - =name= is a symbol that will refer to the function
+  - =doc-string= is an optional string that will be printed when you use =doc= to look up the documentation for the function
+  - =attr-map= associates metadata with the function's var (covered in /metadata/, below)
+  - =prepost-map= is a map that defines pre-conditions and post-conditions that are checked automatically when the function is invoked
+  - =body= is any number of Clojure expressions
+- The return value of a function is the return value of the last expression in the body
+- Example:
+  #+begin_example
+    (defn greeting [username]
+      "Returns a greeting of the form 'Hello, username'"
+      (str "Hello, " username))
+  #+end_example
+- Call =greeting= as follows
+  #+begin_example
+    (greeting "world")
+    -> "Hello, world"
+  #+end_example
+- To create a greeting function that returns a default greeting if =username= is omitted, we can use the alternate form of =defn=, which takes multiple argument lists and function bodies
+  #+begin_example
+    (defn greeting
+      ([] (greeting "world"))
+      ([username] (str "Hello, " username)))
+  #+end_example
+  - Note that the different versions of the function can call each other
+- We can create functions which take a variable number of arguments by including an ampersand in the argument list
+  - There can only be one variable arity param and it must come last, after the =&=
+  - After all named parameters are bound, the remainder of the params are bound to the variable-arity param
+  #+begin_example
+    (defn grep [regex & files] ...)
+  #+end_example
+- =defn= is intended for creating top-level functions
+
+**** Anonymous Functions
+- Clojure also allows the creation of unnamed functions (i.e. anonymous functions) with =fn=
+  #+begin_example
+    (fn [params] body)
+  #+end_example
+- A shorter form is =#(body)=
+  - Arguments can be referred to with =%1 %2 %3 ...=
+  - The first argument can also be referred to with =%= for maximum brevity
+- 3 reasons to create anonymous functions
+  - Function is so brief and self-explanatory that assigning it a name would complicate the code
+  - Function will only be used inside another function, and so it is unnecessary to give it a global name
+  - Function is created insided another function for the purpose of capturing the values of params or other local bindings
+- A common use for anonymous functions is defining ad-hoc predicates to pass into filters
+- Another common use case for anonymous functions is when you need to return a function as data
+  #+begin_example
+    (defn make-greeter
+      ([] (make-greeter "Hello, "))
+      ([prefix] (#(str prefix %))))
+  #+end_example
+  - Here we define a function that creates a variety of greeter functions
+- When to use anonymous functions
+  - Anonymous functions are /never/ required
+  - Anywhere you pass in an anonymous function, you can create a named function and pass that in instead
+  - Overuse of anonymous functions can make code very difficult to follow
+
+**** =apply=
+- =apply= is a Clojure function that takes a function, a number of single arguments and a collection
+- Runs the given function with the single arguments and the contents of the collection
+- For example: =(apply + 1 2 3 [4 5 6])= is the same as =(+ 1 2 3 4 5 6)=
+- It's like =xargs= but in Clojure
+
+*** Vars, Bindings, and Namespaces
+
+**** Vars
+- A =var= is an assignment from a symbol to something else
+- Created with =def=
+  #+begin_example
+    (def foo 3)
+  #+end_example
+  - Assigns =foo= to the value =3=
+- =defn= can be thought of as a fancy form of =(def (fn ...))= --- assigning a symbol to represent a function
+- vars return their value when evaluated
+- If we want to prevent evaluation and refer to the var directly, we need to use the =#'= macro
+- Most of the time we don't care about the distinction between the var itself and the value that it points to
+- The same var can be rebound to different names in different namespaces
+
+**** Bindings
+- vars are bound to names
+- There are other kinds of bindings
+  - Function arguments are bound to parameters in a function call
+- Function arguments have lexical scope --- binding is only valid inside the function
+- Another way to create a new lexical scope is with =let=
+  #+begin_example
+    (let [pi 3.14
+	  height 7
+	  radius 5]
+      (* height (* pi (* radius radius))))
+  #+end_example
+- Note that Clojure's =let= doesn't encase its bindings in any kind of data structure --- just a straight vector where every pair of elements in the vector is a name and its corresponding binding
+
+**** Destructuring
+- Clojure allows you to bind names to parts of complex data structures, without having to bind a name to the entire data structure
+- Assume we have a =person= data type defined as
+  #+begin_example
+    (defrecord person [first-name last-name])
+  #+end_example
+- If we want to greet people by their first name, we can do
+  #+begin_example
+    (defn greet [{fname :first-name}])
+  #+end_example
+- This way we don't have to bind the entire =person= record to access a part of it
+- To destructure sequential collections, use a vector instead of a map
+  #+begin_src clojure
+    (defn volume [[length width height]]
+      (* length width height))
+  #+end_src
+- If you want to skip elements while destructuring, bind the element you want to skip to =_=
+  #+begin_example
+    (defn foo [[_ _ val]] ...)
+  #+end_example
+- Destructuring has many other features which are documented in the documentation for [[https://clojure.org/reference/special_forms#binding-forms][binding forms]] and the [[https://clojure.org/guides/destructuring][destructuring guide]]
+
+**** Namespaces
+- All root bindings (i.e. those outside of a function or =let=) live in a namespace
+- When you're at the REPL, you're usually working in the =user= namespace
+- When Clojure resolves a symbol, it looks in the current namespace
+- To see which var a symbol will resolve to in the current namespace, use =resolve=
+  #+begin_example
+    (def foo 10)
+    (resolve 'foo)
+  #+end_example
+  - Note that =foo= is quoted to prevent evaluation
+- We can set up our own namespaces with the =ns= macro
+  #+begin_example
+    (ns example
+      (:require [clojure.string :as str])
+      (:import (java.io File)))
+  #+end_example
+- The =ns= macro can do a lot of things, and it's best to look at the [[https://clojure.org/guides/learn/namespaces][tutorial]] and [[https://clojure.org/reference/namespaces][documentation]]
+
+**** Metadata
+- In Clojure, /metadata/ is data that is orthogonal to the value of a var
+- Clojure itself uses metadata for lots of things
+  - Documentation
+  - Type info
+  - Source code locations
+- To view the metadata of a var, use =meta=
+  #+begin_example
+    (meta #'foo)
+  #+end_example
+  - Note the usage of =#'= to ensure that we get the var that the symbol points to, rather than the value contained in the var
+- To add user-defined metadata, use the =^= form: =^metadata form=
+- For example
+  #+begin_example
+    (defn ^{:tag String} shout [^{:tag String} s] (clojure.string/upper-case s))
+  #+end_example
+  - In this case we use the =:tag= key to define the return type for the function and the type of the argument
+  - This is a very common use case, so Clojure allows us to use =^String= instead of =^{:tag String}= to indicate type information
+
+*** Calling Java
+- To instantiate a Java class: =(new ClassName)=
+  - A shorter form is to just invoke the classname with a period appended: =(ClassName.)=
+- Method call: =(.method instance & args)=
+- Field access: =(.-field instance & args)=
+- Static method: =(ClassName/method & args)=
+- Static field: =ClassName/field=
+
+*** Comments
+- The most common form of comments is: =;=, which comments out the remainder of the line
+- =;= is usually doubled =;;= to make it more visually distinct
+- Another way to comment something out is with the =#_= reader macro, which tells Clojure to read the next form but not evaluate it
+- Note that if you use =#_=, the thing being commented out has to be syntactically valid, because the reader is still reading and parsing it
+
+*** Flow Control
+
+**** Branch with =if=
+- =if= evaluates its first argument and returns the second if the first one is true in a boolean context
+  - See /Booleans and nil/ section above for what is and is not =true= in a boolean context
+  - If you want to return a different value when the first argument is false in a boolean context, add a third argument to =if=
+
+**** Introduce side effects with =do=
+- =if=, on its own, only evaluates one form for each branch
+- What if you want to do more than one thing?
+- =do= evaluates all of its forms and returns the value returned by the last form
+
+**** Iterate with =loop= and =recur=
+- Clojure doesn't include traditional looping constructs
+- Instead, it has the =loop= / =recur= pattern
+- Use =loop= to establish a /recursion point/
+  #+begin_example
+    (loop [bindings]
+      expressions)
+  #+end_example
+- Then use =recur= inside the =loop= expression to re-start the loop with new values: =(recur & new binding values)=
+- Example:
+  #+begin_example
+    (defn countdown [n]
+      (loop [result []
+	     x n]
+	(println x)
+	(if (> x 0)
+	  (recur (cons x result) (dec x))
+	  result)))
+  #+end_example
+- Note that functions also introduce recursion points
+- Clojure doesn't do automatic tail call optimization; if you want to do a tail call, use =recur= rather than recursively calling the function
+
+** Chapter 3: Unifying Data With Sequences
+- Clojure uses a single abstraction, =seq= to operate on many different types of data
+- A =seq= is a logical list
+- Can apply to
+  - All Clojure collections
+  - All Java collections
+  - Java arrays and strings
+  - Regular expression matches
+  - Directory structures
+  - I/O streams
+  - XML trees
+- Clojure's sequence library gives a set of common operations that can be used on any =seq=
+- The sequence library is so powerful because so many things conform to the sequence abstraction
+
+*** Everything Is A Sequence
+- Every aggregate data structure in Clojure can be viewed as a =seq=
+- A =seq= has 3 capabilities
+  - Get the first item: =(first seq)=
+  - Get the remaining items: =(rest seq)=
+  - Construct a new sequence by adding an element: =(cons elem seq)=
+- The =seq= function turns any collection into a generic =seq=: =(seq coll)=
+- =next= returns a =seq= of all elements after the first: =(next seq)= → =(seq (rest seq))=
+- Note that applying sequence operations to a specific data type, such as a vector results in a =seq=, not the original data type
+- =seq?= checks if something is a =seq=
+- How are unordered data types treated as =seq=
+  - Hashmaps are a =seq= of key/value pairs
+  - A set is a =seq= of values
+  - Since these data types are unordered, you shouldn't rely on the elements appearing in the =seq= in any particular order
+- If you want to traverse a set or a hashmap in a particular order, you'll need to create a =sorted-set= or a =sorted-hashmap=
+  - =(sorted-set & elements)=
+  - =(sorted-map & elements)=
+  - To create a sorted set or sorted map from an existing set or map, use =apply=
+- There are two helpful functions for combining =seq=​s
+  - =conj= --- adds one or more elements to a =seq=: =(conj collection element & more-elements)=
+  - =into= --- "pours" one collection into another: =(into to-coll from-coll)=
+  - =conj= and =into= both pick the most efficient spot to add new items
+    - Lists → add to front
+    - Vectors → add to back
+    - This allows code using these functions to be decoupled from the specific implementations while still being efficient
+- Most Clojure sequences are immutable
+- Operations on sequences return new sequences with the changes applied
+- Clojure sequences can be lazy --- only generate new elements when asked
+- This allows sequences to represent large or even infinite data sets
+
+*** Using the sequence library
+
+**** Creating sequences
+- =range= produces a lazy sequence that enumerates a range of numbers: =(range start? end? step?)=
+  - If =start= is unspecified, it defaults to =0=
+  - If =end= is unspecified, it defaults to positive infinity (this is possible because it's a /lazy/ sequence)
+  - If =step= is unspecified, it defaults to =1=
+  - If nothing is specified, =range= creates a sequence of all the integers
+- =repeat= allows you to repeat an element =n= times: =(repeat num-reps? elem)=
+  - If =num-reps= is omitted, =repeat= yields an infinite repetition of the same value
+- =cycle= takes a collection and cycles it infinitely: =(cycle coll)=
+  - =(cycle [1 2 3])= → =(1 2 3 1 2 3 1 2 ...)=
+- =interleave= takes =n= sequences, and returns the first element from each, followed by the second element from each, and so on
+  - Combined sequence ends when any of the component sequences ends, i.e. the length of the combined sequence is limited by the shortest of the input sequences
+- =interpose= returns a new sequence with each of its elements separated by a given value: =(interpose separator coll)=
+  - A common usage of interpose is to build delimited strings, i.e. =(apply str (interpose delimiter coll))=
+  - Clojure provides a performance optimized version of this in =clojure.string=: =join=
+- For each of Clojure's collection types, there is a corresponding creation method that takes an arbitrary number of elements and groups them into that collection
+  - Lists → =list=
+  - Vector → =vector=
+  - Set → =hash-set=
+  - Map → =hash-map=
+  - In addition vectors and sets have creation functions that can take collections
+    - Set → =set=
+    - Vector → =vec=
+
+**** Filtering Sequences
+- Clojure provides a number of ways to get a subsequence of an existing sequence
+- =filter=: =(filter predicate-fn coll)=
+  - Returns a sequences where only those elements that satisfy =predicate-fn= are included
+- We can take from a filter until a a predicate returns false with =take-while=
+  - Example: return all elements before =:end=
+    #+begin_example
+      (take-while #(not (= % :end)) '(1 2 5 17 20 9 :end 12 10 13))
+    #+end_example
+  - Example: Get all letters in a string up to the first vowel
+    #+begin_example
+      (let [vowel? #{\a \e \i \o \u}
+	    consonant? (complement vowel?)]
+	(take-while consonant? "dbcfghlsnafgt"))
+    #+end_example
+    - Sets act as functions that take a value and return it if it is in the set or =nil= if it is not in the set
+    - =complement= is a convenience function that takes a function and returns a function that returns false if the given function returns truthy
+- The opposite of =take-while= is =drop-while=
+- =split-at= --- takes a sequence and returns two sequences representing the elements before a given index and the elements at and after a given index
+- =split-with= --- splits a sequence when a given predicate is true
+
+**** Sequence predicates
+- Sequence predicates allow you to answer questions about sequences as a whole
+- =every?= checks to see if every element satisfies a given predicate
+- =some= returns the first value that satisfies a predicate or =nil= if no value satisfies a predicate
+  - Note that =some= is itself not a predicate --- it returns the first satisfying value or =nil=, rather than =true= or =false=
+- =not-every?= checks to see if at least one elements fails the given predicate
+- =not-any?= checks to see if every element fails a given predicate
+
+**** Transforming sequences
+- The simplest way to transform a sequence is with =map=
+  - =(map transform-fn coll)=
+  - =map= applies =transform-fn= to every element in a collection and returns a new collection with the results
+- Another common transformation function is =reduce=
+  - =(reduce reducer-fn coll)=
+  - =reduce= applies =reducer-fn= to the first two items in the collection, then takes the result and applies =reducer-fn= to it and the third item in the collection and so on
+  - Useful for functions that take a sequence and "summarize" it into a single value
+- Sequences can be sorted with =sort= or =sort-by=
+  - =sort= sorts a collection in its "natural" order
+  - =sort-by= calls a function on each element in the collection and sorts the collection by the natural order of the output of that function
+  - Both =sort= and =sort-by= take a comparator function if you don't want to sort by the natural order
+  - /I don't know why you need =sort-by= when =sort= can take a custom comparator/
+- The most general case of sequence transformation is the list comprehension
+  - Consists of:
+    - Input list
+    - Placeholder bindings for elements in input list
+    - Predicates to run on each element
+    - Output expression that transforms each element in the input list that satisfies the predicate
+  - Clojure uses =for= for its list comprehensions
+    #+begin_example
+      (for [binding-form coll-expr filter-exp?] expr)
+		  ↑         ↑           ↑        ↑
+	      symbols      input     filter     transformation
+	    to bind input  colls    to run      exprs to turn
+	    elems to                over each   inputs into
+				    input coll  outputs
+    #+end_example
+  - Example: triple every odd number
+    #+begin_example
+      (for [x (range 20) :when (odd? x)] (* x 3))
+    #+end_example
+    - Note: Clojure has the predicates =even?= and =odd?= to check the arity of numbers
+    - =:when= runs the expression on the bound values that match the predicate
+    - =:while= continues evaluation while the predicate returns true and stops the =for= when the predicate returns a falsy value
+  - =for= can work with multiple binding expressions
+    #+begin_example
+      (for [file "ABCDEFGH"
+	    rank (range 1 9)]
+	(format "%c%d" file rank))
+    #+end_example
+    - Generates a seq of all the chess squares from =A1= to =H8=, starting with =A1=, then =A2=, then so on until =H8=
+    - Iterates the right-most binding expression first, then works its way left
+    - If you want to generate the squares by rank, instead of by file, reverse the order of the binding expressions
+
+**** Lazy and Infinite Sequences
+- Most Clojure sequences are lazy
+- Only retrieve the next item when it's asked for
+- Benefits of lazy sequences
+  - Postpone expensive lookups that may never be needed
+  - Work with data that doesn't fit in memory
+  - Delay I/O until it is absolutely necessary
+- Use =take= to reify data from a lazy sequence
+  #+begin_example
+    (take n seq)
+  #+end_example
+- Use =doall= to force evaluation of the entire sequence
+- =dorun= is like =doall=, but it doesn't store the result of the sequence evaluation in memory → useful if you need to evaluate the sequence for a side effect
+
+*** Clojure Makes Java Seq-able
+- Clojure wraps Java collections allows you to use sequence operations on them
+- Wraps
+  - Arrays
+  - HashTables
+  - Maps
+- Remember: the sequence abstraction treats the underlying collection as immutable, even when it's mutable
+- A sequence operation always produces a /new/ sequence, regardless of the mutability of the underlying collection
+- This makes reversing a string in Clojure a bit strange
+  - One would expect =reverse= to return a string, when applied to a string
+  - However, =reverse= is a sequence operation, so it returns a =seq= of characters
+    #+begin_example
+      (reverse "hello")
+      -> (\e \l \l \o \h)
+    #+end_example
+  - In order to get a string, we need to call =str= on the output characters with =apply=
+    #+begin_example
+      (apply str (reverse "Hello"))
+      -> "olleH"
+    #+end_example
+
+**** Seq-ing regular expressions
+- Use re-seq to create an immutable seq of matches from a string: =(re-seq regex string)=
+- Clojure has a literal syntax for regular expressions: =#""=
+- Use =nth= to get the nth match
+
+**** Seq-ing the file system
+- To depth-first recusively walk a directory tree, use =file-seq= on the file object representing the directory
+  #+begin_example
+    (import java.io File)
+    (count (file-seq (File. "/home/quanticle/")))
+  #+end_example
+
+**** Seq-ing a stream
+- =line-seq= yields a seq of all the lines in a stream
+- To get a reader for a stream, use =clojure.java.io.reader=
+  #+begin_example
+    (require '[clojure.java.io :refer [reader]])
+    (take 2 (line-seq (reader "/home/quanticle/foo.txt")))
+  #+end_example
+  - Takes the first two lines from =foo.txt=
+  - The above example leaves the file handle open, which wastes system resources
+  - Use =with-open= to ensure that system resources are released when processing is complete
+    #+begin_example
+      (with-open [rdr (reader "/home/quanticle/foo.txt")]
+	(take 2 (line-seq rdr)))
+    #+end_example
+
+*** Calling structure-specific functions
+- While the =seq= abstraction is general and powerful, sometimes you want to take advantage of the specific characteristics of a given data type
+
+**** Functions on lists
+- =peek= → gets the first element of the list
+- =pop= → gets everything except the first element of the list
+- Unlike =rest= =pop= throws an exception for an empty list
+
+**** Functions on vectors
+- =peek= and =pop= operate on vectors too, but they refer to the /last/ element, rather than the first
+- Vectors are themselves functions of their indices
+  #+begin_example
+    (let [foo [7 8 9]]
+      (foo 1))
+    -> 8
+  #+end_example
+- =get= takes a vector and index and returns the value at that index or =nil= otherwise
+  - Otherwise you get an =IndexOutOfBoundsException=
+- =assoc= associates an index with a new value
+  #+begin_example
+    (let [numbers [1 2 3]]
+      (assoc numbers 1 :two))
+    -> [1 :two 3]
+  #+end_example
+- =subvec= returns a subvector: =(subvec vector start end)=
+  - If the =end= is not specified, the end of the subvector is assumed to be the end of the original vector
+  - Throws =IndexOutOfBoundsException= if either =start= or =end= are outside the vector
+  - While we can accomplish the same task with =drop= and =take=, =subvec= is much faster than the sequence abstraction
+
+**** Functions on maps
+- =keys= returns a sequence of all the keys in a map
+- =vals= returns a sequence of all the values in a map
+- To retrieve the value for a specific key
+  - =(get map key default-value?)= → returns the value stored in the map for the given key, and returns the default value if not found
+  - Maps are functions of their keys
+  - If the keys are keywords, then the keyword can be used as a function that takes in a map and returns the value for that keyword if it is present
+- =contains?= checks whether a key is in a map
+  - If you're not sure whether a key is in a map or whether a key is present but assigned to =nil= use =contains?= to check for the key or use =get= with a non-nil default value
+- =assoc= returns a map with a given key value pair added
+  #+begin_example
+    (let [personal-info {:first-name "Rohit"
+			 :last-name "Patnaik"}]
+      (assoc personal-info :id "772189"))
+    -> {:first-name "Rohit", :last-name "Patnaik", :id "772189"}
+  #+end_example
+- =dissoc= returns a map with a given key and its associated value removed
+- =select-keys= returns a map, keeping only a specified set of keys and their corresponding values
+- =merge= combines maps
+  #+begin_example
+    (let [first-map {:foo "bar"}
+	  second-map {:baz "qux"}]
+      (merge first-map second-map))
+    -> {:foo "bar", :baz "qux"}
+  #+end_example
+  - =merge= will use the right-most value if maps have overlapping keys
+  - If you want to specify your own conflict resolution, use =merge-with=
+    #+begin_example
+      (let [score-1 {:player-1 52
+		     :player-2 83}
+	    score-2 {:player-1 79
+		     :player-2 47}]
+	(merge-with + score-1 score-2))
+      -> {:player-1 131, :player-2 130}
+    #+end_example
+
+**** Functions on sets
+- In addition to the set functions in =clojure.core=, Clojure also has the =clojure.set= namespace
+- To use these functions without having to specify their full namespaced name: =(require '[clojure.set :refer :all])=
+- =clojure.set= includes the basic operations from set theory
+  - =union= → returns a set with all the elements that are in any of the input sets
+  - =intersection= → returns a set with all elements common to both sets
+  - =difference= → returns a set that has all the elements in the first set which are not in the second set
+  - =select= → returns a set containing all elements that match a predicate
+- Clojure sets and maps have everything needed to build a basic relational algebra system
+- Relational algebra consists of the following operations
+  - Set union
+  - Set difference
+  - Rename
+  - Projection
+  - Cross-product
+- Operates on /relations/, which are sets of maps, where each of the maps in the set has the same keys
+- In SQL terms, the set is the table and each map represents a row
+- =rename= takes a relation and a map which renames old keys to new ones
+  #+begin_example
+    (rename relation rename-map)
+  #+end_example
+- =select= returns maps for which a predicate is true
+  #+begin_example
+    (select predicate relation)
+  #+end_example
+- =project= returns only certain keys and their associated values
+  #+begin_example
+    (project relation keys)
+  #+end_example
+- =join= returns a subset of the cross product based on shared keys
+  #+begin_example
+    (join relation-1 relation-2 keymap?)
+  #+end_example
+  - =keymap= is an optional map that specifies which keys in relation-1 correspond to which keys in relation-2
+  - =join= is like an inner join
+- Clojure's relational algebra operators can operate on any set-relation data --- doesn't necessarily have to come out of a relational database
+
+** Chapter 4: Functional Programming
+
+*** Functional Programming Concepts
+
+**** Pure functions
+- A pure function is a function whose output depends solely on its arguments
+- Doesn't do anything other than return a value
+- Pure functions pair well with immutable data
+  #+begin_example
+    (defn mystery [input]
+      (if input data-1 data-2))
+  #+end_example
+- For =mystery= to be a pure function, =data-1= and =data-2= need to be immutable, otherwise the return value of the function will depend on something other than the value of =input=
+- Any function that touches mutable data is impure
+
+**** Persistent Data Structures
+- A naive approach to immutable data is to make a new copy of the entire data structure whenever you need to make a change
+- The problem with this approach is that this is slow and wastes a lot of memory
+- Instead, Clojure relies on persistent data structures
+- Persistent data structures are set up so that there is a shared underlying structure which can return older versions of the data
+- Example: persistent list
+  #+begin_example
+    (def a '(1 0))
+    (def b (cons 2 a))
+  #+end_example
+- When we create =b=, we could copy the entire list
+- But it would be more efficient to add an entry to the front of the list and keep separate references, as follows
+  #+begin_example
+    2     →     1     →     0
+    ↑           ↑
+    b           a
+  #+end_example
+  - This allows =b= to share the underlying data from =a=
+- For more on persistent data structures, look at
+  - [[https://lampwww.epfl.ch/papers/idealhashtrees.pdf][Ideal Hash Trees]], by Phil Bagwell
+  - [[https://web.archive.org/web/20090308150637/http://blog.higher-order.net/2009/02/01/understanding-clojures-persistentvector-implementation/][Understanding Clojure's PersistentVector Implementation]] by Karl Krukow
+
+**** Laziness and Recursion
+- Recursion is when a function calls itself, directly or indirectly
+- Laziness is when the evaluation of a function is postponed until the value of the function evaluation is needed
+- Clojure functions and expressions are generally not lazy
+- However, Clojure sequences and the functions that operate on sequences generally are
+- Using Clojure sequences as much as possible gets you many of the benefits of a fully lazily-evaluated languages without weird syntax
+- Laziness implies pure functions
+
+**** Referential transparency
+- A referentially transparent function is one which can be replaced by its result
+- Pure functions are referentially transparent
+- Laziness depends on referential transparency
+- Additional benefits of referential transparency
+  - Memoziation --- results of a function can be easily cached for later use
+  - Automatic parallelization --- function can be run in parallel across multiple processors simultaneously
+
+*** Benefits of Functional Programming
+- Easier to test --- don't need to mock external state
+- Easier to reuse --- can call function from any context
+
+*** Functional Programming Guidelines in Clojure
+- Clojure is a compromise between having a purely functional language and a language that runs well on the JVM
+- To write functional code in Clojure, follow these guidelines
+  - Avoid direct recursion --- the JVM doesn't have tail call optimization
+  - Use =recur= when producing scalar values or small sequences
+  - When producing large sequences, do not recur, instead use a lazy sequence
+  - Know the sequence library --- can often do what you need to do without using either =recur= or lazy APIs
+  - Subdivide problems --- split problem up into subproblems that can be solved with sequence processing
+
+*** How To Be Lazy
+- Functional programs often use recursive definitions
+  - Basis --- explicitly enumerated starting values
+  - Induction --- rule that generates the next value of a sequence from previous values
+- Converting a functional definition into efficient code can be challenging
+  - Simple recursion --- function that calls itself to implement the induction step
+  - Tail recursion --- function that calls itself only at the end --- enables an important optimization
+  - Lazy sequence --- only calculates values as they are needed
+- Apply the above techniques to generating the Fibonacci sequence
+  - Basis: \(F_{0} = 0, F_{1} = 1\)
+  - Induction: \(F_{n} = F_{n-1} + F_{n-2}\)
+- The simple recursion method of generating Fibonacci numbers is fairly straightforward
+  #+begin_example
+    (defn fibo [n]
+      (cond (= n 0) 0
+	    (= n 1) 1
+	    :else (+ (fibo (- n 1)) (fibo (- n 2)))))
+  #+end_example
+  - The problem with this function is that it will overflow the stack for even modest values of =n=
+
+**** Tail Recursion
+- Stack overflow in recursive programs can often be solved with tail recursion
+- Make a single recursive call only at the end of the function
+- This requires having a function whose arguments carry enough information to perform the induction
+- For the Fibonacci sequence, we need to pass two Fibonacci numbers, not just one
+  #+begin_example
+    (defn fibo [n]
+      (letfn [(fib [current next n]
+		(if (zero? n)
+		  current
+		  (fib next (+ current next) (dec n))))])
+	(fib 0N 1N n))
+  #+end_example
+  - Here we define an inner function, =fib=, whose arguments carry enough information to calculate a given element of the Fibonacci sequence
+  - Note the use of =letfn=, which is like =let=, but streamlined for creating local functions
+  - This version will still blow up the stack, however, because the JVM doesn't have automatic tail-call optimization
+
+**** Self-recursion with =recur=
+- We can explicitly tell the JVM that this is self-recursion with by replacing the tail call with =recur=
+  #+begin_example
+    (defn fibo [n]
+      (letfn [(fib [current next n]
+		(if (zero? n)
+		  current
+		  (recur next (+ current next) (dec n))))])
+	(fib 0N 1N n))
+  #+end_example
+- Swapping the explicit function call for =recur= allows the JVM to optimize the recursion and eliminates the stack overflow problem
+- Note how we take advantage of the fact that functions introduce recursion points, from chapter 2
+
+**** Lazy sequences
+- The =recur= version of =fibo= is great if we want to generate single Fibonacci numbers, but what if want a range of them?
+- Ideally we'd have a sequence that we can use =take= and =drop= on to efficiently get all the Fibonacci numbers we want
+- To create a lazy sequence, use the =lazy-seq= macro
+  #+begin_example
+    (lazy-seq & body)
+  #+end_example
+- To make a lazy sequence of the Fibonacci numbers
+  #+begin_example
+    (defn fibo
+      ([]
+	(concat [0 1] (fibo 0N 1N)))
+      ([a b]
+	(let [n (+ a b)]
+	  (lazy-seq (cons n (fibo b n))))))
+  #+end_example
+  - 2-arities
+    - Zero-arguments: base
+    - Two-arguments: induction
+  - The way this works is that we invoke the zero-argument version of =fibo= to get the sequence: =(fibo)=
+  - This calls =concat= with two values
+    - Initial two numbers in sequence
+    - Calculation of the next value given the previous two values, starting with the initial two values
+- To use
+  - =(take 10 (fibo))= → gets the first ten Fibonacci numbers
+  - =(nth (fibo) 1000)= → gets the 1000th Fibonacci number
+- However instead of implementing the lazy sequence with =lazy-seq=, we can use =iterate=, from the sequence library
+  #+begin_example
+    (defn fibo []
+      (map first (iterate (fn [[a b]] [b (+ a b)]) [0N 1N])))
+  #+end_example
+  - =iterate= takes a function and an initial value and returns a lazy seq consisting of that function applied to the initial value and every value thereafter
+  - The one difference between the =iterate= version and the =lazy-seq= version is that the iterate version stores the value of the next Fibonacci number in the sequence, whereas the =lazy-seq= version stores it in the function call
+  - So we need to map =first= to the sequence in order to get the value of the current Fibonacci number
+
+**** Coming To Realization
+- Clojure does its best to avoid realizing lazy sequences until a value (or values) are needed
+- However, the REPL is not lazy
+- Ex: =(take 1000000 (fibo))= will cause the REPL to generate and then print the first million Fibonacci numbers, even though the documentation for =take= indicates that it yields a lazy sequence
+- To preserve the lazy behavior, store the result of a calculation involving lazy sequences in a =var=
+
+**** Losing Your Head
+- Be careful about unintentionally holding a reference to a part of a lazy sequence you no longer care about
+- The most common way this occurs is by unintentionally holding a reference to the first element of a lazy sequence
+- For example, this is a very appealing way to write =fibo=
+  #+begin_example
+    (def fibo (lazy-cat [0N 1N]
+      (map + fibo (rest fibo))))
+  #+end_example
+  - Uses =lazy-cat=, which is like =concat=, but which only evaluates arguments when they are called
+  - Unfortunately, the fact that we're assigning =fibo= to a =var= means that we're storing a reference to the head of a sequence
+  - Prevents previous elements of the sequence from being garbage collected when they're no longer needed
+  - We see this if we try to get a large Fibonacci number, via =(first (drop 999999) fibo)= → results in =OutOfMemoryError=
+- Always expose lazy sequences as a function that returns the sequence, rather than a var that contains the sequence
+
+**** Lazier Than Lazy
+- Often we can solve problems without using =loop/recur= or defining our own lazy sequences
+- Example task, given a sequence of =:h= and =:t=, representing the outcomes of coin flips, count the pairs of heads
+- Sequence looks like =[:h :t :t :h :h :h :t :h :t :t :t :t :h :h :t ...]=
+- Finite sequence
+- Since we're producing a scalar value, per the guidelines above, we can use recur
+  #+begin_example
+    (defn count-heads-pairs [tosses]
+      (loop [count 0
+	     tosses tosses]
+	(if (empty? tosses)
+	  count
+	  (recur (if (= :h (first tosses) (second tosses))
+		   (inc count)
+		   count)
+		 (rest tosses)))))
+  #+end_example
+- We introduce our own copy of the tosses sequence, so we can shrink it was we go through the loop
+  - /Is that really necessary, though?/
+- While this version gets the job done, the boilerplate of the =loop/recur= construct obscures the intent of the function
+- Instead, we can subdivide the problem and use the sequence library to write a clearer version
+
+**** Transforming The Input Sequence
+- The key insight here is that we're not dealing with individual tosses, we're dealing with /pairs/
+- Clojure provides a partition function that breaks a collection into chunks of a given size: =(partition size step? coll)=
+- To get our pairs of tosses, we can say =(partition 2 1 tosses)=
+  - Note that we have to specify =step= in order to get overlapping pairs
+- This allows us to write
+  #+begin_example
+    (defn count-heads-pairs [tosses]
+      (count (filter (fn [pair] (every? #(= :h %)) pair) (partition 2 1 tosses))))
+  #+end_example
+  - What we do here is break up the sequence into pairs of tosses, filter the ones that have two heads, and the count the result
+- We can make the code even cleaner by defining a helper function
+  #+begin_example
+    (defn count-runs [n pred coll]
+      (count-if #(every? pred %) (partition n 1 coll)))
+  #+end_example
+- Then we can count pairs by using =count-runs=
+  #+begin_example
+    (count-runs 2 #(= :h %) tosses)
+  #+end_example
+- Note that we've actually solved the general version of the problem with =count-runs=
+- Can count clusters of any length, not just pairs
+
+**** Currying And Partial Application
+
+- We can use partial application to make a version of =count-runs= that only counts pairs
+  #+begin_example
+    (def count-heads-pairs (partial count-runs 2 #(= % :h)))
+  #+end_example
+- =partial= performs a partial application of a function
+  #+begin_example
+    (partial f & partial-args)
+  #+end_example
+- Returns a function that has =f= prepopulated with the args provided to =partial= and which takes the remainder of the args
+- Allows you to specify part of the arguments to a function right away, and the rest when you get them later
+- =(partial count-runs #(​= % :h))= is a simpler way of writing =(fn [coll] (count-runs #(​= % :h) coll))=
+- Similar to, but not the same as currying
+- Clojure doesn't have a true currying form, because of its support for variable-length argument lists
+- This is okay because partial application allows us to do much the same thing
+
+*** Recursion Revisited
+- =loop/recur= is fine for simplifying simple recursions, but what about more complex cases
+- Mutual recursion - two functions calling each other recursively
+  #+begin_example
+    (declare my-odd? my-even?)
+    (defn my-odd [n]
+      (if (= n 0)
+	false
+	(my-even? (dec n))))
+    (defn my-even [n]
+      (if (= n 0)
+	true
+	(my-odd? (dec n))))
+  #+end_example
+- These functions define odd and even numbers recursively, with a basis of 0 as an even number, and an alternating pattern of odd and even from there on
+- If we use naive recursion as above, we'll run out of stack quickly, even for small values of =n=
+- Because =my-odd?= and =my-even?= call each other, we can't use =loop/recur= to simplify the recursion into a tail call
+- There are four approaches to solving this problem
+  - Conversion to self-recursion
+  - Trampolining
+  - Replacing recursion with laziness
+  - Shortcutting recursion with memoization
+
+**** Converting to self-recursion
+- Mutual recursion is often used as a way to model separate but related concepts
+- Sometimes we can come up with an abstraction that handles both concepts simultaneously
+- In this case, we can conceive of a single parity function that will handle both even-ness and odd-ness together
+  #+begin_example
+    (defn parity [n]
+      (loop [n n par 0]
+	(if (= n 0)
+	  par
+	  (recur (dec n) (- 1 par)))))
+  #+end_example
+  - Look carefully at the recur --- it's not \(\textrm{par} - 1\), it's \(1 - \textrm{par}\)
+  - =par= starts at 0
+  - Next loop, =par= is 1
+  - =par= flips back and forth because it's always either \(1 - 1\) or \(1 - 0\)
+- We can then implement =my-odd?= and =my-even?= in terms of =parity=
+  #+begin_example
+    (defn my-even [n] (= 0 (parity n)))
+    (defn my-odd [n] (= 1 (parity n)))
+  #+end_example
+- However, we won't always be able to come up with a single unified abstraction that allows us to simplify mutual recursion into a single recursive function
+
+**** Trampolining Mutual Recursion
+- A /trampoline/ is a technique for optimizing mutual recursion
+- Like a =recur= imposed after the fact by the caller of a particular function
+- Clojure's =trampoline= invokes one of the mutually recursive functions
+  #+begin_example
+    (trampoline f & partial-args)
+  #+end_example
+- If the return value is a function, =trampoline= will continue to call it for you
+- If the return value is a value, then trampoline will return it
+- To convert mutual recursion into a trampoline, instead of calling the other function directly, return a function that calls the other function
+  #+begin_example
+    (declare my-even? my-odd?)
+
+    (defn my-odd? [n]
+      (if (= n 0)
+	false
+	#(my-even? (dec n))))
+
+    (defn my-even [n]
+      (if (= n 0)
+	true
+	#(my-odd? (dec n))))
+  #+end_example
+  - Note how the function calls have been converted into anonymous functions, via the use of =#=
+  - Then instead of calling =my-even?= or =my-odd?= directly, we use =trampoline=:
+    #+begin_example
+      (trampoline my-even? 100000)
+    #+end_example
+- A trampoline is a specific solution to a specific problem
+- Rarely used
+
+**** Replacing Recursion With Laziness
+- This is the go-to technique for optimizing recursion
+- Example: [[https://www.cs.uni.edu/~wallingf/patterns/recursion.html][Eugene Wallingford's =replace=]]
+  - Works on an =s-list= data structure
+  - An =s-list= is a list that can contain symbols or nested s-lists
+  - =replace= takes an s-list, a symbol to replace, and a replacement, and replaces all instances of the symbol with the replacement
+- Literal port of the Scheme version of =replace=
+  #+begin_example
+    (declare replace-symbol replace-symbol-expression)
+
+    (defn replace-symbol [coll oldsym newsym]
+      (if empty? coll
+	()
+	(cons (replace-symbol-expression (first coll) oldsym newsym) (replace-symbol (rest coll) oldsym newsym))))
+
+    (defn replace-symbol-expression [symbol-expr oldsym newsym]
+      (if (symbol? symbol-expr)
+	(if (= symbol-expr oldsym)
+	  newsym
+	  symbol-expr)
+	(replace-symbol symbol-expr oldsym newsym)))
+  #+end_example
+  - =replace-symbol= goes through each element of the current s-list, and calls =replace-symbol-expression= on it
+  - =replace-symbol-expression= checks to see if the given element is a symbol and replaces it with =newsym= if it's equal to =oldsym=
+  - If the current element is not a symbol, it must be a nested s-list, and so =replace-symbol-expression= calls =replace-symbol=
+- This mutually recursive structure works in Scheme because the recursion is implemented entirely with tail calls and Scheme has tail call optimization
+- In Clojure, this will result in stack overflow for deeply nested s-lists
+- However, to convert this function into one that returns a lazy sequence, all that has to be done is to wrap the =cons= inside =replace-symbol= in a =lazy-seq=
+  #+begin_example
+    (declare replace-symbol replace-symbol-expression)
+
+    (defn replace-symbol [coll oldsym newsym]
+      (if empty? coll
+	()
+	(lazy-seq (cons (replace-symbol-expression (first coll) oldsym newsym) (replace-symbol (rest coll) oldsym newsym)))))
+
+    (defn replace-symbol-expression [symbol-expr oldsym newsym]
+      (if (symbol? symbol-expr)
+	(if (= symbol-expr oldsym)
+	  newsym
+	  symbol-expr)
+	(replace-symbol symbol-expr oldsym newsym)))
+  #+end_example
+- Any recursion that returns a sequence may be optimized with a =lazy-seq=
+
+**** Memoization
+- To do automatic memoization, Clojure provides =memoize=
+  #+begin_example
+    (memoize f)
+  #+end_example
+- Returns a function that remembers the results of calls to =f= and returns those results immediately without calling =f= if a call is repeated
+- Combine =memoize= and =lazy-seq= to precalculate dependent values for additional performance
+
+*** Eager Transformations
+- Lazy approaches are not always desired
+- Eager approaches are better when
+  - Producing output collections
+  - Optimizing memory and performance for transformations of large collections
+  - Controlling external resources
+
+**** Producing External Collections
+- Sometimes we want the output of our function to be a persistent collection rather than a =seq=
+- No advantage from laziness because we'll be evaluating the entire =seq= at the end
+- Example
+  #+begin_example
+    (defn square [x] (* x x))
+
+    (defn sum-squares [n]
+      (vec (map square (range n))))
+  #+end_example
+- Here we're wasting memory by creating a =seq= that we immediately throw away when we convert it to a vector
+- Instead, we can use a map transducer to perform the transformation directly
+  #+begin_example
+    (defn sum-squares [n]
+      (into [] (map square) (range n)))
+  #+end_example
+- =into= takes 3 args
+  - Output collection
+  - Transformation
+  - Input collection
+- Transformation is a transducer
+- Many sequence functions return transducers when called without an input collection
+- A transducer is a function that captures the "essence" of a transformation without referencing a particular input collection
+- =into= provides the elements from the input collection to the transducer and then bulk-adds the resulting elements to the output collection
+- Occurs eagerly, avoiding the creation of intermediate lazy sequences
+
+**** Optimizing Performance
+- We can apply multiple transformations in a single pass with into
+- Ex: find all the predicate functions in the current namespace
+  - Lazy-seq version
+    #+begin_example
+      (defn preds []
+	(->> (all-ns)
+	  (map ns-publics)
+	  (mapcat vals)
+	  (filter #(clojure.string/ends-with? % "?"))
+	  (map #(str (.- sym %)))
+	  (vec)))
+    #+end_example
+    - Each step of this transformation creates a =seq=
+    - Uses =vec= to collect the values into a vector at the end
+  - The following accomplishes the same task without creating a bunch of =seq=​s at the end
+    #+begin_example
+      (defn preds []
+	(into []
+	  (comp (map ns-publics)
+		(mapcat vals)
+		(filter #(clojure.string/ends-with? % "?"))
+		(map #(str (.- sym %))))
+	  (all-ns)))
+    #+end_example
+    - Unlike the sequence version, the transducer version composes all four transformations into a single transducer
+    - Applies transformations in a single pass
+    - Significant reduction in memory usage
+- Transducers also perform additional performance optimizations when the collection is "reducible" i.e. when it has an associated =reduce= function
+- =into= and other transducer-aware functions can take advantage of /transients/ --- immutable collection is rendered temporarily mutable for the purpose of bulk-loading data
+- Able to do this without breaking the abstraction of immutability for the caller
+
+**** Managing External Resources
+- When pulling data from an external resource, it's tempting to return a lazy-seq
+  #+begin_example
+    (defn non-blank? [s]
+      (not (clojure.string/blank? s)))
+
+    (defn non-blank-lines [file-name]
+      (let [reader (clojure.java.io/reader file-name)]
+	(filter non-blank? (line-seq reader))))
+  #+end_example
+- While this code looks all right, it leaves the file handle open, leading to wasted resources
+- Moreover, it's not apparent when we /can/ close the reader because we don't know when the final line has been processed
+- We can solve this issue by converting the function to be eager
+  #+begin_example
+    (defn non-blank-lines [file-name]
+      (with-open [reader (clojure.java.io/reader file-name)]
+	(into [] (filter non-blank?) (line-seq reader))))
+  #+end_example
+- Here we use the =into= and transducer approach from above to grab all the non-blank lines and return them, relying on =with-open= to handle closing the reader when we're done
+- However, if there are many non-blank lines, we could run out of memory trying to store them
+- What we really want is to process the file without caching and know then the input has been exhausted, so we can close the external resource
+- To do this, first we refactor non-blank-lines to return an eduction
+  #+begin_example
+    (defn non-blank-lines [reader]
+      (eduction (filter non-blank?) (line-seq reader)))
+  #+end_example
+- An eduction is a suspended transformation, like a =seq=
+- Unlike a =seq=, it processes its entire input every time it's called --- no caching
+- Move the =with-open= into the calling code
+  - /But why couldn't we have done this with the =seq= version/
+
+** Chapter 6: State and Concurrency
+- State is the value of an identity at a point in time
+- Value: immutable, persistent data structure
+- Updating an identity should not destroy old values
+- Clojure's reference model separates identities from values
+- 4 reference types
+  - Ref: coordinated synchronous changes to shared state
+  - Atom: uncoordinated synchronous changes to shared state
+  - Agent: asynchronous changes to shared state
+  - Var: thread-local state
+
+*** Concurrency, Parallelism and Locking
+- A concurrent program models more than one thing happening at once
+- A parallel program takes a sequential operation and breaks it up into pieces that execute concurrently
+- Reasons to write concurrent or parallel programs
+  - Taking advantage of increased support for parallelism in hardware
+  - Efficiently allowing tasks waiting for external input to get out of the way of tasks that are ready to execute
+  - Allowing user interfaces to remain responsive while a program is processing data in the background
+  - Indicating to a platform that certain tasks are logically independent
+- Concurrency makes it obvious that a piece of data may have multiple readers
+- Mutable languages tend to tackle concurrency via locking and defensive copying
+- In practice, this is difficult to do correctly
+  - Bad locking strategies can lead to race conditions or deadlocks
+  - If there are multiple copies of a piece of shared data, then those copies have to be kept synchronized, somehow
+- Clojure's model of state and concurrency solves these problems
+  - Majority of code is functional, and has no mutable state
+  - Code that needs mutable state has to explicitly choose from one of the above 4 concurrency models
+
+*** Refs and Software Transactional Memory
+- All Clojure data is immutable
+- When we create a reference, we're creating a mutable reference to an immutable data structure
+- To create a =ref=: =(ref <initial state>)=
+- Usually, you'll want to assign a name to that ref as well: =(def <name> (ref <initial state>))=
+- To read the value of a ref, use =deref=: =(deref <ref>)=
+- Because reading the value of a ref is such a common operation, Clojure has a reader macro for it: =@=
+- =@ref= is the same as =(deref ref)=
+- All updates to =ref=​s must take place inside a transaction
+- Create transactions with =dosync=: =(dosync & exprs)=
+- To update the value of a ref, use =ref-set=: =(ref-set ref new-value)=
+- In practice, this looks like =(dosync (ref-set ref new value))=
+
+**** Transactional Properties
+- Clojure's software transactional memory model forces programmers to write stateful updates in the context of database-like transactions
+- Guarantees
+  - Atomic updates: if you update more than one ref in a transaction, to external code, all updates will appear to take place simultaneously
+  - Consistency: if any ref update in a transaction fails validation or throws an exception, the entire transaction fails and no refs are updated
+  - Isolation: no transaction will see partial updates from other transactions
+
+**** =alter=
+- Often we want to read and update a ref in one operation
+- To do this, Clojure provides =alter=: =(alter ref update-fn & args)=
+- =alter= calls =update-fn= with the current value of the ref as the first argument and =args= as following arguments
+
+**** How STM works: MVCC
+- Clojure uses the same MVCC model for its software transactional memory as many databases
+- Each transaction takes a point, which is a private logical copy of all the references that are used in the transaction
+- During the transaction, all operations take place against the point
+- If at the end of the transaction, any of the references have been found to have been updated outside the transaction, the whole transaction rolls back and retries
+
+**** =commute=
+- =commute= is a variant of =alter= that relaxes the isolation guarantee for additional performance
+- =(commute ref update-fn args)= → same arguments as =alter=
+- =commute= is intended for operations that can be applied in any order (i.e. /commutative/ operations)
+- The last in-transaction value of a ref in a =commute= will not necessarily be the value of the ref after the transaction has ended, because Clojure may reorder =commute= operations
+
+**** Prefer =alter=
+- Only use =commute= when you're sure that operations are order-independent
+- If you're not sure, stick with =alter=
+- Using =alter= when you could have used =commute=, at worst, will result in reduced performance
+- Using =commute= when you should have used =alter= will lead to subtle and hard to diagnose bugs
+
+**** Adding validation to refs
+- =ref= accepts an optional =:validator= argument that allows you to specify a validation function
+- Example:
+  #+begin_example
+    (defn valid-message? [msg]
+      (and (:sender msg) (:text msg)))
+    (defn all-messages-valid? [msg-list]
+      (every? valid-message? msg-list))
+    (def messages (ref () :validator all-messages-valid?)
+  #+end_example
+- The validation function is called with the new value of the ref, hence the need for =all-messages-valid=
+
+*** Use =atom=​s for uncoordinated synchronous updates
+- Atoms are lighter-weight mechanism for storing state
+- Atoms allowed updates of a single value uncoordinated with anything else
+- To create an atom =(atom initial-state options?)=
+  - Options can include a validator with the =:validator=
+- To dereference an atom, use =deref= or =@=, just as with =ref=​s
+- Atoms don't participate in transactions
+- To update an atom: =(reset! atom new-val)=
+- To update an atom with a function: =(swap! atom f & args)=
+
+*** Use =agent=​s for asynchronous updates
+- To create an =agent=: =(agent initial-state)=
+- To update the value of an agent: =(send agent-update-fn & args)=
+  - =update-fn= takes the current value of an agent and =args=
+  - Similar to =alter= or =swap!=
+- Can read the value of an =agent= with =deref= and =@=, just like with =ref=​s and =atom=​s
+- Note that, unlike the update functions for =ref=​s and =atom=​s, =send= returns the agent itself rather than the new value of the agent
+- This is because =agent=​s update asynchronously
+
+**** Validating Agents and Handling Errors
+- =agent=​s can also take a validation function with the =:validator= keyword argument
+- However, because agents update asynchronously, the validation function may not execute immediately
+- If an agent tries to update itself and encounters an exception, it goes into one of two error modes: =fail= or =continue=
+- If no =:error-handler= function is specified, the agent goes into the =fail= state
+  - Won't process updates
+  - Can still be dereferenced --- will return the result of the last successful update
+  - To discover the last error on an agent, use =agent-error=
+  - To put the agent back into a known-good state: =(restart-agent agent new-initial-state)=
+- If an =:error-handler= function is specified, the agent will invoke the error handler and will continue as if no error occurred
+
+**** Including Agents In Transactions
+- Transactions in Clojure should not include side effects, because the MVCC system may retry them if concurrent updates are detected
+- However sometimes we want to take an action when a transaction succeeds
+- =agent=​s provide a solution
+- Sending a message to an agent occurs once and only once when the transaction succeeds
+- Put any side effects that you want to occur in the =agent-update-fn= that you pass to =send=
+- If any of these side effects can block (like writing to a file) use =send-off= instead of =send=
+
+*** Manage Per-Thread State with =var=​s
+- When you call =def= or =defn=, you create a =var=
+- The value passed to =def= becomes the /root binding/ of the var
+- Can create a thread-local value of the var with =(binding [binding-forms] & body)=
+- =binding= looks a lot like =let=, but the bindings created have dynamic scope rather than lexical scope
+
+**** Acting At A Distance
+- =var=​s intended to be used for dynamic binding are called /special variables/
+- By convention, special variables are named with leading and trailing asterisks
+- Dynamic bindings enable action at a distance --- changing the binding of a variable changes the behavior of a distant function without changing the function's arguments
+- Be very careful with dynamic bindings --- prefer =let= whenever possible
+- =let= allows you to see all of the code you're affecting
+
+**** Working with Java Callback APIs
+- Several Java APIs depend on callback event handlers
+- These handlers are often written with the assumption that they will be updating mutable objects
+- The best way to use these APIs is to create dynamic bindings and pass them into the callback handler
+- Clojure provides =set!= for setting a thread-local dynamic binding
+
+** Chapter 7: Protocols and Datatypes
+- Clojure has two primary means of creating abstractions
+  - Protocols: Alternative to Java interfaces for high-performance polymorphic method dispatch
+  - Datatypes: Alternative to Java clases for creating implementations of protocols or interfaces
+- Protocols and datatypes obviate the need to create Java interfaces and classes directly in Clojure
+
+*** Programming to abstractions
+- Clojure has two primary I/O functions: =spit= and =slurp=
+  - =spit=: output
+  - =slurp=: input
+- To illustrate protocols and datatypes, we'll write our own versions of =spit= and =slurp=, named =expectorate= and =gulp=, respectively
+
+* Clojure cheatsheet
+- [[https://clojure.org/api/cheatsheet][Clojure cheatsheet]]
+
+* Loopr --- Hybrid Loop/Reduce
+- [[https://aphyr.com/posts/360-loopr-a-loop-reduction-macro-for-clojure][Link]]
+
+* Installing Clojure On Ubuntu
+- Install an LTS version of Java
+  - LTS versions as of 05/22 are: 8, 11 and 17
+  - Install [[https://leiningen.org/][Leiningen]]
+    - Download [[https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein][lein]] bash script
+    - Place it on the =$PATH= (=~/.local/bin= is a good choice)
+    - Run =lein= to install Clojure
+
+* Installing Clojure on Windows
+- Install an LTS version of Java
+  - =scoop bucket add java=
+  - =scoop install openjdk17=
+- Install Leiningen: =scoop install leiningen=
+
+* Leiningen Tutorial
+- Leiningen works with projects
+  - Directory containing Clojure and Java files
+  - Metadata stored in =project.clj=
+  - Most Leiningen tasks only make sense in the context of a project
+- Creating a new project
+  - =lein new app <project name>=
+  - =app= tells Leiningen to create a project with an application template
+  - Omitting =app= tells Leiningen to create a project with the =default= template, which is suitable for libraries
+  - Directory layout
+    - =src/= for source code
+    - =tests/= for tests
+    - =src/<project_name>/core.clj= corresponds to =<project_name>.core= namespace
+    - Clojure discourages single-segment namespaces, which is why we don't have =src/core.clj=
+    - Any Clojure namespaces that have dashes in them will have the dashes converted to underscores to conform with Java's lack of support for dashes in identifiers
+- To build your Clojure code into a standalone "uberjar", run =lein uberjar=
+  - By default the uberjar is located in =target/default+uberjar/=
+- To create a global user profile to load things like debugging or performance analysis tool
+  - Create =~/.lein/profiles.clj=
+  - Add a map with the key =:user=, whose value is a map containing keys like =:plugins= and =:dependencies=
+
+* Reload the repl
+- Add the following dependency to your =project.clj=: =[org.clojure/tools.namespace "1.0.0"]=
+- Then in your repl, do the following if you want to "refresh"
+  #+BEGIN_EXAMPLE
+    (use '[:clojure.tools.namespace.repl :only (refresh)])
+    (refresh)
+  #+END_EXAMPLE
+
+* Error when installing HoneySQL
+- =Could not locate clojure/java/jdbc__init.class, clojure/java/jdbc.clj or clojure/java/jdbc.cljc on classpath=
+- Error appears to result from bringing in HoneySQL as a dependency
+- Looks like HoneySQL has an undeclared dependency on =org.clojure/java.jdbc=
+  - We need to add =[org.clojure/java.jdbc "0.7.11"]= to =project.clj=
+
+* Unit testing
+- The [[https://github.com/igrishaev/mockery][mockery]] library makes mocking easier in Clojure
+- To mock a function:
+  #+BEGIN_EXAMPLE
+    (with-mock <binding for mock atom>
+      {:target <namespaced keyword representing function you wish to mock>}
+      (<call test function here>))
+  #+END_EXAMPLE
+  - Example:
+    #+BEGIN_EXAMPLE
+      (deftest test-foo
+        (with-mock mock
+          {:target :my-example.foo}
+          (is (= (foo 3) 5))))
+    #+END_EXAMPLE
+- To mock a Java object, return a =proxy= for that object that with an override of the function that you wish to call
+  - Example:
+    #+BEGIN_EXAMPLE
+      (deftest test-file-exists
+        (with-mock mock
+          {:target :clojure.java.io/as-file
+                     (exists [] true))}
+          (is (= (.exists (clojure.java.io/as-file "foo")) true))))
+    #+END_EXAMPLE
+- The mock atom contains a number of properties that allow you to verify that the method was called correctly
+  - =:called?=: Was the function called?
+  - =:call-args=: the last set of arguments the mock was called with
+  - =:call-count=: the number of times the function was called
+  - =:call-args-list=: a =seq= containing all the arguments for all the calls
+- If you want to mock more than one thing, then use the =with-mocks= (note the plural) macro
+  - =let=-style binding of atoms to mocks
+    #+BEGIN_EXAMPLE
+      (deftest multiple-mocks
+        (with-mocks [foo-fn-mock {:target :foo-fn}
+                     bar-fn-mock {:target :bar-fn}]
+          (foo-fn "alpha")
+          (bar-fn "beta")
+          (is (= (@foo-fn-mock :call-args) ["alpha"]))
+          (is (= (@bar-fn-mock :call-args) ["beta"]))))
+    #+END_EXAMPLE
+- To run tests
+  - =(use 'clojure.test)=
+  - =(run-tests 'test-namespace)=
+- When writing unit tests with =deftest= make sure to wrap all assertions in =(is ...)=, otherwise the test will pass if no exception is thrown
+- Mockery mock objects are atoms, so make sure to =deref= with =@= them before reading values
+
+* Clojure Spec
+- Clojure allows you to define "specifications" or =spec=​s, which enable things like testing and automatic validation
+- To get started with using specs, =require= the =clojure.spec.alpha= namespace, usually aliased to =s=
+- To define a spec, use the =s/def= macro: =(s/def ::spec-name predicate-function?)=
+  - =predicate-function?= can be any function that takes a single value and returns a boolean
+  - Note that all specs go into a single global namespace, so it's your responsibility to make sure that you've properly namespaced your specs
+  - To validate data against a spec, use =(s/valid? <spec> <data>)=
+
+* Clojure Toolbox
+- The [[https://www.clojure-toolbox.com/][Clojure Toolbox]] is a useful site that allows you to look for pre-existing libraries to accomplish existing tasks
+
+* Command Line Parsing
+- To parse command line arguments, use [[https://github.com/clojure/tools.cli][tools.cli]]
+
+* Building a command-line binary
+- Use =tools.cli= for command line options parsing
+- Run =lein new app <name>= to create the Clojure project
+- Run =lein uberjar= to package up your project as a standalone =.jar=
+- Write a wrapper shell script that invokes =java -jar <jar file>=
+
+* Resources
+- Note: to ensure that resource files get included in the uberjar, ensure that the file name doesn't start with a dot
+
+* CIDER
+- Add the following to =~/.lein/profiles.clj=
+  #+begin_src clojure
+    {:user {:plugins [[cider/cider-nrepl "0.29.0"]]}}
+  #+end_src
+  - (Note: this is not necessary for new CIDER installs)
+- Then install CIDER company-mode for autocompletions
+  #+begin_example
+    M-x package-install RET company-mode
+    M-x package-install RET cider
+  #+end_example
+- Enable CIDER automatically for Clojure files with
+  #+begin_example
+    (add-hook 'clojure-mode-hook #'cider-mode)
+    (add-hook 'cider-mode-hook #'company-mode)
+  #+end_example
+- Many CIDER features require a Clojure REPL. To start the REPL automatically from within Emacs call
+  #+begin_example
+    M-x cider-jack-in
+  #+end_example
+  from a file that's within a Leiningen project
+- Most CIDER features also require a one-time evaluation of the full file, so hit =C-c C-k= to evaluate the file you're visiting
+- Then evaluate specific functions with =C-c=
+- To run tests: =C-c C-t C-n= (remember to evaluate the test file(s) you're interested in first with =C-c C-k=)
+- Jump to definition: =M-.=
+- To quit the REPL: hit =,= to bring up the command list and choose =quit=
+  - Alternatively you can use =C-c C-q= to quit
+  - Don't use =C-x k= to kill the REPL buffer as that will cause necessary cleanup steps to be omitted
+- To bring up a quick menu of REPL commands, hit =,=
+- REPL history
+  - To bring up the REPL history: =C-c M-p=
+  - To insert an item into the REPL, move the point to the history entry and hit =RET=
+- To change the REPL to the namespace of the current file: =C-c M-n n=
+- If you've deleted code, that code may still be loaded in the REPL; to re-sync the REPL:
+  - Hit =,= to bring up the menu
+  - Choose =refresh=
+  - Re-evaluate code files
+
+** CIDER debugger
+- To launch a function in the debugger: =C-u C-M-x=
+
+* Structuring Clojure Web Applications
+- [[https://mccue.dev/pages/12-7-22-clojure-web-primer][A primer on structuring Clojure web applications]]
+- [[https://yogthos.net/posts/2022-12-18-StructuringClojureApplications.html][Structuring Clojure Web Applications]]
+
+* Clojure HTTP client
+- [[https://github.com/dakrone/clj-http][=clj-http=]] is a good HTTP client for Clojure
+
+* Analyzing the performance of Clojure applications
+
+** Set up =clj-async-profiler=
+- In your =:user= or =:dev= profile, add the following dependency: =[[com.clojure-goes-fast/clj-async-profiler "1.2.2"]]=
+- Add the following =:jvm-opts=: =["-Djdk.attach.allowAttachSelf"]=
+- On Linux, make the following configuration changes:
+  - =sudo sysctl -w kernel.perf_event_paranoid=1=
+  - =sudo sysctl -w kernel.kptr_restrict=0=
+
+** Use =clj-async-profiler= to generate a flame graph
+- =(require '[clj-async-profiler.core :as prof])=
+- =(prof/profile (dotimes [i <num samples>] <code to profile>))=
+  - Runs the code and generate a profile
+  - Not the use of =dotimes= to run the code to be profiled multiple times in order to get multiple samples
+- =(prof/serve-ui <port>)= displays the flame graph in a web interface
+
+* Babashka
+- Babashka is a variant of Clojure with a fast startup time that allows it to be used akin to a shell script
+
+** Installation
+- =curl -sL -o "babashka_install" "https://raw.githubusercontent.com/babashka/babashka/master/install"=
+- =chmod +x "babashka_install"=
+- =sudo ./"babashka_install"=
+
+** Emacs Setup
+- Configure emacs to recognize babashka files Clojure files
+  #+begin_src elisp
+    (add-to-list 'auto-mode-alist '("\\.bb\\'" . clojure-mode))
+  #+end_src
+- To connect to a babashka REPL from Emacs
+  - =bb nrepl-server <port>=
+  - From Emacs: =M-x cider-connect-clj=
+  - Select =localhost= and the port from above
+
+** Babashka Scripts
+- To run a script: =bb -f <script>.bb=
+  - The =-f= argument is optional when the input is a filename
+- To evaluate an expression interactively: =bb -e <expression>=
+- Can run scripts just like with other scripting languages by including =#! /usr/bin/env bb= at the start
+
+*** Structuring Scripts
+- To structure scripts such that they can be used from both the command line and the REPL, create a main function (conventionally =-main=)
+- Then add the following to the bottom of the script
+  #+begin_src clojure
+    (when (= *file* (System/getProperty "babashka.file"))
+      (apply -main *command-line-args*))
+  #+end_src
+- This is akin to Python's =if __name__ =​= "__main__"= convention
+
+** HTTP requests
+- To perform HTTP requests, use =babashka.http-client=
+
+** Command Line Arguments
+- To parse command line arguments, use =babashka.cli= or =clojure.tools.cli=
+
+** Special Variables
+- 

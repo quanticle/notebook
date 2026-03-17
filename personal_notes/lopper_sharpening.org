@@ -1,0 +1,8 @@
+#+TITLE: Lopper Sharpening
+
+- Use a rattail file to square off the non-sharp side
+- Use a flat file to only sharpen the side that has a bevel
+- Try to duplicate the manufacturer's bevel with your file
+- Use short strokes
+- It might help to use a sharpie to ink the edge so you can match the angle more easily
+- Sharpen towards the cutting edge

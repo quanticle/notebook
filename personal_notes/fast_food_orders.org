@@ -1,0 +1,85 @@
+#+TITLE: Fast Food Orders
+
+* Chipotle
+
+** Dad
+- Chicken Burrito bowl
+- Tortilla on the side
+- No rice
+- Extra black beans
+- Fajita veggies
+- Tomatoes
+- Sour cream
+- Lettuce
+- Cheese
+
+** Mom
+- Veggie Burrito
+- White rice
+- Black beans
+- Fajita veggies
+- Tomatoes
+- Hot sauce
+- Sour cream
+- Cheese
+- Guacamole
+- Lettuce
+
+** Me
+- Chicken Burrito
+- White rice
+- Black beans
+- Fajita veggies
+- Tomatoes
+- Corn
+- Cheese
+
+* Jimmy John's
+
+** Dad
+- #4 - Turkey Tom
+- Provolone cheese
+- Mayo
+- Lettuce
+- Cucumbers
+- Tomatoes
+- Onions
+
+** Mom
+- #6 - Veggie
+- Provolone cheese
+- Avocado spread
+- Mayo
+- Lettuce
+- Tomatoes
+- Cucumbers
+- Onions
+- Hot peppers
+- Jalapeno ranch
+
+** Me
+- #12 - Beach Club
+- Provolone cheese
+- Mayo
+- Cucumber
+- Lettuce
+- Tomato
+- Onion
+- Avocado spread
+
+* Panda Express
+
+** Dad
+- Noodles
+- Mushroom chicken
+- String bean chicken
+
+** Mom
+- White rice
+- Sweet Fire chicken
+- Kung Pao chicken
+
+** Me
+- Noodles
+- Sweet Fire chicken
+- Honey Sesame chicken

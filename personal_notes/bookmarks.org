@@ -1,0 +1,43 @@
+#+TITLE: Bookmarks
+
+* Utility Bookmarks
+- [[https://www.google.com][Google]]
+- [[https://images.google.com][Google Images]]
+- [[https://maps.google.com][Google Maps]]
+- [[https://odin.tradoc.army.mil/][TRADOC ODIN Database]] military weapons army tradoc
+- [[https://wikipedialibrary.wmflabs.org/users/my_library/][The Wikipedia Library]] research science wikipedia
+
+* Economics and Politics
+- [[https://nitter.eu/RALee85/status/1482080275878326279][Rob Lee's Megathread on the Ukraine Crisis]]
+- [[https://nitter.net/ProfPaulPoast/status/1204745982036066306#m][Paul Poast's thread on the relationship between Russia and International Relations scholarship]]
+- [[https://nitter.net/marceldirsus/status/1485199504668303366][Why is Germany's Russia policy so strange from a US perspective]]
+- [[https://warontherocks.com/2021/05/a-millennial-considers-the-new-german-problem-after-30-years-of-peace/][A Millenial Considers The New German Problem After 30 Years of Peace]]
+- [[https://nitter.eu/DAlperovitch/status/1473362460673515527][Why Putin is likely to invade Ukraine]]
+- [[https://static1.squarespace.com/static/566ef8b4d8af107232d5358a/t/5c99488beb39314c45e782da/1553549492554/Above+Us+Only+Stars.pdf#page=37][Above Us Only Stars: An Analysis of Russian GPS jamming and spoofing]]
+- [[https://freddiedeboer.substack.com/p/of-course-you-know-what-woke-means][What does "wokeness" mean?]]
+- [[https://www.theatlantic.com/health/archive/2016/11/the-link-between-autism-and-trans-identity/507509/][The link between trans identity and autism]]
+
+* Links
+- [[http://ncf.idallen.com/english.html][English is really the worst]]
+- [[https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/][The Coming Software Apocalypse]]
+- [[https://morecrows.wordpress.com/2016/05/10/unnecessariat/][Unnecessariat]]
+- [[https://codeblog.jonskeet.uk/2017/10/08/diagnosing-a-linux-only-unit-test-failure/][This is how you debug]]
+- [[http://vestoj.com/the-deformed-thief-fashion/][Against Fashion]]
+- [[https://www.youtube.com/watch?v=Fh8_2zQZ3xM][Porsche 911 GT2RS does the 'ring in 6:47.25]]
+- [[https://web.archive.org/web/20171023185645/https://weblogs.asp.net/alex_papadimoulis/408925][On asking for the right level of advice]]
+- [[https://web.archive.org/web/20171023185844/http://www.jdpressman.com/2017/07/25/tumblrism-the-injustice-league.html][Tumblrism: The Injustice League]]
+- [[https://web.archive.org/web/20120909034605/http://squid314.livejournal.com/327646.html][Steelman Timecube]]
+
+
+* My Best HackerNews comments
+- [[https://news.ycombinator.com/item?id=3414355][Three hundred years, and we haven't learned a damned thing about management]]
+- [[https://news.ycombinator.com/item?id=13904851][Why I use Windows]]
+- [[https://news.ycombinator.com/item?id=11652374][Why I don't like holocracy]]
+- [[https://news.ycombinator.com/item?id=11379762][The US should just stop intervening in the Middle East]]
+- [[https://news.ycombinator.com/item?id=6865056][Incentives matter more than motives]]
+- [[https://news.ycombinator.com/item?id=5820603][In which I defend EA and earning to give]]
+- [[https://news.ycombinator.com/item?id=4784103][Never go Full Metacontrarian]]
+- [[https://news.ycombinator.com/item?id=34907237][The UNIX philosophy is unworkable]]
+
+* Memes
+- [[https://wojakdb.com][Wojak database]]

@@ -1,0 +1,5 @@
+#+TITLE: Lesser2Greater
+
+* Handle EA Forum links
+- Example link: =https://forum.effectivealtruism.org/posts/h2N9qEbvQ6RHABcae/a-critical-review-of-open-philanthropy-s-bet-on-criminal=
+

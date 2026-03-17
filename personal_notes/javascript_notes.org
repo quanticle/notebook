@@ -1,0 +1,21 @@
+* Javascript Notes
+
+** Enable Pasting in an element
+- In order to enable pasting, we need to remove the event handlers that prevent pasting
+- To do this, we clone the input element and replace it with its clone
+  #+begin_example
+    let inputElement = document.getElementById('inputElementId'); //Replace with .querySelector() to select with a CSS selector
+    let inputElementClone = inputElement.cloneNode(true);
+    inputElement.parentNode.replaceChild(inputElementClone, inputElement);
+  #+end_example
+- Now you should be able to paste in the element
+
+** Another method to re-allow pasting
+#+begin_src javascript
+  var allowPaste = function(e) {
+    e.stopImmediatePropagation();
+    console.log("Free the paste!")
+    return true;
+  };
+  document.addEventListener('paste', allowPaste, true);
+#+end_src

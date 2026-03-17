@@ -1,0 +1,48 @@
+#+TITLE: Laptop Shopping
+
+* 2025
+
+** Framework
+- Framework 13
+- Ryzen AI 7 350 CPU, 2x USB-C, 3x USB A, HDMI, Ethernet - $1345
+- Samsung 2TB SSD - $140
+- 32 GB DDR5-5600 RAM - $120
+- Total: $1605
+
+** Apple
+- Macbook Pro 14"
+- M5 CPU
+- 32 GB RAM
+- 2 TB storage
+- $2599
+
+** Lenovo
+- Lenovo T14 Gen 6
+- Ryzen AI 7 350
+- 32 GB RAM
+- Samsung 2TB SSD - $120
+- $1272
+
+* 2024
+
+** Lenovo
+- Lenovo Thinkpad T14 Gen 5
+  - /Make sure to check the tech specs to make sure it has dual RAM slots/
+
+** Dell
+- Dell Inspiron 15 3530 15.6" Carbon Black
+  - Intel Core i7-1355U
+  - 16 GB DDR4-2666 (2 slots)
+  - Intel Iris Xe integrated graphics
+  - 1TB PCIe NVMe M.2 SSD
+  - 2x2 WLAN with Wifi 6 (802.11 ax)
+  - $499.99 at Microcenter (location: Dell table)
+  - /Also only supports 1920 x 1080 output through its HDMI port/
+- Dell Inspiron 15 3520 15.6" Carbon Black
+  - Intel Core i5-1235U
+  - 8GB DDR4-2666 (2 slots)
+  - 512 GB SSD
+  - Intel UHD integrated graphics
+  - 1x1 WLAN with Wifi 5 (802.11 ac)
+  - $349.99 at Microcenter (location: Dell table)
+  - /Unfortunately this one only supports 1920 x 1080 output through its HDMI port)/

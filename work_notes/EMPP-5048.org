@@ -1,0 +1,259 @@
+* EMPP 5048
+
+** Setup
+- Repo: empp-api-job: [[https://gitlab.windlogics.com/internal/empp/empp-api-job][https://gitlab.windlogics.com/internal/empp/empp-api-job]]
+- Kotlin repo
+- To install Kotlin: =brew install kotlin=
+- Also install the Gradle build tool: =brew install gradle=
+- Spacemacs Kotlin support: [[https://develop.spacemacs.org/layers/+lang/kotlin/README.html#lsp][https://develop.spacemacs.org/layers/+lang/kotlin/README.html#lsp]]
+  - Add =kotlin= to =dotspacemacs-configuration-layers=
+  - Install =ktlint= and make sure that it's on emacs' =exec-path=
+    - =brew install ktlint=
+- Set up Gradle with the Nexus repository manager:
+  #+BEGIN_EXAMPLE
+    echo -n | openssl s_client -connect nexus.nexteraanalytics.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /tmp/nexus_cloud.crt
+    sudo keytool -importcert -cacert -alias ca -file '/tmp/nexus_cloud.crt' -storepass "changeit"
+  #+END_EXAMPLE
+  - Problem:
+    #+BEGIN_EXAMPLE
+      The operation couldn’t be completed. Unable to locate a Java Runtime.
+      Please visit http://www.java.com for information on installing Java.
+    #+END_EXAMPLE
+  - Do I need to install Java, even though I installed kotlin? Did brew not install a JRE as a dependency of Kotlin?
+  - To install Java
+    - =brew install java=
+      - Claims that openjdk 17.0.1 is already installed and up to date
+      - But if I run =java --version=, I get the same error as above:
+        #+BEGIN_EXAMPLE
+          The operation couldn't be completed. Unable to locate a Java Runtime.
+          Please visit http://www.java.com for information on installing Java.
+        #+END_EXAMPLE
+    - Maybe I need to install a JRE?
+    - Try the following:
+      #+BEGIN_EXAMPLE
+        brew install --cask temurin
+      #+END_EXAMPLE
+    - That worked -- installed openjdk17
+  - New keytool error: =java.io.FileNotFoundException: /Library/Java/Home/jre/lib/security/cacerts=
+    - Where is the cacerts directory for the homebrew temurin OpenJDK install?
+    - Homebrew just runs the MacOS .pkg file from Temurin
+    - Temurin installs to =/Library/Java/JavaVirtualMachines/temurin-<version>.<jdk|jre>/=
+- Create a =~/.gradle/gradle.properties= file with the following content
+  #+BEGIN_EXAMPLE
+    nexusUsername=windlogics-ro
+    nexusPassword=4ip1K2xmMIAAT12_AD2mB-HdMPPnjCAh
+  #+END_EXAMPLE
+- Try building the code
+  - The build command in =.gilab-ci.yml= is: =sh ./gradlew clean build jacocoTestReport --no-daemon=
+  - That errors out with =Unsupported class file major version 61=
+  - Looks like JDK 17 is not supported
+  - Need to install JDK 8:
+    - Download the installer from [[https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot][https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot]]
+    - Run the installer
+    - Switch the default JDK with: =export JAVA_HOME="$(/usr/libexec/java_home -v1.8)"=
+  - The build was successful, but I saw what appeared to be test failures
+  - The =.gitlab-ci.yml= exports =SKIP_ITESTS=true= -> might explain the test failures
+  - Running the tests with =SKIP_ITESTS=true= seems to fix it
+- Try running the unit tests
+
+** Problem
+- [[https://wlweb.windlogics.com/radar/browse/EMPP-5048][Ticket link]]
+- Re-run capex results not getting added to batch child scenario
+- When generating batch child scenarios, we kick off NCF and CapEx requests in the =Create= lambda
+- =CheckRequests= then checks the status of these requests
+- However, if CapEx has cached results that are still fresh, it will reply to the request with actual results (i.e. HTTP 200 instead of HTTP 201 or 202)
+- In this case, the =Create= lambda is responsible for writing the CapEx values
+- In the =Create= path, the updated CapEx values are being written in the =SolarCapexUtils.handleCapexResults= function
+- However, they are being overwritten when control returns to =Create.handleRequest=
+
+** Debugging Info
+- Looks like the problem is in =src/main/kotlin/com/focusenergy/empp/api/job/lambda/step/batch=
+- Look at =Create.kt=
+  - =SolarCapexUtils= is referred to as =solarCapexUtil=
+  - Where do we use =solarCapexUtil=?
+  - Used in:
+    #+BEGIN_EXAMPLE
+      val solarCapexRequests = solarCapexGeneratorIds.map { generatorId: String ->
+          val capexType = if (solarGenerators[generatorId]?.get("dgCapexEnabled")?.booleanValue() == true) "dg" else "omni"
+          // Get cached capex inputs for parent scenario
+          val capexInputsPath = "s3://$jobBucket/$parentScenarioId/${generatorId}_capex_inputs.json"
+          logger.log("INFO: Getting $capexType solar capex inputs from $capexInputsPath")
+          val inputs = awsUtil.openFileAsJsonNode(capexInputsPath) as ObjectNode
+          // DG capex inputs may have null values which are not allowed when submitting back to capex endpoint
+          inputs.deepCopy().fieldNames().forEach {
+              if (inputs.get(it).isNull) {
+                  logger.log("INFO: Removing key $it with null value from capex inputs")
+                  inputs.remove(it)
+              }
+          }
+          // Update capex inputs with new value for any capex inputs present in the transforms list for this child scenario
+          transforms.forEach {
+              if (it is ReplaceTransform<*> ) {
+                  when {
+                      it.getPath().endsWith("DCACRatio.value") -> {
+                          inputs.put("dcAcRatio", it.value as Double)
+                      }
+                      it.getPath().endsWith("groundCoverageRatio") -> {
+                          inputs.put("groundCoverageRatio", it.value as Double)
+                      }
+                      it.getPath().endsWith("tilt") -> {
+                          inputs.put("moduleTilt", it.value as Double)
+                      }
+                      it.getPath().endsWith("tracking") -> {
+                          if (capexType == "dg") {
+                              inputs.put("moduleTracking", it.value as Boolean)
+                          }
+                          else {
+                              inputs.put("moduleTrackingMode", if (it.value as Boolean) "S-Track" else "Fixed")
+                          }
+                      }
+                      it.getPath().endsWith("modulesInOrientation") -> {
+                          if (capexType == "dg") {
+                              if (solarGenerators[generatorId]?.get("moduleOrientation")?.textValue() ~~ "PORTRAIT" &&
+                                  it.value as Double in listOf(1.0, 2.0)) {
+                                  inputs.put("trackerType", if (it.value as Double == 2.0) "2inP" else "1inP")
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+          // boundary value in inputs is not valid json, but not needed by capex if inputs are provided
+          inputs.remove("boundary")
+          logger.log("INFO: Requesting $capexType solar capex for generator id=$generatorId")
+          solarCapexUtil.requestSolarCapex(batchScenarioId, generatorId, logger, capexType, inputs)
+      }
+    #+END_EXAMPLE
+  - Where is =solarCapexRequests= used?
+    #+BEGIN_EXAMPLE
+      val allRequests = solarNcfRequests + solarCapexRequests
+      if (allRequests.isNotEmpty()) {
+          logger.log("INFO: Writing requests status file for batch scenario $batchScenarioId to batch s3")
+          awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyRequests(batchScenarioId), JobUtil.objectMapper.valueToTree(allRequests))
+          return true
+      }
+    #+END_EXAMPLE
+  - Looks like =Create.kt= is calling =SolarCapexRequests.requestSolarCapex()= once for each =solarCapexGeneratorId=
+  - +But it doesn't look like =SolarCapexRequests.requestSolarCapex()= is saving anything+
+  - +The saving in =SolarCapexRequests= is done by =updateSolarCapex= which isn't being called by =requestSolarCapex=+
+  - +Where is =updateSolarCapex= being called from?+
+    - +=updateSolarCapex= is called from =CheckRequests.kt=+
+  - =requestSolarCapex= calls =handleCapexResults=
+    - Problem is in =handleCapexResults=
+    - The data that =handleCapexResults= writes is somehow getting overwrriten later in the creation process
+    - What does =handleCapexResults= write?
+      #+BEGIN_EXAMPLE
+        private fun handleCapexResults(request: ObjectNode, batchScenarioId: String, logger: LambdaLogger, resultBody: JsonNode) {
+            val scenarioRecord = jobUtil.getBatchScenarioRecord(batchBucket, batchScenarioId, logger)
+            val scenarioInput = jobUtil.getConfigJsonFromS3(batchBucket, batchScenarioId)
+            val generatorId = request.path("body").path("generatorReference").path("generatorId").textValue()
+            applyCapexToScenario(scenarioRecord.path("scenario"), generatorId, resultBody)
+            applyCapexToScenario(scenarioInput, generatorId, resultBody)
+            logger.log("INFO: Writing updated capex batch scenario $batchScenarioId record and optimizer input json to $batchBucket")
+            awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyScenarioRecord(batchScenarioId), scenarioRecord)
+            awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyInputConfig(batchScenarioId), scenarioInput)
+        }
+      #+END_EXAMPLE
+    - Look for calls to =JobUtil.buildS3KeyScenarioRecord= and =JobUtil.buildS3KeyInputConfig= in =Create.kt=
+      #+BEGIN_EXAMPLE
+        if (requestResources(scenarioInput, batchScenario.transforms + derivedTransforms, batchScenario.id, scenarioId)) {
+            logger.log("INFO: Writing batch scenario ${batchScenario.id} record and optimizer input json to $batchBucket")
+            awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyScenarioRecord(batchScenario.id), scenarioRecord)
+            awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyInputConfig(batchScenario.id), scenarioInput)
+        }
+      #+END_EXAMPLE
+- The problem is that =handleCapexResults= is calling =awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyScenarioRecord(batchScenario.id), scenarioRecord)= and then in =Create.kt=, we have =awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyScenarioRecord(batchScenario.id), scenarioRecord)=
+- What is =scenarioRecord=, in this context?
+- Do we actually need to call the =saveAsS3Object= calls in the if statement? =requestResources= unconditionally calls =solarCapexUtil.requestSolarCapex=
+- However =requestSolarCapex= does /not/ always call =handleCapexResults= → only calls =handleCapexResults= when the response from the lambda is a 200
+- According to Scott, we need the second save because the Solar NCF data is not saved by =requestResources=
+- /Is Scott correct on this? From what I see, there is another save at the end of =requestResources=/:
+  #+BEGIN_EXAMPLE
+    val allRequests = solarNcfRequests + solarCapexRequests
+    if (allRequests.isNotEmpty()) {
+        logger.log("INFO: Writing requests status file for batch scenario $batchScenarioId to batch s3")
+        awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyRequests(batchScenarioId), JobUtil.objectMapper.valueToTree(allRequests))
+        return true
+    }
+  #+END_EXAMPLE
+  - So what is this request saving?
+  - We're saving the /request/ data, not the results, which are in the =scenarioRecord= object
+- Per Scott's suggestion, we should get rid of the save in =Create.handleRequest()= and have =requestSolarNcf= save the response
+- How am I going to test this?
+- Existing tests already count writes to S3 --- shouldn't need to update
+- How do we save the request?
+  #+BEGIN_EXAMPLE
+    awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyScenarioRecord(batchScenarioId), scenarioRecord)
+    awsUtil.saveAsS3Object(batchBucket, JobUtil.buildS3KeyInputConfig(batchScenarioId), scenarioInput)
+  #+END_EXAMPLE
+  - The way this is called is: =handleCapexResults(JobUtil.objectMapper.valueToTree(result), batchScenarioId, logger, resultBody=
+- I think I should make a separate function called =handleNcfResults=?
+- Function signature: =handleNcfResults(request: ObjectNode, batchScenarioId: string, logger: LambdaLogger, resultBody: JsonNode)=
+  - =resultBody= comes from =JobUtil.objectMapper.readTree(resultPayload.path("body").textValue())=
+  - =resultPayload= comes from =JobUtil.objectMapper.readTree(invocationPayload)=
+  - =invocationPayload= is =StandardCharsets.UTF_8.decode(lambdaResult.payload.slice()).toString()=
+  - The real work that =handleCapexResults= does is actually in the =applyCapexToScenario= function
+    #+BEGIN_EXAMPLE
+      private fun applyCapexToScenario(scenario: JsonNode, generatorId: String, capexBody: JsonNode) {
+          val generator = JobUtil.getSolarGenerators(scenario)
+                  .find { it.path("id").textValue() == generatorId }!! as ObjectNode
+          val irdotOutput = capexBody.get("irdotOutput")
+          generator.putObject("costPerWSolarPanel")
+                  .put("type", "fixedCostPerUnit")
+                  .put("cost", irdotOutput.get("panelCostPerWdc").doubleValue())
+          generator.putObject("costPerMWSolarOther")
+                  .put("type", "fixedCostPerUnit")
+                  .put("cost", irdotOutput.get("rackingCostPerMwdc").doubleValue())
+          generator.putObject("costPerMWInverter")
+                  .put("type", "fixedCostPerUnit")
+                  .put("cost", irdotOutput.get("inverterOtherCostPerMwac").doubleValue())
+      }
+    #+END_EXAMPLE
+  - So what should the equivalent be for Solar NCF?
+- Compiler error: when I try to update the generator node: =(generatorNode.path("generationTimeSeries") as ObjectNode).set("path", TextNode(ncfPath))=, I get the following error:
+  #+BEGIN_EXAMPLE
+    Not enough information to infer type variable T
+  #+END_EXAMPLE
+  - This is strange, because that very same line works without compiler errors farther down:
+    #+BEGIN_EXAMPLE
+      if (lambdaResult.statusCode == 200) {
+          val invocationResult: JsonNode = JobUtil.objectMapper.readTree(invocationPayload)
+          this.logger.log("INFO: solardata get NCF result: $invocationResult")
+          val invocationResultStatusCode = invocationResult.path("statusCode").intValue()
+          this.logger.log("INFO: solardata get NCF statusCode: $invocationResultStatusCode")
+          result["statusCode"] = invocationResultStatusCode
+          val invocationResultBody = JobUtil.objectMapper.readTree(invocationResult.path("body").textValue())
+          var ncfPath: String? = null
+          if (invocationResultStatusCode == 200 || invocationResultStatusCode == 201) {
+              ncfPath = invocationResultBody.path("dc").path("path").textValue()
+              result["requestId"] = invocationResultBody.path("requestId")
+              (generatorNode.path("generationTimeSeries") as ObjectNode).set("path", TextNode(ncfPath)) <--- Compiler error here
+          } else {
+              // generationTimeseries.path set to null, which will ultimately cause a scenario validation error
+              this.logger.log("ERROR: Failure getting solardata NCF. Result payload: $invocationResultBody")
+          }
+          this.logger.log("INFO: updating generationTimeseries.path to $ncfPath")
+          (generatorNode.path("generationTimeSeries") as ObjectNode).set("path", TextNode(ncfPath)) <--- Works just fine here
+      } else {
+          this.logger.log("ERROR: Failed solardata NCF lambda log: '${lambdaResult.logResult}'")
+          result["error"] = mapOf("statusCode" to lambdaResult.statusCode, "payload" to invocationPayload)
+      }
+    #+END_EXAMPLE
+  - If there is any code after =(generatorNode.path("generationTimeSeries") as ObjectNode).set("path", TextNode(ncfPath))=, I get the error
+  - But why would having code /after/ that line mess up the inferred return type for =set=?
+  - It might be because the compiler can tell that the return value of that call isn't being used if there's no code after the call
+    - I also get the error if I try to assign the result of that call to a value
+  - [[https://fasterxml.github.io/jackson-databind/javadoc/2.12/][Jackson Databind docs]]
+  - =ObjectNode= inherits from =JsonNode=
+  - =generatorNode.path()= returns a =JsonNode=
+  - I need to force-cast the value to an =ObjectNode= with =as ObjectNode=
+    - Spoke about this at the developer meeting --- this is a known issue with the Kotlin compiler
+- How do I apply the updated generator to the scenario?
+- Fix unit tests
+  - Define a private function that will create an empty scenario?
+    #+BEGIN_EXAMPLE
+      val scenarioInput = jacksonObjectMapper().createObjectNode()
+    #+END_EXAMPLE
+  - Is this all I need to get the unit tests working
+- That got the saving unit test working, but now I need to tweak the tests that count the number of saves
+- Scott's feedback

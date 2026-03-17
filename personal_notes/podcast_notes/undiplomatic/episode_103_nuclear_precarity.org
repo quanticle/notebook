@@ -1,0 +1,304 @@
+* Undiplomatic Podcast Episode 103: Nuclear Precarity
+
+** Introduction
+- Keynote lecture delivered at Ritsumekan University in Kyoto Japan
+- Lecture on nuclear war risks in East Asia
+- "Nuclear precarity"
+  - Not all nuclear crises are equally unstable
+  - 2 parts --- one is the keynote speech
+  - Then panel discussion with Jeffrey Lewis (The "Arms Control Wonk")
+  - Lewis' Middlebury Institute found a bunch of Chinese nuclear silos via open-source intelligence
+  - However there was a Chinese scholar who came with a powerpoint presentation claiming that the satellite images of the Chinese nuclear silos were actually those of a wind farm
+- Dynamics on the security in East Asia
+- "Nuclear precarity"
+
+** Speech Notes
+- Lots of news recently about nuclear proliferation, missile tests, missile technology
+- All of this news has either involved Northeast Asia or the United States
+- Historical context
+  - Many Asia watchers made pessimistic projections about the region's future
+  - East Asia was "ripe for rivalry"
+  - Northeast Asia was seen as the sub-region of Asia where the risk of conflict was seen as the most acute
+  - "Ripe for rivalry" prediction was premature
+  - Risks of war have been remote despite occasional crises
+  - The prevailing rule has been situational military restraint and economic growth set against a backdrop of arms buildup and mistrust between nations
+  - However, this pattern is part of the problem
+  - This is not the same as the "ripe for rivalry" prediction
+- Northeast Asia is experiencing "nuclear precarity"
+  - Risks of nuclear war are intolerably high
+  - Situational and structural risks are intersecting
+  - Norm of situational military restraint is eroding
+    - China
+    - North Korea
+    - South Korea
+    - Even Japan
+  - The way nations have prioritized economic growth has heightened appeals to nationalism and jingoism
+  - Structural pressures for nuclear conflict are growing
+    - Nuclear modernization by nuclear states
+    - Conventional modernization by everyone
+- Nuclear war is an outcome that is by definition, not predictable
+- Difficult to assign a reliable probability distribution to nuclear war
+- However, this has not ever stopped analysts from assigning /subjective/ probabilities to nuclear war
+  - In the 2018 nuclear crisis with North Korea, the odds that experts gave for nuclear war ranged from 30% to 70%
+  - But what do those numbers mean? Nothing
+  - What's the difference? Nothing
+  - The numbers are people expressing their own personal opinions about danger
+  - "Numericized opinions"
+- Not helpful to estimate the likelihood of nuclear war in a formal manner
+- However, that should not prevent us from exercising foresight and assessing risks
+- Diagnosing risks can show us pathways to mitigate risks, helping prevent nuclear war
+- "Nuclear precarity" refers not to a specific probability, but to an intersectional view of situational and structural risk
+  - Structural risk --- impersonal forces that create rational incentives to either use nuclear weapons or escalate an arms race
+    - Asymmetries in military power between rivals
+    - Offense/defense balance radically favors offense
+    - Each individual nation has an incentive to either use nuclear weapons or out-arm its rivals, even though doing so makes the situation worse, because the opponent will reciprocate
+    - Relational risk --- risk at the system level, risks from the incentives that each nation has
+  - Situational risk
+    - Not structural, actor-centric
+    - Degree of reliance on coercive military signalling towards an adversary
+    - There is always some level of military signalling going on, even when there isn't a crisis
+    - This is just how adversaries communicate
+    - However when adversaries use new weapons platforms or military postures as a way of communicating threat to an adversary, they're introducing new, dangerous possibilities
+    - The situational risk of nuclear war is higher when your reliance on military signalling is greater, because the nature of military signalling is crude and imprecise
+    - The more you use military signalling, the greater the risk of errors in perception or judgemenet or accidents
+- Situational and structural risk are both important
+  - Structural risk can be judged in an abstract or generalized way
+  - Situational risks involve specific, concrete situations which have to be judged individually
+- Julia MacDonald and Mark Bell
+  - All nuclear crises are not equally unstable
+  - Looking at nuclear crises as the intersection of situational and structural risk explains why
+  - It's possible to have a situation that's structurally unstable, but under control
+  - Likewise it's possible to have a situation that's full of military threat-making which remains under control because neither side has any incentive to go to war
+- Example: India-China conflict of 2020
+  - Great deal of back-and-forth threatmaking
+  - No arm-racing instability
+  - No crisis instability
+  - Low incentives for nuclear use
+  - Stable conflict dyad
+  - High situational risk, but low structural risk
+- Example: US-Soviet Union at the end of the Cold War
+  - Intense arms-race pressure
+  - Moderate incentive for nuclear first-use
+  - However, no confrontations that looked like the Cuban Missile crisis
+  - While there were dangers (Able Archer, 1983), there was no brinksmanship and the crises were not frequent
+  - Moderate-to-high structural risk, but low situational risk
+- All nuclear dyads are not equally unstable
+- All nuclear crises are not equally unstable
+- Nuclear precarity is the intersection of high structural risk and high situational risk
+- The changing pattern of Northeast Asian international relations is increasing both situational and structural risk
+  - Northeast Asia was characterized by Park Gyun He as an "Asian Paradox"
+    - "Hot economics"
+    - "Cold politics"
+    - With the exception of North Korea, nations were pursuing close economic ties while simultaneously building up military capbilities and employing balance-of-power strategies
+  - That characterization is correct, but incomplete
+  - Missing element that made the paradox possible was situational military restraint
+  - Except for a few moments, nations have mostly avoided provocative military actions
+  - Restraint could be because of greed, fear of retaliation, or fear of the costs of war
+  - Military buildup coupled with military restraint
+  - This restraint is starting to break down
+  - While defense spending is not increasing dramatically, the military modernization projects of all Northeast Asian powers are growing
+  - Missile technology is proliferating
+  - Nuclear nation states (China, United States and North Korea) are increasing their reliance on coercive military signalling
+- Structural risk: growing conventional and nuclear proliferation
+  - New Chinese nuclear missile fields
+  - US nuclear modernization program
+  - Chinese debate over whether they should abandon their policies of minimum deterrence or no-first-use
+  - Growing concern about fractional orbital bombardment systems
+    - FOBS + hypersonics → nuclear warheads into low-earth orbits + hypersonic glide vehicle = capability to bypass early warning systems
+      - /Is this actually true?/
+      - /FOBS can bypass ground-based radars but the US was able to build satellite-based early warning systems to warn against Soviet FOBS/
+      - /Why can't we do the same thing against the Chinese?/
+    - If the US feels like its early warning systems cannot protect it against attack, it will feel like it'll have to respond
+    - The most aggressive voices could end up urging a first-strike or launch-on-warning nuclear posture against China
+  - The Biden administration's nuclear policy, thus far, has just been a rationalizing of Trump's nuclear policy
+    - Dissatisfied with America's /large/ margin of superiority
+    - Investing over a trillion dollars in nuclear modernization
+      - "Tactical" nuclear warheads
+      - More missile defense
+      - 145 B-21 stealth bombers (six times the size of the B-2 bomber force)
+  - The entire nuclear enterprise is justified as a threat response to China
+  - China's actions are themselves are a response to US nuclear modernization
+  - On the basis of this, there are some in the US who advocate for a nuclear strategy based on both unlimited brinksmanship and nuclear superiority
+- Korean peninsula has a similar pattern
+  - North Korea --- obvious build-up, continued unchecked
+    - Pursuing new directions
+      - SLBMS
+      - Hypersonic glide vehicles
+      - Rail-mobile launchers
+  - Unless North Korea has incentives to restrain itself, it's next step will be a MIRV
+  - Now that China is developing FOBS, North Korea will develop the same
+  - MIRV, FOBS, hypersonics → all are ways of defeating missile defenses
+  - In addition, South Korea has been developing missiles (although it doesn't have nukes)
+  - US and South Korea announced a derestriction on the range of South Korean ballistic missiles
+  - This restriction was put in place 42 years ago as a way of trying to curb regional missile arms races
+  - Biden's team has stood steadfast by Korea as Korea has tested a submarine launched ballistic missile
+  - South Korea's political opposition has renewed calls for nuclear weapons development
+  - United States has facilitated South Korea's "kill chain" concept of precision-guided conventional missiles capable of "decapitation strikes"
+- Japan --- far less concern than rest of region
+  - Possesses cruise missile and short-range ballistic missiles
+  - Possesses missile defenses
+  - Exhibits the least structural and situational risk
+  - However, factions within the LDP has voiced support for acquiring longer-ranged missiles and pursuing a more offensive doctrine
+  - Also expressed interest in acquiring nuclear powered submarines
+  - If South Korea goes nuclear, then Japan will be faced with a once-in-a-century decision about how to secure itself in a rapidly deteriorating security environment
+  - Not modernizing at the same pace as its neighbors, but modernizing nonetheless
+- Structural risk of nuclear weapons is bad and getting worse
+  - Korean Peninsula, in particular is particularly worrying
+  - Asymmetric arms race between a nuclear and non-nuclear state
+  - Compounds the balance of terror between the US and North Korea
+- Situational risks are also going in the wrong direction
+  - 2017 nuclear crisis
+  - Crisis in the Taiwan Strait today would be more like 2017 than like 1996
+  - Coercive military signalling has become the dominant mode of communication on the Korean peninsula and between Beijing and Taipei
+- Coercive military signalling is not a new phenomenon on the Korean Peninsula
+  - North Korea has a long record of using colorful rhetoric to criticize and threaten the United States and its Northeast Asian neighbors
+  - This has actually led to a signal vs. noise problem in the United States as US officials and soldiers had trouble distinguishing between real threats and cheap talk
+- North Korea's contribution to situational risk is persistent, but not new
+  - 2017 - insults against Donald Trump and threats of military retaliation
+  - Since then, North Korea has returned to using missile tests as a crude means of signalling, especially to the United States
+  - 2020 North Korea blows up the inter-Korean liasion office at Kaesong
+  - North Korea carries out these acts out of a sense of frustration
+  - Frustration at lack of diplomatic progress towards the insecurity problem
+- What's new is the increase in the US and South Korea's coercive military signalling towards North Korea
+  - The novelty of the 2017 moment was not North Korea's threatmaking and brinksmanship, it was the fact that the US was mirror-imaging North Korea
+  - The 2017 situtation was combustible because both sides were engaging in coercive military signalling against a backdrop of ever-increasing first-use and arms-racing pressure
+  - This is a classic example of nuclear precarity
+  - The United States abandoned its norm of restrained rhetoric and limited coercive military signalling
+- The Biden administration is more restrained its rhetoric, but has shown little care for the risks of military signalling via non-rhetorical means
+  - Military exercises
+  - Changes in force posture
+- A contingent of nuclear policy experts see 2017 as a /positive example/
+  - Pursue nuclear superiority to enable brinksmanship
+- South Korea has also decided to accept greater situational risk
+  - Under Lee Myun Bak and Park Gyun He, South Korea started making more verbal threats against North Korea
+  - Very publicly sought defense reforms aimed at conducting operations against North Korea
+- When Moon Jae-in came into power, he restrained the rhetoric but continued the military build-up of his predecessors
+- Accepted increasing structural risks, just muted the situational risks
+- This increase in situational risk is not limited to the United States and North Korea
+- China has embraced "wolf warrior" diplomacy, which escalates transgressive rhetoric towards all antagonists
+- Since Sino-US relations began to deteriorate in 2018, China has become more openly hostile towards Taiwan and more openly willing to threaten the use of force against Taiwan
+  - Increased PLA incursions into Taiwan's Air Defense Identification Zone
+  - Almost 150 fighter aircraft incursions this month
+  - Taiwan's defense minister has warned that military relations are at the lowest point in 40 years
+- While Taiwan doesn't possess the means to build a military that could hold off a Chinese invasion on its own, that hasn't stopped it from trying to acquire multiple types of cruise missiles and seeking an indigenous submarine capability
+- "Wolf Warrior" diplomacy combines with an escalation of PLA Navy and PLA Air Force incursions
+- Multiple flashpoints in NE Asia, sharing similar attributes
+- However the flashpoints are not all equally unstable
+- Summary so far
+  - Nuclear precarity arises from the intersection of high structural risk and high situational risk
+  - Nuclear precarity in Northeast Asia has arisen from this background of "hot economics and cold politics"
+- Possible pathways to nuclear war in Korea and Taiwan
+  - Goal is not to provide vivid and realisitic scenarios that would lead to nuclear war
+  - Instead focus on ways the ways that a condition of nuclear precarity could plausibly lead to catastrophe
+- Pathways
+  - Preventive war of choice
+  - Spiral model of escalation
+  - "False positive" war
+- Preventive war of choice
+  - Seems pathological to say that a state would choose to launch a war during peacetime
+  - However, America's wars since the end of the Cold War have all been initiated by the US
+  - 2003 invasion of Iraq is the most prominent example
+  - In 2017, momentum was building towards another preventive war against North Korea
+  - That sentiment towards North Korea has not gone away
+  - Not unthinkable that China could pursue a preventive war of choice depending on conditions in China
+    - Increasing inequality in China
+    - Increasing repression by the Chinese government
+    - Increasing reliance on ethno-nationalism as source of legitimacy by the Chinese government
+    - Xi Jinping has stressed repeatedly the importance and inevitability of Taiwan's unification with the mainland
+    - While Xi Jinping's personal rhetoric towards Taiwan is not more belligerent than his predecessors (it is in fact more restrained), he has also stated, "Taiwan independence separatism is the biggest obstacle to the achieving the reunification of the motherland and the most serious hidden danger to national rejuvenation"
+    - Because Xi Jinping has drawn such a firm red line, China might launch a premeditated attack based on Taiwan's domestic politics
+  - In both Korea and the Taiwan straits, there are plausible routes for countries to engage in preventive war
+  - Leading indicators of preventive war
+    - Heightened war rhetoric
+    - Large scale military deployments (/not/ seeing this across the Taiwan Straits)
+    - Changes in military alert levels
+  - In Korea, the preventive war would almost certainly be a US decision, not a North Korean decision
+    - The imminent sign of worry would be bipartisan statements of support for military operations against North Korea in a context where North Korea has conducted an atmospheric nuclear test or committed an act of violence
+  - Across the Taiwan Strait, the most important indicator of preventive war is anything that the PRC might interpret as a declaration of independence by Taiwan, especially if it occurs against a backdrop of acute economic crisis in China
+- Spiral model of conflict
+  - More straightforward from the literature
+  - War is an irrational outcome that can be the result of both sides taking rational actions
+  - "Defensively motivated offensive actions"
+  - Each side aims at deterrence, but inadvertently compels the other side to reciprocate, causing deterrence to fail
+  - In 2017, the US was on this pathway with North Korea
+  - Both sides kept escalating their military signalling
+  - Mutual posturing had escalated to the point where the logical next step was for either side to employ limited coercive violence
+  - At the time when Kim Jong-Un tested an ICBM on November 28, 2017, the US was actively considering a "bloody-nose" strike against Kim Jong-Un
+  - That would have forced Kim Jong-Un to retaliate in kind
+  - Once you initiate violence, you cannot necessarily control what happens next
+  - Across the Taiwan Strait, a conflict spiral is more plausible than preventive war
+  - If a PLA fighter collides with or forces down a Taiwanese F-16, the US and Taiwan, at a minimum would muster additional shows of military force meant to warn the PLA Air Force against further incursions into Taiwan's air defense identification zone
+  - The PLA Air Force would almost certainly respond in kind, triggering a stand-off
+  - The PLA Air Force could also collide with or shoot down a US Air Force conducting reconaissance
+    - Occurred in 2001
+    - Was resolved peacefully only because the crew was not killed
+    - Also in 2001, the US and China had a much warmer relationship
+    - Chinese capabilities at that time were also much inferior to US capabilities in Northeast Asia
+  - That same incident today, perhaps with the crew dying could end much differently
+- "False Positive" war
+  - Misperceived military signals
+  - Indicate to the reciever that an attack is imminent even when it's not
+  - Risk of false positive exists between the US and China
+  - Either the US or PRC could position its military in a way that indicates that an attack of some kind is about to happen
+  - Key indicators
+    - Withdrawal of US personnel from Taiwan
+    - Changes in nuclear alert levels
+    - Sudden deployment of warheads, missiles or nuclear bombers
+    - Sudden shifts in declared nuclear policy
+    - Deployment or mobilization of forces
+    - Deployment of aircraft carriers or submarines
+    - 24-hour naval surface patrols or combat air patrols
+  - Many of these activities occur in peacetime, and are not intended to signal imminent war
+  - However, when they occur all at once, or in the context of a pre-existing acute confrontation, the crisis becomes a fog, and risk factors become compounded
+  - If a leader is feeling sufficiently paranoid or beseiged, any one of a number of activities could confirm to them that an attack is imminent
+  - In a false-positive scenario the attacker believes they're acting in self-defense
+  - While "false-positive" certainly is a risk across the Taiwan Strait, it is a far greater risk on the Korean peninsula
+  - Was a real risk of this as well in 2017
+    - US was giving off several indications of imminent attack
+    - Kim Jong-Un showed forebearance, didn't overreact
+    - Verbal threats of "bloody nose" and "fire and fury"
+    - Saw deployment of 3 US carrier strike groups
+    - Deployment of Navy Seals to the Korean Peninsula
+    - Rumors of the evacuation of civilians
+    - Deployment of B-52 bombers
+    - Kim's warning time had been reduced to almost 0
+    - If a military accident had occurred, of if he'd felt slightly more besieged, he could have lauched strikes against US or Japanese targets in the name of deterrence
+- These three pathways don't address nuclear war specifically
+- The reason for this is that it's unfathomable for nuclear weapons to be used outside of an ongoing crisis or conventional conflict
+- Nuclear escalation does not occur suddenly in the midst of a peacetime status quo
+- The surest incentive to use nuclear weapons is conventional war, so the surest way to manage the risk of nuclear weapons is to prevent convetional war
+- Once the seal on battlefield violence has been broken, preventing escalation to nuclear is a matter of gambling
+- Recommendations
+  - Pursue some form of arms control with China and North Korea
+    - Reductions in stockpiles
+    - Negotiated restraints on the operationalization of arsenals
+    - Attempts to construct nuclear weapons-free zones
+  - There is no hope of this happening in a context where everyone is modernizing their nuclear arsenals and proliferating missiles
+  - The US is in the strongest position to catalyze positive change, but it will not do so without active support and lobbying from its clients
+    - Japan
+    - South Korea
+    - Taiwan
+  - If US allies are making veiled threats about going nuclear themselves or are handwringing about US abandonment, those sentiments will be seized by hawks in Washington to discredit any discussion of restraint
+  - Northeast Asia needs security instutions
+    - An organization modeled on the OSCE could be a champion for conflict prevention
+    - Could provide technical support for arms control and cooperative regionalism
+    - There are lot of challenges that make an OSCE model difficult to implement, but it's the right thing to do
+    - Pandemic and climate change are issues that could provide the impetus for the creation of some kind of regional coordination mechanism
+  - Reduce domestic inequalities
+    - Political economy plays an indirect role in heightening nuclear precarity
+    - Why has there been such a dramatic increase in situational risk over the last 10 years?
+    - Political leaders are appealing to the darker forces in society
+    - They're doing this in order to distract people from the increasing inequality that they're confronted with in their own lives in order to maintain political legitimacy
+    - To arrest jingoism, we must arrest economic inequality
+  - Challenge the military mindset in the region
+    - Insist on better analytical justifications for new weapons systems and changes in military deployments
+    - A lot of what we've seen in recent decades is "vulgar balancing"
+      - Government officials make vague gestures, and then use those gestures to justify more aggressive force postures, military doctrines and investments in new weapons systems
+      - This is intellectual laziness
+- Dieter Senghaas described deterrence as "organized peacelessness"
+  - This is a view shared by George and Smoke, authors of /Deterrence in American Foreign Policy/
+  - Deterrence is at best, a strategy for buying time
+  - Success must be measured by how one uses the time bought to ameliorate the conditions giving rise to the need for deterrence in the first place
+  - Stability based on fear and risk is, at best, a precarious interim condition
+- We have lost this knowledge and need to recover it
+- Need an exit strategy from deterrence

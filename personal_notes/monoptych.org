@@ -1,0 +1,10 @@
+#+TITLE: The etymology of "monoptych"
+
+It wasn't me, it was gwern
+#+begin_example
+2023-12-11 18:45:17 <Obormot\Arcturus> gwern: What would be the word for the singular analogue of a triptych? Like, one instead of three
+2023-12-11 18:45:41 <gwern> m - monoptych?
+2023-12-11 18:45:46 <gwern> is this a trick question
+2023-12-11 18:48:15 <quanticle> It wouldn't be "monoptych". "Triptych" is derived from "diptych", which means two with a fold
+2023-12-11 18:49:16 <quanticle> gwern: If you have just one, though, there's no fold
+#+end_example

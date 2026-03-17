@@ -1,0 +1,139 @@
+#+TITLE: Fedora Linux
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+* Clean Install
+
+** Make Backups
+- Back up Downloads directory
+- Back up =~/.local/bin/= directory
+- Back up configuration files
+  - mpv
+  - streamlink
+  - yt-dlp
+  - tmux
+  - =.bashrc=
+  - Stylus user styles
+- Check in changes to notebook, website and emacs-config repositories
+- Verify SSH and GPG key backups
+
+** Create Fedora Install Media
+- Install the Fedora Media Writer: =flatpak install flathub org.fedoraproject.MediaWriter=
+- Run Fedora Media Writer from the application menu
+
+** Install Fedora
+
+** Install Cascadia Code fonts
+- Download Cascadia Code from =https://github.com/microsoft/cascadia-code/releases=
+- Install the individual =.otf= files
+
+** Restore =.bashrc=
+
+** Restore SSH and GPG keys
+- Copy SSH key from =~/thumbdrive/laptop_ssh_keys/<latest_backup>/ssh/= to =~/.ssh/=
+- Set directory permissions to 700
+- Set file permissions to 600
+- Copy GPG key from =~/thumbdrive/gpg_keys/<latest_backup>/gnupg/= to =~/.gnupg/=
+- Set directory permissions to 700
+- Set file permissions to 600
+
+** Restore Password Manager
+- =sudo dnf install pass=
+- =pass init "[ultimate] Rohit Patnaik <quanticle@quanticle.net>"=
+- =pass git init=
+- =pass git remote add origin "git@github.com:quanticle/pass.git"=
+- =pass git fetch=
+- =pass git checkout origin/master=
+- =pass git checkout -B master=
+- =pass git branch -u origin/master master=
+
+** Set up third party RPM repositories
+- Enable the =openh264= library: =sudo dnf config-manager --enable fedora-cisco-openh264=
+- Enable RPM Fusion with: =sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm=
+
+** Get Emacs and Org-Mode
+
+*** Emacs
+- =sudo dnf install emacs=
+
+*** Org-Mode
+- Get org-mode sources from: =git://git.sv.gnu.org/emacs/org-mode.git=
+- Install =texinfo=
+- Clone into =~/emacs-org/=
+- Run make
+
+*** Emacs Configuration
+- =git clone git@quanticle.net:emacs-config.git ~/emacs-config/=
+- Switch to the =personal_computer= branch
+- Copy =init.el= to =~/.emacs.d/=
+
+** Get Notebook Repository
+- =git clone git@github.com:quanticle/notebook.git ~/notebook/=
+
+** Install Java
+- =sudo dnf install java-17-openjdk java-17-openjdk-devel=
+
+** Install Leiningen
+
+- [[https://leiningen.org/#install][Install instructions]]
+
+** Install SBCL
+- =sudo dnf install sbcl=
+
+** Install Google Chrome
+- Go to =https://chrome.google.com/= and download the RPM installer
+- =sudo dnf install ~/Downloads/google-chrome-stable_current_x86_64.rpm=
+- Install the Stylus extension
+- Restore Stylus styles
+
+** Restore from backups
+- Downloads folder
+- Videos folder
+- Podcasts folder
+- Configuration files
+  - Fontconfig
+  - mpv
+  - streamlink
+  - yt-dlp
+  - tmux
+  - Stylus user styles
+
+** Install software
+- Install ffmpeg from dnf
+- Install mpv from dnf
+- Install tmux from dnf
+- Set up a virtualenv
+  - =sudo dnf install python3-virtualenv=
+  - =virtualenv ~/streamlink_venv=
+- Activate the virtualenv with =source ~/streamlink_venv/bin/activate=
+- Update =pip= in the virtualenv with =pip install --upgrade pip=
+- Install =yt-dlp= with =pip install yt-dlp=
+- Install =streamlink= with =pip install streamlink=
+
+** Install Printer Driver
+- Printer: Brother HL-L2300D
+- Linux Driver: [[https://support.brother.com/g/b/downloadtop.aspx?c=us&lang=en&prod=hll2300d_us_eu_as]]
+
+* Upgrades
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: page-break-before
+:END:
+
+** Routine Upgrades
+- =sudo dnf upgrade --refresh=
+- Unmount external drives
+- Reboot
+
+** Upgrading to a new release
+- =sudo dnf upgrade --refresh=
+- If not installed, install the =dnf= system upgrade plugin with: =sudo dnf install dnf-plugin-system-upgrade=
+- =sudo dnf system-upgrade download --releasever​=<release #>=
+  - May have to pass the =--allowerasing= flag if some packages have unsatisfied dependencies
+- Switch to a console =Ctrl-Alt-F3=
+- Run the upgrade with =sudo dnf system-upgrade reboot=
+- After the upgrade completes, remove retired packages
+  - =sudo dnf install remove-retired-packages= (only needs to be done once)
+  - =sudo remove-retired-packages=

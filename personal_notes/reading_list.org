@@ -1,0 +1,321 @@
+#+TITLE: Reading List
+
+* Books
+
+- Wilson - /Congressional Government: A Study in American Politics/
+- Erickson, Kennedy, Martinson - /[[file:~/Downloads/Chinese Amphibious Warfare_ Prospects for a Cross-Strait Invasion.pdf][Study No 8: Chinese Amphibious Warfare: Prospects for a Cross-Strait Invasion]]/
+- Perrin - /[[https://archive.org/details/givingupgun00noel][Giving Up The Gun: Japan's Reversion to the Sword, 1543 - 1879]]/
+- Wang - /Breakneck: China's Quest to Engineer the Future/
+- Wuthnow, Saunders - /China's Quest For Military Supremacy/
+- Rynning - /NATO: From the Cold War to Ukraine, A History of the World's Most Powerful Alliance/
+- Sisson - /The United States, China and the Competition for Control/
+- Kyle - /Suez: Britain's End of Empire in the Middle East/
+- Hawley - /The Imjin War/
+- Macedo, Lee - /In COVID's Wake: How Our Politics Failed Us/
+- Williams - /The Summer of Our Discontent/
+- Bradford - /The Brussels Effect: How The European Union Rules The World/
+- Irwin - /Clashing Over Commerce: A History of US Trade Policy/
+- Payne - /The Great American Gamble/
+- Rauch - /Demosclerosis: The Silent Killer of American Government/
+- Chickering - /The German Empire: 1871 - 1918/
+- Applebaum - /Stuck: How the Privileged and Propertied Broke the Engine of American Opportunity/
+- Ryan - /The War For Ukraine: Strategy and Adaptation Under Fire/
+- Meyer - /A World Undone: The Story of the Great War, 1914 to 1918/
+- Schlesinger - /The Imperial Presidency/
+- Hochschild - /American Midnight: The Great War, A Violent Peace and Democracy's Forgotten Crisis/
+- Noel - /Barrel-Aged Stout and Selling Out: Goose Island, Anheuser-Busch and How Craft Beer Became Big Business/
+- Brands - /War In Ukraine: Conflict, Strategy and the Return of a Fractured World/
+- Heck, Mills - /Armies In Retreat: Chaos, Cohesion and Consequences/
+- Warden - /The Air Campaign: Planning For Combat/
+- Allison, Carnesale, Nye - /Hawks, Doves & Owls: An Agenda For Avoiding Nuclear War/
+- Burnham - /The Managerial Revolution/
+- Stark - /The Yemen Model: Why US Policy Has Failed in the Middle East/
+- Herzog - /War of Atonement: The Inside Story of the Yom Kippur War/
+- Rynning - /NATO: From the Cold War to Ukraine: A History of the World's Most Powerful Alliance/
+- Kessler - /Running Money: Hedge Fund Honchos, Monster Markets and My Hunt for the Big Score/
+- Oman - /History of the Peninsular War, 1807-1809: From The Treaty of Fontainebleau to the Battle of Corunna/
+- Dornberger - /V2/
+- Hamilton - /Williams: The Legendary Story of Frank Williams and His F1 Team in Their Own Words/
+- Young - /The Vietnam Wars: 1945 to 1990/
+- Gray - /Angle of Attack: Harrison Storms and the Race to the Moon/
+- Kaldellis - /The New Roman Empire: A History of Byzantium/
+- White - /Better Money: Gold, Fiat or Bitcoin/
+- Krepinevich - /The Origins of Victory: How Disruptive Military Innovation Determines The Fates of Great Powers/
+- Zygar - /War and Punishment: Putin, Zelensky and the Path to Russia's Invasion of Ukraine/
+- Bailey - /Understanding The US Wars In Iraq And Afghanistan/
+- Corbett - /Some Principles of Maritime Strategy/
+- Mouritzen, Wivel - /Explaining Foreign Policy: International Diplomacy and the Russo-Georgian War/
+- Bosco - /Five To Rule Them All: The UN Security Council and the Making of the Modern World/
+- Dull - /A Battle History of the Imperial Japanese Navy: 1941-1945/
+- Bensel - /Yankee Leviathan: The Origins of Central State Authority In America, 1859-1877/
+- Dunst - /Defeating The Dictators: How Democracy Can Prevail In The Age of the Strongman/
+- Talmadge - /The Dictator's Army: Battlefield Effectiveness In Authoritarian Regimes/
+- Huntington - /Political Order In Changing Societies/
+- Billington - /The Icon and the Axe: An Interpretive History of Russian Culture/
+- Maxwell - /India's China War/
+- Nolan - /The Allure of Battle: A History of How Wars Have Been Won and Lost/
+- Wilson - /The Thirty Years War: Europe's Tragedy/
+- Radchenko - /Two Suns In The Heavens/
+- Krepinevich, Watts - /The Last Warrior: Andrew Marshall and the Shaping of Modern American Defense Strategy/
+- Grant - /Over The Beach: The Air War In Vietnam/
+- Ricks - /The Generals: American Military Command From World War II To Today/
+- Slobodian - /Globalists: The End of Empire and the Birth of Neoliberalism/
+- Ousterhout - /A Philosophy of Software Design/
+- Watts - /The Eternal Decline and Fall of Rome: The History of a Dangerous Idea/
+- Mornement, Holloway - /Corrugated Iron/
+- Green - /The Revolution That Failed: Nuclear Competition, Arms Control and the Cold War/
+- Szechi - /The Jacobites. Britain and Europe: 1688-1788. New Frontiers in History/
+- Grau - /The Soviet-Afghan War/
+- Gall - /The Wrong Enemy: America in Afghanistan: 2001-2014/
+- Gardner - /The Frontier Complex: Geopolitics and the Making of the India-China Border 1846-1962/
+- Erickson, Klein, Lorraine, Daston, Lemov, Sturm, Gordin - /How Reason Almost Lost Its Mind: The Strange Career of Cold War Rationality/
+- Bernanke, Geithner, Paulson - /Firefighting: The Financial Crisis and Its Lessons/
+- Bandyopadhyay - /Pandemonium: The Great Indian Banking Tragedy/
+- Morgan - /Pacific Gibraltar: U.S.-Japanese Rivalry Over the Annexation of Hawaii, 1885-1898/
+- Goodhart - /The Great Demographic Reversal: Ageing Societies, Waning Inequality and an Inflation Revival/
+- Halliday, Thrasher - /The Ethics of Capitalism: An Introduction/
+- Newey - /How To Build A Car: An Autobiography Of The World's Greatest Formula 1 Designer/
+- Hongoltz-Hetling - /A Libertarian Walks Into A Bear: The Utopian Plot to Liberate An American Town (And Some Bears)/
+- Azizi - /The Shadow Commander: Soleimani, the US, and Iran's Global Ambitions/
+- Ang - /China's Gilded Age: The Paradox of Economic Boom and Vast Corruption/
+- Tapper - /The Outpost: An Untold Story of American Valor/
+- Morgan - /The Hardest Place: The American Military Adrift In Afghanistan's Pech Valley/
+- Naylor - /Relentless Strike: The Secret History of Joint Special Operations Command/
+- Brands, Edel - /The Lessons of Tragedy: Statecraft and the World Order/
+- Leffler - /Safeguarding Democratic Capitalism: US Foreign Policy and National Security - 1920 to 2015/
+- Vaughan - /Challenger Launch Decision: Risky Technology, Culture and Deviance at NASA (reread)/
+- Clark - /Iron Kingdom: The Rise and Downfall of Prussia, 1600---1947/
+- Weiner - /Legacy of Ashes: The History of the CIA/
+- Braumoeller - /Only The Dead: The Persistence of War in the Modern Age/
+- Wertheim - /Tomorrow, The World: The Birth of US Global Supremacy/
+- Mobley - /Progressives In Navy Blue: Maritime Strategy, American Empire and the Transformation of US Naval Identity, 1873-1898/
+- Lind - /The New Class War: Saving Democracy From the Managerial Elite/
+- Forman - /Locking Up Our Own: Crime and Punishment in Black America/
+- Gordon - /Losing The Long Game: The False Promise of Regime Change In The Middle East/
+- Higginbotham - /Midnight in Chernobyl: The Untold Story of the World's Greatest Nuclear Disaster/
+- Westwick - /Stealth: The Secret Contest To Invent Invisible Aircraft/
+- Bacevich - /The Age of Illusions: How America Squandered Its Cold War Victory/
+- Bacevich - /Breach of Trust: How Americans Failed Their Soldiers and Their Country/
+- Acheson - /Present at the Creation: My Years in the State Department/
+- Urbina - /The Outlaw Ocean: Journeys Across The Last Untamed Frontier/
+- Waldman - /Rust: The Longest War/
+- Cohn - /The Ten Year War: ObamaCare and the Unfinished Crusade For Universal Coverage/
+- Barno, Bensahel - /Adaptation Under Fire: How Militaries Change in Wartime (Bridging The Gap)/
+- Thornill - /Demystifying the American Military: Institutions, Evolution and Challenges since 1798/
+- Corbett - /Some Principles of Maritime Strategy/
+- Dalrymple - /The Anarchy: The Relentless Rise of the East India Company/
+- Scharre - /Army of None: Autonomous Weapons and the Future of War/
+- Drucker - /The Concept of the Corporation/
+- Lee - /Insecure Majorities: Congress and the Perpetual Campaign/
+- Dalrymple - /Return of a King: The Battle for Afghanistan/
+- Zuboff - /The Age of Surveillance Capitalism/
+- Lindsey, Teles - /The Captured Economy: How The Powerful Enrich Themselves, Slow Down Growth and Increase Inequality/
+- Mao, Lawson - /The Qing Empire and the Opium War: The Collapse of the Heavenly Dynasty (Cambridge China Library)/
+- Kuran - /Private Truths, Public Lies: The Social Consequences of Preference Falsification/
+- Tuchman - /The Guns of August/
+- Furet - /The Passing of an Illusion: The Idea of Communism in the Twentieth Century/
+- Smith - /Russia In Revolution: An Empire In Crisis 1890-1928/
+- van Buren - /We Meant Well: How I Helped Lose the Battle for the Hearts and Minds of the Iraqi People/
+- Kaplan - /The Insurgents: David Petraeus and the Plot to Change the American Way of War/
+- Scott - /Seeing Like A State: How Certain Schemes To Improve The Human Condition Have Failed/
+- Graeber - /Debt: The First 5000 Years/
+- Eubanks - /Automating Inequality: How High-Tech Tools Profile, Police and Punish The Poor/
+- Wrong - /In The Footsteps of Mr Kurtz: Living On The Brink of Disaster in Mobutu's Congo/
+- Callahan - /The Givers: Wealth, Power, and Philanthropy in a New Gilded Age/
+- Edgerton - /Shock of the Old: Technology and Global History Since 1900/
+- Dasgupta - /Capital: The Explosion of Delhi/
+- Gleick - /Chaos/
+- Danielsen - /Making Warriors in a Global Era: An Ethnographic Study of the Norwegian Special Operations Commando/
+- Principe - /Secrets of Alchemy/
+- Beard - /SPQR: A History of Ancient Rome/
+- Lee - /Insecure Majorities: Congress and the Perpetual Campaign/
+- Glantz - /When Titans Clashed/
+- Bellamy - /Red God of War: Soviet Artillery and Rocket Forces/
+- Caro - /The Path To Power/
+- Caro - /Means of Ascent/
+- Caro - /Master of the Senate/
+- Caro - /The Passage of Power/
+- Marra - /A Constellation of Vital Phenomena/
+- Naval History and Heritage Command - /War in the Shallows: US Navy Coastal and Riverine Warfare in Vietnam: 1965-1986/
+- Nagl - /Learning To Eat Soup With A Knife: Counterinsurgency Lessons From Malaysia and Vietnam/
+- Afzal - /Pakistan Under Seige: Extremism, Society and the State/
+- Biddle - /Military Power: Explaining Victory and Defeat in Modern Battle/
+- Anderson - /Private Government: How Employers Rule Our Lives (and Why We Don't Talk About It)/
+- Burroughs - /Days of Rage/
+- Deming - /The New Economics for Industry, Government, Education/
+- Achen Bartels - /Democracy of Realists: Why Elections Do Not Produce Responsive Government/
+- Varble - /The Suez Crisis 1956 (Essential Histories)/
+- Vaishnav - /When Crime Pays/
+- Arendt - /The Origins of Totalitarianism/
+- Bostrom - /Superintelligence: Paths, Dangers, Strategies/
+- Mahan - /The Influence of Sea Power Upon History/
+- Robb - /The Discovery of France: A Historical Geography/
+- Jacobs - /The Death and Life of Great American Cities/
+- Hofstadter - /Goedel Escher Bach: The Eternal Golden Braid (reread)/
+- Rawls - /A Theory of Justice/
+- Keegan - /The Face of Battle (reread)/
+- George - /Ninety Percent of Everything: Inside Shipping, the Invisible Industry That Puts Clothes On Your Back, Gas In Your Car and Food On Your Plate/
+- Hamid - /How To Get Filthy Rich in Rising Asia: A Novel (reread)/
+- Shambaugh - /China's Communist Party: Atrophy and Adaptation/
+- Dekker - /The Field Guide To Understanding Human Error/
+- Robins - /The Corporation That Changed The World/
+- Cohen - /Rescuing Justice and Equality/
+- Stiglitz - /Globalization and Its Discontents/
+- Whyte - /The Organization Man/
+- Maine - /Ancient Law and its Connection To The History of Early Society/
+- Maine - /Popular Government/
+- Ferguson - /When Money Dies: The Nightmare of Devaluation, Deficit Spending and Hyperinflation In Weimar Germany/
+- Chopra, White - /A Legal Theory for Autonomous Artificial Agents/
+- Ellickson - /Order Without Law/
+- Posner - /Law and Social Norms/
+- Posner - /How Judges Think/
+- Luttwak - /Coup d'Etat: A Practical Handbook/
+- Pinker - /The Better Angels of our Nature/
+- Friedman, Kraus - /Engineering The Financial Crisis/
+- Porter - /The Competitive Advantage of Nations/
+- Hartcher - /The Ministry: The Inside Story of Japan's Ministry of Finance/
+- Clark - /The Sleepwalkers: How Europe Went to War in 1914/
+- Ferguson - /The Pity of War/
+- Israel - /Democratic Enlightenment: Philosophy, Revolution and Human Rights 1750 - 1790/
+- Steiner - /Triumph of the Dark: European International History: 1933-1939/
+- Weinberger - /Too Big To Know: Rethinking Knowledge Now That The Facts Aren't The Facts, Experts Are Everywhere and the Smartest Person In The Room Is The Room/
+- Bhide - /A Call For Judgement/
+- Dodge - /Schelling's Game Theory: How To Make Decisions/
+- Self - /American Babylon: Race and the Struggle for Postwar Oakland/
+- Nozick - /Anarchy, State and Utopia/
+- Acemoglu, Robinson - /Why Nations Fail: The Origins of Power, Prosperity, Poverty/
+- Spufford - /Red Plenty/
+- Johnson - /Thirteen Bankers/
+- Desrochers, Shimizu - /The Locavore's Dilemma - In Praise of the 10,000 Mile Diet/
+- Blum - /Tubes: A Journey to the Center of the Internet/
+- Ho - /Liquidated/
+- Christensen - /The Innovator's Dilemma/
+- Henwood - /Wall Street/
+- Bobbitt - /The Shield of Achilles - War, Peace and the Course of History/
+- Matias - /Bartleby & Co/
+- Arnold - /Everyday Technology - Machines and the Making of India's Modernity/
+- Drescher - /Good and Real: Demystifying Paradoxes from Physics to Ethics/
+- Studwell - /How Asia Works/
+- Leibovich - /This Town: Two Parties and a Funeral Plus Plenty of Valet Parking In America's Gilded Capital/
+- Shapiro - /The Terrorists' Dilemma: Managing Violent Covert Organizations/
+- Turse - /Kill Anything That Moves: The Real American War in Vietnam/
+- Simpson - /War From the Ground Up: Twenty-First Century Combat As Politics/
+- Mishra - /From The Ruins of Empire: The Intellectuals Who Remade Asia/
+- Perkins - /East Asian Development: Foundations And Strategies/
+- Posner - /Reflections On Judging/
+- Feldman - /The Great Disorder: Politics, Economics and Society in the Great German Inflation: 1914-1924/
+- Lewis - /The Big Short/
+- Lewis - /Liar's Poker/
+- Sorkin - /Too Big To Fail: The Inside Story of How Wall Street and Washington Fought To Save The Financial System and Themselves/
+- Harrison - /Light/
+- Bass - /The Blood Telegram: Nixon, Kissinger and a Forgotten Genocide/
+- Roberts - /Shantaram/
+- Sanderson - /The Way of Kings/
+- Sanderson - /Words of Radiance/
+- Hayek - /The Market and Other Orders/
+- Weil - /The Fissured Workplace: Why Work Became So Bad For So Many And What Can Be Done To Improve It/
+- Lieven - /Ukraine and Russia: A Fraternal Rivalry/
+- Figes - /The Crimean War/
+- Akysyonov - /The Island of Crimea/
+- Freedman - /Strategy: A History/
+- Kahneman - /Thinking Fast and Slow/
+- Armstrong - /Paying For the Party: How Colleges Maintain Inequality/
+- Lynch - /The Lies of Locke Lamora/
+- Piketty - /Capital in the Twenty-First Century/
+- Roy - /Capitalism: A Ghost Story/
+- Doniger - /The Hindus: An Alternative History/
+- Taylor - /The People's Platform/
+- Brook - /The Quelling of the People: The Military Suppression of the Beijing Democracy Movement/
+- Lim - /The People's Republic of Amnesia/
+- Diamond - /Guns, Germs and Steel (reread)/
+- Kay - /The Lions of Al-Rassan/
+- Zweig - /Invisibles: The Power of Anonymous Work in an Age of Relentless Self-Promotion/
+- Davies - /Europe: A History/
+- Mak - /In Europe: Travels Through The Twentieth Century/
+- Schlosser - /Command And Control/
+- Mitchell - /Cloud Atlas/
+- Meek - /Private Island: Why Britain Now Belongs To Someone Else/
+- al-Ali - /The Struggle for Iraq's Future/
+- Reynolds - /The Long Shadow: The Great War and the Twentieth Century/
+- Dawisha - /Putin's Kleptocracy: Who Owns Russia/
+- Remnick - /Lenin's Tomb: The Last Days of the Soviet Empire/
+- Johennsen - /The Tigers and the Taliban: Risking Everything for Afghanistan/
+- Armstrong - /A History of God/
+- Rajaniemi - /The Quantum Thief/
+- Rotman - /Advanced Modern Algebra/
+- Xenophon - /Anabasis/
+- Arian - /Anabasis Alexander/
+- Karnad - /Farthest Field: An Indian Story of the Second World War/
+- Sky - /The Unraveling: High Hopes and Missed Opportunities in Iraq/
+- Stern, Berger - /ISIS: The State of Terror/
+- Hayton - /The South China Sea: The Struggle for Power in Asia/
+- O'Malley - /The Two State Delusion: Israel And Palestine: A Tale of Two Narratives/
+- Kilcullen - /The Accidental Guerilla: Fighting Small Wars In The Midst of a Big One/
+- Hoffman - /Why Did Europe Conquer The World/
+- Walzer - /The Paradox of Liberation: Secular Revolution and Religious Counterrevolutions/
+- Cherry-Garrard - /The Worst Journey in the World/
+- Sumner - /The Midas Paradox/
+- Taleb - /Fooled By Randomness/
+- Allison, Blackwill, Wyne - /Lee Kyuan Yew/
+- Polyani - /The Great Transformation/
+- Berlin - /Troublemakers: Silicon Valley's Coming of Age/
+- Wilson - /The Heart of Europe: A History of the Holy Roman Empire/
+- Macaes - /The Dawn of Eurasia/
+- Preston - /The World's Worst Warships: The Failures and Repercussions of Naval Design and Construction/
+- Hastings - /The Battle for the Falklands/
+- Michishita - /North Korea's Military-Diplomatic Campaigns, 1966-2008/
+- Girard - /Things Hidden Since The Foundation of the World/
+- Williams - /Significant Zero: Heroes, Villains, and the Fight for Art And Soul in Video Games/
+- Hansen - /Notes on a Foreign Country/
+- Hirschman - /Exit Voice and Loyalty/
+- Crabtree - /The Billionaire Raj: A Journey Through India's New Gilded Age/
+- Edgerton - /The Rise and Fall of the British Nation: A 20th Century History/
+- Clapham - /The Horn of Africa: State Formation and Decay/
+- Goldstein - /Lessons In Disaster: McGeorge Bundy and the Path To War in Vietnam/
+- Sorley - /A Better War: Unexamined Victories and Final Tragedy of America's Last Years in Vietnam/
+- Smith - /The Scramble for Europe: Young Africa on Its Way to the Old Continent/
+- Bracken - /The Second Nuclear Age: Strategy, Danger and the New Power Politics/
+- Rajan - /The Third Piller: How Markets and the State Leave the Community Behind/
+- Bolger - /Why We Lost: A General's Inside Account of the Iraq and Afghanistan Wars/
+- Jones - /Still Ours To Lead: America, Rising Powers, and the Tension Between Rivalry and Restraint/
+- Campanella - /Brooklyn: The Once and Future City/
+- Spears - /Where India Goes/
+- Spears - /Air/
+- Milanovic - /Capitalism Alone/
+- Isaacson - /The Innovators/
+- Snyder - /Myths of Empire: Domestic Politics and International Ambition (Cornell Studies in Security Affairs)/
+
+* Articles
+
+- Shapiro - [[https://ecfr.eu/article/the-bullys-pulpit-finding-patterns-in-trumps-use-of-military-force/][The Bully's Pulpit: Finding patterns in Trump's use of military force]]
+- Spencer-Churchill - [[https://warontherocks.com/2021/12/embrace-the-arms-race-in-asia/][Embrace the Arms Race in Asia]]
+- Autor, Dorn, et. al. - "[[file:~/Downloads/Places versus People: The Ins and Outs of Labor Market Adjustment to Globalization.pdf][Places vs. People: The Ins and Outs of Labor Market Adjustment to Globalization]]"
+- Melumad, Yun - "[[file:~/Downloads/Experimental Evidence of the Effects of Large Language Models Versus Web Search on Depth of Learning - Melumad, Yun.pdf][Experimental Evidence of the Effects of Large Language Models versus Web Search on Depth of Learning]]"
+- Beznar-Yubashev, Jimenez-Duran, McCrosky, Stalinski - "[[file:~/Downloads/Toxic Content And User Engagement On Social Media: Evidence From A Field Experiment - Beknazar-Yubashev Jimenez-Duran McCrosky Stalinski.pdf][Toxic Content and User Engagement on Social Media: Evidence from a Field Experiment]]"
+- Guder, Mokrisova, Vercic, Yalcin - "[[file:~/Downloads/Earliest evidence for systematic use of ultrahigh carbon steel in the ancient Aegean in the Archaic Milesia - Guder, Mokrisova, Vercik, Yalcin.pdf][Earliest evidence for systematic use of ultra-high carbon steel in the ancient Aegean in Archaic Milesia]]"
+- Huang, Liu - "[[file:~/Downloads/Economics of Social Media Fake Accounts - Huang, Liu.pdf][Economics of Social Media Fake Accounts]]"
+- Graham, Klein, Parikh - "[[file:~/Downloads/What The Numbers Don't Tell: Post-COVID Economic Recovery and Consumer Pessimism In The US - Graham, Klein, Parikh.pdf][What the Numbers Don't Tell: Post-COVID Economic Recovery and Consumer Pessimism in the US]]"
+- Czin - "[[https://www.brookings.edu/articles/what-are-the-key-drivers-of-xis-economic-policy-in-2025/][What are the key drivers of Xi Jinping's economic policies in 2025]]"
+- Greer - "[[file:~/Downloads/Obscurity By Design: Conflicting Priorities For America's China Policy.pdf][Obscurity By Design]]"
+- Greico, Slingbaum, Walker - [[file:~/Downloads/Cratering Effects: Chinese Missile Threats to US Air Bases in the Indo-Pacific.pdf][Cratering Effects: Chinese Missile Threats to US Air Bases in the Indo-Pacific]]
+- Renewal 2030 - [[file:~/Downloads/conservatism_in_crisis_rise_of_the_bureaucratic_class.pdf][Conservatism In Crisis: Rise of the Bureaucratic Class]]
+- Kofman - [[file:~/Downloads/Assessing Russian Military Adaptation In 2023.pdf][Assessing Russian Military Adaptation In 2023]]
+- Fravel, Gilboy, Heginbotham - [[file:~/Downloads/Estimating China's Defense Spending: How To Get It Wrong (and Right).pdf][Estimating China's Defense Spending: How To Get It Wrong (And Right)]]
+- Ding - [[https://tnsr.org/2024/10/machine-failing-how-systems-acquisition-and-software-development-flaws-contribute-to-military-accidents/][Machine Failing: How Systems Acquisition and Software Development Flaws Contribute to Military Accidents]]
+- Graefrath - [[https://warontherocks.com/2024/09/u-s-troop-withdrawals-from-europe-wont-benefit-its-rivals/][US Troop Withdrawals From Europe Won't Benefit Its Rivals]]
+- Doyle - [[file:~/Downloads/the_yom_kippur_war_and_the_shaping_of_the_united_states_air_force.pdf][The Yom Kippur War and the Shaping of the United States Air Force]]
+- Massicot, Connolly - [[file:~/Downloads/russian_military_reconstitution_2030_pathways_and_prospects.pdf][Russian Military Reconstitution: 2030 Pathways and Prospects]]
+- Watling, Danylyuk, Reynolds - [[file:~/Downloads/preliminary_lessons_from_ukraines_offensive_operations_2022-23.pdf][Preliminary Lessons From Ukraine's Offensive Operations, 2022-23]]
+- Phocas, Mitchell - [[https://mwi.westpoint.edu/the-return-of-tactical-antiaircraft-artillery-optimizing-the-army-inventory-for-the-era-of-small-drone-proliferation/][The Return of Tactical Anti-Aircraft Artillery: Optimizing The Army Inventory for the Era of Small Drone Proliferation]]
+- Bunch, Hou, Haberman, Herron, Jacques, Briggs - [[file:~/Downloads/risk_assessment_of_reinforcement_learning_ai_systems.pdf][Risk Assessment of Reinforcement Learning AI Systems: Looking Beyond the Technology]]
+- Elgin - [[file:~/Downloads/more_of_the_same_the_future_of_the_russian_military.pdf][More of the Same? The Future of the Russian Military and its Ability to Change]]
+- Salisbury - [[https://warontherocks.com/2023/10/the-sinking-submarine-industrial-base/][The Sinking Submarine-Industrial Base]]
+- Salibury - [[https://warontherocks.com/2024/04/too-soft-americas-failure-to-learn-from-germany-to-iraq/]["Too Soft": America's Failure To Learn from Germany in Iraq]]
+- Flaaen, Pierce - [[file:~/Downloads/disentangling_the_effects_of_the_2018_2019_tariffs_on_a_globally_connected_us_manufacturing_sector.pdf][Disentangling The Effects of the 2018-2019 Tariffs on a Globally Connected US Manufacturing Sector]]
+- Venable - [[file:~/Downloads/living_with_killing_from_above.pdf][Living With Killing: World War II US Bomber Crews]]
+- Jervis - [[file:~/Downloads/jervis_was_the_cold_war_a_security_dilemma.pdf][Was The Cold War A Security Dilemma?]]
+- Jordan - [[file:~/Downloads/right_for_the_wrong_reasons_sla_marshall_and_the_ratio_of_fire_in_korea.pdf][Right for the Wrong Reasons: S. L. A. Marshall and the Ratio of Fire in Korea]]
+- Gady, Kofman - [[file:~/Downloads/Making Attrition Work A Viable Theory of Victory for Ukraine.pdf][Making Attrition Work: A Viable Theory of Victory for Ukraine]]
+- Kievit - [[https://militairespectator.nl/artikelen/reflexive-control-russo-ukraine-war][Reflexive Control in the Russo-Ukraine War]]
+- Galeev, Smolina, Makhonin, Mikhalevska - [[file:~/Downloads/how_does_russia_make_missiles.pdf][How Does Russia Make Missiles?]]
+- Combat Studies Institute - [[file:~/Downloads/tactical_responses_to_concentrated_artillery.pdf][CSI Report No. 13: Tactical Responses to Concentrated Artillery]]

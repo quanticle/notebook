@@ -1,0 +1,99 @@
+#+OPTIONS: toc:6
+#+TITLE: 2023 Formula E Season
+
+* 2023-01-14 Mexico City E-Prix
+
+** Starting Grid
+1. Lucas Digrassi --- Mahindra
+2. Jake Dennis --- Avalanche/Andretti
+3. Jake Hughes --- McLaren
+4. Andre Lotterer --- Avalanche/Andretti
+5. Dan Ticktum --- Nio 333
+6. Pascal Wehrlein --- Porsche
+7. Sebastien Buemi --- Envision Racing
+8. Sacha Fennestraz --- Nissan
+9. Antonio Felix De Costa --- Porsche
+10. Mitch Evans --- Jaguar
+11. Jean-Eric Vergne --- DS Penske
+12. Nick Cassidy --- Envision Racing
+13. Sergio Sette-Câmara --- Nio 333
+14. Stoffel Vandoorne --- DS Penske
+15. Rene Rast --- McLaren
+16. Eduardo Mortara --- Maserati
+17. Maximillian Günther --- Maserati
+18. Nico Müller --- Abt Cupra
+19. Robin Frijns --- Abt Cupra
+20. Norman Nato --- Nissan
+21. Sam Bird --- Jaguar
+22. Oliver Rowland --- Mahindra
+
+** Race
+- 38 laps
+- Lap 1
+  - Jake Hughes gets a good start and attacks Jake Dennis, but is unable to make the pass
+  - Robin Frijns is out
+- Lap 2
+  - Safety car deployed in order to allow Frijns' car to be cleared
+  - Frijns went into the rear of Norman Nato after either misjudging the braking or having some kind of brake issue
+- Lap 3 --- Norman Nato comes into the pits and retires
+- Lap 5 --- Safety car comes in
+- Lap 6 
+  - Sam Bird pulls aside with a broken driveshaft
+  - Safety car deployed again
+- Lap 9 --- Safety car comes in
+- Lap 10
+  - Cassidy and Vandoorne are the first to activate attack mode
+  - /In the 2023 Formula E season, attack mode is limited to 4 minutes/
+  - /Still activated by driving over a portion of the track that's off the racing line on one of the curves/
+  - /Drivers have 4 minutes of attack mode in total, and have to activate attack mode twice per race/
+  - /Can take attack mode as 1+3, 2+2 or 3+1/
+- Lap 12 --- Dennis takes the lead
+- Lap 13 --- Jake Dennis activates attack mode for 1 min.
+- Lap 15
+  - Lots of cars taking attack mode
+  - DiGrassi is still in 2nd but is running lower on energy than Dennis or the drivers behind him
+- Lap 19
+  - Eduardo Mortara crashes
+  - Safety car deploys
+  - Lotterer reports a possible issue with his car
+- Lap 20 --- Safety car comes in
+- Lap 22 --- Good battle between Wehrlein and Hughes for 3rd
+- Lap 25 --- Wehrlein and Loterrer both use atatck mode
+- Lap 28 --- Wehrlein moves up into 3rd
+- Lap 29
+  - DiGrassi running low on energy
+  - Wehrlein passes DiGrassi for 2nd
+- Lap 32 --- Dennis has a huge lead
+- 5 added laps due to safety car
+- Lap 40 --- DiGrassi defending hard for 3rd
+- Lap 41 --- Rene Rast pulls aside and stops
+- Lap 42
+  - DiGrassi has built up a bit of a gap
+  - Fight is now between Lotterer and Hughes for 4th
+- Lap 43 (final lap)
+  - Lotterer passes Hughes for 4th
+  - Hughes runs out of energy at the very end and gets passed by Lotterer
+
+** Results
+1. Jake Dennis --- Avalanche/Andretti
+2. Pascal Wehrlein --- Porsche
+3. Lucas DiGrassi --- Mahindra
+4. Andre Lotterer --- Avalanche/Andretti
+5. Jake Hughes --- McLaren
+6. Sebastien Buemi --- Envision Racing
+7. Antonio Felix De Costa --- Porsche
+8. Mitch Evans --- Jaguar
+9. Nick Cassidy --- Envision
+10. Stoffel Vandoorne --- DS Penske
+11. Maximillian Günther --- Maserati
+12. Jean-Eric Vergne --- DS Penske
+13. Oliver Rowland --- Mahindra
+14. Nico Müller --- Abt Cupra
+15. Sacha Fennestraz --- Nissan
+16. Sergio Sette-Câmara --- Nio 333
+17. Dan Ticktum --- Nio 333
+18. Rene Rast --- McLaren (DNF)
+19. Eduardo Mortara --- Maserati (DNF)
+20. Sam Bird --- Jaguar (DNF)
+21. Norman Nato --- Nissan (DNF)
+22. Robin Frijns --- Abt Cupra (DNF)

@@ -1,0 +1,138 @@
+* Monopolies Inflict Great Harm on Low and Middle Income Americans
+James A. Schmitz Jr
+Federal Reserve Bank of Minneapolis
+[[https://researchdatabase.minneapolisfed.org/downloads/02870w009][Source Link]]
+
+** Monpolies Inflict Great Harm on Low and Middle Income Americans
+- Arnold-Simons model of monopolies
+  - Consensus model of monopolies developed during the early 20th century
+  - Monopolies sabotage and destroy their rivals
+- Arnold-Simons model contradicts the consensus in the economic profession today, which is that monopolies inflict relatively little harm
+- Current monopoly model: Cournot model
+- In the Arnold-Simons model, monopolies inflict harm by
+  - Killing substitutes
+  - Sabotaging institutions
+  - Lowering productivity
+- In the Cournot model, monopolies inflict harm by raising prices
+- Initially, when economists switched to the Cournot model, they retained the conclusion that monopolies inflicted great harm, and thought that monopoly profits must be very high
+- However, Harberger showed that monopoly profits were modest in many instances
+- As a result, he concluded that most monopolies were benign
+- This has led the economics profession to mistakenly assume that monopolies are largely harmless
+
+*** Arnold-Simons Model: Powerful Model to Study Monopoly Harm
+- Developed in the 1930s and 1940s by Thurman Arnold and Henry Simons
+- Monopolies are formed by groups of individuals in order to enrich themselves
+- Monopolies develop concentrations of power and form alliances with other similarly situated groups
+- To do this, monopolies
+  - Destroy cheaper substitutes for their products
+  - Manipulate public institutions
+  - Reduce the productivity of their own members via factional infighting
+    - /I'm not sure I understand this point/
+    - /A monopoly, as I perceive it, is a cooperative arrangement/
+    - /Yet here Schmitz appears to be saying that monopolies are riven with infighting and it's this infighting that reduces productivity/
+- Monopolies are often difficult to detect
+  - Monopolies use means that are difficult to detect in order to harm rivals
+  - Form complex power relations that make it difficult to determine who is in the monopoly
+  - Have a diversity of organizational forms
+    - Corporations
+    - Professional and trade associations
+    - Cartels
+    - Labor union management organizations
+  - An example of a professional association acting as a monopoly is the AMA
+    - As early as 1900 doctors were experimenting with lower-cost alternatives for care delivery
+    - AMA quashed those efforts
+  - Another form of monopoly is Jim Crow
+    - Can be viewed as a monopoly organized by whites to take market power away from blacks
+    - Whites sabotaged black economic progress by limiting their membership in unions, professional organizations, and limiting their ability to start businesses
+- Monopolies are often informally organized
+  - Does not have to be a centralized authority directing monopoly members
+  - Can be organized informally via peer pressure
+  - This was a widely recognized fact prior to the 1950s
+    - Theodore Kreps discussed how businesses were using informal contacts to coordinate and form monopolies
+    - Argued that formal contracts were among the weakest forms of monopoly
+    - Monopolies work like basketball teams, where each participant knows where to go and what to do without written direction
+  - Monopolies use non-business methods in order to maintain their favored position
+    - Government influence
+    - Enforcing barriers to entry on markets
+    - Witholding scientific knowledge
+
+**** Market Destruction
+- Monopolies sabotage and destroy lower cost options, preventing consumers from accessing substitute goods
+- Housing construction
+  - On-site residential construction companies have worked to sabotage manufactured housing
+  - In the 1960s and 1970s, up to 60% of the housing in the US was factory-built
+  - However, in the 1970s, existing on-site homebuilders practically destroyed the nascent manufactured home industry
+    - Monopolies
+      - National Association of Home Builders
+      - Department of Housing and Urban Development
+    - Regulations on the construction of manufactured housing, with the effect of making them more expensive
+    - Regulations on where manufactured housing could be placed
+  - The impact of these measures practically destroyed the manufactured housing industry, reducing it to less than 10% of all new homes sold
+  - Furthermore, on-site housing monopolists prevented manufactured housing from even being counted as homes, making it easier to suppress this industry going forward, since any suppression would automatically be omitted from official statistics
+  - As a result, housing prices are significantly higher than they need to be, because houses have to be built one at a time, on-site, rather than mass-produced off-site and assembled from pre-made components
+  - This is because far more skilled labor is required to build housing with on-site construction than to build mass produced housing
+    - /Is this actually true?/
+  - The suppression of factory-built homes disproportionately affects low and middle income Americans
+    - Low and middle income Americans spend a greater proportion of their income on housing
+    - The cost differential between on-site and factory built homes is greatest for small houses
+  - While people in the 1970s saw what the NAHB was doing, people today have forgotten about how factory-built houses were suppressed
+    - Public doesn't realize that factory-houses are even an option
+    - Factory built houses have largely disappeared from economic history
+  - This is because the consensus model of monopoly has changed
+    - Housing monopoly doesn't affect the price of on-site construction
+    - Prevents the entry of a cheaper product, that can, in some cases, substitute for on-site construction
+    - As a result, economists using the Cournot model are blind to the effect of the monopoly because the prices of on-site construction are unaffected
+- Legal Services
+  - Bar associations block all substitutes to bar-certified lawyers
+    - Block non-lawers from giving legal advice of any kind
+    - Have blocked the publication of books that purport to give legal advice
+    - Prevent clerks from even telling people what documents they need
+  - The monopoly in legal services ensures that people rich enough to afford legal representation have a large advantage of people who cannot
+- Health Care
+  - In many health care markets, low and middle income Americans are often unable to purchase any good or service on offer
+  - Hearing aids
+    - Many monopolies
+      - Manufacturers
+      - Audiologists
+      - AARP
+      - State legislatures
+    - These monopolies work together to block the introduction of low-cost hearing aids
+    - Audiologists block the entrants of people who can specialize in fitting hearing aids cheaply
+  - Eye care and eyeglasses
+    - Manufacturers of frames and lenses
+    - Opticians, opthalmologists and optometrists
+    - Eye care was addressed as a monopoly in Arnold's /Bottlenecks of Business/
+  - Oral health
+    - AMA and ADA sabotage the market's ability to fund non-dentist professionals who can provide oral health services
+  - Pharmaceuticals
+    - Pay for delay
+    - Citizens' petitions
+    - Authorized generics
+- Another way in which monopolies have hurt the housing market is in the financing of manufactured housing
+  - Manufactured housing is overwhelmingly financed as if it were a depreciating asset, like a home or a car
+  - Manufactured homes would be much more affordable if they could be financed like on-site construction
+  - /But that runs into the problem that most manufactured homes are not on land owned by the homeowner/
+  - /The homeowner owns the home, but rents the land/
+  - /Thus the financing situation is not analogous to on-site construction, where the land can be viewed as collateral/
+  - The whole institution of financing manufactured housing has been blocked by monopolies --- providing better financing is not an option at any price
+  - The monopolies that have blocked the treatment of manufactured housing in the same way as on-site construction have done so without any formal coordination
+- Credit Cards
+  - Credit cards have faced numerous anti-trust cases
+  - Have lost numerous anti-trust cases
+  - Credit cards are an important source of financing for families without significant savings
+  - /Doesn't this section contradict the thesis that monopolies aren't being addressed? If credit card companies are losing anti-trust cases, that means that their monopoly power is under attack/
+- Repair services
+  - Independent repair services are under attack from OEMs
+  - OEMs have formed trade associations and lobbying groups to sabotage independent repair firms
+  - /But even here, it seems like the tide is turning, with the right-to-repair movement/
+- When monopolies snuff out the market for lower-cost alternatives, they snuff out a significant source of innovation that would have occurred with those alternatives had they not been destroyed
+
+**** Institutional Harm
+- Monopolies harm institutions in the following ways
+  - "Steal" public money meant for low and middle income Americans
+  - Sabotage institutional reforms
+  - Infiltrate public institutions to enrich members
+- Institutions that have been compromised by monopolies
+  - Housing subsidy programs
+    - Monopolies in the housing industry lobby the government to subsidize home purchases
+    - Combined with their sabotage of manufactured housing, this lobbying in effect routes government money to housing monopolists with the home buyer acting as a go-between

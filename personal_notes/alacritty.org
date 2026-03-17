@@ -1,0 +1,138 @@
+#+TITLE: Alacritty
+
+* Config
+- Alacritty config file location:
+  - Linux: =$HOME/.config/alacritty/alacritty.toml=
+  - Windows =%APPDATA%/alacritty/alacritty.toml=
+- To paste: =Ctrl-Shift-V=
+- My Alacritty config on Windows
+  #+begin_example
+    font:
+      normal:
+        family: "Cascadia Code"
+        style: "Regular"
+      bold:
+        family: "Cascadia Code"
+        style: "Semibold"
+      italic:
+        family: "Cascadia Code"
+        style: "Italic"
+      bold_italic:
+        family: "Cascadia Code"
+        style: "Semibold Italic"
+      size: 11.0
+    cursor:
+      style:
+        shape: underline
+        thickness: 0.25
+    colors:
+      normal:
+        black: "#0C0C0C"
+        red: "#C50F1F"
+        green: "#13A10E"
+        yellow: "#C19C00"
+        blue: "#0037DA"
+        magenta: "#881798"
+        cyan: "#3A96DD"
+        white: "#CCCCCC"
+      bright:
+        black: "#767676"
+        red: "#E74856"
+        green: "#16C60C"
+        yellow: "#F9F1A5"
+        blue: "#3B78FF"
+        magenta: "#B4009E"
+        cyan: "#61D6D6"
+        white: "#F2F2F2"
+      primary:
+        background: "#0C0C0C"
+        foreground: "#CCCCCC"
+    shell:
+      program: C:\WINDOWS\system32\wsl.exe
+      args:
+        - -d Ubuntu
+  #+end_example
+  - This sets Alacritty to open WSL with the default Windows Terminal color scheme
+- My Alacritty config on Linux
+  #+begin_example
+    [font]
+    normal = {family = "monospace", style = "Regular"}
+    bold = {family = "monospace", style = "Semibold"}
+    italic = {family = "monospace", style = "Italic"}
+    bold_italic = {family = "monospace", style = "Semibold Italic"}
+    size = 13.0
+
+    [colors.normal]
+    black = "#0C0C0C"
+    red = "#C50F1F"
+    green = "#13A10E"
+    yellow = "#C19C00"
+    blue = "#0037DA"
+    magenta = "#881798"
+    cyan = "#3A96DD"
+    white = "#CCCCCC"
+
+    [colors.bright]
+    black = "#767676"
+    red = "#E74856"
+    green = "#16C60C"
+    yellow = "#F9F1A5"
+    blue = "#3B78FF"
+    magenta = "#B4009E"
+    cyan = "#61D6D6"
+    white = "#F2F2F2"
+
+    [colors.primary]
+    background = "#0C0C0C"
+    foreground = "#CCCCCC"
+
+    [mouse]
+    hide_when_typing = true
+
+    [selection]
+    save_to_clipboard = true
+
+    [keyboard]
+    bindings = [{key = "F9", mods = "None", mode = "~Vi", action = "CreateNewWindow"}]
+  #+end_example
+
+* Keybindings
+- Look at https://docs.rs/winit/latest/winit/keyboard/enum.NamedKey.html for the syntax for how to specify keys
+- The Alacritty key binding syntax is:
+  #+begin_src toml
+    [keyboard]
+    bindings = [{<key>, <mods>, <mode>, <command>}]
+  #+end_src
+  - =key= is specified as above
+  - =mods= specify the modifier keys
+    - =Command=, =Control=, =Option=, =Super=, =Shift=, =Alt=
+    - Multiple modifiers can be combined as follows: =Control | Alt=
+  - =mode= specifies the terminal mode in which the command is active
+    - Specify ="AppCursor" | "AppKeypad" | "Search" | "Alt" | "Vi"= to select all modes
+  - Action is the action to execute when the key or chord is pressed --- see =man 5 alacritty= for details
+- Example key binding to make =F9= open a new window, in every mode except for Vi mode
+  #+begin_src toml
+    [keyboard]
+    bindings = [{key = "F9", mods = "None", mode = "~Vi", action = "CreateNewWindow"}]
+  #+end_src
+
+* Emoji Support
+- To get good emoji support on Linux, we actually need to configure =fontconfig=
+- Edit =$HOME/.config/fontconfig/fonts.conf=
+  #+begin_src xml
+    <?xml version="1.0" ?>
+    <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+    <fontconfig>
+      <alias>
+        <family>monospace</family>
+        <prefer>
+          <family>Cascadia Code PL</family>
+          <family>Noto Color Emoji</family>
+        </prefer>
+      </alias>
+    </fontconfig>
+  #+end_src
+- Then run =fc-cache --really-force= to rebuild the fontconfig cache
+- Then set the =normal=, =bold=, =italic=, and =bold italic= families to =monospace= in =alacritty.toml=
+- Restart alacritty
+- Emojis should now work as they do in Gnome Terminal

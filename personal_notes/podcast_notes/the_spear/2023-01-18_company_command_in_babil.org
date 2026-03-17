@@ -1,0 +1,71 @@
+#+TITLE: 2023-01-18: Company Command In Babil, Part 1
+
+- [[https://mwi.usma.edu/podcast-the-spear-company-command-in-babil/][Podcast link]]
+- Col. Matt Hardman --- Commander of the Operations Group at Ft. Polk
+- Grew up in a military community and in a military family
+- ROTC scholarship
+- Thought he was going to do 4 years and then go to law school, but ended up staying a lot longer
+- What changed his view on leaving the military was the experience of losing people in Iraq --- didn't feel like it was fair to leave people that he'd shared this experience with
+- Taught at West Point
+- Commanded the 10th Mountain Division
+- Multiple tours of duty in Iraq
+- Joined the Army prior to 9/11
+- Was a platoon leader by the time of the Iraq War
+- First deployment was to Afghanistan in 2003
+- At that time Afghanistan was a much different operating environment
+  - Company and battalion-sized air assaults
+  - Similar to the large-scale training operations that he'd participated in
+- 2004 Iraq was his first introduction to counterinsurgency
+  - Subordinated to a Military Police (MP) brigade
+  - Had to patrol a large area (800 km^2) with a light formation
+  - The experience of doing this was crucial in teaching him the value of discipline and consistency
+- Deployed to Iraq on short notice --- only 90 days after the unit's return from Afghanistan
+- Only had approximately 10 days of formal preparation time
+- Lost soldiers within the first week of being deployed to Iraq
+- Regrets the loss of life, but, at the same time, felt like the company handled the loss well and continued "putting in the work" for the mission
+- "The fundamental determinant of success in combat is how a soldier feels about his or her peers and immediate leader"
+- When he took command, the company was in a good place, thanks to good discipline and practices put in place by his immediate predecessor
+- How did soldiers and families react to the short notice deployment
+  - Hard for the families
+  - Had one soldier lose his marriage because of the rapid turnaround
+  - However, most of the soldiers themselves were enthusiastic
+  - Many soldiers were new to the company, as there had been significant turnover since the company's return from Afghanistan
+  - Battalion commander and battalion sergeant major did a good job not just with the soldiers but also with their families
+  - Another thing that mitigated the shock of the sudden deployment was the fact that this was the 82nd Airborne
+    - Traditionally high readiness unit
+    - Trained to deploy at short notice
+- Mission was unclear when the arrived in Iraq
+  - Was not given a mission statement or objective by his commander prior to deployment --- had to write it himself with assistance from the battalion commander
+  - No intelligence briefings describing the situation that they would be entering
+  - Mission ended up being keeping the ground lines of communication open in their area of operations
+  - Provide a way station and casualty evacuation point for other units
+  - Patrol to address the IED threat on [[https://www.tennessean.com/story/news/local/2014/11/11/veterans-beholden-justice-fought-protect/18860733/][MSR Tampa]], one of the most targeted routes in southern Iraq for IEDs
+- How were operations in Iraq different from Afghanistan?
+  - In Afghanistan, the company was moving together, on foot, in large operations that lasted 4-7 days
+  - In Iraq, there was much more vehicle mounted patrolling due to the size of the area of operations
+  - Company was split more often into platoon sized units
+  - Much more use of sniper units
+  - Mortar platoon was a new addition to the team, and a much appreciated one
+- Hardman was impressed with the professionalism with which his soldiers conducted after-action reviews of missions in which they took casualties
+  - No talk of revenge
+  - Heavy focus on what they could do better next time
+- Fundamentals matter! Even when support is inadequate, having good discipline about the fundamentals of soldiering can help stack the deck in your unit's favor
+- Learned, via involvement in the Iraq War History Project that the lack of understanding re: the situation in Iraq in 2004 was pervasive
+- It's no surprise that he didn't know what was going on, because no one knew what was going on
+- The patrol that led to the first deaths his unit experienced in Iraq was a routine one
+  - Company was new in its area of operations
+  - Platoon had a new platoon leader, but was an otherwise experienced platoon
+  - Purpose of patrol was to help familiarize that platoon with the area of operations
+  - Platoon leader's gunner noticed something in the oncoming lane as they were driving
+  - Their vehicle turned around to investigate
+  - As they realized it was an IED, the IED detonated, killing the platoon leader and two others, and wounding three more, two of them severely
+  - Squad leader and senior NCOs did a good job of collecting the casualties and organizing the evacuation
+  - The company had recently conducted a casualty handling drill, and that training was put to good use --- wounded were stabilized, treated, and evacuated in under 30 minutes
+- One thing that lulled the platoon into a false sense of security was the fact that the IEDs they'd encountered in Afghanistan all had command wires
+  - Thought that the IED was incomplete or abandoned
+  - Didn't know that, by 2004, the insurgency in Iraq had more sophisticated radio controlled IEDs that did not require a command wire
+- Had to compartmentalize the emotional impact of losing a platoon leader, because this occurred at the start of their deployment
+- Needed to work to project outward calm, in order to provide leadership for the remaining troops
+- Fortunate to receive a lot of support from higher headquarters (both brigade and division)
+- Credits his wife with providing support to the families of the wounded and killed soldiers
+- The hurt of losing someone under your command never goes away, but with time, you learn to carry it

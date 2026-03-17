@@ -1,0 +1,9 @@
+#+TITLE: Knife Sharpening
+
+- Sharpening stone
+  - Soak for 15 minutes in water
+  - 5 minutes per side at 15° angle on coarse
+  - 5 minutes per side at 15° angle on fine
+- Spyderco sharpener
+  - 50 strokes on coarse
+  - 50 strokes on fine

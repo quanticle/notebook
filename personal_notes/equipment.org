@@ -1,0 +1,20 @@
+#+TITLE: My Preferred Equipment
+
+** Computer Mice
+- Logitech M510
+- Razer Viper V3 Hyperspeed
+
+** Watch
+- Casio W201-1AV ([[https://support.casio.com/storage/en/manual/pdf/EN/009/qw2879.pdf][manual]])
+- Casio F201WA-1A
+- Casio F105W-1A ([[https://support.casio.com/storage/en/manual/pdf/EN/009/qw3298.pdf][manual]])
+- Casio G-Shock DW5600E-1V
+
+** Laptop
+- Framework
+- Kubuntu Focus
+- System 76
+- Lenovo Thinkpad
+
+** Power Bank
+- Anker Prime A1340 27,650 mAh power bank

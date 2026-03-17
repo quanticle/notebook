@@ -1,0 +1,8 @@
+* Vehicle Info
+
+- VIN: =4S3BNAR63K3036354=
+- License Plate: =CPW 054=
+- Driver's License: =C753002299915=
+- Make: =Subaru=
+- Model: =Legacy=
+- Year: =2019=

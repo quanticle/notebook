@@ -1,0 +1,67 @@
+* Sublime Text
+
+** License Key
+#+BEGIN_EXAMPLE
+  ----- BEGIN LICENSE -----
+  Rohit Patnaik
+  Single User License
+  EA7E-1224758-444273
+  19CCEC07 E0191FB4 32F5739D E6AB5008
+  7B7AF794 EDEA1DC3 ACD282FD 2D8A9780
+  779A2F42 163ADBD1 5A08CFF8 89F515BA
+  7313C1F3 4BB3E615 52379F6D 2504C181
+  3CD8A448 37C519B6 38CB3213 FE70D120
+  21511B0A 6781052A 807DE0B5 36291667
+  01A7DFF4 21E55909 66062F2F 77D90234
+  A2FDC0E8 E4280C95 13A913CE 69590454
+  ------ END LICENSE ------
+#+END_EXAMPLE
+
+** Configuration
+#+BEGIN_EXAMPLE
+  {
+      "font_face": "Cascadia Code PL",
+      "font_size": 12,
+      "font_options": ["dliga"],
+      "show_line_annotation": false
+      "save_on_focus_lost": true
+  }
+#+END_EXAMPLE
+
+** Use Sublime as Git Editor
+- Windows
+  - In =C:\Users\quant\.gitconfig=
+    #+BEGIN_EXAMPLE
+      [core]
+          editor = "'C:\\Program Files\\Sublime Text\\subl.exe' -w"
+    #+END_EXAMPLE
+- MacOS
+  - In =/Users/quanticle/.gitconfig=
+    #+BEGIN_EXAMPLE
+      [core]
+          editor = "'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -w"
+    #+END_EXAMPLE
+
+** Autosave
+- Set =save_on_focus_lost= to =true=
+
+** Jump To Matching Bracket
+- =Ctrl-M= (note that this is the same on both MacOS and Windows)
+
+** Set a ruler for a particular file type
+- =Preferences= - =Settings - More= - =Syntax Specific - User=
+- Add a ="rulers": [val1, val2, ...]= for all the rulers you want to define
+
+** Disable git gutter
+- Set ="show_line_annotation"= to =false=
+- Set =mini_diff= to =false=
+
+** Better Markdown Support
+- Install the =MarkdownEditing= package
+- =Alt-X= (=Option-X=) to toggle checkboxes
+- To disable link URL folding set =mde.auto_fold_link.enabled= to =false=
+- To keep Markdown editing from messing with your list bullets, set =mde.list_indent_bullets= to =["-"]=
+
+** Ensure Files Always End With a Newline
+- Set =ensure_newline_at_eof_on_save= to =true=
+- This is necessary for =MarkdownEditing= to continue lists correctly when they're at the end of the file

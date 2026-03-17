@@ -1,0 +1,29 @@
+#+TITLE: Laundry Procedure
+
+* Wash
+- Open main water valve
+- Check washer settings
+  - Water temperature
+  - Load size
+  - Cycle type
+  - Extra spin
+- Start cycle
+- Add Oxi-Clean
+- Add laundry detergent
+- Open shirt collars
+- Check pants pockets
+- Add clothes
+
+* Dry
+- Close main water valve for washer
+- Check dryer lint trap
+- Add fabric softener sheet
+- Add clothes
+- Start dryer
+
+* Iron
+- Run dryer for 5 minutes to warm up
+- Do folding first
+- Check iron settings before starting
+- Wait for 3 minutes for iron to start up
+- Iron shirts before pants

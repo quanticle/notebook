@@ -1,0 +1,110 @@
+#+TITLE: Can Europe Defend Itself?
+#+OPTIONS: toc:1
+
+[[https://www.derpragmaticus.com/r/europa-selbst-verteidigen][Original article]]\\
+[[https://gist.github.com/quanticle/e1c01ce10d5188ed55c196cfd0ba62c5][Translation]]
+
+- Pax Americana, the term given to the American enforced peace in the West, has lasted for nearly 80 years
+- However, that peace is coming under increasing pressure
+- Domestic forces in the US, especially those aligned with Donald Trump, wish to realign the US to focus on China, leaving other regions, such as Europe, the Middle East, and rest of Asia to fend for themselves
+- Russia and China are maneuvering to take advantage of this potential retreat
+- US military strategists assume that a future war will be a two-front war
+- Even if one of the fronts remains "cold" the US will have to hold back enough reserves to deal with a second adversary
+
+* Hands Tied
+- The strength of the US military doesn't necessarily represent what the US can send to Europe
+- In the best case, the US would only be able to deploy 60% of its military strength to the theater that has priority
+- Of that 60% only about 45% would actually be immediately deployable
+  - Maintenance needs
+  - Logistical challenges
+- In practice this means that out of 450,000 active duty soldiers in the US Army, approximately 122,000 could be sent to Europe at short notice
+- Of 2,600 tanks, approximately 700 could be sent to Europe
+- Of 40 submarines, approximately 4 would be deployed
+- This means that, regardless of Donald Trump's election, Europe must be capable of waging war
+
+* Military Paper Tiger
+- On paper, European NATO forces should be more than a match for Russia
+- Example: NATO has 6,600 tanks, compared to roughly 2000 for Russia
+- However The majority of these tanks are outdated or mothballed tanks held in Greek and Turkish inventories
+- In other areas, such as surface-to-air missile systems, NATO is inferior to Russia, even on paper
+
+* When Moscow Creates Facts
+- The most likely scenario for a conflict between NATO and Russia is a Russian attack on one of the Baltic states
+- For example, Russia could attack Lithuania with a multi-pronged attack originating from both Russia and Belarus
+- Vilnius, the capital of Lithuania, is only 30 km from the Belarusian border, and thus would be in range of Russian artillery
+- The NATO Enhanced Forward Presence Battlegroup in Lithuania, a NATO unit consisting of several thousand troops which will include a mechanized brigade from Germany starting in 2027, is destroyed under overwhelming Russian artillery and missile strikes
+- This occurs within 3-4 days, faster than NATO rapid reaction forces can mobilize
+- Russian forces would occupy Vilnius and use the threat of nuclear retaliation to deter NATO from mounting a military operation to liberate Lithuania
+- /The problem with this scenario is that it goes against everything that we've learned about the Russian military over 2.75 years of war in Ukraine/
+- /The Russian military does nothing fast/
+- /When it attempts to go fast, it is ineffective and takes great losses for little gain/
+- /If Russia attempts to mount a lightning offensive towards Vilnius, my prediction is that it will go about as well as Russia's lightning offensive towards Kyiv/
+- /I think it's far more realistic for Russia to launch attacks on disputed border territories, attempting to draw NATO forces into a long war of attrition as in Ukraine/
+
+* Tough War of Attrition
+- Russia could exploit a quick success in the Baltics to draw NATO into a long war of attrition
+- At the same time, China could attempt to draw the US into a war in East Asia
+- In this scenario, Russia would have a numerical advantage of NATO, as Russia would be able to deploy more of its military, more quickly, than NATO could
+
+* How Europe Can Defend Itself
+- The Russian goal is to draw a front line across the Baltics or through the Suwalki Gap between Kaliningrad and Belarus
+- Russian forces would dig in, as they have done in Ukraine, and protect themselves with belts of mines and fixed fortifications
+- NATO forces outside of the United States do not currently have enough engineering and mine clearing equipment to punch holes in fixed fortifications
+- Furthermore, the US plays a critical role as an integrator of the various NATO militaries by providing command and control systems which allow various NATO units to coordinate
+
+* Germany In Demand
+- In theory Germany could take over this "integrator" role from the US
+- However, German military capabilities are far from sufficient for it to serve such a role today
+- No non-US NATO country has enough support units to lead army corps (50,000 troops) sized units
+  - Aviation
+  - Missile defense
+  - Reconnaissance
+  - Logistics
+- Europe also lacks the practical experience to coordinate forces this large without US assistance
+
+* Without the USA, Collapse Threatens
+- Despite EU talk of "strategic autonomy", Europe will have severe difficulty defending itself without significant US assistance
+- In order to build real strategic autonomy, Europe will have to invest immediately in 9 areas:
+  1. Command systems
+  2. Reconnaissance, surveillance, and target acquisition
+  3. Long-range precision weapons
+  4. Air and missile defense systems
+  5. Electronic warfare
+  6. Cyber warfare
+  7. Logistics and sustainability
+  8. Strategic and tactical air support
+  9. Engineer troops
+- European gaps in capabilities here are enormous
+  - For example, to defend the Baltics, 70 to 90 long-range air defense systems would be required to protect NATO troops
+  - Approximately another 50 would be required to protect cities and critical infrastructure
+  - European forces alone can only provide 36 long-range air defense systems in total, and some of them have already been committed to Ukraine
+- These shortages cannot be remedied quickly --- it can take up to four years for a Patriot system to be delivered after the purchase order has been signed
+- European forces also lack mass
+  - At the end of the Cold War, the Bundeswehr had 215 combat battalions
+  - Today that is down to 34
+  - And among those 34, there are significant operational readiness problems --- in a recent military exercise one division had all 18 of its Puma armored vehicles break down
+
+* A Light Conscription?
+- 2 options to restore German military strength
+  - Create a military reserve which all Bundeswehr volunteers would be enrolled in after their term of service expires
+    - Reservists would conduct annual refresher training
+    - Would need to financially compensated for this obligation
+  - Conscription
+    - Combine aspects of the Finnish and Swedish mustering and training systems
+    - Entire cohorts would be eligible for mandatory service (as in Sweden)
+    - However, as in Finland, only a portion of the cohort would be drafted, and there would otherwise be a strong emphasis on using volunteers to make up the military
+    - This runs into an obstacle where the German Basic Law (constitution) prohibits the drafting of women into war
+
+* It's Not Just Trump's Fault
+- Regardless of who is President of the United States, the US will not intervene with its full military might in a Baltic war scenario
+- The US must reserve a significant portion of its military strength to deal with China --- this constraint remains regardless of which party controls the White House
+
+* Determiniation Required
+- The economic power of the West is superior to that of Russia and China
+- If the West were determined to translate that economic power into military might, it would be able to deter Russia and China from further aggression
+- However, it is far from certain that such determination exists
+- Even if the West rearms, it's unclear that it has the political will to fight a long war of attrition
+
+* Conclusion
+- Regardless of who is President, the US will not be able to respond with 100% of its capabilities to a European war scenario
+- Europe must become strong enough to deter a Russian attack on its own

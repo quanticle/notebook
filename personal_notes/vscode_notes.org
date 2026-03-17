@@ -1,0 +1,76 @@
+* VSCode Notes
+
+** Windows config
+#+BEGIN_EXAMPLE
+  {
+      "security.workspace.trust.untrustedFiles": "open",
+      "editor.minimap.enabled": false,
+      "editor.fontLigatures": true,
+      "workbench.editor.untitled.hint": "hidden",
+      "remote.SSH.remotePlatform": {
+          "quanticle.net": "linux"
+      },
+      "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+      "editor.fontSize": 14,
+      "editor.acceptSuggestionOnEnter": "off",
+      "files.autoSave": "afterDelay",
+      "editor.tabSize": 4,
+      "editor.wrappingIndent": "same",
+      "workbench.editor.enablePreview": false,
+      "editor.wordWrap": "on",
+      "git.enabled": false,
+      "editor.links": false,
+      "[plaintext]": {
+          "editor.quickSuggestions": {
+              "other": false,
+              "comments": false,
+              "strings": false
+          }
+      },
+      "[markdown]": {
+          "editor.wordWrap": "on",
+          "editor.quickSuggestions": false
+      },
+      "editor.largeFileOptimizations": false,
+      "workbench.startupEditor": "none",
+      "vim.useSystemClipboard": true,
+      "[git-commit]": {
+          "editor.rulers": [80]
+      }
+  }
+#+END_EXAMPLE
+
+** Disable IntelliSense suggestions
+- Set ="editor.quickSuggestions"= to =false=
+
+** Kotlin Support
+- Install the Kotlin extension by fwcd
+- Go into the extension settings and disable the language server, because the language server just adds a bunch of unnecessary configuration complexity
+
+** Use VSCode as git editor
+- MacOS
+  #+BEGIN_EXAMPLE
+    [core]
+        editor = "code -w"
+  #+END_EXAMPLE
+  - To use VSCode Insider
+    #+BEGIN_EXAMPLE
+      [core]
+          editor = "code-insiders -w"
+    #+END_EXAMPLE
+
+** Better Markdown Support
+- Install =Markdown All In One=
+
+** Vim keybindings
+- Install the Vim plugin
+- Set =vim.useSystemClipboard= to =true= to make copy and paste more ergonomic
+- Also note that the vim plugin has a limit of 1000 results with =/= and =*=
+  - /This shouldn't be a problem if I'm just using VSCode for my notes, though/
+
+** Emacs keybindings
+- Install the =Emacs= plugin
+- =M-x= brings up the command palette
+- =C-x C-f= brings up the project file switcher
+- =C-x b= brings up the buffer switcher
+- `M-x Preferences

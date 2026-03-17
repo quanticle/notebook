@@ -1,0 +1,4 @@
+#+TITLE: My Patent
+
+Patent No. 10,438,225
+Game-based Automated Agent Detection

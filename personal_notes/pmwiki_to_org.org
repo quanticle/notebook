@@ -1,0 +1,33 @@
+* PMWiki To Org
+I need to convert the following PMWiki syntax elements:
+1. Headings
+2. Lists
+3. Code blocks
+4. Formatting
+   - Bold
+   - Italic
+   - Inline code
+5. URLs
+
+** Headings
+- Replace =!= with =*=
+
+** Lists
+- Lists are considerably more tricky but can be converted from innermost to outermost
+- First figure out what the deepest list level is
+- Then replace all the stars before the deepest with two spaces, and replace the last star with a hyphen (while you can use stars for lists in org, it's not recommended, because you'll run into trouble with org sometimes confusing your list elements for headings
+  - Example: =s/^\*\*\*/    -=
+- I don't think I have lists nested more than 4 levels deep so searching for a 5th level list and working outwards from there should be sufficient
+
+** Code Blocks
+- Replace =[@= with =#+begin_example=
+- Replace =@]= with =#+end_example=
+- Fix indentation
+
+** Formatting
+- Bold: =*bold*=
+- Italics: =/italic/=
+- Inline code: =~inline code~=
+
+** Links
+- =s/\[\[\([^[:space:]]+\) ?| \(.*\)\]\]/[[\1][\2]]/g=

@@ -1,0 +1,25 @@
+#+TITLE: Boston Trip
+
+* 2024-04 Boston Trip
+
+** Trip Dates
+- 2024-04-05 --- 2024-04-07
+
+** Trip Tasks
+- [X] Plane tickets
+- [X] Hotel
+- [X] Car rental
+- [ ] Ask Disha what to do
+
+** Plane Tickets
+- Outgoing
+  - JetBlue Flight 836
+  - Departs at 7:35pm
+  - Confirmation code: OGMSXQ
+- Returning
+  - Sun Country Flight 252
+  - Departs at 11:40am
+  - Confirmation Code: I5J74M
+** Hotel
+- Disha's address: 483 Beacon St. Boston MA 02115
+- $200/night is expected

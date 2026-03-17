@@ -1,0 +1,447 @@
+* EMPP-5094
+- [[https://wlweb.windlogics.com/radar/browse/EMPP-5094][Ticket Link]]
+- [[https://gitlab.windlogics.com/internal/empp/empp-api-service/-/merge_requests/158][MR for =empp-api-service=]]
+
+** Ticket description
+- Convert and display =Total Buildable Area= in the =solar1= section of the API
+- Convert and display =Total Buildable Area= acres in a new line item under results and under capacity in the =Generation= section
+  - Line item will have =Estimated Acreage Req= and show the estimated acreage from the optimizer
+  - Full total buildable acreage will show a hover value with the total buildable acreage
+- Convert value returned from optimizer in =layoutArea= from sq. ft. to acres
+- Add UI layout described above
+- Add API output in design sections
+
+** Coding Notes
+- Where is the =solar1= section defined?
+- I see a reference to it in =GetLandCostBoundaryTest.kt=
+- =solar1= is a generator ID?
+- Follow-up with Tanner 2021-12-14
+  - We want a =totalBuildableArea= field in =irdot.ts= in =empp-api-service= (line 605)
+  - This is one of the sub-schemas of =IrdotResults=
+    - =batchResults= - vary across permutations
+    - =generatorResults= - don't vary
+  - We're adding =totalBuildableArea= to the =generatorResults=
+  - Add =layoutArea= to batch results
+- Look at =results-processing.ts=
+- Where do we get the =buildableLand= metric from?
+- The optimizer results are stored in =wl-empp-api-job-dev=
+  - [[https://s3.console.aws.amazon.com/s3/buckets/wl-empp-api-job-dev?region=us-east-1&prefix=a8f9b822-f421-40ab-8e1b-3076f2ea5adf/&showversions=false][Example batch result]]
+- How does =empp-api-service= currently get the batch results?
+  - Look at =fetchScenarioInputsAndResults=
+    #+BEGIN_EXAMPLE
+      const getScenarioOptimizerResultsResponse = await jobClient.getResultByScenarioId({
+          pathParams: { scenarioId },
+          params: { batch: `${batch}` },
+          validateStatus: true,
+      });
+    #+END_EXAMPLE
+- What is =jobClient=?
+  - Defined in =src/clients/empp/index.ts=
+    #+BEGIN_EXAMPLE
+      export const jobClient = openApiClient(jobSpec, emppJobAxiosInstance, '/api/iro/job');
+    #+END_EXAMPLE
+  - =jobSpec= is an OpenAPI spec document that defines the input and output types
+  - Calls [[https://console.aws.amazon.com/apigateway/home?region=us-east-1#/apis/62t1hqy116/resources/dacv6i/methods/GET][=/api/iro/job/result/{scenarioId}=]] /I think/
+  - That API endpoint, in turn, calls the =empp-api-job-result= lambda, which calls into =empp-api-job= with the handler function: =com.focusenergy.empp.api.job.lambda.Result::handleRequest=
+  - =handleRequest= does the following:
+    #+BEGIN_EXAMPLE
+      val batch = !awsProxyRequest.queryString.isNullOrBlank() && awsProxyRequest.queryStringParameters["batch"]?.toBoolean() == true
+      val s3Bucket = if (batch) batchS3Bucket else standardS3Bucket
+      try {
+          val configNode = awsUtil.openFileAsJsonNode(JobUtil.buildS3PathInputConfig(s3Bucket, scenarioId!!))
+          val results = awsUtil.getPreSignedUrlForFile(configNode.get("outputPath").textValue())
+          respondWithSuccess(output, objectMapper.writeValueAsString(Response(results.toString())), cache = false)
+      } catch (e: Exception) {
+          logger.log("Error: Unable to get results output file")
+          logger.log(e.toString())
+          respondWithFailure(output, "Results not found", cache = false)
+      }
+    #+END_EXAMPLE
+    - =buildS3PathInputConfig= returns =${scenarioId}/inputs/config.json=
+    - So we look in =config.json= for the =outputPath=
+    - =outputPath= is =outputs/outputs.json.gz=
+    - So what we're returning is a pre-signed URL for =outputs.json.gz=
+  - The data from =outputs.json.gz= gets turned into an =OptimizerResults= object
+  - =OptimizerResults= have a =SolutionGenerator= type, which represents the generator object
+- Add =layoutArea= to the =SolutionGenerator= type?
+  - =layoutArea= is under =generators[0].dcSolarResults= -> that goes in batch results
+  - Full path: =solutions[0].parameters.generators[0].dcSolarResults.layoutArea=
+- Ian confirms that =layoutArea= is the correct value to be putting in the =batchResults=
+- Do I want to add =layoutArea= to the =IrdotBatchResult= type or the =IrdotBatchResultDesign= subtype?
+- Where do I get the total buildable area from?
+- Where does =extractIrdotGeneratorResults= get its data from?
+- Comes from =scenario.inputs.generators=
+  - Inside =solarLayoutParameters=, we have
+    - =maxAllowedAreaSF=
+    - =buildableAreaFraction=
+- To get the buildable area, do we multiply =maxAllowedAreaSF= by =buildableAreaFraction=?
+- What did Tanner implement?
+  - Look at =1acfa= in =empp-ui= repo
+  - Look at =generation-detail-page.component.ts=
+  - =this.generatorInfo.solarLayoutParameters.maxAllowedAreaSF / this.SF_PER_ACRE=
+- UI changes
+  - Tanner has already added the maximum buildable area
+  - I need to add the layout area
+  - Layout area will be titled 'Estimated Area Req.'
+- How do I run the UI locally?
+  - Should just be able to run =npm run start=
+  - =npm run start= doesn't work
+  - Failing with =ENOENT= error -> file not found
+  - I'm guessing it's looking for =localhost.key= and =localhost.crt= to use SSL on localhost
+  - Look at the [[https://wlweb.windlogics.com/confluence/display/POLE/IRDOT+Development+Guide#IRDOTDevelopmentGuide-UIDevInfo][IRDOT Development Guide]]
+    - Edit hosts file to allow resolution for =designer-local.nexteraanalytics.com=
+      #+BEGIN_EXAMPLE
+        127.0.0.1    localhost designer-local.nexteraanalytics.com
+      #+END_EXAMPLE
+    - Create a self-signed SSL certificate for local development
+      - Add the following to =certificate.cnf= in the root of =empp-ui=
+        #+BEGIN_EXAMPLE
+          [req]
+          default_bits = 2048
+          prompt = no
+          default_md = sha256
+          x509_extensions = v3_req
+          distinguished_name = dn
+          [dn]
+          C = US
+          ST = Minnesota
+          L = St Paul
+          O = NextEra Energy
+          OU = NextEra Analytics
+          emailAddress = this-email@doesntmatter.com
+          CN = localhost
+          [v3_req]
+          subjectAltName = @alt_names
+          [alt_names]
+          DNS.1 = designer-local.nexteraanalytics.com
+        #+END_EXAMPLE
+      - Then run: =openssl req -new -x509 -newkey rsa:2048 -sha256 -nodes -keyout localhost.key -days 3560 -out localhost.crt -config certificate.cnf= to create the certificate
+      - Add the key to the local trust store
+        - Double-click the =localhost.crt= file
+        - Add it to your login keychain
+        - Select the =localhost= certificate from the =keychain access= window
+        - Right-click the certificate, select =Get Info=, expand the =Trust= section and set SSL to =Always Trust=
+  - Angular dev server running on =designer-local.nexteraanalytics.com:4200=
+- Where do I need to add the layout area?
+  - As a new line item under =Capacity= in the =Generation= section
+  - Look at Tanner's changes?
+    - =src/app/generation-detail-page/generation-detail-page.component.html=
+    - =src/app/generation-detail-page/generation-detail-page.component.ts=
+    - =src/app/shared/service/sdot-layout.service.ts=
+    - =src/app/solar-details/solar-details.component.ts=
+- What I should be doing is updating =generation-detail-page= with the =layoutArea=?
+- Do I have access to =layoutArea= in the =generation-detail-page=?
+  - =layoutArea= is in =solutions -> parameters -> generators -> {generator object} -> dcSolarResults -> layoutArea=
+  - How do I get at that?
+  - Am I even supposed to be adding this content to =generation-detail-page=?
+  - Looks like yes, because the ticket describes only changes to the /Generation/ section, which is handled by the =generation-detail-page=
+- In =generation-detail-page.component.html=, Tanner added the following form field
+  #+BEGIN_EXAMPLE
+    <mat-form-field class="flex-field-sm">
+        <input matInput
+            disabled
+            type="number"
+            placeholder="Buildable Land Area"
+            [value]="buildableLandAcreage">
+        <span matSuffix>acres</span>
+    </mat-form-field>
+  #+END_EXAMPLE
+- I don't need to update anything that Tanner has done; I need to have that same value on the results page as a hover value
+- Need to add the =layoutArea= value to the results table as =Est. Acreage Req=
+- Where is the =results= page?
+  - Look at =results-page.component.ts=
+  - Calls =results-service.getResult=
+- =results-service.getResult= calls =scenarioService.getScenarioById$=
+  - =getScenarioById= dispatches a =LoadScenario= event, which presumably loads the scenario?
+  - What listens to the =LoadScenario= event?
+- =LoadScenario= caught by =scenario.effects.ts=,
+  - Calls =assembleScenarioUri= to get the endpoint to call and =parseScenarioResponse= to process the response
+  - Loads into the data store
+    - Generators
+    - Batteries
+    - CompetitorAnalyses
+    - LoadScenarioSuccess
+- I'm specificially interested in the generators -> type =ParsedGenerator=
+  - =ParsedGenerator= does not have a =layoutArea= field -> need to add it
+  - Do I need to update the parser -> =UiFormatService.parseGeneratorInfo=
+  - Doesn't look like it -> first thing that the parser does is:
+    #+BEGIN_EXAMPLE
+      cost parseGenerator: ParsedGenerator = {
+          ...generatorData,
+          rampRate: {...generatorData.rampRate}
+      }
+    #+END_EXAMPLE
+  - The data should already include the =dcSolarResults= object, so I just need to add it to the object specification:
+    #+BEGIN_EXAMPLE
+      dcSolarResults ?: {
+          layoutArea: number;
+      };
+    #+END_EXAMPLE
+- How does the results page access the stored generator?
+- The results table is generated by =results-summary.component.html=
+- I need to sum up the the =layoutArea=s of all the generators in the top-level, and then show individual generators when the row is expanded
+- =results-summary.component.html= takes in a =Solution=, which has an array of =SolutionGenerator=
+- =SolutionGenerator= has a =dcSolarResults= field, but the type is =SolutionGenerator=?
+- And =SolutionGenerator= doesn't appear to have a =layoutArea= field either
+- I'm guessing that the =Solution= object represents an entry in the top-level =solutions= array in =output.json=
+- Then that means that =SolutionGenerator= represents an entry from the =generators= array
+- How do we get from =ParsedGenerator= to =SolutionGenerator=
+  - Look at =scenario.effects.ts= again
+  - Outputs an =AddGenerators= action
+  - What listens for the =AddGenerators= action?
+  - =generator.reducer.ts= listens for =AddGenerators= and does:
+    #+BEGIN_EXAMPLE
+      case GeneratorActionTypes.AddGenerators: {
+          return adapter.addMany(action.payload.generators, state)
+      }
+    #+END_EXAMPLE
+    - =adapter= is an =EntityAdapter= from =ngrx=
+    - =state= is an =EntityState=
+  - So what this does is take the =ParsedGenerator= objects from the event
+  - So what accesses the =ParsedGenerator= objects from the state?
+  - The selector is in =generator.selectors.ts=
+  - The selector is used by =includeTransientVariables= in =scenario.service.ts=
+  - =includeTransientVariables= is used by =getActiveScenario$=
+  - =getActiveScenario$= is used by =simulation.service.ts=
+  - =simulation.service.ts= only calls =getActiveScenario$= in some =getTariffData= methods
+  - Doesn't seem to be what I want with the results page
+- Do we go from =ParsedGenerator= to =SolutionGenerator=?
+  - =results-page.component.ts= calls =simulation-result.service.ts=
+  - Look at =SimulationResultService.loadResult()=
+    - Calls =SimulationResultService.fetchResultsData()=
+    - =fetchResultsData()= is what populates the =Solution= object: =result.solutionData = res.solutions[0]=
+  - It doesn't seem like =ParsedGenerator= is involved at all
+  - The data comes from =this.simulationService.getSimulationData(result.rawScenarioData, batch)=
+    - =getSimulationData= calls =getOptimizerResults=, which makes the call to =api/iro/job/result=
+- So what I need to do is undo my changes to =ParsedGenerator= and add =layoutArea= to =SolutionGeneratorStats=?
+- From discussion with Chuck
+  - =ParsedGenerator=: UI format
+  - =SolutionGenerator=: Output from optimizer
+  - =OptimizerGenerator=: Input to optimizer
+  - Chuck confirmed that I don't need to update =ParsedGenerator=, only =SolutionGenerator=
+  - Should I be updating =SolutionGenerator= or =SolutionGeneratorStats=? =SolutionGenerator=, according to Chuck
+- So once I have the =layoutArea= in the =SolutionGenerator= object, how do I display it?
+  - Look for =results-summary__generation mat-card=
+  - Displayed by =results-summary.component.html=, which delegates to =app-results-generation-summary=
+  - Need to figure out how the columns logic works
+- Columns logic
+  - Each generator is a /column/ in the table, not a row
+  - Initially all the generators of a type (solar, wind, gas, etc.) are consolidated into a single column for that type, which displays summary data
+  - There's a number or the column heading which displays the number of generators
+  - Clicking that number expands the column and displays data for each individual generator
+- Layout area displaying as 0, even for a solar project
+  - Project link: [[https://designer-local.nexteraanalytics.com:4200/#/scenario/1ff87b4b-d7c6-4ac6-992b-fa2b75ffb9f3/results][Copy of St. Landry Solar]]
+  - Scenario ID: =1ff87b4b-d7c6-4ac6-992b-fa2b75ffb9f3=
+- Null coalescing and null-safe access operators are only available in Typescript 3.7, =empp-ui= uses Typescript 3.5
+- [[http://designer-dev.nexteraanalytics.com/iro/#/scenario/78c5ebf9-4d32-49cb-ba27-2102200d242f/results][Example Results page]]
+- [[https://designer-dev.nexteraanalytics.com/iro/#/scenario/18b66b26-52ba-4153-ae0f-6c247f1f13eb/results][Example results with multiple generators]]
+- Reuse the tooltip on the "Capacity" row
+  - Wrap the result in a =<span>=
+  - Add a =matTooltip= property on the span with the text to show
+  - Set =matTooltipPosition= to =after=
+- How do I get the total buildable area?
+  - Total buildable area is the =maxAllowedAreaSF= field from =config.json=
+    - =inputs.generators[i].solarLayoutParameters.maxAllowedAreaSF=
+  - How do we access =config.json= in the UI?
+    - =Solution= has a =Scenario= field
+    - =Scenario= has an array of =ParsedGenerator=s
+    - Each =ParsedGenerator= has a =SolarLayoutParameters= object, which contains a =maxAllowedAreaSF= field
+  - How do we match =ParsedGenerators= to =SolutionGenerators=? Are the generators guaranteed to be in the same order?
+    - When we're in the context of a single generator, all we have access to is that particular =SolutionGenerator=
+    - Each =SolutionGenerator= has a =name= field, which is a GUID that corresponds to the =name= field on the =ParsedGenerator=
+    - Each =SolutionGenerator= also has a =parsedBatteryOrGenerator= field, which is of type =ParsedBattery | ParsedGenerator=
+    - How is this field populated?
+    - Populated by =simulation-service.ts=, which does exactly the same lookup
+  - Is there a total buildable area field for all generators, or do I have to calculate the sum?
+- Unit test failures
+  - To run the unit tests as the CI server runs them: =npm run test:CI=
+
+** Testing Issues
+- Does the API fail if there are cached jobs without the =totalBuildableArea= field?
+- I thought I handled missing fields in =results-procesing.ts=
+- Do I need one more check for missing total buildable area?
+- Failing job: =0b37f68b-c964-42ee-b3d6-162e59164463=
+- Is =getJsonObject= failing at runtime when it tries to cast the retrieved JSON into
+- Failing endpoint: =api/iro/service/results=
+- [[https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Flambda$252Fempp-api-service-api-dev/log-events/2021$252F12$252F21$252F$255B$2524LATEST$255D39deb6669a544f5f95845474baf4159d][Actual error message]]
+- Failure is in OpenAPI response validator
+- I need to mark =layoutAreaAcres= and =totalBuildableAreaAcres= as optional, by removing them from the list of =required= fields
+
+** MR Feedback
+- Tom thinks that we should add unit tests for the new methods that have been added
+- Files that have been changed
+  - =src/app/generation-detail-page/generation-detail-page.component.html=
+  - =src/app/results-page/components/results-summary/results-generation-summary/results-generation-summary.component.html=
+  - =src/app/results-page/components/results-summary/results-generation-summary/results-generation-summary.component.spec.ts=
+  - =src/app/results-page/components/results-summary/results-generation-summary/results-generation-summary.component.ts=
+  - =src/app/shared/solution-types.ts=
+- New methods
+  - =calculateTotalLayoutAreaSqFt=
+  - =getParsedGeneratorForSolutionGenerator=
+  - =getTotalBuildableAreaAcresForSingleGenerator=
+  - =getTotalBuildableAreaAcresForAllGenerators=
+  - =getTotalBuildableAreaAcres=
+  - =getLayoutAreaAcres=
+- The unit tests for this component are in =src/app/results-page/components/results-summary/results-generation-summary/results-generation-summary.component.spec.ts=
+- Add tests for
+  - =calculateTotalLayoutAreaSqFt=
+  - =getTotalBuildableAreaAcresForAllGenerators=
+  - =getTotalBuildableAreaAcres=
+  - =getLayoutAreaAcres=
+- To add tests
+  - Look at =baseSolutionDataFixture()=
+  - =baseSolutionDataFixture= returns
+    #+BEGIN_EXAMPLE
+      {
+        generatorTypes: ['wind'],
+        optimizerStatsByGenType: {
+          wind: {
+            annualOMfixed: null,
+            annualOMvariable: null
+          } as SolutionGeneratorStats,
+          total: {
+            size: 0,
+            annualOMfixed: 0,
+            annualOMvariable: 0
+          } as SolutionGeneratorStats
+        } as { [key: string]: SolutionGeneratorStats },
+        financialModelMetrics: {} as FinancialModelMetrics,
+        parameters: {
+          generators: []
+        },
+        rawGeneratorData: [],
+        scenario: {
+          financialModel: {} as ParsedFinancialModel,
+          generators: [],
+          batteries: []
+        } as Scenario,
+        generatorsAndBatteries: []
+      }
+    #+END_EXAMPLE
+  - In my tests, I need to call =baseSolutionDataFixture()= and customize the returned value
+    - Add =SolutionGenerator= objects to =parameters.generators=
+    - Make sure each =SolutionGenerator= is populated with a corresponding parsed generator
+    - Make sure each =ParsedGenerator= has a =layoutArea=
+    - =ParsedGenerator= has the following required fields
+      - =name=: =string=
+      - =type=: =GENERATOR_TYPE_ENUM=
+      - =generationTimeSeries=: =TimeSeries=
+      - =applyRamping=: =boolean=
+      - =escalators=: =GenerationEscalatorConfig[]=
+      - =CO2perMWh=: =number=
+      - =module=: =string=
+      - =inverter=: =string=
+      - =tracking=: =boolean=
+      - =ncfAc=: =boolean=
+      - =ratio=: =number=
+      - =ratioType=: =string=
+      - =ratioRangeMin=: =number=
+      - =ratioRangeMax=: =number=
+      - =azimuth=: =number=
+      - =groundCoverageRatio=: =number=
+      - =tilt=: =number=
+      - =utcOffset=: =string=
+      - =hasSdotConfig=: =boolean=
+      - =solarLayoutEnabled=: =boolean=
+      - =costPerMW=: =UiCostPerMw=
+        - =type=: =string=
+      - =omInst=: =number=
+      - =omGen=: =number=
+      - =displayName=: =string=
+      - =timezone=: =string=
+      - =locationType=: =string=
+      - =address=: =string=
+      - =wakeLosses=: =number=
+      - =otherLosses=: =number=
+      - =electricalLosses=: =number=
+      - =weatherLosses=: =number=
+      - =availabilityLosses=: =number=
+      - =discountRate=: =number=
+      - =MMBtuPerMWh=: =number=
+      - =dollarsPerMMBtu=: =number=
+      - =emissionsCostDataType=: =string=
+      - =dollarsPerTonCO2=: =number=
+      - =isNcf=: =boolean=
+      - =usingCustomNcfData=: =boolean=
+      - =curtailmentMWhLimitFraction=: =number=
+      - =basisRisk=: =boolean=
+      - =ACToDCEnabled=: =boolean=
+      - =attachedBattery=: =string=
+    - It turns out I don't need to create new =SolutionGenerator= objects by setting all the required fields
+    - I can just use the =as= type assertion to take a generic object and force TypeScript to treat it as a =SolutionGenerator=
+    - If the compiler complains, I can launder my cast through =unknown=
+- In my tests, I need to create a =GenerationSummaryColumn= for the layout acreage
+  - However, =GenerationSummaryColumn= is not a public interface
+  - The internal array of =GenerationSummaryColumn= is created by a =map= operation over =columnsMap=:
+    #+BEGIN_EXAMPLE
+      this._columns = Object.keys(columnsMap).map((key: string) => {
+          return {
+              name: key,
+              expanded: columnsMap[key].expanded,
+              children: columnsMap[key].children
+          }
+      }).concat([{name: 'total', expanded: false, children: []}]);
+    #+END_EXAMPLE
+  - Where does =columnsMap= get set?
+    #+BEGIN_EXAMPLE
+      ngOnChanges() {
+          const columnsMap = this.solutionData.generatorTypes.reduce((generatorMap, currentGeneratorType) => {
+              generatorMap[currentGeneratorType] = {expanded: false, generator: false, children: []};
+              return generatorMap;
+          }, {});
+          for (const generator of this.solutionData.scenario.generators) {
+              if (columnsMap[generator.type]) {
+                  const solutionGenerator = this.getSolutionGenerator(generator);
+                  columnsMap[generator.type].children.push({
+                      inputGenerator: generator,
+                      solutionGenerator,
+                      name: generator.displayName
+                  });
+              }
+          }
+          ... some stuff about batteries that I don't care about
+          this._columns = Object.keys(columnsMap).map((key: string) => {
+              return {
+                  name: key,
+                  expanded: columnsMap[key].expanded,
+                  children: columnsMap[key].children
+              }
+          }).concat([{name: 'total', expanded: false, children: []}]);
+      }
+    #+END_EXAMPLE
+  - What does =getSolutionGenerator= do?
+    #+BEGIN_EXAMPLE
+      private getSolutionGenerator(generator) {
+          for (const solutionGenerator of this.solutionData.rawGeneratorData) {
+              if (solutionGenerator.name === generator.name) {
+                  return solutionGenerator;
+              }
+          }
+      }
+    #+END_EXAMPLE
+  - In my sample =Solution=, I need:
+    - =generatorTypes=: =["solar"]=
+    - =solution.scenario.generators= needs to be an an array of objects with:
+      - =name=: =string=
+      - =displayName=: =string=
+      - =type: "solar"=
+      - =solarLayoutParameters=: Object with =maxAllowedAreaSF= =number= property
+    - =solution.rawGeneratorData= needs to be an array of objects with
+      - =name=: matches =name= field of =solution.scenario.generators=
+  - To test my code, I need to
+    - Set up the test data
+    - Call =setSolutionData= with the data
+    - Then
+      #+BEGIN_EXAMPLE
+        for (column of component.columns())
+      #+END_EXAMPLE
+- Test failure: =cannot call Promise.then from within a sync test=
+  - Failure occurring in =setSolutionData=: line 94
+  - Failing on the call to =createComponent=, even before I've attempted to set the solution data
+  - Need to have the test code inside of an =it()= function, not the =describe()=
+    - =it()= is for individual tests
+    - =describe()= is for test suites
+- Test failure: =Cannot read property 'size' of undefined=
+  - Failure occurring in the =getCapacity= method
+  - Need a =solar= entry in =solutionData.optimizerStatsByGenType=
+  - Just replicated the null entry that =wind= has by default

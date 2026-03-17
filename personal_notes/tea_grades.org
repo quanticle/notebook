@@ -1,0 +1,40 @@
+* Tea Grades
+
+** Whole Leaf
+- OP - Orange Pekoe: note that the name has nothing to do with the flavor, but rather refers to the orange color of tea
+- OP1 - Orange pekoe with a more delicate flavor
+- OPA - Orange pekoe with a bolder flavor
+- OPS - (Indonesia) Orange pekoe superior
+- FOP - Flowery Orange Pekoe
+  - Next step up from OP
+  - 2nd grade in Assam, Dooars and Bangladesh
+  - FOP1 is the highest subgrade of FOP
+- GFOP - Golden Flowery Orange Pekoe
+  - Top grade in Milima and Marinyn (Kenya)
+  - Uncommon in Assam and Darjeeling
+- TGFOP - Tippy Golden Flowery Orange Pekoe
+  - Primary grade of Assam and Darjeeling
+- FTGFOP - Finest Tippy Golden Flowery Orange Pekoe
+  - Highest grade of tea
+  - Subcategories:
+    - FTGFOP1
+    - STGFOP
+    - SFTGFOP
+
+** Broken Leaf
+- BP - Broken Pekoe (basic grade, corresponds to OP on the whole leaf side)
+  - Common origins: Indonesia, Assam, Sri Lanka, South India
+- FP - Flowery Pekoe
+  - Not to be confused with /FOP/, which is a whole leaf grade
+  - Usually found in Assam and South India
+- BOP - Broken Orange Pekoe
+  - Mid-grade broken leaf tea
+  - Sources: Assam, Sri Lanka, Southern India, Java, China
+  - FBOP - Flowery Broken Orange Pekoe
+    - Highest subgrade of BOP
+    - Usually found in Sri Lanka
+- GBOP - Golden Broken Orange Pekoe
+  - Second highest grade of broken leaf tea
+  - Mainly from Sri Lanka
+- TGFBOP - Tippy Golden Flowery Broken Orange Pekoe
+  - Highest grade of broken leaf tea

@@ -1,0 +1,8 @@
+#+TITLE: Computer Startup Procedure
+
+* Personal Computer
+- Launch emacs
+- Load ox-pmwiki
+- Launch Terminal
+- Verify internet access
+- Launch Firefox

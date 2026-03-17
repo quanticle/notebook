@@ -1,0 +1,6 @@
+* IDE Notes
+
+** WebStorm
+
+*** Disable TSLint
+- Go to =Preferences - Editor - Inspections - Javascript and Typescript - Code Quality Tools= and uncheck the box by =TSLint= to suppress TSLint checks in the editor

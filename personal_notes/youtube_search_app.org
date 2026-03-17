@@ -1,0 +1,10 @@
+#+TITLE: YouTube Search App
+#+OPTIONS: h:6; toc:6
+
+- To retrieve search results
+  - Send a =GET= to =https://www.googleapis.com/youtube/v3/search=
+  - Parameters:
+    - =part= → set to =snippet=
+    - =maxResults= → set to =50=
+    - =type= → =video=
+    - =q= → search query

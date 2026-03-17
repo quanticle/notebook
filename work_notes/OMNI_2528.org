@@ -1,0 +1,50 @@
+* OMNI-2528 Cannot Read Property Map of Undefined
+
+** Error Message
+#+BEGIN_EXAMPLE
+  [Vue warn]: Error in nextTick: "TypeError: Cannot read property 'map' of undefined"
+  found in
+  ---> <FlexibleMap> at src/components/map/FlexibleMap.vue
+              <BAspect>
+                  <Map> at src/components/map/Map.vue
+                      <ProjectDetails> at src/views/inventory/ProjectDetails.vue
+                          <App> at src/App.vue
+                              <Root>
+  TypeError: Cannot read property 'map' of undefined
+          at useWindDesignLayers.js:53
+          at applyCb (chunk-vendors.js:21520)
+          at Array.<anonymous> (chunk-vendors.js:21441)
+          at flushQueue (chunk-vendors.js:21342)
+          at VueComponent.<anonymous> (chunk-vendors.js:21351)
+          at Array.<anonymous> (chunk-vendors.js:202703)
+          at flushCallbacks (chunk-vendors.js:202629)
+#+END_EXAMPLE
+
+** Debugging Info
+- =useWindDesignLayers.js:53=:
+  #+BEGIN_EXAMPLE
+    turbineData.features ~ turbineData.features.map(f ~> ({
+        geometry: f,
+        type: 'Feature',
+        icon: turbineIcon,
+        altText: 'turbine',
+        tooltipText: 'Turbine',
+    }));
+  #+END_EXAMPLE
+- The problem is that =turbineData.features= is undefined
+- Where does =turbineData= come from?
+- ~const turbineData ~ windotLayout.value=
+- Where does =windotLayout= come from?
+  #+BEGIN_EXAMPLE
+    const {
+        windResourcePngPresignedUrl,
+        windotLayout,
+        windResourceGridProperties,
+        hasWindData,
+    } = useSiteDesignLayerData(ids);
+  #+END_EXAMPLE
+- =useSiteDesignLayerData= comes from =useSiteDesignLayerData.js=
+- =const windotLayout ~ computed(() ~> findVariableData(siteDesignVariablesResp, 'windot_layout')=
+- According to Nick Moekel, the problem is that =windotLayout.value= is an empty object instead of =null= or =undefined=
+- We can update the =hasWindData= function in =useSiteDesignLayerData.js= to check for an empty object
+  - Note: Empty objects are =true= in Javascript

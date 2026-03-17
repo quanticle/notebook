@@ -1,0 +1,215 @@
+#+TITLE: How The Russian Air Force Failed In Ukraine
+
+[[https://overcast.fm/+4I1tIHgt4][Podcast Link]]
+
+- There have been lots of memes on social media about the supposed absence of the Russian air force (VKS)
+- However, the VKS was present in the early days of the conflict
+- High pressure in the first few days of the war, when Ukrainian air defenses weren't fully online
+- Quite a lot of air combat in those early days
+- Russians conducted hundreds of airstrikes
+- VKS had fighter patrols ranging up to 300km beyond the front lines of the conflict
+- Once ground-based air defenses became organized and operational on both sides, there was a degree of mutual denial
+- Primary systems used by both Ukraine and Russia
+  - SA-8 "Buk"
+  - SA-11 "Osa"
+  - SA-10 "S-300"
+- Russians had trouble combining the various components of their air force to carry out complex operations in contested airspace
+- Could not carry out systematic SEAD/DEAD (suppression of enemy air defense/destruction of enemy air defense) campaign
+- Lack of SEAD/DEAD forced Russian ground attack aircraft into flying at very low levels, where they where a target for man portable air defenses (MANPADS), i.e. Stinger missiles and the like
+- The VKS is not currently effective, and has not been able to meaningfully aid the ground campaign
+- This is surprising, given how much theoretical firpower the VKS has
+- The VKS remains a powerful threat in being --- could be significant if Ukrainian air defenses falter as the war continues
+- The West should prioritize aird defense aid because Ukraine's air defenses are mostly what they started with
+- The lack of prioritization of ground-based air defenses is partially due to ground-based air defense not being a priority for Western militaries
+- Western militaries have to preserve their own arsenals, which limits how many systems they can supply to Ukraine
+  - NASAMS and IRIS-T are especially useful for Ukraine, because these systems use the same AMRAAM missiles used by Western fighter jets
+  - Means that there are a substantial number of missiles in inventory
+  - However, these are both very new systems and there aren't very many to go around
+- One of the biggest problems with the Russian air force has been their reliance on single-plane strikes
+  - US/Israel will send multiple planes at a target
+    - Multiple chances to attack a target
+    - Makes it easier to verify that that the target was destroyed
+  - The Russian reliance on single-plane strikes was not predicted by pre-war analysts
+- Russians have consistently failed to use their stock of munitions in the most effective manner
+  - Fire 2-3 cruise missiles at an airfield
+  - Far too few to put the airfield out of commission, even temporarily
+  - /By comparison, the US fired more than 50 cruise missiles at a single airfield during our strikes on Syria/
+  - Russia had the magazine depth to significantly barrage Ukrainian airfields at the beginning of the war
+  - However, instead of using their long-range precision munitions on strategic targets, they wasted Iskanders on essentially tactical strikes against small formations of Ukrainian troops
+  - Russian planners seem to have consistently underestimated how many munitions would be required to achieve a given effect
+- Kill chain problems
+  - Russians do not have trouble finding targets
+  - The trouble is that it takes their centralized bureaucracy approximately 24 hours to process targeting info
+  - Takes another 24 hours for that targeting information to be sent to the VKS and turned into strike plans
+  - Means that, on average, it takes 48 hours between targets being reported and planes going into the air
+  - This speaks to major bottlenecks in analysis, prioritization, and dissemination of information
+  - Russian planners also seem to be insufficiently capable of deduplicating field reports
+  - Example: 4 contact reports against the same Ukrainian unit led to 4 air strikes, none of which actually impacted the Ukrainian unit in question
+  - Doesn't seem to be any prioritization of targets --- targets are handled in the order they are received
+  - This ensures that high value or time sensitive Ukrainian targets are often missed by the VKS, because by the time planes get in the air the target has moved
+- During the first three days of the ground conflict, the VKS was actually quite successful at hitting fixed ground targets
+- After the first three days
+  - Air assets had to be retasked to support the ground offensive, which had bogged down
+  - Ukrainian air defenses had begun to be organized
+  - As a result of these two pressures VKS switches from hitting strategic targets deep inside Ukrainian territory to more tactical strikes directly supporting ground combat units
+- However, tactical strikes aren't well suited to the VKS' aircraft or combat doctrine
+  - Need very precise timing and location information to be accurate with free-fall bombs
+  - Hitting targets is difficult when operating at high speed and low altitude
+  - Ukrainian air defenses ensure that often, Russian jets only got one pass at any given target --- if they tried to circle back, they'd often get shot down
+  - Need to avoid hitting friendly units imposed additional challenges
+    - Breakdowns in communication (/see above/) meant that Russian planners didn't always have a good idea of where their own units were
+    - This difficulty was compounded by the fact that Ukrainian forces use similar or identical equipment to the Russians
+  - For these reasons, Russian close air support, especially in northern Ukraine, was often quite ineffective
+- After the first three days, Russia starts to lose substantial numbers of fixed and rotary-wing aircraft
+- What kinds of man portable air defenses (MANPADS) does Ukraine have?
+  - Ukraine has a significant number of MANPADS
+  - Most common are refurbished Soviet-era IGLA-1s
+  - Ukraine had a large number of these stockpiled prior to the war
+  - These had been supplemented by US-made Stingers
+  - After the war started, the UK started supplying Starstreak systems
+- Another Russian deficiency has been Russian battle damage assessments
+  - Overly reliant on self-assessment by pilots
+  - Don't have reliable access to high quality satellite imagery
+    - Russia's own imaging satellites appear to have rather poor image quality, even compared with commercial western systems to say nothing of the satellites used by Western intelligence agencies
+    - Russia is attempting to buy commercial satellite imagery from the West through front companies
+  - Russia attempts to use signals intelligence (SIGINT) to determine if targets have been hit, but this is vulnerable to Ukrainian deception efforts
+  - Ukrainians report on the radio that targets have been struck or destroyed even when the Russian airstrike missed
+- Russia does have dominance in air-to-air combat
+  - Su-30 and Su-35 are far better planes than anything that Ukraine has
+  - Russia also has better air-to-air missiles
+    - Russian missiles have active homing (i.e. "fire-and-forget" capability)
+    - Allows Russian fighters to turn away and begin evasive maneuvers when the missile is 6-8 seconds away from impact
+    - Allows Russian fighters to launch missiles when their radar is in "track-while-scan" mode, making it more difficult for Ukrainian warning systems to determine if Russian fighters have a lock
+  - By contrast, Ukraine has only semi-active homing missiles
+  - Ukrainian fighters have to hold lock (i.e. keep their noses pointed at the enemy) until the missile impacts
+  - Ukrainian fighters have had some success against Russians by flying low, but this presents its own challenges
+    - Flying low imposes greater risks and greater stresses on airframes
+    - Reduces the range of missiles, because they have to travel through thicker air and climb to hit their targets
+- Russia designed its air force to fighting and defeating NATO air forces, not an ex-Soviet air force and air defense system like what Ukraine has
+- This meant that Russia emphasized air-to-air combat, and didn't train much against ground-based air defenses
+- Russian electronic warfare (EW) was effective against Ukrainian aircraft
+- The VKS was just as hampered by the unreasonable secrecy surrounding war planning as the remainder of the Russian military
+  - Aircraft, in some cases, were down for scheduled maintenance when deployment orders came
+  - Some aircraft didn't have fully functional navigation systems as a result --- pilots had to use commercial GPS and GLONASS receivers for navigation
+  - No time given to do mission planning --- planning had to be conducted in an ad-hoc manner after the war started
+- Numbers of air-to-air kills
+  - Very difficult to confirm kills beyond visual range
+  - Leads to highly inflated kill counts
+  - Confirmed kill counts are much lower, and are not being published
+- Communications
+  - Maintenance cycles were not properly aligned with the start of operations
+  - In addition to hampering navigation (see above) this meant that many aircraft didn't have encrypted radios either
+  - This was not as much of a problem as it would appear to be, because the majority of Russian aircraft spend most of their time over friendly territory
+  - Russian communications were also subject to "EW fratricide"
+    - Russian systems are vulnerable to their own electronic warfare
+    - Affected
+      - Radios
+      - Radar
+      - GPS/GLONASS --- both needed to be jammed because Russian and Ukrainian systems can use both systems
+  - Russia dramatically scaled down its electronic warfare after the the second day of the conflict because it was hampering their own communication as much as the Ukrainians'
+  - Russian electronic warfare doesn't ramp up again until the end of March, when the situation on the ground had stabilized somewhat, and it was possible to bring EW assets forward
+  - Relative lack of TB-2 drone strikes after April is a consequence of this --- static front lines allowed Russia to position electronic warfare and ground-based air defenses to better defend against drones
+- Lack of tankers is severely reducing the availability of Russian aircraft
+  - Russia does have tankers, but not very many
+  - Russian tankers' primary mission is to support their strategic bombers and maritime patrol aircraft
+  - Most fighter and ground attack aircrews are not well-versed in mid-air refueling
+    - Mid-air refueling is one of the most complex things you can do in a plane
+    - Is a perishable skill
+    - US and NATO pilots train this capability constantly (/and even then, we still have readiness issues --- see the issues with the readiness of F-18s in the 7th Fleet/)
+  - This lack of tanker training affects how long Russian aircraft can stay on station
+  - Without tanker support the endurance of a Russian aircraft is roughly 2 hours
+  - Russian fighters do have the advantage of being able to fly at higher altitude
+    - Engines are more efficient
+    - Less drag
+  - Lack of tankers also means that Russia can't put together complex multi-stage airstrikes in the same what the US can
+    - Tankers ensure that there's a buffer in case something goes wrong
+      - Weather
+      - Mechanical difficulties requiring aircraft to be rotated or substituted
+    - With tanker support, these issues are minor, because the entire force can get its tanks topped off prior to starting the mission
+    - Without tanker support, even minor issues can quickly cascade, forcing a choice between having to leave planes behind or parts of the force turning back early due to lack of fuel
+  - This especially affects SEAD/DEAD efforts, which rely on many aircraft operating in concert
+  - We under-appreciate tankers because the US Air Force has so many, and its crews are so well trained, allowing NATO air forces to take tanker support for granted
+- Russia was able to get away without tanker support in their operations in Syria, because those operations were conducted at short ranges, close to fixed air bases
+- Russia attempted to use Su-25 ground attack aircraft in a SEAD/DEAD role, but it wasn't very effective
+  - SEAD/DEAD requires specialized training, which Su-25 pilots lack
+  - Made Su-25s even more vulnerable to MANPADs
+- Russia is flying roughly 140 sorties a day
+  - Approximately 100 of these sorties are routine combat air patrols to guard against Ukrainian fighters
+  - Remaining are strikes against ground targets
+  - Russian sortie rate has gone down as the war has progressed --- initially Russia was flying 2-300 sorties per day
+- What has been the effect of wear and tear from the intense combat operations during the Ukraine War on the Russian Air Force?
+  - In Syria, the way Russia would operate is that they'd cycle in different types of aircraft at a time
+  - Ex: one rotation would have Su-34s, the next rotation would have Su-25s, etc
+  - Instead of carrying out maintenance incrementally, a group of planes would cycle in theater, operate for some time, and then cycle back to Russia for maintenance and training
+  - In Ukraine, the needs of the war have made that strategy impossible
+  - Russia needs all of its aircraft operating --- can't have entire formations rotated off for maintenance
+  - Ground-attack aircraft have seen especially heavy wear and tear, both on aircraft and pilots
+    - Ground attack missions take place at low altitudes
+    - More drag and buffeting, which places strain on the aircraft
+    - Greater danger of accidental damage from bird strikes and debris
+    - Requires much more intense concentration, which places strain on the pilot
+  - This has led to an increased accident rate for aircraft
+- Russian maintenance practices exacerbate wear and tear problems
+  - Unlike in the US, Russia doesn't inspect its planes after each flight
+  - Instead, planes are maintained according to a fixed schedule
+  - However, this means that when one plane in a squadron is due for maintenance, the rest are soon to follow
+  - In Syria, Russia was able to work around this problem by cycling squadrons in and out of theater (as noted above)
+  - However, this strategy isn't possible in Ukraine, where many squadrons are committed full time to combat operations
+  - Furthermore, it's unclear whether maintenance schedules are being adjusted to account of the level of wear and tear observed in actual combat operations
+- Fatigue among Russian ground crew is also becoming a factor
+  - When a Russian helicopter crash-landed in Ukrainian territory, Ukrainian troops discovered that it still had coverings on its sensors that were supposed to be removed prior to takeoff
+  - Other sensors were in a stowed position for travel and weren't in a ready position for combat operations
+  - This is attributable to fatigued/overstaffed ground crew making mistakes
+- Russian helicopters
+  - Were quite effective initially
+  - Ran hunter-killer missions against Ukrainian infantry and armor
+  - The Ka-52 was the most active type of helicopter, and has suffered the most losses
+  - The Ka-52, despite being a more modern helicopter, is in some ways more vulnerable to ground fire than its predecessor, the Mi-24 "Hind"
+    - Less armor, especially around the engine compartment
+    - Lucky shots, even from small arms, are often enough to bring down Ka-52s
+  - The Ka-52's countermeasures systems are effective, but the sheer volume of ground-based missiles, especially MANPADs has often been enough to exhaust countermeasures, especially when the Ka-52 is leaving the mission area
+  - The Ka-52 has severe vibration issues --- stub wings are often visibly flapping when the helicopter is in flight at certain power settings
+    - This plays havoc with the sensors and weapons systems on the helicopter
+    - Makes aiming very difficult, especially for unguided rockets
+    - Points to deficiencies with the test and evaluation process for this helicopter that these vibration issues were allowed to go unaddressed
+  - The ATGM that the Ka-52 has an odd design that makes the helicopter more vulnerable
+    - Guidance sensor points backwards, towards the helicopter, rather than forwards towards the target
+    - Instead of looking for the reflection of the laser from the target, the missile "rides the beam" emitted from the helicopter
+    - In practice, this means that the helicopter has to remain relatively still after firing, otherwise it risks the missile losing the beam
+    - This makes the Ka-52 very vulnerable between firing and impact
+    - Ka-52s have been brought down even by anti-tank missiles because of this vulnerability
+  - As a result of these challenges, Russian helicopters have increasingly resorted to lofting attacks where they fire unguided rockets in ballistic trajectories as a form of indirect fire against enemy targets
+    - Not ideal, but not as inaccurate as many think
+    - Avionics have support --- provide aiming cues to pilots
+    - Accuracy depends on the skill of the pilot in following the cues from the targeting system, the calibration of the targeting system itself, and on how well ground crews have aligned the weapons pods with the targeting system
+  - Even despite being substantially more cautious with their usage of helicopters since April, the Russians are still losing helicopters
+- Russian missiles --- ballistic, cruise and loitering munitions
+  - Are a significant problem for Ukraine because the Russians have good intelligence regarding Ukrainian infrastructure
+  - Humanitarian consequences of Russian attacks against Ukrainian infrastructure are likely to be significant
+  - In order to protect their cities, the Ukrainians are having to keep air defense near them
+  - This means fewer air defense systems for front-line combat units
+  - Increases the expenditure of air defense munitions
+  - Once Ukraine has expended its stock of Soviet-era air defense munitions, it's possible that the VKS will be able to conduct deep strikes into western Ukraine once again
+  - The intercept rate for Ukrainian S-300s against cruise missiles is 40-60%
+  - Iskander ballistic missiles almost always get through, however --- too fast for the S-300 to intercept
+  - However, Russia doesn't have very many Iskander missiles, and isn't capable of replenishing its stocks at a high rate
+  - The stocks of Russian surface-to-surface munitions are all over the place, depending on the type of munition
+    - Russians have used up ~50% of their existing stock of Iskanders
+    - Have low stock of Kalibr cruise missiles
+    - Still have a substantial stock of S-300 surface to air missiles which they're using in a secondary ground-attack role
+  - Determining Russian stocks of long-range weapons has been made more difficult by the fact that Russian forces are using weapons outside of their design parameters
+    - Can lead to civilian casualties when those weapons miss
+    - Example: anti-ship missiles used for land attack
+      - Anti-ship missiles are aimed at an area, rather than a point
+      - Once the missile reaches the edge of the defined area, it turns on its onboard radar and scans for the largest target
+      - At sea, this is fine --- the largest target within the defined area is going to be an enemy warship
+      - However, as we saw with the hit against the shopping mall in Kremenchuk, the largest target in a given zone on land may not be military
+        - There a military factory was located next to a shopping mall
+        - Russian anti-ship missile aimed for the mall rather than the factory, because the mall was a larger target on radar
+    - However, with a proper understanding of the limitations of weapons, it is possible to use e.g. anti-ship missiles against energy infrastructure
+  - Iranian drones
+    - Refined in Yemen
+    - Drones recovered in Russia have much better build quality than drones recovered from Yemen
+    - Multiple redundant navigation systems, with jamming/spoofing detection
+      - 
+

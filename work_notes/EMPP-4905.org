@@ -1,0 +1,262 @@
+* EMPP-4905
+- [[https://wlweb.windlogics.com/radar/browse/EMPP-4905][Ticket Link]]
+- [[https://gitlab.windlogics.com/internal/empp/empp-ui/-/merge_requests/1470][MR Link]]
+
+** Ticket description
+- Update batch dashboard to show =Scenario= instead of =Comment= and =Description= next to project name
+- Update batch config, status and results to have =Revision Name= next to the project with the revision name being a link to the revision
+
+** Examples
+- [[https://designer-dev.nexteraanalytics.com/iro/#/scenario/1d8d9fb7-3f14-4697-bb73-67a1f900ceaa/results][Project with multiple revisions]]
+  - Project ID: =73f387ae-1b7f-42c1-8b96-b2c3da4fa74b=
+  - Batch parent scenario ID:
+
+** Coding Notes
+- On the main batch results table, we want =Description= to be renamed to =Scenario=
+- We want =Comment= to be renamed to =Revision Name=
+- =Revsion Name= should be a link to the revision?
+- Where is the batch dashboard code?
+  - =src/app/app.component.html=
+    - Just has the link to the batch scenario dashboard
+  - =/src/app/batch-processing/batch-dashboard/batch-dashboard.component.ts=
+  - =/src/app/batch-processing/batch-dashboard/batch-dashboard.component.html=
+- How do I get the revision name?
+- The data source for the table is =batchScenarioDs=: =MatTableDataSource<ScenarioWithMetadata>=
+- What is a =ScenarioWithMetadata=:
+  #+BEGIN_EXAMPLE
+    interface ScenarioWithMetadata extends ScenarioContainer {
+        projectName: string;
+        createdByName: string;
+        createdBy: string;
+        createdAt: string;
+    }
+  #+END_EXAMPLE
+- What is a =ScenarioContainer=:
+  #+BEGIN_EXAMPLE
+    interface ScenarioContainer {
+        createdBy?: string;
+        scenarioId: string;
+        projectId: string;
+        createdAt?: string;
+        updatedAt?: string;
+        scenario: OptimizerScenario;
+        parentId?: string;
+        isMaster?: boolean;
+        finalized?: boolean;
+        changeset?: OptimizerChangeset;
+        changesetStatus?: ChangesetStatus;
+    }
+  #+END_EXAMPLE
+- Does the =OptimizerScenario= have a =revision= field?
+  - No, but it does have a =comment?= field, which is presumably what we're displaying in the table right now
+- The table is a list of parent scenarios, and clicking on the scenario name will take you to the batch optimizer results for that scenario?
+- =OptimizerChangeset= doesn't seem to have any relevant data either
+- Do I need to add this field? Look at output info in S3?
+  - Nighthawk Solar: [[https://s3.console.aws.amazon.com/s3/buckets/wl-empp-api-job-dev?region=us-east-1&prefix=69e4eea4-3789-4945-b89f-94a65a4008b3/&showversions=false][=69e4eea4-3789-4945-b89f-94a65a4008b3=]]
+- Which API is this table getting its data from?
+- What renders =batch-dashboard.component.html=?
+- Used by =batch-processing.module.ts=
+- =batch-dashboard= seems to be a "top-level" component that retrieves its own data?
+- Look at the =loadData= method
+  #+BEGIN_EXAMPLE
+    private loadData(): void {
+        this.loading = true;
+        this.storeService.markLoadingInProgress('Loading Batch Scenarios and Projects');
+        this.store$.dispatch(new FetchBatchScenarios());
+        this.store$.dispatch(new LoadProjects({projectIds: [], loadInBackground: true}));
+        const scenarioReq$ = this.store$.pipe(select(selectAllBatchScenarios));
+        const scenarioLoadingReq$ = this.store$.pipe(select(selectFetchingStatus));
+        const projectReq$ = this.store.pipe(select(selectAllProjects));
+        const projectLoadingReq$ = this.store.pipe(select(selectProjectFetchingStatus));
+        combineLatest(scenarioReq$, projectReq$, scenarioLoadingReq$, projectLoadingReq$)
+            .pipe(takeUntil(this.$destroy))
+            .subscribe(([scenarios, projects, scenarioFetchingStatus, projectsLoading]) => {
+                if (scenarioFetchingStatus === FETCH_STATUS.success && projectsLoading === LOAD_STATUS.success) {
+                    const projectsById = {} as {[key: string]: ProjectContainer};
+                    projects.forEach(project => (projectsById[project.id] = project));
+                    this.batchScenarioDs.data = scenarios.map(scenario => {
+                        const emptyProjectContainer = { project: {} } as ProjectContainer;
+                        const scenarioProject: ProjectContainer = scenario.projectId in projectsById ? projectsById[scenario.projectId] : emptyProjectContainer;
+                        return {
+                            ...scenario,
+                            projectName: scenarioProject.project.name,
+                            createdByName: scenarioProject.createdByName,
+                            createdBy: scenarioProject.createdBy,
+                            createdAt: scenarioProject.createdAt
+                        } as ScenarioWithMetadata
+                    });
+                    this.batchScenarioCount = scenarios.length;
+                    this.loading = false;
+                    this.storeService.markLoadingComplete();
+                } else if (scenarioFetchingStatus === FETCH_STATUS.failed || projectsLoading === LOAD_STATUS.failed) {
+                    this.errorFetchingData = true;
+                    this.loading = false;
+                    this.storeService.markLoadingComplete();
+                }
+            });
+    }
+  #+END_EXAMPLE
+  - Note that in Angular, =Observable=s are suffixed with =$= by convention
+  - I should look at =FetchBatchScenarios=
+    - =FetchBatchScenarios= is a batch scenario action that gets dispatched to the store
+  - What listens for this action?
+    - =fetchBatchScenariosEffectRequestHandler=
+    - Calls =api/iro/scenario= with =onlyBatchParentScenarios= set to =true= to fetch only the parent scenarios
+- According to Crosby, the description should be the latest description from the table you get from clicking the clock icon
+  - =dashboard__toggle= button
+  - Next to =project-information-comment=
+  - In =simulation.component.html=
+  - Clicking the clock icon triggers the =showRevisions()= method
+  - Calls =ProjectRevisionsDialogComponent= with =this.project=
+  - =ProjectRevisionsDialogComponent= is just a host for =ProjectRevisionsComponent=
+  - =ProjectRevisionsDialogComponent= also calls =api/iro/scenario=
+- So in the table's description column, I need to show the description for the latest revision of the project?
+  - That table cell is also showing the =comment= field for the scenario
+  - So do I just need to update the header?
+- How do I get the revisions for a project?
+- Right I have the batch scenario dashboard showing the project name for a given project, but the link is to the parent scenario for that project
+- I should make the project name /not/ a link
+- Add a column, labeled 'Revision Name', but what should that column hold? A link to the latest revision?
+  - How do I get the total number of revisions?
+- A revision, in the code, is the same thing as a scenario? Looks like yes, because the =ProjectRevisionsComponent= links to scenarios
+- Do scenarios have names?
+- =ProjectRevisionsComponent= is calling =api/iro/scenario= with some query parameters
+- Currently =ProjectRevisionsComponent= has the "name" of the revision as the last index of list of scenarios
+- How do I get the total number of scenarios per project?
+- =ProjectRevisionsComponent= is invoked by =dashboard.component.html=
+  - Gets passed a project ID
+  - So the =ProjectRevisionsComponent= retrieves the list of scenarios for a project on its own?
+  - Calls =simulationService.getScenarios()= with the project ID
+- Is there a way to get just a list of scenario IDs given a list of project IDs?
+- In the =loadData= function of =batch-dashboard.component=,
+  - We fire a =FetchBatchScenarios= action, which sends a request to =api/iro/scenario= with =onlyBatchParentScenarios=
+  - We fire a =LoadProjects= action, which gets the list of all projects
+- So we have a list of projects, and a list of the parent scenario for each project
+- But that won't get us the number of the latest revision
+- Is it expensive to retrieve all the scenarios for a given project?
+- We fetch all the projects, and all the batch parent scenarios, and then for the table, we match scenarios with their projects
+- But what if I add a step where I fetch the list of all scenarios for each project that has a batch scenario and link the latest scenario number?
+- The project container has a list of scenarios
+  - List of scenarios is optional, and in this case, is not populated
+- Some scenarios don't have a project, which is why the code has an empty project container that it can use as the project for that scenario
+- How should we we handle that case?
+- Does the parent batch scenario have a list of its children?
+  - Batch scenario does not have a list of children -- only has an =isMaster= flag to indicate that it is the master scenario
+- I should call =simulationService.getScenarios()= with the full list of projects, and then
+- The real requirement is to get the description from the parent scenario rather than the project
+- But the description column is already getting the description from the parent scenario
+- According to Chuck, I need to investigate the response from =empp-api-scenario= to see what is getting returned when we set the =onlyBatchParentScenarios= flag
+- What is the handler for =api/iro/scenario=
+  - The =GET= request is handled by: [[https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions/empp-api-scenario-list-dev?tab=code][=empp-api-scenario-list-dev=]]
+  - Handler: =api.list.event_handler=
+- =api.list.event_handler= calls =empp_util.process_request(event, list_scenarios)=
+- =list_scenarios= is a function
+  - Reads the =onlyBatchParentScenarios= flag out of the query string parameters
+  - Calls =list_all= with the =only_batch_parent_scenarios= set to =True=
+- =list_all= runs a SQL query to get the scenario info
+  - If =only_batch_parent_scenarios= flag is set
+    - Adds the =changeset= column to the results
+    - Default columns: ="(scenario->>'finalized')::boolean AS finalized, scenario_id, project_id, created_at, updated_at, created_by, scenario->>'comment' as comment, parent_id, is_master, changeset_status, scenario->>'factoryGeneratorSetId' AS \"factoryGeneratorSetId\", scenario->>'factoryGeneratorSetGeneratorId' AS \"factoryGeneratorSetGeneratorId\" "=
+  - So what is the actual query that's getting run
+    #+BEGIN_EXAMPLE
+      SELECT (scenario ->> 'finalized')::boolean        AS finalized,
+          scenario_id,
+          project_id,
+          created_at,
+          updated_at,
+          created_by,
+          scenario ->> 'comment'                        as comment,
+          parent_id,
+          is_master,
+          changeset_status,
+          scenario ->> 'factoryGeneratorSetId'          AS "factoryGeneratorSetId",
+          scenario ->> 'factoryGeneratorSetGeneratorId' AS "factoryGeneratorSetGeneratorId",
+          changeset
+      FROM scenario.scenario s
+      WHERE true
+          AND changeset_status is not null
+          and changeset_status <> 'NONE'
+      ORDER BY created_at DESC;
+    #+END_EXAMPLE
+  - Database access
+    - Which database does the lambada connect to?
+    - Connects to =EMPP_DB_NAME=: =empp=
+    - Host is =EMPP_DB_HOST=: =empp-data-dev.cyeqpokowniv.us-east-1.rds.amazonaws.com=
+- What query is the project revisions component using to get its data?
+  - Calls =/api/iro/scenario= with the =projectIds= parameter set to the current project ID
+  - Instead of list all, this triggers =listByProject=
+    - List by project pulls the project IDs from the query parameter into a list
+    - Runs the following SQL: =SELECT (scenario->>'finalized')::boolean AS finalized, scenario_id, project_id, created_at, updated_at, created_by, scenario->>'comment' as comment, parent_id, is_master, changeset_status, scenario->>'factoryGeneratorSetId' AS "factoryGeneratorSetId", scenario->>'factoryGeneratorSetGeneratorId' AS "factoryGeneratorSetGeneratorId", (SELECT array_agg(distinct(gen->>'type')) FROM jsonb_array_elements(s.scenario #>'{inputs,generators}') gen) as gentypes, (scenario->'inputs'->'financialModel'->>'marketSettlement')::boolean as marketSettlement FROM scenario.scenario WHERE project_id IN <list of project IDs>=
+      - Example query:
+        #+BEGIN_EXAMPLE
+          SELECT (scenario ->> 'finalized')::boolean                                        AS finalized,
+              scenario_id,
+              project_id,
+              created_at,
+              updated_at,
+              created_by,
+              scenario ->> 'comment'                                                        as comment,
+              parent_id,
+              is_master,
+              changeset_status,
+              scenario ->> 'factoryGeneratorSetId'                                          AS "factoryGeneratorSetId",
+              scenario ->> 'factoryGeneratorSetGeneratorId'                                 AS "factoryGeneratorSetGeneratorId",
+              (SELECT array_agg(distinct (gen ->> 'type'))
+                  FROM jsonb_array_elements(s.scenario #> '{inputs,generators}') gen)       as gentypes,
+              (scenario -> 'inputs' -> 'financialModel' ->> 'marketSettlement')::boolean    as marketSettlement
+          FROM scenario.scenario
+          WHERE project_id IN ('73f387ae-1b7f-42c1-8b96-b2c3da4fa74b')
+        #+END_EXAMPLE
+- So what I want is the comment for the /latest/ scenario for a given project
+  - Start with a simpler case: given a project ID, retrieve the latest comment
+    #+BEGIN_EXAMPLE
+      SELECT scenario ->> 'comment' AS comment
+      FROM scenario.scenario
+      WHERE project_id = '73f387ae-1b7f-42c1-8b96-b2c3da4fa74b'
+      ORDER BY created_at DESC
+      LIMIT 1;
+    #+END_EXAMPLE
+- What I should do is set =WHERE parent IS NOT null=, and then use a subquery to get the comment
+- To get the list of batch parent scenarios' project IDs
+  #+BEGIN_EXAMPLE
+    SELECT
+        scenario_id,
+        project_id
+    FROM scenario.scenario s
+    WHERE
+        changeset_status IS NOT NULL
+        AND changeset_status <> 'NONE'
+    ORDER BY created_at DESC;
+  #+END_EXAMPLE
+- To get the list of child scenarios:
+  #+BEGIN_EXAMPLE
+    SELECT
+        (scenario ->> 'finalized')::boolean AS finalized,
+        scenario_id,
+        project_id,
+        created_at,
+        updated_at,
+        created_by,
+        scenario ->> 'comment' AS comment,
+        parent_id,
+        is_master,
+        changeset_status,
+        scenario ->> 'factoryGeneratorSetId' AS "factoryGeneratorSetId",
+        scenario ->> 'factoryGeneratorSetGeneratorId' AS "factoryGeneratorSetGeneratorId",
+        changeset
+    FROM scenario.scenario s
+    WHERE
+        project_id IN (
+            SELECT project_id
+            FROM scenario.scenario t
+            WHERE
+                t.changeset_status IS NOT NULL
+                AND changeset_status <> 'NONE'
+        )
+    ORDER BY created_at DESC;
+  #+END_EXAMPLE
+  - This SQL gets more results, but it's not clear to me that it's getting the right results
+  - What if I just update the =list_all= SQL to the above query?
+  - I'd need to have my =empp-ui= talking to a locally running copy of =empp-api-scenario=
+- Look at =fake-backend.interceptor.ts=
+  - Maybe I can capture the data from the new SQL and replay it into the UI?

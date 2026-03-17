@@ -1,0 +1,49 @@
+#+OPTIONS: toc:6
+#+TITLE: Inflation Is Conflict
+
+Guido Lorenzoni, Iván Werning
+April 2023
+
+* Introduction
+
+- We don't have a good understanding of inflation
+- How does money transmit inflation?
+- The idea of "too much money" chasing "too few goods" is unsatisfying, because it requires out of equilibrium assumptions
+- Moreover, it doesn't do a good job of explaining moderate and transistory inflationary episodes
+- Why does it seem like sometimes an increase in the money supply leads to increases in the amount of goods and services produced, whereas other times it leads to inflation?
+- This paper argues that the proximate cause of inflation is /conflict/
+  - Incompatible goals over relative prices
+  - Conflicting agents have only partial or intermittent control over prices
+- Agents can only change a subset of the prices that they are exposed to
+- Agents adjust prices in the direction that they prefer
+- When coupled with staggered prices, this conflict over prices reveals itself as a finite level of inflation
+- We can explain inflation without referring to the money supply at all simply by thinking of inflation as the result of agents adjusting prices in order to vie for market power
+- The conflict perspective of inflation isn't a new one, but it is one that has been under-explored
+
+* Inflation From Conflict Without Money
+
+- Stylized model that isolates inflation resulting from conflict
+- Assume all trade takes place through barter
+- Assume fixed endowments to eliminate the possibility of output-driven inflation
+- To abstract the role of labor, the model focuses on prices only, rather than prices and wages
+
+** Assumptions: Barter With Staggered Prices
+
+- Consider two agents, $A$ and $B$ and two goods, $A$ and $B$, which are respectively owned by the agents
+- Goods are perishable and must be consumed within each period
+- Preferences for a given period are given by the utility function $u(c, c')$, where $c$ denotes the consumption of one's own good, and $c'$ denotes the consumption of the other good
+  - For Agent A, $c$ is $A$, and $c'$ is $B$
+  - For Agent B, $c$ is $B$, and $c'$ is $A$
+- The total utility is the concave, twice differentiable function: $\sum_{t = 0}^{\infty} \beta^{t}u(c_t, c'_t)$
+  - $\beta$ represents a discount factor $< 1$
+- Preferences are symmetric across agents, but aren't necessarily symmetric across goods
+- This model permits "home bias", where each agent prefers its own goods
+- Trade: barter with staggered prices
+  - Prices are set in a staggered fashion, and remain unchanged for two iterations
+    - Agent A sets prices in even periods
+    - Agent B sets prices in odd periods
+  - Let $P^*_t$ denote a new price
+  - When $t$ is even, $P^*_t$ represents the new price of good A
+  - When $t$ is odd, $P^*_t$ represents the new price of good B
+  - 
+

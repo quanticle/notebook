@@ -1,0 +1,70 @@
+#+TITLE: 2025 Computer Replacement
+#+OPTIONS: num:nil
+#+OPTIONS: h:6
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+* Requirements
+- Able to drive two external monitors
+- Upgradeable RAM
+- Upgradeable SSD
+
+* Desktop Computers
+
+- Barebones computer
+  - SimplyNUC Zircon: $200
+    - Intel N95 CPU
+    - DDR4 3200 RAM
+    - M.2 2280 PCIe SSD
+  - GMKTec MiniPC N150: $130
+    - Intel N150 CPU
+    - DDR4 3200 RAM
+    - M.2 2280 PCIe SSD
+- Samsung 2TB SSD: $130
+- Crucial 32GB (2x 16GB) DDR4 3200 SODIMMs: $55
+- Windows 11 Pro: $200
+
+* Laptop Computers
+
+- Acer Aspire 3 Laptop - A315-24P-R7VH: $329
+  - Does appear to support dual monitor output
+  - Only 8GB RAM (non-upgradeable)
+  - SSD is upgradeable
+- Acer Aspire 3 A315-24PT-R1L8: $399
+  - 16 GB RAM, nonupgradeable
+  - 1TB SSD, M2 2280
+  - Does appear to support dual video out
+
+* Mom's Computer Replacement Plan
+
+** High-level process
+- Back up Firefox settings
+- Back up files to thumbdrive
+- Take a screenshot of the desktop
+- Get Mom's Microsoft account details
+- Remove SSD from old desktop and put it into the external enclosure
+- Hook up the new computer
+- Install Windows on the new computer
+- Create a Microsoft account for Mom (if necessary)
+- Install drivers (if necessary)
+- Install Office
+- Restore Firefox settings
+- Restore files
+- Restore desktop
+
+** Firefox backup and restore
+
+*** Backup
+- Find the Firefox profile directory by going to =about:profiles=
+- Back up the profile directory
+
+*** Restore
+- Launch Firefox once to create the parent directory structure
+- Copy the backed up profile into the profiles directory
+- Go into Firefox again, and in =about:profiles=, select "Create Profile"
+- Give the profile a name, like "default profile"
+- *Select =Choose Folder=*
+- Choose the profile that you restored
+- Set that profile as the default

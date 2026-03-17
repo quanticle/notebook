@@ -1,0 +1,31 @@
+* Python Notes
+
+** Get the directory that the currently executing script resides in
+- =os.path.dirname(os.path.realpath(__file__))=
+
+** Set up a virtualenv on Ubuntu
+- =sudo apt install virtualenv=
+
+** Python Poetry
+- Poetry is a tool that combines managing different Python versions (i.e. with =pyenv=) and different Python package sets (i.e. with =virtualenv=)
+- In order to install, first =pip install poetry= to install it system-wide
+- Then, in your project, add a =pyproject.toml=
+  - Do this by running =poetry init=
+- To install the necessary virtual environments and packages for the project, call =poetry install=
+- =poetry env info= outputs information about the virtual environment
+- Normally Poetry creates virtual environments in a cache folder, but if you want to put the virtual environment in the project folder =poetry config virtualenvs.in-project true=
+  - That installs the virtualenv into a =.venv= folder in the project
+- To launch a shell in the virtual environment for the current project, call =poetry shell=
+- To add a dependency, call =poetry add <dependency>=
+- To remove a dependency, call =poetry remove <dependency>=
+- Poetry can also help you publish to PyPI
+
+** Emacs setup for Python
+- To set up the PyRight language server
+  #+begin_src elisp
+    (use-package lsp-pyright
+      :ensure t
+      :hook (python-mode . (lambda ()
+                             (require 'lsp-pyright)
+                             (lsp-deferred))))
+  #+end_src

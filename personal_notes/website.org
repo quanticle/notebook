@@ -1,0 +1,8 @@
+#+TITLE: Website Setup
+
+* General To Do
+
+- Make website in =org-mode=
+- Use =ox-html= to publish
+- Website needs to be well formatted for mobile browsing --- update CSS to make it better for mobile viewing
+

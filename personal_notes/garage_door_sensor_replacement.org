@@ -1,0 +1,18 @@
+#+TITLE: Garage Door Sensor Replacement
+
+* Tools and Materials
+- New sensors and wire
+- Wire snips/stripper
+- Electrical tape or plastic connectors
+
+* Procedure
+- Turn the garage door opener off
+- For each sensor
+  - Snip the wires going to the sensors
+  - Remove sensor from bracket (or remove bracket entirely if necessary)
+  - Separate the wire pair
+  - Strip the insulation such that there's approximately 1/2" of bare wire showing
+  - Split the new sensor wire
+  - Strip the new sensor wire such that there's approximately 1/2" of bare wire showing
+  - Connect black to black and white to white with wire nuts
+- Test new sensor by turning on garage door opener and checking that the green light is steady with no flickering

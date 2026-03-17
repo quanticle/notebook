@@ -1,0 +1,1382 @@
+#+OPTIONS: H:6
+#+TITLE: Unix Tips
+
+* List directories only:
+- =ls -ld */=
+
+* =youtube-dl=
+
+** Install nightly build
+=pip install -U --pre "yt-dlp[default]"=
+
+** Download audio from YouTube video
+- Get =yt-dlp=
+  - =python3 -m virtualenv youtube-dl-venv=
+  - =youtube-dl-venv/bin/activate=
+  - =pip install yt-dlp=
+- Download the audio for the video using =yt-dlp=
+  - =yt-dlp -x <URL>=
+- To download a video in a playlist but not download the entire playlist: =--no-playlist=
+
+** Get title of YouTube video
+=yt-dlp --get-title=
+
+** Get description of YouTube video
+=yt-dlp --get-description=
+
+** Get duration of YouTube Video
+=yt-dlp --get-duration=
+
+** Speed up downloads
+- Add the =--youtube-skip-dash-manifest= option
+- To avoid having to specify this option every time
+  - Create =C:\Users\quant\youtube-dl.conf=
+  - In that file, add the following option: =--youtube-skip-dash-manifest=
+
+** Get Thumbnails of YouTube Videos
+- =yt-dlp --list-thumbnails= -- get a list of thumbnail formats and their corresponding URLs
+
+** Download specific formats from YouTube
+- List formats with =yt-dlp -F <video URL>=
+- Download a specific format with =yt-dlp -f "<video format>+<audio format>" "<video URL>"=
+- To download 1080p videos preferentially over higher resolutions: =bestvideo[ext=webm][width=1080]+bestaudio[ext=webm]/bestvideo[ext=mp4][width=1080]+bestaudio[ext=m4a]/bestvideo[ext=webm][height=1080]+bestaudio[ext=webm]/bestvideo[ext=mp4][height=1080]+bestaudio[ext=m4a]/best[ext=mp4]=
+
+** Get the upload date for a YouTube video
+- =yt-dlp -j <video URL> | jq .upload_date | xargs -i date -d "{}" "+%a %b %e %Y"=
+
+** Get the list of video titles for a YouTube Channel
+- =yt-dlp --get-filename -o "%(title)s, https://www.youtube.com/watch?v=%(id)s" "<channel URL>"=
+
+** Download subtitles
+- List subtitle formats with: =yt-dlp --list-subs <video URL>=
+- Download subtitles with =yt-dlp --write-subs --sub-langs <language code> <video URL>=
+
+** Get list of videos from channel
+- Use =list-videos= tool
+
+** Config file location
+- =${XDG_CONFIG_HOME}/yt-dlp/config=
+
+** Prevent =yt-dlp= from setting the modified time of the video to the modified time header
+- In the config file, add =--no-mtime=
+
+** =yt-dlp= output formats
+https://github.com/yt-dlp/yt-dlp#output-template
+
+** Select the correct download format
+- In =~/.config/yt-dlp/config=:
+  #+begin_src text
+    -S "res:1080,res:720,res:480,res:360,ext:webm:mp4"
+    -f "bestvideo+bestaudio/best"
+  #+end_src
+- This tells =yt-dlp= to prefer 1080p, then 720p, then 480, and so on, preferring webm over mp4
+- This downloads high quality without using the slower m3u8 transfer protocol
+
+* =FFMPEG=
+
+** Add music to video with =ffmpeg=
+- =ffmpeg -i <video.mp4> -i <audio.mp3> -c copy -map 0:v:0 -map 1:a:0 -shortest output.mp4=
+- To add audio at a specific offset in the video:
+  - =ffmpeg -y -i <video.mp4> -itsoffset <video offset> -i <audio.mp3> -c copy -map 0:v:0 -map 1:a:0 -shortest output.mp4=
+    - Example: =ffmpeg -y -i ganesh_puja_2020.mp4 -itsoffset 00:01:30 -i ganesh_puja_2020_audio.mp4  -c copy -map 0:v:0 -map 1:a:0 -shortest output.mp4=
+
+** Add repeating music to a video with =ffmpeg=
+- =ffmpeg -i <video.mp4> -stream_loop -1 -i <audio.m4a> -shortest -map 0:v:0 -map 1:a:0 -c:v libx264 -c:a aac output.mp4=
+
+** Remove audio from video with =ffmpeg=
+- =ffmpeg -i <video.mp4> -c copy -an <output.mp4>=
+
+** Trim video with =ffmpeg=
+- =ffmpeg -ss <start timestamp> -to <end timestamp> -i <input> -c:a aac -c:v libx264 <output>.mp4=
+  - Note that the =-ss= and =-to= parameters have to come /before/ the input parameter
+
+** Extract audio from video
+=ffmpeg -i <input video> -vn -c:a aac <output>.aac=
+
+** Swap the order of audio streams with =ffmpeg=
+Sometimes videos have the a foreign language as the default audio stream, with English as a secondary stream. To swap the audio streams to make English the default:
+#+BEGIN_EXAMPLE
+  ffmpeg -i <input file> -map 0:v:0 -map 0:a:1 -map 0:a:0 -disposition:a:0 default -disposition:a:1 none -c copy <output file>
+#+END_EXAMPLE
+The order of the =-map= parameters determines the order of the streams in the output file
+
+** Downscale video
+- To downscale a 4K video to 1080p
+  #+begin_example
+    -vf scale=1920:1080 -crf 20
+  #+end_example
+
+** Reduce video frame rate
+- To reduce the frame rate to 60 FPS: =ffmpeg -i <input> -vf "fps​=60" -c:v "h264" -c:a "aac" <output>=
+
+** Increase compression ratio
+- =ffmpeg= uses the =-crf= flag to indicate the compression ratio that should be used
+- Higher =crf= values indicate more compression, at the expense of more artifacts and slower encoding
+- =-crf "18"= is considered high quality
+- =-crf "23"= is a compromise between size & quality
+- =-crf "28"= prioritizes file size over quality
+
+** Specify multiple video filters
+- To specify multiple videos filter, separate the filters with commas
+- For example, to downscale a video to 1080p and reduce its frame rate to 60 fps: =-vf "scale=1920:1080,fps=60"=
+
+** Concatenate videos
+#+begin_example
+  ffmpeg -i "<video_1>.mp4" -i "<video_2>.mp4" -i "<video_3>.mp4" -filter_complex "[0:0][0:1][1:0][1:1][2:0][2:1] concat=n=3:v=1:a=1 [v] [a1]" -vsync 2 -map "[v]" -map "[a1]" "<output>.mp4"
+#+end_example
+- Make sure that all input videos have identical resolutions
+- Make sure that all input videos are encoded as H264/AAC before concatenating
+- The =vsync= argument is *very important*
+
+*** To concatenate videos with a fade transition
+#+begin_src bash
+  ffmpeg -i "<video_1>.mp4" -i "<video_2>.mp4" -filter_complex "[0:v]fade=t=out:st=<start time in sec>:d=<duration in sec>[v1]; [1:v]fade=t=in:st=0:d=<duration in sec>[v2]; [v1][0:1][v2][1:1] concat=n=2:v=1:a=1 [vout] [aout]" -vsync 2 -map "[vout]" -map "[aout]" "<output>.mp4"
+#+end_src
+
+** Create a video from a still image and an audio file
+#+begin_src bash
+  ffmpeg -loop 1 -i "image.jpg" -i "music.aac" -shortest -acodec "aac" -vcodec "libx264" "output.mp4"
+#+end_src
+
+** Rotate video
+#+begin_src bash
+  ffmpeg -i <input video> -vf "transpose=1" -c:a aac -c:v libx264 <output video>.mp4
+#+end_src
+
+** Strip metadata from files
+- Pass =-map_metadata -1=
+
+** Get the duration of a video file
+#+begin_src bash
+  ffprobe -i <video file> -show_entries format=duration -v quiet -of csv​="p=0"
+#+end_src
+
+*** To sum the durations of all videos in a directory
+#+begin_src bash
+  total=0
+  for f in *.mp4; do
+      duration=$(ffprobe -show_entries format=duration -v quiet -of csv="p=0")
+      total=$(echo "$total + $duration" | bc)
+  done
+  echo "Total video length: $total seconds"
+#+end_src
+
+** Increase the volume of an audio file
+- =ffmpeg -i <input audio file> -filter:a "volume​=<multiplier>" <output_file>=
+
+** Build ffmpeg from source
+- Instructions for Ubuntu Linux
+- Install dependencies:
+  - =sudo apt update=
+  - =sudo apt install "build-essential" "git" "nasm" "yasm" "pkg-config" "libx264-dev" "libx265-dev" "libvpx-dev" "libfdk-aac-dev" "libmp3lame-dev" "libopus-dev" "libdav1d-dev" "libsvtav1enc-dev" "libaom-dev" "libass-dev" "libfreetype-dev" "libvorbis-dev" "libxvidcore-dev" "libva-dev" "libvdpau-dev" "libssl-dev" "zlib1g-dev" "libwebp-dev"=
+- Clone the ffmpeg repo: =git clone "https://git.ffmpeg.org/ffmpeg.git"=
+- In the repo, run the =configure= script: =./configure --prefix​="/usr/local" --enable-gpl --enable-nonfree --enable-libx264 --enable-libx265 --enable-libvpx --enable-libfdk-aac --enable-libmp3lame --enable-libopus --enable-libdav1d --enable-libsvtav1 --enable-libaom --enable-libass --enable-libfreetype --enable-libvorbis --enable-libxvid --enable-openssl --enable-vaapi --enable-vdpau=
+- Then run the build: =make -j$(nproc)=
+- Install: =sudo make install=
+- Fix dynamic links: =sudo ldconfig=
+
+* Don't require password for specific =sudo= commands
+- Add the following directive:
+  #+BEGIN_EXAMPLE
+    quanticle host = (root) NOPASSWD: <command>
+  #+END_EXAMPLE
+- Example:
+  #+BEGIN_EXAMPLE
+    quanticle host = (root) NOPASSWD: hwclock
+  #+END_EXAMPLE
+- If you want to really live on the edge and don't require passwords for /any/ =sudo= command:
+  #+BEGIN_EXAMPLE
+    quanticle ALL=(ALL) NOPASSWD: ALL
+  #+END_EXAMPLE
+
+* Diff directories
+- =diff -qr <dir1> <dir2>=
+- Alternatively, to just diff by name: =diff <(ls -1 <dir 1>) <(ls -1 <dir 2>)=
+
+* Better navigation with =pushd= and =popd=
+- =pushd= - like =cd= but puts the current directory onto the stack and navigates to the new directory
+- =popd= - pops the directory off the top of the stack and navigates there
+- To view the stack: =pushd +0=
+- To get a better view of the stack: =dirs -v=
+- To navigate to a particular directory in the stack: =pushd +<index>=
+
+* =find=
+
+** Limit recursion depth with =find=
+- =find -maxdepth <limit>=
+
+** Exclude =.= from =find=
+- =find -mindepth '1'=
+
+** Exclude directories from find
+- =find . \( -path ./<path> -prune -or -path ./<path> -prune -or ... \) -or <rest of find expression>=
+  - Use =-print= if there isn't another find expression (otherwise you'll have the list of excluded directories in the output)
+
+** Calculate total size of files and directories
+- =find -print0 | du --files0-from​=- -ch +=
+
+** Count lines in files
+For example, to count all the lines in org-mode files in my todo and notebook directories:
+=find "todo" "notebook" \( -path "./todo/.git" -prune -or -path "./notebook/.git" -prune \) -or -iname "*.org" -exec wc -l {} + | tail -n 1=
+
+* Show column number in GNU Nano
+- To enable from within the editor: =Alt-C=
+- To enable permanently, add the following to your =.nanorc=: =set constantshow=
+
+* cURL
+
+** Set output file name with =cURL=
+- =curl -o <filename> <url>=
+
+** Allow =cURL= to follow redirects
+- =curl -L=
+
+** Find the endpoint of a redirect with =cURL=
+- =curl -L -s -o /dev/null -w '%{url_effective}\n' '<url>'=
+- On Windows: =curl -Ls -o NUL -w "%{url_effective}" "<url>"=
+
+** cURL set user agent
+- Sometimes websites want a browser user agent
+- =curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"= sets the user agent to Firefox
+
+* Restart =GPG= Agent
+- Sometimes, after updates, the version of =gpg= will be newer than the running =gpg-agent=. To restart =gpg-agent=:
+  - =gpgconf --kill gpg-agent=
+  - Then run =gpg= or (=pass=), which will restart =gpg-agent= if it needs it
+
+* Set Terminal Title
+- To set the title: =echo -ne "\033]0;SOME TITLE HERE\007"=
+- To make this a bit easier, you can add the following function to your =~/.bashrc= (Ubuntu):
+  #+BEGIN_EXAMPLE
+    function title {
+        PS1="\[\e]0;$* \a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
+    }
+  #+END_EXAMPLE
+- On Fedora, it's a bit simpler
+  #+begin_src bash
+    function title {
+        PS1="\[\e]0;$*\a\][\u@\h \W]$ "
+    }
+  #+end_src
+
+* =tmux=
+
+** Set the prefix key to =C-g=
+In =.tmux.conf=:
+#+begin_example
+  unbind C-b
+  set-option -g prefix C-g
+  bind-key C-g send-prefix
+#+end_example
+
+The reason I use =C-g= as the =tmux= prefix is because =C-g= is mapped to quit command in emacs and GNU readline, and thus is less annoying to have to hit twice
+
+** Basic commands
+- To go to the next window: =<leader> n=
+- To go to the previous window: =<leader> p=
+- To go to a specific window: =<leader> <window number>=
+
+** Rename window
+- =<prefix> ,=
+
+** Disable automatic renaming
+- =set-option -g allow-rename off=
+
+** Reload the =tmux= configuration
+- =<prefix> := to bring up the prompt
+- =source-file ~/.tmux.conf= to reload the config
+
+** Disable clock in status bar
+- In =~/.tmux.conf=: =set -g status-right "#H"=
+
+** Get better colors for active and inactive tabs
+#+begin_example
+  set -g status-bg cyan
+  set -g window-status-style bg=yellow
+  set -g window-status-current-style bg=red,fg=white
+#+end_example
+
+** Scrollback
+- To interact with scrollback, hit =<leader> [= to enter scrollback mode
+- To leave scrollback mode: =C-c=
+- To copy snippets from scrollback
+  - =C-<SPC>= to enter highlight mode
+  - =C-w= to copy and leave scrollback mode
+- To paste: =<leader> ]=
+- =set -s copy-command 'wl-copy'= to synchronize tmux copies with the system clipboard
+
+** Get tmux to automatically renumber windows to keep them in sequential order
+#+begin_src conf
+  set-option -g renumber-windows on
+#+end_src
+
+** Move Window
+- To move a window: =<leader>: swap-window -t <target>= --- swaps the current window with the target
+- To move a window one to the left or one to the right
+  - =<leader>: swap-window -t +1= --- move one to the right
+  - =<leader>: swap-window -t -1= --- move one to the left
+  - We can bind these commands to hotkeys to make window swapping easier
+    #+begin_src conf
+      bind-key -n C-S-Left swap-window -t -1
+      bind-key -n C-S-Right swap-window -t +1
+    #+end_src
+
+** Jump to window using menu
+- =<leader> <number>= only works for windows with indices 0-9
+- To go to window 10, use =<leader> w= to jump to a window using a menu
+
+** Show time and hostname in tmux status bar
+#+begin_src conf
+  set -g status-right "%a %Y-%m-%d %l:%M %p #H
+#+end_src
+
+** Update the time display more frequently
+- By default tmux updates its status bar every 15 seconds
+- This can lead to tmux's clock getting out of sync with e.g. emacs
+- In order to fix this, you can tell tmux to update its status bar more frequently
+  #+begin_src conf
+    set -g status-interval 2
+  #+end_src
+- This tells tmux to update its status bar every 2 seconds
+
+* Check if reboot required
+- Look for =/var/run/reboot-required=
+
+* =gcal=
+
+** If =gcal= is printing its calendar in a weird format
+- List installed locales with =locale -a=
+- Update locale with =update-locale LANG\~\<locale>==
+  - =sudo update-locale LANG\~en<sub>US</sub>.utf8=
+
+** Display a 3-month view with =gcal=
+- =gcal .=
+
+* Date calculations
+- To compute date offsets: =date --date '<date> +/-<days>'=
+- On MacOS, use =gdate=
+- To get the current date and time in UTC, pass the =-u= flag to =date=
+- To convert a UTC date and time into a local datetime: =date -d "<datestamp> UTC"=
+
+* Remove colors from =ls=
+- Remove the alias: ~alias ls='ls --color=auto'~
+
+* Prevent SSH from freezing
+- In =.ssh/config=:
+  #+BEGIN_EXAMPLE
+    Host *
+        ServerAliveInterval 60
+        ServerAliveCountMax 2
+  #+END_EXAMPLE
+
+* Install LaTeX on Ubuntu 20.04
+- =sudo apt install texlive-full=
+
+* Make glob list hidden files
+- Bash: =shopt -s dotglob=
+- ZSH: =setopt GLOB_DOTS=
+
+* Verify that you're moving files into a directory
+- Use the =-t= option of =mv= and =cp= to specify a target directory
+
+* =mpv=
+
+** =mpv= controls
+- =.=: Frame step forwards
+- =,=: Frame step backwards
+- =Shift-Left=: Backwards 1 sec
+- =Shift-Right=: Forwards 1 sec
+- =Left=: Backwards 10 sec
+- =Right=: Forwards 10 sec
+- =Down=: Backwards 1 minute
+- =Up=: Forwards 1 minute
+- =Shift-Down=: Backwards by 5 secs
+- =Shift-Up=: Forwards by 5 secs
+- =f=: Full screen
+- =Esc=: Leave full screen
+- =Space=: Pause/Resume
+- =Right-Click=: Pause/Resume
+- =L=: Loop file
+- =#=: Cycle through audio tracks
+- Make the window 2x original size: =Alt-2=
+- Volume
+  - =0=: Increase volume
+  - =9=: Decrease volume
+
+** Start from a specific time
+- =mpv --start=<timestamp> <video>=
+
+** Specify a subtitle file
+- =mpv --sub-file=<subtitle file> <video>=
+
+** Hide subtitles by default
+- Add =no-sub-visibility= to =~/.config/mpv/config=
+
+** Hide title bar by default
+- Add =no-border= to =~/.config/mpv/config=
+
+** Start maximized by default
+- Add =window-maximized= to =~/.config/mpv/config=
+
+** Hide play/pause GUI controls
+- This hides the controls to prevent flicker when you move the mouse
+- Add =no-osc= to =~/.config/mpv/config=
+
+** Always save position
+- Add the following options to =~/.config/mpv/config=
+  - =save-position-on-quit=
+  - =ignore-path-in-watch-later-config=
+
+** Improve playback performance
+- Add the following options to =~/.config/mpv/config=
+  - =vo​=gpu-next=
+  - =hwdec​=vulkan=
+- This assumes that you've built and installed =mpv= from source
+
+** Don't show album art
+- Add =no-audio-display= to =~/.config/mpv/config=
+
+** Playlists
+- To create a playlist for =mpv=, create a =.m3u= file with each file in the playlist on a separate line
+- Next track =>=
+- Previous track =<=
+- =mpv='s state saving functionality does the right thing with regards to playlists; player will resume at the correct position in the correct track when playlist is restarted
+
+** Loop playlist
+- To loop an entire playlist, need to start =mpv= with the =--loop-playlist= parameter
+
+** Building
+- To build =mpv=
+  - Clone the =mpv-build= repo from: =git@github.com:mpv-player/mpv-build=
+  - =cd mpv-build=
+  - =./rebuild -j9=
+    - You'll have to install a bunch of libraries
+    - Create a file named =ffmpeg_options= with =--enable-libx264= to enable libx264 software encoding
+  - =sudo ./install=
+- The build script also downloads and builds the latest of =ffmpeg=
+- To use the version of =ffmpeg= downloaded by =mpv-build= add =~/mpv-build/ffmpeg_build= to the path
+- If =mpv= doesn't play video, look at 
+
+** Launch =mpv= without a progress bar on the terminal
+- Use the =--quiet= and =--really-quiet= options to suppress terminal output
+
+** Customize =mpv='s terminal status line
+- Adjust the =term-status-msg= option
+- For a simplified status line: =term-status-msg​="${playback-time} / {$duration:} (${percent-pos})=
+
+** Play a directory in track order
+- Use the =--ordered-chapters= flag to tell MP3 to use the ID3 track data to order its playback
+- This assumes that all the files are correctly tagged with ID3 info
+
+** Enable hardware decoding
+- =sudo dnf install --refresh intel-media-driver=
+- In =mpv=, hit =C-h= to enable hardware decoding
+- To enable hardware decoding by default
+
+** Save pause state
+- Add ~watch-later-options-append=pause~ to =~/.config/mpv/config=
+
+** MPV watch later directory
+- =~/.local/state/mpv/watch_later=
+- To determine which =watch_later= file corresponds to a given video file
+  #+begin_src bash
+    echo *<file glob>* | md5sum - | cut -d' ' -f1 | awk '{print toupper($0)}' | wl-copy -n
+  #+end_src
+
+* Generate a GUID
+- Linux/MacOS: =uuidgen=
+
+* Installing PyEnv on Ubuntu
+- Go into Gnome Terminal Preferences -> Profile -> Command and check "Run command as login shell"
+- Clone the =pyenv= repo: =git clone git@github.com:pyenv/pyenv.git pyenv=
+- =ln -s .pyenv pyenv=
+- Run the following:
+  #+BEGIN_EXAMPLE
+    # the sed invocation inserts the lines at the start of the file
+    # after any initial comment lines
+    sed -Ei -e '/^([^#]|$)/ {a \
+    export PYENV_ROOT="$HOME/.pyenv"
+    a \
+    export PATH="$PYENV_ROOT/bin:$PATH"
+    a \
+    ' -e ':a' -e '$!{n;ba};}' ~/.profile
+    echo 'eval "$(pyenv init --path)"' >>~/.profile
+    echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+  #+END_EXAMPLE
+- Restart the shell to pick up the environment variables
+
+* Preserve modification times and file attributes when copying
+- =cp -a=
+- To preserve just timestamps: =cp --preserve​=timestamps=
+
+* Install Gnome Shell Extensions without a browser plugin
+- Get the version of Gnome Shell with =gnome-shell --version=
+- Download the extension zip file from =https://extensions.gnome.org=
+- Get the extension's UUID with: =unzip -c ~/Downloads/<extension_name>.zip metadata.json | grep uuid | cut -d \" -f4=
+- Create the destination directory for the extension: =mkdir -p ~/.local/share/gnome-shell/extensions/<uuid>=
+- Unzip the extension into the directory you just created: =unzip -q <extension file>.zip -d <extension directory>=
+- Log out and log back in
+- Use the =Extensions= application to enable or disable the extension on the fly
+- Later versions of Gnome don't include the Extensions application by default
+- To install the extensions application: =flatpak install flathub org.gnome.Extensions=
+
+* Better Gnome Customization
+- Install the "Just Perfection" extension
+
+* Switch power profiles
+- =powerprofilesctl= - displays available profiles as well as the currently selected profile
+- =powerprofilesctl set <profile>= - set a profile
+- [[https://gitlab.freedesktop.org/hadess/power-profiles-daemon/-/issues/41][This issue]] -- the state jumping down to "Balanced" after a bit is a known issue
+  - Bug log
+    #+BEGIN_EXAMPLE
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.190: Transitioning active profile from 'balanced' to 'performance' by user request
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.190: Setting active profile 'performance' for reason 'user' (current: 'balanced')
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.195: Successfully switched to profile performance
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.205: /sys/firmware/acpi/platform_profile changed
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.205: ACPI performance_profile is now p, so profile is detected as performance
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.205: /sys/firmware/acpi/platform_profile changed
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.205: ACPI performance_profile is now p, so profile is detected as performance
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.205: /sys/firmware/acpi/platform_profile changed
+      ** (power-profiles-daemon:144585): DEBUG: 19:35:48.205: ACPI performance_profile is now p, so profile is detected as performance
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:22.515: /sys/firmware/acpi/platform_profile changed
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:22.515: ACPI performance_profile is now b, so profile is detected as balanced
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:22.516: Driver 'platform_profile' switched internally to profile 'balanced' (current: 'performance')
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:22.516: Setting active profile 'balanced' for reason 'internal' (current: 'performance')
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:22.516: Can't switch to balanced mode, already there
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:24.518: /sys/firmware/acpi/platform_profile changed
+      ** (power-profiles-daemon:144585): DEBUG: 19:36:24.518: ACPI performance_profile is now b, so profile is detected as balanced
+    #+END_EXAMPLE
+  - [[https://forums.lenovo.com/t5/Fedora/performance-profile-always-switches-back-to-balanced/m-p/5117824][Lenovo Forums thread on the issue]]
+  - Suggestion: Run =cat /sys/devices/platform/thinkpad_acpi/dytc_lapmode= and see if lap mode is causing it to switch back to balanced
+- To view debug messages from =powerprofilesctl=, run: =sudo G_MESSAGES_DEBUG=all /usr/libexec/power-profiles-daemon -r -v=
+
+* Install IntelliJ IDEA on Ubuntu
+- [[https://www.jetbrains.com/idea/download/#section=linux][Download IntelliJ]]
+- Extract the archive into a directory
+- Run =bin/idea.sh= to start IntelliJ
+
+* Install PyCharm on Ubuntu
+- [[https://www.jetbrains.com/pycharm/download/#section=linux][Download PyCharm]]
+- Extract the archive into a directory
+- Run =bin/pycharm.sh= to start PyCharm
+
+* Mount a USB drive
+
+** Add an entry to ~/etc/fstab~
+- Run =fdisk -l= to list drives
+- Use =blkid= to get the UUID of the drive
+- Add the following entry to =/etc/fstab=:
+  #+BEGIN_EXAMPLE
+    UUID=<drive UUID>  /media/quanticle/archive    exfat   user,noauto,rw,dmask=022,fmask=133 0 0
+  #+END_EXAMPLE
+- Then you can mount the drive with =mount /media/quanticle/archive=
+- Unmount with =umount /media/quanticle/archive=
+- Run =systemctl daemon-reload= to get systemd to pick up the changes to =fstab=
+
+** Use ~udisksctl~
+- To mount the thumbdrive in the same way that e.g. Gnome mounts it
+  - ~udisksctl mount -b <path to partition>~
+- This will automatically mount the block device under ~/run/media/quanticle/<volume ID>~ and output where the filesystem is mounted
+
+* Reformat a USB drive
+- First unmount the drive
+- Then use =lsblk= to identify the partition that you want format
+- =sudo mkfs.exfat /dev/<partition>=
+
+* Partition a USB Drive
+- Run =sudo parted -l= to list drives and partitions
+- =sudo parted <device>= to select a particular device to partition
+
+* Set the volume label of a USB drive
+- Use =lsblk= to find the partition of your USB drive
+- Use =blkid= to determine what kind of partition it is
+- Use =fatlabel= to set the volume label of the partition if the partition is FAT32
+- Use =exfatlabel= to set the volume label if the partition type is EXFAT
+
+* Check & repair the filesystem of an external drive
+- Make sure the drive isn't mounted
+- =fsck -t exfat UUID=<uuid>=
+
+* To determine the filesystem of an external drive
+=sudo lsblk -f=
+
+* Find a list of sub-directory sizes
+- =du -h | sort -rh=
+
+* Add a custom application launcher shortcut
+- Open the Files app
+- =touch <application_name>.desktop=
+- Add the following to the =.desktop= file
+  #+BEGIN_EXAMPLE
+    [Desktop Entry]
+    Encoding=UTF-8
+    Version=1.0
+    Type=Application
+    Terminal=false
+    Exec=<path to application>
+    Name=<name of application>
+    Icon=<path to icon>
+  #+END_EXAMPLE
+  - No spaces in application path or icon path
+- Run =desktop-file-validate <application_name>.desktop= to validate the desktop file
+- Run =desktop-file-install --dir=$HOME/.local/share/applications <application_name>.desktop= to install the =.desktop= file into the applications directory
+- Run =update-desktop-database $HOME/.local/share/applications= to update the desktop DB
+- Log out and log back in
+
+* =sed=
+
+** Add lines after match with =sed=
+- To add a blank line after a match, use the =a= command
+  #+begin_example
+    sed -i '/<pattern>/a\\' <file name>
+  #+end_example
+
+** Replace all instances of a regexp with =sed=
+#+begin_example
+  sed -i 's/<pattern>/<replacement>/g' <file>
+#+end_example
+
+** Print specific lines from a file
+
+#+begin_src bash
+  sed -n "<start>,<end>p; <end+1>q" "<filename>"
+#+end_src
+
+- So, for example, to print lines 500 to 505 (inclusive) from =application.log=:
+#+begin_src bash
+  sed -n "500,505p; 506q" "application.log"
+#+end_src
+- The purpose of the =<end+1>q= is to tell =sed= to stop processing the file after printing out the last desired line; this is a massive speedup on large files
+- Can combine this with =wl-copy -n= to directly copy lines from a log file into the clipboard
+
+* Make Ubuntu Lock Screen Clock 12 hours
+- Edit =/etc/gdm3/greeter.dconf-defaults=
+- Under =[org/gnome/desktop/interface]= add =clock-format​='12h'=
+
+* Streamlink
+
+** Configure player and fix lag
+- Edit =${HOME}/.config/streamlink/config=
+  #+begin_example
+    player=mpv --cache=yes --demuxer-max-bytes=8192
+    stream-segment-threads=4
+  #+end_example
+- To output stream data to a file while playing use the =-r <filename>= option
+
+** Disable ads and add authorization headers
+- Get the OAuth token for your account
+  #+begin_src javascript
+    document.cookie.split("; ").find(item => item.startsWith("auth-token="))?.split("=")[1]
+  #+end_src
+- Add the following to the config file
+  #+begin_src text
+    twitch-disable-ads
+    twitch-api-header=Authorization=OAuth <authorization token from above>
+  #+end_src
+
+** Install nightly build
+=pip install -U git+https://github.com/streamlink/streamlink.git=
+
+* Better touchpad Settings
+
+** Update Gnome touchpad settings with =gsettings=
+- Use =gsettings= to update =dconf= values
+- Touchpad settings live under the =org.gnome.desktop.peripherals.touchpad= schema
+- Set =tap-and-drag= =false=
+- Set =disable-while-typing= =false=
+- Set =tap-to-click= =false=
+- Set =tap-button-map= to ="lrm"=
+
+** Disable touchpad palm rejection
+- Need to update =libinput=
+- Install =libinput-tools= to get the =libinput= command line tool
+
+* Fix screen tearing
+- By default, Debian doesn't configure X.org properly
+- To configure X
+  - Close all applications
+  - Switch to a TTY
+  - =sudo /etc/init.d/lightdm stop=
+  - =cd /etc/X11/=
+  - =sudo Xorg -configure=
+- This will create a =xorg.conf.new= configuration file in =/root/=
+- =sudo cp /root/xorg.conf.new /etc/X11/xorg.conf=
+
+* Install fonts more efficiently
+- Install the =font-manager= application
+
+* Disable display of unmounted drives in dock
+- Go to Settings → Appearance → Configure Dock Behavior → Include Unmounted Volumes
+
+* VLC
+- Very short jump (1s): Shift-Left/Shift-Right
+- Short jump (10s): Alt-Left/Alt-Right
+- Medium jump (1m): Ctrl-Left/Ctrl-Right
+- Long Jump: (5m): Shift-Alt-Left/Shift-Alt-Right
+
+* Fix modified times of downloaded files from YouTube
+- Downloaded files from YouTube have their modified time set to the last modified date, not the uploaded date
+- To fix the modified time
+  - Get the upload date for the video with =yt-dlp -j <video URL> | jq .upload_date=
+  - Set the modified time of the video to the upload date with =find . -iname <video ID> -exec touch -t "${upload_date}0000"=
+- To fix the modified time of an entire directory of downloaded files
+  - Videos downloaded from YouTube have the ID in the file in one of two formats:
+    - Legacy =youtube-dl= files: =<video title>-<video ID>.extension=: =find . -iname '*​-???????????.*'=
+    - =yt-dlp= files: =<video title> [<video ID>].extension=: =find . -iname '*​\[???????????\].*'=
+- What I need to do is create a program that, given a filename, will look up the upload date from YouTube's API and set the mtime of the file to the upload date
+
+* Write =heredoc= to file
+
+=cat << EOF > file=
+
+* Mount a remote filesystem with =SSHFS=
+- Install =SSHFS= with =sudo apt install sshfs=
+- Mount the remote directory with =sshfs -o default_permissions 'quanticle@<remote_host>' 'mount_point'=
+- When finished, unmount the remote directory with =umount <mount point>=
+- Unfortunately, =SSHFS= filesystems mounted in WSL are not accessible through Windows Explorer
+
+* Run a command on a remote host with SSH
+- =ssh user@host 'command'=
+
+* Create a zip file
+- =zip <compressed_file>.zip <file_list>=
+- To zip a directory: =zip -r <compressed_file>.zip <directory>=
+
+* View The contents of a zip file
+- To view the contents of a zip file: =unzip -l <file>=
+
+* Set the range of special characters used by pass when generating passwords
+- Set the =PASSWORD_STORE_CHARACTER_SET= variable to a range of characters supported by =tr=
+- My setting: =[:alnum:]@+$!?=
+
+* Get tar to follow symbolic links
+- =-h=
+
+* =less=
+
+** Clear search highlighting
+- =Alt-u= toggles highlighting
+
+** Set default options
+- =less= looks for the =LESS= environment variable
+- So, for example, to set line numbers and case insensitive search: =export LESS​="-Ni"=
+
+** Reload file
+- To reload the file: =R=
+
+* Fedora Upgrades
+
+** Routine upgrades
+- =sudo dnf upgrade --refresh=
+- Unmount external drives
+- Reboot
+
+** Upgrading to a new release
+- =sudo dnf upgrade --refresh=
+- If not installed, install the =dnf= system upgrade plugin with: =sudo dnf install dnf-plugin-system-upgrade=
+- =sudo dnf system-upgrade download --releasever​=<release #>=
+  - May have to pass the =--allowerasing= flag if some packages have unsatisfied dependencies
+- Switch to a console =Ctrl-Alt-F3=
+- Run the upgrade with =sudo dnf system-upgrade reboot=
+- After the upgrade completes, remove retired packages
+  - =sudo dnf install remove-retired-packages= (only needs to be done once)
+  - =sudo remove-retired-packages=
+
+* Install New Fonts
+- Create a new folder for the font family: =sudo mkdir -p /usr​/local​/share​/fonts​/<font-family>​/=
+- Copy the OTF files into that folder
+- Set permissions and restore SELinux security labels
+  - =sudo chown -R root: /usr​/local​/share​/fonts​/<font-family>​/=
+  - =sudo chmod 644 /usr​/local​/share​/fonts​/<font-family>​/*=
+  - =sudo restorecon -RF /usr​/local​/share​/fonts​/<font-family>​/=
+- Rebuild the font cache with =sudo fc-cache -v=
+
+* NordVPN
+
+** Linux setup
+- =sh <(curl -s -S -f https://downloads.nordcdn.com/apps/linux/install.sh)=
+- =sudo usermod -a -G "nordvpn" "$USER"=
+- Reboot
+- =nordvpn login=
+- =nordvpn connect=
+
+** To connect to a specific country
+- =sudo nordvpn connect <country>=
+  - =nordvpn countries= lists available countries
+
+** To connect to a specific type of VPN server
+- =sudo nordvpn connect <group name>=
+  - =nordvpn groups= lists available groups
+
+* rsync
+
+** =rsync= a remote directory to local
+- =rsync -r -z --info=progress2 <user>@<remote host>:<directory path> <local path>=
+  - To make =rsync= follow symbolic links, add the =-L= flag
+- This is especially useful for repeated syncs, because =rsync= will only sync the changed files in the remote directory
+
+** Use rsync to copy with progress
+- =rsync -r -z -t --info​=progress2 <source path> <remote path>=
+- The =--info​=progress2= flag tells =rsync= to show information about the total transfer
+- =-t= tells rsync to preserve timestamps
+
+
+* Mullvad VPN
+
+** Linux Setup
+- Configure the Mullvad VPN repo: =sudo dnf config-manager --add-repo https://repository.mullvad.net/rpm/stable/mullvad.repo=
+- Install the Mullvad VPN app: =sudo dnf install mullvad-vpn=
+
+** Configure Relay Location
+- To list relays: =mullvad relay list=
+- To configure a relay by country & city: =mullvad relay set location <country> [city]=
+  - Countries are 2-letter codes
+  - Cities are 3-letter codes
+- Can also paste the name of a specific relay
+
+* Install Windows in =kvm= on Fedora
+
+** Set up =kvm=
+- =sudo dnf install --refresh @virtualization=
+- Install the secure boot tools with =sudo dnf install --refresh edk2-ovmf=
+
+** Set up the Windows VM
+- Download a Windows 11 ISO from: https://www.microsoft.com/software-download/windows11
+- Download the Windows 11 =virtio= drivers:
+  - Go to https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/
+  - Download the latest =virtio-win= ISO file
+- Launch =virt-manager=
+- Click the New VM button
+- Select "Local Install Media"
+- In the "Choose ISO or CD-ROM install media" box and input the path to the Windows 11 ISO and hit Enter to get it to detect that it is installing Windows 11
+- Hit Forward, stick with the default RAM and CPU settings
+- Hit Forward, stick with the default hard disk settings
+- Hit Forward, select "Customize configuration before install", and hit Finish
+- Under "Overview"
+  - Set the firmware to OVMF_CODE.secboot.fd
+  - Hit Apply
+- Under SATA Disk 1
+  - Disk bus → VirtIO
+  - Hit Apply
+- Click the "Add Hardware" button
+  - Select "Graphics"
+  - Type "VNC Server"
+  - Listen Type "Address"
+  - Address "Hypervisor Defaults"
+  - Port "Auto"
+- Go to "NIC"
+  - Set the device model to "VirtIO"
+  - Hit Apply
+- Add an additional CD-ROM driver for the VirtIO disk
+  - Hit "Add Hardware"
+  - Select "Storage" (at the top of the list)
+  - Set the device type to "CD-ROM"
+  - Under "Select or create custom storage", paste in the path to the VirtIO driver ISO
+  - Hit Finish
+- Go to "Boot Options"
+  - Make sure "SATA CD-ROM 1" is enabled and is at the top of the list
+  - Hit Apply
+- Hit "Begin Installation" in the top left
+
+* Install an older version of a package
+
+- View all versions of a package: =sudo dnf --showduplicates list <package name>=
+- Install a specific version of a package: =sudo dnf install --refresh <package name>-<package version>=
+
+* Compose Key
+- To enable the compose key, so you can type accents, degree symbols and other characters
+  - Settings → Keyboard → Compose Key
+  - Set it to Right-Alt
+- [[https://tuttle.github.io/python-useful/compose-key-cheat-sheet.html][Compose Key Cheatsheet]]
+
+* Get filename without extension
+- To strip a given extension from a filename: =basename -s <suffix> [file names]=
+
+* Bash for loop
+#+begin_src bash
+  for var in list
+  do
+  cmd $var
+  done
+#+end_src
+
+* Exclamation points in double-quoted strings
+- Interactive bash shells interpret words beginning with =!= as history entries to be interpolated into double-quoted strings
+- In order to allow the use of exclamation points in double-quoted strings, =set +H= to disable history expansion
+- To re-enable history expansion =set -H=
+
+* Disable Bash history
+- Add =unset HISTFILE= to the top of your =.bashrc= or =.bash_profile=
+- To clear existing history
+  - =history -c=
+  - =history -w=
+
+* ImageMagick
+
+** Resize images with =imagemagick=
+- To resize to a given width
+  #+begin_src bash
+    convert $INPUT_IMAGE -resize $WIDTH $OUTPUT_IMAGE
+  #+end_src
+- To resize to a given width and height while preserving aspect ratio
+  #+begin_src bash
+    convert $INPUT_IMAGE -resize ${WIDTH}x${HEIGHT} $OUTPUT_IMAGE
+  #+end_src
+
+** Convert image format
+- =magick <input> <output>=
+
+** Render a page from a PDF as JPEG
+- =magick -density <pixel density> <pdf_filename>[<page_number>] <output_name>.<output_format>=
+- Example: =magick -density 600 Poster.pdf[0] Poster.jpg=
+
+* Check IP address
+- [[https://whatismyipaddress.com/][What is my IP]]
+- [[https://iplocation.io/][IPLocation]]
+- To check the IP address of the machine itself (rather than the network): =ip addr=
+- To check the default gateway: =ip route=
+
+* HTTP server
+- To launch a simple HTTP server for local testing: =python -m http.server=
+
+* Apache Configuration
+
+** Enable CORS headers
+- Install and enable the Apache headers module
+  #+begin_src bash
+    sudo apt install libapache2-mod-headers
+    sudo a2enmod headers
+  #+end_src
+- Restart the server: =sudo service apache2 restart=
+- Enable cross-origin requests for a particular site
+  #+begin_src conf
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "https://wiki.quanticle.net"
+        Header set Access-Control-Allow-Methods "GET"
+        Header set Access-Control-Allow-Headers "Content-Type,Authorization,X-Requested-With"
+        Header set Access-Control-Allow-Credentials "true"
+    </IfModule>
+  #+end_src
+- Restart the server again: =sudo service apache2 restart=
+
+** Enable HTTP Basic Authentication
+- In the configuration file for your site (in the =sites-available= directory), ensure that in the =Directory= directive, =AllowOverride= is set
+  #+begin_src text
+    <Directory /var/www/quanticle.net>
+        Options -Indexes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require all granted
+    </Directory>
+  #+end_src
+- Then create the =.htpasswd= file
+  - Install the =apache2-utils= package if not installed
+  - =sudo htpasswd -c /etc/apache2/.htpasswd quanticle=
+- Then create the protected directory
+  - Create the directory under =/var/www/quanticle.net=
+  - Create a =.htaccess= file in the directory
+    #+begin_src text
+      AuthType Basic
+      AuthName "Private Directory"
+      AuthUserFile /etc/apache2/.htpasswd
+      Require valid-user
+    #+end_src
+
+* VMWare
+
+** License Key 
+=JM08N-AC31K-M88Q3-0U0RP-C5ENJ=
+
+** Prerequisites
+- Need to install =kernel-devel=
+
+** Kernel Modules
+- VMWare's built-in kernel modules are designed for an older version of Fedora
+- To get them to work on the current version of Fedora, you need to get the newest sources and recompile
+  - Clone the [[https://github.com/mkubecek/vmware-host-modules][vmware-host-modules]] repository
+  - Switch to the branch for the version of VMWare that you have (=workstation-17.5.1=)
+  - Run =make= and =sudo make install= to build and copy the kernel modules into the right location
+  - To sign the kernel modules so that they load on a SecureBoot enabled system
+    - Generate a new signing key: =openssl req -new -x509 -newkey rsa:2048 -keyout <filename>.priv -outform DER -out <filename>.der -nodes -days 36500 -subj "/CN=VMware/"=​, where =<filename>= is the name of the key file
+    - Sign the kernel modules with the following commands
+      - =sudo "/usr/src/kernels/$(uname -r)/scripts/sign-file" sha256 ./<filename>.priv ./<filename>.der $(modinfo -n vmmon)=
+      - =sudo "/usr/src/kernels/$(uname -r)/scripts/sign-file" sha256 ./<filename>.priv ./<filename>.der $(modinfo -n vmnet)=
+    - Import the key as a secureboot signing key with: =mokutil --import <filename>.der=
+    - Reboot
+
+* GPG
+
+** Encrypt A File
+- =gpg --encrypt --recipient <recipient e-mail address> -o <output_file_name> <input_file>=
+
+* List files sorted by track number
+#+begin_src bash
+  find . -iname "*.mp3" -exec ffprobe -v error -of "default=noprint_wrappers=1:nokey=1" -show_entries "format_tags=track" {} \; -exec echo {} \; | awk 'NR%2{printf $0 " ";next}1'
+#+end_src
+
+* List installed packages
+- =sudo dnf list --installed=
+- 
+
+* List RPM repositories
+- =sudo dnf repolist=
+
+* Determine if a filename has Unicode lookalikes
+- Echo the filename into =hexdump= and compare it against ASCII values
+
+* Get the full path name of a file name in the current directory
+- =readlink -f <filename>=
+- =realpath <filename>=
+
+* packagekit high CPU usage
+- =sudo systemctl restart packagekit.service=
+
+* Defragment an ext-4 filesystem
+- To check the fragmentation level of a filesystem: =sudo e4defrag -c <mount point>=
+
+* Fix tracker-miner-fs-3 hangs
+- Sometimes tracker-miner-fs-3 gets confused when a temp file or something disappears as it's trying to index it
+- To fix this, restart the daemon with =systemctl --user restart tracker-miner-fs-3=
+- [[https://gitlab.gnome.org/GNOME/tracker-miners/-/issues/345][Link to tracker-miner bug]]
+- To fix, add the following to =$HOME/.config/yt-dlp/conf=:
+  #+begin_src text
+    --path temp:/var/tmp/
+  #+end_src
+  - This forces =yt-dlp= to use =/var/tmp/= for its temp files, which prevents =tracker-miner-fs-3= from seeing them
+
+* View Logs with =journalctl=
+- =journalctl= is the replacement for files in =/var/log= and =dmesg=
+- =sudo journalctl= is the most basic command, which lists all the logs, but you probably don't want this
+- =sudo journalctl -r= lists logs in reverse order, putting the most recent entries at the top
+- =sudo journalctl -n <count>= lists the most recent =<count>= logs
+- =sudo journalctl -k= is the replacement for dmesg, showing only kernel messages
+- =sudo journalctl --follow= does =tail -f= like behavior for journalctl
+
+* Count CPU cores
+- To count the number of CPU cores (e.g. to use as a parameter for =make=) use =nproc=
+- E.g. =make -j $(nproc)=
+
+* List Loaded Kernel Modules
+=lsmod=
+
+* SELinux Error When Upgrading
+- If this error occurs when running =sudo dnf upgrade --refresh=: =error: libselinux: type 0: Regex version mismatch, expected: 10.42 2022-12-11 actual: 10.44 2024-06-07=
+- Run =sudo semodule -B= to rebuild the SELinux policy
+
+* Enable Logging for Proton Games
+- Add this to the =Launch Options=: =PROTON_LOG​=1 %command%=
+
+* Flatpak
+
+** Install Flathub
+- =flatpak remote-add --if-not-exists "flathub" "https://dl.flathub.org/repo/flathub.flatpakrepo"=
+
+** List applications
+- =flatpak list --app=
+
+** Run a Flatpak application from the command line
+- =flatpak run <application ID>=
+
+** Remove a Flatpak application
+- =flatpak uninstall <application ID>=
+- To remove application data as well: =flatpak uninstall --delete-data <application ID>=
+- To remove unused dependencies: =flatpak uninstall --unused=
+
+** Sandboxing
+- By default, Flatpak applications can't access most directories under =$HOME=
+- If you need to access a file with a Flatpak application, try copying the file to =$HOME/Downloads/=
+- To grant a Flatpak application access to another directory: =flatpak override --user --filesystem​=<directory> <app ID>=
+  - Need to restart the application
+
+
+* Nix
+
+** Install Nix
+- =sh <(curl -L https://nixos.org/nix/install) --daemon=
+- Create the following shell.nix file
+  #+begin_src nix
+    let
+      nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05";
+      pkgs = import nixpkgs { config = {}; overlays = []; };
+    in
+    pkgs.mkShellNoCC {
+      packages = with pkgs; [
+        ffmpeg
+        mpv
+        yt-dlp
+        streamlink
+      ];
+    }
+  #+end_src
+  - To find the stable release of NixOS for the package manager to use, go to https://status.nixos.org/
+- Run =nix-shell= to activate the Nix environment
+
+** Uninstall Nix
+- Remove the Nix daemon service
+  - =sudo systemctl stop nix-daemon.service=
+  - =sudo systemctl disable nix-daemon.socket nix-daemon.service=
+  - =sudo systemctl daemon-reload=
+- Remove Nix files
+  - =sudo rm -rf /etc/nix /etc/profile.d/nix.sh /etc/tmpfiles.d/nix-daemon.conf /nix ~root/.nix-channels ~root/.nix-defexpr ~root/.nix-profile=
+- Remove Nix users and groups
+  #+begin_src shell
+    for i in $(seq 1 32); do
+        sudo userdel nixbld$i
+    done
+    sudo groupdel nixbld
+  #+end_src
+- Check the following files for references to Nix
+  - =/etc/bash.bashrc=
+  - =/etc/bashrc=
+  - =/etc/profile=
+  - =/etc/zsh/zshrc=
+  - =/etc/zshrc=
+- Reboot
+
+* Scheduled tasks
+
+** Check Scheduled Tasks
+=sudo systemctl status <service>.timer=
+
+** List all scheduled tasks
+- =sudo systemctl list-timers= --- lists active scheduled tasks
+- =sudo systemctl list-timers --all= --- list all timers, including inactive ones
+
+** Inspect timer definitions
+- =sudo systemctl cat <timer definition>=
+
+* Install newer kernels on Debian
+- Set up [[https://backports.debian.org/Instructions/][Debian Backports]] by adding =backports.list= to =/etc/apt/sources.list.d/= with the following contents:
+  #+begin_src conf
+    deb https://deb.debian.org/debian bookworm-backports main
+  #+end_src
+- Run =sudo apt update=
+- To install a package from backports, run =sudo apt install <package>/stable-backports=
+- Debian kernel packages are =linux-image-<version>=
+- So, for example, to look for Kernel 6.10, search for =linux-image-6.10
+
+* Disable Keyboard Shortcuts Not Listed In Gnome Settings
+- To disable the hidden =super-p= shortcut:
+  - =gsettings set org.gnome.mutter.keybindings switch-monitor '[]'=
+- To disable the hidden =super-.= shortcut, run =ibus-setup= and go to the =emoji= tab
+
+* Get SMART information for hard drives
+- Use =lsblk= to list block devices
+- Use =smartctl -a /dev/<device>= to get SMART information for that particular device
+
+* Screen Recording Using OBS Studio
+- Launch OBS Studio
+- Click on the =+= at the bottom of the =Sources= box
+- Add a =Window Capture= source
+- Create a new window capture and give it a name
+- Select the window you wish to record
+- Once ready, click =Start Recording= on the right side of the OBS interface
+- When finished, click =Stop Recording=
+
+* Sum a list of numbers on the command line
+Assuming the list is separated by newlines:
+#+begin_src bash
+  <list of numbers> | paste -sd+ | bc
+#+end_src
+
+* Get all PIDs matching a regexp
+- =ps aux | grep <regexp> | awk '{print $2}'=
+- To exclude the grep command itself from the output, put the first letter of the regexp in square brackets, e.g. =[f]irefox=
+
+* Kill all processes matching a regular expression
+- =ps aux | grep <process name> | grep -v grep | awk '{print $2}' | xargs kill=
+- Alternatively, GNU =killall= supports regular expressions: =killall -r <regex>=
+
+* Pipe =stderr= and =stdout= to another command
+- =<command> 2>&1 | <other command>=
+
+* Disable blinking cursor in Gnome terminal
+- =Settings - Profiles - Default Profile - Text - Cursor blinking= - set to =Disabled=
+
+* Spell checking
+- Default spell checker: =/usr/bin/enchant2=
+- User wordlist located in =$HOME/.config/enchant/en_US.dic=
+
+* Disable sleep/suspend on lid close
+- Add the the following to =/etc/systemd/logind.conf=
+  #+begin_src conf
+    [Login]
+    HandleLidSwitch=ignore
+    HandleLidSwitchExternalPower=ignore
+  #+end_src
+- Then reboot
+
+* View the memory usage for all processes:
+- =ps -eo "pid,comm,rss" --sort​=rss | grep <process name>= 
+  - =-e= selects all processes
+  - =-o= selects the fields to display
+  - =--sort​=rss= sorts the output by amount of resident memory
+
+* Copy text from the command line into the clipboard
+- If running X11: =xclip=
+- If running Wayland: =wl-copy= & =wl-paste=
+
+* Google Public DNS
+** IPv4
+- =8.8.8.8=
+- =8.8.4.4=
+
+** IPv6
+- =2001:4860:4860::8888=
+- =2001:4860:4860::8844=
+
+** DNS over HTTPS
+- https://dns.google/dns-query
+
+* Flush DNS cache
+- =sudo resolvectl flush-caches=
+- Verify that the cache has been flushed with: =sudo resolvectl statistics=
+- Current cache size should be =0=
+
+* Containers
+
+- To install the Incus container manager: =sudo dnf install incus=
+- I don't actually need Incus; I can just use the =lxc= command line tools
+- Install the LXC command line tools with
+  - =sudo dnf install lxc=
+  - =sudo dnf install lxc-templates=
+  - =sudo dnf install dnsmasq=
+- Then, configure networking for the container
+  - In =/etc/sysconfig/lxc=
+  - =USE_LXC_BRIDGE​="true"=
+- In a root terminal
+  - =lxc-create --name "ubuntu_container" --template "download" -- --dist "ubuntu" --release "noble" --arch "amd64"=
+  - To start the container: =lxc-start --name "ubuntu_container"=
+  - Need to start the network bridge with =systemctl start lxc-net=
+- Getting an error message: 
+  #+begin_example
+    lxc-start: ubuntu_container: ../src/lxc/conf.c: turn_into_dependent_mounts: 3459 No such file or directory - Failed to recursively turn old root mount tree into dependent mount. Continuing...
+    lxc-start: ubuntu_container: ../src/lxc/cgroups/cgfsng.c: cg_legacy_set_data: 3385 No such file or directory - Failed to setup limits for the "devices" controller. The controller seems to be unused by "cgfsng" cgroup driver or not enabled on the cgroup hierarchy
+    lxc-start: ubuntu_container: ../src/lxc/cgroups/cgfsng.c: cgfsng_setup_limits_legacy: 3452 No such file or directory - Failed to set "devices.deny" to "a"
+    lxc-start: ubuntu_container: ../src/lxc/start.c: lxc_spawn: 1905 Failed to setup legacy device cgroup controller limits
+    lxc-start: ubuntu_container: ../src/lxc/start.c: __lxc_start: 2119 Failed to spawn container "ubuntu_container"
+    lxc-start: ubuntu_container: ../src/lxc/tools/lxc_start.c: lxc_start_main: 307 The container failed to start
+    lxc-start: ubuntu_container: ../src/lxc/tools/lxc_start.c: lxc_start_main: 312 Additional information can be obtained by setting the --logfile and --logpriority options
+  #+end_example
+- Try disabling SELinux: =sudo setenforce 0=
+- Didn't help
+- To launch the container with more debugging information:
+  #+begin_src bash
+    lxc-start -n "ubuntu_container" -F -l "DEBUG" --logfile="/var/tmp/ubuntu_container.log"
+  #+end_src
+- To launch the container with even more debugging information
+  #+begin_src bash
+    lxc-start -n "ubuntu_container" -F -l "INFO" --logfile="/var/tmp/ubuntu_container.log"
+  #+end_src
+- Try configuring the container to use cgroups v2
+  - In =/var/lib/lxc/ubuntu_container/config=, add the following lines
+    #+begin_example
+      lxc.cgroup2.devices.allow = a
+      lxc.cgroup2.devices.deny =
+    #+end_example
+- Now I'm getting a different error message
+  #+begin_example
+    lxc-start ubuntu_container 20250807222310.809 ERROR    conf - ../src/lxc/conf.c:lxc_transient_proc:3353 - No such file or directory - Failed to mount temporary procfs
+    lxc-start ubuntu_container 20250807222310.809 ERROR    conf - ../src/lxc/conf.c:bind_mount_console:1753 - No such file or directory - Failed to open "/dev/pts/7"
+    lxc-start ubuntu_container 20250807222310.809 ERROR    conf - ../src/lxc/conf.c:lxc_setup_dev_console:1807 - No such file or directory - Failed to mount "10(/dev/pts/7)" on "26"
+    lxc-start ubuntu_container 20250807222310.809 ERROR    conf - ../src/lxc/conf.c:lxc_setup_console:1963 - No such file or directory - Failed to setup console
+    lxc-start ubuntu_container 20250807222310.809 ERROR    conf - ../src/lxc/conf.c:lxc_setup:3982 - Failed to setup console
+    lxc-start ubuntu_container 20250807222310.809 ERROR    start - ../src/lxc/start.c:do_start:1273 - Failed to setup container "ubuntu_container"
+    lxc-start ubuntu_container 20250807222310.809 ERROR    sync - ../src/lxc/sync.c:sync_wait:34 - An error occurred in another process (expected sequence number 4)
+    lxc-start ubuntu_container 20250807222310.810 ERROR    lxccontainer - ../src/lxc/lxccontainer.c:wait_on_daemonized_start:837 - Received container state "ABORTING" instead of "RUNNING"
+    lxc-start ubuntu_container 20250807222310.810 ERROR    lxc_start - ../src/lxc/tools/lxc_start.c:lxc_start_main:307 - The container failed to start
+    lxc-start ubuntu_container 20250807222310.810 ERROR    lxc_start - ../src/lxc/tools/lxc_start.c:lxc_start_main:310 - To get more details, run the container in foreground mode
+    lxc-start ubuntu_container 20250807222310.810 ERROR    lxc_start - ../src/lxc/tools/lxc_start.c:lxc_start_main:312 - Additional information can be obtained by setting the --logfile and --logpriority options
+    lxc-start ubuntu_container 20250807222310.810 ERROR    start - ../src/lxc/start.c:__lxc_start:2119 - Failed to spawn container "ubuntu_container"
+  #+end_example
+- I can try to use =systemd= to allocate a console:
+  #+begin_src bash
+    systemd-run --uid=0 --gid=0 --pty --same-dir --wait --collect --scope -p "Delegate=yes" -- lxc-start -n -F -l "DEBUG" --logfile="/var/tmp/ubuntu_container.log" --logpriority=9
+  #+end_src
+- Another thing to check is the permissions of the container's root filesystem
+  - =/var/lib/lxc/ubuntu_container=
+  - =/var/lib/lxc/ubuntu_container/rootfs/dev=
+- Let's try removing the container and recreating it
+  - To delete a LXC container: =lxc-destroy ubuntu_container=
+- Try setting
+  #+begin_example
+    lxc.cgroup.devices.allow =
+    lxc.cgroup.devices.deny =
+    lxc.init.cmd /sbin/init systemd.unified_cgroup_hierarchy=1
+  #+end_example
+- This fixes the =cfsng= messages, but I'm still getting an error:
+  #+begin_example
+    lxc-start ubuntu_container 20250808134637.585 ERROR    conf - ../src/lxc/conf.c:lxc_transient_proc:3353 - No such file or directory - Failed to mount temporary procfs
+  #+end_example
+- Try adding
+  #+begin_example
+    lxc.mount.auto = proc:rw sys:rw
+  #+end_example
+  to the config?
+- Adding that got rid of the =Failed to mount temporary procfs= error, but I'm still getting
+  #+begin_example
+    lxc-start ubuntu_container 20250808135120.787 ERROR    conf - ../src/lxc/conf.c:bind_mount_console:1753 - No such file or directory - Failed to open "/dev/pts/7"
+  #+end_example
+- What if I add =devpts= to the =lxc.mount.auto= list
+  #+begin_example
+    lxc.mount.auto = proc:rw sys:rw devpts:rw
+  #+end_example
+- This doesn't work
+  #+begin_example
+    lxc-start ubuntu_container 20250808141341.340 ERROR    confile - ../src/lxc/confile.c:set_config_mount_auto:2381 - Invalid argument - Invalid filesystem to automount "devpts:rw"
+  #+end_example
+
+* Make a bootable USB stick from an ISO
+- =dd bs​=8M if​=<input ISO> of​=<output device> oflag​=direct status​=progress=
+
+* Install NodeJS
+- First set up [[https://github.com/nvm-sh/nvm?tab=readme-ov-file][NVM]]: =curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh" | bash=
+- Activate NVM with: =\. "$HOME/.nvm/nvm.sh"=
+- Install NodeJS 24 (LTS) with: =nvm install 24=
+- Verify NodeJS version with =node -v=
+- Verify NPM version with: =npm -v=
+- Reboot
+- Now all shells should come with NodeJS version 24 by default
+
+* Disable the lighting effects on Razer mice
+- Install the OpenRazer kernel driver
+  - =sudo add-apt-repository ppa:openrazer/stable=
+  - =sudo apt update=
+  - =sudo apt install openrazer-meta=
+- Install a front-end app to control lighting
+  - =sudo add-apt-repository ppa:polychromatic/stable=
+  - =sudo apt update=
+  - =sudo apt install polychromatic=
+
+* Get the size of a directory excluding =.git=
+- =du -hs --exclude​=".git"=
+
+* Get Linux distro version information
+- Run =lsb_release -a= to see information about which distro and version is installed
+
+* Analyze disk usage on the command line
+- To easily analyze disk usage, use the =ncdu= tool
+- =sudo apt install ncdu=
+
+* Access files on an Android device
+- Connect the Android device via USB
+- Configure the the Android device for USB file sharing
+- Use =gio mount -l= to verify that the Android device has been mounted
+- Go to =/run/user/$UID/gvfs/=
+- The Android device will be mounted as something like ='mtp:host=Google_Pixel_9a_4A251JEBF19625'=
+- After you're finished, unmount the device with =gio mount -u "mtp://Google_Pixel_9a_4A251JEBF19625"=
+
+* List all snap packages
+- To list all installed snap package: =snap list=
+
+* Configure journald limits to save disk space
+- =journald= config file: =/etc/systemd/journald.conf.d/cleanup.conf=
+- Configure the following limits:
+  #+begin_src conf
+    [Journal]
+    SystemMaxUse=500M
+    MaxRetentionSec=1month
+  #+end_src
+- Restart =journald= with =systemctl restart systemd-journald=
+
+* HTTP Only site
+- https://neverssl.com

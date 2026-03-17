@@ -1,0 +1,95 @@
+#+TITLE: YouTube Subscriptions
+
+* History
+
+- [[https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA][Primitive Technology]]
+- [[https://www.youtube.com/@BattleshipSystems][Battleship Technology]]
+- [[https://www.youtube.com/@Defunctland][Defunctland]]
+- [[https://www.youtube.com/@JennyNicholson][Jenny Nicholson]]
+
+* Firearms
+- [[https://www.youtube.com/@britishmuzzleloaders][British Muzzle Loaders]]
+- [[https://www.youtube.com/@BrandonHerrera][Brandon Herrera]]
+- [[https://www.youtube.com/@ForgottenWeapons][Forgotten Weapons]]
+- [[https://www.youtube.com/@Candrsenal][C&Rsenal]]
+- [[https://www.youtube.com/@InrangeTv][InRange TV]]
+- [[https://www.youtube.com/@RoyalArmouriesMuseum][Royal Armouries]]
+- [[https://www.youtube.com/@Type56_Ordnance_Dept][Type 56: The Story of China's Army]]
+
+* Cars and Motorsport
+
+- [[https://www.youtube.com/user/nismotv2013][The Race]]
+  - [[https://www.youtube.com/@TheRacePodcasts][The Race Podcasts]]
+- [[https://www.youtube.com/channel/UCwuDqQjo53xnxWKRVfw_41w][Carfection]]
+- [[https://www.youtube.com/channel/UChiwLDIBJrV5SxqdixMHmQA][DriveTribe]]
+- [[https://www.youtube.com/c/jaylenosgarage][Jay Leno's Garage]]
+- [[https://www.youtube.com/channel/UCcidF1lygZPegIz7kgX8COw][24 Hours of Le Mans]]
+- [[https://www.youtube.com/channel/UC58em84jwiyM20qR-iqBDZw][IMSA]]
+- [[https://www.youtube.com/@wrc][World Rally Championship]]
+
+* Science and Technology
+
+- [[https://www.youtube.com/channel/UCFhXFikryT4aFcLkLw2LBLA][NileRed]]
+- [[https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q][Technology Connections]]
+- [[https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA][ClickSpring]]
+- [[https://www.youtube.com/@InheritanceMachining][Inheritance Machining]]
+- [[https://www.youtube.com/@BadObsessionMotorsport][Bad Obsession Motorsport]]
+- [[https://www.youtube.com/@karakurist][Karakurist]]
+- [[https://www.youtube.com/c/ClickspringClips][ClickSpring Clips]]
+- [[https://www.youtube.com/channel/UC1D3yD4wlPMico0dss264XA][NileBlue]]
+- [[https://www.youtube.com/channel/UC6IxnFzHofFJ5X2PycSMsww][XKCD What If]]
+- [[https://www.youtube.com/@lockpickinglawyer][LockPickingLawyer]]
+- [[https://www.youtube.com/@Alexander-the-ok][AlexanderTheOk]]
+- [[https://www.youtube.com/@styropyro][Styropyro]]
+- [[https://www.youtube.com/@sciencechannel][The Science Channel]]
+- [[https://www.youtube.com/@tested][Adam Savage's Tested]]
+
+* Video Games
+
+- [[https://www.youtube.com/channel/UCQD3awTLw9i8Xzh85FKsuJA][Soviet Womble]]
+- [[https://www.youtube.com/channel/UC7lK8qHqm21bv2jW6TKdNKA][RalfiDude]]
+- [[https://www.youtube.com/c/Arlios/][Arlios]]
+- [[https://www.youtube.com/channel/UCaxar6TBM-94_ezoS00fLkA][Day9]]
+- [[https://www.youtube.com/user/CubeWatermelon/][Mary Cagle]]
+- Penny Arcade
+  - [[https://www.youtube.com/@pennyarcadeTV][Penny Arcade TV]]
+  - [[https://www.youtube.com/@acquisitionsincorporated][Acquisitions Incorporated]]
+
+* VTubers
+
+** HoloLive
+
+- +[[https://www.youtube.com/channel/UCyl1z3jo3XHR1riLFKG5UAg][Amelia Watson]]+ (retired)
+- +[[https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g][Gawr Gura]]+ (retired)
+- [[https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg][Ninomae Ina'nis]]
+- [[https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww][Takanashi Kiara]]
+- [[https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg][Calliope Mori]]
+- +[[https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA][Nanashi Mumei]]+ (retired)
+- +[[https://www.youtube.com/@CeresFauna][Ceres Fauna]]+ (retired)
+- [[https://www.youtube.com/@OuroKronii][Ouro Kronii]]
+- [[https://www.youtube.com/@HakosBaelz][Hakos Baelz]]
+- [[https://www.youtube.com/@IRyS][IRyS]]
+- [[https://www.youtube.com/@KosekiBijou][Koseki Bijou]]
+- [[https://www.youtube.com/@NerissaRavencroft][Nerissa Ravencroft]]
+- [[https://www.youtube.com/@holoen_raorapanthera][Raora Panthera]]
+- [[https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q][Inugami Korone]]
+- [[https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A][Hoshimachi Suisei]]
+- [[https://www.youtube.com/channel/UCYtia5cQdXSWH7GLMWxo9UQ][JShay's Translations]]
+
+** Indie
+
+- [[https://www.youtube.com/channel/UC5mDUYeeao-PBuPntaypo1A][Melony Pepon]]
+- +[[https://www.youtube.com/@PomuRainpuff][Pomu Rainpuff]]+ (retired)
+- [[https://www.youtube.com/@dooby3d][Dooby]]
+- [[https://www.youtube.com/@SamekoSaba][Sameko Saba]]
+- [[https://www.youtube.com/@niminightmare][Nimi Nightmare]]
+- [[https://www.youtube.com/@mintfantome][Mint Fantome]]
+- [[https://www.youtube.com/@Dokibird][Dokibird]]
+- [[https://www.youtube.com/@AmanogawaShiina][Amanogawa Shiina]]
+
+* Random Stuff
+
+- [[https://www.youtube.com/@ProZD][ProZD]]
+- [[https://www.youtube.com/@ellecordova][Elle Cordova]]
+- [[https://www.youtube.com/@OfficialWKUK][Whitest Kids You Know]]
+- [[https://www.youtube.com/@programmersarealsohuman5909][Kai Lentit]]

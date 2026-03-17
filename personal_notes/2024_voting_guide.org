@@ -1,0 +1,51 @@
+#+TITLE: 2024 Voting Guide
+#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-preamble:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://www.quanticle.net/website_style.css" />
+
+* Federal Offices
+
+** US President
+- Kamala Harris & Tim Walz
+
+** US Senator
+- Amy Klobuchar
+
+** United States Representative
+- Kelly Morrison
+
+* State Offices
+
+** State Representative
+- Ned Carroll
+
+* Constitutional Amendment
+- Environmental and natural resources trust fund renewal --- Yes
+
+* County Offices
+
+** County Commissioner Ward 7
+- Kevin Anderson 
+
+* City Offices
+
+** Plymouth City Council At Large
+- Kraig Urquhart
+
+** Ward 1
+- Shine Mahi
+
+* Judicial Offices
+
+** Supreme Court
+- Chief Justice: Natalie Hudson
+- Associate Justice 6: Karl Procaccini
+- Associate Justice 5: Anne McKeig
+
+** Court of Appeals
+- Diane B. Bratvold
+
+** 4th District Court
+- Matthew Frank

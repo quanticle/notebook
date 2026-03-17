@@ -1,0 +1,777 @@
+#+OPTIONS: H:6 toc:6
+#+TITLE: The Allure Of Battle
+
+** Introduction
+
+- Military history seems very easy
+- History is decided by the outcomes of war
+- The outcomes of wars are decided by the outcomes of battles
+- In recent years, there has been a reaction against this war-centric approach, with historians focusing on longer terms social, political and economic trends
+- But wars matter
+- Historically societies have devoted more resources towards preparing for and making war than they have towards any other activity
+- Deep social and economic trends are often unleashed or altered by the effort needed to make war
+- The outcomes of war does have great effects on the fates of nations
+- But are wars decided by battles?
+- Wars are more often decided by exhaustion of morale and materiel than they are by the outcome of any particular battle
+- Wars are decisive when they secure some kind of long-term advantage for a nation
+- Many "decisive" battles have been won by the side that went on to lose the war
+  - Cannae (Hannibal)
+  - Ulm and Austerlitz (Napoleon)
+  - Kiev (Hitler)
+- A truly decisive battle is a singular victory or defeat that creates lasting strategic change, ultimately leading to a decision in the war
+- In other words, for a battle to be decisive, it has to translate directly into long-term political change
+- This is rare!
+- In a protracted war, winning any single battle is highly unlikely to bring about a decision in the war
+- Results and efforts are measured in years, if not decades
+- Many leaders in history have not recognized this, and have continued to seek a singular decisive battle that will secure a long-term outcome in their favor for good
+- If battles are rarely decisive, why does the idea of a decisive battle persist?
+- Battles, and the stories we tell about battle are theater on the grandest scale
+- Even though we profess to be horrified by the carnage of battle, we glorify battlefield victories when we win and memorialize losses when we lose
+- We glorify societies which raise mass armies and send them off to fight in wars about which the average soldier knows little
+- World War 2 is especially susceptible to this
+  - Seen as a morality play
+- The reason the study war has been dominated by the study of battle is because we have a desire for the suffering endured in battle to be meaningful
+- However, if we are to understand how wars are won, we must understand war without fixating on individual battles, and the tactics and maneuvers used in those battles
+- This fixation on batttle isn't just a problem for historians
+  - Planners in aggressive but weaker states have often convinced themselves and their leadres that a singular decisive battle is all that is necessary to prevail over an opponent with greater reserves of manpower and materiel
+  - By 1914 the illusion of short wars decided by decisive battles was universal
+- However, most wars are decided by attrition and loss of political will
+- This is not a moral judgement, but a factual one
+- Regardless of the intents of the participants, most Great Power wars devolve into attrition
+- Few battles have more than localized tactical effects
+- Another reason we venerate battle is because battles seem to offer a mechanism by which individual geniuses can alter the fates of nations
+- "Decisive" battles allow us to tell a story about a singular genius who was able to see through uncertainty and make a choice that echoed through history
+- There are no war heroes without decisive battles
+- However, it is a very rare case over the past 300 years where we can say that the outcome of a single battle led to a radical shift in outcome
+- On the other hand, we often see attritional warfare as stupid and wasteful
+- Military leaders try to return to maneuver warfare because it offers them a sense of having control over the outcome
+- One of the consequences of our focus on battle is an emphasis on offense over defense
+- Yet defense has just as much influence (if not more) as offense on the conduct of war
+- When we do acknowledge the influence of defense, we often characterize it as a failure of offensive skill --- attackers weren't skilled enough to overcome the defensive preparations of their adversaries
+- However, defensive preparations tend to involve less individual genius and aren't conducive to the same type of storytelling
+- The idea that wars can be won through carefully prepared defenses is a foreign one (/especially in the US military/)
+- Though many wars have been decided by attrition, there are exceptions
+  - Austro-Prussian war
+  - Franco-Prussian war
+- However, these exceptions led Germany into a strategic cul-de-sac
+- Convinced a generation of German planners that decisive battles could overcome material deficiencies
+- Convinced Germany that it could win World War 1
+- This book focuses on the gap between our idealized view of generalship and battle and the attritional reality of war
+- The fact that not all wars are won by attrition, and that sometimes battles do have decisive effects explains the allure of battle
+- Battles succeed in affecting the outcomes of wars just enough to convince states to gamble on them
+- However, in wars between Great Powers, quick victories are rarely decisive
+- The defeated foe still has enough economic and manpower reserves to raise a new army and come back in the next season
+- The book seeks to show how defense has dominated offense throughout the history of war in Europe
+  - Fixed stone defenses remain dominant well into the 18th century
+  - Only see a return to large-scale maneuver warfare with Napoleon
+  - However, this attempt to conduct maneuver warfare is actually disastrous for France, as Britain and Russia successfully draw France into attritional fights
+- Despite Napoleon's ultimate defeat, his battle-worship was emulated by future generations
+- Napoleonic battle-worship appeared to show an escape from the attritional reality of war
+- Allowed nations to pretend that superior leadership and tactics could overcome economic shortcomings
+- Especially alluring for weaker states
+- This battle worship appeared to be validated by the German wars of unification
+- However the German wars of unification were highly exceptional
+  - Imperial powers that may have opposed German unification were distracted by overseas crises
+  - Careful diplomacy by Bismark prevented the formation of an anti-German coalition
+- Instead of fixating on the Germans wars of unification, European planners should have been paying attention to the American Civil War
+  - Indecisive but bloody battles
+  - Conflict decided in favor of the side that had superior logistical and industrial capacity
+  - Nascent beginnings of trench warfare
+  - Impact of naval blockades and sea power
+- Indeed Moltke himself warned that his era of "cabinet wars" was already ending
+
+** Chapter 1: Battle In History
+
+- A widespread belief has persisted over the past 2000 years that the fates of nations could be reduced to the outcomes of one or two battles
+- However, the view of battles as the soul of war is a misrepresentation
+- Even in the ancient world, there were many examples of protracted campaigns and long sieges
+- One reason we emphasize battles is because Herodotus, the first historian, emphasized battles
+- Herodotus' argument was that Hellenic society was saved from Persian invasion by the outcomes of a few battles, such as Marathon, Thermopylae, Salamis and Platea
+- Which specific battle should be viewed as decisive was a controversial question
+  - Herodotus himself favored Platea
+  - However, Athens argued that its victory at Marathon was more important
+- Although battles could be decisive in the ancient world, given the relative lack of resources of the small city-states, even by the time of the Persian invasion, the importance of individual battles was fading
+- By the time of Alexander, great battles are better thought of as the culminating points of long campaigns rather than decision points in and of themselves
+- /I think Nolan misses an opportunity here to discuss the Pelponnesian War, and how individual battles there didn't actually matter very much to the long-term outcome of the war/
+- This long-term strategic competition carried over into the Roman era
+  - The First Punic War lasted 23 years and ended with the exhaustion of both Rome and Carthage
+  - The Second Punic War starts with Hannibal invading Italy via Gaul
+  - Hannibal wins huge victories at Trebia and Lake Trasimene
+  - Annihilates a Roman army at Cannae
+  - However, none of these defeats, costly as they were, were decisive
+  - Rome raised fresh legions, and pursued a campaign of harassment and delay, led by Quintus Fabius Maximus
+  - The two Scipios and the Roman fleet isolated Hannibal from resupply
+  - Then Scipio Africanus led a Roman fleet into North Africa and waged war on the Carthaginian homeland
+  - This led to Hannibal suffering his first major defeat, at Zama
+  - Even today, scholars argue that if all else had been equal, Hannibal was the superior general and might have won at Zama
+  - This misses the point of the Roman strategy, which was to ensure that all else was as unequal as possible
+- The advantage of Hannibal's generalship did not translate into long-term strategic advantage
+- /This is like the South in the US Civil War --- better generals, but fewer resources/
+- Although Hannibal was defeated, this has not stopped generations of military planners from positing that a Cannae-like envelopment, if carried out on a large enough scale, could win a war
+- The Punic Wars were far from the only long-term attritional conflict fought by Rome
+  - Caesar's conquest of Gaul was as much a showcase of Roman logistics as it was of Caesar's own military skills
+  - Rome fought a number of indecisive battles against Germanic tribes
+  - Although Rome suffered a large defeat at Teutoburger Wald, that hardly destroyed the Roman ability to make war in that region
+- Roman legions fought a lot of battles and lost almost as many as they won
+- Rome's strength was not the tactical genius of its generals, but rather its ability to recover and keep fighting after losing battles
+  - Superior social organization
+  - Deep logistical capacity (e.g. road network, navy)
+  - Well trained army
+  - War ethos among social elite
+  - Alliances
+- The fall of Rome has more to do with it losing the ability to recover from defeats than from any specific defeat
+- The fall of Rome had been thought to usher in a "dark age" for military strategy
+  - Medieval war was seen as petty local nobles fighting small battles for petty local reasons
+  - Although individual warriors may have been highly skilled, the medieval era seemed to lack the great generals of Rome
+  - Armies were seen as disorganized rabble, compared with the discipline of Roman legions
+  - Most wars were a series of sieges, without any real innovative tactical maneuvers by either side
+- As a result, many histories covering the "Western Way of War" skipped over the medieval period almost entirely
+- Historians struggle to find any kind of decisive battle in the early Medieval era
+- One possible example was the battle of Tours-Poitiers
+  - Charles Martel led a Frankish army against invading Moorish cavalry
+  - Actual battle was little more than a skirmish
+  - However, later historians and leaders vastly overestimated the importance of Tours in stopping the march of Islam into Europe
+  - Even Hitler argued for the importance of Tours, though he held that the outcome of Tours was a tragedy as he viewed Islam as a more martial religion than Christianity
+- The fascination with Tours illustrates our craving for finding singular explanations for the outcomes of wars
+- In fact, the relative lack of field battles in the Medieval era illustrates the sophistication of commanders of that era
+  - Medieval society was more fragmented than the Roman empire
+  - Medieval states did not have the deep reserves of gold and manpower that Roman society did
+  - Siege warfare was less risky and more profitable
+  - Likewise cavalry raids known as chevauchees were a way to make war in a "self-sustaining" fashion
+  - Raids would loot the land, reducing the economy of the enemy while taking surplus for the raider
+- But doesn't the relative fragmentation of medieval society reflect a decline compared to Roman society?
+  - Fragmentation can be better understood as a response to technological change
+  - Greater knowledge of stoneworking led to the creation of widespread motte-and-bailey castles
+  - These castles were good at resisting attack from barbarian tribes beyond the borders of the Roman empire, but they were equally good at resisting Roman legions
+- This proliferation of castles and the difficulty of conquering them by force led to weak royalties which had difficulty raising large armies
+- War had to be made profitable, as nobles couldn't be compelled to join the royal cause
+- The embrace of sieges and raids was a reflection of the constraints that medieval leaders were operating in, rather than a reflection of their incompetence compared to Roman leaders
+- Towards the 14th century, there was a shift towards greater use of infantry
+  - This "infantry revolution" was enabled by advances in technology and tactics
+    - Improved crossbows
+    - Early firearms
+    - Combination of these powerful, but slow-firing ranged weapons with troops armed with pikes or halberds to protect them from cavalry charges
+  - New weapons were unusable on horseback, which gave infantry the advantage
+- The return to infantry formations increased the size of armies and led to a revival of interest in drill and formations
+- /Therefore, the increased interest in Roman and Greek infantry tactics during the Renaissance is reflective of a resurgence in the importance of infantry/
+- This transition towards infantry starts in the 1300s
+  - Battle of the Golden Spurs --- Dutch heavy infantry defeat French cavalry
+  - Battle of Bannockburn --- Scottish infantry defeat English cavalry
+  - Crecy --- English infantry defeat French cavalry
+- The infantry revolution marks the heyday of the Swiss mercenaries, whose pike and crossbow squares were largely undefeated for almost 200 years
+
+*** My thoughts
+
+- Chapter 1 covers the ancient/classical world through the late-Medieval
+- Argues that even in the ancient world, wars were largely decided by a long-term struggle between societies, where the ability to recover from defeat mattered more than securing great victories
+- The fixation that we have on "decisive" battles is an artifact of the obsession that early historians had with finding monocausal decision points upon which the fate of nations hung
+- By the time of the Roman Republic, individual battles don't matter very much
+  - Hannibal wins many "decisive" battles but loses the war
+  - Rome wins by constantly coming back for more, no matter how many losses it has taken
+  - Rome eventually loses when declining economic power and internal political unrest make it no longer able to sustain huge losses and keep coming back for more
+- Although early medieval armies are portrayed as a step back from Roman military discipline and sophistication, they were actually a logical response to changing social and technological conditions
+- Improvements in infantry weapons lead to a renewed interest in open battle
+- This, in turn, leads to a rekindling of interest in older Roman tactics, which are once again relevant now that infantry can once again stand against cavalry
+
+** Chapter 2: Battle Retarded
+
+- The Hundred Years War (1337 - 1453) highlights both the medieval avoidance of battle and some of the infantry innovations of the early Renaissance
+- Marked the end of the sword and bow era and the beginning of the gunpowder era
+- England dominated the war at first, using tactics that it had used to conquer Scotland
+- However, France was able to preserve its war-making capacity, rebuild its armies, and develop new strategies, which led it to eventual victory against the English
+- The English, hampered by economic and political crises at home, were eventually driven from the continent
+- The most important factor in the eventual French victory was their reorganization of national elites along more "national" terms
+- The origin of the Hundred Years War was due to complex overlapping claims of vassalage, law, and sovereign right
+- Sustained by desire for land and loot
+- English warlord-kings waged a sustained campaign to destroy the wealth of the Valois monarchy
+- Initial English success stemmed from their ability to force the French to meet them in open battle, even though the English tactic of having dismounted knights backed by longbows was superior
+- However, the majority of the war was not open-field combat, but instead was repeated campaigns of siege and chevauchee
+- The nadir for the French came in 1356, when King Jean II was captured and held for ransom
+- This was followed by a decade of anarchy, where English raiders and roving Flemish mercenaries rampaged across the French countryside
+- In 1369, Charles V reorganized the French nobility and started the pattern of campaigns that would lead to eventual French victory
+  - Don't meet the English in open battle
+  - Pursue a methodical series of sieges that clear the countryside of allied castles for the English to retreat to
+- Although the English would still win tactical victories, most notably at Agincourt in 1415 and Harfleur in 1416, they were unable to retake their fortresses from the French, and thus the threat of English chevauchees lessened
+- Although we remember and celebrate the English victories at Crecy, Poitiers and Agincourt, French victories at Formigny and Castillon had greater impacts on the outcome of the war
+- English organization ossified
+  - "Victory disease"
+  - English dominance early in the war meant that the English monarchs didn't realize that they needed to change their tactics to respond to French innovation
+  - English lords in France didn't adapt to French siege tactics, which meant that every year, the English could raid less and less of the French countryside
+- French started using early gunpowder cannon before the English
+  - Cannon were the answer to English longbows
+  - At Formigny, when English longbowmen formed up as they had at Agincourt, the French blasted them with enfilading cannon fire
+- But why was it the French who were able to adopt cannon, and not the English
+  - French monarchs reformed their tax system
+  - Funded the development of cannons, even though they were developed by commoners (such as the Bureau brothers), rather than nobility
+- The Hundred Years War shows that treasuries and tax offices are just as vital to winning wars as soldiers on battlefields
+- Cemented the emergence of France as an early modern state
+  - French military was the first to professionalize
+  - French centralized tax and military infrastructure meant that France was the first state where the nobility could no longer militarily check the king
+  - /Shows how war can drive deep social changes/
+  - /Would France have the early level of centralization if French monarchs didn't need to mobilize their entire society to meet the English threat?/
+- Meanwhile, the Ottomans were driving home the lesson of gunpowder on the other side of the continent
+  - Ottoman army led by Mehmed II beseiged Constantinople
+  - Used brand new gunpowder siege cannon to breach multi-layered defenses that had stood for a thousand years
+  - Cannons and sappers were used to create many small holes in the walls, which allowed raiding parties in
+  - Raiding parties overwhelmed defenders by simultaneously attacking from multiple angles
+- The twin triumphs of France and the Ottomans in 1453 confirmed to many that the old Medieval stone fortifications were thoroughly obsolete in the face of new gunpowder cannons
+- 1453 represents a transition year between Medieval and early Renaissance
+- The need to rebuild fortifications, develop and manufacture cannon, and manufacture gunpowder and shot led to greater centralization and the erosion of power for the nobility
+- /The key difference between modern states and medieval states is that modern states have a monopoly on violence/
+- /In medieval states, nobles commanded their own private military forces that were equal, if not superior to that of the king/
+- /In modern states, no noble or free city can challenge the military forces of the king/
+- Furthermore, the lack of a Crusade in response to the Ottoman capture of Constantinople meant that military power was beginning to be considered a secular force
+  - /I don't think this is as clear cut a transition as Nolan claims/
+  - /I think the real transition to secular military authority occurs after the wars of religion/
+- Over time, the Ottoman empire was recharacterized as a secular threat --- was treated as Great Power rival like Austria or Prussia
+
+*** My Thoughts
+
+- This chapter focuses on the Hundred Years War and how medieval combat transitioned to early-modern
+- Neither the Hundred Years War nor the attack on Constantinople was decided by anything like a single decisive battle
+- Although the English won the opening stages of the Hundred Years War, the superior staying power of the French guaranteed them eventual victory
+- Superior French economic capability and political centralization enabled them to make effective use of new technology
+- This centralization was a self-reinforcing cycle
+- Centralized states holds a monopoly on cannon and other new weapons, which allows it to centralize more
+- Like the Carthaginians, the English won many tactical victories, but ultimately lost the war because they underinvested in state capacity
+
+** Chapter 3: Battle Remembered
+
+- The new gunpowder cannon led to a new form of fortification, the /trace italienne/ or bastion fort
+  - Walls designed as a set of arrow-shaped points in order to allow defenders to fire at the flanks of attackers
+  - Low, heavy walls designed to support cannons and also be resistant to cannon fire
+  - Low walls are easier to scale, but defensive cannon and outer trenches make it difficult for approaching infantry to get close enough to the walls to scale them
+- Although these new forts made it even more expensive to launch infantry attacks on fortified towns, there were still plenty of commanders willing to do so
+- This ongoing emphasis on siege warfare frustrated Italian military and political thinkers, most notably Machiavelli
+- They venerated the Roman ideal of open battle over "degenerate" medieval siegecraft
+- Ironically, the Roman military text most admired by Machiavelli, De Rei Militaris actually advises against giving battle, implying that open battle is a last resort to be used when other strategems have been exhausted
+- Machiavelli was especially caustic towards the condotierri --- Italian mercenary companies that fought for the city-states
+  - Felt that the ideal military was a citizen militia, operating on a Roman model
+  - Admired the Swiss mercenaries, whom he thought fought with more honor than the Italians
+  - Saw a rebirth of Roman infantry phalanxes in the Swiss /Haufen/ infantry formation
+- Machiavelli was the first to realize that a state's legitimacy relies on its ability to survive
+- Survival, in turn, depends on the ability to win wars
+- Italian ideas on diplomacy and fortification design flowed north into France and the Holy Roman Empire
+- Coming south were the armies of the great powers
+- The Swiss dominance of infantry combat was fleeting but interesting
+  - Started with the Swiss-Burgundian war (1474-1477)
+  - Duke of Burgundy sought to conquer Switzerland in order to unify his holdings
+  - At Herricourt, Grandson, Mores and Nancy, the Swiss inflicted a series of defeats that destroyed the Burgundian state
+  - /This seems to be an exception to the book's thesis because this war did not turn into a long attritional conflict/
+  - /The Swiss inflicted a series of defeats on Burgundy and managed to secure a long period of dominance over Northern Italy/
+  - Well trained Swiss infantry fought in square formations that were difficult to break with cavalry
+- The Swiss dominance ended with the Battle of Marignano (1515)
+  - Swiss infantry squares were met by German landsknect, who fought in the same style
+  - Landsknect had artillery and cavalry support
+  - Dug trenches to minimize the shock of Swiss infantry charges
+  - Over two bloody days the Franco-Germany army of Francis I defeated the Swiss infantry squares
+  - Forced the Swiss to sign the Perpetual Peace which kept the Swiss from fighting the French until Napoleon invaded Switzerland
+  - /This also seems to challenge the thesis of the book/
+  - /Marignano appears to be a textbook example of a single battle securing a long-term political settlement/
+  - /Maybe it doesn't count because Switzerland doesn't count as a Great Power?/
+  - /But it was Marignano that forced Switzerland out of Great Power status/
+- /I don't get it/
+  - /On the one hand, Nolan is saying that the new Italian fort designs prefented battle-seeking for 200 years (i.e. until the 1600s)/
+  - /On the other hand, here we have a bunch of battles in the 1500s that were quite clearly decisive/
+  - /Are these just exceptions that will be cited by later planners when they blunder into attritional wars?/
+- At this time, in the north, there were a series of wars that marked the decline of Sweden as a Great Power and the rise of Russia
+  - First Northern War (1588 - 1583)
+    - Fought by a combination of Poland-Lithuania, Muscovy (not yet Russia), Sweden, and Denmark
+    - Fought over Livonia (the territory that is now Estonia and Latvia), and control of the Baltic
+    - /No power was able to impose a decisive victory/
+    - /Instead they fought in varying shifting alliances until all sides lost the capacity to fight/
+  - The First Northern War was followed by a number of other wars as Denmark, Poland, Sweden and Russia sought to resolve questions of territory and dynastic succession
+    - Smolensk War (1632-1634)
+    - Torstensson's War (1643 - 1645)
+    - Second Northern War (1655 - 1660)
+    - Thirteen Year's War (1654 - 1667)
+      - /Was this contemporaneous with the Second Northern War?/
+    - Scanian War (1674 - 1679)
+    - Great Northern War (1700 - 1721)
+- /The reason we've never heard of any of these wars is because they took place during the great wars of religion in Western Europe/
+- /These Northern Wars support Nolan's thesis --- no real decisive battles/
+- /Even the wars themselves weren't all that decisive, as all the sides would replenish their armies and start fighting again within a relatively short period of time/
+- /The whole sequence of wars ends when Sweden is finally broken, and is replaced in the ranks of the Great Powers by Russia/
+- The above wars, although never explicitly about religion, were infused with religious hostility, as Sweden, Denmark, Poland and Russia were all associated with different Christian sects
+- /What I find frustrating here is the fact that Nolan doesn't go into why Sweden was the loser of this sequence of wars/
+  - /What did Russia do to win?/
+  - /What reforms did Sweden fail to undertake that ensured that it would fall behind Russia/
+- While all these wars were going on, France was beset by civil war between Catholics and Huguenots
+- Philip II of Spain launched a decades-long crusade to stop a Protestant revolution in the United Provinces (Netherlands)
+- Philip relied more on faith than planning
+- /One thing I don't understand is that the Netherlands are on France's northern border, while Spain is on France's southern border/
+- /How did Philip's armies reach the Netherlands?/
+- Far from single-mindedly focusing on conquering the recalcitrant provinces, Philip fought battles against the Ottoman Empire and Barbary Pirates as well
+- 1571 --- A mixed Spanish/Venetian fleet vanquishes an Ottoman fleet in the Battle of Lepanto, the last major battle fought between galleys
+  - Ottomans are defeated and lose a significant number of men and ships
+  - /Lepanto seems like a decisive battle, because it reduced Ottoman naval power for a long time/
+- In 1588, Philip II sends an armada to the Netherlands to transport the Army of Flanders across the English channel to reconvert England back to Catholicism
+  - This was a disaster
+  - Spanish galleons were attacked in port by specially designed English fireships
+  - Unfavorable winds swept the armada into the North Sea, forcing it to sail the long way around, through the Irish Sea, in order to reach England
+  - As it made this long voyage, the armada disintegrated due to storms and poor seamanship, putting an end to Philip's hopes of conquering England
+- At its peak, Spain under Philip II was a superpower
+  - /Stronger than any two of its nearest rivals/
+  - /Economy supercharged by gold flowing in from the New World/
+- However, Philip's lack of focus and constant interventions rapidly sapped Spain's military and economic power
+- Meanwhile, the Dutch were able to use their growing naval power, overseas empire, and advantages in commerce to sustain a long defensive war against the Spaniards
+- The Spanish war against the Dutch eventually merged into the Thirty Years War, and the United Provinces finally gained permanent independence in 1648
+- The Thirty Years War (1618-1648) was the climax of religious conflict in Europe
+- Marked the transition to a modern, secular international system
+- The person who most affected the outcome of the Thirty Years War was Cardinal Richelieu
+- Despite his position as a cardinal in the Catholic Church, Richelieu's loyalty was to France, as the first minister to King Louis XIII
+- The outcome of the Thirty Years War, the Peace of Westphalia, removed religion from the realm of international relations, and made war a secular affair
+- States would still go to war, but would do so for "Machiavellian" reasons, rather than religious ones
+
+*** My Thoughts
+
+- This chapter covers the Renaissance up until the Thirty Years War
+- Defense still dominates over offense
+- Swiss infantry manage to win some wars, but they're rapidly countered by German landsknect
+- I wish Nolan would talk more about how there were actually some decisive battles fought by the Swiss and how those battles influenced war and battle seeking in the 17th century
+- We also have a bunch of wars in the north, fought between Sweden, Russia, Denmark, and Poland-Lithuania, which don't really result in any kind of decisive settlement
+- One thing I wish Nolan would cover more is whether religious wars involved more battle-seeking
+- This chapter overall reads like a generic section out of a European history textbook --- not sure why it was included in the book
+
+** Chapter 4: Battle Reformed
+
+- The effect of the ever-increasing logistical needs of early gunpowder armies and artillery fortresses was ever more centralization of military power
+- Aristocracy and free cities were not able to retain the position as alternate centers of military power
+- The increasing expense of war limited those who could make war, but also ensured that those who could had increasingly well-trained and and well-organized militaries
+- Armies had to expand, both to fight other armies and to lay siege to larger and better defended /trace italienne/ fortresses
+  - At the start of the Dutch revolution, an army of 30,000 was considered large
+  - By the end of the Thirty Years War, states were routinely fielding armies of 100,000
+- Some scholars argued that the twin innovations of the gunpowder army and the artillery fortress led to a "revolution in military affairs" (RMA)
+  - There is an argument that the RMA led to Europe's success as a colonial power
+  - Gunpowder and artillery forced larger, better coordinated, more powerful armies
+  - Larger armies were supported by more efficient state bureaucracies
+  - When these armies were sent abroad, they were exceedingly effective against the less well developed armies of Asia, especially in India and China
+  - India and China had muskets, but they did not have substantial artillery
+  - Asian armies proved wholly inadequate to the task of conquering European style geometric fortresses, allowing European countries to maintain persistent footholds from which to expand political and military power
+- However, there are several problems with the RMA hypothesis
+  - The style of combat described by the RMA hypothesis was limited to Western Europe --- in Eastern Europe, due to long distances and terrain, cavalry continued to reign supreme
+  - Cossacks and Ottomans were very successful during this period despite not maintaining fortress towns and, as a result, not having infantry heavy armies to lay sieges
+  - RMA hypothesis is excessively technologically deterministic
+    - Did military adoption of firearms drive the state changes that made armies more effective?
+    - Or were more effective armies a necessary precondition to the adoption of firearms?
+  - The process described by the RMA took several hundred years to complete --- is it really a "revolution" when it takes that long?
+- A reasonable interpretation is that there was a symbiotic set of changes
+  - Gunpowder enabled larger armies with proportionally fewer highly trained soldiers
+  - This increased participation enabled larger armies
+  - Larger armies created larger bureaucracies
+  - Bureaucracies were able to fund further weapons development and organizational changes to create even larger armies with yet more powerful weapons
+- One of the key innovations increasing firepower in this era was /volley fire/
+- Volley fire is an example of organizational changes interacting with technology
+  - The key limitation of early muskets was that they were slow to load --- 2 shots per minute was considered a good fire rate for trained soldiers
+  - The only way that musket-armed soldiers could hold off an infantry charge was with volley fire
+    - Soldiers assemble in ranks
+    - Front rank fires, then countermarches to the rear to reload
+    - Second rank moves up with muskets ready to fire
+  - Developed in the Netherlands in 1594 by Willem Lodewijk
+  - Required exceptionally well disciplined units to carry out precise maneuvers in the face of enemy fire
+  - The improvement in firepower granted to Dutch infantry by volley fire was key in their successful defense against Spain
+- /German​/Swiss infantry squares → Spanish tercios (early musket troops) → Dutch volley fire/
+- /This is how we go from medieval cavalry to early-modern musket infantry/
+- The Swedish improved on the Dutch model by having double volleys
+  - Organized their troops into six ranks
+  - Front rank prone, second rank kneeling, third rank standing
+  - First three ranks fire at once, then countermarch to the rear together, allowing the other three ranks to form up and fire
+  - /This improves firepower substantially, but requires even finer drill and discipline/
+- While some scholars at the time saw musket volleys as a reinvention of Roman javelin volleys, there's little evidence to suggest a connection between the two
+- Instead, it seems that musket volleys were discovered through a process of trial-and-error, coupled with lighter weight muskets that could be loaded and fired by a single person
+- The Ottomans and the Japanese discovered volley fire independently of the Dutch
+- The 16th century continued the trend of rare field battles
+- Increased size of field armies made campaigns indistinguishable from a constant hunt for provisions
+- Need to forage for supplies, combined with lack of experience with large armies made sophisticated maneuvers impossible
+- Armies had to keep moving, otherwise they'd strip their locations of food and firewood
+- Armies often passed by one another, due the aforementioned need to keep moving along with relatively poor reconnaissance technologies
+  - /Brett Deveraux covers this in one of his posts/
+  - /People, especially people who've played strategy games, drastically underestimate how informed commanders were about the disposition of enemy troops/
+  - /It was routine for armies to pass like ships in the night, because by the time a commander learns that an enemy army is nearby, that army may already have moved on/
+- Wars continued to be carried as a procession of sieges, with months or even years passing between field battles
+- Even large victories in the field wouldn't displace the majority of enemy troops that were safely ensconced in artillery fortresses
+- Over time however, ad hoc supply systems were developed and formalized
+  - Sutlers (large merchants) would go out to meet armies with wagons or barges of supplies, as they recognized that a hungry army paid from a king's treasury was a good selling opportunity
+  - Since armies would often traverse the same invasion routes repeatedly, these sutlers would establish fixed trading posts along these routes for armies to buy supplies
+  - Sutlers often entered into partnerships with mercenary companies
+- Sutlers, however, could only be relied upon when an army was on friendly territory
+- In enemy territory, armies relied on forced levies and taxation
+  - /Kotributionen/
+  - Originated as a lawful tax
+  - Became "an impost levied under the threat of indiscriminate mass violence"
+  - If the Kontributionen was not paid, villages were burned and hostages were executed
+  - In exchange, for taking a Kontributionen, armies prohibited their soldiers from foraging, and instead paid soldiers from a central treasury so that they could buy food
+  - This tax-and-pay system ensured that funds would flow back into the local economy, making merchants more willing to sell to the occupying army
+  - Only marginally better than outright looting, but worked well enough that it was adopted by all participants in the Thirty Years War
+- The disadvantage of the levy system is that it made generals financially independent of the kings they were nominally loyal to
+- In 1634, Emperor Ferdinand II of the Holy Roman Empire dismissed one of his best generals, Albrecht von Wallenstein, because Wallenstein was acting too independently
+- When Wallenstein refused to go, Ferdinand II was forced to hire assassins to kill Wallenstein
+- From 1635 onwards, the armies of the Holy Roman Empire were paid with a centralized tax voted upon by the Diet
+- Enforced generals' accountability to the Emperor at the cost of making the Emperor more accountable to the Diet
+- After 1648, taxes imposed during wartime were retained to support standing armies
+- The careers of two generals, Maurits of Nassau and Gustavus Adolphus illustrate the evolution of tactics during the Thirty Years War
+- Maurits standardized the volley and countermarch tactics introduced by Willem Lodewijk
+  - In addition, he introduced standardized musket patterns and artillery bores to simplify training and logistics
+  - Standardized gun carriages to make artillery easier to move
+- Maurits' use of interior lines provided by the Lek, Maas, Rhine and Waal rivers enabled him to rapidly move artillery between battlefields
+- Maurits was the first to make digging trenches part of soldiering --- prior to this trenches and gun pits had been dug by camp followers
+- Although Maurits knew he had better infantry than the Spaniards, and sought battle, he did not often receive open battles
+- As a result, Maurits is well known for his sieges
+- Took a large number of fortresses by combining devastating artillery barrages with relatively generous terms of surrender
+- Fought only one field battle in 9 years, despite implementing all the infantry innovations above
+- Gustavus Adolphus took Maurits' tactics and applied them to a more open maneuver-friendly battlefield in central Europe
+- Thinned infantry formations by deploying in brigades rather than squares to improve offensive firepower as a cost in defense while repositioning
+- Reduced weight and size of cannon and standardized bores and powder charges
+- This enabled Gustavus Adolphus to use cannon as infantry support weapons
+  - Reduced weight → greater numbers and mobility
+  - Standardized bores & powder charges → improved fire rate
+  - Gustavus' cannon often had faster fire rates than his infantry
+- Gustavus also understood the psychological impact of shock
+  - Used musket volley fire, cannon fire and cavalry charges in concert to stun enemy forces
+  - Early combined arms
+  - Positioned artillery in front of infantry
+    - Gave both artillery and infantry better fields of fire
+    - Enabled by faster firing smaller cannon, which could hold their own against cavalry
+  - Switched to light cavalry with lances and sabers, without armor
+- The Swedish double-volley system improved both the offensive and defensive capabilities for his infantry
+  - Improved rate of fire
+  - Roughly half of the formation has muskets loaded and ready at any given time so can redeploy to meet new threats
+- Gustavus' greatest flaw was his personal recklessness
+  - Insisted on leading from the front
+  - Was often wounded leading cavalry charges
+  - Killed while leading a cavalry charge at Lützen in 1632
+- Gustavus' campaign started when he and his army landed at Peenemünde in 1630
+  - Army of 14000 men and 80 field guns, along with some larger siege cannon
+  - Light on infantry and heavy on artillery
+  - Recruited German mercenaries to make up for the infantry shortfall
+- Reliance on mercenaries meant that Gustavus was more dependent on levies from conquered territory to sustain his army --- this is a key weakness that his opponents would exploit
+- Initially he moved beyond Pomerania and secured towns in North Germany in order to gain resources and establish a buffer
+- Recruited a significant number of Protestant soldiers and drilled them in the Swedish way of fighting during the winter of 1630-31
+- In 1631, Gustavus was forced to move by logistical issues
+  - /As stated above, this is a common theme with armies during this time period/
+  - Attacked Brandenburg to force its leader into the war on the Protestant side
+  - Took the fortresses at Custrin and Spandau
+  - This secured the North German rivers for Gustavus, making it easier for him to shift his forces around
+  - On April 13, Gustavus took the fortress at Frankfurt an der Oder
+- Was not able to prevent the sack of Magdeburg on May 20, 1631, led by the Catholic Count von Tilly
+- Was able to clear North Germany of Catholic forces as well as forcing Saxony into the war on the Protestant side
+- This set the stage for the first battle between Gustavus' Swedes and the army of the Catholic League, led by Tilly
+- On August 22 1631 Gustavus blocked the road north at Werben with 16000 troops
+- Between August 22 and 28, Tilly attacked twice with obsolete tercio formations which were defeated by Swedish field guns and musket volleys
+- Tilly lost 6000 soldiers, but was able to retreat into Saxony, threatening Gustavus' newly won territory
+- On September 7, 1631 Gustavus met Tilly once again, this time at Breitenfeld, northwest of Leipzig
+  - Gustavus' army numbered 24000 Swedes and 18000 allied Germans
+  - Tilly's forces numbered 35000 Spanish veterans, seconded to the Hapsburgs by Philip II
+  - In the initial engagement, Gustavus' German allies broke and fled the field under the initial assault from Catholic forces
+  - However, Gustavus' own troops were able to reposition and repel a flanking cavalry charge
+    - /This is pretty impressive/
+    - /Infantry formations of this era are notoriously hard to reposition on the fly, and so a flanking cavalry charge is usually a death sentence/
+  - The failure of the Imperial cavalry allowed Gustavus' own cavalry to circle around to the rear of the Spanish tercios, pinning them in place to be smashed by Swedish artillery and muskets
+  - The Catholic army was routed
+  - Was the first significant defeat for a Hapsburg army in 12 years
+  - During the battle, Tilly himself was wounded and had to be carried from the battlefield by his bodyguards
+- In the spring of 1632, Tilly moved out with a new army
+- Gustavus intercepted him at Rain, even though Tilly was trying to avoid battle
+- At Rain, Tilly suffered a mortal wound when his leg was hit by a cannonball
+- This second defeat and Tilly's death was the final death knell of the classic tercio formation
+- Tilly's death allowed Albrecht von Wallenstein to assume full control over the Catholic armies
+- Wallenstein was the Catholics' greatest general
+- He had been dismissed in the past by Ferdinand over past disagreements
+- However, the battlefield situation in 1632 was dire enough that Ferdinand felt compelled to recall Wallenstein to service
+- Wallenstein understood that Gustavus' forces were superior in open battle so he did his best to avoid field battles
+  - Did not attack Gustavus directly, even at the cost of alienating the allies of the Hapsburgs
+  - Moved to attack territories that Gustavus had conquered, trying to take advantage of Gustavus' reliance on supplies and troops from those territories to replenish his army
+- Gustavus marched back north to resecure his supply lines
+- Wallenstein anticipated this and had his army dig fortifications first
+- Both armies spent weeks dug into fortified trenches around Nuremberg
+- However, neither army had the logisitical support to stay in the trenches for very long
+- Gustavus cracked first and sallied out to attack Wallenstein's position
+- At Fürth, Gustavus suffered his first major defeat
+- While the Swedish army was nowhere near destroyed, Fürth showed that the previously invincible Gustavus could be beaten
+- This made the Swedish political position more vulnerable, as Swedish victory suddenly looked much more uncertain
+- To secure further supplies and shore up political support, Gustavus marched south once again, trying to draw Wallenstein into an open battle
+- However Wallenstein once again refused to take the bait and marched in the opposite direction to threaten Gustavus' allies
+- Both Gustavus and Wallenstein were proving their strategic skill by refusing to commit to a battle where they did not have the advantage
+- By 1632, although the Swedish army still had qualitative superiority, the gap between it and the Imperial army had narrowed
+  - Wallenstein had adopted some of Gustavus' innovations
+    - Shock-oriented cavalry tactics
+    - Modified tercio formations with greater mobility and firepower (though still limited compared to their Swedish counterparts)
+  - On the other side Gustavus' army had been weakened by two years of fighting
+    - Battlefield casualties and desertions of original Swedish troops led to them being replaced by German mercenaries
+    - Gustavus did take some steps to ensure that these new recruits were trained in the Swedish way of fighting, but mercenary troops were less committed to the Protestant cause than the Swedes
+    - However, Gustavus' commanders were still Swedes and his all-important artillery was still manned by Swedes
+- Late in 1632 Gustavus once again marched north to seek a decisive battle against Wallenstein
+- This time the superior mobility of Swedish infantry allowed them to catch up to the Imperial army before it could entrench itself
+- Armies met at Lützen on November 6, 1632 (/very late in the fighting season/)
+  - Battlefield was initially covered in fog, which limited the mobility and firepower advantages of the Swedes
+  - /Literally fog of war/
+  - Wallenstein had chosen this battlefield and modified some natural ditches into a double trench to slow Swedish cavalry charges
+  - Gustavus led the bulk of his cavalry around the Imperial left flank while his infantry attacked the center and a smaller group of cavalry harassed the right
+  - Leading a charge (/as usual/) Gustavus was killed in a fight with Austrian cuirassers
+  - The infantry fight in the center took place at close range, due to the fog, allowing the Imperial infantry to have a better showing against the Swedes
+  - However, Swedish artillery enjoyed its customary superiority and devastated Imperial infantry and cavalry alike
+  - By the end of the day, the Swedes had crushed yet another Imperial army
+  - However, this time they paid a high price
+    - Lost their king and general
+    - Lost 1/3 of the army
+- However, Lützen still counts as a decisive victory for the Protestants because it brought breathing room for the Protestant states
+- Turned a near certain Catholic victory into a stalemate
+- Another effect of Lützen was that Gustavus Adolphus' death allowed Cardinal Richelieu to become the leader of the Protestant cause
+- This helped end the war more quickly because while Gustavus was a devout Protestant, Richelieu was a pragmatist, whose interest was secular power rather than total destruction of Catholic forces
+- However, the war would continue for another /sixteen years/ after Lützen
+- Wallenstein would be assassinated in 1634 by Emperor Ferdinand
+- With both Catholic and Protestant factions losing their most talented generals, the war was destined for stalemate
+- Another factor leading to stalemate was the fact that Catholic forces adopted the new effective tactics displayed by Gustavus
+- The innovations of Maurits and Gustavus Adolphus led to linear battle formations completely displacing squares and tercios by 1700
+- However, it's arguable whether the transition to linear battle was actually an improvement
+- Linear formations have more firepower, but when both sides are using linear formations, the only effect is that soldiers die faster
+- Gustavus understood that maneuver and preparation were as important to success as tactics on the battlefield --- his successors were not that talented
+
+*** My Thoughts
+
+- In this chapter, Nolan continues to hammer away at his thesis that individual battles battle matter less than endurance
+- Gustavus' victories didn't win the war, but by buying breathing space for the Protestants they secured a political stalemate
+- Similarly, despite getting crushed multiple times on the battlefield, the Catholics' superior population and economic reserves allowed them to keep fighting
+- Although Gustavus was the most innovative general in several centuries, his many innovations gave him only a fleeting advantage
+- Catholic armies soon adopted his innovations, leading to a new, bloodier stalemate
+- In addition, the fact that Gustavus' army was so obviously superior at open battle led his opponents, most notably Wallenstein, to do everything they could to avoid giving open battle, and force Gustavus to conduct a campaign of maneuver and siege
+- Gustavus' campaign in Germany is very much reminiscent of Hannibal's campaign in Italy --- a brilliant general with a superior army frustrated by the Fabian strategy of an opponent who recognizes their inferiority and compensates for it by not fighting any open battles
+- The key limit, as always, is logistics
+- Unlike modern armies, armies of the 17th Century did not have a quartermaster system to keep them supplied in the field
+- Instead, they were forced to take what they could from local economies
+- Armies were often as economically dangerous to their hosts as they were to the enemy
+- These hard logisitical constraints bound Gustavus Adolphus and though his army was unquestionably superior on the battlefield, its logistical vulnerabilities were the cause of its eventual downfall
+
+** Chapter 5: Battle With Reason
+
+- The Wars of Religion ended with the creation of "new model armies" as pioneered by Gustavus Adolphus
+  - Standard weapons, units and tactics
+  - Infantry-heavy
+  - Soldiers are volunteers who are paid a wage by the state
+- Some states used their armies as a repository for social undesirables
+  - Criminals
+  - Indigent
+  - Unskilled and unemployed
+- These armies were increasingly supported by a modernizing state
+  - Secular
+  - Bureaucratic
+  - Increasingly efficient and effective taxation
+- However, these armies did not yet /belong/ to the state
+  - Armies still answered directly to monarchs
+  - Officer class was predominantly nobility, although there was increasing scope for commoners to become officers, especially in more technical lines such as artillery
+- The need for soldiers to act in unison in combat led to a lot of drill and very heavy discipline and punishments
+- Desertion was a constant problem, which these armies dealt with by recruiting constantly
+- Disease was also an increasing problem as armies grew larger and were stationed in barracks year round
+- Despite the increasing strength of armies, warfare remained slow and attritional
+- Given that all European armies were converging on similar structures, this might have been a moment where generalship became a distinguishing factor
+- It did not, however, --- armies continued to wage mostly defensive siege-oriented wars
+- War in the 18th Century was fought on a larger scale, but it was just as indecisive as it was in the Medieval Era
+- War continued to be positional
+- Terrain was dominated by interconnected series of forts known as "lines"
+- Breaching a line with an army was a rare enough occurrence that it was celebrated, even if the army was too depleted to exploit the breach
+- Lines differed from World War 1 trench systems in two ways
+  - Armies of this era were not large enough to fully garrison their lines all the time
+  - Lines were designed more around protecting the strategic areas behind them than protecting the soldiers manning them
+    - Designed more to slow the movement of enemy armies than protect soldiers from incoming fire
+- Rulers abhorred battle, viewing it as unncessarily risky
+- Instead, war was a sequence of short hops, as armies tried to keep close to friendly fortifications
+- Armies tried to avoid each other
+  - Lines could not be fully manned all the time
+  - Goal was to position your army against a lightly manned section of the enemy lines
+  - After the breach the goal was to hit the enemy's supply system
+- The stalemate-heavy wars of the 18th Century reflected the superiority of defense over offense and the fact that there was a balance of power among the states in Europe
+- The exemplar of this style of warfare was Sebastian de Vauban
+  - Almost more of an architect than a general
+  - Devised elaborate systems of interlocking fortifications to protect French territory
+- Supplies still remained a problem
+  - Logistics had advanced enough that armies in friendly territory could be fed from pre-positioned depots, known as "magazines"
+  - However, once armies crossed into enemy territory, they were still reliant on forage and plunder
+- The supply problem was exacerbated by the practice of "devastation", where entire regions were systematically looted and burned in order to deny their production to the adversary
+  - The worst example of this was the Devastation of the Palatinate, carried out by the armies of Louis XIV
+  - Destruction was systematically planned, right down to the specific chateaux that would be burned
+  - Even ordinary civilian homes were destroyed
+  - Large parts of the cities of Mannheim, Heidelberg, Oppenheim, Worms, Speyer, and Bingen were systematically destroyed
+- The ruination of the Palatinate is seen as one of Louis XIV's greatest blunders, along with the revocation of the Edict of Nantes
+  - Produced little strategic advantage
+  - Ruined Louis XIV's reputation
+  - Motivated his enemies
+- In armies of this era, units marched in battalion formation, between 8 and 20 ranks wide, depending on whether they were on roads or marching cross country
+- Over time, there were some innovations on the margins
+  - Increasing numbers of skirmishers
+  - More field artillery
+  - Troops organized into brigades and divisions, capable of both marching and fighting
+- The fights themselves, however, changed little
+  - Constrained by inaccurate firearms
+  - Units often chose to receive a volley if it meant that they could close to optimum range while their opponents reloaded
+  - Although some fights ended in a bayonet charge, these were rare
+  - Usually two units would fire at each other until one of them had enough and withdrew
+    - /Unclear what proportion of units broke and ran rather than withdrawing in good order/
+- The propensity of generals to seek battle was constrained by their societies' abilities to replenish armies
+- We don't have the leveé en masse of the Napoleonic armies --- armies could not quickly replenish large battlefield losses
+- Most of the European wars of the 17th century focused on the foreign policy of Louis XIV
+- France was at war for more than half of Louis XIV's 54 year rule
+- Louis' goal was not the conquest of Europe, like Napoleon
+- Instead, it was to ensure "absolute security" for France
+- However, this quest for security led to insecurity for all nations surrounding France, creating a balance of power dynamic
+- The French army, at least for the early part of Louis' career, was a marvel
+  - Large and professional
+  - Competent civilian governance
+  - Sound fiscal base
+- The French army was also a path of social and political advancement for nobility and the emerging bourgeoisie
+- The wars of Louis XIV stated with the War of Devolution (1667-1669)
+  - Marched into the Spanish Netherlands (future Belgium)
+  - Prompted the English and the Dutch to set asied their mutual hostility and enter into an anti-France alliance
+- Louis backed down in the face of this hostility at first
+- Then, in 1672, he started an invasion of the United Provinces, starting the Dutch War (1672-1678)
+  - Louis thought he could win in a single fighting season
+  - However the war dragged on for 6 years
+  - Drastically underestimated the level of hostility he'd face
+  - Drastically underestimated how well resourced the opposition was
+- After 1674, Louis would never face isolated opponents
+- Instead, the other nations of Europe recognized France as a common enemy and Louis would face wider coalitions
+- Although no other single nation in Europe could match the economic and military power of France, the combined power of anti-France coalitions initially matched, then exceeded French economic and military capacity
+- France, under Louis XIV, created a security-insecurity dynamic
+  - French efforts to pursue absolute security through military power undermined the security of France's neighbors
+  - Other European nations' efforts to balance France via alliances made Louis feel less secure
+- Compounding this dynamic was Louis' obsession with small, but significant territorial annexations
+  - Annexation of Strasbourg alienated the free cities of the Holy Roman Empire
+  - Annexation of the Principality of Orange alienated William and ensured that when he ascended the English throne, he would set England against France
+    - Also ensured the permanency of the Anglo-Dutch alliance, which improved the British military as Dutch officers went across the Channel
+- Louis XIV alienated the Hapsburgs by encouraging the Ottoman Empire to invade Vienna → siege of Vienna
+- By 1700, the Hapsburgs opposed Louis in the south and east, the Dutch opposed him to the north and the English opposed him at sea
+- In the 9 Years War (1688-1697), Louis faced off against a Grand Alliance
+  - Louis' problem was that he kept forgetting that the enemy gets a vote
+  - Would send invading armies into the Holy Roman Empire or the Netherlands, and try to declare a cease-fire after his goals had been achieved
+  - Of course, his enemies would not accept this and would continue hostilities
+  - This meant that wars dragged on for far longer than Louis expected them to
+- In the War of Spanish Succession, the Grand Alliance reformed and forced France onto the defensive
+- After 1702, Louis would be unable to attack
+- Even then, it took until 1713 to end the war, as growing exhaustion within both France and the Grand Alliance led them to negotiating the Treaty of Utrecht
+- Although the war was a long, grinding progression of maneuver and siege, we remember only the glory of the Sun King's court and a few significant battles
+- /Nolan really dislikes Louis XIV/
+- /Feels that most of Louis XIV's wars were pointless wars fought over trivial slights that could have been settled diplomatically/
+- There were few field battles in the wars of Louis XIV
+- The few that occurred were mostly bloody and indecisive
+- Reinforced the perception among rulers that engaging in field battle was a good way to throw away an army
+- However, as Louis switched to positional defense later in his reign, there were generals who looked to field battles as a way to speed up the progression of wars
+- One such general was John Churchill, later known as the Duke of Marlborough
+  - Ancestor of Winston Churchill
+  - During the Dutch War, prior to the Anglo-Dutch alliance, Churchill actually fought for Louis XIV, leading a regiment at Entzheim
+  - Churchill later fought for the Catholic king of England, James II, in putting down the Duke of Monmouth's rebellion
+  - Later he switched sides and supported William of Orange in the Glorious Revolution
+  - /Dude was an opportunist, but people were willing to overlook that because he was a competent and experienced general/
+- William of Orange (King William III) never trusted John Churchill
+- Nevertheless, after Churchill defeated James II's army at the Battle of Boyne in Ireland, William elevated Churchill to the peerage, making him the Duke of Marlborough
+- After Boyne, however, Churchill found himself excluded from the court due to the lack of trust that William had in him
+- This changed in 1701, when Churchill was brought back into government to plan a campaign against Louis XIV
+- Churchill would lead armies against Louis for the next 10 years
+- Was ousted when his primary political sponsor, William III's wife, Sarah, fell out with Queen Anne
+- By this point, the royal court had grown increasingly dissatisfied with Churchill's obstructionism towards a peace treaty with France
+- One trait that helps explain Churchill's political longevity is his capacity for self-promotion
+- Consistently denigrated the contributions of the Dutch to his campaigns on the Continent, even though they were paying for more than half of his army
+- Portrayed the Dutch as timid bean counters who didn't appreciate his strategic genius
+- Marlborough also benefited from a general French economic decline
+- Also benefited from Gen. Cadogan's establishment of a quartermaster corps for the British military
+- All of this says that while Marlborough was a good general, he was nowhere near as great as his own hype or the the praised heaped upon him by Winston Churchill
+- Marlborough believed in offense over everything
+- However, like Maurits and Gustavus, Marlborough was often forced into siege and maneuver by the actions of his enemies
+- Fought just four major field battles
+  - Blenheim
+  - Ramillies
+  - Oudenarde
+  - Malplaquet
+- Although Marlborough and his supporters would have you believe that all four were decisive victories, we should be skeptical
+- Marlborough didn't understand the broader economics or politics of the wars that he fought
+- Marlborough failed to appreciate that even if his grand strategy succeeded and he managed to breach Louis' defensive lines, he and his allies did not have the financial resources or logistical capacity to exploit the breach and invade France
+- All that said, however, Blenheim was a truly decisive battle
+  - Kept Austria in the anti-French coalition
+  - Prevented Louis XIV from advancing into southern Germany
+  - Did not win the War of Spanish Succession, but inflicted "long-lasting hurt" on France
+- The triumph at Blenheim was not Marlborough's alone
+- Without Cadogan's excellent pre-positioning of supplies, Marlborough would have never been able to make his march
+- However, Marlborough deserves credit for choosing the route and developing the necessary intelligence to ensure that the march could take place unopposed
+- Marlborough and Cadogan moved a combined British, Dutch and Prussian army 350 miles in 5 weeks
+- On the way to Blenheim, Marlborough left his siege guns behind, to move faster
+- Would try to bypass fortresses, and assault them later once they'd been surrounded
+- However, when he could not bypass fortresses, he would commit to costly frontal assaults
+- Took 6,000 casualties in capturing Schellenberg Fortress --- 1/3 of a total force of 18,000 sent to attack
+- Having set up a forward base at Donauwörth, Marlborough let his army pillage Bavaria in order to force his opponent to give battle
+- Linked up with Prince Eugene of Savoy's cavalry on August 11, 1704
+- On August 13, 1704, at Blenheim, Marlborough got the battle he had been seeking
+- Discovered the French army when his cavalry screen blundered into them
+- Night-marched his primary force of 52,000 to set up for battle the next day
+- Surprised the Franco-Bavarian force, which scrambled to deploy from its camp
+- Although the Franco-Bavarian alliance had the advantage in numbers, 60,000 to Marlborough's 52,000, they had a disadvantage in organization
+  - Deployed in a disorganized fashion as a result of having been surprised
+  - Poor coordination between French and Bavarian generals
+- French logistics were inferior to the logistical system set up by Cadogan for Marlborough's army, which meant that the most of the French troops had been on half-rations and the French cavalry's horses were afflicted by an outbreak of glanders
+- In the confusion of deploying from their camp, the French made the mistake of leaving their cavalry at the center, unsupported by infantry
+- Marlborough further weakened the French center by attacking two villages on the French flanks, Blenheim and Oberglau
+- Once the French commander, Marshal Tallard, had committed his reserves to the fighting along the flanks, Marlborough initiated a combined arms charge at the center, breaking the Franco-Bavarian army
+- Blenheim carried a steep price for both sides
+  - 20,000 casualties among the French and Bavarians
+  - 14,000 casualties among the British, Dutch and Prussians
+- Reinforced that lesson that even winning battles could be costly
+- However, Blenheim marked the first time in living memory that the French had been defeated in open battle
+- Denied Louis XIV the opportunity to intervene politically in Germany and Austria
+- This allowed the Grand Alliance to shift to strategic offense
+- Therefore, Blenheim does count as a truly decisive battle
+  - Altered the strategic direction of the war
+  - Permanently limited the ability of Louis XIV to achieve political ends
+- Although the battle of Blenheim saw the British, Dutch and Prussians on the offensive side, the ends they were pursuing were fundamentally defensive in nature
+- Shifting to pursuing offensive goals would be much more difficult for the Alliance
+- In 1705, Marlborough forced the Lines of Brabant, one of the major French fortress lines
+- Although Marlborough touted this achievement, it was only a tactical success, as he did not have enough forces to exploit the breach
+- In 1706, however, Marshal Villeroi came out to give battle in an attempt to seal the breach
+  - Led an army of 62,000
+  - Opposed by Marlborough, with an army of 60,000
+- Two armies met at Ramillies on May 23, 1706
+- Villeroi attempted to anchor his battle line along several small villages
+- However, the villages were too far apart to render mutual support
+- Forced Villeroi into a concave formation, denying him interior lines to move reinforcements
+- Marlborough formed a smaller convex formation
+- Used his artillery to effectively weaken the French center
+- Used feints to further draw French forces towards the flanks
+  - Captured two small villages on the French right flank with Dutch troops
+  - Villeroi misread this as a major attack and sent significant reinforcements in that direction only to have them cut down by a British ambush
+  - Attacked the other flank with British infantry, which failed to make any significant progress
+- When the French right flank gave way, Marlborough used deceptive maneuvering to isolate the right flank from the center
+  - Moved forces from his right towards the center, without their flags
+  - French still thought they were facing a substantial portion of the British/Dutch army, when, in reality those troops had moved
+  - Marlborough attacked up through the center with a combined arms assault, cutting the French army in two
+- When the battle ended, Marlborough had suffered around 3000 casualties, as compared with over 13,000 on the French side
+- Ramillies was a rare field battle that broke stone fortifications
+- As a result of their losses, the French had to retreat and abandon fortifications that Marlborough was able to capture
+- On June 11, 1708, roughly two years after Ramillies, Marlborough and Prince Eugene encountered another French army, this time at Oudenarde
+  - Armies stumbled into one another and were not prepared to fight
+  - Marlborough and Eugene were more skillful with their maneuvering and were able to bring more of their forces to bear quickly
+  - However, the arrival of nightfall saved the French, allowing them to escape encirclement
+- The victory at Oudenarde allowed Marlborough and Prince Eugene to roll back some more French fortresses, reversing Louis XIV's gains near Flanders
+- Marlborough's last major battle was fought at Malplaquet, against Marshal Villars on September 11, 1709
+  - Villars persuaded Louis XIV to allow him to seek battle, as Villars thought that he could lure Marlborough into a trap
+  - At Malplaquet, Villars' outnumbered and outgunned army built defensive fortifications and waited for Marlborough
+  - Marlborough obligingly arrived and started the attack in the morning
+  - Began as usual, sending feints up the flanks to try to draw French troops off from the center
+  - However, unlike his predecessors, Villars was wise to this tactic and did not send large numbers of troops to his flanks
+  - Villars was wounded midway through the battle, and had to be carried off the battlefield
+  - His subordinate, Marshal de Boufflers, organized a skillful retreat, launching counterattacks with his cavalry to create space for infantry formations to disengage
+  - Although the Allies did hold the field of battle at the end of the day, they took far more casualties --- 24,000 versus 11,000 for the French
+- Although Marlborough tried to spin Malplaquet as a victory, given that his army did possess the field of battle at the end, the British and French governments recognized that the victory was at best a Pyrrhic one
+- The Dutch and British governments significantly restricted Marlborough's operational independence, practically forbidding him to seek battle after Malplaquet
+- Malplaquet strengthened the French negotiating position in the settlement to the War of Spanish Succession
+- Although Marlborough was a good general, his fans overrate his ability to break out of the siege-oriented positional warfare of the late-17th and early 18th centuries
+- Marlborough only actually fought four major battles
+- Was not thwarted by his allies timidity, as he alleged, but by the limitations of maneuver in the context of interlocking stone fortifications
+- Furthermore, to uphold Marlborough as a great general over, for example, Villars, is to take as given that offensive maneuver is morally superior to defensive positional warfare
+- But why should that be the case?
+- Marlborough won battles, true, but he won them at great cost
+- Perhaps a more patient, defensive oriented form of warfare would have achieved the same objectives, but at a far lower price
+- After the death of Louis XIV there was a long period of peace, as both the French and the British sought to rebuild and recover from the costly wars that marked Louis XIV's reign
+- This period of time also marked the beginning of the French Enlightenment
+- Enlightenment scholars saw battle and war as primitive and base, and mostly thought that the bonds of fraternité would unite mankind in perpetual peace
+- However, war, when absolutely necessary, could be conducted by "humane", "scientific" means
+- In the Holy Roman Empire, the focus was on applying scientific principles to make armies more effective, rather than stating that war was obsolete
+- In both places, by the middle of the 18th Century, scholars were attempting to apply mathematical principles to military maneuver
+- This was the golden era of geometric fortresses, which embodied an aesthetic sense of mathematical precision along with military utility
+
+# page 142

@@ -1,0 +1,48 @@
+#+TITLE: Public Wiki Notes
+
+* CSS Modifications:
+- Edit [[https://wiki.quanticle.net/Site/StyleSheet][Site.StyleSheet]]
+  #+begin_src css
+    @import url('//fonts.obormot.net?fonts=IBMPlexMono&host=s3');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @font-face {
+        font-family: "Cascadia Code PL";
+        src: url("https://quanticle.net/pub/css/CascadiaCodePL.woff2");
+    }
+
+    @font-face {
+        font-family: "Cascadia Mono";
+        src: url("https://quanticle.net/pub/css/CascadiaMono.woff2");
+    }
+
+    code, pre {
+        font-family: 'Cascadia Mono', 'IBM Plex Mono', monospace;
+        font-weight: 400;
+    }
+
+    textarea {
+        font-family: 'Cascadia Mono', 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        width: 100%;
+        resize: none;
+    }
+
+    #wikitext {
+        font-size: 14pt;
+        font-family: "Roboto";
+        font-weight: 400;
+        margin-right: 25%;
+        margin-left: 10%;
+    }
+
+    #wikitext ol {
+        list-style-image: none;
+    }
+
+    @media (max-width: 480px) {
+        #wikitext {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+  #+end_src

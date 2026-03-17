@@ -1,0 +1,101 @@
+#+TITLE: Wars Are Not Accidents
+#+OPTIONS: toc:1
+
+Erik Lin-Greenberg \\
+/Foreign Affairs/ \\
+November/December 2024 \\
+Page 20
+\\
+\\
+- There have been a number of provocative incidents lately that have increased tensions and raised the prospect of a wider war
+  - Israel's attacks on Hamas (/and Hezbollah/) leadership
+  - Ukraine's incursion into Kursk
+  - Increasingly provocative actions taken by China in the Western Pacific
+- However it is extremely unlikely for states begin a war accidentally
+- In high stakes situations, leaders often find ways to step back once they realize the costs of escalation
+  - In the Cuban Missile Crisis, the US chose not to retaliate after the Soviet Union shot down an American spy plane over Cuba
+  - The US and Iran didn't have a war even after Iran was responsible for a drone strike that killed three US soldiers
+  - Iran's massive missile and drone attack against Israel didn't lead to an escalatory spiral
+- Leaders must find ways to step back from a crisis without appearing weak
+  - Find ways to pressure rivals without escalating the situation
+  - Maintain lines of communications with enemies, even during crisis situations
+  - Create arrangements that allow both sides to declare victory
+
+* The Secret History
+- Inadvertent escalation is a well studied subject in international relations
+- Scholars have argued for decades whether European powers "sleepwalked" into World War 1 by having overly rigid military mobilization plans
+- Have studied other possible inadvertent pathways to war, such as faulty early warning systems, misinterpretation of limited actions, or political momentum
+- All of these frameworks assume that policymakers have limited control over escalation
+- However, history shows that's not the case
+- Even during the most tense moments during the Cold War, the US and Soviet Union managed to find negotiated solutions, because neither leader wanted a war
+  - During the Cuban Missile Crisis, John F. Kennedy overruled his military advisors who advocated for airstrikes on Cuba
+  - In the 1980s, the Soviet Union misinterpreted a NATO military exercise as preparation for an invasion and mobilized --- US forces deliberately did not increase their readiness in response
+
+* Blurred Lines
+- Rival countries routinely engage in brinksmanship during crises
+  - Brinksmanship can be effective in making a rival change its behavior
+  - Demonstrates depth of committment to achieving a particular objective
+- During crises rival nations often engage in provocative activities
+  - Signal willingness to act against rivals
+  - Indicate that more severe actions will follow if demands are not met
+- However, provocations are dangerous because often neither side fully knows where the other side's red lines are
+  - Attacks in one location may be tolerated whereas attacks in another area may result in an response
+  - Attacks on one type of target (e.g. private security contractors) may be ignored, while attacks on military members may invite retaliation
+- Nations deliberately keep their red lines vague in order to improve their bargaining position
+- Example --- tensions between the Philippines and China in the South China Sea
+  - Unclear what would cause the Philippines to use force against Chinese ships
+  - Unclear what China's response would be if force were used
+  - Don't know what the Philippines' threshold is for triggering its mutual defense treaty with the United States
+- This uncertainty forces leaders to probe cautiously in a crisis, as they don't know what the other side's escalation thresholds are
+
+* On The Ledge
+- States often control escalation by limiting the physical damage caused by their actions
+  - Russia and Iran shoot down American unmanned drones, but don't intentionally attacked manned aircraft
+  - In retaliation for Iran's missile attack, Israel attacked a single radar site, demonstrating its ability to strike deep inside Iran but without doing so in a way that would cause great damage or hardship for the Iranian government
+- States can also give warning of impending attacks, allowing adversaries to limit damage or otherwise mitigate the effects
+- When Iran launched its missile barrage against Israel in retaliation for the Israeli attack on the Iranian embassy in Damascus, it made its preparations openly and telegraphed its intentions, allowing Israel and its allies to have defenses in place to mitigate the effects of the strike
+- Another way in which states invite or limit escalation is through the location and nature of their attacks
+  - The Israeli attack that killed Ismail Haniyeh, Hamas' political chief, would have been far less escalatory if it had taken place in Gaza, rather than in Tehran
+  - Russia views a Ukrainian ground force attack on a military base as less escalatory than a drone strike
+  - /Does it? The Russian response to the Ukrainian incursion in Kursk has been fairly tepid/
+  - /Russia has not escalated meaningfully in response to Ukraine's incursion --- instead it's treated the incursion as a manageable problem and has proceeded with its existing war plan in Donetsk/
+- Decisionmakers often limit strike on an adversary's "home territory" as a result
+  - The US has struck Iranian targets in Iraq, and Syria but not in Iran itself
+  - As a result, the US has tacitly acknowledged that strikes within Iran itself would cross an escalation threshold
+  - /But do the Iranians see it that way?/
+  - /This position reminds me of one of the problems with the US position in the Vietnam War --- we defined escalation thresholds, but we did not check to see whether the Soviets and the North Vietnamese agreed/
+  - /As a result, the US needlessly handicapped its forces by, for example, refusing to attack missile sites thought to be staffed with Soviet advisors/
+  - /Similarly, is the US now needlessly handicapping its ability to fight the Houthis by defining red lines and escalation thresholds that do not exist?/
+  - /In other words, are we [[https://www.sirlin.net/ptw-book/introducingthe-scrub][fighting like a scrub]]/
+- States can also use "grey zone" tactics to impose pressure without inviting public scrutiny
+  - During the Korean War, Soviet pilots flew for North Korea while wearing North Korean uniforms
+  - The US limited escalation by not acknowledging Soviet participation
+  - Today, Russia relies on the Wagner paramilitary group and Iran relies on proxies, such as Hezbollah, Hamas and the Houthis to impose pressure on their adversaries while limiting the risk of escalation
+  - States also use deniable cyberattacks to impose pressure
+- Leaders can limit escalation by announcing publicly that they have concluded their attacks
+- After Iran retaliated against the assassination of General Qassim Soulemani by striking a US base, Iranian officials issued public statements indicating that their attacks had concluded and they did not wish to escalate further
+- States have to strike a balance between limiting escalation and reestablishing deterrence after an attack
+  - US strikes on Yemen have failed to stop Houthi attacks on shipping in the Red Sea
+  - The US could increase its tempo of attacks in order to more forcefully deter the Houthis, but doing so might invite escalation from Iran
+
+* It Takes Two
+- Leaders can miscalculate and take actions that are more escalatory than they intend
+- When Israel attacked the Iranian embassy in Damascus, it expected a minor retaliation, not the barrage of hundreds of missiles and drones that it ended up facing
+- Efforts to deescalate can be stymied by public opinion, and leaders' unwillingness to cede advantageous bargaining positions in future confrontations
+- These efforts are particularly difficult when escalation management could be interpreted as a state reneging on treaty committments to other states
+- Increasing transparency driven by the proliferation of cell phones and commercial satellite activity makes it difficult to hide grey-zone activities
+- Still, escalation is always a choice
+- Leaders can choose to do what is best for their states, and avoid costly wars, even if it means that they suffer political consequences
+
+* Climbing Down The Ladder
+- To avoid escalation, leaders have to find ways to ensure that all parties can claim success without having to resort to further escalation
+  - In the attack on Israel, Iran was able to show that it had the means to carry out a large scale strike on Israel
+  - Meanwhile, the Israeli government was able to show that it could protect its people from such an attack
+- Leaders can also tacitly collude to prevent escalation
+- During the Korean War, US and Soviet militaries chose not to disclose the Soviets' participation, ensuring that a regional conflict didn't escalate into another world war
+- Leaders can also set up implicit and explicit lines of communication
+  - Israel communicates with Iran and its proxies through intermediaries in the United Arab Emirates and Qatar
+  - The US and the Soviet Union set up a hotline between their two militaries after the Cuban Missile Crisis
+  - US set up a similar hotline with Beijing in 2007
+- While there are more crises than ever in international relations, leaders should not worry overly about inadvertent war
+- War is always an intentional act, and can be stepped away from

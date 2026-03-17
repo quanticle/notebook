@@ -1,0 +1,24 @@
+#+TITLE: Articles To Read
+
+- "[[https://www.rand.org/pubs/research_reports/RRA231-1.html][A Strong Ally Stretched Thin]]"
+- "[[https://direct.mit.edu/isec/article/43/3/7/12216/India-s-Counterforce-Temptations-Strategic][India's Counterforce Temptations: Strategic Dilemmas, Doctrine and Capabilities]]"
+- "[[https://www.tandfonline.com/doi/full/10.1080/10758216.2023.2253359][Western Estimates of Russian Military Capabilities and the Invasion of Ukraine]]"
+- +"[[https://www.cnas.org/publications/reports/first-strike-chinas-missile-threat-to-u-s-bases-to-asia][First Strike: China's Missile Threat to US Bases in Asia]]"+
+- "[[https://onlinelibrary.wiley.com/doi/full/10.1111/mepo.12701]['Decisive Victory' and the Israeli Quest for a New Military Strategy]]"
+- "[[https://www.tandfonline.com/doi/pdf/10.1080/01402390701785211][The Israel Defense Forces in the Second Lebanon War: Why The Poor Performance]]"
+- "[[https://warontherocks.com/2018/02/shock-of-the-mundane-the-dangerous-diffusion-of-basic-infantry-tactics/][The Shock of the Mundane: The Dangerous Diffusion of Basic Infantry Tactics]]"
+- "[[https://www.csis.org/analysis/complex-air-defense-countering-hypersonic-missile-threat][Complex Air Defense: Countering the Hypersonic Missile Threat]]"
+- "[[https://cset.georgetown.edu/publication/decoding-intentions/][Decoding Intentions: Artificial Intelligence and Costly Signals]]"
+- "Ten Facts About Son Preference In India"
+- "Corporate Governance Without Shareholders"
+- "The State and Capitalism In China"
+- "Breaking The Mannerheim Line: Soviet Strategic and Tactical Adaptation in the Finnish-Soviet Winter War"
+- [[https://tnsr.org/2023/05/marine-force-design-changes-overdue-despite-critics-claims/][Marine Force Design: Changes Overdue Despite Critics' Claims]]
+- [[https://warontherocks.com/2023/05/negotiating-saudi-arabias-defeat-and-the-houthi-victory-in-yemen/?__s=9hyj212ojymkqkfgl4ny][Negotiating Saudi Arabia's Defeat and the Houthi Victory in Yemen]]
+- [[https://warontherocks.com/2023/05/full-spectrum-integrated-lethality-on-the-promise-and-peril-of-buzzwords][Full Spectrum Integrated Lethality? On the Promise and Peril of Buzzwords]]
+- [[https://media.defense.gov/2023/Oct/19/2003323409/-1/-1/1/2023-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA.PDF][2023 China Military Power Report]]
+- [[https://kaitseministeerium.ee/sites/default/files/setting_transatlantic_defence_up_for_success_0.pdf][Setting Transatlantic Defence Up For Success: A Military Strategy For Ukraine's Victory and Russia's Defeat]]
+- [[https://static.rusi.org/heavy-armoured-forces-in-future-warfare-occasional-paper-december-23.pdf][Heavy Armored Forces In Future Combined Arms Warfare]]
+- Caste and the Indian Economy
+- Terror As A Bargaining Instrument: A Case Study Of Dowry Violence In Rural India
+- [[https://direct.mit.edu/isec/article/48/2/7/118111/Racism-Stereotypes-and-War][Racism, Stereotypes And War]]

@@ -1,0 +1,320 @@
+#+TITLE: Ending The Threat of War In Ukraine: A Negotiated Settlement to the Donbas Conflict and Crimean Dispute
+#+OPTIONS: toc:2
+
+Source: [[https://quincyinst.org/report/ending-the-threat-of-war-in-ukraine/][The Quincy Institute]]
+
+* Executive Summary
+- The Donbas conflict has resulted in the deaths of over 14,000 since 2015
+- Recent military build-up on the border of Ukraine risks sparking a broader war
+- The Minsk II Agreement, calling for a demilitarized Donbas within Ukraine is a potential solution to this conflict that has been on the table since 2015
+- However, it is Ukrainian resistance that has been the primary obstacle to the implementation of Minsk II
+- A war with Russia would result in certain military defeat for Ukraine
+- The US would be faced with the choice of either going to war with Russia, which would require a huge military build-up that would sap resources from the pivot to the Pacific or leaving Ukraine to its fate, with disastrous consequences for US international credibility
+- Russia is confident of winning an outright war, so the threat of war is not a deterrent to Russian policy
+- US and EU sanctions have also been ineffective at compelling changes in Russian policy
+- Ukrainian economic pressure, such as a blockade of Donbas and a cut-off of fresh water to Crimea /could/ persuade a shift in Russian policy, but only as a part of a wider deal
+  - If Ukraine takes these steps without signalling that it's willing to compromise on the status of the Donbas, then it risks forcing a military response from Russia
+- President Biden has clearly stated that the US will not go to war to defend Ukraine
+- Other NATO allies, such as Germany, are also highly unlikely to defend Ukraine militarily
+- Any military response to a potential Russian invasion of Ukraine would require such a large redeployment of US forces that the US would have to abandon all thoughts of placing military checks on China in the Wester Pacific
+- Therefore the US should pressure Ukraine to accept a deal along the lines of Minsk II:
+  - The restoration of Ukrainian sovereignty over the Donbas region, including Donetsk and Luhansk, including the return of Ukrainian customs and border guards
+  - Local autonomy, including local control over the police forces in Donbas
+  - Complete demilitarization of the region, including demobilization and disarmament of both pro-Russian and Ukrainian-nationalist militias
+  - Settlement guaranteed by a Security Council resolution and UN peace-keeping force
+- The issue of Crimea should be separated from the Donbas
+  - Unlike the Donbas, Crimea was formally annexed by Russia
+  - No ongoing armed conflict in Crimea
+  - There should be a new local referendum held in Crimea, under the auspices of the UN
+  - The status of Crimea can be linked to Russian diplomatic recognition of Kosovo
+- A solution along Minsk II lines would not represent any real loss for Ukraine
+- The unresolved status of the Donbas means that Ukraine is not a likely candidate for either NATO or EU membership
+- Moreover, the ethnic chauvinism fostered by the conflict against Russia is eroding support in Ukraine for liberal values, making it increasingly ideologically incompatible with EU membership
+- Even if, by some miracle, Donbas and Crimea could be returned unconditionally to Ukraine, they would remain as significant sources of internal tension in the country, potentially destabilizing it from within
+
+* Introduction
+
+** Ukraine and the strategy of universal US primacy
+- No US policymakers have ever given an explanation for what strategic interests the US has in Ukraine
+- The Biden administration has espoused a "foreign policy for the middle class" --- how does going to war for Ukraine help with that?
+- US officials only began to care about the fate of the Donbas region after the end of the Cold War, and to a considerable extent only after the Ukrainian revolution of 2014
+  - /Not like the US has some long-standing historical committment to this region/
+- This gradual slide towards US involvement reflects a broader pattern of US foreign policy since 1992
+  - The article cites the [[https://www.archives.gov/files/declassification/iscap/pdf/2008-003-docs1-12.pdf][defense planning guidance of 1994-1999]]
+  - Unstated policy of US political and military primacy across the entire globe
+  - Has become a standard procedure of all administrations, of both parties
+- This program of permanent US primacy in all regions of the world was bound to provoke hostile reactions
+- The advocates of primacy forgot that power is relative, not absolute and regional, not global
+
+** Russian and US interests in Ukraine
+- Russia has much deeper ties to Ukraine than the US and this is reflected in a much greater willingness to bring military force to bear
+- The Donbas region has had historical ties to Russia for 600 years
+- These ties do not excuse Russian actions (any more than historical ties justify US interventions in Central America)
+- However, the US should acknowledge that getting involved so close to Russian borders is going to be seen as a hostile act by Russia regardless of actual US intentions
+- The US and European goal of a "Europe, whole and free" implicitly excludes Russia
+- This is something that no Russian government, of any political alignment, will accept
+  - /Are we sure about that?/
+  - /Didn't Putin state that Russia was a "Eurasian" rather than a "European" power?/
+- The phrase "Europe, whole and free" implies a hard division between Ukraine and Belarus on one side and Russia on the other, severing historical links that go back hundreds, if not thousands of years
+  - /I think these authors are reading far too much into "Europe, whole and free"/
+  - /What if we exclude Ukraine and Belarus from Europe and draw the border of "Europe" at edge of the Baltic States?/
+- By contrast, the US has relatively few interests in Ukraine
+  - Not a significant trading partner
+  - No military or security contribution to either the EU or NATO
+- The idea that Ukraine is a US asset against Russian aggression is wrong and illogical
+  - The only source of Russian aggression in the near future is with regards to dispute territory in Ukraine itself -- Ukraine is a source of instability, rather than a counterbalance to it
+  - The real protection against Russian aggression in Europe is NATO
+- The greatest US interest in Ukraine is the prevention of a conflict
+
+** Biden Administration policy towards Ukraine
+- The present US policy is to support Ukraine rhetorically and supply it with limited amounts of military assistance, but not to radically increase the amount of military aid that we deliver nor increase pressure on Russia
+- This policy reduces the immediate risk of war but leaves Donbas and Crimea as a source of permanent friction in US-Russian relations and gives the Ukrainian government a way to always stir up new crises to ask for more US aid
+- Pushes Russia towards an alliance with China
+  - /I disagree with the implicit assertion here that if it were not for the Ukraine conflict, Russia would have pursued further economic ties with the EU and the US/
+  - /I think Russia would have pursued closer relations with China no matter what the US did, because the Russian government sees itself as co-equal with the US government and would never accept a subordinate role in a US-led economic-military alliance/
+- Leaving the Donbas as a frozen conflict means that it has the potential to flare up at any time
+  - The conflict in Abkhazia and South Ossetia was frozen for over a decade before Georgia attacked in 2008
+  - Nagorno-Karabakh was a frozen conflict for more than 20 years when Azerbaijan attacked and recaptured the territory
+  - Kashmir has been a frozen conflict for 70 years, but India and Pakistan have fought repeatedly over it
+- An assortment of lawmakers and retired officials have called for the US to upgrade its relationship with Ukraine
+  - Increase military assistance
+  - Raise Ukraine's status to "major non-NATO ally"
+  - Impose harsher sanctions on Russia
+- No evidence that this would change Russia's approach to Ukraine
+- Chancellor Merkel stated that she could not see any level of improvement of the Ukrainian military that would cause Putin to believe that he would lose a war to preserve the separation of the Donbas
+- Making Ukraine a major non-NATO ally would be a mistake
+  - Would suggest a US commitment to fight for Ukraine
+  - Would present the US with a no-win situation if Russia did choose to attack Ukraine
+    - Defend Ukraine at great cost
+    - Do nothing and cause others to doubt their status as major non-NATO allies
+  - Could encourage Kiev to attack, thinking that the US will come to its aid
+  - /The authors are worried that if the US makes Ukraine a major non-NATO ally, it will be seen by the Ukrainians as the sort of blank check that Germany gave Austria-Hungary/
+  - /But is that the case?/
+  - /Turkey has an even higher nominal status --- they are a part of NATO --- but I'm not sure that anyone thinks the US will go to war to support Turkish aims in Syria/
+- Fortunately, there is still time for the US to extricate itself from this conflict
+- The solution is to promote a federal, militarily neutral Ukraine, with regional autonomy for Donbas
+
+* The Donbas conflict and its origins
+- The conflict in Donbas started in 2014 as a local revolt supported by armed Russian "volunteers" against the Ukrainian nationalist revolution
+- The Ukrainian president at the time, Viktor Yanukovich had the support of a majority of the residents of the Donbas region
+- However the roots of this conflict go much deeper, to the fall of the Soviet Union
+
+** The history of the Donbas
+- The Donbas region is an area around the middle reaches of the Donetsk river, which is itself a tributary of the Don River
+- Part of the great Eurasian steppe that stretches from the Danube to the borders of China
+- Was thinly peopled by a succession of nomadic groups until the 18th century
+- In the 18th century, the region was conquered by the Russian Empire and settled by a mixture of Ukrainians, Russians, Germans, Bulgarians and Greeks
+- The modern history of the Donbas region begins in the mid-19th century, with the discovery of huge coal reserves
+- The Donbas region grew rapidly, becoming one of the largest coal producing regions of the Russian Empire and the Soviet Union that succeeded it
+- This economic growth attracted migrants from all over the Russian/Soviet empire, and by 1989 45% of the residents of the Donbas region identified as Russian and a majority said Russian was their native language
+- The culture of Donbas was therefore very different from that of Kiev and even more so from Western Ukraine, which was the heart of the Ukrainian nationalist movement
+
+** The Donbas in independent Ukraine
+- It's not clear that the Donbas region ever wanted to leave the Soviet Union
+  - In March 1991 a majority of 83% voted to remain in a reformed Soviet Union
+  - A second referendum in the fall of '91 produced a majority in support of independence, but it's not clear that it was explained what independence meant
+  - Many expected an open border with Russia, even after Ukrainian indpendence
+- Many in Donbas initially expected Ukraine to be a federal state with guarantees of autonomy for their region
+- These guarantees were rejected by the new Ukrainian government
+- Support for federalism remained strong in Donbas, however, with large majorities in Donbas supporting local autonomy and the preservation of Russian as an official language
+- However, this support for federalism did not automatically translate into a desire for secession
+- These attitudes changed in 2014, with the overthrow of Viktor Yanukovich, who had won more than 80% of the vote in Luhansk and 90% of the vote in Donetsk
+
+** The Donbas Revolt
+- In response to the 2014 revolution in Kiev, the citizens of the Donbas region staged mass protests
+- This escalated to the seizure of government offices and the declaration of national sovereignty
+- This demand for sovereignty was backed by a referendum that took place on May 11, 2014
+- However, this referendum was not monitored by any international organizations, nor have any international organizations monitored any elections in the Donbas region since 2014
+- According to what (unreliable) polling we have from Donbas, it seems that a majority of residents would be satisfied with a federal solution, and only a minority are in favor of Russian annexation
+- The fight in the Donbas region is best understood as a civil war within Ukraine that Russia is meddling in, not a war between Ukraine and Russia
+- The pro-Russian side consists of separatist militias backed by "retired" Russian military personnel and a limited amount of support from Russia
+- The Ukrainian side has also relied heavily on militias, many of whom are extreme right-wing Ukrainian nationalist groups with ties to neo-Nazi ideology, such as the Azov Battalion
+- Many of these Ukrainian militias call for the complete elimination of Russians from Ukraine, which is counterproductive for the peace process
+- The Donbas region saw heavy fighting until 2015, when the Organization for Security and Cooperation in Europe (OSCE) negotiated a cease-fire in February 2015
+- This cease-fire left about half of the Donbas region, including its two main cities, Donetsk and Luhansk in the hands of separatists
+- As of May 2021, approximately 4500 Ukrainian troops have been killed in the Donbas revolt, along with approximately 5700 separatist fighters
+- Russia has lost anywhere between 400-500 servicemembers
+- Approximately 3375 civilians have been killed
+- /Surprised that Russia has lost that many personnel/
+- The Russian demand for the Donbas region is regional autonomy and constitutionally guaranteed rights for Russian-speakers throughout Ukraine
+  - /This report makes it sound as if all Russia wants is for Donbas to be treated the same way that Canada treats Quebec or Spain treats Catalonia/
+- Since 2014, the economies of the Donetsk and Luhansk republics have subsisted off trade with Russia and direct payments from Russia
+- The autonomy of these regions is guaranteed by the Russian military, which has routinely carried out maneuvers on its side of the Donbas border
+- However, Russia has not formally annexed these regions, despite calls from separatist leaders for it to do so
+
+* The Minsk Process
+
+** The First Minsk Proposals
+- On September 5, 2014 a group consisting of representatives of the Ukrainian government, the Russian government and major separatist groups signed a cease-fire agreement in Minsk under the auspices of the OSCE
+- This agreement called for
+  - The withdrawal and disarmament of all armed groups within the Donbas
+  - Ukrainian amnesty for the separatists
+  - Security zones in the Donbas and neighboring Russian regions to be monitored by OSCE peacekeepers
+  - Regional autonomy for Donbas within Ukraine
+- In January of 2015 this deal collapsed when the separatists launched a major offensive in an attempt to capture the town of Debaltsevo
+
+** The Minsk II Protocol
+- In February of 2015, the leaders of France, Germany, Russia and Ukraine met again and reached an agreement known as the Minsk II protocol
+- Minsk II had the unanimous support of the UN Security Council, including the United States
+- The military element of Minsk II was
+  - The complete disarmament of pro-Ukrainian and separatist militias and the withdrawal of Russian "volunteer" forces
+  - Non-entry of Ukrainian military forces (apart from border guards)
+- The political element of Minsk II consisted of
+  - Restoration of Ukrainian sovereignty over the Donbas, including full control of the borders
+  - Regional autonomy for Donbas in the context of a broader decentralization of power within Ukraine itself
+    - Participation of the heads of local government in the appointment of prosecutors and other law-enforcement officials
+    - Freedom to create and maintain local people's militia units
+
+** The Failure of Minsk II
+- The ceasefire portion of Minsk II took effect after the capture of Debaltsevo by separatists on February 18, 2015
+- While there are occasional exchanges of artillery fire across the front line, the cease-fire has largely held since 2015
+- However, the larger settlement has not been implemented
+  - No political agreement
+  - No restoration of Ukrainian sovereignty
+  - No disarmament of militias
+  - No withdrawal of Russian military forces
+- Successive Ukrainian governments have insisted on Kiev controlling the full Donbas region before allowing for a referendum on local autonomy or the passage of a constitutional amendment
+- Similarly, Moscow and its allied separatist groups insist on a referendum occuring prior to Kiev retaking control over the Donbas
+- The authors feel that while it is possible that Russian-allied separatists could sabotage a peace process based on Minsk II in the future, it is clear that the Ukrainian government is doing so right now, with no repercussions from the United States
+  - /Yes, of course they are/
+  - /The authors of the report talk about the "humiliation" that Russia would suffer if its troops had to pull back, and it had to abandon support for the Donetsk and Luhansk republics/
+  - /But there is no mention of the humiliation that Ukraine is suffering by not having sovereignty over large chunks of its own territory/
+  - /What the authors are suggesting is not a total capitulation, but something very close to it/
+  - /That might be fine, if they were honest about what they were proposing: Ukraine is weak, Russia is strong, the United States is far away, and the EU is useless, so we feed Ukraine to the bear/
+  - /But instead they're pretending that somehow it's Ukraine's fault that separatist groups have chosen to take up arms against the sovereign government, as if Ukraine were repressive regime like Myanmar or Syria/
+- While the Ukrainian parliament did pass a law granting Donetsk and Luhansk certain rights, these rights were far more limited than what was proposed under Minsk II
+- For their part, after the Minsk II peace process stalled out, separatist leaders escalated their demands by calling for autonomous control over Ukraine's international border, and a provision in Ukraine's constitution mandating neutrality and nonalignment
+
+** The current impasse
+- Since the cease-fire of 2015, the Donbas conflict has remained frozen
+- The Ukrainian parliament has extended the law granting limited autonomy to Donetsk and Luhansk, but that law remains suspended until Ukraine reasserts full sovereignty over the breakaway provinces
+- In April 2021, President Zelensky called for the Minsk II agreement to be renegotiated
+- The Zelensky administration has held to the position of the previous Poroshenko government that autonomy for the Donbas region would be not be permanently guaranteed
+- Russia has refused to negotiate without a guarantee of permanent autonomy for the Donbas
+
+* How the United States can help solve the conflict
+
+** The terms of a viable settlement
+- The Biden administration should start by reaffirming its committment to Minsk II
+- A clear US committment to Minsk II would open the way for a US-Russian joint declaration of support for Minsk II
+- The Biden administration should also encourage unofficial meetings between citizens of the Donbas and representatives of US, European and Ukrainian civil society
+- The US should also address the main obstacle to Ukrainian support for the Minsk II agreement: the belief that guaranteeing autonomy for the Donbas would prevent Ukraine from joining NATO or the EU
+- Conversely the primary obstacle to the US playing a more constructive role in negotiations over the Donbas has been its committment to eventual Ukrainian membership in NATO
+- The US has not used any of its leverage over Ukraine to persuade the central government in Kiev to change its approach to the Donbas
+- The US needs to accept that Ukraine will not be joining NATO any time soon, because Ukrainian membership in NATO will instantly provoke an armed response from Russia
+- Minsk II represents the best deal that's likely to be had -- an end to the conflict and autonomy for the Donbas region inside a federal Ukraine
+- If the US government abandons the end goal of getting Ukraine into NATO, then it will be better positioned to bring diplomatic and economic pressure to bear to pressure Ukraine to come to an agreement with Russia
+- On the other hand, if the US is truly eager to bring Ukraine into NATO and the EU, it should quietly pressure Ukraine to let Russia annex the Donbas, as it has done with Crimea
+  - This would resolve the territorial conflict
+  - Would remove from Ukraine a large population that would be opposed to NATO and EU membership
+  - Although both Kiev and Washington have publicly opposed any kind of independence for the Donbas, this opposition could be quietly dropped if the conflict remains frozen for a long time
+- The US has repeatedly stated that the Minsk II process is the only path forward in this conflict
+- To that end, the US should seek to re-launch the Minsk II process, with the following two end goals
+  - A Ukrainian constitutional amendment establishing the Donbas as an autonomous region within Ukraine
+  - A regional constitution for a Donbas Autonomous Region to be submitted to the people of Donbas in a referendum overseen by the UN and the OSCE
+- If a majority of the voters in the Donbas oppose the (Ukrainian) constitutional amendment, then that would be taken as a vote for the Donbas remaining part of Ukraine under its current unitary constitution
+- If the voters in the Donbas approve the constitutional amendment granting them autonomy, then that amendment would then be submitted to the Ukrainian parliament in Kiev
+- If the Ukrainian parliament in Kiev rejected the constitution, then there would be a second referendum in Donbas, with a choice between remaining part of Ukraine under its current constitution, or becoming independent, with an option for joining Russia in the future
+- /I don't understand why Kiev would agree to any of this/
+- /I don't even understand why the people of the Donbas would agree to any of this/
+- In order to maintain impartiality, any referendum must take place prior to Ukraine assuming control over the Donbas
+- Police and courts would be provided for by the Donbas autonomous government
+- Military security would be provided for by a force of international peacekeepers drawn from neutral countries outside of Europe
+  - US and NATO forces would not be include
+  - Russian and Russian-allied forces would also not be included
+- This peacekeeping force would also supervise the disarmament of rebel groups and certify the withdrawal of Russian and Ukrainian armed forces
+- /The more I read of this proposal, the less acceptable I think it would be to the Ukrainian government in Kiev/
+- /What this amounts to is Ukraine losing effective sovereignty over a large part of its territory/
+- /This is tantamount to Canada accepting de-facto independence for Quebec, Spain accepting de-facto independence for Catalonia, or Russia accepting de-facto independence for Chechnya/
+
+** Federalism and its Precedents
+- There is support for a more federal Ukraine
+- A plurality of Ukrainians, 43% support devolving power to the regions
+  - /But this isn't the same as the Minsk II proposal/
+  - /That proposal is that only Donbas and Luhansk get autonomy -- everywhere else would be ruled by Kiev as normal/
+- A federal solution would be in line with international and democratic practice
+  - Both the US and Russia are federal systems
+  - While Russia's federal system severely circumscribes the practice of elections, it grants genuinely broad powers to autonomous republics in the areas of language, culture and education
+    - /Yes, broad powers that, in practice, are never used because the restrictions on elections ensure that only leaders friendly to Moscow get elected/
+  - /Comparing the proposed solution here to the US federal system is laughable/
+    - /The US federal government is in a superior position compared to state governments - federal law unconditionally overrides state law, and federal agents can swoop in and enforce federal law with or without permission from the states/
+    - /That's not what's being proposed for Ukraine; in Ukraine federal law would be subservient to local law in the Donbas region/
+- If a fully federal system for Ukraine is not viable, then we can propose an "asymmetric federation", where certain regions enjoy special status
+- Examples of asymmetric federations include
+  - Northern Ireland, Scotland and Wales in the UK
+  - Catalonia and the Basque autonomous community in Spain
+  - The Kurdistan Autonomous Provinces in Iraq
+  - Kashmir, in India
+- In the case of Northern Ireland, the Basque Country and Kashmir, the special status of the regions was established as the result of peace settlements to end separatist conflicts, or as a way to prevent separatist conflicts
+- /And, as the example of Kashmir shows, the existence of special autonomous regions will always stick in the craw of nationalists and they will end that autonomy as soon as they are able/
+- /No government in Ukraine can both/
+  1. /Make a guarantee to the people of the Donbas that they will have local autonomy into perpetuity and/
+  2. /Retain legitimacy with the rest of the Ukrainian people, especially those who live west of the Dneiper/
+- /It really frustrates me that the authors of this paper don't seem to be able to see something this obvious/
+- The Good Friday peace accord of 1998 is a good template for what can be achieved in the Donbas
+  - Took place with the close involvement and support of the United States
+  - Reformed the regional police force and placed it under regional control
+  - Guaranteed freedom of movement between the Republic of Ireland and the Northern Irish Territory
+    - /The latter was only achievable because both Ireland and the United Kingdom were members of the EU/
+    - /Freedom of movement has been undermined by Brexit/
+    - /This reinforces my point from above -- asymmetric federations are unstable/
+
+** Ukrainian Neutrality
+- Ideally a peace settlement would include a treaty establishing Ukrainian neutrality
+- Would be modeled on the Austrian State Treaty and the associated Austrian law on neutrality from 1955
+- Would last for 30 years, after which it could be ended or renewed
+- /The problem is that Russia doesn't want Kiev to be neutral for 30 years, Russia wants Kiev to be neutral forever, and isn't willing to accept a time-limited guarantee from NATO/
+- A treaty guaranteeing Ukrainian neutrality would cost Ukraine and the United States nothing because Ukrainian membership in NATO is already impossible due to the ongoing conflicts in the Donbas
+- Furthermore, a neutrality treaty would also serve to reduce Russian influence in Ukraine by ruling out Ukrainian membership in any Russia-backed treaties or alliances
+- /So why would Russia accept this?/
+- Russia would accept this because the uprising of 2014-15 made it clear to Russia that any attempts to overtly influence Ukraine's internal politics would result in a severe backlash
+- Ukraine should follow the path of Finland, Sweden and Austria, all countries that remained neutral during the Cold War and joined the EU after becoming stable liberal democracies
+
+** Settling the Crimea Issue
+- There is no chance that Russia will return Crimea to Ukraine
+- The idea of Crimea as being part of Russia is something that transcends Vladimir Putin's government
+- Sevastopol is an important military outpost for Russia
+  - Russia's only major base on the Black Sea
+  - Has been the major southern outpost for Russian forces for well over a century
+  - Comparable to Pearl Harbor for the US
+- Sevastopol holds cultural importance for Russians
+  - Site of two major sieges
+    - Crimean War
+    - World War 2
+  - The defense of Sevastopol in World War 2, while less remarked upon in the West, was no less important for Russia than the defense of Stalingrad
+- Any Russian government that gave up Sevastopol to Ukraine (short of Ukraine rejoining a close military-political alliance with Russia) would be giving up its legitimacy in the eyes of the Russian people
+- One option for the US is to shelve the Crimea issue and hope that everyone forgets about it
+  - Treat Crimea the same way that the US treats Kashmir
+  - Don't acknowledge Russia's annexation
+  - Don't bring it up in discussions either
+- However, this gives the Ukrainian government a point of leverage
+  - Ukraine has already repeatedly threatened the Crimean peninsula's fresh water supply
+  - Leaves US sanctions as a permanent barrier against improvements in relations with Russia
+- Therefore the US should sponsor another OSCE and UN supervised referendum in Crimea
+- If most residents of Crimea agree to join Russia (as would be expected), then Crimea should be allowed to rejoin Russia
+- In return, the West should ask for Russian recognition of the independence of Kosovo from Serbia
+
+** The Benefits of a Donbas Settlement
+- All parties have strong incentives to agree to a settlement along the lines set out above
+  - US
+    - Great-power conflict with Russia diverts resources and attention from great-power conflict with China
+    - Hostility between the US and Russia is increasingly driving the creation of a Sino-Russian anti-US axis
+    - Ukraine has been a major obstacle to diplomacy with Russia on a number of other issues, such as arms control, preventing Iran from becoming a nuclear state, and cybersecurity cooperation
+  - Russia
+    - Recovery of geopolitical and economic freedom
+    - Lifting of economic sanctions
+  - Ukraine
+    - A deal would eliminate the possibility of a devastating war
+    - A generation of peace and stability, with free access to Western aid
+    - Ukraine could join the West in real terms, rather than symbolically
+- The US and EU should not defer to the views of Ukrainian nationalists
+- Ukrainian nationalist should be happy to see Donbas and Crimea go, because the removal of those provinces removes a significant portion of the electorate that was pro-Russia and opposed Ukrainization
+- Deferring to Ukrainian nationalists risks Ukraine becoming a majoritarian state like Hungary or Poland
+
+* Conclusion
+- A future settlement of the Donbas conflict should be based on the Minsk II proposal
+- US should abandon its position demanding an unconditional return of the Crimean peninsula to Ukraine
+- US is unlikely to be able to bring enough economic pressure to bear to force Russia to give up its claims to Donbas and the Crimean peninsula
+- US is very unlikely to commit troops to fight a war to bring those areas back under Ukrainian control
+- The current US policy over the Donbas has the characteristics of a zombie: no chance of success, but we can't bring ourselves to bury it
+- We should not allow Ukraine to define our relationship with Russia over the long term

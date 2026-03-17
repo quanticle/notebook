@@ -1,0 +1,19 @@
+* Google Search Tips
+
+** Exclude Wikipedia
+- Add the following to the search query: =-site:wikipedia.org -site:fandom.com -site:wikiwand.com -site:vproxy.ws -site:tr2tr.wiki -site:de2de.wiki -site:wikidata.org=
+
+** Google search operators
+- [[https://ahrefs.com/blog/google-advanced-search-operators/][Search operator reference]]
+- Operators
+  - =OR=: Boolean OR --- get pages where any one of the terms is listed
+  - =AND=: Boolean AND --- this is the default operator, but it can be helpful sometimes to make it explicit
+  - =-=: Exclude (i.e. NOT)
+  - =*=: Wildcard --- matches any word or phrase (e.g. =foo * bar= matches =foo baz bar=)
+  - =( )=: Grouping (e.g. =foo (bar OR baz)= matches =foo bar= and =foo baz=)
+  - =$=: Search prices
+  - =define:= search for the definition of a word
+  - =filetype=: Search for a particular filetype (e.g. =filetype:pdf=)
+  - =site:=: Limit search results to a particular site (e.g. =site:en.wikipedia.org= to search just Wikipedia)
+  - =related:=: Limit search results to those related to a given domain (e.g. =related:apple.com=)
+  - =AROUND(X)=: Proximity search --- =a AROUND(10) b= searches for any =b= that's within 10 words of =a=

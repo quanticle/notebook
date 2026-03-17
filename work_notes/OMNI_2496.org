@@ -1,0 +1,42 @@
+* OMNI-2496: Fix Wetlands and Critical Habitat Yes/No Calculation
+- Error message:
+  #+BEGIN_EXAMPLE
+    2021-07-29 16:37:29,484 chalicelib.baker_service.gis.gis_project_boundary_ingest [gis_project_boundary_ingest.py:191] WARNING: Unable to update wetland and jurisdictional waters intersection with error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), skipping.
+    2021-07-29 16:37:29,484 chalicelib.baker_service.gis.gis_project_boundary_ingest [gis_project_boundary_ingest.py:200] WARNING: Unable to update critical habitat intersection with error retrieve_feature_count() missing 1 required positional argument: 'where', skipping.
+  #+END_EXAMPLE
+- Look at 2nd message first
+  - =WARNING: Unable to update critical habitat intersection with error retrieve_feature_count() missing 1 required positional argument: 'where', skipping.=
+  - =retrieve_feature_count= has =where= as a required parameter, unlike =retrieve_feature_collection=
+  - Critical habitat code is returning the following: ={"type":"FeatureCollection","properties":{"count":0},"features":[]}=
+  - I need to add a check for ~FeatureCollection~s:
+    #+BEGIN_EXAMPLE
+      if response_data.get("type", None) == "FeatureCollection":
+          total_feature_count += int(response_data["properties"]["count"]
+      else:
+          total_feature_count += int(response_data["count"])
+    #+END_EXAMPLE
+  - Also need to add a unit test for this code, in =test_arcgis_client=
+- Look at =WARNING: Unable to update wetland and jurisdictional waters intersection with error ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), skipping.=
+  - Run live test
+  - Can replicate =Connection aborted= error locally
+  - Seems to be a timeout
+  - What are the actual parameters that we're sending?
+    #+BEGIN_EXAMPLE
+      {'f': 'geojson',
+       'geometry': '-96.30125857019968,44.19010124043553,-96.16965156426305,44.284889018971185',
+       'geometryType': 'esriGeometryEnvelope',
+       'inSR': '{"wkid": 4326}',
+       'outFields': '*',
+       'returnCountOnly': 'true',
+       'where': '1=1'}
+    #+END_EXAMPLE
+  - Endpoint URL: =https://www.fws.gov/wetlands/arcgis/rest/services/Wetlands/MapServer/0=
+  - Omitting the =where= parameter seems to help?
+    - I need to update =build_feature_params= to only put in the =where= string if it's present
+    - Adding a default value of ~1~1= seems to screw up the wetlands yes/no calculation
+    - Also omit =outFields= if that parameter isn't present
+    - Getting rid of =where= and =outFields= seems to help in the browser, but when querying from Python, I'm still getting the =Connection aborted= error
+  - Do I need to supply a =User-Agent= header?
+  - Server seems to be really flaky
+  - Can we cache the result of the wetland calculation?
+    - How would we know when to invalidate the cache?

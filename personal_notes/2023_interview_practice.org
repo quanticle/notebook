@@ -1,0 +1,43 @@
+#+TITLE: 2023 Job Hunt Interview Practice
+
+* Sources and Outline
+- Elements of Programming Interviews In Python -- follow table on page 9
+- LeetCode (medium and hard)
+
+* Problems
+
+** EPI 4.1: Computing the parity of a word
+
+*** Question
+- The parity of a word is 1 if the number of 1s in the word is odd, otherwise it is 0
+- Example:
+  - =parity(0b1011)= → =1=
+  - =parity(0b10001000)= → =0=
+- How would you compute the parity of a very large number of 64-bit words?
+
+*** Answer
+- We can start with the brute-force algorithm that iteratively computes the parity, one bit at a time:
+  #+begin_src python
+    def parity(x: int) -> int:
+        result = 0
+        while x:
+            result ^= x & 1
+            x >>= 1
+        return result
+  #+end_src
+- However, this algorithm $O(n)$ over the word-size $n$, so it would be too slow to use on a large number of words
+- We can improve the algorithm by speeding up the process of dropping the last bit
+- A useful trick is to note that =x & (x - 1)= results in =x= with the lowest set bit erased
+  #+begin_src python
+    def parity(x: int) -> int:
+        result = 0
+        while x:
+            result ^= 1
+            x &= x - 1
+        return result
+  #+end_src
+  - =x &​= (x - 1)= removes the least significant =1= from =x=
+  - =result ^​= 1= just flips the value of the result back and forth from =0= to =1=
+  - Ends on =1= if there are an odd number of ones, otherwise ends on =0=
+- However, even this faster algorithm is too slow to compute the parity of many words
+

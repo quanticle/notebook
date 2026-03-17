@@ -1,0 +1,110 @@
+#+TITLE: New Immigration Estimates Help Make Sense of the Pace of Employment
+#+OPTIONS: toc:1
+#+OPTIONS: ^:{}
+
+Authors:\\
+Wendy Edelberg\\
+Tara Hamilton
+
+[[https://www.brookings.edu/wp-content/uploads/2024/03/20240307_ImmigrationEmployment_Paper.pdf][Brookings Institution]]
+
+- What are the macroeconomic implications of recent immigration flows
+- Actual immigration over the past several years has been much higher than immigration flows projected by the Congressional Budget Office (CBO) --- 3.3 million in 2023 versus 1.0 million projected
+- This means that the labor force has been growing faster than the estimates reported by the Bureau of Labor Statistics (BLS)
+- Prior to the pandemic, population and labor-force participation projections suggested that the sustainable rate of employment growth (i.e. employment growth that doesn't result in increased inflation) would be between 60,000 and 140,000 per month in 2022, with a projected fall to between 60,000 and 100,000 per month in 2024 as the population aged and labor-force participation declined
+- However, in 2023, actual job growth was 255,000 per month, anywhere between 2x and 4x the sustainable rate of growth
+- Many observers took this as an indication that labor demand was too high and needed to be reduced in order to curb inflation
+- However, using new CBO estimates of immigration, this report estimates that the current sustainable rate of employment growth is between 160,000 and 230,000 jobs per month
+- This is still lower than the actual number of jobs added, but is far closer than pre-pandemic estimates
+- High immigration also explains the surprising strength in consumer spending
+
+* What Are The Recent Immigration Flows Into the US?
+- Population growth is determined by the combination of the natural rate of change (births minus deaths) and net migration
+- High quality data exists for births and deaths
+- Migration is more uncertain
+  - Social Security Administration projected net migration of 2.0 million in 2023 in its Trustees Report
+  - US Census Bureau projected a net migration of 1.1 million from July 2022 to July 2023
+  - Congressional Budget Office released a net migration estimate of 3.3 million for 2023
+- Why is CBO's estimate so much higher?
+- Analyze migration by category
+  - Lawful Permanent Resident (LPR, or green card)
+    - People living in the US acquiring green cards
+    - People on H1B work visas transitioning from temporary to permanent status
+    - Undocumented immigrants who have been able to adjust their status
+    - Family members of US citizens or permanent residents who have been able to come to the US and gain permanent citizenship
+    - People granted asylum or refugee status
+    - CBO estimates a net migration of 800,000 green card holders
+      - This is a reasonable estimate based on data from the Department of Homeland Security which indicates that roughly 1 million green cards were granted
+      - There is insufficient data on outmigration, but 800,000 is in line with historical estimates
+  - INA Nonimmigrant
+    - Includes employment visas (like H1B), student visas, etc
+    - Group is responsible for millions of inflows and outflows each year, but outflows do not match inflows because some visa holders transition to permanent residency
+    - CBO estimates that there were roughly 90,000 entries into temporary visa status in 2023
+    - This estimate is also in line with historical trends
+    - /Note: in order to avoid double counting, a person on a work visa getting a H1B is counted as a "migration" out of INA Nonimmigrant status and into Lawful Permanent Resident status/
+    - /Therefore the 90,000 estimate is the estimate of the number of people gaining visas minus the number of people losing visas, either by leaving the country or by becoming permanent residents/
+  - Other nonimmigrants
+    - The largest deviation from historical trends is in the "other nonimmigrant" category
+    - Includes immigrants with a nonlegal or pending status
+    - In FY 2023 almost 1 million people were given a "notice to appear", granting them permission to petition an immigration court for asylum or other relief
+    - Most of these people are waiting in the US for the asylum court queue, which has a backlog of over a million cases
+    - In addition, 800,000 have been granted humanitarian parole
+    - While these 1.8 million people may or may not remain in the US permanently, for now, they are living here and participating in the economy
+    - The CBO also estimates that 860,000 people crossed the border surrpetitiously, however this estimate is speculative
+    - CBO estimates that there were approximately 430,000 people who overstayed temporary visas
+    - Counterbalancing these inflows into the other nonimmigrant category is an outflow of 660,000, either due to people departing the country or gaining permanent status
+    - This results in an estimated net increase of 2.4 to 2.5 million
+    - Estimate could be closer to 2 million if the estimate of people surreptitiously entering is too high
+- These three categories combined result in an estimated 3.3 million net entries into the United States
+- Although this estimate is subject to uncertainty due to lack of data on unencountered border crossings, visa overstays and emigration, it is not unreasonable given other data on border encounters and general immigration trends
+
+* Effect of Immigration on Population Growth
+- Net immigration has been the primary driver of population growth in the US over the past two years
+  [[file:~/Downloads/immigration_contribution_to_population_growth.png]]
+
+* Effect of Recent Increases in Immigration on Labor Force Growth
+- The size of the labor force changes because of two factors
+  - Changes in the civilian non-institutionalized population (CNIP)
+  - Changes in labor force participation rates
+- The increase in immigration reflected in CBO's numbers has had a significant impact on the size of the labor force
+- That increases in the labor force does not appear in the BLS's estimates, which are based on Census population numbers
+- Brookings estimates that 81% of immigrants are over the age of 16, and thus eligible to participate in the labor force
+- Therefore, while the BLS's estimates indicate that the size the labor force has increased by 1.5 million, factoring in estimates of immigration indicates an increase of anywhere between 2.5 and 4.2 million, depending on which estimate of net immigration is used
+  [[file:~/Downloads/immigration_contribution_to_cnip.png]]
+- Note that the BLS estimates and the estimates incorporating proxy measures of immigration are quite close to one another until 2021, and then diverge sharply, with a gap of almost 3 million by 2024
+
+* CNIP and Labor Force Growth
+- The previous section has established that immigration has likely increased CNIP beyond BLS estimates by a significant amount
+- The next step is to determine the labor force participation rates of immigrants
+- Immigrants generally have high labor force participation rates, but there are often delays imposed by the immigration process that prevent immigrants from integrating into the labor force immediately, leading to a trend where labor force participation increases over time
+  [[file:~/Downloads/immigrant_labor_force_participation_rates.png]]
+- The report assumes an average labor force participation rate of 66% for immigrants
+- The analysis does not diverge much when alternative plausible participation rates are used
+
+* Implications for Employment Growth from Higher Estimates of CNIP
+- If these estimates are correct, the growth in the labor force is larger than that suggested by the BLS's Household Survey, which is based on Census population estimates
+- Stronger labor-force growth implies that the economy can add more jobs while still operating sustainably at "full employment"
+- Prior to the pandemic, forecasters generally agreed that the economy could sutainably add 60,000 to 140,000 jobs every month in 2022, with that range falling to between 60,000 and 100,000 per month 2024 as the population aged and more people retired
+- However, the actual number of jobs added in 2023 was 255,000 per month, between two and four times the previously estimated sustainable rate
+- After adjusting for the uptick in immigration, however, the estimated range of the number of jobs that can be sustainably added rises to between 160,000 and 230,000 per month
+- Although the 255,000 jobs added monthly still exceed this range, it is no longer a dramatic overshoot
+- If immigration flows continue, the economy will be able to add around 200,000 jobs per month in 2024
+- The relationship between immigration and employment growth holds in more granular data --- states that had a greater share of immigration also saw correspondingly higher increases in monthly payrolls
+
+* Effect of Recent Increases In Immigration on Aggregate Demand for Goods and Services
+- Increases in immigration can also help explain the surprising robustness of consumer demand in the face of higher interest rates
+- One notable fact about recent immigration is that it has not been accompanied by an increase in remittances --- immigrants are spending their earnings in the United States
+- The boost to growth in consumer spending is estimated to be around 0.1% in 2022 and 0.2% in 2023 and 2024
+- This is out of a total rate of growth of 1.2% in 2022 and 2.7% in 2023
+- The effect of immigration on consumer spending is small, but real
+- The effect of immigration on inflation varies across sectors, but is likely close to zero because the additional aggregate demand from new immigrants is offset by the additional aggregate supply generated by them working
+- However, in particular sectors, immigration may have resulted in increased prices
+  - Immigrants likely required businesses to spend on additional capital in order to allow those immigrants to do the work for which they've been hired to do
+  - Government spending has likely increased as a result of immigration, e.g. because of states hiring more teachers than they otherwise would have
+  - The production and consumption of goods by immigrants may not be perfectly offset, leading to increased production relative to pre-pandemic baselines in some areas and increased consumption in others
+  - Immigration likely has increased the demand for rental housing
+
+* My Thoughts
+- /The author's intent is for this report to be read as a pro-immigration report, but it can just as easily be read as an anti-immigration argument/
+- /The fact that the economy managed to add roughly 4x the predicted number of jobs without any wage pressure implies that immigration (and illegal immigration more specifically) held down wages/
+- /In other words, they took our jerbs!/

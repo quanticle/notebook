@@ -1,0 +1,42 @@
+#+TITLE: United States Armored Brigade Combat Team Organization
+
+* 1st Armored Brigade Combat Team
+- 6th Squadron, 1st Cavalry Regiment --- Cavalry squadron
+- 2nd Battalion, 37th Armor Regiment --- Armor battalion
+- 4th Battalion, 70th Armor Regiment --- Armor battalion
+- 1st Battalion, 36th Infantry Regiment --- Mechanized infantry battalion
+- 2nd Battalion, 3rd Field Artillery Regiment --- Field Artillery
+
+* Cavalry Squadron
+- Headquarters and headquarters troop
+- 3x cavalry troop (3x 12 M3A3 Bradley)
+- Tank company (1x 14 M1A2 Abrams)
+
+* Armor Battalion
+- Headquarters and headquarters company
+- 2x Tank company (2x 14 M1A2 Abrams)
+- Mechanized infantry company (1x 14 M2 Bradley)
+
+* Mechanized Infantry Battalion
+- Headquarters and headquarters company
+- Tank company (1x 14 M1A2 Abrams)
+- 2x Mechanized infantry company (2x 14 M2 Bradley)
+
+* Field Artillery Battalion
+- Headquarters and headquarters company
+- 3x 155mm self-propelled howitzer battery (3x 6 M109A6 Paladin)
+
+* Total
+- Armored/Infantry fighting vehicles
+  - 36 (Cavalry squadron)
+  - 2x 14 (Armor battalions)
+  - 2x 14 (Mechanized infantry battalion)
+  - *Total*: 92 armored fighting vehicles
+- Main battle tanks
+  - 14 (Cavalry squadron)
+  - 2x 14 (Armor battalions)
+  - 14 (Mechanized infantry battalion)
+  - *Total*: 84 main battle tanks
+- Self-propelled howitzers
+  - 3x howitzer battery (3x 6 self-propelled howitzers)
+  - *Total*: 18 self-propelled howeitzers

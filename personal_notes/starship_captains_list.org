@@ -1,0 +1,11 @@
+#+TITLE: Starship Captain's List
+
+Inspired by the [[https://tvtropes.org/pmwiki/pmwiki.php/Main/EvilOverlordList][Evil Overlord list]], I've compiled a list of things that I would do if I were a Federation starship captain
+
+- I will mandate that all bridge stations have chairs with seatbelts
+- If there is a yellow alert or red alert, all bridge crew will sit down in their designated seats and put seatbelts on first
+- All command consoles will be designed to use low-voltage power, and will have redundant safety interlocks to avoid any kind of fire or electrocution hazard to their operators
+- Sickbay crew will wear basic PPE (masks, gloves, etc) whenever conducting any kind of medical evaluation, even if the scanners report no danger of infectious substances
+- No children will be allowed on the bridge, no matter how many pouty looks the chief medical officer gives me about her genius son
+- There will be a standing order that, if any senior officer notices their subordinates or any other senior officer behaving strangely, they will report it to me, or, if I am unavailable, the first officer
+- Unexplained scientific phenomena will be surveyed at a distance by an array of automated probes before I bring my starship in close

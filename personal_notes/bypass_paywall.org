@@ -1,0 +1,68 @@
+#+TITLE: Bypass Paywalls
+
+** The Atlantic
+- How does =archive.is= get into The Atlantic?
+- I think it has something to do with cookies
+- Where is =theatlantic.com= defined?
+  - Defined in =sites.js=, in the =defaultSites= array
+  - =defaultSites= just populates the default value of the =sites= map in local storage, in =chrome.extensionApi.storage=
+- Look for =extensionapi.storage.sync.get=
+- Those sites are loaded into =enabledSites=
+- This handles removing cookies
+  #+begin_src javascript
+    // remove cookies after page load
+    extensionApi.webRequest.onCompleted.addListener(function (details) {
+      let domainToRemove;
+      for (const domain of _removeCookies) {
+        if (enabledSites.includes(domain) && matchUrlDomain(domain, details.url)) {
+          domainToRemove = domain;
+          break;
+        }
+      }
+      if (domainToRemove) {
+        extensionApi.cookies.getAll({ domain: domainToRemove }, function (cookies) {
+          for (const ck of cookies) {
+            const cookie = {
+              url: (ck.secure ? 'https://' : 'http://') + ck.domain + ck.path,
+              name: ck.name,
+              storeId: ck.storeId
+            };
+            // .firstPartyDomain = undefined on Chrome (doesn't support it)
+            if (ck.firstPartyDomain !== undefined) {
+              cookie.firstPartyDomain = ck.firstPartyDomain;
+            }
+            const cookieDomain = ck.domain;
+            const rcDomain = cookieDomain.replace(/^(\.?www\.|\.)/, '');
+            // hold specific cookie(s) from removeCookies domains
+            if ((rcDomain in removeCookiesSelectHold) && removeCookiesSelectHold[rcDomain].includes(ck.name)) {
+              continue; // don't remove specific cookie
+            }
+            // drop only specific cookie(s) from removeCookies domains
+            if ((rcDomain in removeCookiesSelectDrop) && !(removeCookiesSelectDrop[rcDomain].includes(ck.name))) {
+              continue; // only remove specific cookie
+            }
+            extensionApi.cookies.remove(cookie);
+          }
+        });
+      }
+    }, {
+      urls: ['<all_urls>']
+    });
+  #+end_src
+- The Atlantic does load the full text initially prior to hiding it with Javacript
+- There's a =<script>= tag, with the id =__NEXT_DATA__=, which has a bunch of stuff
+  - =isLoggedIn=
+  - =hasPaywallAccess=
+  - =hasAdFree=
+- What I want to do is update those properties /before/ Javascript executes
+- Maybe there's a script I can run at =document_start=, where I can parse the contents of =__NEXT_DATA__= and rewrite it before the scripts run?
+- Seems like I actually want the script to load in at =document_end=
+- Bypass Paywalls already injects its script at =document_start= → =background.js:475=
+- So I should maybe just write some code in the matcher for /The Atlantic/ to update that =__NEXT_DATA__= element
+- What I need to do is
+  - Parse the contents of =__NEXT_DATA__= into JSON
+  - Update the =isLoggedIn=, =hasPaywallAccess= and =hasAdFree= properties
+  - Set the contents of the =__NEXT_DATA__= element to the string value of the updated JSON
+- To parse a string into JSON: =JSON.parse()=
+- To turn a string back into JSON: =JSON.stringify()=
+- Get the contents of the script tag with the =innerHTML= property

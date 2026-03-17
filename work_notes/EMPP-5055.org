@@ -1,0 +1,317 @@
+* EMPP-5055
+[[https://wlweb.windlogics.com/radar/browse/EMPP-5055#][Ticket Link]]
+
+** Setup Notes
+- Code looks like it lives in the [[https://gitlab.windlogics.com/internal/empp/empp-ui][EMPP-UI Repo]]
+- To set up
+  - =nvm use 12=
+  - =npm install=
+  - Build the code with =npm run ng build=
+    - Errors out:
+      #+BEGIN_EXAMPLE
+        An unhandled exception occurred: call retries were exceeded
+      #+END_EXAMPLE
+    - Looks like an error in =jest=?
+  - How does the build server build the code?
+    - =npm ci= → cleans the =node_modules= directory and runs =npm install=
+    - =npm run test:CI=
+    - =npm run buildDev=
+  - To start the UI, run =npm run start-no-live-reload= → starts the UI without live-reloading changes
+    - Errors:
+      #+BEGIN_EXAMPLE
+        An unhandled exception occurred: getaddrinfo ENOTFOUND designer-local.nexteraanalytics.com
+        See "/private/var/folders/kl/kdmhzxcj3t39cx9jz91z4rrm0000gp/T/ng-98Csm1/angular-errors.log" for further details.
+      #+END_EXAMPLE
+      - It's looking for =designer-local.nexteraanalytics.com=
+      - Doesn't look like I can run the UI locally for now
+
+** Problem Description
+- Display new metric in table
+- Where is the table?
+  - Batch scenario results table
+    - Go to [[https://designer-dev.nexteraanalytics.com/iro/#/batch][Batch scenarios]]
+    - [[https://designer-dev.nexteraanalytics.com/iro/#/batch/results/a74d1292-9902-4c92-b89e-60787e251471][Example results table]]
+- Where does this table get its data from?
+- We need a new metric, "% of optimal", which is calculated as (design IRR) / (top design IRR)
+
+** Notes
+- The batch simulation results table is output by =batch-results.component.html=
+- The table defined by =<mat-table [dataSource]="batchResultsDataSource" matSort>=
+- =batchResultsDataSource= is defined in =batch-results.component.ts=
+- The data comes from =batchResultsService=:
+  #+BEGIN_EXAMPLE
+    loadData() {
+        this.loading = true;
+        this.storeService.markLoadingInProgress('Loading Batch Scenario Results');
+        this.store$.dispatch(new FetchChangesetForScenarioId(this.scenarioId));
+        this.batchResultsService
+            .getResults(this.scenarioId)
+            .pipe(
+                take(1),
+                finalize(() => {
+                    this.loading = false;
+                    this.storeService.markLoadingComplete();
+                })
+            )
+            .subscribe(
+                resp => {
+                    this.batchResultsDataSource.data = resp['childScenarioResults'];
+                    this.resultsCount = resp['childScenarioResults'].length;
+                    this.columns = resp['columns'];
+                    this.updateDisplayedColumns();
+                },
+                err => {
+                    console.error(err);
+                }
+            );
+        this.scenarioService
+            .getScenarioById$(this.scenarioId)
+            .pipe(takeUntil(this.destroy$))
+            .subscribe(scenarioData => {
+                this.scenarioData = scenarioData;
+                this.updateDisplayedColumns();
+            });
+        this.loadBatchLayout();
+        if (!this.batchLayoutReloadSubscription) {
+            this.batchLayoutReloadSubscription = interval(30000)
+                .pipe(takeUntil(this.destroy$))
+                .subscribe(_ => this.loadBatchLayout());
+        }
+        this.jobService
+            .listBatchChunks(this.scenarioId)
+            .pipe(take(1))
+            .subscribe(
+                resp => {
+                    this.batchChunkCount = resp.batchChunks.length;
+                    this.completedBatchChunkCount = resp.batchChunks.filter(
+                        chunk => chunk.status === EMPPJobStatus.SUCCESSFUL
+                    ).length;
+                },
+                err => {
+                    console.error(err);
+                }
+            );
+    };
+  #+END_EXAMPLE
+- =batchResultsService= is passed in to the constructor of =BatchResultsComponent=
+- =batchResultsService= exposes a single method:
+  #+BEGIN_EXAMPLE
+    public getResults(parentScenarioId: string): Observable<any> {
+        return this.http.get<any>('/api/iro/job/batch/' + parentScenarioId + '/result');
+    }
+  #+END_EXAMPLE
+- [[https://angular.io/guide/rx-library][=.pipe=]] is an Angular RX library function that allows you to combine multiple functions into a single function
+- I need to look at what listens to ='/api/iro/job/batch/' + parentScenarioId + '/result')=
+- Look at the response in developer tools → see if the IRR data is already present in the response
+- The IRR data is not in the response → need to add it
+- Where is the endpoint that handles this request?
+- Look at =empp-api-job=?
+- What handles that endpoint?
+  - Look in Amazon API gateway
+  - Handled by =empp-api-job-batch-result-dev=
+- Request is handled by: =com.focusenergy.empp.api.job.lambda.api.GetBatchResult::handleRequest=
+  - =handleRequest= gets the results from S3 and reads them out as JSON
+- What writes the results into S3? Look at =batchResultsUtil.combineProcessedChunks=
+- =combineProcessedChunks=
+  - Takes the processed chunks
+  - Combines them into a single file
+  - Writes the combined file into S3
+  - Returns the S3 path that it wrote
+- But where do the chunks come from? I think each chunk needs to have the IRR value on it
+- Look at usages of =JobUtil.buildS3PrefixChunkResult=
+- Only used in =combineProcessedChunks=
+- What kind of data do we store in the batch result
+  - Look at =buildS3KeyBatchResult= for location
+  - =$parentScenarioid/result.json=
+  - Which S3 bucket is this getting stored in?
+  - Comes from the =S3_BUCKET= environment variable
+  - =${s3BucketPrefix}-${stage}=
+  - =s3BucketPrefix= is =wl-empp-api-job= by default
+- I need to look at =JobUtil.getScenarioRecord=
+  - Calls the =empp-api-scenario-get= lambda?
+  - Implemented in =empp-api-scenario-get-{stage}=
+  - Calls =api.get.event_handler=
+  - But that reaches into the database?
+- I need to find out what /writes/ =result.json=
+- Something reads =outputs/output.json.gz= and writes =result_{chunk_num}.json=
+- According to Tanner, I should be looking at =BatchResultUtil.kt=
+- How does =BatchResultUtil.kt= write =result_{chunk_num}.json=?
+  - =result_= is referenced in two =JobUtil= functions:
+    - =buildS3KeyChunkResult=
+    - =buildS3PrefixChunkResult=
+- =BatchResultUtil= calls =JobUtil.buildS3KeyChunkResult= (line 59), in the =processChunkItem= function
+- =processChunkItem= calls =getChildScenarioResults=
+- =getChildScenarioResults= calls =getChildScenarioResultsOptimizerValues=
+- =getChildScenarioResultsOptimizerValues= adds the data to the child scenario results file
+- But what adds the columns?
+- Looks like it's =getResultsColumns=
+- I need to add a percent-of-optimal column and sort the results by that column
+- In order to calculate the percent of optimal, I need to
+  1. Find the maximum IRR
+  2. For each result, calculate =pctOptimal = unleveredIRR/maximumIRR=
+  3. Sort the results by =pctOptimal=
+- The problem is that we build up the results in two steps
+  - =processChunkItem= builds up the intermediate results, by extracting data from =outputs/output.json.gz= and writing it to =result_{chunkNum}.json=
+  - =combinedProcessedChunks= combines the =result_{chunkNum}.json= files into a single =results.json= output
+- So what I need to do is
+  1. Update =processChunkItem= to include the IRR data in the =result_{chunkNum}.json= files
+     - Unit test failures
+       - =ProcessBatchResultTest.testProcessChunk= - =Expected <500> but was <200>=
+       - =ProcessBatchResultTest.testProcessChunkWithFailures= - =Expected <500> but was <200>=
+       - =ProcessBatchResultTest.testProcessDeliveredEnergyChunk= - =Expected <500> but was <200>=
+       - =ProcessBatchResultTest.testProcessAllCompletedChunks= - =Expected <500> but was <200>=
+     - In all of these, the =apigwProxyResponse.statusCode= is =500= instead of =200=
+     - =testProcessChunk=:
+       #+BEGIN_EXAMPLE
+         fun testProcessChunk() {
+             val apigwProxyResponse = invokeApiWithEvent(ProcessBatchResultEvent(parentScenarioId, chunkNum))
+             assertEquals(apigwProxyResponse.statusCode, 200)
+             argumentCaptor<Map<String, any>>().apply {
+                 verify(mockAwsUtil, times(1)).saveAsS3Object(eq(jobBucket), eq(JobUtil.buildS3KeyChunkResult(parentScenarioId, 1)), capture(), any())
+                 assertEquals(3, (firstValue["childScenarioResults"] as List<Map<String, String>>).size)
+             }
+         }
+       #+END_EXAMPLE
+       - What are =parentScenarioId= and =chunkNum=?
+       - Hardcoded values for the test
+       - What is =ProcessBatchResultEvent= doing?
+     - =ProcessBatchResultEvent=
+       #+BEGIN_EXAMPLE
+         data class ProcessBatchResultEvent(val parentScenarioId: String, val chunkNum: Int?, val allCompletedChunks: Boolean = false)
+       #+END_EXAMPLE
+     - What is a =data class=
+       - A data class is a class with autogenerated support for copying, comparison and destructuring
+     - What is =invokeApiWithEvent= doing?
+       #+BEGIN_EXAMPLE
+         invokeApiWithEvent(event: ProcessBatchResultEvent): AwsProxyResponse {
+             val inputStream = ByteArrayInputStream(jacksonObjectMapper().writeValueAsBytes(event))
+             val outputStream = ByteArrayOutputStream()
+             val context = MockLambdaContext()
+             processBatchResult.handleRequest(inputStream, outputStream, context)
+             return jacksonObjectMapper().readValue(String(outputStream.toByteArray()))
+         }
+       #+END_EXAMPLE
+     - =invokeApiWithEvent= is what's actually calling =ProcessBatchResult=
+     - =ProcessBatchResult.handleRequest= is catching an exception and returning =500=, hence the test failure
+     - How do I debug these unit tests?
+       - Attempting to run the unit tests from the IDE causes failures
+       - To fix, I need to set the test runner to "IntelliJ IDEA" rather than "Gradle"
+         - =Build, Execution, Deployment -> Build Tools -> Gradle=
+           - Set both =Build and Run= and =Run Tests Using= to =IntelliJ=
+     - In the case of =TestProcessChunk=, =ProcessBatchResult.handleRequest= is calling =BatchResultUtil.processChunk(parentScenarioId, chunkNum, jobBucket, batchBucket, batchJobChunkTable, logger)=
+     - The problem is that =jobUtil.getOptimizerOutput= is returning the wrong data in a unit test context
+       #+BEGIN_EXAMPLE
+         fun getOptimizerOutput(s3Bucket: string, batchScenarioId: string): JsonNode {
+             val configNode = getConfigJsonFromSe(s3Bucket, batchScenarioId)
+             val outputPath = configNode.get("outputPath").textValue()
+             try {
+                 return awsUtil.openFileAsJsonNode(outputPath)
+             } catch (e: Exception) {
+                 throw S3ReadException("Unable to retrieve output file from s3 from $outputPath.\nInner exception:\n" + generateInnerExceptionMessage(e))
+             }
+         }
+       #+END_EXAMPLE
+     - Where is =getOptimizerOutput= getting its data from?
+     - In the test, =getOptimizerOutput= is getting its data from =batch-demandManagement-ouptut.json=
+     - How is the JSON result data getting chopped up and passed to the various functions?
+     - =getChildScenarioResults= gets the optimizer output (=jobUtil.getOptimizerOutput(batchBucket, batchScenarioID)=)
+     - Calls =getChildScenarioResultsOptimizerValues(input, JobUtil.getEmppSolution(optimizerOutput))=
+     - What does =JobUtil.getEmppSolution()= do?
+       - Looks for either a =solutions= node or a =sampledSolutions.solutions= node
+       - In the real output, =unleveredIRR= is part of each object inside the =solutions= array, just after =annualCost=
+       - Adding an =unleveredIRR= value to the =solutions[0]= value in =batch-demandManagement-output.json= fixes the broken unit tests
+  2. Update =combineProcessedChunks= to calculate the percent of optimal metric and add it to the final results
+     - What is the formula for combining the =unleveredIRR= metrics?
+     - $\frac{\textrm{IRR} + 1}{\textrm{Best_IRR} + 1}$
+     - If Best_IRR is 0, just return 0
+     - =ProcessBatchResultTest= fails
+       - =testProcessAllCompletedChunks=
+       - =testProcessScenario=
+- [[https://designer-dev.nexteraanalytics.com/iro/#/batch/results/a8f9b822-f421-40ab-8e1b-3076f2ea5adf][Percent of optimal is empty]]
+  - Problem is that the column spec was looking for =percentOptimal= while we were storing the data as =pctOptimal=
+
+** 2021-12-15 Missing Results
+- [[https://nexteraanalytics.slack.com/archives/C01TNCNDEN5/p1639594572170700][Initial slack thread]]
+- Initial problem, in [[https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Flambda$252Fempp-api-service-results-dev/log-events/2021$252F12$252F15$252F$255B$2524LATEST$255D250f5f9af153455884590bc0dbb91105][=empp-api-service-results=]]:
+  #+BEGIN_EXAMPLE
+    "message": "com.amazonaws.services.s3.model.AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: 3J13EHZRDND2YV2D; S3 Extended Request ID: KKhiS/q96EoPpxsVuyDFm4/gnFLbtlTzUwL7FPK+mfYz+y11vIxqMt3fybK4+JVYYmYIvgywzIU=), S3 Extended Request ID: KKhiS/q96EoPpxsVuyDFm4/gnFLbtlTzUwL7FPK+mfYz+y11vIxqMt3fybK4+JVYYmYIvgywzIU="
+  #+END_EXAMPLE
+- Problem traced to [[https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Flambda$252Fempp-api-job-get-batch-result-dev/log-events/2021$252F12$252F15$252F$255B$2524LATEST$255D6828293409ae4d5786f7c663d8edfdc3][=empp-api-job-get-batch-result=]]:
+  #+BEGIN_EXAMPLE
+    Unhandled exception occurredType: class com.amazonaws.services.s3.model.AmazonS3Exception
+    Message: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: R8QGNK7MVMX800MF; S3 Extended Request ID: frrrvYReioFIRSTKN0k4GQei7QwsgTUHnRNAlbs4XvjjYSOSNePvHCRJQkE/3yUe1H5az/cysdM=)
+    Stack Trace: com.amazonaws.services.s3.model.AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: R8QGNK7MVMX800MF; S3 Extended Request ID: frrrvYReioFIRSTKN0k4GQei7QwsgTUHnRNAlbs4XvjjYSOSNePvHCRJQkE/3yUe1H5az/cysdM=), S3 Extended Request ID: frrrvYReioFIRSTKN0k4GQei7QwsgTUHnRNAlbs4XvjjYSOSNePvHCRJQkE/3yUe1H5az/cysdM=
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1862)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleServiceErrorResponse(AmazonHttpClient.java:1415)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1384)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1154)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:811)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:779)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:753)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:713)
+        at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:695)
+        at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:559)
+        at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:539)
+        at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4325)
+        at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4272)
+        at com.amazonaws.services.s3.AmazonS3Client.getObject(AmazonS3Client.java:1409)
+        at com.amazonaws.services.s3.AmazonS3Client.getObject(AmazonS3Client.java:1270)
+        at com.focusenergy.empp.common.util.AwsUtil.openFileAsJsonNode(AwsUtil.kt:90)
+        at com.focusenergy.empp.api.job.lambda.api.GetBatchResult.handleRequest(GetBatchResult.kt:55)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at lambdainternal.EventHandlerLoader$StreamMethodRequestHandler.handleRequest(EventHandlerLoader.java:356)
+        at lambdainternal.EventHandlerLoader$2.call(EventHandlerLoader.java:903)
+        at lambdainternal.AWSLambda.startRuntime(AWSLambda.java:349)
+        at lambdainternal.AWSLambda.<clinit>(AWSLambda.java:70)
+        at java.lang.Class.forName0(Native Method)
+        at java.lang.Class.forName(Class.java:348)
+        at lambdainternal.LambdaRTEntry.main(LambdaRTEntry.java:150)
+  #+END_EXAMPLE
+- Trying to get results for scenario ID: =ecca7e8c-0043-4631-95a1-0bc03d4046b2=
+  - Look in the [[https://s3.console.aws.amazon.com/s3/buckets/wl-empp-api-job-dev?region=us-east-1&prefix=ecca7e8c-0043-4631-95a1-0bc03d4046b2/&showversions=false][corresponding S3 bucket]]
+  - No =results.json=
+  - However the =result_*.json= intermediate chunks are there
+- Looks like the error is in =combineProcessedChunks=
+  - Where is this method called from?
+    - =ProcessBatchResult.handleRequest=
+    - =BatchEndcap.handleRequest=
+    - =FinalizeRun.handleRequest=
+  - All of these are =handleRequest= top-level methods for lambdas
+  - Need to look at logs for
+- Actual error is in [[https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Flambda$252Fempp-api-job-batch-finalize-run-dev/log-events/2021$252F12$252F15$252F$255B$2524LATEST$255D4eb3fba2f73f4739a2ae96013c5a3afa][=FinalizeRun=]]
+- Looks like =calculateBestIrr= is getting a null pointer exception
+- Do the scenario results have an =unleveredIRR= property
+- Scenario results do have =unleveredIRR=
+- What does a successful run look like?
+  - Successful run: =f5286c18-d790-4544-946c-4aa9ad2af84d=
+- The problem is that not all of the child scenario results may have =unleveredIRR=. For example:
+  #+BEGIN_EXAMPLE
+    {
+        "id": "d2e8e186-670f-41ce-9acf-16554e957f6b",
+        "generator_a24f5fce-26ba-40c8-83ad-14f97f58b3ef_tracking": false,
+        "generator_a24f5fce-26ba-40c8-83ad-14f97f58b3ef_tilt": 28.0,
+        "generator_a24f5fce-26ba-40c8-83ad-14f97f58b3ef_groundCoverageRatio": 0.3,
+        "chunkNum": 18,
+        "isParentScenario": false,
+        "error": "Validation Error"
+    }
+  #+END_EXAMPLE
+- For these cases, we need to treat it as if it had the default value of =-1.0=
+
+** 2021-12-16 Missing Results
+- [[https://nexteraanalytics.slack.com/archives/C01TNCNDEN5/p1639666239176000][Initial Slack Thread]]
+- [[https://console.aws.amazon.com/states/home?region=us-east-1#/executions/details/arn:aws:states:us-east-1:139818921685:execution:empp-api-service-job-dev:6a7b9988-3fc4-48f0-92f9-ecda9bd0086b][Crosby's rerun]]
+- Error in =empp-api-service-results=:
+  #+BEGIN_EXAMPLE
+    com.amazonaws.services.s3.model.AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: X33N3PB2TPKQ8XN2; S3 Extended Request ID: bGr/nsSW0vFZLDYuvP1PyW+0GlSFjBdclUUAYTaj9+LXIX/a+ZMSn1JTf3O1UnBnLKl4Ll3jK2g=), S3 Extended Request ID: bGr/nsSW0vFZLDYuvP1PyW+0GlSFjBdclUUAYTaj9+LXIX/a+ZMSn1JTf3O1UnBnLKl4Ll3jK2g=
+  #+END_EXAMPLE
+- Scenario ID: =6a7b9988-3fc4-48f0-92f9-ecda9bd0086b=
+- Timestamp: =2021-12-15T21:16:35=
+- [[https://s3.console.aws.amazon.com/s3/buckets/wl-empp-api-job-dev?region=us-east-1&prefix=6a7b9988-3fc4-48f0-92f9-ecda9bd0086b/&showversions=false][S3 bucket]]
+- Still no =results.json=
+- Look at =FinalizeRun= again?
+- Still complaining about a =NullPointerException=, but this time on line 78 of =BatchResultUtil.kt=
+- The code also access =unleveredIRR= to calculate the percent of optimal for each chunk, so I needed to put in the fix from above there as well

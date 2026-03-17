@@ -1,0 +1,190 @@
+#+TITLE: Adversarial Machine Learning and Cybersecurity: Risks Challenges and Legal Implications
+#+OPTIONS: toc:6
+
+[[https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/2023-04/adversarial_machine_learning_and_cybersecurity_v7_pdf_1.pdf][Published]] by the Center of Security and Emerging Technology (CSET) at Georgetown University and the Stanford Geopolitics, Technology and Governance Cyber Policy Center
+
+* Introduction
+- AI technologies are being deployed in a wide range of commercial and government contexts
+- These technologies are vulnerable in a number of ways
+  - Can be manipulated into erroneous output
+  - Infer private data
+  - Disclose model parameters
+- AI vulnerabilities may not straightforwardly map onto definitions used for "traditional" patch-to-fix cybersecurity vulnerabilities
+- This generates an ambiguity when it comes to assessing public policy and corporate responsibility
+  - Can AI vulnerabilities be addressed using traditional methods of risk mitigation and remediation?
+  - Are the companies developing these models equipped to adequately defend them?
+  - What legal liabilities exist for the owners of AI models and the people attacking them?
+  - How can policymakers encourage the creation of a more secure AI ecosystem
+- The findings in this paper are informed by a workshop convened by the Center for Security and Emerging Technology at Georgetown University and the Stanfor Cyber Policy Center
+- Many of the attacks studied by AI researchers are focused on lab settings
+- As a result, the field is missing a holistic understanding of vulnerabilities in deployed systems
+- This uncertainty caused participants in the workshop to refrain from recommending sweeping regulatory changes
+- Participants agreed that the likelihood of attacks against AI systems is only going to grow over time and that mechanisms should be developed to prevent and address AI vulnerabilities
+- Recommendations divided into four parts
+  1. To what extent can AI vulnerabilities be handled under existing cybersecurity frameworks?
+  2. How should organizations and individuals engaged in building AI models change their culture and information sharing practices?
+  3. How should the legal issues surrounding AI vulnerabilities be handled?
+  4. What are future areas of research and government support which can lead to more secure AI systems?
+- Challenges posed by AI vulnerabilities may be as much social as they are technological
+- Majority of recommendations focus on changes to processes and institutional culture
+
+** Box 1: Explanation of Key Terms
+- *Artificial Intelligence*: A set of technologies that enable computers to learn to perform tasks traditionally performed by humans; used interchangeably with machine learning
+- *AI system*: Any system that has an artificial intelligence model as a key component
+- *Vulnerability*: Borrowed from the CERT guide to Coordinated Vulnerability Disclosure, a vulnerability is "a set of conditions or behaviors that allows the violation of an explicit or implicit security policy. Vulnerabilities can be caused by software defects, configuration or design decisions, unexpected interaction between systems, or environmental changes"
+- *AI Vulnerability*: A vulnerability in an AI system, including both vulnerabilities that arise from the mathematical properties of AI models, and vulnerabilities that arise from the interaction of the AI model with other parts of the AI system
+- *Traditional software vulnerability*: Vulnerabilities in existing software systems, such as desktop applications, server software, mobile applications, etc
+- *High Risk AI system*: An AI system that is designed to influence a socially sensitive decision, such as access to housing, credit, employment, healthcare, etc. Vulnerabilities in high-risk AI systems are particularly worrisome because they may lead to severe harms coming to individuals
+
+* Extending Traditional Cybersecurity for AI Vulnerabilities
+- In a sense, attacks on AI systems aren't new
+  - Spammers attempting to bypass anti-spam systems
+  - SEO manipulation
+- However, the use of machine learning models has risen sharply, including in high-risk contexts
+- Researchers have repeatedly demonstrated vulnerabilities in machine-learning models that have proven difficult to remediate
+  - Fooling image and voice recognition systems with perturbations that are imperceptible to humans
+  - Poisoning datasets
+  - Reconstructing private data
+- To date these attacks have mostly occurred in research settings
+- However, as AI models become incorporate into more use-cases, the frequency of attacks will grow
+- Attacks are likely when there are clear financial benefits or strategic advantages to defeating a machine-learning model
+- Existing cybersecurity frameworks are meant to be general enough to encompass AI vulnerabilities
+- However, AI vulnerabilities are distinct enough from traditional software vulnerabilities and may require adjustments or extensions of traditional cybersecurity frameworks
+  1. The presence of a vulnerability may be highly dependent on the specific training data used for the AI model, rather than the model's training or inference algorithm --- this makes testing models difficult
+  2. In order to patch a vulnerability in an AI model, the model might have to be retrained, requiring significant time or expense
+  3. Vulnerabilities may be ephemeral and changing
+     - Organizations may be using continuous training pipelines to update their models with new data
+     - Vulnerabilities may be highly context dependent, localized to a specific fine-tuned version of a model
+     - Mitigations may not transfer well across all versions of a model
+  4. Uncertainty over what is and is not an AI vulnerability --- how do you distinguish between "attacks" and expected user manipulations?
+     - Is a user wearing sunglasses "attacking" an AI facial recognition model?
+
+** Recommendations
+- Organizations building or deploying AI models should explicitly incorporate those models into their risk management frameworks
+  - If an AI model has a vulnerability that cannot be patched (or only patched with a large expenditure of time or money) is there a strategy to mitigate vulnerabilities?
+  - What are decision criteria for choosing to taking a known vulnerable system offline versus leaving it in place with mitigations?
+  - How does the organization decide tradeoffs between model performance and incorporating defensive security measures?
+- Adversarial machine learning researchers, cybersecurity practitioners and AI organizations should explore extending existing cybersecurity practices to cover AI vulnerabilities
+  - The cybersecurity community has developed many tools for tracking and mitigating vulnerabilities
+    - Common Vulnerabilities and Exposures (CVE) system for enumerating and tracking vulnerabilities
+    - Common Vulnerability Scoring System (CVSS) system for evaluating the risk potential of vulnerabilities
+    - Coordinated Vulnerability Disclosure (CVD) system for coordinating between security researchers and vendors
+  - Although these systems were not designed with AI vulnerabilities in mind, they are broad enough that many AI vulnerabilities could be managed with them
+  - More collaboration between AI researchers and security professionals is necessary to appropriately apply these frameworks to AI vulnerabilities
+- Adversarial machine learning researchers should consult with researchers investigating algorithmic bias and robustness because, in many ways, AI vulnerabilities may be more akin to algorithmic bial than traditional software vulnerabilities
+
+* Improving Information Sharing and Organizational Security Mindsets
+- It is currently difficult to assess the level of threat against AI systems
+- Most information about AI vulnerabilities has come from
+  - Theoretical analysis
+  - Academic research
+  - Red-team exercises
+- No standardized or systematic method for tracking AI assets
+  - Data sets
+  - Models
+- Attack detection may require significant data science expertise in order to detect patterns of behavior that may indicate an attack
+- Even when attacks are detected, information about attacks is rarely shared
+- No specialized, trusted forum for sharing information about AI attacks in a protected manner
+- Bureaucratic, policy and cultural barriers to information sharing
+
+** Recommendations
+- Organizations that deploy AI systems should share information about attacks on those AI systems
+  - Need to create more trusted mechanisms for organizations to share observed attacks on AI systems with other organizations that have deployed the same or similar AI systems
+  - Existing forums about the risk of AI systems (such the Artificial Intelligence Incident Database) are geared towards public reporting and focus on the misuse of statistical models rather than deliberate attacks or intentional manipulation
+  - Need a way for organizations to talk about emerging threats, rather than attacks that have already occurred
+  - This can be as simple as a regular meeting of key industry figures
+- Organizations deploying AI models should build a culture of security
+  - Many machine learning libraries, by default, prioritize speed of processing over security and robustness
+  - Product teams that only consider security after training or fine-tuning their model will likely embed poor security assumptions into their models, making vulnerabilities more difficult to remove once they are identified
+  - Adversarial machine learning teams should be involved from the beginning of the model development process to ensure that security remains a priority in every part of the AI development pipeline
+- Developers and deployers of high-risk AI systems must emphasize transparency
+  - AI models should be assumed to be vulnerable
+  - Consumers and private citizens should be informed when they're interacting with an AI model or being made subject to an AI model's judgement
+  - Trade-offs between security, robustness and fairness should be disclosed to the public
+  - Public should have a recourse when decisions made by AI models are harmful or discriminatory
+  - There is disagreement about how far this transparency should be taken --- should *every* risk be disclosed to the public?
+
+* Clarifying the Legal Status of AI Vulnerabilities
+- There is no comprehensive legislation regarding AI in the US
+- However, many aspects of existing law are likely relevant to AI
+  - Criminal law
+  - Consumer protection law
+  - Privacy law
+  - Civil rights law
+  - Government procurement requirements
+  - Rules of contracts
+  - Product liability law
+  - SEC disclosure requirements
+- Just as existing cybersecurity frameworks can be extended to cover AI vulnerabilities, existing laws can cover AI
+- However courts and regulators have not fully clarified how existing laws apply to AI
+- Most of the policy attention to date on AI has focused on potential bias and discrimination
+  - FTC, EEOC and and CFPB have all issued guidance regarding the use of AI models in contexts that might violate civil-rights law, anti-discrimination law and consumer protection statutes
+  - The New York Department of Financial Services has warned insurers that artificial intelligence models may produce forms of discrimination prohibited by state law
+  - In California, privacy legislation requires the California Privacy Protection Agency to adopt regulations covering AI
+    - Access and opt-out rights
+    - Response to requests about how decisions were arrived at
+- Just like AI vulnerabilities should be tracked under existing cybersecurity frameworks to the greatest extent possible, AI vulnerabilities should be regulated by existing cybersecurity law to the greatest extent possible
+- However, cybersecurity law itself is under constant flux and evolution
+  - Different requirements by sector
+  - Healthcare data, financial information, information systems acquired by the government and critical infrastructure face certain cybersecurity requirements
+  - However, there is no cybersecurity legislation that imposes clear statutory security requirements on the vast majority of companies
+- Common-law doctrines of negligence, product liability, and contract apply to AI-based product and systems, but the legal doctrines in these fields rarely result in clear-cut cybersecurity requirements
+- We have few legal requirements for traditional cybersecurity, much less AI vulnerabilities
+- The FTC has claimed that its authority to regulate unfair and and deceptive business practices extends to to cover businesses that fail to secure customer data with "reasonable" cybersecurity measures
+- While no cases have yet been filed, it's easy to imagine that deliberately deploying vulnerable AI systems could trigger similar oversight
+- Similarly overly broad claims about the the robustness and performance of AI models could also result in enhanced government oversight
+- Although the FTC has brought many enforcement actions against companies for failing to secure consumer data, it's not actually clear that it has the authority to do so under its remit to regulate unfair and deceptive business practices
+- The primary law deterring attacks on AI systems is the Computer Fraud and Abuse Act (CFAA)
+  - Makes it illegal to access information beyond what is authorized
+  - Makes it illegal to "damage" a computer by transmitting a "program, code, or command"
+  - The CFAA makes the activities of good-faith cybersecurity researchers legally ambiguous
+  - These legal risks have been mitigated via cybersecurity disclosure programs that authorize or invite independent cybersecurity researchers to probe systems or products
+  - While many provisions of the CFAA hinge on whether the user has gained "unauthorized access", which is difficult to define in relation to AI systems, other parts of the CFAA make it illegal to cause damage without authorization
+  - "Damage" is broadly defined to mean any impairment to the integrity or availability of data, programs or systems
+- Participants in the workshop did not feel that AI vulnerabilities were well understood enough to be addressed with comprehensive regulation
+
+** Recommendations
+- US government agencies with authority over cybersecurity should clarify how AI-based security concerns fit into their regulatory structure
+  - FTC has issued guidance on how companies using AI can avoid violating the Fair Credit Reporting Act
+  - A wide number of government agencies, including the FTC, the Cybersecurity and Infrastructure Security Agency, and the National Institute of Standards and Technology provide cybersecurity guidance to private firms
+  - NIST's efforts to develop an AI risk management framework does include some discussion of AI security, but guidance remains vague and does not articulate concrete risks or countermeasures
+  - Despite a 2019 executive order that required federal agencies to document any potential regulatory authority they might have over AI systems, most agencies either failed to respond or gave very surface-level answers
+  - Agencies with regulatory authority over cybersecurity should better document how AI vulnerabilities fit within that regulatory authority
+  - As part of that effort, these agencies should articulate minimum security standards for AI systems
+- There is no need to amend anti-hacking legislation
+  - It is unclear whether some forms of AI hacking require "unauthorized access" as defined by the CFAA
+  - Any potential amendment to the CFAA would raise many of the same overbreadth concerns as the CFAA itself
+  - Forms of AI hacking not covered by the CFAA might be illegal under other laws
+  - For now, the best course of action is to see how these issues play out in the courts before attempting to create new legislation
+
+* Supporting Effective Research To Improve AI Security
+- Many of the barriers to developing secure AI systems are social and cultural, not technical
+- Incentives for academics, industry professionals and government researchers encourage improvement on summary performance metrics as the primary sign of progress
+- While adversarial machine learning is a burgeoning field, it's stil very small, comprising less than 1% of all academic AI research by some metrics
+- Furthermore, the adversarial machine learning research that does exist is heavily biased towards a small number of scenarios, such as adversarial examples, that may not represent plausible real-world attack scenarios
+- Security is often a secondary consideration for organizations seeking to deploy machine learning models
+- The research community's knowledge of adversarial machine learning remains low
+  - Large number of feasible attack strategies have been explored
+  - Little thought given to how these potential vulnerabilities may be mitigated
+  - Unclear how to trade-off between performance and robustness
+- Security is an area where private industry is likely to underinvest, and therefore represents an area where government investment may have high impact
+
+** Recommendations
+- Adversarial machine learning researchers and cybersecurity practitioners should seek to collaborate more closely than they have in the past
+  - Adversarial machine learning research currently focuses highly on scenarios that may not accurately represent real-world vulnerabilities
+  - Research into more likely threat models may be receiving less attention
+  - Further collaboration between adversarial machine learning researchers and cybersecurity practicitioners is necessary to identify realistic threat scenarios facing AI models
+- Public efforts to promote AI research should emphasize AI security, including via the funding of open-source tooling that can be used to promote secure AI development
+  - AI security should be viewed as an element of basic AI research
+  - Government policymakers should consider how their funding of AI security research can compelement private industry initiatives
+  - Funding open-source tools that can help AI engineers incorporate security into their systems might be a worthwhile avenue for government funding
+    - "Adding a machine learning model [to a product] is two lines of code; adding defenses can take hundreds"
+    - Existing open-source machine learning frameworks are tooled to support the easy creation of models, but have relatively little in the way of support for defensive mitigations of known adversarial machine learning vulnerabilities
+- Government policymakers should move beyond standards-writing towards providing test beds and enabling easy auditing of AI systems
+  - Machine learning is too broad a field for many government standards to provide clear-cut answers
+  - More specific test-beds and audits could clarify how government standards are intended to apply to AI models
+    - Face Recognition Vendor Test --- voluntary test that facial recognition vendors can use to identify potential biases
+    - Government could identify high-risk scenarios and provide audit tools that could be used by vendors to probe their models to see how they handle those scenarios
+    - Would allow policymakers to have a greater understanding of how AI systems are vulnerable to known attack vectors and track the level of vulnerability over time
+
+      

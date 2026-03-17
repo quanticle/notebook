@@ -1,0 +1,42 @@
+* EMPP-5144
+- Scenario is not constrained to a boundary, but is asking for layout parameters anyway
+- Log link: [[https://console.aws.amazon.com/states/home?region=us-east-1#/executions/details/arn:aws:states:us-east-1:720290301371:execution:empp-api-job-optimizer-state-machine-prod:e76dade9-a6bd-4325-9495-dd00a2d7bbba][https://console.aws.amazon.com/states/home?region=us-east-1#/executions/details/arn:aws:states:us-east-1:720290301371:execution:empp-api-job-optimizer-state-machine-prod:e76dade9-a6bd-4325-9495-dd00a2d7bbba]]
+- Scenario Link: [[https://designer.nexteraanalytics.com/iro/#/scenario/1b1466ec-7d4f-4ed1-b01d-1876f51a7837/results][https://designer.nexteraanalytics.com/iro/#/scenario/1b1466ec-7d4f-4ed1-b01d-1876f51a7837/results]]
+- Scenario ID: =1b1466ec-7d4f-4ed1-b01d-1876f51a7837=
+- Error is in prod, not dev
+- What is the Lambda that handles this?
+  - =empp-api-job-step-get-land-cost-prod=
+- Error stack trace
+  #+BEGIN_EXAMPLE
+    Scenario input is missing solarLayoutParameters: com.focusenergy.empp.api.job.lambda.step.error.InvalidConfigurationException
+    com.focusenergy.empp.api.job.lambda.step.error.InvalidConfigurationException: Scenario input is missing solarLayoutParameters
+        at com.focusenergy.empp.api.job.lambda.layout.submit.LayoutParametersUtil.getInputParameters(LayoutParametersUtil.kt:35)
+        at com.focusenergy.empp.api.job.lambda.layout.submit.SdotLayoutParamsFactory.createSdotLayoutParams(SdotLayoutParamsFactory.kt:31)
+        at com.focusenergy.empp.api.job.lambda.step.transform.GetLandCostBoundary.handleRequestInternal(GetLandCostBoundary.kt:64)
+        at com.focusenergy.empp.api.job.lambda.step.transform.ScenarioTransformation.handleRequest(ScenarioTransformation.kt:24)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+  #+END_EXAMPLE
+- Why is it even looking for land cost, when there isn't a boundary?
+- =empp-api-job-step-get-land-cost-prod= is called by =empp-api-job-build-tariff-prod=
+- Look in JIRA for similar bugs?
+- From Slack discussion
+  - Problem is in =GetLandCostBoundary.kt=
+  - Is the problem actually a problem?
+  - Ian says the code is wrong, and that the land cost boundary is not actually required
+  - So I should
+    - Take out the check for =solarLayoutParameters=
+    - Verify that defaults are set so that nothing else will fail
+- How is =GetLandCostBoundary= getting invoked?
+- =empp-api-job-step-get-land-cost-prod= invokes =com.focusenergy.empp.api.job.lambda.step.transform.GetLandCostBoundary::handleRequest= as its handler
+  - =handleRequest= is a method in the superclass: =ScenarioTransformation=
+  - =handleRequest= calls the =handleRequestInternal= abstract method
+  - =handleRequestInternal= calls =SdotLayoutParamsFactory.createSdotLayoutParams=
+  - Do I want to make the change here or in the =build-tariff= lambda?
+- =empp-api-job-build-tariff-prod= is handled by =com.focusenergy.empp.api.job.lambda.step.transform.BuildTariff::handleRequest=
+- =BuildTariff= calls =GetLandCostBoundary= unconditionally -- don't want to change this logic
+- So what I want to do is update =handleRequestInternal= to not call =createSdotLayoutParams= if it's not required
+- After discussing it with Chuck, what I want to do is update =getInputParameters= to not require the =solarLayoutParameters=
+- Add a test that verifies that we're handling a null =solarLayoutParameters= correctly

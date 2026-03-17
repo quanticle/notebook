@@ -1,0 +1,155 @@
+#+TITLE: Experimental Evidence of the Effects of Large Language Models versus Web Search on Depth of Learning
+
+Authors: \\
+Shiri Melumad\\
+Jin Ho Yun
+
+
+Citation:  Melumad, Shiri and Yun, Jin Ho, Experimental Evidence of the Effects of Large Language Models versus Web Search on Depth of Learning (January 20, 2025). The Wharton School Research Paper, Available at SSRN: https://ssrn.com/abstract=5104064 or http://dx.doi.org/10.2139/ssrn.5104064
+
+
+* Introduction
+
+- One of the reasons for LLMs' popularity is that, unlike with traditional web search, LLMs perform the process of navigating several links and distilling information for the suer
+- However, this may reduce users' depth of knowledge and originality of thought
+- Evidence for this effect comes from four online and laboratory experiments
+  - Participants were instructed to use either Google or ChatGPT
+  - When information is synthesized by an LLM, users spend less effort learning about the topic
+  - Then, when tasked with writing advice on the topic, users who did their research through LLMs write sparser and shallower copy, which is less persuasive
+
+* Theoretical Background
+
+** LLMs as Aids to Human Performance
+
+- LLMs can be effective at solving a wide range of reasoning problems, both on their own and in conjunction with humans
+  - LLMs have demonstrated rapid increases in performance on a variety of standardized assessments
+  - When paired with humans, LLMs have enabled faster completion of analysis and professional writing tasks
+- However, when compared with traditional web search, the effects of LLMs aren't so clear-cut
+  - On estimation tasks, people using Google performed more accurately than people using LLMs
+  - People using LLMs can outperform those using Google for simple lookups, but fall behind when asked to perform more complex tasks, such as booking travel
+
+** Learning Through Web Search Versus LLMs
+
+- While LLMs provide a faster route to finding answers, they do not require self-guided exploration of different information
+- When users search for information with Google, they do more than just accumulate facts --- they build up a framework that allows them to make sense of the knowledge they're gathering
+- LLMs diminish this crucial task by doing the sense-making for the user
+- This idea is consistent with previous work on "desirable difficulty"
+  - When a task is somewhat more difficult than it has to be, people pay more attention to it
+  - In the context of web search, this difficulty is provided by the need to navigate many links, which may not have the information that the user needs
+  - The process of picking up different pieces of information from different sources and synthesizing them into a cohesive whole causes the the user to build a greater depth of knowledge about the topic
+  - In contrast LLMs suppress this process by reducing the user's involvement in the process of learning
+
+* Empirical Analysis
+
+** Experiment 1: Testing for the Effects of ChatGPT vs. Google Search Use
+
+*** Method
+
+- Participants: 1,136 members of the Prolific panel
+- Randomly assigned to learn about a topic (how to start a vegetable garden) using either Google Search or ChatGPT and then write advice about it
+- Conducted queries through an in-house platform that allowed for behavioral observation
+- This platform included a timer --- time spent used as proxy for effort
+- Once the participants had finished their research, using either Google or ChatGPT, they were assigned to write advice on the topic
+- A separate timer was included on the writing page to determine how much time participants spent formulating their advice --- used as proxy for how invested participants were in formulating advice
+- Self-report survey that asked participants how much they thought they learned and whether the information they found was comprehensive
+- Used natural language processing on the written advice to determine depth of knowledge gained
+- Deeper knowledge is characterized by
+  - Referencing more facts
+  - Higher word count
+  - Language that is unique to the writer
+- The number of reference to factual data was gathered by processing the written advice with a Named Entity Recognition tool
+- Used Latent Dirichlet Allocation modeling to analyze the co-occurrence of words in each Google-search group as compared with the ChatGPT group
+- The LDA resulted in a set of topic vectors
+- These topic vectors were subjected to a pairwise cosine similarity analysis to determine the uniqueness of each advice essay
+- Also calculated the average pairwise Levenshtein distance between essays
+- Hypothesis: The LLM group would formulate advice with fewer words, fewer references to facts and less originality
+
+*** Results
+
+- Participants using the LLM spent less time on the search task
+  - Those using Google spent a median of 742.81 seconds
+  - Those using ChatGPT spent a median of 585.41 seconds
+- This suggests that acquiring information through an LLM requires less effort than acquiring it through Google
+- Participants in each group sent a similar number of queries
+  - Google search users: average of 2.15 queries
+  - ChatGPT users: 2.06 queries
+- Therefore the search time difference between Google and ChatGPT can be attributed to engagement --- Google search users engaged more with search results than ChatGPT users
+- Self-report data reinforces this impression --- participants who used ChatGPT reported that they learned fewer new things than those who used Google
+- The content of advice written by the ChatGPT users contains linguistic markers of shallower learning
+  - Fewer words
+  - Fewer references to facts
+  - Greater similarity between individual essays
+- Self-report data also indicates that those who used Google were more invested in the process of writing the advice
+
+*** Discussion
+
+- This first experiment offers initial support for the hypothesis that reduction in effort leads to shallower learning and poorer quality advice
+- Having an LLM automatically summarize content for us limits our ability to develop in depth knowledge about a topic
+- One concern is that because the users in this experiment were conducting "real" queries, differences in output may have resulted from differences in the quality of the results
+- /In other words, maybe the Google search results just had more factual content than the ChatGPT results, enabling those using Google to formulate better advice/
+- /While that would also be a significant result, it's not what the experiment is supposed to test, which is that using Google forces greater engagement with content, and therefore greater learning/
+
+
+** Experiment 2: Holding Information in the Search Results Constant
+
+*** Method
+
+- Participants: 2,016 members of the Prolific panel
+- In this experiment both the Google and ChatGPT users were instructed to make a single search query through the simulated interface
+- After making this query, they were taken to a page with simulated results formatted as either a summary of suggestions (in the case of ChatGPT) or as a set of linked websites (in the case of Google)
+- Although the presentation differed, the information contained in the two search results was identical
+- To do this, the authors took a summary description and fed it into ChatGPT-4 and asked it to create six different article variations that contained the same information, in different styles (e.g. /New York Times/, /Better Homes and Gardens/, etc)
+- These variations formed the search results for the users of the simulated Google search
+- After completing the search task using either the simulated ChatGPT or simulated Google interface, participants were asked to write an advice essay just as in the first experiment
+- Just as in experiment 1, timers were embedded in the UI to gauge amount of time engaging with query results and time spent writing the advice
+- Essays were subject to the same set of assessments as in experiment 1 to judge originality and depth
+
+*** Results
+
+- Although ChatGPT users spent more time formulating their query, they spent less time engaging with the results
+- Even though the information presented was held constant across both conditions, ChatGPT users still felt like they learned less
+- ChatGPT participants also spent less time formulating their advice essay, and their advice suggested shallower learning
+- This was confirmed through the NLP tool assessments
+
+*** Discussion
+
+- Experiment 2 tightens the conditions from experiment 1 and suggests that it is the format of the presented knowledge that causes users to engage less
+- However, it is also possible that the novelty of the ChatGPT interface interferes with learning
+
+** Experiment 3: Holding the Search Platform Constant
+
+*** Method
+
+- Instead of one group being shown ChatGPT and the other being shown Google, in this experiment both groups were asked to use Google
+- However one group was asked to pay attention to Google's AI summary at the top of the search results
+- The other was instructed to only use search results to formulate their advice essay
+
+*** Results
+
+- As in prior experiments, participants spent less time acquiring information from AI summaries than from web search results
+- Participants self-reported that their knowledge was shallower
+- Analysis of advice essays supported this perception
+
+*** Discussion
+
+- Results confirm that even when the AI results and web search results are presented using a familiar UI (Google Search), participants using AI results learn less
+
+** Experiment 4: Downstream Effects on Advice Adoption
+
+*** Method
+
+- Participants were 1,262 members of the MTurk Connect panel
+- Asked to read and rate two advice texts
+- Pieces of advices were on how to buy a mattress
+- Written using a similar experimental paradigm as the previous experiments
+- Each participant was presented with one advice essay that was written by a person using Google web search results and another written by a person using ChatGPT responses
+- Participants were not told which was which, allowing for a blind comparison between advice essays
+
+*** Results
+
+- Participants consistently found the advice essays written with ChatGPT research to be inferior to those written using Google search results
+- Combined with the results from the first three experiements, this suggests that the textual differences between essays written using LLM research and those written via more traditional research has significant effects on how those essays are perceived by readers
+
+* General Discussion
+
+- 

@@ -1,0 +1,6 @@
+#+TITLE: Smoke Detectors
+
+- To minimize false alarms look for a smoke detector with a photoelectric sensor
+- Look for something that complies with the UL 217 10th edition standard, as that standard includes testing for "nuisance alarms"
+  - Look for "reduced nuisance alarms" if the detector doesn't specifically mention UL 217 10th edition
+- Clean the detector periodically with a compressed gas duster

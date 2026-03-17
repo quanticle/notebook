@@ -1,0 +1,4 @@
+* Headphones
+- To reboot: hold down both power and custom buttons while headphone is connected to charger
+- To perform a factory reset: disconnect from charger and hold down power and custom buttons simultaneously for 7 seconds
+  - The blue LED will flash 4 times if the reset is successful

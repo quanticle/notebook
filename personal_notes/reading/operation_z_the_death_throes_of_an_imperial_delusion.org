@@ -1,0 +1,180 @@
+* Operation Z: The Death Throes of an Imperial Delusion
+
+Source: [[https://static.rusi.org/special-report-202204-operation-z-web.pdf][RUSI]]
+
+- When Russian forces entered Ukraine, many expected the total destruction of the Ukrainian military
+- Instead, the Russian military has been stopped, and has had to refocus on a much more limited aim of securing the eastern regions of Donetsk and Luhansk
+- What are the challenges facing Russia now?
+- What are the risks as the war enters a new phase?
+- Russia appears to be preparing for a protracted conflict
+- Sources
+  - Engagements with Ukrainian combatants
+  - Interviews with Ukrainian officials and commanders
+  - Interviews with Western intelligence officials
+  - Briefings by experts in Russia's energy sector
+  - Inspections by the authors of recovered Russian military equipment
+  - Leaked Russian documents
+- Many of these sources have to remain anonymous in order to avoid disclosing sensitive operational details
+
+** Debacle: Russia's Failure To Seize Kyiv
+- In the early hours of February 24, Ukrainian air defense systems came under sustained electronic and kinetic attack
+  - Jamming
+  - Russian drones posing as aircraft
+  - Initial wave of cruise and ballistic missile strikes
+- This jamming and disruption was successful enough to allow VDV paratroopers to launch a raid towards Hostomel airport
+- However, VDV commanders' discussion of the raid had been picked up by Ukrainian intelligence
+- This allowed Ukrainian forces to mount an immediate counterattack when the VDV landed
+- Meanwhile the Russian ground troops pushing south were confined to two roads, surrounded by dense forest and marshes
+- This allowed the Ukrainians to successfully fight a delaying action, which resulted in the VDV airborne troops being driven from Hostomel
+- The lack of coordination among Russian forces was already apparent in the opening hours of the war
+  - Rosgvardia forces, meant to provide rear area security, were sometimes ahead of combat units
+  - Armored forces ranged far head of supporting infantry and artillery, and took significant losses from Ukrainian anti-tank weapons and artillery
+- As the drive towards Kyiv slowed, Russian commanders attempted to bring up reserves and resupply front-line units
+  - This effort was hampered by the fact that there were only two main roads capable of supporting the Russian advance
+  - Russians had neglected rear area security, allowing Ukrainian forces to set up ambushes along these roads
+  - Ukrainian citizens and UAVs reported on Russian movements, allowing Ukrainian artillery to be used to great effect
+  - "Anti-tank missiles slowed the Russians down, but what broke them was our artillery"
+- The lack of ground lines of communication meant that Russian forces were often within range of Ukrainian artillery but out of range of their own artillery --- /no counterbattery fire/
+- The narrowness of the Russian advance also hampered Russian electronic warfare
+  - Continuing Ukrainian artillery fire and ambushes meant that Russian commanders were unwilling to risk rare and valuable electronic warfare systems close to the front line
+  - That meant that these EW systems could not be used without also disrupting the Russians' own communication with their front-line units
+- By the time Russian ground forces advanced to Hostomel airfield, they were substantially depleted and incapable of moving farther into the city
+- The Russians then moved to attempt to encircle Kyiv
+- However, doing so increased their exposure to Ukrainian rear area raiding and artillery
+- The success of the Ukrainians around Kyiv should not obscure the intensity of the fighting and the price they paid
+  - Ukrainians knew that Kyiv was a key objective for the Russians
+  - Stripped defenses from elsewhere in the country in order to reinforce Kyiv
+  - Recognized that especially in the South, they would lose a lot of ground
+  - While the defenders of Mariupol exceeded all expectations, the Ukrainian general staff knew from the very beginning that Mariupol was likely lost
+- In northeastern Ukraine, the fighting was extremely intense
+  - Fighting was done by relatively untrained volunteers reinforced by Ukrainian special forces
+  - Russian firepower was most intense in this front
+  - Ukrainians had to rely on numbers, rather than tactics to stem the Russian advance, and took heavy casulaties as a result
+- Eventually Russian commanders realized that pushing more forces towards Kyiv would not lead to progress
+- Russian forces retreated under fire from Kyiv, and Russia refocused on the Donbas
+- Ukraine emerged from the initial fight with Kyiv secure, but a weary and battered army and a slowly deteriorating position in the south
+- The revision of war aims on the Donbas reflected a shift in Russian thinking and power structures
+  - Ministry of Defense takes primacy over the FSB
+  - Acknowledgement that more time is necessary for Russia to secure any kind of objectives
+- However, taking additional time also poses risks for the Russians
+  - Increasing levels of Western aid flowing into Ukraine
+  - Ukrainian counteroffensives around Kharkiv risk the supply lines leading into the Donbas
+  - As a result, it's likely that the Russians had to start the operation in the Donbas before their forces were fully ready
+- The operation in the Donbas is unlikely to be decisive
+  - Highly unlikely that Ukraine will accept any cease-fire that leaves large areas of Ukraine in Russian hands
+  - The question isn't where the exact frontline ends up in May, but how this operation sets up the two armies for further operations over the summer
+- Both countries are preparing for a protracted battle
+
+** Mobilizing for an Ideological Struggle
+- One of the strangest aspects of the opening phases of the war was the lack of justification for the war in Russia
+  - Case for war was made over roughly 10 days immediately preceding the start of hostilities
+  - Preparation was similar to the Russian annexation of Crimea
+  - Possible that Russian leadership wished to present its actions to the Russian public as a fait accompli
+- The lack of ideological preparation for the war and the initial Russian setbacks created a window of opportunity for public protests against the war in Russia
+  - Ukraine did its best to ensure that true information about Russian military performance was reaching Russian people
+  - There were protests in Moscow and St. Petersburg against the war
+- This window rapidly closed
+  - Russia passed a law imposing up to a 15 year jail sentence for those spreading "misinformation"
+  - Closed off access to non-Russian social media
+  - While motivated users can still access Western reporting e.g. by using a VPN, the vast majority of Russians are now cut off from independent reporting about the war
+  - Even those who do seek out the truth must limit who they share information with
+- Having taken steps to secure the information environment, the Russian government could have chosen to de-escalate
+- Instead Russia has chosen to continue the narrative of a struggle against Naziism in Ukraine
+- Has broadened the war to be a confrontation between the Russian and the Western "systems"
+- Russian authorities are promoting a sense of territorial threat to Russia in order to increase ideological support for the war
+- Increasing comparisons to the Great Patriotic War both in internal documentation and public messaging
+- Ukraine is being portrayed as being the military battlefield portion of a larger confrontation between Russia and the west
+- While Putin still refers to the military action in Ukraine as a "special operation", the Kremlin is not censoring nationalists media outlets which refer to the war as an existential struggle
+- However, the increase in stridency of the rhetoric has occurred at the same time as the revision of war aims towards a more limited objective
+- /There is a hypothesis that would explain this apparent contradiction/
+  - /Putin has understood that he's going to lose the war/
+  - /As a result, he's reframing the war as an existential struggle, so that any outcome that does not involve NATO or Ukrainian troops invading Russia itself can be reframed as a victory/
+  - /Then, conveniently, when Russian troops are driven from Ukraine, he can claim that the war was still worth it in order to block a potential NATO invasion of Russia/
+  - /This is rather like how Saddam claimed that the Gulf War was an Iraqi victory, because Coalition forces hadn't invaded Iraq and toppled his government/
+- Internationally, Russia is arguing that Western sanctions are imposing a large cost on the poorest, by driving up food and energy prices
+- Even if non-NATO states won't help Russia directly, sympathy among non-NATO states is useful for helping Russia evade Western sanctions
+- Thus far, Russia has not called up reserves and has used cash payments to incentivize people to sign up as contract servicemen
+- Indications are that May 9 will be used as a date to reframe the "special military operation" as a "war", and will signal the start of a broader mobilization
+
+** Replenishing the Arsenal: Russia's Economic Front
+- Given the underperformance of the Russian air force, the Russian military has relied heavily on cruise and ballistic missiles to hit strategic targets in this war
+- However, given that manufacturing these weapons relies on access to foreign components that are now subject to sanctions, Russia is having to keep a significant stockpile of these weapons in reserve, in anticipation of a future contingency against NATO or China
+- Example: 9M727 cruise missile
+  - Requires a sophisticated flight computer
+  - Has seven ports with which to send signals to control surfaces and receive data from sensors
+  - Only one of these ports is of Russian manufacture
+  - Remaining ports are of US manufacture
+  - Circuit board for the computer as well as the rails that the circuit board is mounted on are also of US manufacture
+- The 9M727 is not an exception
+- Many recovered Russian weapons systems display a reliance on parts sources from the US or UK
+  - Tornado S rocket system uses gyroscopes from the US
+  - Tor M2 anti-aircraft system relies on British radio oscillators
+  - "Aqueduct" military radios have parts sourced from the US, Germany, the Netherlands, South Korea and Japan
+- This indicates a significant Russian vulnerability to sanctions, so why did the threat of sanctions fail to prevent the war?
+  - Russia assumed that the war would be short
+    - Favorable correlation of forces
+    - Ukrainian military not seen as willing to fight
+  - European dependence on Russian energy supplies was seen as being sufficient to mitigate economic damage
+    - Germany will be dependent on Russian gas for at least the next three years
+    - Economic impact of higher energy prices will test western resolve in supporting Ukraine
+  - High oil and gas prices due to the war mitigate the effect of Western sanctions
+- A long war is challenging many of these Russian assumptions
+  - Russia has established an interdepartmental committee on weapons production
+    - Manufacturing more weapons at home
+    - Importing weapons from friendly countries (or at least those countries willing to flout Western sanctions)
+    - Covertly importing western components
+  - Russia has asked China to supply it with ammunition and microelectronic components necessary for the manufacture of precision guided weapons
+  - Approved "parallel imports" --- imports without the permission of the owner of the intellectual property
+  - FSB is working to rebuild "covert supply chains" (i.e. industrial espionage) that the KGB used during the Cold War
+- The West will have difficulty in limiting Russian access to electronic components
+  - Many of these components are dual use
+  - Many are relatively commoditized --- manufacturer may not know who the final end user is
+  - Russia has means of laundering these components through third countries, notably India and China, which the West may not want to impose sanctions on
+
+** Broadening the Front: The FSB in Moldova
+- The reputation of the Russian intelligence services has been tarnished by the war in Ukraine, with the FSB suffering the most
+- Prior to the war the Ukrainian counterintelligence service, the SBU had been constrained in the actions it could take against Russia-aligned agents in Ukraine
+  - Politically risky to be seen targeting specific groups or political parties
+  - May not have been able to successfully prosecute Russian agents in the "compromised" Ukrainian court system
+- The war simplified matters for the SBU
+  - Wartime law made it easier for the SBU to sweep up Russian collaborators
+  - Many Russian collaborators themselves severed contact with their Russian handlers after seeing the poor performance of the Russian military
+- The ongoing failure of Russian military units to capture key political objectives has led to recriminations between the military and the FSB
+  - Military alleges that it was forced to implement a badly conceived plan premised upon poor intelligence
+  - The FSB replies that the incompetence of Russian military units compromised a workable plan
+- Nevertheless, the FSB is keen to show some success during this conflict
+- FSB analysis showed Moldova following the same trajectory as Ukraine
+- As a result, the FSB thought that Moldova was ripe for the same sorts of disruption operations that had destabilized Ukraine in 2014
+- However, the debacle in Ukraine means that the Russian brigade in Transnistria is of little use
+- This does not mean that the FSB is unconcerned about shifts in Moldova's domestic political attitudes
+  - Was especially concerned by Moldova's decision to ban displays of the Ribbon of St. George, a Russian patriotic symbol
+  - Framed as conspiracy by the west to oust Russian influence from Moldova
+- The FSB is reportedly considering fomenting large-scale protests using banned symbols in Moldova
+  - Cause the government to either acquiesce to the usage of pro-Russian symbols or fine large numbers of protestors
+  - If the government does the latter, that action can be framed as the Moldovan government clamping down on free expression
+- Such protests have started to materialize
+  - Intent appears to be to build the protests towards a crescendo on May 9
+  - Create a narrative that Moldovan authorities are preventing their citizens from celebrating their actions in the Great Patriotic War
+- Whether the Russians are successful at destabilizing Moldova is dependent on how Moldovan authorities react to these protests
+- The perception of declining influence in Moldova appears to be pushing the Russians to take greater risks
+
+** Conclusions
+- The initial surprise of Ukraine withstanding the Russian attack has led to a belief in some parts of Europe that Ukrainian victory is inevitable
+- This is dangerous
+- Ukraine can win, but there will be many months of hard fighting ahead
+- Russia has made a deliberate decision to escalate its rhetoric
+- There is every sign that Russia will make a renewed push in the summer to secure broader objectives
+- NATO needs to be ready to support Ukraine in repelling this offensive
+- A protracted conflict holds risks for the West as well
+  - By autumn high energy costs could be hitting Europe with a double-whammy of job losses and high heating bills
+  - By this point, Russian rhetoric may start to break through Western unity
+- In order to hobble Russia's military capabilities over the long term, the West needs to analyze how Russian manufacturers are getting access to Western dual-use components
+- Severing these channels will not necessarily affect Russia's readiness for its summer offensive, but it will affect how much of its stockpile Russia is willing to commit to that offensive
+- Russia may also seek to destabilize countries further beyond Ukraine
+  - Greatest risk is to Moldova
+  - Russia may also seek to destabilize Serbia
+- The Russian decision to double-down is a high-stakes gamble
+  - If Russia prevails in Ukraine, the West will face a diplomatically isolated and highly militarized Russia
+  - If Ukraine prevails, Vladimir Putin will have radicalized his population in support of objectives that his government cannot deliver
+- NATO must continue to consider and manage escalation pathways
+- The death of Putin's political project is plausible, but it stands to inflict much more damage before it falls

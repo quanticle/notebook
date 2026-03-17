@@ -1,0 +1,10 @@
+#+TITLE: 2024 Election Analysis
+
+- [[https://www.wsj.com/politics/elections/voter-turnout-election-2024-927a102c][Collapse in Democratic turnout helped elect Trump]] ([[https://archive.ph/LA7yQ][archive]])
+- [[https://www.wsj.com/politics/elections/gen-z-voters-donald-trump-election-ab7b40b4][Trump made big gains among voters aged 18-29]] ([[https://archive.ph/dM38H][archive]])
+- [[https://www.wsj.com/politics/elections/trump-latino-voters-election-2024-f588791b][Trump made big gains among Latino voters]] ([[https://archive.ph/A3foL][archive]])
+- [[https://www.wsj.com/politics/elections/how-barron-trump-connected-his-father-to-the-manosphere-71b0e167][Barron Trump put Trump in contact with online influencers who helped convince young apolitical men to go vote]] ([[https://archive.ph/61qz5][archive]])
+- [[https://www.wsj.com/articles/trump-inc-how-a-second-administration-could-rewrite-the-way-america-does-business-c4a68566][How a second Trump administration could rewrite the way America does business]] ([[https://archive.ph/sFpwW][archive]])
+- [[https://www.wsj.com/politics/elections/democrats-blue-wall-suburban-voters-election-f2aa98f8][Why did Democrats falter among suburban voters?]] ([[https://archive.ph/C4mr5][archive]])
+- [[https://www.wsj.com/politics/elections/the-election-gender-gap-was-expected-to-be-huge-but-was-unremarkable-d7cc536e][The gender gap was smaller than expected]] ([[https://archive.ph/06Mad][archive]])
+- [[https://www.wsj.com/economy/inflation-joe-biden-mistakes-aa77b9cf][How Democrats blew it on inflation]] ([[https://archive.ph/IyUYC][archive]])
