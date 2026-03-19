@@ -1,0 +1,14 @@
+#+TITLE: Open With Archive
+
+* Basic Info
+- Repo: https://github.com/quanticle/open-with-archive
+
+* Enable Whitelisted domains to automatically open with archive
+- Add list of domains to options page
+- Vertical list of =<input>=, each with a delete button
+- Add button at the end to add another row
+- In order to make a =<div>= into a single-column grid
+  #+begin_src css
+    display: grid;
+    grid-template-columns: 1fr;
+  #+end_src

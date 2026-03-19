@@ -1385,3 +1385,6 @@ https://magit.vc/manual/magit/index.html#SEC_Contents
         (push major-mode active-modes)
         (message (string-join  (flatten-list `("Active modes:" ,(mapcar symbol-name active-modes))) " "))))
   #+end_src
+
+* Display an environment variable
+- To access environment variables from within Emacs, use =M-x getenv=
