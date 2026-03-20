@@ -1,6 +1,189 @@
 #+TITLE: 2026 Formula 1 Season
 #+OPTIONS: toc:2
 
+* Chinese Grand Prix
+
+** Track Info
+- Shanghai International Circuit
+- 3.39 miles
+
+** Tire Info
+- C4, C3, C2
+- Middle of the range
+
+** Sprint
+
+*** Sprint Qualifying
+
+**** SQ1
+- All cars have to go out on medium tires
+- Cold air temperature means cars drivers will have to do extra work to ensure their tires are up to temperature
+- /Shanghai is fun looking track/
+- Majority of the field head out early, but Mercedes and Aston Martin hold back
+- Sergio Perez is not taking part in sprint qualifying because of mechanical issues with his car
+- Ferrari are having issues with rear traction --- LeClerc is having to fight to keep the car on the racing line around the long corners
+- Mercedes are fast, with Russell and Antonelli going 1-2 after the first set of fast laps
+- Verstappen is only 7th
+- Red Bull, in general, aren't doing too well, with Verstappen in 7th and Hadjar in 11th
+- Lewis Hamilton improves in his Ferrari, moving ahead of Antonelli for 2nd
+- LeClerc then also pips Antonelli for 3rd
+- Bortoleto goes into the gravel off turn 16 but is able to recover and return to the track
+- Oliver Bearman also skids and almost goes into the gravel on the same turn
+- Eliminated in SQ1
+  - Carlos Sainz --- Williams
+  - Alex Albon --- Williams
+  - Fernando Alonso --- Aston Martin
+  - Lance Stroll --- Aston Martin
+  - Valteri Bottas --- Cadillac
+  - Sergio Perez --- Cadillac
+
+**** SQ2
+- All cars will go out on medium tires once again
+- Cars aren't as limited on battery deployment in Shanghai as they were in Melbourne, because Shanghai has more opportunities for regenerative braking to recharge the battery
+- McLarens are taking an extra prep lap to build tire temperature and battery charge
+- Russell and Antonelli go fastest once again after the first set of fast laps
+- /Mercedes are looking quite dominant in qualifying, if less so during races/
+- Antonelli might have been blocking Norris by being on the racing line in turn 1 during one of his preparation laps
+- Verstappen has an excursion into the gravel on one of his laps
+- Racing Bulls were initially looking like they might outqualify the main Red Bull team, who were near the elimination zone, but both cars had poor final sectors and were not able to make it into SQ3
+- Eliminated in SQ2
+  - Nico Hulkenberg --- Audi
+  - Esteban Ocon --- Haas
+  - Liam Lawson --- Racing Bulls
+  - Gabriel Bortoleto --- Audi
+  - Arvid Lindblad --- Racing Bulls
+  - Franco Colapinto --- Alpine
+
+**** SQ3
+- All cars will go out on soft tires
+- Hadjar's car stalls after it's called over for a random weigh-in, but Red Bull mechanics are able to push it back into their garage
+- Mercedes are 1-2 once again with Russell ahead of Antonelli
+- Hamilton is in 3rd for Ferrari with LeClerc 4th
+- /It's no surprise to see Mercedes 1-2, but it is impressive to Lando Norris pip the Ferraris for 3rd/
+- /The Red Bulls are uncharacteristically bad --- they shouldn't be behind Alpine, or Haas/
+- Top 10 sprint qualifying order
+  1. George Russell --- Mercedes
+  2. Kimi Antonelli --- Mercedes
+  3. Lando Norris --- McLaren
+  4. Lewis Hamilton --- Ferrari
+  5. Oscar Piastri --- McLaren
+  6. Charles LeClerc --- Ferrari
+  7. Pierre Gasly --- Alpine
+  8. Max Verstappen --- Red Bull
+  9. Oliver Bearman --- Haas
+  10. Isack Hadjar --- Red Bull
+
+*** Sprint Race
+
+**** Starting Grid
+
+1. George Russell --- Mercedes
+2. Kimi Antonelli --- Mercedes
+3. Lando Norris --- McLaren
+4. Lewis Hamilton --- Ferrari
+5. Oscar Piastri --- McLaren
+6. Charles LeClerc --- Ferrari
+7. Pierre Gasly --- Alpine
+8. Max Verstappen --- Red Bull
+9. Oliver Bearman --- Haas
+10. Isack Hadjar --- Red Bull
+11. Nico Hulkenberg --- Audi
+12. Esteban Ocon --- Haas
+13. Liam Lawson --- Racing Bulls
+14. Gabriel Bortoleto --- Audi
+15. Arvid Lindblad --- Racing Bulls
+16. Franco Colapinto --- Alpine
+17. Carlos Sainz --- Williams
+18. Fernando Alonso --- Aston Martin
+19. Lance Stroll --- Aston Martin
+20. Valteri Bottas --- Cadillac
+21. Sergio Perez --- Cadillac
+22. Alex Albon --- Williams (will be starting from pit lane due to suspension changes)
+
+
+- 19 laps
+- No mandatory pit stops
+- Cars are taking extra care to build tire temperature while attempting to maintain battery charge
+- Most cars are starting on medium tires, although Isack Hadjar has started with softs
+- Wind is gusty, and might catch some drivers out
+- Lap 1
+  - Russell maintains his lead at the start
+  - Kimi Antonelli has a poor start as Norris and both Ferraris pass him off the line
+  - Norris moves up into 2nd, with Hamilton and LeClerc chasing him
+  - Hamilton passes Norris for 2nd
+  - Contact between Antonelli and Hadjar forces Hadjar wide
+  - LeClerc passes Norris for 3rd
+  - Hamilton passes Russell for the lead
+  - Arvid Lindblad spins and drops into last place
+  - Russell retakes the lead momentarily at the end of the first lap
+- Lap 2
+  - Hamilton immediately re-passes Russell for the lead
+  - Antonelli passes Bearman for 7th and Gasly for 6th
+- Lap 3
+  - Russell is simultaneously attacking Hamilton as he seeks to defend against LeClerc
+  - Verstappen has had a poor start, and is down in 14th
+  - Russell passes Hamilton for the lead
+- Lap 4 --- Hamilton attacks Russell at the end of lap 3 and retakes the lead at the beginning of lap 4
+- Lap 5
+  - Antonelli passes Piastri for 5th
+  - /Antonelli had a poor start but he's doing a really good job of recovering/
+  - Russell goes side-by-side with Hamilton, but Hamilton manages to hold onto the lead
+  - Russell retakes the lead later in the lap
+- Lap 6
+  - Antonelli passes Piastri for 5th
+  - LeClerc challenges Hamilton for 2nd, but Hamilton manages to hold his position
+- Lap 7 --- Antonelli gets a 10s penalty for causing a collision on the first lap
+- Lap 8
+  - LeClerc passes Hamilton for 2nd
+  - Antonelli passes Norris for 4th
+- Lap 9
+  - Good fight between Hamilton and LeClerc for 2nd
+  - However, battling LeClerc for 2nd may have compromised Hamilton as Antonelli closes on him
+- Lap 11
+  - Liam Lawson, who started on the hard tire, is up into 7th
+  - Antonelli passes Hamilton for 3rd
+- Lap 12
+  - Lindblad told to come into the pits and retire the car
+  - /Lindlbad had a spin on the opening lap and was running in last place anyway/
+  - Pierre Gasly passes Isack Hadjar for 9th
+  - /Hadjar started on soft tires, which wasn't the right choice/
+- Lap 13
+  - Nico Hulkenberg pulls over to the side and stops with a car issue
+  - Antonelli passes LeClerc for 2nd
+  - Safety car declared
+  - /This screws Antonelli, because the field will bunch up, so he will drop much farther in the rankings as a result of his 10 second penalty/
+  - Mercedes, Ferrari, and McLaren pit and switch to soft tires
+  - After the pit stops, Russell retains his lead
+  - Antonelli serves his 10 second penalty and comes out in 7th
+  - Lawson doesn't pit and moves up into 5th
+- Lap 14 --- Verstappen and Hadjar pit and change tires as well, with Verstappen switching to softs and Hadjar changing to a new set of soft tires
+- Lap 16 --- Safety car ends
+- Lap 17
+  - Racing resumes
+  - LeClerc gets a bit sideways as he accelerates to keep with Russell at the restart
+  - Antonelli was passed by Piastri on the restart, and Piastri is now in 7th
+- Lap 18
+  - Hamilton passes Norris for 3rd
+  - Antonelli claims that Piastri passed him before the start-finish line
+  - Antonelli passes Bearman and Lawson to take 6th
+  - Piastri is asked to move aside and let Antonelli past; he does so and Antonelli takes 5th
+- Lap 19 --- Verstappen has battled his way back up to 9th, but is too far behind Bearman to take points
+- /Bearman was screwed a bit by the decision to not pit under the safety car --- he was running on worn-out medium tires while everyone around him was running on soft tires/
+- /Antonelli was saved by the decision to pit --- got the 10 second time penalty out of the way and allowed him to regain places for a respectable finish in 5th/
+- /Russell in that Mercedes is still dominant/
+- /That was a fun sprint, though, with Russell, Hamilton and LeClerc trading blows in the opening laps/
+
+*** Sprint Results
+
+** Qualifying
+
+*** Q1
+- Qualifying takes place immediately after the sprint race, but cars come out of parc ferme conditions and teams are allowed to make changes to their cars for qualifying
+- This will be important for e.g. Red Bull, who underperformed during the sprint race
+- Hamilton is out on medium tires once again, like in Australia
+- Verstappen is also out on medium tires
+- Lots of cars are out on tires that they'd used during sprint qualifying
+
 * Australian Grand Prix (2026-03-08)
 
 ** Track Info

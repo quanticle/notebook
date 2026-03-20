@@ -8,7 +8,6 @@
 - [[https://www.bloomberg.com/][Bloomberg]] (use archive.today)
 - [[https://www.foreignaffairs.com/magazine][Foreign Affairs]] (use archive.today)
 - [[https://thediplomat.com][The Diplomat]]
-- [[https://semafor.com][Semafor]]
 - [[https://asteriskmag.com][Asterisk]]
 - [[https://www.latitudemedia.com/][Latitude Media]]
 

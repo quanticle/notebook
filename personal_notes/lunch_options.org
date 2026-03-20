@@ -5,7 +5,6 @@
 - Jersey Mike's
 - Panera Bread
 - Jimmy John's
-- Breugger's Bagels (open until 2pm)
 - Davanni's
 
 * Mexican
