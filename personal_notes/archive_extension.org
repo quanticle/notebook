@@ -3,6 +3,14 @@
 * Basic Info
 - Repo: https://github.com/quanticle/open-with-archive
 
+* Open current page with archive
+- I need to add a right-click entry that will open the current page with archive
+- =background.js= fails to load for some reason after making changes
+- I need to grant Waterfox access permissions to the extension directory
+- After granting Waterfox access to the extension directory, the extension no longer loads at all from the extension debugger
+- Closing both instances of Waterfox and restarting seems to have fixed the problem
+- Need to make sure that when the page is clicked, we don't try to access a =link= item that may not exist
+
 * Enable Whitelisted domains to automatically open with archive
 - Add list of domains to options page
 - Vertical list of =<input>=, each with a delete button

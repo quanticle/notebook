@@ -125,6 +125,8 @@
     weather.com##div[class^="CurrentConditions--messaging"]
     weather.com##section[data-testid="ContentMediaModule"]
     weather.com##div[data-region="sidebar"]
+    weather.com##div.steller-connect-container
+    weather.com##section[aria-label="Trending Now"]
     !! Block all Disqus
     ###disqus_thread
     interfluidity.com##.commentpane
@@ -142,6 +144,7 @@
     serverfault.com##div#sidebar
     superuser.com##div#sidebar
     reuters.com##div[class*="VideoPlayer"]
+    reuters.com##div[data-variant-id="video-player"]
     thedailywtf.com##.article-footer
     theverge.com##section#comments
     theverge.com##a[href="https://www.theverge.com/pages/how-to-whitelist-the-verge"]

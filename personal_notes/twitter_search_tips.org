@@ -1,7 +1,8 @@
 #+Title: Twitter Search Tips
 
-- To exclude replies: =exclude:replies=
-- To exclude retweet: =exclude:retweets=
+- To search for a 
+- To exclude replies: =-filter:replies=
+- To exclude retweet: =-filter:retweets=
 - Date constraints:
   - =since=
   - =until=

@@ -11,6 +11,7 @@
 - Hammer and Sickle: =☭=
 - Center dot: =•=
 - Pounds symbol: =₤=
+- Euro symbol: =€=
 
 *** Math Symbols
 - Logical negation: =¬=

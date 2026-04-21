@@ -43,6 +43,7 @@
 - [[https://www.youtube.com/@styropyro][Styropyro]]
 - [[https://www.youtube.com/@sciencechannel][The Science Channel]]
 - [[https://www.youtube.com/@tested][Adam Savage's Tested]]
+- [[https://www.youtube.com/@mkbhd][Marques Brownlee]]
 
 * Video Games
 
@@ -87,6 +88,7 @@
 - [[https://www.youtube.com/@Dokibird][Dokibird]]
 - [[https://www.youtube.com/@AmanogawaShiina][Amanogawa Shiina]]
 - [[https://www.youtube.com/@densetsu-exe][Densetsu.exe]]
+- [[https://www.youtube.com/c/LimeArchives][Limealicious VODs]]
 
 * Random Stuff
 
@@ -95,9 +97,10 @@
 - [[https://www.youtube.com/@OfficialWKUK][Whitest Kids You Know]]
 - [[https://www.youtube.com/@programmersarealsohuman5909][Kai Lentit]]
 
-* Music
-
-- [[https://www.youtube.com/watch?v=jfKfPfyJRdk][Lofi Hip Hop radio]]
-- [[https://www.youtube.com/watch?v=HuFYqnbVbzY][Lofi Jazz radio]]
-- [[https://www.youtube.com/watch?v=4xDzrJKXOOY][Synthwave radio]]
-- [[https://www.youtube.com/watch?v=TtkFsfOP9QI][Peaceful piano radio]]
+* LoFi Radio
+- [[https://www.youtube.com/watch?v=jfKfPfyJRdk][LoFi Hip Hop Radio]]
+- [[https://www.youtube.com/watch?v=4xDzrJKXOOY][LoFi Synthwave Radio]]
+- [[https://www.youtube.com/watch?v=HuFYqnbVbzY][LoFi Jazz Radio]]
+- [[https://www.youtube.com/watch?v=E_XmwjgRLz8][LoFi Guitar Radio]]
+- [[https://www.youtube.com/watch?v=jXAEIWcGXwE][LoFi Classical Radio]]
+- [[https://www.youtube.com/watch?v=N0snMcR6aaA][LoFi Piano]]

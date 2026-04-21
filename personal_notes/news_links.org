@@ -37,6 +37,7 @@
 - [[https://www.scotusblog.com/blog/][SCOTUS Blog]]
 - [[https://warontherocks.com/category/commentary/][War on the Rocks]]
 - [[https://tnsr.org/][Texas National Security Review]]
+- [[https://twomarines.substack.com/archive?sort=new][Two Marines]]
 - [[https://mwi.westpoint.edu][Modern War Institute]]
 - [[https://samf.substack.com/archive?sort=new][Comment is Freed]]
 - [[https://oe.tradoc.army.mil/product-archive/?product_filter=oe-watch-journal][US Army Foreign Studies Military Office OE Watch]]

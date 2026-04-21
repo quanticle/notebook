@@ -1227,10 +1227,24 @@ Assuming the list is separated by newlines:
 ** DNS over HTTPS
 - https://dns.google/dns-query
 
+* Quad 9 DNS
+
+** IPv4
+- =9.9.9.10=
+- =149.112.112.10=
+
+** IPv6
+- =2620:fe::10=
+- =2620:fe::fe:10=
+
 * Flush DNS cache
 - =sudo resolvectl flush-caches=
 - Verify that the cache has been flushed with: =sudo resolvectl statistics=
 - Current cache size should be =0=
+
+* Disable DNS cache
+- In =/etc/systemd/resolved.conf= add =Cache​=no=
+- Restart =resolved= with =sudo systemctl restart systemd-resolved=
 
 * Containers
 

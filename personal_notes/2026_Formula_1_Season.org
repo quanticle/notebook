@@ -1,5 +1,6 @@
 #+TITLE: 2026 Formula 1 Season
 #+OPTIONS: toc:2
+#+OPTIONS: h:6
 
 * Chinese Grand Prix
 
@@ -174,6 +175,28 @@
 - /That was a fun sprint, though, with Russell, Hamilton and LeClerc trading blows in the opening laps/
 
 *** Sprint Results
+1. George Russell --- Mercedes
+2. Charles LeClerc --- Ferrari
+3. Lewis Hamilton --- Ferrari
+4. Lando Norris --- McLaren
+5. Kimi Antonelli --- Mercedes
+6. Oscar Piastri --- McLaren
+7. Liam Lawson --- Racing Bulls
+8. Oliver Bearman --- Haas
+9. Max Verstappen --- Red Bull
+10. Esteban Ocon --- Haas
+11. Pierre Gasly --- Alpine
+12. Carlos Sainz --- Williams
+13. Gabriel Bortoleto --- Audi
+14. Franco Colapinto --- Alpine
+15. Isack Hadjar --- Red Bull
+16. Alex Albon --- Williams
+17. Fernando Alonso --- Aston Martin
+18. Lance Stroll --- Aston Martin
+19. Sergio Perez --- Cadillac
+20. Nico Hulkenberg --- Audi (DNF)
+21. Arvid Lindblad --- Racing Bulls (DNF)
+22. Valteri Bottas --- Cadillac (DNF)
 
 ** Qualifying
 
@@ -183,6 +206,212 @@
 - Hamilton is out on medium tires once again, like in Australia
 - Verstappen is also out on medium tires
 - Lots of cars are out on tires that they'd used during sprint qualifying
+- Wind and low track temperatures are reducing grip
+- Franco Colapinto goes into 4th with his first fast lap (/quite a good lap for Alpine/)
+- Hamilton's first lap on the medium tires wasn't very good so he went into the pits and switched to soft tires
+- Arvid Lindlbad is told to bring the car into the pits as he has a mechanical issue
+- Hamilton's second lap is much better, and he goes third
+- Russell and Antonelli are 1-2 as usual
+- LeClerc goes into the lead with his first fast lap
+- Lindblad manages to get back out onto the track
+- Franco Colapinto and Arvid Lindlbad had some very good final laps to ensure their advancement into Q2
+- /Williams' machinery continues to disappoint their drivers/
+- Eliminated in Q1
+  - Carlos Sainz --- Williams
+  - Alex Albon --- Williams
+  - Fernando Alonso --- Aston Martin
+  - Valteri Bottas --- Cadillac
+  - Lance Stroll --- Aston Martin
+  - Sergio Perez --- Cadillac
+
+*** Q2
+- The Mercedes are fast as usual, with Russell and Antonelli going 1-2 initially
+- However, Ferrari split the Mercedes, with Hamilton going 2nd and LeClerc 3rd
+- Verstappen can only manage 5th on his first attempt
+- Gasly gets into the top 10 with his first Q2 attempt, managing 8th
+- Piastri is in 10th, but he hasn't run on new tires
+- Piastri's second attempt, on new tires, is good enough for 5th, pushing Verstappen into 6th
+- LeClerc improves on his second attempt, going into the lead
+- Norris beats Piastri on his second lap, going into 5th
+- Bortoleto spins out on the final corner in his second lap, causing a yellow flag
+- Verstappen improves a bit on his second attempt and regains 6th after Norris and Piastri's times had pushed him down into 7th
+- /This will be really bad news for a lot of drivers who were waiting until the end of Q2 to improve, as there isn't enough time for his car to be cleared before Q2 ends/
+- Bortoleto manages to get his car going and returns to the pits
+- Eliminated in Q2
+  - Nico Hulkenberg --- Audi
+  - Franco Colapinto --- Alpine
+  - Esteban Ocon --- Haas
+  - Liam Lawson --- Racing Bulls
+  - Arvid Lindblad --- Racing Bulls
+  - Gabriel Bortoleto --- Audi
+
+*** Q3
+- Mercedes, Ferrari and McLaren all have 2 new sets of soft tires
+- Red Bull, on the other hand, only have 1 new set
+- George Russell has stopped on track, saying something's not right with his car
+- He does manage to get the car restarted, but has to return to the pits in order to get the car looked at
+- /This is an opportunity for Kimi Antonelli to become the youngest driver to take a pole position/
+- /Both Ferrari drivers are having to fight oversteer on their cars/
+- Norris goes second with his first flying lap, but is immediately pipped by his teammate, Piastri
+- Mercedes to manage to effect repairs to Russell's car, but it's coming out late enough in the session that his preparation lap may be compromised by him having to cross the start-finish line for his fast lap before the timer expires
+- Russell does set a fast time, but does not get pole position, making Kimi Antonelli the youngest polesitter in Formula 1 history
+- /Hamilton outqualifies LeClerc/
+- Final top 10 qualifying order
+  1. Kimi Antonelli --- Mercedes
+  2. George Russell --- Mercedes
+  3. Lewis Hamilton --- Ferrari
+  4. Charles LeClerc --- Ferrari
+  5. Oscar Piastri --- McLaren
+  6. Lando Norris --- McLaren
+  7. Pierre Gasly --- Alpine
+  8. Max Verstappen --- Red Bull
+  9. Isack Hadjar --- Red Bull
+  10. Oliver Bearman --- Haas
+
+** Race
+
+*** Starting Grid
+1. Kimi Antonelli --- Mercedes
+2. George Russell --- Mercedes
+3. Lewis Hamilton --- Ferrari
+4. Charles LeClerc --- Ferrari
+5. Oscar Piastri --- McLaren (pit lane start)
+6. Lando Norris --- McLaren (pit lane start)
+7. Pierre Gasly --- Alpine
+8. Max Verstappen --- Red Bull
+9. Isack Hadjar --- Red Bull
+10. Oliver Bearman --- Haas
+11. Nico Hulkenberg --- Audi
+12. Franco Colapinto --- Alpine
+13. Esteban Ocon --- Haas
+14. Liam Lawson --- Racing Bulls
+15. Arvid Lindblad --- Racing Bulls
+16. Gabriel Bortoleto --- Audi (pit lane start due to hydraulic issue)
+17. Carlos Sainz --- Williams
+18. Fernando Alonso --- Aston Martin
+19. Valteri Bottas --- Cadillac
+20. Lance Stroll --- Aston Martin
+21. Sergio Perez --- Cadillac
+22. Alex Albon --- Williams (pit lane start for suspension changes)
+
+
+- 56 laps
+- Lando Norris and Oscar Piastri were pushed back into the pits with mechanical issues just before the race started, and neither started the race
+- Most cars are starting on medium tires, but the Red Bulls are starting on soft tires to try to get an advantage early
+- Drivers and teams are still figuring out how to optimize the balance between the internal combustion side and the electric side of the hybrid engines
+- Alex Albon does not start the race
+- Lap 1
+  - Both Ferraris pass both Mercedes for the lead from the start, with Lewis Hamilton going into the lead
+  - Antonelli fights back against LeClerc and retakes second
+  - Isack Hadjar spins as he defends 9th against Oliver Bearman, Bearman goes off the track to evade, but manages to get 9th
+  - Liam Lawson is up to 7th
+  - Verstappen has dropped to 13th (/another poor start for the Red Bull/)
+  - Hadjar goes into the pits as his spin has badly damaged his tires
+- Lap 2 --- Antonelli retakes the lead from Hamilton
+- Lap 3
+  - Russell passes LeClerc for 3rd
+  - Verstappen has moved back up to 10th
+- Lap 4 --- Russell passes Hamilton for 2nd
+- /The Mercedes are showing their long-term power advantage over the Ferraris/
+- Lap 5 --- Verstappen attempts to pass Lindblad for 9th, but has some oversteer and goes wide
+- Lap 8
+  - Verstappen's front-left tire is showing signs of serious deterioration
+  - Lewis Hamilton reports issues with energy deployment as LeClerc begins to close in on him
+- Lap 9 --- Lawson and Lindblad battle for 8th
+- Lap 10
+  - Verstappen, Hadjar and Lawson all pit
+  - Lance Stroll goes off the track and stops
+  - Full safety car is deployed
+  - /This is awful timing for Red Bull & Liam Lawson, as they did their pit stops just before the safety car was deployed and their competitors will be making comparatively much shorter pit stops/
+- Lap 11
+  - Russell, Antonelli both pit as well as the both Ferraris
+  - Gasly pits as well
+  - All go onto hard tires from the medium tires they started the race with
+  - Colapinto and Ocon stay out and jump into 2nd and 3rd respectively
+- Lap 13
+  - Russell reports that a 1-stop strategy will be difficult
+  - Safety car ends
+- Lap 14
+  - Racing resumes
+  - Hamilton pushes past Russell for 4th
+  - Hamilton passes Ocon for 3rd
+  - LeClerc passes Lindblad for 6th and is on the tail of Russell
+- Lap 15
+  - LeClerc passes Russell for 5th and Ocon for 4th
+  - Hamilton is on the tail of Antonelli
+- Lap 16
+  - LeClerc passes Colapinto for 3rd
+  - Russell passes Ocon for 5th
+  - Russell passes Colapinto for 4th
+- Lap 18
+  - Yellow flag --- not clear why --- possible debris on track
+  - Flags are cleared before the end of the lap
+  - Verstappen passes Lindblad for 9th
+- Lap 19
+  - Big fight for 5th & 6th as Gasly, Bearman and Verstappen, who've all made their pit stops challenge Colapinto and Ocon, who haven't
+  - Russell is closing in on LeClerc, in 3rd
+- Lap 20 --- Verstappen passes Gasly for 8th
+- Lap 22
+  - Verstappen passes Ocon for 7th
+  - Bearman passes Colapinto for 5th
+  - Gasly has dropped back, and is running in 10th
+- Lap 23 --- /The Mercedes and Ferraris have pulled away from the rest of the pack, with Russell, in 4th, having a 17 second gap over the rest of the field/
+- Lap 24 --- LeClerc makes a bold pass on Hamilton and moves up into 2nd
+- Lap 25
+  - Russell is now on the back of Hamilton after the Ferraris' scrap last lap
+  - /Both Ferraris look a little squirrelly through the curves/
+- Lap 26-27 --- Really intense battle between LeClerc and Hamilton, with LeClerc passing Hamilton, Hamilton re-passing LeClerc, and LeClerc eventually retaking 2nd
+- Lap 27
+  - Russell passes Hamilton for 3rd
+  - /Hamilton's pace was compromised by his battle with LeClerc, leaving the door open for Russell/
+- Lap 28
+  - Arvid Lindblad spins out
+  - Russell begins challenging LeClerc for 2nd
+- Lap 29
+  - Ocon fights Colapinto for 8th
+  - Russell passes LeClerc for 2nd
+- Lap 30 --- Ocon finally pits
+- Lap 31 --- Antonelli has built up an 8 second gap over 2nd place, which is serving him well as Russell is not able to close the distance
+- Lap 33
+  - Colapinto also pits, and as he rejoins the track he has contact with Ocon, who spins
+  - /This looks like it was Ocon's fault --- Colapinto was too far ahead for him to make the pass, but he dove for the apex anyway/
+- Lap 35 --- Alonso brings his car in and retires
+- Lap 36
+  - LeClerc has a big lock-up and Hamilton passes him
+  - LeClerc immediately fights back, however
+- Lap 37 --- Ocon gets a 10 second time penalty for causing a collision
+- Lap 39
+  - Hamilton and LeClerc resume their battle for 3rd
+  - /The intra-Ferrari battle has been the most entertaining aspect of this race so far/
+- Lap 46 --- Verstappen limps back to the pits and retires
+- Lap 53 --- Antonelli has a lock-up and goes off track a bit but manages to retain the lead
+- Lap 56 --- Antonelli wins, Russell 2nd, Hamilton 3rd
+- /Happy to see Antonelli win/
+- /Bearman is in 5th --- really impressive drive from him as well/
+
+** Results
+1. Kimi Antonelli --- Mercedes
+2. George Russell --- Mercedes
+3. Lewis Hamilton --- Ferrari
+4. Charles LeClerc --- Ferrari
+5. Oliver Bearman --- Haas
+6. Pierre Gasly --- Alpine
+7. Liam Lawson --- Racing Bulls
+8. Isack Hadjar --- Red Bull
+9. Carlos Sainz --- Williams
+10. Franco Colapinto --- Alpine
+11. Nico Hulkenberg --- Audi
+12. Arvid Lindblad --- Racing Bulls
+13. Valteri Bottas --- Cadillac
+14. Esteban Ocon --- Haas
+15. Sergio Perez --- Cadillac
+16. Max Verstappen --- Red Bull (DNF)
+17. Fernando Alonso --- Aston Martin (DNF)
+18. Lance Stroll --- Aston Martin (DNF)
+19. Oscar Piastri --- McLaren (DNS)
+20. Lando Norris --- McLaren (DNS)
+21. Gabriel Bortoleto --- Audi (DNS)
+22. Alex Albon --- Williams (DNS)
 
 * Australian Grand Prix (2026-03-08)
 

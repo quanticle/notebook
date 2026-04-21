@@ -3,7 +3,6 @@
 * Sandwiches
 - Potbelly
 - Jersey Mike's
-- Panera Bread
 - Jimmy John's
 - Davanni's
 
@@ -26,7 +25,6 @@
 - Panda Express
 - HyVee Chinese
 - Takara Sushi (lunch special between 11am and 1pm)
-- Kyuramen (lunch special between 11 am and 3 pm)
 
 * Pizza
 - El Mar's NY Pizza (lunch special between 11 am and 1 pm --- arrive early for best selection)

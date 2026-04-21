@@ -1,11 +1,20 @@
-#+TITLE: WiFi Apps
+#+TITLE: Phone Notes
 
+* Wifi Configuration
 - Wifi
 - WiFi automatic connections
 - Notify for public networks
 - W+ Connections
 - Wifi Calling
+- Adaptive connectivity
 - Google Photos
 - WhatsApp backup
 - Google Backup
 - Google Play app downloads and updates
+
+* Reduce phone distractions
+- Disable
+  - Chrome
+  - YouTube
+  - YouTube Music
+  - Google Weather

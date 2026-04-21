@@ -8,3 +8,6 @@
 - Click on the image where you want to start the line
 - Hold =Shift= and =Ctrl=
 - Click on the image where you want to end the line
+
+** Aligning two images
+- Enable =View → Snap To Canvas Edges=
